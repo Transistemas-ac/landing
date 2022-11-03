@@ -23,6 +23,11 @@
       "react-app/jest"
     ]
   },
+  "rnpm":{
+    "assets": [
+      "./src/assets/fonts"
+    ]
+  },
   "browserslist": {
     "production": [
       ">0.2%",
