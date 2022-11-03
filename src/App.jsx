@@ -22,7 +22,7 @@ function App() {
 				link="Saber mas"
 			/>
 
-<Card
+			<Card
 				img={cardImageAcompañamiento}
 				title="Acompañamiento"
 				description="Colaboramos con personas de la comunidad a sortear situaciones complejas."
