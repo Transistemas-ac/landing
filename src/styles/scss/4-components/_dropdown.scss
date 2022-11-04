@@ -1,0 +1,27 @@
+.dropdown{
+    width: 300px;
+    
+    border-bottom: 2px solid white;
+
+    
+    &__title{
+        font-weight: bolder;
+        padding-bottom: 12px;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    &__info{
+        transition-property: max-height, margin;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+        max-height: 0px;
+        overflow: hidden;
+
+        &.active{
+            margin-bottom: 20px;
+        }
+    }
+}

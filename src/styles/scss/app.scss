@@ -10,9 +10,30 @@
 @import './2-basic/fonts.scss';
 @import './2-basic/body';
 
-// Modules
+// Layout
 @import './3-layout/header';
+
+// Components
 @import './4-components/card';
+@import './4-components/dropdown';
 
 // Views
 @import './5-views/home';
+
+
+
+// Dropdown incorporation
+
+body{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+

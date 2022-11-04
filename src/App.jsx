@@ -1,14 +1,25 @@
-import Card from './components/Card';
+import Dropdown from './components/Dropdown';
+
 
 function App() {
 	return (
 		<div className="App">
-			<h1>Hello World</h1>
-			<Card 
-				title="Cursos y talleres"
-				description="loremLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsumLorem ipsum"
-				link="Saber mas"
-			/>
+
+			<div className="questions">
+				<h1 className='questions__title'>Preguntas frecuentes</h1>
+				<Dropdown title="¿Cuanto cuestan los cursos?">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui reprehenderit illo exercitationem ut tenetur repudiandae et velit quis deserunt aut, numquam aliquid
+				</Dropdown>
+
+				<Dropdown title="¿Quienes pueden anotarse en los cursos?">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui reprehenderit illo exercitationem ut tenetur repudiandae et velit quis deserunt aut, numquam aliquid
+				</Dropdown>
+
+				{/* Ejemplo pasando un elemento HTML */}
+				<Dropdown title={<span style={{color: 'yellow'}}>¿Si termino el curso recibo un certificado?</span>}>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui reprehenderit illo exercitationem ut tenetur repudiandae et velit quis deserunt aut, numquam aliquid
+				</Dropdown>
+			</div>
 		</div>
 	);
 }
