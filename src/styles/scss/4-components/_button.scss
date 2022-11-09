@@ -1,0 +1,16 @@
+.button{
+    width: 350px;
+    padding: 16px 0px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 1000px;
+    background-color: $yellow;
+
+    &.button--error{
+        background-color: $red;
+    }
+}

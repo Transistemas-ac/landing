@@ -14,6 +14,7 @@
 @import './3-layout/header';
 
 // Components
+@import './4-components/button';
 @import './4-components/card';
 @import './4-components/dropdown';
 
@@ -39,22 +40,7 @@ body{
 
 
 
-.button{
-    width: 350px;
-    padding: 16px 0px;
 
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-
-    border-radius: 1000px;
-    background-color: $yellow;
-
-    &.button--error{
-        background-color: $red;
-    }
-}
 
 
 

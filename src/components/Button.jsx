@@ -1,7 +1,7 @@
 
 function Button(props) {
     return (
-        <div className="button button--error">
+        <div className="button">
             {props.children}
         </div>
     );

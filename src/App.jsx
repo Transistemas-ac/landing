@@ -23,7 +23,7 @@ function App() {
 			</div>
 
 
-			<Button>Error!</Button>
+			<Button>Boton</Button>
 		</div>
 	);
 }
