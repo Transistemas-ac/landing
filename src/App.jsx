@@ -1,4 +1,5 @@
 import Dropdown from './components/Dropdown';
+import Button from './components/Button';
 
 
 function App() {
@@ -12,7 +13,7 @@ function App() {
 				</Dropdown>
 
 				<Dropdown title="¿Quienes pueden anotarse en los cursos?">
-					Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui reprehenderit illo exercitationem ut tenetur repudiandae et velit quis deserunt aut, numquam aliquid
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui reprehenderit illo exercitationem ut tenetur repudiandae et velit quis deserunt aut, numquam aliquid Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad illum voluptas impedit? Sed rerum itaque asperiores labore aliquid. Repellendus saepe quae, sunt alias eveniet totam optio id nemo quia corporis.
 				</Dropdown>
 
 				{/* Ejemplo pasando un elemento HTML */}
@@ -20,6 +21,9 @@ function App() {
 					Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui reprehenderit illo exercitationem ut tenetur repudiandae et velit quis deserunt aut, numquam aliquid
 				</Dropdown>
 			</div>
+
+
+			<Button>Error!</Button>
 		</div>
 	);
 }

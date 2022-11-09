@@ -12,8 +12,8 @@
     gap: 20px;
     padding: 40px 20px;
 
-    background-color: $card-bg;
-    color: $text;
+    background-color: $grey-darker;
+    color: $white;
     border-radius: 16px;
     text-align: center;
 
@@ -33,7 +33,7 @@
     }
 
     &__link{
-        color: $accent;
+        color: $yellow;
         text-decoration: none;
         font-weight: 500;
     }

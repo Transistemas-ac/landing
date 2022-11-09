@@ -1,0 +1,29 @@
+@font-face {
+	font-family: "Work Sans";
+	font-weight: normal;
+	src: url("../../fonts/WorkSans/WorkSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+	font-family: "Work Sans";
+	font-weight: bold;
+	src: url("../../fonts/WorkSans/WorkSans-Bold.ttf") format("truetype");
+}
+
+body{
+    font-family: "Work Sans";
+	font-weight: bold;
+	color: $white;
+}
+
+// @font-face {
+// 	font-family: Roboto;
+// 	font-weight: bold;
+// 	src: url("./fonts/Roboto/Roboto-Bold.ttf") format("truetype");
+// }
+
+// @font-face {
+// 	font-family: Roboto;
+// 	font-stretch: condensed;
+// 	src: url("./fonts/Roboto-Condensed/RobotoCondensed-Regular.ttf") format("truetype");
+// }
