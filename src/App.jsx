@@ -2,6 +2,7 @@ import Card from './components/Card';
 import cardImageCarousel from './media/svg/carousel-image-0.svg';
 import cardImageCapacitaciones from './media/svg/capacitacionesImg.svg'
 import cardImageAcompañamiento from './media/svg/acompañamientoImage.svg'
+import Button from './components/Button';
 
 function App() {
 	return (
@@ -28,6 +29,8 @@ function App() {
 				description="Colaboramos con personas de la comunidad a sortear situaciones complejas."
 				link="Saber mas"
 			/>
+
+			<Button></Button>
 
 		</div>
 	);
