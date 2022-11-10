@@ -2,15 +2,16 @@
 .card{
     height: 100%;
     width: 300px;
+    padding: 40px 20px;
     margin: 0 auto;
 
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    gap: 22px;
 
-    gap: 20px;
-    padding: 40px 20px;
+
 
     background-color: $grey-darker;
     color: $white;
@@ -25,17 +26,17 @@
     }
     
     &__title{
-        font-weight: 600;
+
     }
 
     &__description{
-        font-weight: 300;
+
     }
 
     &__link{
         color: $yellow;
         text-decoration: none;
-        font-weight: 500;
+        font-weight: 600;
     }
 
 }

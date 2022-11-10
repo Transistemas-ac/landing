@@ -1,5 +1,6 @@
 // Tools
 @import './0-tools/reset.scss';
+@import './0-tools/swiper';
 
 // Helpers
 @import './1-helpers/variables.scss';
@@ -11,7 +12,7 @@
 @import './2-basic/body';
 
 // Layout
-@import './3-layout/header';
+@import './3-layout/topbar';
 
 // Components
 @import './4-components/button';
@@ -20,27 +21,3 @@
 
 // Views
 @import './5-views/home';
-
-
-
-// Dropdown incorporation
-
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.questions{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-}
-
-
-
-
-
-
-
-
