@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Card from './components/Card';
 import cardImageCarousel from './media/svg/carousel-image-0.svg';
 import cardImageCapacitaciones from './media/svg/capacitacionesImg.svg'
@@ -32,6 +33,16 @@ function App() {
 
 			<Button></Button>
 
+=======
+import Home from './views/Home';
+import Topbar from './components/Topbar';
+
+function App() {
+	return (
+		<div className="app">
+			<Topbar />
+			<Home />
+>>>>>>> MartinBBranch
 		</div>
 	);
 }

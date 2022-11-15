@@ -1,5 +1,6 @@
 // Tools
 @import './0-tools/reset.scss';
+@import './0-tools/swiper';
 
 // Helpers
 @import './1-helpers/variables.scss';
@@ -10,10 +11,18 @@
 @import './2-basic/fonts.scss';
 @import './2-basic/body';
 
-// Modules
-@import './3-layout/header';
+// Layout
+@import './3-layout/topbar';
+
+// Components
+@import './4-components/button';
 @import './4-components/card';
+@import './4-components/dropdown';
 
 // Views
+<<<<<<< HEAD
 @import './5-views/home';
 
+=======
+@import './5-views/home';
+>>>>>>> MartinBBranch

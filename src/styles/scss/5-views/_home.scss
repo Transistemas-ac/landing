@@ -1,0 +1,32 @@
+.home {
+    padding: 0px 16px;
+
+    @include flexCenter(column);
+    text-align: center;
+
+    .hero-section {
+        margin-bottom: 90px;
+
+        &__img {
+            width: 100%;
+            max-width: 500px;
+        }
+
+        &__description {
+            width: 100%;
+            max-width: 500px;
+            margin-top: 25px;
+            margin-bottom: 60px;
+        }
+    }
+
+    .cards-section{
+        width: 100vw;
+        overflow: hidden;
+        margin-bottom: 90px;
+
+        &__title{
+            margin-bottom: 24px;
+        }
+    }
+}
