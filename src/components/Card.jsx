@@ -1,10 +1,10 @@
 //import cardImage from '../media/svg/carousel-image-0.svg'; // gives image path
-
 //<img className="card__image" src={cardImage} />
+
 function Card(props) {
     return (
         <div className="card">
-            <img className="card__image" src={props.img} />
+            <img className="card__image" src={props.img} alt={props.alt}/>
 
             <h2 className="card__title">{props.title}</h2>
 

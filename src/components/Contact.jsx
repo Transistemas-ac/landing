@@ -2,15 +2,15 @@
 
 //<img className="card__image" src={cardImage} />
 
-function Button(props) {
+function Contact(props) {
     return (
-        <div className="button">
-            <p className="button_text">{props.children}</p>
+        <div className="contact">
+            <p className="contact_title">{props.title}</p>
         </div>
     );
 }
 
-export default Button;
+export default Contact;
 
 
 

@@ -29,4 +29,17 @@
             margin-bottom: 24px;
         }
     }
+
+    .contact-section{
+        width: 100%;
+        max-width: 328px;
+        overflow: hidden;
+        margin-bottom: 90px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        text-align: left;
+
+
+    }
 }
