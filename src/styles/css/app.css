@@ -55,11 +55,7 @@ table {
 *, *::after, *::before {
   margin: 0px;
   padding: 0px;
-<<<<<<< HEAD
   box-sizing: border-box;
-=======
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
 }
 
 /**
@@ -95,10 +91,7 @@ table {
 }
 
 .swiper-vertical > .swiper-wrapper {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
 
 .swiper-wrapper {
@@ -106,42 +99,29 @@ table {
   width: 100%;
   height: 100%;
   z-index: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
-  -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
 }
 
 .swiper-android .swiper-slide,
 .swiper-wrapper {
-  -webkit-transform: translate3d(0px, 0, 0);
-          transform: translate3d(0px, 0, 0);
+  transform: translate3d(0px, 0, 0);
 }
 
 .swiper-pointer-events {
-  -ms-touch-action: pan-y;
-      touch-action: pan-y;
+  touch-action: pan-y;
 }
 .swiper-pointer-events.swiper-vertical {
-  -ms-touch-action: pan-x;
-      touch-action: pan-x;
+  touch-action: pan-x;
 }
 
 .swiper-slide {
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
+  flex-shrink: 0;
   width: 100%;
   height: 100%;
   position: relative;
-  -webkit-transition-property: -webkit-transform;
-  transition-property: -webkit-transform;
   transition-property: transform;
-  transition-property: transform, -webkit-transform;
 }
 
 .swiper-slide-invisible-blank {
@@ -154,26 +134,19 @@ table {
   height: auto;
 }
 .swiper-autoheight .swiper-wrapper {
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-transition-property: height, -webkit-transform;
-  transition-property: height, -webkit-transform;
+  align-items: flex-start;
   transition-property: transform, height;
-  transition-property: transform, height, -webkit-transform;
 }
 
 .swiper-backface-hidden .swiper-slide {
-  -webkit-transform: translateZ(0);
-          transform: translateZ(0);
+  transform: translateZ(0);
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
 }
 
 /* 3D Effects */
 .swiper-3d, .swiper-3d.swiper-css-mode .swiper-wrapper {
-  -webkit-perspective: 1200px;
-          perspective: 1200px;
+  perspective: 1200px;
 }
 .swiper-3d .swiper-wrapper,
 .swiper-3d .swiper-slide,
@@ -183,8 +156,7 @@ table {
 .swiper-3d .swiper-slide-shadow-top,
 .swiper-3d .swiper-slide-shadow-bottom,
 .swiper-3d .swiper-cube-shadow {
-  -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 .swiper-3d .swiper-slide-shadow,
 .swiper-3d .swiper-slide-shadow-left,
@@ -203,19 +175,15 @@ table {
   background: rgba(0, 0, 0, 0.15);
 }
 .swiper-3d .swiper-slide-shadow-left {
-  background-image: -webkit-gradient(linear, right top, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));
   background-image: linear-gradient(to left, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 }
 .swiper-3d .swiper-slide-shadow-right {
-  background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 }
 .swiper-3d .swiper-slide-shadow-top {
-  background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));
   background-image: linear-gradient(to top, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 }
 .swiper-3d .swiper-slide-shadow-bottom {
-  background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0)));
   background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0));
 }
 
@@ -244,11 +212,8 @@ table {
 
 .swiper-centered > .swiper-wrapper::before {
   content: "";
-  -ms-flex-negative: 0;
-      flex-shrink: 0;
-  -webkit-box-ordinal-group: 10000;
-      -ms-flex-order: 9999;
-          order: 9999;
+  flex-shrink: 0;
+  order: 9999;
 }
 .swiper-centered.swiper-horizontal > .swiper-wrapper > .swiper-slide:first-child {
   -webkit-margin-start: var(--swiper-centered-offset-before);
@@ -349,13 +314,10 @@ h2 {
 
 strong {
   font-weight: 600;
->>>>>>> MartinBBranch
 }
 
 body {
   background-color: #1A1A1A;
-<<<<<<< HEAD
-=======
   padding-top: 115px;
 }
 
@@ -364,16 +326,9 @@ body {
   top: 0px;
   width: 100%;
   height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  flex-direction: column;
   pointer-events: none;
 }
 .topbar-container .progress-bar-container {
@@ -381,8 +336,7 @@ body {
   background-color: #1A1A1A;
 }
 .topbar-container .progress-bar-container .progress-bar {
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+  align-self: flex-start;
   width: 1%;
   height: 10px;
   background-color: #FF99CC;
@@ -390,15 +344,9 @@ body {
 .topbar-container .topbar {
   width: 100%;
   padding: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   background-color: #3E3E3E;
 }
 .topbar-container .topbar__logo {
@@ -407,19 +355,10 @@ body {
 .topbar-container .topbar__menu-button {
   height: 20px;
   padding: 0px 2px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   pointer-events: auto;
 }
 .topbar-container .topbar__menu-button:hover {
@@ -430,7 +369,6 @@ body {
   width: 20px;
   height: 2px;
   background-color: #FFFFFF;
-  -webkit-transition: all 0.2s;
   transition: all 0.2s;
 }
 .topbar-container .topbar__menu-button .topbar__menu-icon::after, .topbar-container .topbar__menu-button .topbar__menu-icon::before {
@@ -439,67 +377,41 @@ body {
   width: 20px;
   height: 2px;
   background-color: #FFFFFF;
-  -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
 .topbar-container .topbar__menu-button .topbar__menu-icon::after {
-  -webkit-transform: translateY(-6px);
-          transform: translateY(-6px);
+  transform: translateY(-6px);
 }
 .topbar-container .topbar__menu-button .topbar__menu-icon::before {
-  -webkit-transform: translateY(6px);
-          transform: translateY(6px);
+  transform: translateY(6px);
 }
 .topbar-container .topbar__menu-button .topbar__menu-icon.menu-open {
   background-color: transparent;
 }
 .topbar-container .topbar__menu-button .topbar__menu-icon.menu-open::after {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .topbar-container .topbar__menu-button .topbar__menu-icon.menu-open::before {
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 .topbar-container .menu {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
   font-size: 20px;
   background-color: #1A1A1A;
-  -webkit-transition: 0.3s opacity;
   transition: 0.3s opacity;
   opacity: 0;
 }
 .topbar-container .menu__links-container {
   width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   list-style: none;
   font-weight: 600;
   gap: 45px;
@@ -519,12 +431,10 @@ body {
   background-color: transparent;
 }
 .topbar-container.menu-open .topbar__menu-icon::after {
-  -webkit-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 .topbar-container.menu-open .topbar__menu-icon::before {
-  -webkit-transform: rotate(-45deg);
-          transform: rotate(-45deg);
+  transform: rotate(-45deg);
 }
 .topbar-container.menu-open .menu {
   opacity: 1;
@@ -538,19 +448,10 @@ body.menu-open {
 .button {
   width: 100%;
   padding: 16px 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
   font-weight: 600;
   border-radius: 1000px;
   background-color: #FFCC00;
@@ -558,63 +459,27 @@ body.menu-open {
 }
 .button.button--error {
   background-color: #E35454;
->>>>>>> MartinBBranch
 }
 
 .card {
   height: 100%;
   width: 300px;
-<<<<<<< HEAD
+  padding: 40px 20px;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
-  gap: 20px;
-  padding: 40px 20px;
-=======
-  padding: 40px 20px;
-  margin: 0 auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   gap: 22px;
->>>>>>> MartinBBranch
   background-color: #2D2D2D;
   color: #FFFFFF;
   border-radius: 16px;
   text-align: center;
-<<<<<<< HEAD
   font-family: "WorkSans-Regular.tff";
-=======
->>>>>>> MartinBBranch
 }
 .card__image {
   height: 175px;
 }
-<<<<<<< HEAD
-.card__title {
-  font-weight: 600;
-}
-.card__description {
-  font-weight: 300;
-}
-.card__link {
-  color: #FFCC00;
-  text-decoration: none;
-  font-weight: 500;
-}/*# sourceMappingURL=app.css.map */
-=======
 .card__link {
   color: #FFCC00;
   text-decoration: none;
@@ -633,12 +498,9 @@ body.menu-open {
   cursor: pointer;
 }
 .dropdown__info {
-  -webkit-transition-property: max-height, margin;
   transition-property: max-height, margin;
-  -webkit-transition-duration: 0.3s;
-          transition-duration: 0.3s;
-  -webkit-transition-timing-function: ease-in-out;
-          transition-timing-function: ease-in-out;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
   max-height: 0px;
   overflow: hidden;
 }
@@ -648,19 +510,10 @@ body.menu-open {
 
 .home {
   padding: 0px 16px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 .home .hero-section {
@@ -683,5 +536,4 @@ body.menu-open {
 }
 .home .cards-section__title {
   margin-bottom: 24px;
-}
->>>>>>> MartinBBranch
+}/*# sourceMappingURL=app.css.map */
