@@ -348,7 +348,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background-color: #3E3E3E;
+  background-color: #1A1A1A;
 }
 .topbar-container .topbar__logo {
   width: 160px;
@@ -552,6 +552,7 @@ body.menu-open {
 }
 .home .hero-section {
   margin-bottom: 90px;
+  max-width: 328px;
 }
 .home .hero-section__img {
   width: 100%;
@@ -570,6 +571,22 @@ body.menu-open {
 }
 .home .cards-section__title {
   margin-bottom: 24px;
+}
+.home .volunteer-section {
+  width: 100vw;
+  overflow: hidden;
+  margin-bottom: 90px;
+  max-width: 328px;
+}
+.home .volunteer-section__title {
+  margin-bottom: 24px;
+}
+.home .volunteer-section__description {
+  margin: 24px;
+}
+.home .volunteer-section__description-strong {
+  margin: 30px;
+  color: #FFCC00;
 }
 .home .contact-section {
   width: 100%;

@@ -1,6 +1,8 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 
 import imgTansistemas from '../media/svg/img_transistemas.svg';
+import imgVoluntarie from '../media/svg/img_voluntarie.svg';
+
 import cardTalleres from '../media/svg/card_talleres.svg';
 import cardCapacitaciones from '../media/svg/card_capacitaciones.svg';
 import cardAcompaniamiento from '../media/svg/card_acompaniamiento.svg';
@@ -70,6 +72,28 @@ function Home() {
                         />
                     </SwiperSlide>
                 </Swiper>
+            </div>
+
+            <div className="volunteer-section">
+                <h1 className="cards-section__title">¿Querés ser voluntarie?</h1>
+                
+                <img className="volunteer-section__img" src={imgVoluntarie} alt="imagen de voluntaries" />
+
+                <p className="volunteer-section__description">
+                    Podés colaborar desde cualquier lugar del mundo, nos reunimos de forma remota.
+                </p>
+                   
+                <p className="volunteer-section__description">
+                    Equipos de Diseño, Desarrollo Web, Comunicación, Social o Educación.
+                </p>
+
+                <p className="volunteer-section__description-strong">
+                    <strong>¡Queremos escuchar tus propuestas!</strong>
+                </p>
+
+                <Button>Sumate</Button>
+                
+
             </div>
 
             <div className="contact-section">

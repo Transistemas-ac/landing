@@ -6,6 +6,7 @@
 
     .hero-section {
         margin-bottom: 90px;
+        max-width: 328px;
 
         &__img {
             width: 100%;
@@ -27,6 +28,25 @@
 
         &__title{
             margin-bottom: 24px;
+        }
+    }
+
+    .volunteer-section{
+        width: 100vw;
+        overflow: hidden;
+        margin-bottom: 90px;
+        max-width: 328px;
+
+        &__title{
+            margin-bottom: 24px;
+        }
+
+        &__description{
+            margin: 24px;
+        }
+        &__description-strong{
+            margin: 30px;
+            color: $yellow;
         }
     }
 
