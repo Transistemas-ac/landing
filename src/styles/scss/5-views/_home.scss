@@ -62,4 +62,28 @@
 
 
     }
+
+    .networks-section{
+        width: 100%;
+        max-width: 328px;
+        overflow: hidden;
+        margin-bottom: 90px;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+
+
+        &__title{
+            margin-bottom: 24px;
+        }
+
+        &__img{
+            margin: 24px;
+        }
+
+
+
+
+    }
 }

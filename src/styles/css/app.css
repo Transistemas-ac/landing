@@ -597,4 +597,20 @@ body.menu-open {
   flex-direction: column;
   gap: 16px;
   text-align: left;
+}
+.home .networks-section {
+  width: 100%;
+  max-width: 328px;
+  overflow: hidden;
+  margin-bottom: 90px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  text-align: center;
+}
+.home .networks-section__title {
+  margin-bottom: 24px;
+}
+.home .networks-section__img {
+  margin: 24px;
 }/*# sourceMappingURL=app.css.map */
