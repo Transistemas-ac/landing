@@ -5,9 +5,7 @@
     height: 100vh;
     z-index: 5;
 
-    display: flex;
-    align-items: center;
-    flex-direction: column;
+    @include flexCenter(column);
 
     pointer-events: none;
 
@@ -16,7 +14,6 @@
         background-color: $black;
 
         .progress-bar {
-            align-self: flex-start;
             width: 1%;
             height: 10px;
             background-color: $pink;
@@ -33,7 +30,6 @@
         align-items: center;
         justify-content: space-between;
 
-        //background-color: $grey-light;
         background-color: $black;
 
         &__logo {
@@ -67,25 +63,11 @@
                     background-color: $white;
                     transition: all 0.3s;
                 }
-
                 &::after {
                     transform: translateY(-6px);
                 }
-
                 &::before {
                     transform: translateY(6px);
-                }
-
-                &.menu-open {
-                    background-color: transparent;
-
-                    &::after {
-                        transform: rotate(45deg);
-                    }
-
-                    &::before {
-                        transform: rotate(-45deg);
-                    }
                 }
             }
         }
@@ -97,41 +79,28 @@
         @include flexCenter(column);
         flex-grow: 1;
         
-        font-size: $medium;
-        background-color: $black;
         transition: 0.3s opacity;
         opacity: 0;
 
+        font-size: $medium;
+        background-color: $black;
+        font-weight: 600;
+
         &__links-container {
             width: 100%;
-
             @include flexCenter(column);
-
-            list-style: none;
-            font-weight: 600;
-
             gap: 45px;
-
-            // .menu__link {
-
-            // }
 
             .button {
                 width: 90%;
                 max-width: 328px;
             }
         }
-
-        &.menu-open {
-            opacity: 1;
-            z-index: 20;
-        }
     }
 
     &.menu-open {
-
         z-index: 20;
-
+        
         .topbar__menu-icon {
             background-color: transparent;
 

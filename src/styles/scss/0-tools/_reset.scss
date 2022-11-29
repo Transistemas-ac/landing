@@ -47,6 +47,34 @@ table {
 	border-spacing: 0;
 }
 
+a{
+	color: inherit;
+	text-decoration: none;
+}
+
+input, textarea{
+	font-family: inherit;
+	font-weight: inherit;
+	color: inherit;
+	outline: none;
+	border: 0px;
+
+	&:focus{
+		outline: none;
+	}
+
+	&::placeholder{
+		color: inherit;
+	}
+}
+
+button{
+	font-size: inherit;
+	font-weight: inherit;
+	outline: none;
+	border: 0px;
+}
+
 *, *::after, *::before{
     margin: 0px;
     padding: 0px;

@@ -1,25 +1,16 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 
-import imgTansistemas from '../media/svg/img_transistemas.svg';
+import imgHero from '../media/svg/img_transistemas.svg';
 import imgVoluntarie from '../media/svg/img_voluntarie.svg';
+
+import iconSend from '../media/svg/icon_send.svg'
 
 import cardTalleres from '../media/svg/card_talleres.svg';
 import cardCapacitaciones from '../media/svg/card_capacitaciones.svg';
 import cardAcompaniamiento from '../media/svg/card_acompaniamiento.svg';
 
-import iconFacebookOutline from '../media/svg/media_facebook_outline.svg';
-import iconInstagramOutline from '../media/svg/media_instagram_outline.svg';
-import iconTwitterOutline from '../media/svg/media_twiter_outline.svg';
-import iconTikTokOutline from '../media/svg/media_tiktok_outline.svg';
-import iconLinkedinOutline from '../media/svg/media_linkedin_outline.svg';
-import iconTelegramOutline from '../media/svg/media_telegram_outline.svg';
-
-//Import components
 import Button from '../components/Button';
 import Card from '../components/Card';
-import Contact from '../components/Contact';
-import Message from '../components/Message';
-
 
 function Home() {
 
@@ -28,9 +19,7 @@ function Home() {
         <div className="home">
 
             <div className="hero-section">
-                <img className="hero-section__img" src={imgTansistemas} alt="imagen de transistemas" />
-
-                <br />
+                <img className="hero-section__img" src={imgHero} alt="imagen de transistemas" />
 
                 <p className="hero-section__description">
                     Somos una organización social integrada por personas del colectivo <strong>LGTBIQANB+</strong> y personas con discapacidad (<strong>PcD</strong>).
@@ -41,13 +30,12 @@ function Home() {
                 <Button>Colaborá donando</Button>
             </div>
 
-
             <div className="cards-section">
                 <h1 className="cards-section__title">Que hacemos</h1>
 
                 <Swiper
                     spaceBetween={8}
-                    
+
                 >
                     <SwiperSlide>
                         <Card
@@ -83,78 +71,35 @@ function Home() {
             </div>
 
             <div className="volunteer-section">
-                <h1 className="cards-section__title">¿Querés ser voluntarie?</h1>
-                
+                <h1 className="volunteer-section__title">¿Querés ser voluntarie?</h1>
+
                 <img className="volunteer-section__img" src={imgVoluntarie} alt="imagen de voluntaries" />
 
                 <p className="volunteer-section__description">
-                    Podés colaborar desde cualquier lugar del mundo, nos reunimos de forma remota.
-                </p>
-                   
-                <p className="volunteer-section__description">
-                    Equipos de Diseño, Desarrollo Web, Comunicación, Social o Educación.
-                </p>
+                    <span>
+                        Podés colaborar desde cualquier lugar del mundo, nos reunimos de forma remota.
+                    </span> <br />
 
-                <p className="volunteer-section__description-strong">
-                    <strong>¡Queremos escuchar tus propuestas!</strong>
+                    <span>
+                        Equipos de Diseño, Desarrollo Web, Comunicación, Social o Educación.
+                    </span>
+                    <br />
+                    <strong className="text-yellow">¡Queremos escuchar tus propuestas!</strong>
                 </p>
 
                 <Button>Sumate</Button>
-                
-
             </div>
 
             <div className="contact-section">
                 <h2 className='contact-section__title'>¡Dejanos tu mensaje!</h2>
 
-                
-
-                <Contact
-                    title="Nombre/s:"
-                />
-
-                
-
-                <Contact
-                    title="Pronombres/s:"
-                
-                />
-
-                
-
-                <Contact
-                    title="Correo electrónico:"
-                
-                />
-
-                
-
-                <Message
-                    title="Mensaje:"
-                />
-
-                
-
-                <Button>Enviar <img src="" alt="" /></Button>
-                    
-
-            </div>
-
-            <div className="networks-section">
-                <h1 className="networks-section__title">Nuestras redes</h1>
-
-                <div className="networks-section__imgs">
-                    <img className= "networks-section__img" src={iconFacebookOutline} alt="icono de facebook" />
-                    <img className= "networks-section__img" src={iconInstagramOutline} alt="icono de instagram" />
-                    <img className= "networks-section__img" src={iconTwitterOutline} alt="icono de instagram" />
-                    <img className= "networks-section__img" src={iconTikTokOutline} alt="icono de instagram" />
-                    <img className= "networks-section__img" src={iconLinkedinOutline} alt="icono de instagram" />
-                    <img className= "networks-section__img" src={iconTelegramOutline} alt="icono de instagram" />
-
-                </div>
-
-
-
+                <form className='contact-section__form' action="#">
+                    <input className='contact-section__input' type="text" placeholder='Nombre/s:'/>
+                    <input className='contact-section__input' type="text" placeholder='Prenombre/s:'/>
+                    <input className='contact-section__input' type="text" placeholder='Correo electrónico:'/>
+                    <textarea className='contact-section__textarea' placeholder='Mensaje'></textarea>
+                    <button className='contact-section__send button'>Enviar <img src={iconSend} alt="" /></button>
+                </form>
             </div>
 
         </div>
