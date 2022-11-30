@@ -21,69 +21,47 @@
         }
     }
 
-    .cards-section{
+    .cards-section {
         width: 100vw;
         overflow: hidden;
         margin-bottom: 90px;
 
-        &__title{
+        &__title {
             margin-bottom: 24px;
         }
     }
 
-    .volunteer-section{
+    .volunteer-section {
         width: 100vw;
         overflow: hidden;
         margin-bottom: 90px;
         max-width: 328px;
 
-        &__title{
+        &__title {
             margin-bottom: 24px;
         }
 
-        &__description{
+        &__description {
             margin: 24px;
-        }
-        &__description-strong{
-            margin: 30px;
-            color: $yellow;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
         }
     }
 
-    .contact-section{
+    .contact-section {
         width: 100%;
         max-width: 328px;
-        overflow: hidden;
-        margin-bottom: 90px;
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
         text-align: left;
-
-
-    }
-
-    .networks-section{
-        width: 100%;
-        max-width: 328px;
-        overflow: hidden;
-        margin-bottom: 90px;
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-        text-align: center;
-
-
+    
         &__title{
-            margin-bottom: 24px;
+            margin-bottom: 30px;
         }
 
-        &__img{
-            margin: 24px;
+        &__form {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
         }
-
-
-
-
     }
 }

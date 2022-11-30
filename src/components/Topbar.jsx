@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
+import { NavLink } from 'react-router-dom';
 
-import logo from '../media/svg/logo_transistemas.svg';
+import transistemasLogo from '../media/svg/logo_transistemas.svg';
 
 import Button from '../components/Button';
 
@@ -14,7 +15,7 @@ function Topbar() {
         });
     })
 
-    function toggleMenu(e){
+    function toggleMenu(e) {
         document.body.classList.toggle("menu-open")
         document.querySelector(".topbar-container").classList.toggle("menu-open")
     }
@@ -26,19 +27,30 @@ function Topbar() {
             </div>
 
             <div className="topbar">
-                <img src={logo} alt="logo" />
-                <div className="topbar__menu-button" onClick={(e)=>{toggleMenu(e)}}>
+                <img src={transistemasLogo} alt="logo" />
+                <div className="topbar__menu-button" onClick={(e) => { toggleMenu(e) }}>
                     <div className='topbar__menu-icon'></div>
                 </div>
             </div>
 
             <nav className="menu">
                 <ul className="menu__links-container">
-                    <li className="menu__link">Inicio</li>
-                    <li className="menu__link">Cursos y talleres</li>
-                    <li className="menu__link">Nosotres</li>
-                    <li className="menu__link">En los medios</li>
-                    <li className="menu__link">Leyes</li>
+                    <li className="menu__link">
+                        <NavLink to="/">Inicio</NavLink>
+                    </li>
+                    <li className="menu__link">
+                        <NavLink to="/cursos">Talleres y cursos</NavLink>
+                    </li>
+                    <li className="menu__link">
+                        <NavLink to="/woadga">Nosotres</NavLink>
+                    </li>
+                    <li className="menu__link">
+                        <NavLink to="/wgd">En los medios</NavLink>
+                    </li>
+                    <li className="menu__link">
+                        <NavLink to="/wadg">Leyes</NavLink>
+                    </li>
+
                     <Button>Donar</Button>
                 </ul>
             </nav>
