@@ -7,18 +7,19 @@ import cardTalleres from '../media/svg/card_talleres.svg';
 import cardCapacitaciones from '../media/svg/card_capacitaciones.svg';
 import cardAcompaniamiento from '../media/svg/card_acompaniamiento.svg';
 
-import iconFacebookOutline from '../media/svg/media_facebook_outline.svg';
-import iconInstagramOutline from '../media/svg/media_instagram_outline.svg';
-import iconTwitterOutline from '../media/svg/media_twiter_outline.svg';
-import iconTikTokOutline from '../media/svg/media_tiktok_outline.svg';
-import iconLinkedinOutline from '../media/svg/media_linkedin_outline.svg';
-import iconTelegramOutline from '../media/svg/media_telegram_outline.svg';
+// import iconFacebookOutline from '../media/svg/media_facebook_outline.svg';
+// import iconInstagramOutline from '../media/svg/media_instagram_outline.svg';
+// import iconTwitterOutline from '../media/svg/media_twiter_outline.svg';
+// import iconTikTokOutline from '../media/svg/media_tiktok_outline.svg';
+// import iconLinkedinOutline from '../media/svg/media_linkedin_outline.svg';
+// import iconTelegramOutline from '../media/svg/media_telegram_outline.svg';
 
 //Import components
 import Button from '../components/Button';
 import Card from '../components/Card';
 import Contact from '../components/Contact';
 import Message from '../components/Message';
+import Footer from '../components/Footer';
 
 
 function Home() {
@@ -140,20 +141,8 @@ function Home() {
 
             </div>
 
-            <div className="networks-section">
-                <h1 className="networks-section__title">Nuestras redes</h1>
-
-                <div className="networks-section__imgs">
-                    <img className= "networks-section__img" src={iconFacebookOutline} alt="icono de facebook" />
-                    <img className= "networks-section__img" src={iconInstagramOutline} alt="icono de instagram" />
-                    <img className= "networks-section__img" src={iconTwitterOutline} alt="icono de instagram" />
-                    <img className= "networks-section__img" src={iconTikTokOutline} alt="icono de instagram" />
-                    <img className= "networks-section__img" src={iconLinkedinOutline} alt="icono de instagram" />
-                    <img className= "networks-section__img" src={iconTelegramOutline} alt="icono de instagram" />
-
-                </div>
-
-
+            <div className="footer-section">
+                <Footer/>
 
             </div>
 
