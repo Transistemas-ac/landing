@@ -1,0 +1,77 @@
+.nosotres {
+    padding: 0px 16px;
+
+    @include flexCenter(column);
+    text-align: center;
+
+    .hero-section {
+        //margin-bottom: 21px;
+        max-width: 328px;
+
+        &__img {
+            width: 100%;
+            max-width: 500px;
+        }
+
+        &__description {
+            width: 100%;
+            max-width: 500px;
+            margin-top: 25px;
+            margin-bottom: 21px;
+        }
+    }
+
+    .cards-section {
+        width: 100vw;
+        overflow: hidden;
+        margin-bottom: 90px;
+
+
+
+    }
+
+    .members-section {
+        width: 100vw;
+        overflow: hidden;
+        margin-bottom: 90px;
+        max-width: 328px;
+
+        &__title {
+            width: 20px;
+            margin-bottom: 24px;
+        }
+
+        &__description {
+            margin: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+    }
+
+    // .contact-section {
+    //     width: 100%;
+    //     max-width: 328px;
+    //     text-align: left;
+    
+    //     &__title{
+    //         margin-bottom: 30px;
+    //     }
+
+    //     &__form {
+    //         display: flex;
+    //         flex-direction: column;
+    //         gap: 16px;
+    //     }
+
+    .footer-section{
+        width: 100%;
+        max-width: 328px;
+    }
+    
+    }
+
+    .footer{
+        margin: 104px 0px 41px 0px;
+    }
+}
