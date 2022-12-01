@@ -113,11 +113,8 @@ function Home() {
                 </form>
             </div>
 
-            <div className="footer-section">
-                <Footer/>
-
-            </div>
-
+            <Footer />
+            
         </div>
     );
 }

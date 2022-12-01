@@ -1,11 +1,11 @@
-// Tools
-@import './0-tools/reset.scss';
-@import './0-tools/swiper';
-
 // Helpers
 @import './1-helpers/variables.scss';
 @import './1-helpers/mixins.scss';
 @import './1-helpers/functions.scss';
+
+// Tools
+@import './0-tools/reset.scss';
+@import './0-tools/swiper';
 
 // Basic
 @import './2-basic/fonts.scss';
@@ -13,6 +13,7 @@
 
 // Layout
 @import './3-layout/topbar';
+@import './3-layout/footer';
 
 // Components
 @import './4-components/button';
@@ -20,7 +21,6 @@
 @import './4-components/dropdown';
 @import './4-components/contact';
 @import './4-components/inputs';
-@import './4-components/footer';
 
 // Views
 @import './5-views/home';
