@@ -42,7 +42,7 @@ function Topbar() {
                         <NavLink to="/cursos">Talleres y cursos</NavLink>
                     </li>
                     <li className="menu__link">
-                        <NavLink to="/woadga">Nosotres</NavLink>
+                        <NavLink to="/bn">Nosotres</NavLink>
                     </li>
                     <li className="menu__link">
                         <NavLink to="/wgd">En los medios</NavLink>
