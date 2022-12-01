@@ -10,8 +10,17 @@ import cardTalleres from '../media/svg/card_talleres.svg';
 import cardCapacitaciones from '../media/svg/card_capacitaciones.svg';
 import cardAcompaniamiento from '../media/svg/card_acompaniamiento.svg';
 
+
+
+//Import components
 import Button from '../components/Button';
 import Card from '../components/Card';
+import Footer from '../components/Footer';
+
+
+
+
+
 
 function Home() {
 
@@ -102,6 +111,11 @@ function Home() {
                     <textarea className='contact-section__textarea' placeholder='Mensaje'></textarea>
                     <button className='contact-section__send button'>Enviar <img src={iconSend} alt="" /></button>
                 </form>
+            </div>
+
+            <div className="footer-section">
+                <Footer/>
+
             </div>
 
         </div>
