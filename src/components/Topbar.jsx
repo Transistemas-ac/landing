@@ -13,11 +13,13 @@ function Topbar() {
             const scrollPercent = scrollTop / (scrollHeight - window.innerHeight) * 100 + '%';
             document.querySelector('.progress-bar').style.width = scrollPercent
         });
+
+        document.querySelectorAll(".menu__link").forEach((e)=>{e.addEventListener('click', toggleMenu);})
     })
 
     function toggleMenu(e) {
-        document.body.classList.toggle("menu-open")
-        document.querySelector(".topbar-container").classList.toggle("menu-open")
+        document.body.classList.toggle("menu-open");
+        document.querySelector(".topbar-container").classList.toggle("menu-open");
     }
 
     return (
