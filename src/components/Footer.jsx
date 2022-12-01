@@ -13,14 +13,12 @@ function Footer(props) {
                 <h1 className="footer__title">Nuestras redes</h1>
             
                 <div className="footer__icon-container">
-                
                     <img className= "footer__icon" src={iconFacebookOutline} alt="icono de facebook" />
                     <img className= "footer__icon" src={iconInstagramOutline} alt="icono de instagram" />
                     <img className= "footer__icon" src={iconTwitterOutline} alt="icono de instagram" />
                     <img className= "footer__icon" src={iconTikTokOutline} alt="icono de instagram" />
                     <img className= "footer__icon" src={iconLinkedinOutline} alt="icono de instagram" />
                     <img className= "footer__icon" src={iconTelegramOutline} alt="icono de instagram" />
-
                 </div>
             
             </div>
