@@ -1,0 +1,44 @@
+.courses{
+    width: 100%;
+    padding: 0px 16px;
+    @include flexCenter(column);
+    overflow: hidden;
+    text-align: center;
+
+    .courses-section{
+        margin-bottom: 41px;
+
+        &__title{
+            margin-bottom: 20px;
+        }
+    }
+
+    .past-courses-section{
+        margin-bottom: 44px;
+
+        &__title{
+            margin-bottom: 11px;
+        }
+
+        &__description{
+            margin-bottom: 24px;
+        }
+
+        .swiper-pagination{
+            margin: 0px;
+        }
+    }
+
+    .faq-section{
+        margin-bottom: 150px;
+        width: 100%;
+        text-align: left;
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        &__title{
+        }
+    }
+}

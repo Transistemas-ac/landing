@@ -74,6 +74,7 @@
     }
 
     .menu {
+        $r: ".menu";
         width: 100%;
         
         @include flexCenter(column);
@@ -91,10 +92,16 @@
             @include flexCenter(column);
             gap: 45px;
 
-            .button {
-                width: 90%;
-                max-width: 328px;
-            }
+            #{$r}__link{
+                text-align: center;
+                
+                .button {
+                    width: 50vw;
+                    max-width: 328px;
+                    margin: 0 auto;
+                }
+            } 
+
         }
     }
 

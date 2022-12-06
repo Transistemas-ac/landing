@@ -14,7 +14,7 @@ function Topbar() {
             document.querySelector('.progress-bar').style.width = scrollPercent
         });
 
-        document.querySelectorAll(".menu__link").forEach((e)=>{e.addEventListener('click', toggleMenu);})
+        document.querySelectorAll(".menu__link").forEach((e) => { e.addEventListener('click', toggleMenu); })
     })
 
     function toggleMenu(e) {
@@ -41,7 +41,7 @@ function Topbar() {
                         <NavLink to="/">Inicio</NavLink>
                     </li>
                     <li className="menu__link">
-                        <NavLink to="/cursos">Talleres y cursos</NavLink>
+                        <NavLink to="/cursos">Cursos y talleres</NavLink>
                     </li>
                     <li className="menu__link">
                         <NavLink to="/bn">Nosotres</NavLink>
@@ -53,7 +53,9 @@ function Topbar() {
                         <NavLink to="/wadg">Leyes</NavLink>
                     </li>
 
-                    <Button>Donar</Button>
+                    <li className="menu__link">
+                        <Button href="/donar">Donar</Button>
+                    </li>
                 </ul>
             </nav>
         </div>

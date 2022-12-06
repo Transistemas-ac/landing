@@ -1,5 +1,6 @@
 .text-yellow {
   color: #FFCC00;
+  font-weight: 600;
 }
 
 .hidden {
@@ -63,6 +64,7 @@ table {
 a {
   color: inherit;
   text-decoration: none;
+  width: 100%;
 }
 
 input, textarea {
@@ -480,6 +482,10 @@ h2 {
   font-weight: 600;
 }
 
+h3 {
+  font-weight: 600;
+}
+
 strong {
   font-weight: 600;
 }
@@ -487,6 +493,22 @@ strong {
 body {
   background-color: #1A1A1A;
   padding-top: 115px;
+}
+
+body::-webkit-scrollbar {
+  width: 8px;
+  background-color: transparent;
+}
+
+body::-webkit-scrollbar-track {
+  background: #2D2D2D;
+  margin-top: 70px;
+  border-radius: 20px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #3E3E3E;
+  border-radius: 20px;
 }
 
 .topbar-container {
@@ -624,9 +646,13 @@ body {
           align-items: center;
   gap: 45px;
 }
-.topbar-container .menu__links-container .button {
-  width: 90%;
+.topbar-container .menu__links-container .menu__link {
+  text-align: center;
+}
+.topbar-container .menu__links-container .menu__link .button {
+  width: 50vw;
   max-width: 328px;
+  margin: 0 auto;
 }
 .topbar-container.menu-open {
   z-index: 20;
@@ -715,8 +741,8 @@ body.menu-open {
 }
 
 .card {
-  height: 100%;
   width: 300px;
+  height: 380px;
   padding: 40px 20px;
   margin: 0 auto;
   display: -webkit-box;
@@ -748,11 +774,11 @@ body.menu-open {
 }
 
 .dropdown {
-  width: 300px;
-  border-bottom: 2px solid white;
+  width: 100%;
+  padding-left: 5px;
+  border-bottom: 1px solid white;
 }
 .dropdown__title {
-  font-weight: bolder;
   padding-bottom: 12px;
 }
 .dropdown__title:hover {
@@ -822,7 +848,114 @@ textarea {
   resize: none;
 }
 
+.tag {
+  font-size: small;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  padding: 8px;
+  border-radius: 1000px;
+  border: 1px solid #FFCC00;
+  font-weight: 500;
+}
+
+.course-card {
+  width: 328px;
+  height: 430px;
+  padding: 15px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+  background-color: #2D2D2D;
+  color: #FFFFFF;
+  border-radius: 16px;
+  text-align: left;
+}
+.course-card__description {
+  margin-bottom: auto;
+}
+.course-card__information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  width: 100%;
+  margin-top: auto;
+}
+.course-card__information .course-card__curriculum-link {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+}
+.course-card__information .course-card__tags-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.past-course-card {
+  padding: 32px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+.past-course-card__title {
+  margin-bottom: 10px;
+}
+.past-course-card__image-container {
+  position: absolute;
+  background: rgb(39, 39, 39);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgb(39, 39, 39)), color-stop(64%, rgb(24, 24, 24)));
+  background: linear-gradient(180deg, rgb(39, 39, 39) 0%, rgb(24, 24, 24) 64%);
+  border: 1px solid #CCCCCC;
+  overflow: hidden;
+  opacity: 0.3;
+  border-radius: 16px;
+  z-index: -10;
+}
+.past-course-card__image-container img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
 .home {
+  width: 100%;
+  overflow: hidden;
   padding: 0px 16px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -897,12 +1030,73 @@ textarea {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   gap: 16px;
 }
-.home .contact-section .footer-section {
-  width: 100%;
-  max-width: 328px;
+.home .contact-section__form .contact-section__textarea::-webkit-scrollbar {
+  width: 6px;
+}
+.home .contact-section__form .contact-section__textarea::-webkit-scrollbar-track {
+  background: transparent;
+  margin: 10px 0px;
+}
+.home .contact-section__form .contact-section__textarea::-webkit-scrollbar-thumb {
+  background-color: #1A1A1A;
+  border-radius: 20px;
 }
 .home .footer {
   margin: 104px 0px 41px 0px;
+}
+
+.courses {
+  width: 100%;
+  padding: 0px 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  overflow: hidden;
+  text-align: center;
+}
+.courses .courses-section {
+  margin-bottom: 41px;
+}
+.courses .courses-section__title {
+  margin-bottom: 20px;
+}
+.courses .past-courses-section {
+  margin-bottom: 44px;
+}
+.courses .past-courses-section__title {
+  margin-bottom: 11px;
+}
+.courses .past-courses-section__description {
+  margin-bottom: 24px;
+}
+.courses .past-courses-section .swiper-pagination {
+  margin: 0px;
+}
+.courses .faq-section {
+  margin-bottom: 150px;
+  width: 100%;
+  text-align: left;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
 }
