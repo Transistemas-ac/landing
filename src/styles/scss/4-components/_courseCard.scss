@@ -1,0 +1,51 @@
+.course-card {
+    $r: &;
+    width: 328px;
+    height: 430px;
+    padding: 15px;
+    margin: 0 auto;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+
+    background-color: $grey-darker;
+    color: $white;
+    border-radius: 16px;
+    text-align: left;
+
+    &__title {
+
+    }
+
+    &__image {
+
+    }
+
+    &__teacher {
+    }
+
+    &__description {
+        margin-bottom: auto;
+    }
+
+    &__information {
+        @include flexCenter(column);
+        gap: 10px;
+        width: 100%;
+        margin-top: auto;
+
+        #{$r}__curriculum-link {
+            width: fit-content;
+        }
+    
+        #{$r}__tags-container {
+            display: flex;
+            gap: 10px;
+        }
+    }
+
+    
+}

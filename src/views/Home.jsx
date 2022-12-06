@@ -1,21 +1,20 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper';
 
+import Button from '../components/Button';
+import Card from '../components/Card';
+import Footer from '../components/Footer';
+
 import imgHero from '../media/svg/img_transistemas.svg';
 import imgVoluntarie from '../media/svg/img_voluntarie.svg';
-
-import iconSend from '../media/svg/icon_send.svg'
 
 import cardTalleres from '../media/svg/card_talleres.svg';
 import cardCapacitaciones from '../media/svg/card_capacitaciones.svg';
 import cardAcompaniamiento from '../media/svg/card_acompaniamiento.svg';
 
+import iconSend from '../media/svg/icon_send.svg'
 
 
-//Import components
-import Button from '../components/Button';
-import Card from '../components/Card';
-import Footer from '../components/Footer';
 
 
 
@@ -37,7 +36,7 @@ function Home() {
                     Actuamos para la inserción laboral de nuestra comunidad en empleos formales del <strong>área de sistemas</strong>. Para lograrlo, realizamos <strong>cursos y capacitaciones gratuitas.</strong>
                 </p>
 
-                <Button>Colaborá donando</Button>
+                <Button href="/donar">Colaborá donando</Button>
             </div>
 
             <div className="cards-section">
@@ -75,7 +74,6 @@ function Home() {
                             alt="Descripcion de la imagen"
                             title="Acompañamiento"
                             description="Colaboramos con personas de la comunidad a sortear situaciones complejas."
-                            link={<br />}
                         />
                     </SwiperSlide>
                 </Swiper>
@@ -98,7 +96,7 @@ function Home() {
                     <strong className="text-yellow">¡Queremos escuchar tus propuestas!</strong>
                 </p>
 
-                <Button>Sumate</Button>
+                <Button href="/cursos">Sumate</Button>
             </div>
 
             <div className="contact-section">
@@ -109,7 +107,7 @@ function Home() {
                     <input className='contact-section__input' type="text" placeholder='Prenombre/s:' />
                     <input className='contact-section__input' type="text" placeholder='Correo electrónico:' />
                     <textarea className='contact-section__textarea' placeholder='Mensaje'></textarea>
-                    <button className='contact-section__send button'>Enviar <img src={iconSend} alt="" /></button>
+                    <button className='contact-section__send button'>Enviar<img src={iconSend} alt="" /></button>
                 </form>
             </div>
 

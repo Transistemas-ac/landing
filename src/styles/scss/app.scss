@@ -12,6 +12,7 @@
 @import './2-basic/body';
 
 // Layout
+@import './3-layout/scrollbar';
 @import './3-layout/topbar';
 @import './3-layout/footer';
 
@@ -21,7 +22,12 @@
 @import './4-components/dropdown';
 @import './4-components/contact';
 @import './4-components/inputs';
+@import './4-components/tag';
+@import './4-components/courseCard';
+@import './4-components/pastCourseCard';
 
 // Views
 @import './5-views/home';
-@import './5-views/nosotres'
+@import './5-views/nosotres';
+@import './5-views/courses';
+

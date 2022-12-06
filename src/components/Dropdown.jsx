@@ -3,7 +3,7 @@ function Dropdown(props) {
     
     function openDropdown(e) {
         // Busca a el nodo padre y conseguie a el elemento que le sigue (dropdown__info)
-        let dropdown = e.target.tagName !== "H1" ? e.target.parentNode.nextSibling : e.target.nextSibling;
+        let dropdown = e.target.tagName !== "H3" ? e.target.parentNode.nextSibling : e.target.nextSibling;
 
         // Altero su clase
         dropdown.classList.toggle("active")
@@ -18,9 +18,9 @@ function Dropdown(props) {
 
     return (
         <div className="dropdown" >
-            <h1 className="dropdown__title" onClick={(e) => { openDropdown(e) }} >
+            <h3 className="dropdown__title" onClick={(e) => { openDropdown(e) }} >
                 {props.title}
-            </h1>
+            </h3>
 
             <div className="dropdown__info">
                 {props.children}
