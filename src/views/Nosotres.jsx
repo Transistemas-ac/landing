@@ -6,6 +6,8 @@ import { Pagination } from 'swiper';
 import Footer from '../components/Footer';
 import Card from "../components/Card";
 import Integrant from '../components/Integrant';
+import Team from '../components/Team';
+import Dropdown from "../components/Dropdown";
 
 import IconoDePrueba from '../media/svg/media_tiktok_fill.svg';
 
@@ -65,10 +67,18 @@ function Nosotres(){
             <div className="integrant-section">
                 <h2 className="integrant-section__title">Integrantes de Transistemas</h2>
 
+                <Dropdown
+                title="Equipo Comunicación"
+                />
+
+                <Team
+                    title="Equipo Comunicación"                
+                />
+
                 <Integrant
                     img={IconoDePrueba}
-                    name="Alex"
-                    occupation="Programmer"
+                    name="Nombre voluntarie"
+                    occupation="Ocupación/Profesión"
                 />
 
 

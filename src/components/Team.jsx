@@ -1,11 +1,11 @@
-
+import iconArrowUp from '../media/svg/icon_arrow_down.svg';
 
 function Team(props) {
     return (
         <div className="team">
-            <h2 className="team__title">{props.title}</h2>
+            <p className="team__title">{props.title}</p>
 
-            <a className="team__link" href="./ArrowDown.jsx">{props.link}</a>
+            <img className="team__icon" src={iconArrowUp} alt="icono de flecha" />
         </div>
     );
 }

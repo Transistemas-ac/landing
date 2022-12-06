@@ -1,6 +1,7 @@
 .integrant{
     width: 100%;
     padding: 16px 0px;
+    
 
     display: flex;
     flex-direction: row;
@@ -9,12 +10,12 @@
 
     gap: 10px;
 
+    
+
     font-weight: 600;
     border-radius: 1000px;
-    background-color: $yellow;
-    color: $black;
+    //background-color: $yellow;
+    color: $white;
 
-    &.button--error{
-        background-color: $red;
-    }
+
 }

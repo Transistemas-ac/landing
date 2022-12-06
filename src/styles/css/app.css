@@ -780,6 +780,25 @@ textarea {
   height: 100%;
 }
 
+.integrant {
+  width: 100%;
+  padding: 16px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  border-radius: 1000px;
+  color: #FFFFFF;
+}
+
+.team {
+  color: #FFCC00;
+  text-align: left;
+  font-size: 14px;
+}
+
 .home {
   width: 100%;
   overflow: hidden;
