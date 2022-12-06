@@ -771,35 +771,23 @@ textarea {
   overflow: hidden;
   margin-bottom: 90px;
 }
-.nosotres .volunteers {
+.nosotres .integrant-section {
   width: 100vw;
   overflow: hidden;
   margin-bottom: 90px;
   max-width: 328px;
 }
-.nosotres .volunteers__title {
+.nosotres .integrant-section__title {
   margin-bottom: 24px;
+  text-align: left;
 }
-.nosotres .volunteers__description {
+.nosotres .integrant-section__description {
   margin: 24px;
   display: flex;
   flex-direction: column;
   gap: 5px;
 }
-.nosotres .contact-section {
-  width: 100%;
-  max-width: 328px;
-  text-align: left;
-}
-.nosotres .contact-section__title {
-  margin-bottom: 30px;
-}
-.nosotres .contact-section__form {
-  display: flex;
-  flex-direction: column;
-  gap: 16px;
-}
-.nosotres .contact-section .footer-section {
+.nosotres .footer-section {
   width: 100%;
   max-width: 328px;
 }

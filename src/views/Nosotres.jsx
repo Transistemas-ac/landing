@@ -1,8 +1,13 @@
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Pagination } from 'swiper';
 
+
+
 import Footer from '../components/Footer';
 import Card from "../components/Card";
+import Integrant from '../components/Integrant';
+
+import IconoDePrueba from '../media/svg/media_tiktok_fill.svg';
 
 
 
@@ -57,8 +62,18 @@ function Nosotres(){
                 </Swiper>
             </div>
 
-            <div className="members-section">
-                <h2 className="members-section__title">Integrantes de Transistemas</h2>
+            <div className="integrant-section">
+                <h2 className="integrant-section__title">Integrantes de Transistemas</h2>
+
+                <Integrant
+                    img={IconoDePrueba}
+                    name="Alex"
+                    occupation="Programmer"
+                />
+
+
+
+
 
             </div>
 

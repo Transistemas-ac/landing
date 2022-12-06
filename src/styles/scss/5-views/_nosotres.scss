@@ -30,15 +30,15 @@
 
     }
 
-    .members-section {
+    .integrant-section {
         width: 100vw;
         overflow: hidden;
         margin-bottom: 90px;
         max-width: 328px;
 
         &__title {
-            width: 20px;
             margin-bottom: 24px;
+            text-align: left;
         }
 
         &__description {
@@ -69,7 +69,6 @@
         max-width: 328px;
     }
     
-    }
 
     .footer{
         margin: 104px 0px 41px 0px;
