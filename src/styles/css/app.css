@@ -739,7 +739,7 @@ body.menu-open {
   overflow: hidden;
 }
 .button__text {
-  z-index: 20;
+  z-index: 10;
 }
 .button.button--error {
   background-color: #E35454;
@@ -1016,7 +1016,7 @@ textarea {
   margin-bottom: 24px;
 }
 .home .volunteer-section {
-  width: 100vw;
+  width: 100%;
   overflow: hidden;
   margin-bottom: 90px;
   max-width: 328px;
