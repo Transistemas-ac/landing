@@ -6,9 +6,19 @@
     
     &__title{
         padding-bottom: 12px;
+        display: flex;
+        justify-content: space-between;
 
         &:hover{
             cursor: pointer;
+        }
+    }
+
+    &__arrow{
+        transition: 0.3s transform ease-in-out;
+
+        &.active{
+            transform: rotateZ(180deg);
         }
     }
 
