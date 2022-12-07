@@ -1,4 +1,3 @@
-
 function Dropdown(props) {
     
     function openDropdown(e) {
@@ -25,6 +24,7 @@ function Dropdown(props) {
             <div className="dropdown__info">
                 {props.children}
             </div>
+
         </div>
     );
 }

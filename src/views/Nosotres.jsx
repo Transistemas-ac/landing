@@ -68,10 +68,18 @@ function Nosotres(){
                 <h2 className="integrant-section__title">Integrantes de Transistemas</h2>
 
                 <Dropdown
-                title="Equipo Comunicación"
+                    title="Equipo Comunicación"
                 />
 
-                <Team
+                <Dropdown
+                    title="Equipo Educación"
+                />
+
+                <Dropdown
+                    title="Equipo Diseño"
+                />
+
+                {/* <Team
                     title="Equipo Comunicación"                
                 />
 
@@ -79,7 +87,7 @@ function Nosotres(){
                     img={IconoDePrueba}
                     name="Nombre voluntarie"
                     occupation="Ocupación/Profesión"
-                />
+                /> */}
 
 
 

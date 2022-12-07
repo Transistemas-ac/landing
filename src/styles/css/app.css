@@ -908,7 +908,7 @@ textarea {
   max-width: 328px;
 }
 .nosotres .integrant-section__title {
-  margin-bottom: 24px;
+  margin-bottom: 18px;
   text-align: left;
 }
 .nosotres .integrant-section__description {
@@ -916,6 +916,17 @@ textarea {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+.nosotres .integrant-section {
+  margin-bottom: 62px;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.nosotres .dropdown__title {
+  color: #FFCC00;
 }
 .nosotres .footer-section {
   width: 100%;

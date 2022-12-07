@@ -37,7 +37,7 @@
         max-width: 328px;
 
         &__title {
-            margin-bottom: 24px;
+            margin-bottom: 18px;
             text-align: left;
         }
 
@@ -63,6 +63,28 @@
     //         flex-direction: column;
     //         gap: 16px;
     //     }
+
+
+
+    .integrant-section{
+        margin-bottom: 62px;
+        width: 100%;
+        text-align: left;
+
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        &__title{
+        }
+    }
+
+    .dropdown{
+
+        &__title{
+            color: $yellow;
+        }
+    }
 
     .footer-section{
         width: 100%;
