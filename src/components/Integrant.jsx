@@ -1,4 +1,4 @@
-import iconarrow from '../media/svg/icon_arrow_up.svg';
+import iconarrow from '../media/svg/icon_arrow.svg';
 
 function Integrant(props) {
     return (

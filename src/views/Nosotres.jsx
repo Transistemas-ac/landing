@@ -9,7 +9,8 @@ import Integrant from '../components/Integrant';
 import Team from '../components/Team';
 import Dropdown from "../components/Dropdown";
 
-import IconoDePrueba from '../media/svg/media_tiktok_fill.svg';
+import ImagenDePrueba2 from "../media/svg/media_tiktok_fill.svg";
+import imagenDePrueba from "../media/svg/img_example.svg";
 
 
 
@@ -34,7 +35,7 @@ function Nosotres(){
                 >
                     <SwiperSlide>
                         <Card
-                            //img={cardTalleres}
+                            img={imagenDePrueba}
                             alt="Descripcion de la imagen"
                             title="Equipo de cominucación"
                             description="Breve descripción de lo que hace el equipo en dos o tres lineas"
@@ -44,7 +45,7 @@ function Nosotres(){
 
                     <SwiperSlide>
                         <Card
-                            //img={cardCapacitaciones}
+                            img={imagenDePrueba}
                             alt="Descripcion de la imagen"
                             title="Equipo Educación"
                             description="Breve descripción de lo que hace el equipo en dos o tres líneas."
@@ -54,7 +55,7 @@ function Nosotres(){
 
                     <SwiperSlide>
                         <Card
-                            //img={cardAcompaniamiento}
+                            img={imagenDePrueba}
                             alt="Descripcion de la imagen"
                             title="Equipo Diseño"
                             description="Breve descripción de lo que hace el equipo en dos o tres líneas."
@@ -67,9 +68,13 @@ function Nosotres(){
             <div className="integrant-section">
                 <h2 className="integrant-section__title">Integrantes de Transistemas</h2>
 
-                <Dropdown
-                    title="Equipo Comunicación"
-                />
+                <Dropdown title="Equipo Comunicación">
+                    <Integrant
+                        img={ImagenDePrueba2}
+                        name="Alex Alexa"
+                        occupation="Programadora"
+                    />
+                </Dropdown>
 
                 <Dropdown
                     title="Equipo Educación"
