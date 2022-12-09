@@ -602,6 +602,7 @@ body.menu-open {
   }
 }
 .button {
+  position: relative;
   width: 100%;
   padding: 16px 0px;
   display: flex;
@@ -611,8 +612,12 @@ body.menu-open {
   gap: 10px;
   font-weight: 600;
   border-radius: 1000px;
-  background-color: #FFCC00;
+  background: #FFCC00;
   color: #1A1A1A;
+  overflow: hidden;
+}
+.button__text {
+  z-index: 10;
 }
 .button.button--error {
   background-color: #E35454;
@@ -649,9 +654,25 @@ body.menu-open {
 }
 .dropdown__title {
   padding-bottom: 12px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 .dropdown__title:hover {
   cursor: pointer;
+}
+.dropdown__arrow {
+  -webkit-transition: 0.3s -webkit-transform ease-in-out;
+  transition: 0.3s -webkit-transform ease-in-out;
+  transition: 0.3s transform ease-in-out;
+  transition: 0.3s transform ease-in-out, 0.3s -webkit-transform ease-in-out;
+}
+.dropdown__arrow.active {
+  -webkit-transform: rotateZ(180deg);
+          transform: rotateZ(180deg);
 }
 .dropdown__info {
   transition-property: max-height, margin;
@@ -832,7 +853,7 @@ textarea {
   margin-bottom: 24px;
 }
 .home .volunteer-section {
-  width: 100vw;
+  width: 100%;
   overflow: hidden;
   margin-bottom: 90px;
   max-width: 328px;
