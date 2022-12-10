@@ -654,25 +654,17 @@ body.menu-open {
 }
 .dropdown__title {
   padding-bottom: 12px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
 }
 .dropdown__title:hover {
   cursor: pointer;
 }
 .dropdown__arrow {
-  -webkit-transition: 0.3s -webkit-transform ease-in-out;
-  transition: 0.3s -webkit-transform ease-in-out;
   transition: 0.3s transform ease-in-out;
-  transition: 0.3s transform ease-in-out, 0.3s -webkit-transform ease-in-out;
 }
 .dropdown__arrow.active {
-  -webkit-transform: rotateZ(180deg);
-          transform: rotateZ(180deg);
+  transform: rotateZ(180deg);
 }
 .dropdown__info {
   transition-property: max-height, margin;
@@ -803,15 +795,29 @@ textarea {
 
 .integrant {
   width: 100%;
-  padding: 16px 0px;
+  max-width: 365px;
+  padding: 12px 0px;
+  border-bottom: 1px solid white;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  font-weight: 600;
-  border-radius: 1000px;
+  gap: 12px;
   color: #FFFFFF;
+}
+.integrant__image {
+  max-width: 34px;
+  max-height: 34px;
+  margin: 0px 0px 0px 16px;
+}
+.integrant__name {
+  font-weight: 700;
+}
+.integrant__occupation {
+  font-weight: 400;
+}
+.integrant__contenedorinfo {
+  width: 238px;
+}
+.integrant__contenedoricon {
+  display: flex;
 }
 
 .team {

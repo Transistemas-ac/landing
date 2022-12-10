@@ -1,21 +1,44 @@
 .integrant{
     width: 100%;
-    padding: 16px 0px;
+    max-width: 365px;
+    padding: 12px 0px;
+    border-bottom: 1px solid white;
     
 
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    gap: 12px;
+    // flex-direction: row;
+    // justify-content: space-between;
+    // align-items: center;
 
-    gap: 10px;
+   
 
     
 
-    font-weight: 600;
-    border-radius: 1000px;
+    //border-radius: 1000px;
     //background-color: $yellow;
     color: $white;
+
+    &__image{
+        max-width: 34px;
+        max-height: 34px;
+        margin: 0px 0px 0px 16px ;
+    }
+
+    &__name{
+        font-weight: 700;
+    }
+
+    &__occupation{
+        font-weight: 400;
+    }
+
+    &__contenedorinfo{
+        width: 238px;
+    }
+    &__contenedoricon{
+        display: flex;
+    }
 
 
 }

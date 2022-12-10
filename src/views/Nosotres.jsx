@@ -74,25 +74,41 @@ function Nosotres(){
                         name="Alex Alexa"
                         occupation="Programadora"
                     />
+                    <Integrant
+                        img={ImagenDePrueba2}
+                        name="Alex Alexa"
+                        occupation="Programadora"
+                    />
+                    <Integrant
+                        img={ImagenDePrueba2}
+                        name="Alex Alexa"
+                        occupation="Programadora"
+                    />
                 </Dropdown>
 
-                <Dropdown
-                    title="Equipo Educación"
-                />
+                <Dropdown title="Equipo Educación">
+                    <Integrant
+                        img={ImagenDePrueba2}
+                        name="Alex Alexa"
+                        occupation="Programadora"
+                    />
+                    <Integrant
+                        img={ImagenDePrueba2}
+                        name="Alex Alexa"
+                        occupation="Programadora"
+                    />
+                    <Integrant
+                        img={ImagenDePrueba2}
+                        name="Alex Alexa"
+                        occupation="Programadora"
+                    />
+                </Dropdown>
 
                 <Dropdown
                     title="Equipo Diseño"
                 />
 
-                {/* <Team
-                    title="Equipo Comunicación"                
-                />
 
-                <Integrant
-                    img={IconoDePrueba}
-                    name="Nombre voluntarie"
-                    occupation="Ocupación/Profesión"
-                /> */}
 
 
 
