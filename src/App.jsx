@@ -1,9 +1,8 @@
-import Home from './views/Home';
-import Nosotres from './views/Nosotres';
-import Courses from './views/Courses';
-import Topbar from './components/Topbar';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import ErrorPage from './views/Error';
+import { Paths } from "./routes";
+
+import Topbar from "./components/Topbar";
+import ErrorPage from "./views/ErrorPage";
 
 function App() {
 	return (
@@ -12,9 +11,7 @@ function App() {
 				<Topbar />
 
 				<Routes>
-					<Route exact path="/" element={<Home />} />
-					<Route exact path="/nosotres" element={<Nosotres />} />
-					<Route exact path="/cursos" element={<Courses />} />
+					{Paths()}
 					<Route path="*" element={<ErrorPage />} />
 				</Routes>
 			</Router>

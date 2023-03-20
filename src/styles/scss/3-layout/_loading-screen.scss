@@ -1,0 +1,38 @@
+.loading-screen {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    z-index: 15;
+    // background-color: red;
+    display: flex;
+
+    top: 0px;
+    left: 0px;
+
+    justify-content: center;
+    align-items: center;
+
+    background-color: $black;
+
+    &__circle {
+        position: absolute;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        border: 10px solid $white;
+        border-top: 10px solid $pink;
+        animation: loading 1.5s infinite linear;
+    }
+
+    pointer-events: none;
+}
+
+@keyframes loading {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

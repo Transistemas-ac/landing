@@ -1,21 +1,19 @@
-import iconarrow from '../media/svg/icon_arrow.svg';
+import arrowIcon from '../assets/svg/icon_arrow.svg';
 
 function Integrant(props) {
     return (
         <div className="integrant">
-            <div className='integrant__contenedorimg'>
-                <img className="integrant__image" src={props.img} alt="Imagen de integrante" />
-            </div>
+            <img className="integrant__picture" src={props.picture} alt="Imagen de integrante" />
 
-            <div className='integrant__contenedorinfo'>
-                <p className="integrant__name">{props.name}</p>
+            <div className='integrant__info-container'>
+                <h3 className="integrant__name">{props.name}</h3>
 
                 <p className="integrant__occupation">{props.occupation}</p>
             </div>
 
-            <div className='integrant__contenedoricon'>
-                <img className="integrant__icon" src={iconarrow} alt="icono de flecha" />
-            </div>
+            <a className='integrant__link' href={props.href}>
+                <img className="integrant__icon" src={arrowIcon} alt="icono de flecha" />
+            </a>
         </div>
     );
 }

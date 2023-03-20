@@ -1,9 +1,9 @@
-import iconFacebookOutline from '../media/svg/media_facebook_outline.svg';
-import iconInstagramOutline from '../media/svg/media_instagram_outline.svg';
-import iconTwitterOutline from '../media/svg/media_twiter_outline.svg';
-import iconTikTokOutline from '../media/svg/media_tiktok_outline.svg';
-import iconLinkedinOutline from '../media/svg/media_linkedin_outline.svg';
-import iconTelegramOutline from '../media/svg/media_telegram_outline.svg';
+import iconFacebookOutline from '../assets/svg/media_facebook_outline.svg';
+import iconInstagramOutline from '../assets/svg/media_instagram_outline.svg';
+import iconTwitterOutline from '../assets/svg/media_twiter_outline.svg';
+import iconTikTokOutline from '../assets/svg/media_tiktok_outline.svg';
+import iconLinkedinOutline from '../assets/svg/media_linkedin_outline.svg';
+import iconTelegramOutline from '../assets/svg/media_telegram_outline.svg';
 
 
 function Footer(props) {

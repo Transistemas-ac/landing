@@ -1,4 +1,4 @@
-import iconArrowUp from '../media/svg/icon_arrow_down.svg';
+import iconArrowUp from '../assets/svg/icon_arrow_down.svg';
 
 function Team(props) {
     return (

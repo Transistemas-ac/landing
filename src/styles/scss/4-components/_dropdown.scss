@@ -1,11 +1,12 @@
 .dropdown{
     width: 100%;
-    padding-left: 5px;
     border-bottom: 1px solid white;
 
     
     &__title{
         padding-bottom: 12px;
+        padding-left: 5px;
+
         display: flex;
         justify-content: space-between;
 
@@ -18,7 +19,7 @@
         transition: 0.3s transform ease-in-out;
 
         &.active{
-            transform: rotateZ(180deg);
+            transform: rotateX(180deg);
         }
     }
 

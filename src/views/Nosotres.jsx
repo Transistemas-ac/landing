@@ -1,36 +1,33 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Pagination } from 'swiper';
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper";
 
 
 
-import Footer from '../components/Footer';
+import Footer from "../components/Footer";
 import Card from "../components/Card";
-import Integrant from '../components/Integrant';
-import Team from '../components/Team';
+import Integrant from "../components/Integrant";
+// import Team from "../components/Team";
 import Dropdown from "../components/Dropdown";
 
-import ImagenDePrueba2 from "../media/svg/media_tiktok_fill.svg";
-import imagenDePrueba from "../media/svg/img_example.svg";
+import ImagenDePrueba2 from "../assets/svg/media_tiktok_fill.svg";
+import imagenDePrueba from "../assets/svg/img_example.svg";
 
 
 
 
-function Nosotres(){
+function Nosotres() {
     return (
         <div className="nosotres">
 
-            <div className="hero-section">
-                <h1>Nosotres</h1>
-                <p className="hero-section__description">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque suspendisse suscipit elit ultricies risus arcu tellus. A, tellus tincidunt tortor, et cras non pretium urna. Risus dolor mi, amet dui dictum et condimentum. 
+            <div className="teams-section">
+                <h1 className="teams-section__title">Nosotres</h1>
+                <p className="teams-section__description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque suspendisse suscipit elit ultricies risus arcu tellus. A, tellus tincidunt tortor, et cras non pretium urna. Risus dolor mi, amet dui dictum et condimentum.
                 </p>
-            </div>
-
-            <div className="cards-section">
 
                 <Swiper
                     modules={[Pagination]}
-                    spaceBetween={8}
+                    spaceBetween={20}
                     pagination={{ clickable: true }}
                 >
                     <SwiperSlide>
@@ -65,43 +62,27 @@ function Nosotres(){
                 </Swiper>
             </div>
 
-            <div className="integrant-section">
-                <h2 className="integrant-section__title">Integrantes de Transistemas</h2>
+            <div className="integrants-section">
+                <h2 className="integrants-section__title">Integrantes de Transistemas</h2>
 
                 <Dropdown title="Equipo Comunicación">
                     <Integrant
-                        img={ImagenDePrueba2}
+                        picture={ImagenDePrueba2}
                         name="Alex Alexa"
                         occupation="Programadora"
+                        href="https://translate.google.com.ar/?sl=es&tl=en&text=Foto%20de%20perfil&op=translate"
                     />
                     <Integrant
-                        img={ImagenDePrueba2}
+                        picture={ImagenDePrueba2}
                         name="Alex Alexa"
                         occupation="Programadora"
+                        href="https://translate.google.com.ar/?sl=es&tl=en&text=Foto%20de%20perfil&op=translate"
                     />
-                    <Integrant
-                        img={ImagenDePrueba2}
-                        name="Alex Alexa"
-                        occupation="Programadora"
-                    />
+
                 </Dropdown>
 
                 <Dropdown title="Equipo Educación">
-                    <Integrant
-                        img={ImagenDePrueba2}
-                        name="Alex Alexa"
-                        occupation="Programadora"
-                    />
-                    <Integrant
-                        img={ImagenDePrueba2}
-                        name="Alex Alexa"
-                        occupation="Programadora"
-                    />
-                    <Integrant
-                        img={ImagenDePrueba2}
-                        name="Alex Alexa"
-                        occupation="Programadora"
-                    />
+
                 </Dropdown>
 
                 <Dropdown
@@ -119,7 +100,7 @@ function Nosotres(){
             <Footer />
 
 
-            
+
 
 
         </div>

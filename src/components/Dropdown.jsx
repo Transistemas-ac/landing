@@ -1,17 +1,15 @@
-import dropdownArrow from "../media/svg/dropdown_arrow.svg";
+import dropdownArrow from "../assets/svg/dropdown_arrow.svg";
 
 function Dropdown(props) {
     
     function openDropdown(e) {
-        // Busca a el nodo padre y conseguie a el elemento que le sigue (dropdown__info)
-        let dropdown = e.target.tagName !== "H3" ? e.target.parentNode.nextSibling : e.target.nextSibling;
-        let dropdownArrow = dropdown.previousElementSibling.lastChild.classList;
+        console.log(e)
+        let dropdown = e.currentTarget.nextSibling;
+        let dropdownArrow = e.currentTarget.lastChild.classList;
 
-        // Altero su clase
         dropdown.classList.toggle("active");
         dropdownArrow.toggle("active");
 
-        // Si posee la clase "active" altero su altura a el tamaño de su contenido
         if (dropdown.classList.contains("active")) {
             dropdown.style.maxHeight = `${dropdown.scrollHeight}px`;
         } else {

@@ -1,31 +1,41 @@
-import { useEffect } from 'react';
-import { NavLink } from 'react-router-dom';
+import { useState, useEffect, useRef } from 'react';
+import { Links } from '../routes';
 
-import transistemasLogo from '../media/svg/logo_transistemas.svg';
+import transistemasLogo from '../assets/svg/logo_transistemas.svg';
 
-import Button from '../components/Button';
+import Button from './Button';
 
 function Topbar() {
 
-    useEffect(() => {
-        document.addEventListener('scroll', () => {
-            const { scrollTop, scrollHeight } = document.documentElement;
-            const scrollPercent = scrollTop / (scrollHeight - window.innerHeight) * 100 + '%';
-            document.querySelector('.progress-bar').style.width = scrollPercent
-        });
+    const topbar = useRef();
+    const progressBar = useRef();
 
-        document.querySelectorAll(".menu__link").forEach((e) => { e.addEventListener('click', toggleMenu); })
-    })
+    /*
+        evento => scrolle 
+    */
+
+    function updateProgrresBar() {
+        const { scrollTop, scrollHeight } = document.documentElement;
+        const scrollPercent = scrollTop / (scrollHeight - window.innerHeight) * 100 + '%';
+        progressBar.current.style.width = scrollPercent;
+
+        window.requestAnimationFrame(updateProgrresBar);
+    }
 
     function toggleMenu(e) {
         document.body.classList.toggle("menu-open");
-        document.querySelector(".topbar-container").classList.toggle("menu-open");
+        topbar.current.classList.toggle("menu-open")
     }
 
+    useEffect(() => {
+        window.requestAnimationFrame(updateProgrresBar);
+    }, [])
+
     return (
-        <div className="topbar-container">
+        <div ref={topbar} className="topbar-container">
+
             <div className="progress-bar-container">
-                <div className="progress-bar"></div>
+                <div ref={progressBar} className="progress-bar"></div>
             </div>
 
             <div className="topbar">
@@ -37,21 +47,8 @@ function Topbar() {
 
             <nav className="menu">
                 <ul className="menu__links-container">
-                    <li className="menu__link">
-                        <NavLink to="/">Inicio</NavLink>
-                    </li>
-                    <li className="menu__link">
-                        <NavLink to="/cursos">Cursos y talleres</NavLink>
-                    </li>
-                    <li className="menu__link">
-                        <NavLink to="/nosotres">Nosotres</NavLink>
-                    </li>
-                    <li className="menu__link">
-                        <NavLink to="/wgd">En los medios</NavLink>
-                    </li>
-                    <li className="menu__link">
-                        <NavLink to="/wadg">Leyes</NavLink>
-                    </li>
+
+                    <Links onClick={(e) => { toggleMenu(e) }} />
 
                     <li className="menu__link">
                         <Button href="/donar">Donar</Button>

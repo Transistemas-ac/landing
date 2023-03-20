@@ -5,14 +5,14 @@ import Button from '../components/Button';
 import Card from '../components/Card';
 import Footer from '../components/Footer';
 
-import imgHero from '../media/svg/img_transistemas.svg';
-import imgVoluntarie from '../media/svg/img_voluntarie.svg';
+import imgHero from '../assets/svg/img_transistemas.svg';
+import imgVoluntarie from '../assets/svg/img_voluntarie.svg';
 
-import cardTalleres from '../media/svg/card_talleres.svg';
-import cardCapacitaciones from '../media/svg/card_capacitaciones.svg';
-import cardAcompaniamiento from '../media/svg/card_acompaniamiento.svg';
+import cardTalleres from '../assets/svg/card_talleres.svg';
+import cardCapacitaciones from '../assets/svg/card_capacitaciones.svg';
+import cardAcompaniamiento from '../assets/svg/card_acompaniamiento.svg';
 
-import iconSend from '../media/svg/icon_send.svg'
+import iconSend from '../assets/svg/icon_send.svg'
 
 
 

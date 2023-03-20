@@ -1,10 +1,7 @@
-
-.card{
+.card {
     width: 300px;
     height: 380px;
     padding: 40px 20px;
-    margin: 0 auto;
-
 
     display: flex;
     flex-direction: column;
@@ -12,32 +9,24 @@
     align-items: center;
     gap: 22px;
 
-
-    
     background-color: $grey-darker;
     color: $white;
     border-radius: 16px;
     text-align: center;
 
-
-
-
-    &__image{
+    &__image {
         height: 175px;
     }
-    
-    &__title{
 
+    &__title {
     }
 
-    &__description{
-
+    &__description {
     }
 
-    &__link{
+    &__link {
         color: $yellow;
         text-decoration: none;
         font-weight: 600;
     }
-
 }

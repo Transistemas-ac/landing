@@ -1,35 +1,37 @@
-.courses{
+.courses {
     width: 100%;
     padding: 0px 16px;
     @include flexCenter(column);
     overflow: hidden;
     text-align: center;
 
-    .courses-section{
+    .courses-section {
+        width: 100%;
+        @include flexCenter(column);
         margin-bottom: 41px;
 
-        &__title{
+        &__title {
             margin-bottom: 20px;
         }
     }
 
-    .past-courses-section{
+    .past-courses-section {
         margin-bottom: 44px;
 
-        &__title{
+        &__title {
             margin-bottom: 11px;
         }
 
-        &__description{
+        &__description {
             margin-bottom: 24px;
         }
 
-        .swiper-pagination{
+        .swiper-pagination {
             margin: 0px;
         }
     }
 
-    .faq-section{
+    .faq-section {
         margin-bottom: 150px;
         width: 100%;
         text-align: left;
@@ -38,7 +40,15 @@
         flex-direction: column;
         gap: 20px;
 
-        &__title{
+        &__title {
+        }
+
+        .dropdown{
+            padding: 0px 5px;
+
+            &__title{
+                padding-left:  0px;
+            }
         }
     }
 }

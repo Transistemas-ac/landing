@@ -1,9 +1,10 @@
 .course-card {
     $r: &;
-    width: 328px;
+    width: 100%;
+    min-width: 295px;
+    max-width: 328px;
     height: 430px;
     padding: 15px;
-    margin: 0 auto;
 
     display: flex;
     flex-direction: column;
