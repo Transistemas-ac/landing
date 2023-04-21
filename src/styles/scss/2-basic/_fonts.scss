@@ -68,30 +68,64 @@ $small: 14px;
 $medium: 20px;
 $large: 32px;
 
-body{
-    font-family: "Work Sans";
+body {
+	font-family: "Work Sans";
 	color: $white;
 	font-size: $small;
 	font-weight: 400;
-	line-height: 16px;
+	line-height: 130%;
 }
 
-
-h1{
+h1 {
 	font-size: $large;
 	font-weight: 700;
 	line-height: 100%;
 }
 
-h2{
+h2 {
 	font-size: $medium;
 	font-weight: 600;
 }
 
-h3{
+h3 {
 	font-weight: 600;
 }
 
-strong{
+strong {
 	font-weight: 600;
+}
+
+@media screen and (min-width: $tablet-bp) {
+	$xx-small: 18px;
+	$x-small: 20px;
+	$small: 22px;
+	$medium: 24px;
+	$large: 40px;
+
+	body {
+		font-family: "Work Sans";
+		color: $white;
+		font-size: $small;
+		font-weight: 400;
+		line-height: 100%;
+	}
+
+	h1 {
+		font-size: $large;
+		font-weight: 700;
+		line-height: 100%;
+	}
+
+	h2 {
+		font-size: $medium;
+		font-weight: 600;
+	}
+
+	h3 {
+		font-weight: 600;
+	}
+
+	strong {
+		font-weight: 600;
+	}
 }

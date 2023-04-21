@@ -1,12 +1,13 @@
-import { Swiper, SwiperSlide } from 'swiper/react';
+// import { Swiper, SwiperSlide } from 'swiper/react';
+// import PastCourseCard from "../components/PastCourseCard";
+import { SwiperHOC } from "../utils/SwiperHOC"
 import { Pagination } from 'swiper';
 
 import CourseCard from "../components/CourseCard";
-import PastCourseCard from "../components/PastCourseCard";
-import Dropdown from "../components/Dropdown";
-
 import courseCardImage from "../assets/png/course-card_image.png";
-import pastCourseCardImage from "../assets/jpg/past-course-card_image.jpg";
+import { PastCards } from "../utils/CoursesCards"
+
+import Dropdown from "../components/Dropdown";
 
 function Courses() {
     return (
@@ -28,36 +29,14 @@ function Courses() {
             <div className="past-courses-section">
                 <h1 className="past-courses-section__title">Cursos pasados</h1>
                 <p className="past-courses-section__description">Seguinos en las redes para no perderte ninguno.</p>
-                <Swiper
+
+                <SwiperHOC
                     modules={[Pagination]}
-                    spaceBetween={8}
+                    spaceBetween={20}
                     pagination={{ clickable: true }}
                 >
-                    <SwiperSlide>
-                        <PastCourseCard
-                            title="Testing Manual"
-                            date="Abril 2022"
-                            img={pastCourseCardImage}
-                        />
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <PastCourseCard
-                            title="Diseño UX/UI"
-                            date="Marzo 2020"
-                            img={pastCourseCardImage}
-                        />
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <PastCourseCard
-                            title="UX Writing"
-                            date="Junio 2021"
-                            img={pastCourseCardImage}
-                        />
-                    </SwiperSlide>
-                </Swiper>
-
+                    {PastCards()}
+                </SwiperHOC>
             </div>
 
             <div className="faq-section">

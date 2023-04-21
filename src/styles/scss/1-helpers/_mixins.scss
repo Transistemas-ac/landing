@@ -5,11 +5,24 @@
     align-items: center;
 }
 
-.text-yellow{
+@mixin section() {
+    padding: 0px 16px;
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+
+    @media screen and (min-width: $tablet-bp) {
+        overflow: visible;
+    }
+}
+
+.text-yellow {
     color: $yellow;
     font-weight: 600;
 }
 
-.hidden{
+.hidden {
     display: none !important;
 }

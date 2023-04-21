@@ -1,5 +1,6 @@
-import { LazyHome, LazyCourses, LazyNosotres } from "../views/lazyViews";
-import { Link, Route } from "react-router-dom";
+import { LazyHome, LazyCourses, LazyNosotres } from "../lazy-components";
+import { Link, Route, useMatch, useResolvedPath } from "react-router-dom";
+
 
 
 const routes = [
@@ -21,9 +22,27 @@ const routes = [
         component: <LazyNosotres />,
         exact: true
     },
+    {
+        name: "Donar",
+        path: "/donar",
+        component: <LazyNosotres />,
+        exact: true
+    },
 ]
 
 const Paths = (props) => routes.map((item, idx) => <Route key={idx} path={item.path} element={item.component} />);
-const Links = (props) => routes.map((item, idx) => <li key={idx} className="menu__link" {...props}> <Link to={item.path}>{item.name}</Link></li>);
+
+function CustomLink({ to, children, ...props }) {
+    const resolvedPath = useResolvedPath(to);
+    const isActive = useMatch({ path: resolvedPath.pathname, end: true });
+
+    return (
+        <li className={`menu__link ${isActive ? 'active' : ''}`} >
+            <Link {...props} to={to}>{children}</Link>
+        </li>
+    )
+}
+
+const Links = (props) => routes.map((item, idx) => <CustomLink className={item.path.toLowerCase().slice(1)} key={idx} to={item.path} {...props}>{item.name}</CustomLink>);
 
 export { Paths, Links }

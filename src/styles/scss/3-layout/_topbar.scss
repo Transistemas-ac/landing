@@ -12,6 +12,7 @@
     .progress-bar-container {
         width: 100%;
         background-color: $black;
+        border: 1px solid $black;
 
         .progress-bar {
             width: 1%;
@@ -30,6 +31,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
+        margin-bottom: auto;
 
         background-color: $black;
 
@@ -77,10 +79,12 @@
     .menu {
         $r: ".menu";
         width: 100%;
-        
+
         @include flexCenter(column);
         flex-grow: 1;
-        
+
+        gap: 60px;
+
         transition: 0.3s opacity;
         opacity: 0;
 
@@ -88,27 +92,29 @@
         background-color: $black;
         font-weight: 600;
 
-        &__links-container {
-            width: 100%;
-            @include flexCenter(column);
-            gap: 45px;
+        #{$r}__link {
+            text-align: center;
 
-            #{$r}__link{
-                text-align: center;
-                
-                .button {
-                    width: 50vw;
-                    max-width: 328px;
-                    margin: 0 auto;
-                }
-            } 
+            a.donaciones {
+                display: block;
+                width: 50vw;
+                min-width: min-content;
+                max-width: 300px;
 
+                padding: 16px 0px;
+
+                font-weight: 600;
+                border-radius: 1000px;
+                color: $black;
+
+                background-color: $yellow;
+            }
         }
     }
 
     &.menu-open {
         z-index: 20;
-        
+
         .topbar__menu-icon {
             background-color: transparent;
 
@@ -130,4 +136,60 @@
 
 body.menu-open {
     overflow: hidden;
+}
+
+@media screen and (min-width: $tablet-bp) {
+    .topbar-container {
+        pointer-events: none;
+        .topbar {
+            $r: ".topbar";
+
+            &__logo {
+                width: 160px;
+            }
+
+            &__menu-button {
+                display: none;
+                #{$r}__menu-icon {
+                    display: none;
+                }
+            }
+
+            .menu {
+                $r: ".menu";
+                max-width: 1080px;
+
+                flex-direction: row;
+                justify-content: space-around;
+                padding: 0px 20px;
+                pointer-events: auto;
+                margin-right: auto;
+                margin-left: auto;
+
+                font-size: $medium;
+                background-color: $black;
+                font-weight: 600;
+
+                opacity: 1;
+
+                &__link {
+                    color: $grey-lighter;
+
+                    &.active {
+                        color: $pink;
+                    }
+
+                    a.donaciones {
+                        display: inline;
+                        color: inherit;
+                        background-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+
+    body.menu-open {
+        overflow: unset;
+    }
 }

@@ -1,9 +1,6 @@
 .courses {
-    width: 100%;
-    padding: 0px 16px;
+    @include section();
     @include flexCenter(column);
-    overflow: hidden;
-    text-align: center;
 
     .courses-section {
         width: 100%;
@@ -16,6 +13,8 @@
     }
 
     .past-courses-section {
+        width: 100vw;
+        overflow: hidden;
         margin-bottom: 44px;
 
         &__title {
@@ -43,11 +42,11 @@
         &__title {
         }
 
-        .dropdown{
+        .dropdown {
             padding: 0px 5px;
 
-            &__title{
-                padding-left:  0px;
+            &__title {
+                padding-left: 0px;
             }
         }
     }

@@ -3,7 +3,6 @@ import dropdownArrow from "../assets/svg/dropdown_arrow.svg";
 function Dropdown(props) {
     
     function openDropdown(e) {
-        console.log(e)
         let dropdown = e.currentTarget.nextSibling;
         let dropdownArrow = e.currentTarget.lastChild.classList;
 

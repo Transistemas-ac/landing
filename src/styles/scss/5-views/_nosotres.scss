@@ -1,24 +1,30 @@
 .nosotres {
-    padding: 0px 16px;
-
+    @include section();
     @include flexCenter(column);
-    text-align: center;
-    overflow: hidden;
 
     .teams-section {
-        width: 100%;
-        margin-bottom: 62px;
+        width: 100vw;
+        // margin-bottom: 60px;
+        overflow: hidden;
 
         &__description {
             width: 100%;
-            margin: 20px 0px;
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0px 16px;
         }
+
+        &__swiper-container {
+        }
+    }
+
+    .metrics-section {
+        width: 100%;
     }
 
     .integrants-section {
         width: 100%;
         text-align: left;
-        
 
         display: flex;
         flex-direction: column;
@@ -36,5 +42,61 @@
 
     .footer {
         margin: 62px 0px 45px 0px;
+    }
+}
+
+@media screen and (min-width: $tablet-bp) {
+    .nosotres {
+        @include section();
+        @include flexCenter(column);
+
+        .teams-section {
+            width: 100vw;
+            // margin-bottom: 60px;
+            overflow: hidden;
+
+            &__description {
+                width: 100%;
+                max-width: 800px;
+                margin: 20px auto;
+                padding: 0px 16px;
+            }
+
+            &__swiper-container {
+            }
+        }
+
+        .metrics-section {
+            width: 100%;
+        }
+
+        .integrants-section {
+            // width: 100%;
+            // text-align: left;
+
+            // display: flex;
+            // flex-direction: column;
+            // gap: 20px;
+
+            text-align: center;
+
+            &__title{
+                margin: 50px 0px;
+                font-size: $large;
+            }
+        }
+
+        .dropdown {
+            padding: 0px 5px;
+
+            &__title {
+                color: $yellow;
+                padding-left: 0px;
+            }
+        }
+
+        .footer {
+            margin: 62px 0px 45px 0px;
+        }
     }
 }

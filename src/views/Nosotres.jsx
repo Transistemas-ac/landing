@@ -1,21 +1,16 @@
-import { Swiper, SwiperSlide } from "swiper/react";
+import { SwiperHOC } from '../utils/SwiperHOC';
 import { Pagination } from "swiper";
-
-
+import NosotresCards from '../utils/NosotresCards';
 
 import Footer from "../components/Footer";
-import Card from "../components/Card";
 import Integrant from "../components/Integrant";
-// import Team from "../components/Team";
 import Dropdown from "../components/Dropdown";
 
-import ImagenDePrueba2 from "../assets/svg/media_tiktok_fill.svg";
-import imagenDePrueba from "../assets/svg/img_example.svg";
-
-
-
+import profileImage from "../assets/svg/media_tiktok_fill.svg";
+import Metrics from '../components/Metrics';
 
 function Nosotres() {
+
     return (
         <div className="nosotres">
 
@@ -25,41 +20,20 @@ function Nosotres() {
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque suspendisse suscipit elit ultricies risus arcu tellus. A, tellus tincidunt tortor, et cras non pretium urna. Risus dolor mi, amet dui dictum et condimentum.
                 </p>
 
-                <Swiper
-                    modules={[Pagination]}
-                    spaceBetween={20}
-                    pagination={{ clickable: true }}
-                >
-                    <SwiperSlide>
-                        <Card
-                            img={imagenDePrueba}
-                            alt="Descripcion de la imagen"
-                            title="Equipo de cominucación"
-                            description="Breve descripción de lo que hace el equipo en dos o tres lineas"
-                            link="Me quiero sumar"
-                        />
-                    </SwiperSlide>
+                <div className="teams-section__swiper-container">
+                    <SwiperHOC
+                        modules={[Pagination]}
+                        spaceBetween={20}
+                        pagination={{ clickable: true }}
+                    >
+                        {NosotresCards()}
+                    </SwiperHOC>
+                </div>
 
-                    <SwiperSlide>
-                        <Card
-                            img={imagenDePrueba}
-                            alt="Descripcion de la imagen"
-                            title="Equipo Educación"
-                            description="Breve descripción de lo que hace el equipo en dos o tres líneas."
-                            link="Me quiero sumar"
-                        />
-                    </SwiperSlide>
+            </div>
 
-                    <SwiperSlide>
-                        <Card
-                            img={imagenDePrueba}
-                            alt="Descripcion de la imagen"
-                            title="Equipo Diseño"
-                            description="Breve descripción de lo que hace el equipo en dos o tres líneas."
-                            link="Me quiero sumar"
-                        />
-                    </SwiperSlide>
-                </Swiper>
+            <div className="metrics-section">
+                <Metrics />
             </div>
 
             <div className="integrants-section">
@@ -67,42 +41,26 @@ function Nosotres() {
 
                 <Dropdown title="Equipo Comunicación">
                     <Integrant
-                        picture={ImagenDePrueba2}
+                        picture={profileImage}
                         name="Alex Alexa"
                         occupation="Programadora"
                         href="https://translate.google.com.ar/?sl=es&tl=en&text=Foto%20de%20perfil&op=translate"
                     />
                     <Integrant
-                        picture={ImagenDePrueba2}
+                        picture={profileImage}
                         name="Alex Alexa"
                         occupation="Programadora"
                         href="https://translate.google.com.ar/?sl=es&tl=en&text=Foto%20de%20perfil&op=translate"
                     />
-
                 </Dropdown>
 
-                <Dropdown title="Equipo Educación">
+                <Dropdown title="Equipo Educación" />
 
-                </Dropdown>
-
-                <Dropdown
-                    title="Equipo Diseño"
-                />
-
-
-
-
-
-
+                <Dropdown title="Equipo Diseño" />
 
             </div>
 
             <Footer />
-
-
-
-
-
         </div>
     );
 }
