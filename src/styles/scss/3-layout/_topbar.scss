@@ -9,16 +9,20 @@
 
     pointer-events: none;
 
-    .progress-bar-container {
-        width: 100%;
-        background-color: $black;
-        border: 1px solid $black;
-
-        .progress-bar {
-            width: 1%;
-            height: 10px;
-            transition: 0.3s width ease-in-out;
-            background-color: $pink;
+    .progress-bar {
+        width: 1%;
+        height: 10px;
+        transition: 0.3s width ease-in-out;
+        background-color: $pink;
+        margin-right: auto;
+        &::before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: inherit;
+            position: absolute;
+            background-color: $black;
+            z-index: -20;
         }
     }
 
@@ -27,13 +31,12 @@
 
         width: 100%;
         padding: 20px;
+        background-color: $black;
 
         display: flex;
         align-items: center;
         justify-content: space-between;
         margin-bottom: auto;
-
-        background-color: $black;
 
         &__logo {
             width: 160px;

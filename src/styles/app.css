@@ -140,7 +140,8 @@ button {
 }
 @media screen and (min-width: 1120px) {
   .swiper {
-    width: 350px;
+    width: 950px;
+    overflow: hidden;
   }
 }
 .swiper.desktop > .swiper-wrapper {
@@ -425,6 +426,85 @@ button.swiper-pagination-bullet {
   transition: 200ms transform, 200ms right, 200ms -webkit-transform;
 }
 
+/* NAVIGATION */
+:root {
+  --swiper-navigation-size: 44px;
+  /*
+  --swiper-navigation-color: var(--swiper-theme-color);
+  */
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  position: absolute;
+  top: 50%;
+  width: calc(var(--swiper-navigation-size) / 44 * 27);
+  height: var(--swiper-navigation-size);
+  margin-top: calc(0px - var(--swiper-navigation-size) / 2);
+  z-index: 10;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {
+  opacity: 0.2;
+  cursor: auto;
+  pointer-events: none;
+}
+.swiper-button-prev.swiper-button-hidden,
+.swiper-button-next.swiper-button-hidden {
+  opacity: 0;
+  cursor: auto;
+  pointer-events: none;
+}
+.swiper-navigation-disabled .swiper-button-prev,
+.swiper-navigation-disabled .swiper-button-next {
+  display: none !important;
+}
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  text-transform: none !important;
+  letter-spacing: 0;
+  font-variant: initial;
+  line-height: 1;
+}
+
+.swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: 100px;
+  right: auto;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+.swiper-button-prev img,
+.swiper-rtl .swiper-button-next img {
+  height: 30px;
+}
+
+.swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: 100px;
+  left: auto;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+.swiper-button-next img,
+.swiper-rtl .swiper-button-prev img {
+  height: 30px;
+}
+
+.swiper-button-lock {
+  display: none;
+}
+
 @font-face {
   font-family: "Work Sans";
   font-weight: 100;
@@ -695,21 +775,27 @@ body::-webkit-scrollbar-thumb {
           align-items: center;
   pointer-events: none;
 }
-.topbar-container .progress-bar-container {
-  width: 100%;
-  background-color: #1A1A1A;
-  border: 1px solid #1A1A1A;
-}
-.topbar-container .progress-bar-container .progress-bar {
+.topbar-container .progress-bar {
   width: 1%;
   height: 10px;
   -webkit-transition: 0.3s width ease-in-out;
   transition: 0.3s width ease-in-out;
   background-color: #FF99CC;
+  margin-right: auto;
+}
+.topbar-container .progress-bar::before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: inherit;
+  position: absolute;
+  background-color: #1A1A1A;
+  z-index: -20;
 }
 .topbar-container .topbar {
   width: 100%;
   padding: 20px;
+  background-color: #1A1A1A;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -720,7 +806,6 @@ body::-webkit-scrollbar-thumb {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-bottom: auto;
-  background-color: #1A1A1A;
 }
 .topbar-container .topbar__logo {
   width: 160px;
@@ -950,6 +1035,7 @@ body.menu-open {
 }
 
 .card {
+  width: 300px;
   min-height: 390px;
   padding: 30px 20px 25px 20px;
   display: -webkit-box;

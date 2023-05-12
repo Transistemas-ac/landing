@@ -31,16 +31,6 @@ function Home() {
 
             <div className="cards-section">
                 <h1 className="cards-section__title">Que hacemos</h1>
-
-                {/* <Swiper
-                    modules={[Pagination]}
-                    spaceBetween={32}
-                    pagination={{ clickable: true }}
-                    className={display === 'desktop' ? 'desktop' : 'mobile'}
-                >
-                    {HomeSlides()}
-                </Swiper> */}
-
                 <SwiperHOC
                     modules={[Pagination]}
                     spaceBetween={32}

@@ -27,6 +27,14 @@ const cards = [
         title: "Equipo Diseño",
         description: "Breve descripción de lo que hace el equipo en dos o tres líneas.",
         link: "Me quiero sumar"
+    },
+
+    {
+        img: teamDesigners,
+        alt: "Descripcion de la imagen",
+        title: "Equipo Diseño",
+        description: "Breve descripción de lo que hace el equipo en dos o tres líneas.",
+        link: "Me quiero sumar"
     }
 ];
 
