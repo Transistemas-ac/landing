@@ -2,12 +2,16 @@
     @include section();
     @include flexCenter(column);
 
-    width: 100%;
-    height: 100%;
+    //background-color: red;
+    justify-content: center;
+    align-items: center;
+    //width: 100%;
+    //height: 100%;
     //margin-bottom: 104px;
 
     &__img{
         width: 80%;
+        height: 80%;
         max-width: 349px;
         max-height: 294px;
         margin-bottom: 80px;

@@ -50,23 +50,57 @@ function Home() {
                 </SwiperHOC>
             </div>
 
+
+
+
+
+
+
             <div className="volunteer-section">
                 <h1 className="volunteer-section__title">¿Querés ser voluntarie?</h1>
-                <img className="volunteer-section__img" src={imgVoluntarie} alt="imagen de voluntaries" />
-                <p className="volunteer-section__description">
-                    <span>
-                        Podés colaborar desde cualquier lugar del mundo, nos reunimos de forma remota.
-                    </span> <br />
 
-                    <span>
-                        Equipos de Diseño, Desarrollo Web, Comunicación, Social o Educación.
-                    </span>
-                    <br />
-                    <strong className="text-yellow">¡Queremos escuchar tus propuestas!</strong>
-                </p>
+                <div className="volunteer-section__conteiner">
 
-                <Button href="/cursos">Sumate</Button>
+                    <img className="volunteer-section__conteiner__img"
+                    src={imgVoluntarie} alt="imagen de voluntaries" />
+
+
+                    <div className="volunteer-section__conteiner__description-buttom">
+
+                        <p className="volunteer-section__conteiner__description-buttom__description">
+                            <span>
+                                Podés colaborar desde cualquier lugar del mundo, nos reunimos de forma remota.
+                            </span>
+
+                            <br />
+                            <br />
+
+                            <span>
+                                Equipos de Diseño, Desarrollo Web, Comunicación, Social o Educación.
+                            </span>
+
+                            <br />
+                            <br />
+
+                            <strong className="text-yellow">¡Queremos escuchar tus propuestas!</strong>
+                        </p>
+
+
+                        <Button className="volunteer-section__conteiner__description-buttom__buttom" 
+                        href="/cursos">Sumate</Button>
+
+                    </div>
+
+                </div>
+
             </div>
+
+
+
+
+
+
+
 
             <div className="contact-section">
                 <h2 className='contact-section__title'>¡Dejanos tu mensaje!</h2>
