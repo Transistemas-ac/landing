@@ -174,6 +174,53 @@
             
         }
 
+        .contact-section{
+            //background-color: red;
+            // border: 1px;
+            // border-color: white;
+            // border-style: solid;
+
+            max-width: 100vw;
+            display: flex;
+            flex-direction: column;
+
+
+            justify-content: center;
+            align-items: center;
+            
+            &__title{
+                //background-color: red;
+                font-size: 40px;
+            }
+
+            &__form{
+                //background-color: red;
+
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+
+                &__form1{
+                    display: flex;
+                    flex-direction: column;
+                    width: 493px;
+                    height: 176px;
+
+                }
+
+                &__form2{
+                    display: flex;
+                    flex-direction: column;
+                    width: 546px;
+                    height: 176px;
+
+                }
+
+            }
+
+            
+        }
+
 
         .footer {
             margin: 62px 0px 45px 0px;

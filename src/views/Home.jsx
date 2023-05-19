@@ -103,15 +103,31 @@ function Home() {
 
 
             <div className="contact-section">
-                <h2 className='contact-section__title'>¡Dejanos tu mensaje!</h2>
 
-                <form className='contact-section__form' action="#">
-                    <input className='contact-section__input' type="text" placeholder='Nombre/s:' />
-                    <input className='contact-section__input' type="text" placeholder='Prenombre/s:' />
-                    <input className='contact-section__input' type="text" placeholder='Correo electrónico:' />
-                    <textarea className='contact-section__textarea' placeholder='Mensaje'></textarea>
-                    <button className='contact-section__send button'>Enviar<img src={iconSend} alt="" /></button>
-                </form>
+                <h2 className="contact-section__title">¡Dejanos tu mensaje!</h2>
+
+                <div className="contact-section__form">
+
+                    <form className='contact-section__form__form1' action="#">
+                        <input className='contact-section__input' type="text" placeholder='Nombre/s:' />
+                        <input className='contact-section__input' type="text" placeholder='Prenombre/s:' />
+                        <input className='contact-section__input' type="text" placeholder='Correo electrónico:' />
+                    </form>
+
+                    <form className='contact-section__form__form2' action="#">
+                        <textarea className='contact-section__textarea' placeholder='Mensaje'></textarea>
+                        <button className='contact-section__send button'>Enviar<img src={iconSend} alt="" /></button>
+                    </form>
+
+
+                </div>
+
+
+
+                
+
+                
+
             </div>
 
             <Footer />
