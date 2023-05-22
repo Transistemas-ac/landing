@@ -1,0 +1,66 @@
+#snackbar-container {
+    width: 100%;
+    // background-color: red;
+    position: fixed;
+    bottom: 0px;
+
+    .snackbar-container__snack {
+        width: 100%;
+        @include flexCenter(column);
+
+        .snack {
+            position: absolute;
+            bottom: 12px;
+            width: 600px;
+            padding: 18px;
+
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            // transform: translateY(0px);
+
+            border-radius: 12px;
+            color: $black;
+            animation: 0.3s ease-in-out forwards dissappear;
+
+            &__close {
+                height: 20px;
+                &:hover {
+                    cursor: pointer;
+                }
+            }
+
+            &.success {
+                background-color: $green;
+            }
+
+            &.error {
+                background-color: $red;
+            }
+
+            &.show {
+                animation: 0.3s ease-in-out forwards appear;
+            }
+        }
+    }
+}
+
+@keyframes appear {
+    0% {
+        transform: translateY(100px);
+    }
+
+    100% {
+        transform: translateY(0px);
+    }
+}
+
+@keyframes dissappear {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(100px);
+    }
+}

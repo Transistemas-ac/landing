@@ -970,6 +970,104 @@ body.menu-open {
     max-width: 72px;
   }
 }
+#snackbar-container {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+}
+#snackbar-container .snackbar-container__snack {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+#snackbar-container .snackbar-container__snack .snack {
+  position: absolute;
+  bottom: 12px;
+  width: 600px;
+  padding: 18px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 12px;
+  color: #1A1A1A;
+  -webkit-animation: 0.3s ease-in-out forwards dissappear;
+          animation: 0.3s ease-in-out forwards dissappear;
+}
+#snackbar-container .snackbar-container__snack .snack__close {
+  height: 20px;
+}
+#snackbar-container .snackbar-container__snack .snack__close:hover {
+  cursor: pointer;
+}
+#snackbar-container .snackbar-container__snack .snack.success {
+  background-color: #4DB281;
+}
+#snackbar-container .snackbar-container__snack .snack.error {
+  background-color: #E35454;
+}
+#snackbar-container .snackbar-container__snack .snack.show {
+  -webkit-animation: 0.3s ease-in-out forwards appear;
+          animation: 0.3s ease-in-out forwards appear;
+}
+
+@-webkit-keyframes appear {
+  0% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+
+@keyframes appear {
+  0% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
+  100% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+}
+@-webkit-keyframes dissappear {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
+}
+@keyframes dissappear {
+  0% {
+    -webkit-transform: translateY(0px);
+            transform: translateY(0px);
+  }
+  100% {
+    -webkit-transform: translateY(100px);
+            transform: translateY(100px);
+  }
+}
 .button {
   display: block;
   position: relative;

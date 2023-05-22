@@ -1,9 +1,6 @@
-// import { Link } from 'react-router-dom';
 import { useEffect, useRef } from 'react';
-import ReactDOM from 'react-dom';
-// import { createRoot } from 'react-dom/client';
 
-import { useSnackbar } from './Snackbar';
+import { snackbar } from './Snackbar';
 
 import iconSend from '../assets/svg/icon_send.svg'
 import iconMail from '../assets/svg/icon_mail.svg'
@@ -29,6 +26,8 @@ function Button({ className, href, children, icon, copy }) {
             case 'copy':
                 icon = { href: iconCopy, alt: 'Icono de copiar texto', copy: true }
                 break;
+            default:
+                break;
         }
 
         Icon = () => {
@@ -38,27 +37,44 @@ function Button({ className, href, children, icon, copy }) {
         }
     }
 
-    useEffect(() => {
+    function copyText(e) {
         if (icon?.copy) {
-            button.current.addEventListener('click', (e) => {
-                e.preventDefault();
-                navigator.clipboard.writeText(copy)
-                    .then(() => {
-                        // const container = document.createElement('div');
-                        // document.body.appendChild(container)
-                        // const root = createRoot(container);
-                        // root.render(<Snackbar message='Exito' duration={8000} />)
-
-                        // const container = document.getElementById('root');
-                        // ReactDOM.createPortal(<Snackbar message='Exito' duration={8000} />, container);
-
-                        useSnackbar('Exito', '', 8000)
-                    })
-                    .catch((error) => {
-                        console.error('Failed to copy text:', error);
-                    });
-            })
+            e.preventDefault();
+            e.stopPropagation();
+            // console.log(e.target)
+            navigator.clipboard.writeText(copy)
+                .then(() => {
+                    snackbar('Texto copiado exitosamente', 'success', 5000)
+                })
+                .catch((error) => {
+                    snackbar('Ha ocurrido un error inesperado', 'error', 5000)
+                });
         }
+    }
+
+    useEffect(() => {
+        // if (icon?.copy) {
+        //     button.current.addEventListener('click', (e) => {
+        //         e.preventDefault();
+        //         e.stopPropagation();
+        //         console.log(e.target)
+        //         navigator.clipboard.writeText(copy)
+        //             .then(() => {
+        //                 // const container = document.createElement('div');
+        //                 // document.body.appendChild(container)
+        //                 // const root = createRoot(container);
+        //                 // root.render(<Snackbar message='Exito' duration={8000} />)
+
+        //                 // const container = document.getElementById('root');
+        //                 // ReactDOM.createPortal(<Snackbar message='Exito' duration={8000} />, container);
+
+        //                 snackbar('Exito', 'x', 8000)
+        //             })
+        //             .catch((error) => {
+        //                 console.error('Failed to copy text:', error);
+        //             });
+        //     })
+        // }
     }, [])
 
 
@@ -72,7 +88,7 @@ function Button({ className, href, children, icon, copy }) {
         //         </a>
         //     </p>
         // </div>
-        <a className={`${className} button`} href={href} ref={button}>
+        <a className={`${className} button`} href={href} ref={button} onClick={(e) => copyText(e)}>
             {children}
             <Icon />
             {/* {ReactDOM.createPortal(<Snackbar message='Exito' duration={8000} />, document.body)} */}
