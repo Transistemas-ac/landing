@@ -1,10 +1,8 @@
-// import { Swiper, SwiperSlide } from 'swiper/react';
-// import PastCourseCard from "../components/PastCourseCard";
 import { SwiperHOC } from "../utils/SwiperHOC"
 import { Pagination } from 'swiper';
 
 import CourseCard from "../components/CourseCard";
-import courseCardImage from "../assets/png/course-card_image.png";
+import courseCardImage from "../assets/svg/course-card-image.svg";
 import { PastCards } from "../utils/CoursesCards"
 
 import Dropdown from "../components/Dropdown";
@@ -14,6 +12,9 @@ function Courses() {
         <div className="courses">
             <div className="courses-section">
                 <h1 className="courses-section__title">Cursos y talleres</h1>
+                <h4 className="courses-section__description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque suspendisse suscipit elit ultricies risus arcu tellus. A, tellus tincidunt tortor, et cras non pretium urna. Risus dolor mi, amet dui dictum et condimentum.
+                </h4>
 
                 <CourseCard
                     title="Introducción a UX/UI"
@@ -23,6 +24,7 @@ function Courses() {
                     date="15/07"
                     duration="4 Semanas"
                     modality="Online"
+                    signupHref="_blank"
                 />
             </div>
 

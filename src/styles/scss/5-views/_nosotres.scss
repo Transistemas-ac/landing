@@ -13,9 +13,6 @@
             margin: 20px auto;
             padding: 0px 16px;
         }
-
-        &__swiper-container {
-        }
     }
 
     .metrics-section {
@@ -62,8 +59,7 @@
                 padding: 0px 16px;
             }
 
-            &__swiper-container {
-            }
+            &__swiper-container {}
         }
 
         .metrics-section {
@@ -80,9 +76,9 @@
 
             text-align: center;
 
-            &__title{
+            &__title {
                 margin: 50px 0px;
-                font-size: $large;
+                font-size: font("large");
             }
         }
 

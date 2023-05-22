@@ -1,6 +1,7 @@
 .metrics {
     $r: &;
     width: 100%;
+    // max-width: unset;
     display: flex;
     flex-direction: column;
     text-align: left;

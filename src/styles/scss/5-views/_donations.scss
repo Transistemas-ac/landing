@@ -1,0 +1,108 @@
+.donations {
+    @include section();
+    @include flexCenter(column);
+
+    &>* {
+        width: 100%;
+        max-width: 700px;
+    }
+
+    &__title {
+        margin-bottom: 50px;
+    }
+
+    &__description {
+        margin-bottom: 50px;
+    }
+
+    .card--divided {
+        &>* {
+            max-width: 380px;
+        }
+
+        a {
+            color: $white;
+            padding: 0px;
+            background-color: transparent;
+            justify-content: space-between;
+            border-radius: 0px;
+        }
+    }
+
+    .enterprise-contact {
+        margin-bottom: 120px;
+
+        &__title {
+            margin-bottom: 20px;
+        }
+
+        &__description {}
+
+        &__button {
+            justify-content: center !important;
+        }
+    }
+
+    .colaborate {
+        height: 450px;
+        border: 2px solid $yellow;
+        margin-bottom: 120px;
+
+        &__ilustration {}
+
+        &__title {}
+
+        &__description {}
+
+        &__button {
+            width: 310px;
+        }
+    }
+
+    .donation {
+        $r: '.donation';
+        margin-bottom: 120px;
+
+        &__title {
+            margin-bottom: 50px;
+        }
+
+        &__inner-container {
+            a:last-of-type {
+                font-weight: 400;
+            }
+        }
+    }
+
+    .transfer {
+        $r: '.transfer';
+        margin-bottom: 120px;
+
+        &__title {
+            margin-bottom: 50px;
+        }
+
+        &__inner-container {
+
+            #{$r}__subtitle {
+                margin-bottom: 10px;
+            }
+
+            #{$r}__type {}
+
+            #{$r}__button {
+                font-weight: 400;
+            }
+        }
+    }
+
+    .metrics-container {
+        width: 100%;
+        max-width: unset;
+        text-align: center;
+
+        &__title {}
+
+        .metrics {}
+    }
+}

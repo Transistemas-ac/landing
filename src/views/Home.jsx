@@ -9,7 +9,7 @@ import HomeSlides from '../utils/HomeCards';
 import imgHero from '../assets/svg/img_transistemas.svg';
 import imgVoluntarie from '../assets/svg/img_voluntarie.svg';
 
-import iconSend from '../assets/svg/icon_send.svg'
+// import iconSend from '../assets/svg/icon_send.svg'
 
 function Home() {
 
@@ -54,7 +54,7 @@ function Home() {
                     <br />
                     <strong className="text-yellow">¡Queremos escuchar tus propuestas!</strong>
                 </p>
-
+            
                 <Button href="/cursos">Sumate</Button>
             </div>
 
@@ -66,7 +66,7 @@ function Home() {
                     <input className='contact-section__input' type="text" placeholder='Prenombre/s:' />
                     <input className='contact-section__input' type="text" placeholder='Correo electrónico:' />
                     <textarea className='contact-section__textarea' placeholder='Mensaje'></textarea>
-                    <button className='contact-section__send button'>Enviar<img src={iconSend} alt="" /></button>
+                    <Button className='contact-section__send' icon='send'>Enviar</Button>
                 </form>
             </div>
 

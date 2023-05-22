@@ -4,6 +4,7 @@ import LoadingScreen from "../views/LoadingScreen";
 const Home = lazy(() => import('../views/Home'))
 const Courses = lazy(() => import('../views/Courses'))
 const Nosotres = lazy(() => import('../views/Nosotres'))
+const Donations = lazy(() => import('../views/Donations'))
 
 const LazyHome = () => (
     <Suspense fallback={<LoadingScreen />}>
@@ -23,6 +24,13 @@ const LazyNosotres = () => (
     </Suspense>
 );
 
+const LazyDonations = () => (
+    <Suspense fallback={<LoadingScreen />}>
+        <Donations />
+    </Suspense>
+);
+
+
 // import loadable from '../utils/loadable';
 
 // const LazyHome = loadable({
@@ -40,4 +48,4 @@ const LazyNosotres = () => (
 //     Loading: LoadingScreen
 // })
 
-export { LazyHome, LazyCourses, LazyNosotres }
+export { LazyHome, LazyCourses, LazyNosotres, LazyDonations }

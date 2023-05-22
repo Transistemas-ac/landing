@@ -19,17 +19,13 @@ function Nosotres() {
                 <p className="teams-section__description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque suspendisse suscipit elit ultricies risus arcu tellus. A, tellus tincidunt tortor, et cras non pretium urna. Risus dolor mi, amet dui dictum et condimentum.
                 </p>
-
-                <div className="teams-section__swiper-container">
-                    <SwiperHOC
-                        modules={[Pagination]}
-                        spaceBetween={20}
-                        pagination={{ clickable: true }}
-                    >
-                        {NosotresCards()}
-                    </SwiperHOC>
-                </div>
-
+                <SwiperHOC
+                    modules={[Pagination]}
+                    spaceBetween={20}
+                    pagination={{ clickable: true }}
+                >
+                    {NosotresCards()}
+                </SwiperHOC>
             </div>
 
             <div className="metrics-section">

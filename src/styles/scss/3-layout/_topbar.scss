@@ -15,6 +15,7 @@
         transition: 0.3s width ease-in-out;
         background-color: $pink;
         margin-right: auto;
+
         &::before {
             content: "";
             display: block;
@@ -69,9 +70,11 @@
                     background-color: $white;
                     transition: all 0.3s;
                 }
+
                 &::after {
                     transform: translateY(-6px);
                 }
+
                 &::before {
                     transform: translateY(6px);
                 }
@@ -91,7 +94,7 @@
         transition: 0.3s opacity;
         opacity: 0;
 
-        font-size: $medium;
+        font-size: font("medium");
         background-color: $black;
         font-weight: 600;
 
@@ -144,6 +147,7 @@ body.menu-open {
 @media screen and (min-width: $tablet-bp) {
     .topbar-container {
         pointer-events: none;
+
         .topbar {
             $r: ".topbar";
 
@@ -153,6 +157,7 @@ body.menu-open {
 
             &__menu-button {
                 display: none;
+
                 #{$r}__menu-icon {
                     display: none;
                 }
@@ -169,7 +174,7 @@ body.menu-open {
                 margin-right: auto;
                 margin-left: auto;
 
-                font-size: $medium;
+                font-size: font("medium");
                 background-color: $black;
                 font-weight: 600;
 

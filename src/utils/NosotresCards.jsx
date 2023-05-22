@@ -2,7 +2,7 @@ import teamProgramming from '../assets/svg/team_programming.svg'
 import teamDesigners from '../assets/svg/team_design.svg'
 import teamCommunication from '../assets/svg/team_communication.svg'
 import { SwiperSlide } from 'swiper/react';
-import Card from '../components/Card';
+import InfoCard from '../components/InfoCard';
 
 const cards = [
     {
@@ -40,7 +40,7 @@ const cards = [
 
 const NosotresSlides = () => cards.map((item, idx) =>
 (<SwiperSlide key={idx}>
-    <Card
+    <InfoCard
         img={item.img}
         alt={item.alt}
         title={item.title}

@@ -13,46 +13,44 @@ export const SwiperHOC = (props) => {
 
     useEffect(() => {
 
-        if (display && !length) {
+        if (!display) { setAvailable({ active: true, extended: false }); return }
+
+        if (!length) {
             swiper.current.swiper.slideTo(1);
             setAvailable({ active: false, extended: false })
-            return
-        }
-
-        if (display && length) {
+        } else {
             setAvailable({ active: true, extended: true })
-            return
         }
-
-        setAvailable({ active: true, extended: false })
     }, [display])
 
-    return <>
-        <Swiper
-            {...props}
-            allowSlideNext={available.active}
-            allowSlidePrev={available.active}
-            allowTouchMove={available.active}
-            slidesPerGroup={1}
-            modules={[Navigation, ...props.modules]}
+    return (
+        <div className='swiper-container'>
+            <Swiper
+                {...props}
+                allowSlideNext={available.active}
+                allowSlidePrev={available.active}
+                allowTouchMove={available.active}
+                slidesPerGroup={1}
+                modules={[Navigation, ...props.modules]}
+                navigation={{
+                    prevEl: '#custom-prev',
+                    nextEl: '#custom-next',
+                }}
 
-            // navigation={true}
-            navigation={{
-                prevEl: '#custom-prev',
-                nextEl: '#custom-next',
-            }}
-            slidesPerView={available.extended ? 3 : 1}
+                slidesPerView={available.extended ? 3 : 1}
 
-            ref={swiper}
-            // loop={true}
-            // loopFillGroupWithBlank={true}
-            className={`${display === 'desktop' ? 'desktop' : 'mobile'}`}
-        />
-        <div id="custom-prev" className='swiper-button-prev'>
-            <img className="swiper-button-prev__arrow" src={dropdownArrow} alt="flecha desplegable" />
+                ref={swiper}
+                className={`${display ? 'desktop' : 'mobile'} ${available.extended ? 'extended' : ''}`}
+            />
+            <div className='swiper-buttons-container'>
+                <div style={{ display: available.extended ? 'flex' : 'none' }} id="custom-prev" className='swiper-button-prev'>
+                    <img className="swiper-button-prev__arrow" src={dropdownArrow} alt="flecha desplegable" />
+                </div>
+                <div style={{ display: available.extended ? 'flex' : 'none' }} id="custom-next" className='swiper-button-next'>
+                    <img className="swiper-button-next__arrow" src={dropdownArrow} alt="flecha desplegable" />
+                </div>
+            </div>
+
         </div>
-        <div id="custom-next" className='swiper-button-next'>
-            <img className="swiper-button-next__arrow" src={dropdownArrow} alt="flecha desplegable" />
-        </div>
-    </>
+    )
 }

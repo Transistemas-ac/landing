@@ -1,52 +1,160 @@
 .course-card {
     $r: &;
-    width: 100%;
-    min-width: 295px;
-    max-width: 328px;
+    // width: 100%;
+    // min-width: 295px;
+    width: 328px;
     min-height: 430px;
     padding: 15px;
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     gap: 12px;
 
     background-color: $grey-darker;
-    color: $white;
     border-radius: 16px;
-    text-align: left;
+    text-align: center;
 
-    &__title {
-
+    &>* {
+        max-width: 310px;
     }
 
-    &__image {
+    &__title {}
 
-    }
+    &__image {}
 
     &__teacher {
+        color: $pink;
     }
 
     &__description {
-        margin-bottom: auto;
+        max-width: 600px
     }
 
-    &__information {
-        @include flexCenter(column);
-        gap: 10px;
+    // &__information {
+    //     @include flexCenter(column);
+    //     gap: 10px;
+    //     width: 100%;
+    //     margin-top: auto;
+
+    #{$r}__curriculum-link {
+        width: fit-content;
+    }
+
+    #{$r}__tags-container {
+        display: flex;
         width: 100%;
-        margin-top: auto;
+        justify-content: space-between;
+        gap: 5px;
 
-        #{$r}__curriculum-link {
-            width: fit-content;
-        }
-    
-        #{$r}__tags-container {
-            display: flex;
-            gap: 10px;
+        #{$r}__tag {
+            // flex: 1;
+            flex-shrink: 0;
+            flex-grow: 1;
+            font-size: font("small");
+            width: max-content;
+            padding: 8px;
+            border-radius: 1000px;
+            border: 1px solid $yellow;
+            font-weight: 500;
         }
     }
 
-    
+    // }
+
+    &.course-card--empty {
+        min-height: 340px;
+
+        #{$r}__icon-container {
+            width: 230px;
+            display: flex;
+            justify-content: space-between;
+            gap: 29px;
+
+            img {
+                height: 56px;
+            }
+        }
+    }
+
+}
+
+@media screen and (min-width: $tablet-bp) {
+    .course-card {
+        $r: &;
+        // width: 100%;
+        // min-width: 295px;
+        width: 700px;
+        min-height: 510px;
+        padding: 15px;
+
+        // display: flex;
+        // flex-direction: column;
+        // justify-content: flex-start;
+        // align-items: center;
+        // gap: 12px;
+
+        background-color: $grey-darker;
+        border-radius: 16px;
+        text-align: center;
+
+        &__title {
+            max-width: unset
+        }
+
+        &__image {}
+
+        &__teacher {}
+
+        &__description {
+            @extend .xx-small;
+        }
+
+        &__information {
+            @include flexCenter(column);
+            gap: 10px;
+            width: 100%;
+            margin-top: auto;
+
+            #{$r}__curriculum-link {
+                width: fit-content;
+            }
+
+            #{$r}__tags-container {
+                display: flex;
+                width: 100%;
+                justify-content: space-between;
+                gap: 5px;
+
+                #{$r}__tag {
+                    // flex: 1;
+                    flex-shrink: 0;
+                    flex-grow: 1;
+                    font-size: font("small");
+                    width: max-content;
+                    padding: 8px;
+                    border-radius: 1000px;
+                    border: 1px solid $yellow;
+                    font-weight: 500;
+                }
+            }
+        }
+
+        &.course-card--empty {
+            min-height: 340px;
+
+            #{$r}__icon-container {
+                width: 230px;
+                display: flex;
+                justify-content: space-between;
+                gap: 29px;
+
+                img {
+                    height: 56px;
+                }
+            }
+        }
+
+    }
 }

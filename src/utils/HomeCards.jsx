@@ -2,7 +2,7 @@ import cardTalleres from '../assets/svg/card_talleres.svg';
 import cardCapacitaciones from '../assets/svg/card_capacitaciones.svg';
 import cardAcompaniamiento from '../assets/svg/card_acompaniamiento.svg';
 import { SwiperSlide } from 'swiper/react';
-import Card from '../components/Card';
+import InfoCard from '../components/InfoCard';
 
 const cards = [
     {
@@ -26,12 +26,13 @@ const cards = [
         alt: "Descripcion de la imagen",
         title: "Acompañamiento",
         description: "Colaboramos con personas de la comunidad a sortear situaciones complejas.",
+        link: "Ver más"
     }
 ];
 
 const HomeSlides = () => cards.map((item, idx) =>
 (<SwiperSlide key={idx}>
-    <Card
+    <InfoCard
         img={item.img}
         alt={item.alt}
         title={item.title}

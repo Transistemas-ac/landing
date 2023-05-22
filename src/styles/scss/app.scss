@@ -1,4 +1,5 @@
 // Helpers
+@use "sass:map";
 @import "./1-helpers/variables.scss";
 @import "./1-helpers/mixins.scss";
 @import "./1-helpers/functions.scss";
@@ -20,17 +21,20 @@
 // Components
 @import "./4-components/button";
 @import "./4-components/card";
-@import "./4-components/dropdown";
-@import "./4-components/contact";
-@import "./4-components/inputs";
-@import "./4-components/tag";
+@import "./4-components/infoCard";
 @import "./4-components/courseCard";
 @import "./4-components/pastCourseCard";
+@import "./4-components/contact";
 @import "./4-components/metrics";
+@import "./4-components/inputs";
 @import "./4-components/integrant";
-@import "./4-components/team";
+@import "./4-components/dropdown";
+// @import "./4-components/team";
+// @import "./4-components/tag";
 
 // Views
 @import "./5-views/home";
 @import "./5-views/nosotres";
 @import "./5-views/courses";
+@import "./5-views/donations";
+@import "./5-views/errorPage";
