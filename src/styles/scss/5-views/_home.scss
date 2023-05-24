@@ -22,11 +22,15 @@
     .cards-section {
         width: 100vw;
         overflow: hidden;
-        margin-bottom: 90px;
+        margin-bottom: 0px;
 
         &__title {
             margin-bottom: 24px;
         }
+    }
+
+    .metrics-section {
+        width: 100%;
     }
 
     .volunteer-section {
@@ -35,20 +39,27 @@
         margin-bottom: 90px;
         max-width: 328px;
 
-        &__img{
-            width: 100%;
+        &__conteiner{
+
+            &__img{
+                width: 100%;
+                }
+
+            &__description-buttom {
+                //background-color: red;
+                margin: 24px;
+                display: flex;
+                flex-direction: column;
+                gap: 5px;
+            }
+
         }
 
         &__title {
             margin-bottom: 24px;
         }
 
-        &__description {
-            margin: 24px;
-            display: flex;
-            flex-direction: column;
-            gap: 5px;
-        }
+
     }
 
     .contact-section {
@@ -60,25 +71,56 @@
             margin-bottom: 30px;
         }
 
-        &__form {
+        &__form{
             display: flex;
             flex-direction: column;
-            align-items: center;
-            gap: 16px;
+            // gap: 16px;
 
-            .contact-section__textarea {
-                &::-webkit-scrollbar {
-                    width: 6px;
+            &__form1{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 16px;
+                padding: 0 0 16px 0;
+
+                .contact-section__textarea {
+                    &::-webkit-scrollbar {
+                        width: 6px;
+                    }
+    
+                    &::-webkit-scrollbar-track {
+                        background: transparent;
+                        margin: 10px 0px;
+                    }
+    
+                    &::-webkit-scrollbar-thumb {
+                        background-color: $black;
+                        border-radius: 20px;
+                    }
                 }
 
-                &::-webkit-scrollbar-track {
-                    background: transparent;
-                    margin: 10px 0px;
-                }
+            }
 
-                &::-webkit-scrollbar-thumb {
-                    background-color: $black;
-                    border-radius: 20px;
+            &__form2{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                gap: 16px;
+
+                .contact-section__textarea {
+                    &::-webkit-scrollbar {
+                        width: 6px;
+                    }
+    
+                    &::-webkit-scrollbar-track {
+                        background: transparent;
+                        margin: 10px 0px;
+                    }
+    
+                    &::-webkit-scrollbar-thumb {
+                        background-color: $black;
+                        border-radius: 20px;
+                    }
                 }
             }
         }
@@ -183,6 +225,7 @@
             max-width: 100vw;
             display: flex;
             flex-direction: column;
+            margin: 0 0 100px 0;
 
 
             justify-content: center;
@@ -199,8 +242,10 @@
                 flex-direction: row;
                 justify-content: center;
                 align-items: center;
+                gap: 80px;
 
                 &__form1{
+                    //background-color: red;
                     display: flex;
                     flex-direction: column;
                     width: 493px;
@@ -209,14 +254,38 @@
                 }
 
                 &__form2{
+                    //background-color: red;
                     display: flex;
                     flex-direction: column;
                     width: 546px;
                     height: 176px;
+                    justify-content: flex-start;   
+
+                    &__textarea{
+                        //background-color: red;
+                        position: absolute;
+                        width: 546px;
+                        height: 176px;                        
+                    }
+
+                    &__send{
+                        //background-color: red;
+                        position: relative;
+                        top: 200px;
+                        left: -70px;
+                        width: 403px;
+                        height: 48px;   
+
+                    }
 
                 }
 
             }
+
+            // &__buttom{
+            //     //background-color: red;
+
+            // }
 
             
         }

@@ -11,6 +11,8 @@ import imgVoluntarie from '../assets/svg/img_voluntarie.svg';
 
 import iconSend from '../assets/svg/icon_send.svg'
 
+import Metrics from '../components/Metrics';
+
 function Home() {
 
     return (
@@ -51,7 +53,9 @@ function Home() {
             </div>
 
 
-
+            <div className="metrics-section">
+                <Metrics />
+            </div>
 
 
 
@@ -115,12 +119,14 @@ function Home() {
                     </form>
 
                     <form className='contact-section__form__form2' action="#">
-                        <textarea className='contact-section__textarea' placeholder='Mensaje'></textarea>
-                        <button className='contact-section__send button'>Enviar<img src={iconSend} alt="" /></button>
+                        <textarea className='contact-section__form__form2__textarea' placeholder='Mensaje'></textarea>
+                        <button className='contact-section__form__form2__send button'>Enviar<img src={iconSend} alt="" /></button>
                     </form>
 
 
                 </div>
+
+
 
 
 

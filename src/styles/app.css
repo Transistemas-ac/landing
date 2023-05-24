@@ -77,6 +77,9 @@ input, textarea {
 input:focus, textarea:focus {
   outline: none;
 }
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: inherit;
+}
 input::placeholder, textarea::placeholder {
   color: inherit;
 }
@@ -301,7 +304,9 @@ button.swiper-pagination-bullet {
   margin: 0;
   padding: 0;
   box-shadow: none;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
@@ -647,6 +652,7 @@ body::-webkit-scrollbar-thumb {
 .topbar-container .menu .menu__link a.donaciones {
   display: block;
   width: 50vw;
+  min-width: -moz-min-content;
   min-width: min-content;
   max-width: 300px;
   padding: 16px 0px;
@@ -875,6 +881,7 @@ textarea {
 
 .tag {
   font-size: small;
+  width: -moz-max-content;
   width: max-content;
   padding: 8px;
   border-radius: 1000px;
@@ -911,6 +918,7 @@ textarea {
   margin-top: auto;
 }
 .course-card__information .course-card__curriculum-link {
+  width: -moz-fit-content;
   width: fit-content;
 }
 .course-card__information .course-card__tags-container {
@@ -1037,10 +1045,13 @@ textarea {
 .home .cards-section {
   width: 100vw;
   overflow: hidden;
-  margin-bottom: 90px;
+  margin-bottom: 0px;
 }
 .home .cards-section__title {
   margin-bottom: 24px;
+}
+.home .metrics-section {
+  width: 100%;
 }
 .home .volunteer-section {
   width: 100%;
@@ -1048,17 +1059,17 @@ textarea {
   margin-bottom: 90px;
   max-width: 328px;
 }
-.home .volunteer-section__img {
+.home .volunteer-section__conteiner__img {
   width: 100%;
 }
-.home .volunteer-section__title {
-  margin-bottom: 24px;
-}
-.home .volunteer-section__description {
+.home .volunteer-section__conteiner__description-buttom {
   margin: 24px;
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+.home .volunteer-section__title {
+  margin-bottom: 24px;
 }
 .home .contact-section {
   width: 100%;
@@ -1071,17 +1082,39 @@ textarea {
 .home .contact-section__form {
   display: flex;
   flex-direction: column;
+}
+.home .contact-section__form__form1 {
+  display: flex;
+  flex-direction: column;
   align-items: center;
   gap: 16px;
+  padding: 0 0 16px 0;
 }
-.home .contact-section__form .contact-section__textarea::-webkit-scrollbar {
+.home .contact-section__form__form1 .contact-section__textarea::-webkit-scrollbar {
   width: 6px;
 }
-.home .contact-section__form .contact-section__textarea::-webkit-scrollbar-track {
+.home .contact-section__form__form1 .contact-section__textarea::-webkit-scrollbar-track {
   background: transparent;
   margin: 10px 0px;
 }
-.home .contact-section__form .contact-section__textarea::-webkit-scrollbar-thumb {
+.home .contact-section__form__form1 .contact-section__textarea::-webkit-scrollbar-thumb {
+  background-color: #1A1A1A;
+  border-radius: 20px;
+}
+.home .contact-section__form__form2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+.home .contact-section__form__form2 .contact-section__textarea::-webkit-scrollbar {
+  width: 6px;
+}
+.home .contact-section__form__form2 .contact-section__textarea::-webkit-scrollbar-track {
+  background: transparent;
+  margin: 10px 0px;
+}
+.home .contact-section__form__form2 .contact-section__textarea::-webkit-scrollbar-thumb {
   background-color: #1A1A1A;
   border-radius: 20px;
 }
@@ -1157,6 +1190,7 @@ textarea {
     max-width: 100vw;
     display: flex;
     flex-direction: column;
+    margin: 0 0 100px 0;
     justify-content: center;
     align-items: center;
   }
@@ -1167,6 +1201,7 @@ textarea {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    gap: 80px;
   }
   .home .contact-section__form__form1 {
     display: flex;
@@ -1179,6 +1214,19 @@ textarea {
     flex-direction: column;
     width: 546px;
     height: 176px;
+    justify-content: flex-start;
+  }
+  .home .contact-section__form__form2__textarea {
+    position: absolute;
+    width: 546px;
+    height: 176px;
+  }
+  .home .contact-section__form__form2__send {
+    position: relative;
+    top: 200px;
+    left: -70px;
+    width: 403px;
+    height: 48px;
   }
 }
 @media screen and (min-width: 1120px) {
@@ -1384,4 +1432,4 @@ textarea {
   max-width: 500px;
   font-size: 32px;
   margin-bottom: 20px;
-}
+}/*# sourceMappingURL=app.css.map */
