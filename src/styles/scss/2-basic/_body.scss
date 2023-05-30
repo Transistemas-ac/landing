@@ -3,3 +3,9 @@ body {
     padding-top: 115px;
     overflow-x: hidden;
 }
+
+@media screen and (min-width: $tablet-bp) {
+    body{
+        padding-top: 180px;
+    }
+}

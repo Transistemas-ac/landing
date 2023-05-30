@@ -52,14 +52,17 @@
 	src: url("../assets/fonts/WorkSans/WorkSans-Black.ttf") format("truetype");
 }
 
-
-
 $font-sizes: (
-	"xx-small": 10px,
-	"x-small": 12px,
-	"small": 14px,
-	"medium":20px,
-	"large":32px
+	"m-xx-small": 10px,
+	"m-x-small": 12px,
+	"m-small": 14px,
+	"m-medium": 20px,
+	"m-large": 32px,
+	"d-xx-small": 18px,
+	"d-x-small": 20px,
+	"d-small": 22px,
+	"d-medium": 24px,
+	"d-large": 40px,
 );
 
 @function font($size) {
@@ -69,7 +72,7 @@ $font-sizes: (
 body {
 	font-family: "Work Sans";
 	color: $white;
-	font-size: font("small");
+	font-size: font("m-small");
 	font-weight: 400;
 	line-height: 130%;
 }
@@ -83,41 +86,37 @@ h3 {
 }
 
 h2 {
-	font-size: font("medium");
+	font-size: font("m-medium");
 	font-weight: 600;
 }
 
 h1 {
-	font-size: font("large");
+	font-size: font("m-large");
 	font-weight: 700;
 	line-height: 100%;
 }
 
 @media screen and (min-width: $tablet-bp) {
-
-	$font-sizes: ("xx-small": 18px,
+	$font-sizes: (
+		"xx-small": 18px,
 		"x-small": 20px,
 		"small": 22px,
-		"medium":24px,
-		"large":40px);
-
-
-	@function font($size) {
-		@return map.get($font-sizes, $size);
-	}
+		"medium": 24px,
+		"large": 40px,
+	);
 
 	.xx-small {
-		font-size: font("xx-small");
+		font-size: font("d-xx-small");
 	}
 
 	.x-small {
-		font-size: font("x-small");
+		font-size: font("d-x-small");
 	}
 
 	body {
 		font-family: "Work Sans";
 		color: $white;
-		font-size: font("small");
+		font-size: font("d-small");
 		font-weight: 400;
 		line-height: 100%;
 	}
@@ -131,12 +130,12 @@ h1 {
 	}
 
 	h2 {
-		font-size: font("medium");
+		font-size: font("d-medium");
 		font-weight: 600;
 	}
 
 	h1 {
-		font-size: font("large");
+		font-size: font("d-large");
 		font-weight: 700;
 		line-height: 100%;
 	}

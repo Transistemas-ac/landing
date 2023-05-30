@@ -2,21 +2,22 @@
     @include section();
     @include flexCenter(column);
 
-    &>* {
+    & > * {
         width: 100%;
-        max-width: 700px;
+        max-width: 425px;
     }
 
     &__title {
-        margin-bottom: 50px;
+        margin-bottom: 24px;
     }
 
     &__description {
-        margin-bottom: 50px;
+        margin-bottom: 43px;
+        max-width: 360px;
     }
 
     .card--divided {
-        &>* {
+        & > * {
             max-width: 380px;
         }
 
@@ -30,13 +31,14 @@
     }
 
     .enterprise-contact {
-        margin-bottom: 120px;
+        margin-bottom: 48px;
 
         &__title {
             margin-bottom: 20px;
         }
 
-        &__description {}
+        &__description {
+        }
 
         &__button {
             justify-content: center !important;
@@ -44,27 +46,30 @@
     }
 
     .colaborate {
-        height: 450px;
+        // height: 450px
         border: 2px solid $yellow;
-        margin-bottom: 120px;
+        margin-bottom: 70px;
+        background-color: transparent;
 
-        &__ilustration {}
+        &__ilustration {
+        }
 
-        &__title {}
+        &__title {
+        }
 
-        &__description {}
+        &__description {
+        }
 
         &__button {
-            width: 310px;
+            max-width: 310px;
         }
     }
 
     .donation {
-        $r: '.donation';
-        margin-bottom: 120px;
+        margin-bottom: 64px;
 
         &__title {
-            margin-bottom: 50px;
+            margin-bottom: 32px;
         }
 
         &__inner-container {
@@ -75,20 +80,20 @@
     }
 
     .transfer {
-        $r: '.transfer';
-        margin-bottom: 120px;
+        $r: ".transfer";
+        margin-bottom: 64px;
 
         &__title {
-            margin-bottom: 50px;
+            margin-bottom: 32px;
         }
 
         &__inner-container {
-
             #{$r}__subtitle {
                 margin-bottom: 10px;
             }
 
-            #{$r}__type {}
+            #{$r}__type {
+            }
 
             #{$r}__button {
                 font-weight: 400;
@@ -101,8 +106,114 @@
         max-width: unset;
         text-align: center;
 
-        &__title {}
+        &__title {
+            margin-bottom: 35px;
+        }
 
-        .metrics {}
+        .metrics {
+            margin: 0px;
+            margin-bottom: 50px;
+        }
+    }
+}
+
+@media screen and (min-width: $tablet-bp) {
+    .donations {
+        & > * {
+            max-width: 700px;
+        }
+
+        &__title {
+            margin-bottom: 50px;
+        }
+
+        &__description {
+            margin-bottom: 120px;
+            max-width: 700px;
+        }
+
+        .card--divided {
+            & > * {
+            }
+
+            a {
+            }
+        }
+
+        .enterprise-contact {
+            margin-bottom: 120px;
+
+            &__title {
+                margin-bottom: 20px;
+            }
+
+            &__description {
+            }
+
+            &__button {
+            }
+        }
+
+        .colaborate {
+            height: 550px;
+            margin-bottom: 120px;
+
+            &__ilustration {
+            }
+
+            &__title {
+            }
+
+            &__description {
+            }
+
+            &__button {
+            }
+        }
+
+        .donation {
+            margin-bottom: 120px;
+
+            &__title {
+                margin-bottom: 50px;
+            }
+
+            &__inner-container {
+                a:last-of-type {
+                    font-weight: 400;
+                }
+            }
+        }
+
+        .transfer {
+            $r: ".transfer";
+            margin-bottom: 120px;
+
+            &__title {
+                margin-bottom: 50px;
+            }
+
+            &__inner-container {
+                #{$r}__subtitle {
+                    margin-bottom: 10px;
+                }
+
+                #{$r}__type {
+                }
+
+                #{$r}__button {
+                }
+            }
+        }
+
+        .metrics-container {
+            &__title {
+                margin-bottom: 70px;
+            }
+
+            .metrics {
+                margin-bottom: 100px;
+            }
+        }
     }
 }

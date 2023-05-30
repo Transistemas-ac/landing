@@ -4,62 +4,64 @@
     position: fixed;
     bottom: 0px;
 
+    @include flexCenter(column);
+
     .snackbar-container__snack {
         width: 100%;
         @include flexCenter(column);
 
-        .snack {
-            position: absolute;
-            bottom: 12px;
-            width: 600px;
-            padding: 18px;
+    .snack {
+        position: absolute;
+        bottom: 12px;
+        width: 600px;
+        padding: 18px;
 
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            // transform: translateY(0px);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // transform: translateY(-300px);
+        // transition: 0.3s transform ease-in-out;
+        animation: 0.3s ease-in-out appear;
 
-            border-radius: 12px;
-            color: $black;
-            animation: 0.3s ease-in-out forwards dissappear;
+        &.dissapear {
+            animation: 0.3s ease-in-out forwards dissapear;
+            // transform: translateY(100px);
+        }
 
-            &__close {
-                height: 20px;
-                &:hover {
-                    cursor: pointer;
-                }
-            }
+        border-radius: 12px;
+        color: $black;
 
-            &.success {
-                background-color: $green;
-            }
-
-            &.error {
-                background-color: $red;
-            }
-
-            &.show {
-                animation: 0.3s ease-in-out forwards appear;
+        &__close {
+            height: 20px;
+            &:hover {
+                cursor: pointer;
             }
         }
+
+        &.success {
+            background-color: $green;
+        }
+
+        &.error {
+            background-color: $red;
+        }
     }
+}
 }
 
 @keyframes appear {
     0% {
         transform: translateY(100px);
     }
-
     100% {
         transform: translateY(0px);
     }
 }
 
-@keyframes dissappear {
+@keyframes dissapear {
     0% {
         transform: translateY(0px);
     }
-
     100% {
         transform: translateY(100px);
     }

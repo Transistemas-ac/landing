@@ -650,6 +650,11 @@ body {
   overflow-x: hidden;
 }
 
+@media screen and (min-width: 980px) {
+  body {
+    padding-top: 180px;
+  }
+}
 .loading-screen {
   width: 100vw;
   height: 100vh;
@@ -913,7 +918,7 @@ body.menu-open {
     pointer-events: auto;
     margin-right: auto;
     margin-left: auto;
-    font-size: 20px;
+    font-size: 24px;
     background-color: #1A1A1A;
     font-weight: 600;
     opacity: 1;
@@ -936,10 +941,13 @@ body.menu-open {
 .footer {
   width: 100%;
   max-width: 240px;
+  margin-bottom: 50px;
+}
+.footer__title {
+  margin-bottom: 40px;
 }
 .footer__icon-container {
   width: 100%;
-  padding: 40px 7px 0px 7px;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 1fr 29px 1fr 29px 1fr;
@@ -953,13 +961,13 @@ body.menu-open {
 
 @media screen and (min-width: 980px) {
   .footer {
-    max-width: 670px;
+    max-width: 700px;
+    margin-bottom: 150px;
   }
   .footer__title {
     display: none;
   }
   .footer__icon-container {
-    padding: 40px 0px 48px 0px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -974,6 +982,19 @@ body.menu-open {
   width: 100%;
   position: fixed;
   bottom: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 #snackbar-container .snackbar-container__snack {
   width: 100%;
@@ -1005,10 +1026,14 @@ body.menu-open {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-animation: 0.3s ease-in-out appear;
+          animation: 0.3s ease-in-out appear;
   border-radius: 12px;
   color: #1A1A1A;
-  -webkit-animation: 0.3s ease-in-out forwards dissappear;
-          animation: 0.3s ease-in-out forwards dissappear;
+}
+#snackbar-container .snackbar-container__snack .snack.dissapear {
+  -webkit-animation: 0.3s ease-in-out forwards dissapear;
+          animation: 0.3s ease-in-out forwards dissapear;
 }
 #snackbar-container .snackbar-container__snack .snack__close {
   height: 20px;
@@ -1021,10 +1046,6 @@ body.menu-open {
 }
 #snackbar-container .snackbar-container__snack .snack.error {
   background-color: #E35454;
-}
-#snackbar-container .snackbar-container__snack .snack.show {
-  -webkit-animation: 0.3s ease-in-out forwards appear;
-          animation: 0.3s ease-in-out forwards appear;
 }
 
 @-webkit-keyframes appear {
@@ -1048,7 +1069,7 @@ body.menu-open {
             transform: translateY(0px);
   }
 }
-@-webkit-keyframes dissappear {
+@-webkit-keyframes dissapear {
   0% {
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
@@ -1058,7 +1079,7 @@ body.menu-open {
             transform: translateY(100px);
   }
 }
-@keyframes dissappear {
+@keyframes dissapear {
   0% {
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
@@ -1221,7 +1242,6 @@ body.menu-open {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
-  font-size: 14px;
   width: -webkit-max-content;
   width: -moz-max-content;
   width: max-content;
@@ -1298,7 +1318,6 @@ body.menu-open {
     -webkit-box-flex: 1;
         -ms-flex-positive: 1;
             flex-grow: 1;
-    font-size: 14px;
     width: -webkit-max-content;
     width: -moz-max-content;
     width: max-content;
@@ -1726,16 +1745,22 @@ textarea {
 }
 .nosotres .teams-section {
   width: 100vw;
+  margin-bottom: 60px;
   overflow: hidden;
+}
+.nosotres .teams-section__title {
+  margin-bottom: 20px;
 }
 .nosotres .teams-section__description {
   width: 100%;
-  max-width: 800px;
-  margin: 20px auto;
+  max-width: 420px;
+  margin: 0px auto;
+  margin-bottom: 20px;
   padding: 0px 16px;
 }
-.nosotres .metrics-section {
-  width: 100%;
+.nosotres .metrics {
+  margin: 0px;
+  margin-bottom: 120px;
 }
 .nosotres .integrants-section {
   width: 100%;
@@ -1748,84 +1773,36 @@ textarea {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 20px;
+  margin-bottom: 76px;
 }
-.nosotres .dropdown {
+.nosotres .integrants-section .dropdown {
   padding: 0px 5px;
 }
-.nosotres .dropdown__title {
+.nosotres .integrants-section .dropdown__title {
   color: #FFCC00;
   padding-left: 0px;
 }
-.nosotres .footer {
-  margin: 62px 0px 45px 0px;
-}
-
-@media screen and (min-width: 980px) {
-  .nosotres {
-    padding: 0px 16px;
-    width: 100%;
-    max-width: 1080px;
-    margin: 0 auto;
-    overflow: hidden;
-    text-align: center;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-}
-@media screen and (min-width: 980px) and (min-width: 980px) {
-  .nosotres {
-    overflow: visible;
-  }
-}
 @media screen and (min-width: 980px) {
   .nosotres .teams-section {
-    width: 100vw;
-    overflow: hidden;
+    margin-bottom: 140px;
+  }
+  .nosotres .teams-section__title {
+    margin-bottom: 48px;
   }
   .nosotres .teams-section__description {
-    width: 100%;
+    margin-bottom: 120px;
     max-width: 800px;
-    margin: 20px auto;
-    padding: 0px 16px;
   }
-}
-@media screen and (min-width: 980px) {
-  .nosotres .metrics-section {
-    width: 100%;
+  .nosotres .metrics {
+    margin-bottom: 140px;
   }
-}
-@media screen and (min-width: 980px) {
   .nosotres .integrants-section {
-    text-align: center;
+    margin-bottom: 120px;
   }
   .nosotres .integrants-section__title {
-    margin: 50px 0px;
-    font-size: 32px;
-  }
-}
-@media screen and (min-width: 980px) {
-  .nosotres .dropdown {
-    padding: 0px 5px;
-  }
-  .nosotres .dropdown__title {
-    color: #FFCC00;
-    padding-left: 0px;
-  }
-}
-@media screen and (min-width: 980px) {
-  .nosotres .footer {
-    margin: 62px 0px 45px 0px;
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 80px;
   }
 }
 .courses {
@@ -1869,30 +1846,31 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  margin-bottom: 41px;
+  margin-bottom: 72px;
 }
 .courses .courses-section__title {
-  margin-bottom: 40px;
+  margin-bottom: 24px;
 }
 .courses .courses-section__description {
-  margin-bottom: 40px;
+  max-width: 420px;
+  margin-bottom: 24px;
 }
 .courses .past-courses-section {
   width: 100vw;
   overflow: hidden;
-  margin-bottom: 44px;
+  margin-bottom: 40px;
 }
 .courses .past-courses-section__title {
-  margin-bottom: 11px;
+  margin-bottom: 15px;
 }
 .courses .past-courses-section__description {
-  margin-bottom: 24px;
+  margin-bottom: 25px;
 }
 .courses .past-courses-section .swiper-pagination {
   margin: 0px;
 }
 .courses .faq-section {
-  margin-bottom: 150px;
+  margin-bottom: 132px;
   width: 100%;
   text-align: left;
   display: -webkit-box;
@@ -1911,6 +1889,32 @@ textarea {
   padding-left: 0px;
 }
 
+@media screen and (min-width: 980px) {
+  .courses .courses-section {
+    margin-bottom: 120px;
+  }
+  .courses .courses-section__title {
+    margin-bottom: 48px;
+  }
+  .courses .courses-section__description {
+    max-width: 800px;
+    margin-bottom: 120px;
+  }
+  .courses .past-courses-section {
+    margin-bottom: 119px;
+  }
+  .courses .past-courses-section__title {
+    margin-bottom: 31px;
+  }
+  .courses .past-courses-section__description {
+    margin-bottom: 72px;
+  }
+  .courses .faq-section__title {
+    margin-bottom: 104px;
+    text-align: center;
+    font-size: 40px;
+  }
+}
 .donations {
   padding: 0px 16px;
   width: 100%;
@@ -1939,13 +1943,14 @@ textarea {
 }
 .donations > * {
   width: 100%;
-  max-width: 700px;
+  max-width: 425px;
 }
 .donations__title {
-  margin-bottom: 50px;
+  margin-bottom: 24px;
 }
 .donations__description {
-  margin-bottom: 50px;
+  margin-bottom: 43px;
+  max-width: 360px;
 }
 .donations .card--divided > * {
   max-width: 380px;
@@ -1960,7 +1965,7 @@ textarea {
   border-radius: 0px;
 }
 .donations .enterprise-contact {
-  margin-bottom: 120px;
+  margin-bottom: 48px;
 }
 .donations .enterprise-contact__title {
   margin-bottom: 20px;
@@ -1971,27 +1976,27 @@ textarea {
           justify-content: center !important;
 }
 .donations .colaborate {
-  height: 450px;
   border: 2px solid #FFCC00;
-  margin-bottom: 120px;
+  margin-bottom: 70px;
+  background-color: transparent;
 }
 .donations .colaborate__button {
-  width: 310px;
+  max-width: 310px;
 }
 .donations .donation {
-  margin-bottom: 120px;
+  margin-bottom: 64px;
 }
 .donations .donation__title {
-  margin-bottom: 50px;
+  margin-bottom: 32px;
 }
 .donations .donation__inner-container a:last-of-type {
   font-weight: 400;
 }
 .donations .transfer {
-  margin-bottom: 120px;
+  margin-bottom: 64px;
 }
 .donations .transfer__title {
-  margin-bottom: 50px;
+  margin-bottom: 32px;
 }
 .donations .transfer__inner-container .transfer__subtitle {
   margin-bottom: 10px;
@@ -2003,6 +2008,60 @@ textarea {
   width: 100%;
   max-width: unset;
   text-align: center;
+}
+.donations .metrics-container__title {
+  margin-bottom: 35px;
+}
+.donations .metrics-container .metrics {
+  margin: 0px;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 980px) {
+  .donations > * {
+    max-width: 700px;
+  }
+  .donations__title {
+    margin-bottom: 50px;
+  }
+  .donations__description {
+    margin-bottom: 120px;
+    max-width: 700px;
+  }
+  .donations .enterprise-contact {
+    margin-bottom: 120px;
+  }
+  .donations .enterprise-contact__title {
+    margin-bottom: 20px;
+  }
+  .donations .colaborate {
+    height: 550px;
+    margin-bottom: 120px;
+  }
+  .donations .donation {
+    margin-bottom: 120px;
+  }
+  .donations .donation__title {
+    margin-bottom: 50px;
+  }
+  .donations .donation__inner-container a:last-of-type {
+    font-weight: 400;
+  }
+  .donations .transfer {
+    margin-bottom: 120px;
+  }
+  .donations .transfer__title {
+    margin-bottom: 50px;
+  }
+  .donations .transfer__inner-container .transfer__subtitle {
+    margin-bottom: 10px;
+  }
+  .donations .metrics-container__title {
+    margin-bottom: 70px;
+  }
+  .donations .metrics-container .metrics {
+    margin-bottom: 100px;
+  }
 }
 .error-page {
   padding: 0px 16px;

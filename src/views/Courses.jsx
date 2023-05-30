@@ -2,6 +2,7 @@ import { SwiperHOC } from "../utils/SwiperHOC"
 import { Pagination } from 'swiper';
 
 import CourseCard from "../components/CourseCard";
+import Footer from "../components/Footer";
 import courseCardImage from "../assets/svg/course-card-image.svg";
 import { PastCards } from "../utils/CoursesCards"
 
@@ -53,6 +54,8 @@ function Courses() {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quasi nostrum hic, fugiat quas delectus cum quis
                 </Dropdown>
             </div>
+
+            <Footer />
         </div>
     );
 }

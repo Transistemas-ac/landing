@@ -44,40 +44,13 @@ function Button({ className, href, children, icon, copy }) {
             // console.log(e.target)
             navigator.clipboard.writeText(copy)
                 .then(() => {
-                    snackbar('Texto copiado exitosamente', 'success', 5000)
+                    snackbar('Texto copiado exitosamente', 'success', 3000)
                 })
                 .catch((error) => {
-                    snackbar('Ha ocurrido un error inesperado', 'error', 5000)
+                    snackbar('Ha ocurrido un error inesperado', 'error', 3000)
                 });
         }
     }
-
-    useEffect(() => {
-        // if (icon?.copy) {
-        //     button.current.addEventListener('click', (e) => {
-        //         e.preventDefault();
-        //         e.stopPropagation();
-        //         console.log(e.target)
-        //         navigator.clipboard.writeText(copy)
-        //             .then(() => {
-        //                 // const container = document.createElement('div');
-        //                 // document.body.appendChild(container)
-        //                 // const root = createRoot(container);
-        //                 // root.render(<Snackbar message='Exito' duration={8000} />)
-
-        //                 // const container = document.getElementById('root');
-        //                 // ReactDOM.createPortal(<Snackbar message='Exito' duration={8000} />, container);
-
-        //                 snackbar('Exito', 'x', 8000)
-        //             })
-        //             .catch((error) => {
-        //                 console.error('Failed to copy text:', error);
-        //             });
-        //     })
-        // }
-    }, [])
-
-
 
     return (
         // <div className={`${className} button`}>

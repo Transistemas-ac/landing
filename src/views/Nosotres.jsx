@@ -28,9 +28,7 @@ function Nosotres() {
                 </SwiperHOC>
             </div>
 
-            <div className="metrics-section">
-                <Metrics />
-            </div>
+            <Metrics />
 
             <div className="integrants-section">
                 <h2 className="integrants-section__title">Integrantes de Transistemas</h2>

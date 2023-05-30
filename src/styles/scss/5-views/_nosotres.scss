@@ -4,19 +4,25 @@
 
     .teams-section {
         width: 100vw;
-        // margin-bottom: 60px;
+        margin-bottom: 60px;
         overflow: hidden;
+
+        &__title {
+            margin-bottom: 20px;
+        }
 
         &__description {
             width: 100%;
-            max-width: 800px;
-            margin: 20px auto;
+            max-width: 420px;
+            margin: 0px auto;
+            margin-bottom: 20px;
             padding: 0px 16px;
         }
     }
 
-    .metrics-section {
-        width: 100%;
+    .metrics {
+        margin: 0px;
+        margin-bottom: 120px;
     }
 
     .integrants-section {
@@ -26,61 +32,7 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
-    }
-
-    .dropdown {
-        padding: 0px 5px;
-
-        &__title {
-            color: $yellow;
-            padding-left: 0px;
-        }
-    }
-
-    .footer {
-        margin: 62px 0px 45px 0px;
-    }
-}
-
-@media screen and (min-width: $tablet-bp) {
-    .nosotres {
-        @include section();
-        @include flexCenter(column);
-
-        .teams-section {
-            width: 100vw;
-            // margin-bottom: 60px;
-            overflow: hidden;
-
-            &__description {
-                width: 100%;
-                max-width: 800px;
-                margin: 20px auto;
-                padding: 0px 16px;
-            }
-
-            &__swiper-container {}
-        }
-
-        .metrics-section {
-            width: 100%;
-        }
-
-        .integrants-section {
-            // width: 100%;
-            // text-align: left;
-
-            // display: flex;
-            // flex-direction: column;
-            // gap: 20px;
-
-            text-align: center;
-
-            &__title {
-                margin: 50px 0px;
-                font-size: font("large");
-            }
-        }
+        margin-bottom: 76px;
 
         .dropdown {
             padding: 0px 5px;
@@ -90,9 +42,47 @@
                 padding-left: 0px;
             }
         }
+    }
+
+    .footer {
+    }
+}
+
+@media screen and (min-width: $tablet-bp) {
+    .nosotres {
+        .teams-section {
+            margin-bottom: 140px;
+
+            &__title {
+                margin-bottom: 48px;
+            }
+
+            &__description {
+                margin-bottom: 120px;
+                max-width: 800px;
+            }
+        }
+
+        .metrics {
+            margin-bottom: 140px;
+        }
+
+        .integrants-section {
+            margin-bottom: 120px;
+
+            &__title{
+                text-align: center;
+                font-size: font('d-large');
+                margin-bottom: 80px;
+            }
+
+            .dropdown {
+                &__title {
+                }
+            }
+        }
 
         .footer {
-            margin: 62px 0px 45px 0px;
         }
     }
 }
