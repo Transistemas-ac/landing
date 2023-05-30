@@ -1576,10 +1576,13 @@ textarea {
 .home .cards-section {
   width: 100vw;
   overflow: hidden;
-  margin-bottom: 90px;
+  margin-bottom: 0px;
 }
 .home .cards-section__title {
   margin-bottom: 24px;
+}
+.home .metrics-section {
+  width: 100%;
 }
 .home .volunteer-section {
   width: 100%;
@@ -1587,13 +1590,10 @@ textarea {
   margin-bottom: 90px;
   max-width: 328px;
 }
-.home .volunteer-section__img {
+.home .volunteer-section__conteiner__img {
   width: 100%;
 }
-.home .volunteer-section__title {
-  margin-bottom: 24px;
-}
-.home .volunteer-section__description {
+.home .volunteer-section__conteiner__description-buttom {
   margin: 24px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1603,6 +1603,9 @@ textarea {
       -ms-flex-direction: column;
           flex-direction: column;
   gap: 5px;
+}
+.home .volunteer-section__title {
+  margin-bottom: 24px;
 }
 .home .contact-section {
   width: 100%;
@@ -1620,19 +1623,53 @@ textarea {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+.home .contact-section__form__form1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 16px;
+  padding: 0 0 16px 0;
+}
+.home .contact-section__form__form1 .contact-section__textarea::-webkit-scrollbar {
+  width: 6px;
+}
+.home .contact-section__form__form1 .contact-section__textarea::-webkit-scrollbar-track {
+  background: transparent;
+  margin: 10px 0px;
+}
+.home .contact-section__form__form1 .contact-section__textarea::-webkit-scrollbar-thumb {
+  background-color: #1A1A1A;
+  border-radius: 20px;
+}
+.home .contact-section__form__form2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
   gap: 16px;
 }
-.home .contact-section__form .contact-section__textarea::-webkit-scrollbar {
+.home .contact-section__form__form2 .contact-section__textarea::-webkit-scrollbar {
   width: 6px;
 }
-.home .contact-section__form .contact-section__textarea::-webkit-scrollbar-track {
+.home .contact-section__form__form2 .contact-section__textarea::-webkit-scrollbar-track {
   background: transparent;
   margin: 10px 0px;
 }
-.home .contact-section__form .contact-section__textarea::-webkit-scrollbar-thumb {
+.home .contact-section__form__form2 .contact-section__textarea::-webkit-scrollbar-thumb {
   background-color: #1A1A1A;
   border-radius: 20px;
 }
@@ -1689,19 +1726,30 @@ textarea {
 @media screen and (min-width: 980px) {
   .home .volunteer-section {
     max-width: 100vw;
-    margin-bottom: 104px;
-  }
-  .home .volunteer-section__img {
-    width: 100vw;
-    max-width: 546px;
-    height: 100vw;
-    max-height: 320px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
   }
   .home .volunteer-section__title {
     margin-bottom: 24px;
   }
-  .home .volunteer-section__description {
-    margin: 24px;
+  .home .volunteer-section__conteiner {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  .home .volunteer-section__conteiner__img {
+    height: 320px;
+    width: 546px;
+  }
+  .home .volunteer-section__conteiner__description-buttom {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1709,7 +1757,83 @@ textarea {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    gap: 5px;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .home .volunteer-section__conteiner__description-buttom__description {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 980px) {
+  .home .contact-section {
+    max-width: 100vw;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0 0 100px 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .home .contact-section__title {
+    font-size: 40px;
+  }
+  .home .contact-section__form {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 80px;
+  }
+  .home .contact-section__form__form1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 493px;
+    height: 176px;
+  }
+  .home .contact-section__form__form2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 546px;
+    height: 176px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .home .contact-section__form__form2__textarea {
+    position: absolute;
+    width: 546px;
+    height: 176px;
+  }
+  .home .contact-section__form__form2__send {
+    position: relative;
+    top: 200px;
+    left: -70px;
+    width: 403px;
+    height: 48px;
   }
 }
 @media screen and (min-width: 980px) {
@@ -2083,8 +2207,9 @@ textarea {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  width: 100%;
-  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 @media screen and (min-width: 980px) {
   .error-page {
@@ -2093,6 +2218,7 @@ textarea {
 }
 .error-page__img {
   width: 80%;
+  height: 80%;
   max-width: 349px;
   max-height: 294px;
   margin-bottom: 80px;

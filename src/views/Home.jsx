@@ -11,6 +11,8 @@ import imgVoluntarie from '../assets/svg/img_voluntarie.svg';
 
 // import iconSend from '../assets/svg/icon_send.svg'
 
+import Metrics from '../components/Metrics';
+
 function Home() {
 
     return (
@@ -40,34 +42,89 @@ function Home() {
                 </SwiperHOC>
             </div>
 
-            <div className="volunteer-section">
-                <h1 className="volunteer-section__title">¿Querés ser voluntarie?</h1>
-                <img className="volunteer-section__img" src={imgVoluntarie} alt="imagen de voluntaries" />
-                <p className="volunteer-section__description">
-                    <span>
-                        Podés colaborar desde cualquier lugar del mundo, nos reunimos de forma remota.
-                    </span> <br />
 
-                    <span>
-                        Equipos de Diseño, Desarrollo Web, Comunicación, Social o Educación.
-                    </span>
-                    <br />
-                    <strong className="text-yellow">¡Queremos escuchar tus propuestas!</strong>
-                </p>
-            
-                <Button href="/cursos">Sumate</Button>
+            <div className="metrics-section">
+                <Metrics />
             </div>
 
-            <div className="contact-section">
-                <h2 className='contact-section__title'>¡Dejanos tu mensaje!</h2>
 
-                <form className='contact-section__form' action="#">
-                    <input className='contact-section__input' type="text" placeholder='Nombre/s:' />
-                    <input className='contact-section__input' type="text" placeholder='Prenombre/s:' />
-                    <input className='contact-section__input' type="text" placeholder='Correo electrónico:' />
-                    <textarea className='contact-section__textarea' placeholder='Mensaje'></textarea>
-                    <Button className='contact-section__send' icon='send'>Enviar</Button>
-                </form>
+
+
+            <div className="volunteer-section">
+                <h1 className="volunteer-section__title">¿Querés ser voluntarie?</h1>
+
+                <div className="volunteer-section__conteiner">
+
+                    <img className="volunteer-section__conteiner__img"
+                        src={imgVoluntarie} alt="imagen de voluntaries" />
+
+
+                    <div className="volunteer-section__conteiner__description-buttom">
+
+                        <p className="volunteer-section__conteiner__description-buttom__description">
+                            <span>
+                                Podés colaborar desde cualquier lugar del mundo, nos reunimos de forma remota.
+                            </span>
+
+                            <br />
+                            <br />
+
+                            <span>
+                                Equipos de Diseño, Desarrollo Web, Comunicación, Social o Educación.
+                            </span>
+
+                            <br />
+                            <br />
+
+                            <strong className="text-yellow">¡Queremos escuchar tus propuestas!</strong>
+                        </p>
+
+
+                        <Button className="volunteer-section__conteiner__description-buttom__buttom"
+                            href="/cursos">Sumate</Button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+            <div className="contact-section">
+
+                <h2 className="contact-section__title">¡Dejanos tu mensaje!</h2>
+
+                <div className="contact-section__form">
+
+                    <form className='contact-section__form__form1' action="#">
+                        <input className='contact-section__input' type="text" placeholder='Nombre/s:' />
+                        <input className='contact-section__input' type="text" placeholder='Prenombre/s:' />
+                        <input className='contact-section__input' type="text" placeholder='Correo electrónico:' />
+                    </form>
+
+                    <form className='contact-section__form__form2' action="#">
+                        <textarea className='contact-section__form__form2__textarea' placeholder='Mensaje'></textarea>
+                        <button className='contact-section__form__form2__send button'>Enviar</button>
+                        {/* <img src={iconSend} alt="" /> */}
+                    </form>
+
+
+                </div>
+
+
+
+
+
+
+
+
+
             </div>
 
             <Footer />
