@@ -1,21 +1,25 @@
-//import cardImage from '../media/svg/carousel-image-0.svg'; // gives image path
+import { Children } from "react";
 
-//<img className="card__image" src={cardImage} />
-function Card(props) {
+function Card({ className, children, divider = false }) {
+
+    const arrayChildren = Children.toArray(children);
+
+
     return (
-        <div className="card">
-            <img className="card__image" src={props.img} />
+        <div className={`${className} card ${divider ? 'card--divided' : ''}`}>
+            {
+                divider
+                    ?
+                    Children.map(arrayChildren, (child, idx) =>
+                        <>{child} <hr /></>)
+                        // idx !== arrayChildren.length - 1 ? <>{child} <hr /></> : <>{child}</>)
+                    :
+                    children
+            }
 
-            <h2 className="card__title">{props.title}</h2>
-
-            <p className="card__description">{props.description}</p>
-
-            <a className="card__link" href="#">{props.link}</a>
+            {/* <hr /> */}
         </div>
-    );
+    )
 }
 
-export default Card;
-
-
-
+export default Card;    

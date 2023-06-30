@@ -1,0 +1,41 @@
+.dropdown{
+    width: 100%;
+    border-bottom: 1px solid white;
+
+    
+    &__title{
+        width: 100%;
+        color: $white;
+        padding-bottom: 12px;
+        padding-left: 5px;
+        font-weight: 600;
+
+        display: flex;
+        justify-content: space-between;
+
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    &__arrow{
+        width: 20px;
+        transition: 0.3s transform ease-in-out;
+
+        &.active{
+            transform: rotateX(180deg);
+        }
+    }
+
+    &__info{
+        transition-property: max-height, margin;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
+        max-height: 0px;
+        overflow: hidden;
+
+        &.active{
+            margin-bottom: 20px;
+        }
+    }
+}

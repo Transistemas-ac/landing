@@ -1,0 +1,211 @@
+.home {
+    @include section();
+    @include flexCenter(column);
+
+    .hero-section {
+        margin-bottom: 104px;
+
+        &__illustration {
+            width: 100%;
+            max-width: 500px;
+            margin-bottom: 25px;
+        }
+
+        &__description {
+            width: 100%;
+            max-width: 500px;
+            margin-bottom: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        &__button {
+            max-width: 330px;
+            margin: 0 auto;
+        }
+    }
+
+    .cards-section {
+        width: 100vw;
+        overflow: hidden;
+        margin-bottom: 0px;
+
+        &__title {
+            margin-bottom: 24px;
+        }
+    }
+
+    .metrics-section {
+        width: 100%;
+    }
+
+    .volunteer-section {
+        $r: ".volunteer-section";
+        width: 100%;
+        overflow: hidden;
+        margin-bottom: 104px;
+        max-width: 328px;
+
+        &__title {
+            margin-bottom: 26px;
+        }
+
+        &__inner-container {
+            #{$r}__illustration {
+                width: 100%;
+            }
+
+            #{$r}__info-container {
+                margin-top: 20px;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 20px;
+
+                #{$r}__info {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    flex-grow: 1;
+                    gap: 20px;
+                }
+
+                #{$r}__button {
+                }
+            }
+        }
+    }
+
+    .contact-section {
+        $r: ".contact-section";
+        width: 100%;
+        max-width: 328px;
+        margin-bottom: 104px;
+        text-align: left;
+
+        &__title {
+            margin-bottom: 30px;
+        }
+
+        &__form {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            .contact-section__textarea {
+                &::-webkit-scrollbar {
+                    width: 6px;
+                }
+
+                &::-webkit-scrollbar-track {
+                    background: transparent;
+                    margin: 10px 0px;
+                }
+
+                &::-webkit-scrollbar-thumb {
+                    background-color: $black;
+                    border-radius: 20px;
+                }
+            }
+
+            #{$r}__input-container {
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+                width: 100%;
+
+                #{$r}__button {
+                    max-width: 400px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+
+    .footer {
+        // margin: 104px 0px 41px 0px;
+    }
+}
+
+@media screen and (min-width: $tablet-bp) {
+    .home {
+        @include section();
+        @include flexCenter(column);
+
+        .hero-section {
+            &__illustration {
+                max-width: 735px;
+            }
+
+            &__description {
+                max-width: 800px;
+            }
+
+            &__button {
+                max-width: 400px;
+            }
+        }
+
+        .volunteer-section {
+            $r: ".volunteer-section";
+            max-width: 1120px;
+            margin-bottom: 135px;
+
+            &__title {
+                margin-bottom: 64px;
+            }
+
+            &__inner-container {
+                width: 100%;
+                display: flex;
+                gap: 20px;
+
+                #{$r}__illustration {
+                }
+
+                #{$r}__info-container {
+                    margin: 0px;
+                    gap: 40px;
+
+                    #{$r}__info {
+                    }
+
+                    #{$r}__button {
+                    }
+                }
+            }
+        }
+
+        .contact-section {
+            $r: ".contact-section";
+            text-align: center;
+            max-width: 1120px;
+            margin-bottom: 190px;
+
+            &__title {
+                font-size: font("d-large");
+                margin-bottom: 68px;
+            }
+
+            &__form {
+                flex-direction: row;
+                gap: 70px;
+
+                #{$r}__input-container {
+                    justify-content: space-between;
+
+                    #{$r}__button {
+                        position: absolute;
+                        bottom: -40%;
+                    }
+                }
+            }
+        }
+
+        .footer {
+        }
+    }
+}

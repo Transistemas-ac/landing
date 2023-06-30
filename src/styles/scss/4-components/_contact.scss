@@ -1,0 +1,49 @@
+
+.contact{
+    height: 48px;
+    width: 100%;
+    padding: 19px 15px;
+    //margin: 0 auto;
+    
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: left;
+    gap: 22px;
+
+
+    
+    background-color: $black;
+    border: 1px solid;
+    border-color: $white;
+    color: $white;
+    border-radius: 1000px;
+    text-align: left;
+
+
+
+
+
+
+
+
+    // &__image{
+    //     height: 175px;
+    // }
+    
+    // &__title{
+    //     color: $pink;
+    //  }
+
+    // &__description{
+
+    // }
+
+    // &__link{
+    //     color: $yellow;
+    //     text-decoration: none;
+    //     font-weight: 600;
+    // }
+
+}

@@ -1,41 +1,28 @@
-
-.card{
-    height: 100%;
-    width: 300px;
-    margin: 0 auto;
-
+.card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-
-    gap: 20px;
-    padding: 40px 20px;
-
-    background-color: $card-bg;
-    color: $text;
+    justify-content: space-between;
+    gap: 22px;
+    background-color: $grey-darker;
+    padding: 24px 28px 31px 24px;
     border-radius: 16px;
-    text-align: center;
 
 
+    &.card--divided {
+        overflow: hidden;
 
+        hr {
+            width: 200%;
+            height: 2px;
+            max-width: unset;
+            background-color: $grey-light;
+            border: 0px;
 
-    &__image{
-        height: 175px;
-    }
-    
-    &__title{
-        font-weight: 600;
-    }
-
-    &__description{
-        font-weight: 300;
-    }
-
-    &__link{
-        color: $accent;
-        text-decoration: none;
-        font-weight: 500;
+            &:last-child{
+                display: none;
+            }
+        }
     }
 
 }

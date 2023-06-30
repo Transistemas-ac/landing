@@ -1,18 +1,41 @@
-// Tools
-@import './0-tools/reset.scss';
-
 // Helpers
-@import './1-helpers/variables.scss';
-@import './1-helpers/mixins.scss';
-@import './1-helpers/functions.scss';
+@use "sass:map";
+@import "./1-helpers/variables.scss";
+@import "./1-helpers/mixins.scss";
+@import "./1-helpers/functions.scss";
+
+// Tools
+@import "./0-tools/reset.scss";
+@import "./0-tools/swiper";
 
 // Basic
-@import './2-basic/fonts.scss';
-@import './2-basic/body';
+@import "./2-basic/fonts.scss";
+@import "./2-basic/body";
 
-// Modules
-@import './3-layout/header';
-@import './4-components/card';
+// Layout
+@import "./3-layout/loading-screen";
+@import "./3-layout/scrollbar";
+@import "./3-layout/topbar";
+@import "./3-layout/footer";
+@import "./3-layout/snackbar";
+
+// Components
+@import "./4-components/button";
+@import "./4-components/card";
+@import "./4-components/infoCard";
+@import "./4-components/courseCard";
+@import "./4-components/pastCourseCard";
+@import "./4-components/contact";
+@import "./4-components/metrics";
+@import "./4-components/inputs";
+@import "./4-components/integrant";
+@import "./4-components/dropdown";
+// @import "./4-components/team";
+// @import "./4-components/tag";
 
 // Views
-@import './5-views/home';
+@import "./5-views/home";
+@import "./5-views/nosotres";
+@import "./5-views/courses";
+@import "./5-views/donations";
+@import "./5-views/errorPage";

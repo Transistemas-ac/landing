@@ -1,0 +1,28 @@
+@mixin flexCenter($direction) {
+    display: flex;
+    flex-direction: $direction;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin section() {
+    padding: 0px 16px;
+    width: 100%;
+    max-width: 1080px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+
+    @media screen and (min-width: $tablet-bp) {
+        overflow: visible;
+    }
+}
+
+.text-yellow {
+    color: $yellow !important;
+    font-weight: 600 !important;
+}
+
+.hidden {
+    display: none !important;
+}

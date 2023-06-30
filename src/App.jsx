@@ -1,26 +1,27 @@
-import Card from './components/Card';
-import cardImageCarousel from './media/svg/carousel-image-0.svg';
-import cardImageCapacitaciones from './media/svg/capacitacionesImg.svg'
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { DisplayContext, useDisplay } from './utils/DisplayProvider';
+import { Paths } from "./routes";
 
+import Topbar from "./components/Topbar";
+import ErrorPage from "./views/ErrorPage";
+import { SnackbarContainer } from './components/Snackbar';
 function App() {
+
+	const display = useDisplay();
 	return (
-		<div className="App">
-			<h1>Hello World</h1>
+		<div className="app">
+			<DisplayContext.Provider value={display}>
+				<Router>
+					<Topbar />
 
-			<Card 
-				img={cardImageCarousel}
-				title="Cursos y talleres"
-				description="Brindamos capacitaciones en Testing, Diseño UX/UI y Desarrollo web para personas de la comunidad LGTBI+."
-				link="Saber mas"
-			/>
-
-			<Card
-				img={cardImageCapacitaciones}
-				title="Capacitaciones"
-				description="Facilitamos capacitaciones en diversidad, género y discapacidad para empresas y organizaciones."
-				link="Saber mas"
-			/>
-
+					<Routes>
+						{Paths()}
+						<Route path="*" element={<ErrorPage />} />
+					</Routes>
+				</Router>
+			</DisplayContext.Provider>
+			<SnackbarContainer />
 		</div>
 	);
 }
