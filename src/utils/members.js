@@ -61,7 +61,7 @@ let members = [
     },
 
     {   nombre: 'Martin Bejarano',
-        rol: 'Web Developerramador',
+        rol: 'Web Developer',
         foto: 'fotito'
     }
 
