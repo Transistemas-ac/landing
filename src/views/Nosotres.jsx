@@ -3,10 +3,8 @@ import { Pagination } from "swiper";
 import NosotresCards from '../utils/NosotresCards';
 
 import Footer from "../components/Footer";
-import Integrant from "../components/Integrant";
 import Dropdown from "../components/Dropdown";
 
-import profileImage from "../assets/svg/media_tiktok_fill.svg";
 import Metrics from '../components/Metrics';
 
 function Nosotres() {
@@ -32,30 +30,17 @@ function Nosotres() {
 
             <div className="integrants-section">
                 <h2 className="integrants-section__title">Integrantes de Transistemas</h2>
+                <Dropdown title="Equipo Comunicación" role='communication' />
 
-                <Dropdown title="Equipo Comunicación">
-                    <Integrant
-                        picture={profileImage}
-                        name="Alex Alexa"
-                        occupation="Programadora"
-                        href="https://translate.google.com.ar/?sl=es&tl=en&text=Foto%20de%20perfil&op=translate"
-                    />
-                    <Integrant
-                        picture={profileImage}
-                        name="Alex Alexa"
-                        occupation="Programadora"
-                        href="https://translate.google.com.ar/?sl=es&tl=en&text=Foto%20de%20perfil&op=translate"
-                    />
-                </Dropdown>
+                <Dropdown title="Equipo Educación" role='education' />
 
-                <Dropdown title="Equipo Educación" />
+                <Dropdown title="Equipo Diseño" role='design' />
 
-                <Dropdown title="Equipo Diseño" />
-
-            </div>
+                <Dropdown title="Equipo Desarrollo" role='development' />
+            </div >
 
             <Footer />
-        </div>
+        </div >
     );
 }
 
