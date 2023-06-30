@@ -101,7 +101,7 @@
         #{$r}__link {
             text-align: center;
 
-            a.donaciones {
+            a.donar {
                 display: block;
                 width: 50vw;
                 min-width: min-content;
@@ -187,7 +187,7 @@ body.menu-open {
                         color: $pink;
                     }
 
-                    a.donaciones {
+                    a.donar {
                         display: inline;
                         color: inherit;
                         background-color: transparent;
@@ -199,5 +199,6 @@ body.menu-open {
 
     body.menu-open {
         overflow: unset;
+        overflow-x: hidden;
     }
 }

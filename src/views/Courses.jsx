@@ -25,7 +25,7 @@ function Courses() {
                     date="15/07"
                     duration="4 Semanas"
                     modality="Online"
-                    signupHref="_blank"
+                    // signupHref="_blank"
                 />
             </div>
 
@@ -45,13 +45,13 @@ function Courses() {
             <div className="faq-section">
                 <h2 className="faq-section__title">Preguntas frecuentes</h2>
                 <Dropdown title={"¿Cuál es el costo de los cursos?"}>
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores est iure expedita officiis. Beatae consequatur provident minima eum vitae
+                    Los cursos son gratuitos y no tienen coste de emisión de certificado.
                 </Dropdown>
                 <Dropdown title="¿Quiénes pueden anotarse a los cursos?">
-                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolores est iure expedita officiis. Beatae consequatur provident minima eum vitae
+                    Cualquier persona interesada, damos prioridad a personas del colectivo LGTBIQNB+.
                 </Dropdown>
                 <Dropdown title="¿Si termino el curso recibo un certificado?">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum quasi nostrum hic, fugiat quas delectus cum quis
+                    ¡Si! Vas a recibir un certificado expedido por Transistemas y los entes que participen de la certificación.
                 </Dropdown>
             </div>
 

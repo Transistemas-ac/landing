@@ -97,14 +97,6 @@ h1 {
 }
 
 @media screen and (min-width: $tablet-bp) {
-	$font-sizes: (
-		"xx-small": 18px,
-		"x-small": 20px,
-		"small": 22px,
-		"medium": 24px,
-		"large": 40px,
-	);
-
 	.xx-small {
 		font-size: font("d-xx-small");
 	}

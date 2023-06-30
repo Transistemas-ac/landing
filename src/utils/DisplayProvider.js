@@ -8,7 +8,6 @@ export function useDisplay() {
     const [display, setDisplay] = useState(mql.matches)
 
     mql.onchange = ({ matches }) => {
-        console.log(matches)
         setDisplay(matches)
     };
 

@@ -19,7 +19,7 @@ function Donations() {
                     <h1 className='enterprise-contact__title'>Somos una asociación civil</h1>
                     <p className='enterprise-contact__description'>¿Tenés una empresa y querés donar?</p>
                 </span>
-                <Button
+                <Button type='link'
                     href='_blank'
                     icon='mail'
                     className='enterprise-contact__button text-yellow'
@@ -32,7 +32,7 @@ function Donations() {
                 <img src={donationIlustration} alt='Ilustracion de donacion' className='colaborate__ilustration' />
                 <h1 className='colaborate__title'>Colaborá con la causa</h1>
                 <p className="colaborate__description">Ayudanos mes a mes para que podamos seguir avanzando</p>
-                <Button className='colaborate__button' href='_blank'>Donación mensual</Button>
+                <Button type='link' className='colaborate__button' href='_blank'>Donación mensual</Button>
             </Card>
 
 
@@ -42,11 +42,11 @@ function Donations() {
                     divider={true}
                 >
                     <h3 className='donation__subtitle'>A través de Mercado Pago</h3>
-                    <Button className='donation__button' href='_blank' icon='link'>$500</Button>
-                    <Button className='donation__button' href='_blank' icon='link'>$1000</Button>
-                    <Button className='donation__button' href='_blank' icon='link'>$2000</Button>
-                    <Button className='donation__button' href='_blank' icon='link'>$2000</Button>
-                    <Button className='donation__button' href='_blank' icon='copy' copy='Transistemas'>Alias MP: Transistemas</Button>
+                    <Button type='link' className='donation__button' href='_blank' icon='link'>$500</Button>
+                    <Button type='link' className='donation__button' href='_blank' icon='link'>$1000</Button>
+                    <Button type='link' className='donation__button' href='_blank' icon='link'>$2000</Button>
+                    <Button type='link' className='donation__button' href='_blank' icon='link'>$2000</Button>
+                    <Button type='link' className='donation__button' href='_blank' icon='copy' copy='Transistemas'>Alias MP: Transistemas</Button>
                 </Card>
             </div>
 
@@ -59,8 +59,8 @@ function Donations() {
                         <h3 className='transfer__subtitle'>Asociación Transistemas</h3>
                         <h4 className='transfer__type'>Cuenta corriente - Banco Provincia</h4>
                     </span>
-                    <Button className='transfer__button' href='_blank' icon='copy' copy='Transistemasxxx'>Alias: Transistemasxxx</Button>
-                    <Button className='transfer__button' href='_blank' icon='copy' copy='123456789'>CBU: 123456789</Button>
+                    <Button type='link' className='transfer__button' href='_blank' icon='copy' copy='Transistemasxxx'>Alias: Transistemasxxx</Button>
+                    <Button type='link' className='transfer__button' href='_blank' icon='copy' copy='123456789'>CBU: 123456789</Button>
                 </Card>
             </div>
 

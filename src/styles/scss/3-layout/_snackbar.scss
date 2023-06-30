@@ -1,6 +1,5 @@
 #snackbar-container {
     width: 100%;
-    // background-color: red;
     position: fixed;
     bottom: 0px;
 
@@ -13,7 +12,9 @@
     .snack {
         position: absolute;
         bottom: 12px;
-        width: 600px;
+        width: 70%;
+        min-width: 300px;
+        max-width: 600px;
         padding: 18px;
 
         display: flex;

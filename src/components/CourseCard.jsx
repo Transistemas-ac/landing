@@ -1,5 +1,5 @@
 import Button from "./Button";
-import emptyCourseCardImage from "../assets/png/empty-course-card-image.png";
+import emptyCourseCardImage from "../assets/svg/empty-course-card-icon.svg";
 import iconInstagramOutline from '../assets/svg/media_instagram_outline.svg';
 import iconTwitterOutline from '../assets/svg/media_twiter_outline.svg';
 import iconLinkedinOutline from '../assets/svg/media_linkedin_outline.svg';
@@ -49,11 +49,11 @@ function CourseCard({ title, img, alt, teacher, description, curriculumHref, dat
 
                 <a className="course-card__curriculum-link text-yellow" href={curriculumHref}>Ver temario</a>
                 <div className="course-card__tags-container">
-                    <div className="course-card__tag">📆 {date}</div>
-                    <div className="course-card__tag">⏰ {duration}</div>
-                    <div className="course-card__tag">💻 {modality}</div>
+                    <h4 className="course-card__tag">📆 {date}</h4>
+                    <h4 className="course-card__tag">⏰ {duration}</h4>
+                    <h4 className="course-card__tag">💻 {modality}</h4>
                 </div>
-                <Button href={signupHref}>Inscribirse</Button>
+                <Button className='course-card__button' href={signupHref}>Inscribirse</Button>
             </div>
         );
     }

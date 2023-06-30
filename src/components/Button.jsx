@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+// import { useRef } from 'react';
 
 import { snackbar } from './Snackbar';
 
@@ -7,9 +7,9 @@ import iconMail from '../assets/svg/icon_mail.svg'
 import iconCopy from '../assets/svg/icon_copy.svg'
 import iconArrow from '../assets/svg/icon_arrow.svg';
 
-function Button({ className, href, children, icon, copy }) {
-
-    const button = useRef()
+function Button(/*{ type, className, href, children, icon, copy }*/ props) {
+    let { icon } = props;
+    // let className = {...props.className};
     let Icon = () => <></>
 
     if (icon) {
@@ -31,18 +31,15 @@ function Button({ className, href, children, icon, copy }) {
         }
 
         Icon = () => {
-            if (icon.copy) {
-            }
             return (<img className='button__icon' src={icon.href} alt={icon.alt} />)
         }
     }
 
     function copyText(e) {
-        if (icon?.copy) {
+        if (props.copy) {
             e.preventDefault();
             e.stopPropagation();
-            // console.log(e.target)
-            navigator.clipboard.writeText(copy)
+            navigator.clipboard.writeText(props.copy)
                 .then(() => {
                     snackbar('Texto copiado exitosamente', 'success', 3000)
                 })
@@ -53,19 +50,19 @@ function Button({ className, href, children, icon, copy }) {
     }
 
     return (
-        // <div className={`${className} button`}>
-        //     <p className="button__text">
-        //         <a href={href}>
-        //             {children}
-        //             <Icon />
-        //         </a>
-        //     </p>
-        // </div>
-        <a className={`${className} button`} href={href} ref={button} onClick={(e) => copyText(e)}>
-            {children}
-            <Icon />
-            {/* {ReactDOM.createPortal(<Snackbar message='Exito' duration={8000} />, document.body)} */}
-        </a>
+        <>
+            {props.type === 'link' ?
+                <a {...props} type="text/html" className={`${props.className || ''} button`.trim()} onClick={(e) => copyText(e)}>
+                    {props.children}
+                    < Icon />
+                </a>
+                :
+                <button {...props} className={`${props.className || ''} button`.trim()} onClick={(e) => copyText(e)}>
+                    {props.children}
+                    < Icon />
+                </button>
+            }
+        </>
     );
 }
 

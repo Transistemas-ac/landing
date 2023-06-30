@@ -4,18 +4,26 @@
 
     .hero-section {
         margin-bottom: 104px;
-        max-width: 328px;
 
-        &__img {
+        &__illustration {
             width: 100%;
             max-width: 500px;
+            margin-bottom: 25px;
         }
 
         &__description {
             width: 100%;
             max-width: 500px;
-            margin-top: 25px;
             margin-bottom: 60px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        &__button {
+            max-width: 330px;
+            margin: 0 auto;
         }
     }
 
@@ -34,33 +42,47 @@
     }
 
     .volunteer-section {
+        $r: ".volunteer-section";
         width: 100%;
         overflow: hidden;
-        margin-bottom: 90px;
+        margin-bottom: 104px;
         max-width: 328px;
 
-        &__conteiner {
-            &__img {
+        &__title {
+            margin-bottom: 26px;
+        }
+
+        &__inner-container {
+            #{$r}__illustration {
                 width: 100%;
             }
 
-            &__description-buttom {
-                //background-color: red;
-                margin: 24px;
+            #{$r}__info-container {
+                margin-top: 20px;
                 display: flex;
                 flex-direction: column;
-                gap: 5px;
-            }
-        }
+                justify-content: space-between;
+                gap: 20px;
 
-        &__title {
-            margin-bottom: 24px;
+                #{$r}__info {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    flex-grow: 1;
+                    gap: 20px;
+                }
+
+                #{$r}__button {
+                }
+            }
         }
     }
 
     .contact-section {
+        $r: ".contact-section";
         width: 100%;
         max-width: 328px;
+        margin-bottom: 104px;
         text-align: left;
 
         &__title {
@@ -70,59 +92,41 @@
         &__form {
             display: flex;
             flex-direction: column;
-            // gap: 16px;
+            gap: 16px;
 
-            &__form1 {
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                gap: 16px;
-                padding: 0 0 16px 0;
+            .contact-section__textarea {
+                &::-webkit-scrollbar {
+                    width: 6px;
+                }
 
-                .contact-section__textarea {
-                    &::-webkit-scrollbar {
-                        width: 6px;
-                    }
+                &::-webkit-scrollbar-track {
+                    background: transparent;
+                    margin: 10px 0px;
+                }
 
-                    &::-webkit-scrollbar-track {
-                        background: transparent;
-                        margin: 10px 0px;
-                    }
-
-                    &::-webkit-scrollbar-thumb {
-                        background-color: $black;
-                        border-radius: 20px;
-                    }
+                &::-webkit-scrollbar-thumb {
+                    background-color: $black;
+                    border-radius: 20px;
                 }
             }
 
-            &__form2 {
+            #{$r}__input-container {
+                position: relative;
                 display: flex;
                 flex-direction: column;
-                align-items: center;
                 gap: 16px;
+                width: 100%;
 
-                .contact-section__textarea {
-                    &::-webkit-scrollbar {
-                        width: 6px;
-                    }
-
-                    &::-webkit-scrollbar-track {
-                        background: transparent;
-                        margin: 10px 0px;
-                    }
-
-                    &::-webkit-scrollbar-thumb {
-                        background-color: $black;
-                        border-radius: 20px;
-                    }
+                #{$r}__button {
+                    max-width: 400px;
+                    cursor: pointer;
                 }
             }
         }
     }
 
     .footer {
-        margin: 104px 0px 41px 0px;
+        // margin: 104px 0px 41px 0px;
     }
 }
 
@@ -131,136 +135,77 @@
         @include section();
         @include flexCenter(column);
 
-        //background-color: red;
-
         .hero-section {
-            max-width: 100vw;
-            margin-bottom: 104px;
-
-            //width: 100vw;
-
-            //margin-bottom: 60px;
-            //overflow: hidden;
-
-            &__img {
-                width: 100vw;
+            &__illustration {
                 max-width: 735px;
-                height: 100vw;
-                max-height: 414px;
             }
 
             &__description {
-                width: 100%;
                 max-width: 800px;
-                margin: 20px auto;
-                padding: 0px 16px;
-                //background-color: red;
             }
 
-            // &__swiper-container {
-            // }
+            &__button {
+                max-width: 400px;
+            }
         }
 
         .volunteer-section {
-            max-width: 100vw;
-            justify-content: space-between;
-            align-items: center;
+            $r: ".volunteer-section";
+            max-width: 1120px;
+            margin-bottom: 135px;
 
             &__title {
-                margin-bottom: 24px;
+                margin-bottom: 64px;
             }
 
-            &__conteiner {
+            &__inner-container {
+                width: 100%;
                 display: flex;
-                flex-direction: row;
+                gap: 20px;
 
-                &__img {
-                    height: 320px;
-                    width: 546px;
+                #{$r}__illustration {
                 }
 
-                &__description-buttom {
-                    display: flex;
-                    flex-direction: column;
+                #{$r}__info-container {
+                    margin: 0px;
+                    gap: 40px;
 
-                    justify-content: space-around;
+                    #{$r}__info {
+                    }
 
-                    &__description {
-                        text-align: left;
+                    #{$r}__button {
                     }
                 }
             }
         }
 
         .contact-section {
-            //background-color: red;
-            // border: 1px;
-            // border-color: white;
-            // border-style: solid;
-
-            max-width: 100vw;
-            display: flex;
-            flex-direction: column;
-            margin: 0 0 100px 0;
-
-            justify-content: center;
-            align-items: center;
+            $r: ".contact-section";
+            text-align: center;
+            max-width: 1120px;
+            margin-bottom: 190px;
 
             &__title {
-                //background-color: red;
-                font-size: 40px;
+                font-size: font("d-large");
+                margin-bottom: 68px;
             }
 
             &__form {
-                //background-color: red;
-
                 flex-direction: row;
-                justify-content: center;
-                align-items: center;
-                gap: 80px;
+                gap: 70px;
 
-                &__form1 {
-                    //background-color: red;
-                    display: flex;
-                    flex-direction: column;
-                    width: 493px;
-                    height: 176px;
-                }
+                #{$r}__input-container {
+                    justify-content: space-between;
 
-                &__form2 {
-                    //background-color: red;
-                    display: flex;
-                    flex-direction: column;
-                    width: 546px;
-                    height: 176px;
-                    justify-content: flex-start;
-
-                    &__textarea {
-                        //background-color: red;
+                    #{$r}__button {
                         position: absolute;
-                        width: 546px;
-                        height: 176px;
-                    }
-
-                    &__send {
-                        //background-color: red;
-                        position: relative;
-                        top: 200px;
-                        left: -70px;
-                        width: 403px;
-                        height: 48px;
+                        bottom: -40%;
                     }
                 }
             }
-
-            // &__buttom{
-            //     //background-color: red;
-
-            // }
         }
 
         .footer {
-            margin: 62px 0px 45px 0px;
         }
     }
 }

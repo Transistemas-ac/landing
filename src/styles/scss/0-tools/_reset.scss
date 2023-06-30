@@ -50,7 +50,7 @@ table {
 a{
 	color: inherit;
 	text-decoration: none;
-	width: 100%;
+	// width: 100%; Why?
 }
 
 input, textarea{
@@ -70,10 +70,12 @@ input, textarea{
 }
 
 button{
-	font-size: inherit;
-	font-weight: inherit;
-	outline: none;
+	font-family: unset;
+	font-size: unset;
+	font-weight: unset;
+	// outline: none;
 	border: 0px;
+	background-color: unset;
 }
 
 *, *::after, *::before{

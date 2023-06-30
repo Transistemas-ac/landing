@@ -18,10 +18,10 @@ function Dropdown(props) {
 
     return (
         <div className="dropdown" >
-            <h3 className="dropdown__title" onClick={(e) => { openDropdown(e) }} >
+            <button type="button" className="dropdown__title" onClick={(e) => { openDropdown(e) }} >
                 {props.title}
                 <img className="dropdown__arrow" src={dropdownArrow} alt="flecha desplegable" />
-            </h3>
+            </button>
 
             <div className="dropdown__info">
                 {props.children}
