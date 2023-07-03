@@ -1468,6 +1468,9 @@ textarea {
   -webkit-transform: rotateX(180deg);
           transform: rotateX(180deg);
 }
+.dropdown.active .dropdown__info {
+  margin-bottom: 20px;
+}
 .dropdown__arrow {
   width: 20px;
   -webkit-transition: 0.3s -webkit-transform ease-in-out;
@@ -1484,9 +1487,6 @@ textarea {
           transition-timing-function: ease-in-out;
   max-height: 0px;
   overflow: hidden;
-}
-.dropdown__info.active {
-  margin-bottom: 20px;
 }
 
 .home {

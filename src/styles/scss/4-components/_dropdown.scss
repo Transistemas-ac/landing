@@ -1,10 +1,9 @@
-.dropdown{
-    $r:'.dropdown';
+.dropdown {
+    $r: ".dropdown";
     width: 100%;
     border-bottom: 1px solid white;
 
-    
-    &__title{
+    &__title {
         width: 100%;
         color: $white;
         padding-bottom: 12px;
@@ -14,32 +13,35 @@
         display: flex;
         justify-content: space-between;
 
-        &:hover{
+        &:hover {
             cursor: pointer;
         }
     }
 
-    &.active{
-        #{$r}__arrow{
+    &.active {
+        #{$r}__arrow {
             transform: rotateX(180deg);
+        }
+
+        #{$r}__info {
+            margin-bottom: 20px;
         }
     }
 
-    &__arrow{
+    &__arrow {
         width: 20px;
         transition: 0.3s transform ease-in-out;
-
     }
 
-    &__info{
+    &__info {
         transition-property: max-height, margin;
         transition-duration: 0.3s;
         transition-timing-function: ease-in-out;
         max-height: 0px;
         overflow: hidden;
 
-        &.active{
-            margin-bottom: 20px;
-        }
+        // &.active{
+        //     margin-bottom: 20px;
+        // }
     }
 }
