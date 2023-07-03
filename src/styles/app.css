@@ -510,7 +510,7 @@ button.swiper-pagination-bullet {
 }
 @media screen and (max-width: 980px) {
   .swiper-button-prev,
-.swiper-button-next {
+  .swiper-button-next {
     display: none;
   }
 }
@@ -1464,16 +1464,16 @@ textarea {
 .dropdown__title:hover {
   cursor: pointer;
 }
+.dropdown.active .dropdown__arrow {
+  -webkit-transform: rotateX(180deg);
+          transform: rotateX(180deg);
+}
 .dropdown__arrow {
   width: 20px;
   -webkit-transition: 0.3s -webkit-transform ease-in-out;
   transition: 0.3s -webkit-transform ease-in-out;
   transition: 0.3s transform ease-in-out;
   transition: 0.3s transform ease-in-out, 0.3s -webkit-transform ease-in-out;
-}
-.dropdown__arrow.active {
-  -webkit-transform: rotateX(180deg);
-          transform: rotateX(180deg);
 }
 .dropdown__info {
   -webkit-transition-property: max-height, margin;
@@ -1680,8 +1680,6 @@ textarea {
   .home .hero-section__button {
     max-width: 400px;
   }
-}
-@media screen and (min-width: 980px) {
   .home .volunteer-section {
     max-width: 1120px;
     margin-bottom: 135px;
@@ -1700,8 +1698,6 @@ textarea {
     margin: 0px;
     gap: 40px;
   }
-}
-@media screen and (min-width: 980px) {
   .home .contact-section {
     text-align: center;
     max-width: 1120px;

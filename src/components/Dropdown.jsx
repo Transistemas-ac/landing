@@ -5,13 +5,16 @@ import members from '../utils/members';
 
 function Dropdown(props) {
 
-    const [integrants, setIntegrants] = useState(null)
-    const dropdownButton = useRef()
+    const url = process.env.REACT_APP_PUBLIC_URL;
+    const [integrants, setIntegrants] = useState(null);
+    const [active, setActive] = useState(false);
+    const dropdown = useRef()
 
     const iterateMembers = (role) => members.map((member, idx) => member.team === role ?
         <Integrant
+            active={active}
             key={idx}
-            picture={`http://localhost:3000/png/${member.picture}.png`}
+            picture={`${url}/png/${member.picture}.png`}
             name={member.name}
             occupation={member.role}
             href="https://translate.google.com.ar/?sl=es&tl=en&text=Foto%20de%20perfil&op=translate"
@@ -19,16 +22,11 @@ function Dropdown(props) {
 
 
     const toggleDropdown = () => {
-        let dropdown = dropdownButton.current.nextSibling;
-        let dropdownArrow = dropdownButton.current.lastChild.classList;
-
-        dropdown.classList.toggle("active");
-        dropdownArrow.toggle("active");
-
-        if (dropdown.classList.contains("active")) {
-            dropdown.style.maxHeight = `${dropdown.scrollHeight}px`;
+        let dropdownInfo = dropdown.current.lastChild;
+        if (active) {
+            dropdownInfo.style.maxHeight = `${dropdownInfo.scrollHeight}px`;
         } else {
-            dropdown.style.maxHeight = "0px";
+            dropdownInfo.style.maxHeight = "0px";
         }
     }
 
@@ -38,14 +36,15 @@ function Dropdown(props) {
         }
     }, [integrants])
 
-    function openDropdown(e) {
+    function openDropdown() {
+        setActive(!active)
         if (props.role) { setIntegrants(() => iterateMembers(props.role)); return }
         toggleDropdown()
     }
 
     return (
-        <div className="dropdown" >
-            <button ref={dropdownButton} type="button" className="dropdown__title" onClick={(e) => { openDropdown(e) }} >
+        <div className={`dropdown ${active ? 'active' : ''}`.trim()} ref={dropdown}>
+            <button type="button" className="dropdown__title" onClick={() => { openDropdown() }} >
                 {props.title}
                 <img className="dropdown__arrow" src={dropdownArrow} alt="flecha desplegable" />
             </button>

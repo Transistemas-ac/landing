@@ -1,4 +1,5 @@
 .dropdown{
+    $r:'.dropdown';
     width: 100%;
     border-bottom: 1px solid white;
 
@@ -18,13 +19,16 @@
         }
     }
 
+    &.active{
+        #{$r}__arrow{
+            transform: rotateX(180deg);
+        }
+    }
+
     &__arrow{
         width: 20px;
         transition: 0.3s transform ease-in-out;
 
-        &.active{
-            transform: rotateX(180deg);
-        }
     }
 
     &__info{

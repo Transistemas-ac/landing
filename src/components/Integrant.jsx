@@ -11,7 +11,7 @@ function Integrant(props) {
                 <p className="integrant__occupation">{props.occupation}</p>
             </div>
 
-            <a className='integrant__link' href={props.href}>
+            <a className='integrant__link' href={props.href} tabIndex={props.active ? -1 : 0}>
                 <img className="integrant__icon" src={arrowIcon} alt="icono de flecha" />
             </a>
         </div>
