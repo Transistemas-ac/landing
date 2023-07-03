@@ -1,4 +1,4 @@
-import { LazyHome, LazyCourses, LazyNosotres } from "../lazy-components";
+import { LazyHome, LazyCourses, LazyNosotres, LazyDonations } from "../lazy-components";
 import { Link, Route, useMatch, useResolvedPath } from "react-router-dom";
 
 
@@ -25,7 +25,7 @@ const routes = [
     {
         name: "Donar",
         path: "/donar",
-        component: <LazyNosotres />,
+        component: <LazyDonations />,
         exact: true
     },
 ]

@@ -9,16 +9,21 @@
 
     pointer-events: none;
 
-    .progress-bar-container {
-        width: 100%;
-        background-color: $black;
-        border: 1px solid $black;
+    .progress-bar {
+        width: 1%;
+        height: 10px;
+        transition: 0.3s width ease-in-out;
+        background-color: $pink;
+        margin-right: auto;
 
-        .progress-bar {
-            width: 1%;
-            height: 10px;
-            transition: 0.3s width ease-in-out;
-            background-color: $pink;
+        &::before {
+            content: "";
+            display: block;
+            width: 100%;
+            height: inherit;
+            position: absolute;
+            background-color: $black;
+            z-index: -20;
         }
     }
 
@@ -27,13 +32,12 @@
 
         width: 100%;
         padding: 20px;
+        background-color: $black;
 
         display: flex;
         align-items: center;
         justify-content: space-between;
         margin-bottom: auto;
-
-        background-color: $black;
 
         &__logo {
             width: 160px;
@@ -66,9 +70,11 @@
                     background-color: $white;
                     transition: all 0.3s;
                 }
+
                 &::after {
                     transform: translateY(-6px);
                 }
+
                 &::before {
                     transform: translateY(6px);
                 }
@@ -88,14 +94,14 @@
         transition: 0.3s opacity;
         opacity: 0;
 
-        font-size: $medium;
+        font-size: font("m-medium");
         background-color: $black;
         font-weight: 600;
 
         #{$r}__link {
             text-align: center;
 
-            a.donaciones {
+            a.donar {
                 display: block;
                 width: 50vw;
                 min-width: min-content;
@@ -141,6 +147,7 @@ body.menu-open {
 @media screen and (min-width: $tablet-bp) {
     .topbar-container {
         pointer-events: none;
+
         .topbar {
             $r: ".topbar";
 
@@ -150,6 +157,7 @@ body.menu-open {
 
             &__menu-button {
                 display: none;
+
                 #{$r}__menu-icon {
                     display: none;
                 }
@@ -166,7 +174,7 @@ body.menu-open {
                 margin-right: auto;
                 margin-left: auto;
 
-                font-size: $medium;
+                font-size: font("d-medium");
                 background-color: $black;
                 font-weight: 600;
 
@@ -179,7 +187,7 @@ body.menu-open {
                         color: $pink;
                     }
 
-                    a.donaciones {
+                    a.donar {
                         display: inline;
                         color: inherit;
                         background-color: transparent;
@@ -191,5 +199,6 @@ body.menu-open {
 
     body.menu-open {
         overflow: unset;
+        overflow-x: hidden;
     }
 }

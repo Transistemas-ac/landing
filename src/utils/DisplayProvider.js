@@ -3,12 +3,12 @@ import { createContext, useState } from 'react';
 export const DisplayContext = createContext();
 
 export function useDisplay() {
-    const mql = window.matchMedia("(min-width: 1120px)");
+    const mql = window.matchMedia("(min-width: 980px)");
 
-    const [display, setDisplay] = useState(mql.matches ? 'desktop' : 'mobile')
+    const [display, setDisplay] = useState(mql.matches)
 
     mql.onchange = ({ matches }) => {
-        setDisplay(matches ? 'desktop' : 'mobile')
+        setDisplay(matches)
     };
 
     return display

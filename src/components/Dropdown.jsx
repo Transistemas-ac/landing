@@ -1,30 +1,56 @@
+import { useEffect, useState, useRef } from "react";
 import dropdownArrow from "../assets/svg/dropdown_arrow.svg";
+import Integrant from "../components/Integrant";
+import members from '../utils/members';
 
 function Dropdown(props) {
-    
-    function openDropdown(e) {
-        let dropdown = e.currentTarget.nextSibling;
-        let dropdownArrow = e.currentTarget.lastChild.classList;
 
-        dropdown.classList.toggle("active");
-        dropdownArrow.toggle("active");
+    const url = process.env.REACT_APP_PUBLIC_URL;
+    const [integrants, setIntegrants] = useState(null);
+    const [active, setActive] = useState(false);
+    const dropdown = useRef()
 
-        if (dropdown.classList.contains("active")) {
-            dropdown.style.maxHeight = `${dropdown.scrollHeight}px`;
+    const iterateMembers = (role) => members.map((member, idx) => member.team === role ?
+        <Integrant
+            active={active}
+            key={idx}
+            picture={`${url}/png/${member.picture}.png`}
+            name={member.name}
+            occupation={member.role}
+            href="https://translate.google.com.ar/?sl=es&tl=en&text=Foto%20de%20perfil&op=translate"
+        /> : null);
+
+
+    const toggleDropdown = () => {
+        let dropdownInfo = dropdown.current.lastChild;
+        if (active) {
+            dropdownInfo.style.maxHeight = `${dropdownInfo.scrollHeight}px`;
         } else {
-            dropdown.style.maxHeight = "0px";
+            dropdownInfo.style.maxHeight = "0px";
         }
     }
 
+    useEffect(() => {
+        if (integrants) {
+            toggleDropdown()
+        }
+    }, [integrants])
+
+    function openDropdown() {
+        setActive(!active)
+        if (props.role) { setIntegrants(() => iterateMembers(props.role)); return }
+        toggleDropdown()
+    }
+
     return (
-        <div className="dropdown" >
-            <h3 className="dropdown__title" onClick={(e) => { openDropdown(e) }} >
+        <div className={`dropdown ${active ? 'active' : ''}`.trim()} ref={dropdown}>
+            <button type="button" className="dropdown__title" onClick={() => { openDropdown() }} >
                 {props.title}
                 <img className="dropdown__arrow" src={dropdownArrow} alt="flecha desplegable" />
-            </h3>
+            </button>
 
             <div className="dropdown__info">
-                {props.children}
+                {props?.role ? <>{integrants}</> : <>{props.children}</>}
             </div>
 
         </div>

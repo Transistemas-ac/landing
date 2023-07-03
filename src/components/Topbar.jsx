@@ -4,15 +4,13 @@ import { DisplayContext } from '../utils/DisplayProvider';
 
 import transistemasLogo from '../assets/svg/logo_transistemas.svg';
 
-// import Button from './Button';
-
 function Topbar() {
 
+    const display = useContext(DisplayContext);
+    const progressBar = useRef();
     const topbarContainer = useRef();
     const topbar = useRef();
     const links = useRef();
-    const progressBar = useRef();
-    const display = useContext(DisplayContext);
 
 
     function updateProgrresBar() {
@@ -24,7 +22,7 @@ function Topbar() {
     }
 
     function toggleMenu(e) {
-        if (display === 'desktop') return
+        if (display) return
         document.body.classList.toggle("menu-open");
         topbarContainer.current.classList.toggle("menu-open")
     }
@@ -34,7 +32,7 @@ function Topbar() {
     })
 
     useEffect(() => {
-        if (display === 'desktop') topbar.current.appendChild(links.current);
+        if (display) topbar.current.appendChild(links.current);
         else topbarContainer.current.appendChild(links.current);
     }, [display])
 
@@ -42,9 +40,7 @@ function Topbar() {
     return (
         <div ref={topbarContainer} className="topbar-container">
 
-            <div className="progress-bar-container">
-                <div ref={progressBar} className="progress-bar"></div>
-            </div>
+            <div ref={progressBar} className="progress-bar"></div>
 
             <div className="topbar" ref={topbar}>
                 <img src={transistemasLogo} alt="logo" />

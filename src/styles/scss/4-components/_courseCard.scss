@@ -1,52 +1,121 @@
 .course-card {
     $r: &;
-    width: 100%;
-    min-width: 295px;
-    max-width: 328px;
+    width: 328px;
     min-height: 430px;
     padding: 15px;
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     gap: 12px;
 
     background-color: $grey-darker;
-    color: $white;
     border-radius: 16px;
-    text-align: left;
-
-    &__title {
-
-    }
+    text-align: center;
 
     &__image {
+    }
 
+    &__title {
     }
 
     &__teacher {
+        color: $pink;
     }
 
     &__description {
-        margin-bottom: auto;
+        max-width: 600px;
     }
 
-    &__information {
-        @include flexCenter(column);
-        gap: 10px;
-        width: 100%;
-        margin-top: auto;
+    #{$r}__curriculum-link {
+        width: fit-content;
+    }
+
+    #{$r}__tags-container {
+        display: flex;
+        width: fit-content;
+        justify-content: space-between;
+        gap: 5px;
+
+        #{$r}__tag {
+            flex-shrink: 0;
+            flex-grow: 1;
+            width: max-content;
+            padding: 8px;
+            border-radius: 1000px;
+            border: 1px solid $yellow;
+            font-weight: 600;
+        }
+    }
+
+    #{$r}__button {
+        max-width: 320px;
+    }
+
+    &.course-card--empty {
+        min-height: 340px;
+        gap: 30px;
+
+        #{$r}__image {
+            max-width: 100px;
+            width: 90%;
+        }
+
+        #{$r}__icon-container {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 29px;
+
+            img {
+                width: fit-content;
+                height: 56px;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: $tablet-bp) {
+    .course-card {
+        $r: &;
+        width: 700px;
+        min-height: 510px;
+
+        &__title {
+        }
+
+        &__image {
+        }
+
+        &__teacher {
+        }
+
+        &__description {
+            font-size: font("d-xx-small");
+        }
 
         #{$r}__curriculum-link {
-            width: fit-content;
         }
-    
+
         #{$r}__tags-container {
-            display: flex;
-            gap: 10px;
+            gap: 8px;
+
+            #{$r}__tag {
+                font-size: font("d-xx-small");
+            }
+        }
+
+        #{$r}__button {
+        }
+
+        &.course-card--empty {
+            #{$r}__image {
+            }
+            #{$r}__icon-container {
+                img {
+                }
+            }
         }
     }
-
-    
 }

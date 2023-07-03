@@ -11,8 +11,9 @@ function LoadingScreen(/*{ isLoading, Component }*/) {
         <>
             {/* <div className={`loading-screen ${isLoading ? 'loading' : 'finished'}`}> */}
             <div className={"loading-screen"} >
-                <div className="loading-screen__skeleton"></div>
-                <div className="loading-screen__skeleton"></div>
+                {/* <div className="loading-screen__skeleton"></div>
+                <div className="loading-screen__skeleton"></div> */}
+                <div className="loading-screen__circle"></div>
             </div>
             {/* 
             {isLoading ? <></> : <Component />} */}

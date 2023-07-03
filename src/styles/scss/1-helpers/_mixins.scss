@@ -19,8 +19,8 @@
 }
 
 .text-yellow {
-    color: $yellow;
-    font-weight: 600;
+    color: $yellow !important;
+    font-weight: 600 !important;
 }
 
 .hidden {

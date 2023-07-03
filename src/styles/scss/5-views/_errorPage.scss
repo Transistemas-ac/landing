@@ -6,16 +6,14 @@
 
     display: flex;
 
-    
     justify-content: center;
     align-items: center;
-
 
     //width: 100%;
     //height: 100%;
     //margin-bottom: 104px;
 
-    &__img{
+    &__img {
         width: 80%;
         height: 80%;
         max-width: 349px;
@@ -25,7 +23,7 @@
         //height: 294px ;
     }
 
-    &__text{
+    &__text {
         width: 100%;
         height: 100%;
         margin: 0px;

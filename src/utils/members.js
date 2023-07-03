@@ -1,69 +1,97 @@
-let members = [
 
-    {   nombre: 'Abe Quiroga',
-        rol: 'Co-fundadore y presidente de Transistemas',
-        foto: 'fotito'
+const members = [
+    {
+        name: 'Abe Quiroga',
+        role: 'Co-fundadore y presidente de Transistemas',
+        picture: '01',
+        team: 'communication'
     },
 
-    {   nombre: 'Maximiliano Monti',
-        rol: 'UX Content Designer',
-        foto: 'fotito'
+    {
+        name: 'Maximiliano Monti',
+        role: 'UX Content Designer',
+        picture: '02',
+        team: 'communication'
     },
 
-    {   nombre: 'Julián Landó',
-        rol: 'Tester QA',
-        foto: 'fotito'
+    {
+        name: 'Julián Landó',
+        role: 'Tester QA',
+        picture: '03',
+        team: 'education'
     },
 
-    {   nombre: 'Raysa Alanes', 
-        rol: 'Full Stack Developer',
-        foto: 'fotito'
+    {
+        name: 'Raysa Alanes',
+        role: 'Full Stack Developer',
+        picture: '04',
+        team: 'education'
     },
 
-    {   nombre: 'Ailin Lezcano',
-        rol: 'UX Designer',
-        foto: 'fotito'
+    {
+        name: 'Ailin Lezcano',
+        role: 'UX Designer',
+        picture: '05',
+        team: 'design'
     },
 
-    {   nombre: 'Camila Rodriguez Vera',
-        rol: 'Estudiante de Diseño Multimedial / Diseñadora UX/UI',
-        foto: 'fotito'
+    {
+        name: 'Camila Rodriguez Vera',
+        role: 'Estudiante de Diseño Multimedial / Diseñadora UX/UI',
+        picture: '06',
+        team: 'design'
     },
 
-    {   nombre: 'Guadalupe Saavedra',
-        rol: 'Vendedora de salón',
-        foto: 'fotito'
+    {
+        name: 'Guadalupe Saavedra',
+        role: 'Vendedora de salón',
+        picture: '07',
+        team: 'design'
     },
 
-    {   nombre: 'Jazmin de Zavaleta',
-        rol: 'Digital Designer',
-        foto: 'fotito'
+    {
+        name: 'Jazmin de Zavaleta',
+        role: 'Digital Designer',
+        picture: '08',
+        team: 'design'
     },
 
-    {   nombre: 'Micaela Montero',
-        rol: 'UX Designer',
-        foto: 'fotito'
+    {
+        name: 'Micaela Montero',
+        role: 'UX Designer',
+        picture: '09',
+        team: 'design'
     },
 
-    {   nombre: 'Micaela Paula Reynoso',
-        rol: 'Diseñadora Gráfica / Diseñadora Digital',
-        foto: 'fotito'
+    {
+        name: 'Micaela Paula Reynoso',
+        role: 'Diseñadora Gráfica / Diseñadora Digital',
+        picture: '10',
+        team: 'design'
     },
 
-    {   nombre: 'Veronica Frund',
-        rol: 'UX/UI Designer / UX Researcher',
-        foto: 'fotito'
+    {
+        name: 'Veronica Frund',
+        role: 'UX/UI Designer / UX Researcher',
+        picture: '11',
+        team: 'design'
     },
 
-    {   nombre: 'Alex Valdez',
-        rol: 'Developer / QA Tester',
-        foto: 'fotito'
+    {
+        name: 'Alex Valdez',
+        role: 'Developer / QA Tester',
+        picture: '12',
+        team: 'development'
     },
 
-    {   nombre: 'Martin Bejarano',
-        rol: 'Web Developer',
-        foto: 'fotito'
+    {
+        name: 'Martin Bejarano',
+        role: 'Web Developer',
+        picture: '13',
+        team: 'development'
     }
-
 ]
 
+
+
+export default members;

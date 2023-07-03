@@ -1,15 +1,14 @@
 .past-course-card {
+    gap: 11px;
     padding: 32px 0px;
-    @include flexCenter(column);
+    background-color: transparent;
+    justify-content: center;
     text-align: center;
 
-    &__title {
-        margin-bottom: 10px;
-    }
+    &__title {}
 
     &__image-container {
         position: absolute;
-
         background: rgb(39, 39, 39);
         background: linear-gradient(180deg, rgba(39, 39, 39, 1) 0%, rgba(24, 24, 24, 1) 64%);
         border: 1px solid $grey-lighter;
