@@ -19,7 +19,7 @@ function Dropdown(props) {
             picture={`${url}/png/${member.picture}.png`}
             name={member.name}
             occupation={member.role}
-            href="https://translate.google.com.ar/?sl=es&tl=en&text=Foto%20de%20perfil&op=translate"
+            href={member.href}
         /> : null);
 
     useEffect(() => {
