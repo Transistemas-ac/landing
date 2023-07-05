@@ -58,8 +58,8 @@ function Donations() {
                         <h3 className='transfer__subtitle'>Asociación Transistemas</h3>
                         <h4 className='transfer__type'>Cuenta corriente - Banco Provincia</h4>
                     </span>
-                    <Button type='button' className='transfer__button' href='_blank' icon='copy' copy='Transistemas'>Alias: Transistemas</Button>
-                    <Button type='button' className='transfer__button' href='_blank' icon='copy' copy='0140002101400205400077'>CBU: 0140002101400205400077</Button>
+                    <Button type='link' className='transfer__button' href='_blank' icon='copy' copy='Transistemas'>Alias: Transistemas</Button>
+                    <Button type='link' className='transfer__button' href='_blank' icon='copy' copy='0140002101400205400077'>CBU: 0140002101400205400077</Button>
                 </Card>
             </div>
 
