@@ -11,7 +11,7 @@ const Items = () => metrics.map((item, idx) =>
 function Metrics(props) {
     return (
         <>
-            <div className="metrics" onClick={() => { snackbar('Ha ocurrido un error inesperado', 'error', 5000) }}>
+            <div className="metrics">
                 {/* <div className="metrics__item">
                     <h1 className="metrics__value">20</h1>
                     <h2 className="metrics__title">Cursos Dictados</h2>

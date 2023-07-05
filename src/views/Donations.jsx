@@ -32,7 +32,7 @@ function Donations() {
                 <img src={donationIlustration} alt='Ilustracion de donacion' className='colaborate__ilustration' />
                 <h1 className='colaborate__title'>Colaborá con la causa</h1>
                 <p className="colaborate__description">Ayudanos mes a mes para que podamos seguir avanzando</p>
-                <Button type='link' className='colaborate__button' href='_blank'>Donación mensual</Button>
+                <Button type='link' className='colaborate__button' href='https://www.mercadopago.com.ar/subscriptions/checkout?preapproval_plan_id=2c9380848100905c01812017c99d0dba'>Donación mensual</Button>
             </Card>
 
 
@@ -42,11 +42,10 @@ function Donations() {
                     divider={true}
                 >
                     <h3 className='donation__subtitle'>A través de Mercado Pago</h3>
-                    <Button type='link' className='donation__button' href='_blank' icon='link'>$500</Button>
-                    <Button type='link' className='donation__button' href='_blank' icon='link'>$1000</Button>
-                    <Button type='link' className='donation__button' href='_blank' icon='link'>$2000</Button>
-                    <Button type='link' className='donation__button' href='_blank' icon='link'>$2000</Button>
-                    <Button type='link' className='donation__button' href='_blank' icon='copy' copy='Transistemas'>Alias MP: Transistemas</Button>
+                    <Button target='_blank' type='link' className='donation__button' href='https://mpago.la/1CgVs8J' icon='link'>$500</Button>
+                    <Button target='_blank' type='link' className='donation__button' href='https://mpago.la/18EHZ8i' icon='link'>$1000</Button>
+                    <Button target='_blank' type='link' className='donation__button' href='https://mpago.la/1G1eoZc' icon='link'>$2000</Button>
+                    <Button target='_blank' type='link' className='donation__button' href='http://mpago.la/1ydp1Tp' icon='link'>$3000</Button>
                 </Card>
             </div>
 
@@ -59,8 +58,8 @@ function Donations() {
                         <h3 className='transfer__subtitle'>Asociación Transistemas</h3>
                         <h4 className='transfer__type'>Cuenta corriente - Banco Provincia</h4>
                     </span>
-                    <Button type='link' className='transfer__button' href='_blank' icon='copy' copy='Transistemasxxx'>Alias: Transistemasxxx</Button>
-                    <Button type='link' className='transfer__button' href='_blank' icon='copy' copy='123456789'>CBU: 123456789</Button>
+                    <Button type='button' className='transfer__button' href='_blank' icon='copy' copy='Transistemas'>Alias: Transistemas</Button>
+                    <Button type='button' className='transfer__button' href='_blank' icon='copy' copy='0140002101400205400077'>CBU: 0140002101400205400077</Button>
                 </Card>
             </div>
 

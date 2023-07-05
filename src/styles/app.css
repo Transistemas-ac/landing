@@ -1567,6 +1567,7 @@ textarea {
   width: 100%;
 }
 .home .volunteer-section__inner-container .volunteer-section__info-container {
+  max-width: 544px;
   margin-top: 20px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1591,10 +1592,14 @@ textarea {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  text-align: left;
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
   gap: 20px;
+}
+.home .volunteer-section__inner-container .volunteer-section__info-container .volunteer-section__button {
+  max-width: 380px;
 }
 .home .contact-section {
   width: 100%;

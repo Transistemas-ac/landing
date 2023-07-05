@@ -33,7 +33,7 @@ function Footer(props) {
                     <img className="footer__icon" src={iconLinkedinOutline} alt="icono de instagram" />
                 </a>
 
-                <a href="https://www.instagram.com/transistemas/">
+                <a href="https://www.instagram.com/transistemas/" target='_blank' rel="noreferrer">
                     <img className="footer__icon" src={iconTelegramOutline} alt="icono de instagram" />
                 </a>
             </div>
