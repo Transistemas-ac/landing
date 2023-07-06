@@ -7,40 +7,13 @@ import HomeSlides from '../utils/HomeCards';
 
 import { SwiperHOC } from '../utils/SwiperHOC';
 import { Pagination } from 'swiper';
-import emailjs from '@emailjs/browser'
-
 import Metrics from '../components/Metrics';
-import { snackbar } from '../components/Snackbar';
 
 function Home() {
 
     function sendEmail(e) {
         e.preventDefault()
         const form = e.currentTarget;
-        const name = form.user_name.value
-        const pronouns = form.user_pronouns.value
-        const email = form.user_email.value
-        const message = form.message.value
-
-        const emailRegex = /^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$/g;
-
-        if (!name || !pronouns || !message) { return snackbar('Hay campos que estan vacios.', 'error', 5000) }
-        if (!emailRegex.test(email)) { return snackbar('Por favor ingrese un correo electrónico valido.', 'error', 5000) }
-
-
-        emailjs
-            .sendForm(
-                'service_9puzbaf',
-                'template_upu9i4k',
-                form,
-                '_UFa8ACqJSgraW_13'
-            )
-            .then((result) => {
-                snackbar('Formulario enviado exitosamente.', 'success', 3000)
-            }).catch((e) => {
-                snackbar('Hubo un error al enviar el formulario, vuelva a intentarlo mas tarde.', 'error', 5000)
-            })
-
         form.reset()
     }
 
@@ -87,11 +60,11 @@ function Home() {
                     <div className="volunteer-section__info-container">
                         <p className="volunteer-section__info">
                             <span>
-                                Podés colaborar con nosotres desde cualquier lugar del mundo de forma remota en nuestros equipos de Diseño, Desarrollo Web, Comunicación, Social o Educación.
+                                Podés colaborar con nosotres desde cualquier lugar del mundo de forma remota en nuestros equipos de Diseño, Programación, Comunicación o Educación.
                             </span>
                             <strong className="text-yellow">¡Queremos escuchar tus propuestas!</strong>
                         </p>
-                        <Button type='link' className="volunteer-section__button" href="/cursos">Sumate</Button>
+                        <Button type='link' className="volunteer-section__button" href="#contact-form">Sumate</Button>
                     </div>
                 </div>
             </div>
@@ -99,7 +72,7 @@ function Home() {
 
             <div className="contact-section">
                 <h2 className="contact-section__title">¡Dejanos tu mensaje!</h2>
-                <form className='contact-section__form' onSubmit={(e) => { sendEmail(e) }}>
+                <form id='contact-form' className='contact-section__form' onSubmit={(e) => { sendEmail(e) }}>
                     <fieldset className="contact-section__input-container">
                         <input className='contact-section__input' type="text" placeholder='Nombre/s:' name='user_name' />
                         <input className='contact-section__input' type="text" placeholder='Prenombre/s:' name='user_pronouns' />

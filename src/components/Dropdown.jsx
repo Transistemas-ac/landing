@@ -16,7 +16,7 @@ function Dropdown(props) {
     const iterateMembers = (role) => members.map((member, idx) => member.team === role ?
         <Integrant
             key={idx}
-            picture={`${url}/png/${member.picture}.png`}
+            picture={`${url}/assets/png/${member.picture}.png`}
             name={member.name}
             occupation={member.role}
             href={member.href}

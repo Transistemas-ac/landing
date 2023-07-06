@@ -1,15 +1,12 @@
-// import { useRef } from 'react';
-
 import { snackbar } from './Snackbar';
 
 import iconSend from '../assets/svg/icon_send.svg'
 import iconMail from '../assets/svg/icon_mail.svg'
 import iconCopy from '../assets/svg/icon_copy.svg'
-import iconArrow from '../assets/svg/icon_arrow.svg';
+import iconLink from '../assets/svg/icon_arrow.svg';
 
-function Button(/*{ type, className, href, children, icon, copy }*/ props) {
+function Button(props) {
     let { icon } = props;
-    // let className = {...props.className};
     let Icon = () => <></>
 
     if (icon) {
@@ -21,10 +18,10 @@ function Button(/*{ type, className, href, children, icon, copy }*/ props) {
                 icon = { href: iconMail, alt: 'Icono de mail' }
                 break;
             case 'link':
-                icon = { href: iconArrow, alt: 'Icono de link externol' }
+                icon = { href: iconLink, alt: 'Icono de link externol' }
                 break;
             case 'copy':
-                icon = { href: iconCopy, alt: 'Icono de copiar texto', copy: true }
+                icon = { href: iconCopy, alt: 'Icono de copiar texto' }
                 break;
             default:
                 break;
@@ -51,13 +48,14 @@ function Button(/*{ type, className, href, children, icon, copy }*/ props) {
 
     return (
         <>
-            {props.type === 'link' ?
-                <a {...props} type="text/html" className={`${props.className || ''} button`.trim()} onClick={(e) => copyText(e)}>
+            {props.type === 'link'
+                ?
+                <a {...props} type="text/html" className={`${props.className || ''} button ${icon ? 'button--icon' : ''}`} onClick={(e) => copyText(e)}>
                     {props.children}
                     < Icon />
                 </a>
                 :
-                <button {...props} className={`${props.className || ''} button`.trim()} onClick={(e) => copyText(e)}>
+                <button {...props} className={`${props.className || ''} button ${icon ? 'button--icon' : ''}`} onClick={(e) => copyText(e)}>
                     {props.children}
                     < Icon />
                 </button>

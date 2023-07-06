@@ -46,6 +46,7 @@ const NosotresSlides = () => cards.map((item, idx) =>
         title={item.title}
         description={item.description}
         link={item.link}
+        href={'/#contact-form'}
     />
 </SwiperSlide>));
 

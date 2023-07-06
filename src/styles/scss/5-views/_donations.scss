@@ -32,9 +32,12 @@
 
     .enterprise-contact {
         margin-bottom: 48px;
+        & > *{
+            max-width: unset;
+        }
 
         &__title {
-            margin-bottom: 20px;
+            margin-bottom: 24px;
         }
 
         &__description {
@@ -48,10 +51,13 @@
     .colaborate {
         // height: 450px
         border: 2px solid $yellow;
+        padding: 50px 25px 75px 25px;
+        gap: 30px;
         margin-bottom: 70px;
-        background-color: transparent;
+        // background-color: transparent;
 
         &__ilustration {
+            width: 150px;
         }
 
         &__title {
@@ -142,7 +148,7 @@
             margin-bottom: 120px;
 
             &__title {
-                margin-bottom: 20px;
+                margin-bottom: 24px;
             }
 
             &__description {
@@ -153,7 +159,7 @@
         }
 
         .colaborate {
-            height: 550px;
+            // height: 550px;
             margin-bottom: 120px;
 
             &__ilustration {

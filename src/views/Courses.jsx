@@ -18,14 +18,14 @@ function Courses() {
                 </h4>
 
                 <CourseCard
-                    title="Introducción a UX/UI"
-                    img={courseCardImage}
-                    teacher="Profe Pepita"
-                    description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque earum provident, nulla molestias blanditiis voluptatum ab dicta culpa praesentium, explicabo mollitia architecto pariatur accusamus unde consectetur"
-                    date="15/07"
-                    duration="4 Semanas"
-                    modality="Online"
-                // signupHref="_blank"
+                    // title="Introducción a UX/UI"
+                    // img={courseCardImage}
+                    // teacher="Profe Pepita"
+                    // description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque earum provident, nulla molestias blanditiis voluptatum ab dicta culpa praesentium, explicabo mollitia architecto pariatur accusamus unde consectetur"
+                    // date="15/07"
+                    // duration="4 Semanas"
+                    // modality="Online"
+                    // signupHref="_blank"
                 />
             </div>
 

@@ -3,17 +3,18 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import { DisplayContext, useDisplay } from './utils/DisplayProvider';
 import { Paths } from "./routes";
 
-import Topbar from "./components/Topbar";
+import Navbar from "./components/Navbar";
 import ErrorPage from "./views/ErrorPage";
 import { SnackbarContainer } from './components/Snackbar';
 function App() {
 
-	const display = useDisplay();
+	const isMobile = useDisplay();
+
 	return (
 		<div className="app">
-			<DisplayContext.Provider value={display}>
+			<DisplayContext.Provider value={isMobile}>
 				<Router>
-					<Topbar />
+					<Navbar />
 
 					<Routes>
 						{Paths()}

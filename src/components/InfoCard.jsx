@@ -1,6 +1,5 @@
 
-
-function infoCard({ img, alt, title, description, link }) {
+function infoCard({ img, alt, title, description, link, href }) {
     return (
         <div className="info-card">
             <img className="info-card__image" src={img} alt={alt} />
@@ -9,7 +8,7 @@ function infoCard({ img, alt, title, description, link }) {
 
             <p className="info-card__description">{description}</p>
 
-            <a className="info-card__link" href="./Button.jsx">{link}</a>
+            <a className="info-card__link" href={href}>{link}</a>
         </div>
     );
 }

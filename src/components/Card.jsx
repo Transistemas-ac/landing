@@ -6,13 +6,13 @@ function Card({ className, children, divider = false }) {
 
 
     return (
-        <div className={`${className} card ${divider ? 'card--divided' : ''}`}>
+        <div className={`${className || ''} card ${divider ? 'card--divided' : ''}`}>
             {
                 divider
                     ?
                     Children.map(arrayChildren, (child, idx) =>
                         <>{child} <hr /></>)
-                        // idx !== arrayChildren.length - 1 ? <>{child} <hr /></> : <>{child}</>)
+                    // idx !== arrayChildren.length - 1 ? <>{child} <hr /></> : <>{child}</>)
                     :
                     children
             }

@@ -25,11 +25,11 @@ function CourseCard({ title, img, alt, teacher, description, curriculumHref, dat
                         <img className="footer__icon" src={iconInstagramOutline} alt="icono de instagram" />
                     </a>
 
-                    <a href="https://www.instagram.com/transistemas/" target="_blank" rel="noreferrer">
+                    <a href="https://www.linkedin.com/company/transistemasok/" target="_blank" rel="noreferrer">
                         <img className="footer__icon" src={iconLinkedinOutline} alt="icono de instagram" />
                     </a>
 
-                    <a href="https://www.instagram.com/transistemas/" target="_blank" rel="noreferrer">
+                    <a href="https://twitter.com/Transistemas1" target="_blank" rel="noreferrer">
                         <img className="footer__icon" src={iconTwitterOutline} alt="icono de instagram" />
                     </a>
                 </div>

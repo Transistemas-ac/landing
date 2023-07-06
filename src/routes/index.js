@@ -1,48 +1,54 @@
-import { LazyHome, LazyCourses, LazyNosotres, LazyDonations } from "../lazy-components";
-import { Link, Route, useMatch, useResolvedPath } from "react-router-dom";
-
-
+import { LazyHome, LazyCourses, LazyNosotres, LazyDonations } from '../lazy-components';
+import { Link, Route, useMatch, useResolvedPath } from 'react-router-dom';
 
 const routes = [
     {
-        name: "Inicio",
-        path: "/",
+        name: 'Inicio',
+        path: '/',
         component: <LazyHome />,
-        exact: true
+        exact: true,
+        class: 'home'
     },
     {
-        name: "Cursos y talleres",
-        path: "/cursos",
+        name: 'Cursos y talleres',
+        path: '/cursos',
         component: <LazyCourses />,
-        exact: true
+        exact: true,
+        class: 'courses'
     },
     {
-        name: "Nosotres",
-        path: "/nosotres",
+        name: 'Nosotres',
+        path: '/nosotres',
         component: <LazyNosotres />,
-        exact: true
+        exact: true,
+        class: 'nosotres'
     },
     {
-        name: "Donar",
-        path: "/donar",
+        name: 'Donar',
+        path: '/donar',
         component: <LazyDonations />,
-        exact: true
+        exact: true,
+        class: 'donate'
     },
 ]
 
-const Paths = (props) => routes.map((item, idx) => <Route key={idx} path={item.path} element={item.component} />);
+const Paths = (props) => routes.map((item, idx) => <Route key={idx} path={item.path} element={item.component} exact={item.exact} />);
 
 function CustomLink({ to, children, ...props }) {
     const resolvedPath = useResolvedPath(to);
     const isActive = useMatch({ path: resolvedPath.pathname, end: true });
 
     return (
-        <li className={`menu__link ${isActive ? 'active' : ''}`} >
+        <li className={`navbar__link ${isActive ? 'active' : ''}`} >
             <Link {...props} to={to}>{children}</Link>
         </li>
     )
 }
 
-const Links = (props) => routes.map((item, idx) => <CustomLink className={item.path.toLowerCase().slice(1)} key={idx} to={item.path} {...props}>{item.name}</CustomLink>);
+const NavbarLinks = (props) =>
+    routes.map(
+        (item, idx) =>
+            <CustomLink key={idx} className={item.class} to={item.path} {...props}>{item.name}</CustomLink>
+    );
 
-export { Paths, Links }
+export { Paths, NavbarLinks }

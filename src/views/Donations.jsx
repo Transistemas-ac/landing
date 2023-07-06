@@ -9,7 +9,7 @@ function Donations() {
         <div className='donations'>
             <h1 className='donations__title'>Donaciones</h1>
             <p className='donations__description'>
-                Con tu aporte Transistemas puede seguir existiendo, brindando cursos y capacitaciones de forma gratuita a nuestra comunidad.
+                El amor es nuestra fuerza e impulso para luchar de forma colaborativa por la justicia social. Con tu aporte Transistemas puede seguir existiendo, brindando cursos y capacitaciones de forma gratuita a nuestra comunidad.
             </p>
 
             <Card className='enterprise-contact'
@@ -20,7 +20,7 @@ function Donations() {
                     <p className='enterprise-contact__description'>¿Tenés una empresa y querés donar?</p>
                 </span>
                 <Button type='link'
-                    href='_blank'
+                    href='/#contact-form'
                     icon='mail'
                     className='enterprise-contact__button text-yellow'
                 >
@@ -29,6 +29,9 @@ function Donations() {
             </Card>
 
             <Card className='colaborate'>
+                {/* <span>
+                    
+                </span> */}
                 <img src={donationIlustration} alt='Ilustracion de donacion' className='colaborate__ilustration' />
                 <h1 className='colaborate__title'>Colaborá con la causa</h1>
                 <p className="colaborate__description">Ayudanos mes a mes para que podamos seguir avanzando</p>
