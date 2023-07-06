@@ -3,6 +3,7 @@ import Card from '../components/Card'
 
 import donationIlustration from '../assets/svg/donation_ilustration.svg'
 import Metrics from '../components/Metrics';
+import Footer from '../components/Footer';
 
 function Donations() {
     return (
@@ -70,7 +71,10 @@ function Donations() {
                 <h1 className="metrics-container__title">Nuestro impacto</h1>
                 <Metrics />
             </div>
+
+            <Footer/>
         </div>
+
     );
 }
 
