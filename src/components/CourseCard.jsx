@@ -19,7 +19,7 @@ function CourseCard({ title, img, alt, teacher, description, curriculumHref, dat
                 </p>
 
 
-                <a className="course-card__curriculum-link text-yellow" href='_blank'>¡Seguinos!</a>
+                <a className="course-card__curriculum-link text-yellow">¡Seguinos!</a>
                 <div className="course-card__icon-container">
                     <a href="https://www.instagram.com/transistemas/" target="_blank" rel="noreferrer">
                         <img className="footer__icon" src={iconInstagramOutline} alt="icono de instagram" />
