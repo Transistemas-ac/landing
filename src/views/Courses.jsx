@@ -14,7 +14,7 @@ function Courses() {
             <div className="courses-section">
                 <h1 className="courses-section__title">Cursos y talleres</h1>
                 <h4 className="courses-section__description">
-                    Brindamos capacitaciones en el área de la tecnología y ofrecemos diferentes herramientas para la inserción laboral a personas de la comunidad LGTBIQNB+.
+                    Brindamos capacitaciones en el área de la tecnología y ofrecemos diferentes herramientas para la inserción laboral a personas de la comunidad LGTBIQANB+.
                 </h4>
 
                 <CourseCard
@@ -52,7 +52,7 @@ function Courses() {
                     Los cursos son gratuitos y no tienen coste de emisión de certificado.
                 </Dropdown>
                 <Dropdown title="¿Quiénes pueden anotarse a los cursos?">
-                    Cualquier persona interesada, damos prioridad a personas del colectivo LGTBIQNB+.
+                    Cualquier persona interesada, damos prioridad a personas del colectivo LGTBIQANB+.
                 </Dropdown>
                 <Dropdown title="¿Si termino el curso recibo un certificado?">
                     ¡Si! Vas a recibir un certificado expedido por Transistemas y los entes que participen de la certificación.
