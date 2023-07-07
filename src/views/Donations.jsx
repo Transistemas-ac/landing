@@ -50,7 +50,7 @@ function Donations() {
                     <Button target='_blank' type='link' className='donation__button' href='https://mpago.la/18EHZ8i' icon='link'>$1000</Button>
                     <Button target='_blank' type='link' className='donation__button' href='https://mpago.la/1G1eoZc' icon='link'>$2000</Button>
                     <Button target='_blank' type='link' className='donation__button' href='http://mpago.la/1ydp1Tp' icon='link'>$3000</Button>
-                    <Button type='link' className='donation__button' href='_blank' icon='copy' copy='Transistemas'>Alias: TransistemasDonar.mp</Button>
+                    <Button type='link' className='donation__button' href='_blank' icon='copy' copy='TransistemasDonar.mp'>Alias: TransistemasDonar.mp</Button>
                 </Card>
             </div>
 
