@@ -20,7 +20,7 @@ const cards = [
         title: 'Capacitaciones',
         description: 'Facilitamos capacitaciones en diversidad, género y discapacidad para empresas y organizaciones.',
         link: 'Ver más',
-        href: '/#contact-form'
+        href: '/cursos'
     },
 
     {
