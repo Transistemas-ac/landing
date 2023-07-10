@@ -98,7 +98,8 @@ h1 {
 }
 
 input::placeholder,
-textarea::placeholder {
+textarea::placeholder input,
+textarea {
 	font-size: font("m-x-small");
 }
 
@@ -123,7 +124,9 @@ button {
 	a,
 	button,
 	input::placeholder,
-	textarea::placeholder {
+	textarea::placeholder,
+	input,
+	textarea {
 		font-size: font("d-x-small");
 	}
 }

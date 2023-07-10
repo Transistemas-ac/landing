@@ -691,24 +691,25 @@ h1 {
   font-weight: 700;
 }
 
-input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder input {
   font-size: 12px;
 }
 
-input::-moz-placeholder, textarea::-moz-placeholder {
+input::-moz-placeholder, textarea::-moz-placeholder input {
   font-size: 12px;
 }
 
-input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+input:-ms-input-placeholder, textarea:-ms-input-placeholder input {
   font-size: 12px;
 }
 
-input::-ms-input-placeholder, textarea::-ms-input-placeholder {
+input::-ms-input-placeholder, textarea::-ms-input-placeholder input {
   font-size: 12px;
 }
 
 input::placeholder,
-textarea::placeholder {
+textarea::placeholder input,
+textarea {
   font-size: 12px;
 }
 
@@ -742,7 +743,9 @@ button {
   a,
   button,
   input::placeholder,
-  textarea::placeholder {
+  textarea::placeholder,
+  input,
+  textarea {
     font-size: 20px;
   }
 }
@@ -1224,6 +1227,9 @@ body.navbar--expanded {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+.button:hover {
+  cursor: pointer;
 }
 
 button:disabled,

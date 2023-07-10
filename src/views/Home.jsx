@@ -62,7 +62,7 @@ function Home() {
                             </span>
                             <strong className="text-yellow">¡Queremos escuchar tus propuestas!</strong>
                         </p>
-                        <Button type='link' className="volunteer-section__button" href="#contact-form">Sumate</Button>
+                        <Button type='link' className="volunteer-section__button" href="/#contact-form">Sumate</Button>
                     </div>
                 </div>
             </div>
