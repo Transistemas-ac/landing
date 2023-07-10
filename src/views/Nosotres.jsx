@@ -30,13 +30,13 @@ function Nosotres() {
 
             <div className="integrants-section">
                 <h2 className="integrants-section__title">Integrantes de Transistemas</h2>
-                <Dropdown title="Equipo Comunicación" role='communication' />
+                <Dropdown title="Equipo Comunicación" type='members' role='communication' />
 
-                <Dropdown title="Equipo Educación" role='education' />
+                <Dropdown title="Equipo Educación" type='members' role='education' />
 
-                <Dropdown title="Equipo Diseño" role='design' />
+                <Dropdown title="Equipo Diseño" type='members' role='design' />
 
-                <Dropdown title="Equipo Desarrollo" role='development' />
+                <Dropdown title="Equipo Desarrollo" type='members' role='development' />
             </div >
 
             <Footer />

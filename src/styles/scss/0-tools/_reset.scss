@@ -151,11 +151,11 @@ textarea {
 }
 
 button {
-	font-family: unset;
-	font-size: unset;
-	font-weight: unset;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
 	// outline: none;
-	text-align: unset;
+	text-align: inherit;
 	border: 0px;
 	background-color: unset;
 }

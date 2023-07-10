@@ -57,12 +57,14 @@ $font-sizes: (
 	"m-x-small": 12px,
 	"m-small": 14px,
 	"m-medium": 20px,
-	"m-large": 32px,
+	"m-large": 26px,
+	"m-x-large": 32px,
 	"d-xx-small": 18px,
 	"d-x-small": 20px,
 	"d-small": 22px,
 	"d-medium": 24px,
-	"d-large": 40px,
+	"d-large": 32px,
+	"d-x-large": 40px,
 );
 
 @function font($size) {
@@ -74,7 +76,7 @@ body {
 	color: $white;
 	font-size: font("m-small");
 	font-weight: 400;
-	line-height: 19px;
+	line-height: 1.2;
 }
 
 strong {
@@ -91,44 +93,37 @@ h2 {
 }
 
 h1 {
-	font-size: font("m-large");
+	font-size: font("m-x-large");
 	font-weight: 700;
-	line-height: 100%;
+}
+
+input::placeholder,
+textarea::placeholder {
+	font-size: font("m-x-small");
+}
+
+a,
+button {
+	font-size: font("m-small");
 }
 
 @media screen and (min-width: $tablet-bp) {
-	.xx-small {
-		font-size: font("d-xx-small");
-	}
-
-	.x-small {
-		font-size: font("d-x-small");
-	}
-
 	body {
-		font-family: "Work Sans";
-		color: $white;
 		font-size: font("d-small");
-		font-weight: 400;
-		line-height: 100%;
-	}
-
-	strong {
-		font-weight: 600;
-	}
-
-	h3 {
-		font-weight: 600;
 	}
 
 	h2 {
 		font-size: font("d-medium");
-		font-weight: 600;
 	}
 
 	h1 {
-		font-size: font("d-large");
-		font-weight: 700;
-		line-height: 100%;
+		font-size: font("d-x-large");
+	}
+
+	a,
+	button,
+	input::placeholder,
+	textarea::placeholder {
+		font-size: font("d-x-small");
 	}
 }

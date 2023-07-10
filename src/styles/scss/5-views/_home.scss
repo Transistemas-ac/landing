@@ -15,6 +15,7 @@
             width: 100%;
             max-width: 500px;
             margin-bottom: 60px;
+
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -30,15 +31,15 @@
     .cards-section {
         width: 100vw;
         overflow: hidden;
-        margin-bottom: 0px;
+        margin-bottom: 110px;
 
         &__title {
             margin-bottom: 24px;
         }
     }
 
-    .metrics-section {
-        width: 100%;
+    .metrics {
+        margin-bottom: 110px;
     }
 
     .volunteer-section {
@@ -188,7 +189,6 @@
             margin-bottom: 190px;
 
             &__title {
-                font-size: font("d-large");
                 margin-bottom: 68px;
             }
 

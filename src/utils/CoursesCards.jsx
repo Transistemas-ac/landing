@@ -39,6 +39,7 @@ const pastCards = [
 const PastCards = () => pastCards.map((item, idx) =>
 (<SwiperSlide key={idx}>
     <Card
+        type='basic'
         className='past-course-card'
     >
         <h2 className="past-course-card__title">{item.title}</h2>

@@ -2,7 +2,7 @@
 const members = [
     {
         name: 'Abe Quiroga',
-        role: 'Co-fundadore y presidente de Transistemas',
+        role: 'Diversity Equity & Inclusion | Co-fundadore y presidente de Transistemas',
         picture: '01',
         team: 'communication',
         href: 'https://www.linkedin.com/in/abe-quiroga/'
@@ -50,7 +50,7 @@ const members = [
 
     {
         name: 'Guadalupe Saavedra',
-        role: 'Vendedora de salón',
+        role: 'Realizadora Audiovisual',
         picture: '07',
         team: 'design',
         href: 'https://ar.linkedin.com/in/guadalupe-saavedra-b770b1118'

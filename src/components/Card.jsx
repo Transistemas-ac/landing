@@ -1,25 +1,38 @@
 import { Children } from "react";
+import IllustrativeCard from './IllustrativeCard'
+import CourseCard from "./CourseCard";
 
-function Card({ className, children, divider = false }) {
+function Card(props) {
 
-    const arrayChildren = Children.toArray(children);
+    if (props.type === 'basic') {
+        const arrayChildren = Children.toArray(props.children);
+        const { className, divider, ...otherProps } = props;
 
+        return (
+            <div {...otherProps} className={`${className || ''} card ${divider ? 'card--divided' : ''}`}>
+                {
+                    divider
+                        ?
+                        Children.map(arrayChildren, (child, idx) => <>{child} <hr /></>)
+                        :
+                        props.children
+                }
+            </div>
+        )
+    }
 
-    return (
-        <div className={`${className || ''} card ${divider ? 'card--divided' : ''}`}>
-            {
-                divider
-                    ?
-                    Children.map(arrayChildren, (child, idx) =>
-                        <>{child} <hr /></>)
-                    // idx !== arrayChildren.length - 1 ? <>{child} <hr /></> : <>{child}</>)
-                    :
-                    children
-            }
+    if (props.type === 'illustrative') {
+        return (
+            <IllustrativeCard {...props} />
+        )
+    }
 
-            {/* <hr /> */}
-        </div>
-    )
+    if (props.type === 'course') {
+        return (
+            <CourseCard {...props} />
+        )
+    }
+
 }
 
 export default Card;    

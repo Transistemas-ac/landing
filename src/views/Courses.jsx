@@ -18,14 +18,14 @@ function Courses() {
                 </h4>
 
                 <CourseCard
-                    // title="Introducción a UX/UI"
-                    // img={courseCardImage}
-                    // teacher="Profe Pepita"
-                    // description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque earum provident, nulla molestias blanditiis voluptatum ab dicta culpa praesentium, explicabo mollitia architecto pariatur accusamus unde consectetur"
-                    // date="15/07"
-                    // duration="4 Semanas"
-                    // modality="Online"
-                    // signupHref="_blank"
+                // title="Introducción a UX/UI"
+                // img={courseCardImage}
+                // teacher="Profe Pepita"
+                // description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque earum provident, nulla molestias blanditiis voluptatum ab dicta culpa praesentium, explicabo mollitia architecto pariatur accusamus unde consectetur"
+                // date="15/07"
+                // duration="4 Semanas"
+                // modality="Online"
+                // signupHref="_blank"
                 />
             </div>
 
@@ -48,13 +48,13 @@ function Courses() {
 
             <div className="faq-section">
                 <h2 className="faq-section__title">Preguntas frecuentes</h2>
-                <Dropdown title={"¿Cuál es el costo de los cursos?"}>
+                <Dropdown type='basic' title={"¿Cuál es el costo de los cursos?"}>
                     Los cursos son gratuitos y no tienen coste de emisión de certificado.
                 </Dropdown>
-                <Dropdown title="¿Quiénes pueden anotarse a los cursos?">
+                <Dropdown type='basic' title="¿Quiénes pueden anotarse a los cursos?">
                     Cualquier persona interesada, damos prioridad a personas del colectivo LGTBIQNB+.
                 </Dropdown>
-                <Dropdown title="¿Si termino el curso recibo un certificado?">
+                <Dropdown type='basic' title="¿Si termino el curso recibo un certificado?">
                     ¡Si! Vas a recibir un certificado expedido por Transistemas y los entes que participen de la certificación.
                 </Dropdown>
             </div>

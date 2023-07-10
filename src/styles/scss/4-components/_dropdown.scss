@@ -3,28 +3,21 @@
     width: 100%;
     border-bottom: 1px solid white;
 
-    &__title {
+    &__button {
         width: 100%;
         color: $white;
-        padding-bottom: 12px;
-        padding-left: 5px;
+        padding-bottom: 10px;
         font-weight: 600;
-
+        color: $yellow;
         display: flex;
         justify-content: space-between;
-
+        
+        @media screen and (min-width: $tablet-bp) {
+            font-size: font('d-large');
+        }
+        
         &:hover {
             cursor: pointer;
-        }
-    }
-
-    &.active {
-        #{$r}__arrow {
-            transform: rotateX(180deg);
-        }
-
-        #{$r}__info {
-            margin-bottom: 20px;
         }
     }
 
@@ -34,14 +27,24 @@
     }
 
     &__info {
-        transition-property: max-height, margin;
+        transition-property: max-height;
         transition-duration: 0.3s;
         transition-timing-function: ease-in-out;
         max-height: 0px;
         overflow: hidden;
+    }
 
-        // &.active{
-        //     margin-bottom: 20px;
-        // }
+    &__integrants-container {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        padding-bottom: 12px;
+    }
+
+    &.active {
+        #{$r}__arrow {
+            transform: rotateX(180deg);
+        }
     }
 }

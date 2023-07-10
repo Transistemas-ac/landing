@@ -2,7 +2,7 @@ import cardTalleres from '../assets/svg/card_talleres.svg';
 import cardCapacitaciones from '../assets/svg/card_capacitaciones.svg';
 import cardAcompaniamiento from '../assets/svg/card_acompaniamiento.svg';
 import { SwiperSlide } from 'swiper/react';
-import InfoCard from '../components/InfoCard';
+import Card from '../components/Card';
 
 const cards = [
     {
@@ -20,7 +20,7 @@ const cards = [
         title: 'Capacitaciones',
         description: 'Facilitamos capacitaciones en diversidad, género y discapacidad para empresas y organizaciones.',
         link: 'Ver más',
-        href: '#contact-form'
+        href: '/#contact-form'
     },
 
     {
@@ -35,13 +35,15 @@ const cards = [
 
 const HomeSlides = () => cards.map((item, idx) =>
 (<SwiperSlide key={idx}>
-    <InfoCard
+    <Card
+        type='illustrative'
         img={item.img}
         alt={item.alt}
         title={item.title}
         description={item.description}
         link={item.link}
         href={item.href}
+        anchor={false}
     />
 </SwiperSlide>));
 

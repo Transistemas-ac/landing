@@ -3,24 +3,25 @@ import dropdownArrow from "../assets/svg/dropdown_arrow.svg";
 import Integrant from "../components/Integrant";
 import members from '../utils/members';
 
-
 export const DropdownContext = createContext();
+const url = process.env.REACT_APP_PUBLIC_URL;
+
+const iterateMembers = (role) => members.map((member, idx) => member.team === role ?
+    <Integrant
+        key={idx}
+        picture={`${url}/assets/png/${member.picture}.png`}
+        name={member.name}
+        occupation={member.role}
+        href={member.href}
+    /> : null);
+
 
 function Dropdown(props) {
-
     const [active, setActive] = useState(false);
     const dropdown = useRef()
-    const [integrants, setIntegrants] = useState(null);
-    const url = process.env.REACT_APP_PUBLIC_URL;
 
-    const iterateMembers = (role) => members.map((member, idx) => member.team === role ?
-        <Integrant
-            key={idx}
-            picture={`${url}/assets/png/${member.picture}.png`}
-            name={member.name}
-            occupation={member.role}
-            href={member.href}
-        /> : null);
+
+    const [integrants, setIntegrants] = useState(null);
 
     useEffect(() => {
         if (active) {
@@ -35,18 +36,20 @@ function Dropdown(props) {
     }, [active, integrants])
 
     return (
-        <div className={`dropdown ${active ? 'active' : ''}`.trim()} ref={dropdown}>
-            <button type="button" className="dropdown__title" onClick={() => { setActive(!active) }} >
+        <div className={`${props.className || ''}dropdown ${active ? 'active' : ''}`} ref={dropdown}>
+            <button type="button" className="dropdown__button" onClick={() => { setActive(!active) }} >
                 {props.title}
                 <img className="dropdown__arrow" src={dropdownArrow} alt="flecha desplegable" />
             </button>
+
             <DropdownContext.Provider value={active}>
                 <div className="dropdown__info" aria-disabled={!active}>
-                    {props?.role ? <>{integrants}</> : <>{props.children}</>}
+                    {props.type === 'basic' ? props.children : <div className="dropdown__integrants-container">{integrants}</div>}
                 </div>
             </DropdownContext.Provider>
         </div >
     );
+
 }
 
 export default Dropdown;

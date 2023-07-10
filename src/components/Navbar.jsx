@@ -3,6 +3,7 @@ import { NavbarLinks } from '../routes';
 import { DisplayContext } from '../utils/DisplayProvider';
 
 import transistemasLogo from '../assets/svg/logo_transistemas.svg';
+import { Link } from 'react-router-dom';
 
 function Navbar() {
 
@@ -44,7 +45,9 @@ function Navbar() {
             <div style={{ width: `${progress}` }} className='navbar__progress-bar'></div>
 
             <div ref={innerContainer} className='navbar__inner-container'>
-                <img className='navbar__logo' src={transistemasLogo} alt='logo' />
+                <Link to={'/'} className='navbar__logo'>
+                    <img src={transistemasLogo} alt='logo' />
+                </Link>
                 <button type='button' className='navbar__menu-button' onClick={() => toggleMenu()}>
                     <div className='navbar__menu-icon'></div>
                 </button>

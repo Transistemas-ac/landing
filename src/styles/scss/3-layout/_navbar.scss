@@ -40,7 +40,12 @@
         margin-bottom: auto;
 
         #{$r}__logo {
-            width: 160px;
+            pointer-events: auto;
+            display: flex;
+
+            img {
+                width: 160px;
+            }
         }
 
         #{$r}__menu-button {
@@ -99,9 +104,13 @@
         #{$r}__link {
             text-align: center;
 
+            a {
+                font-size: font("m-medium");
+            }
+
             a.donate {
                 display: block;
-                width: 50vw;
+                width: 60vw;
                 min-width: min-content;
                 max-width: 300px;
 
@@ -170,7 +179,7 @@ body.navbar--expanded {
                 margin-right: auto;
                 margin-left: auto;
 
-                font-size: font("d-medium");
+                font-size: font("d-x-small");
                 font-weight: 600;
                 background-color: $black;
 

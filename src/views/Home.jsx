@@ -49,9 +49,7 @@ function Home() {
 
 
 
-            <div className="metrics-section">
-                <Metrics />
-            </div>
+            <Metrics />
 
             <div className="volunteer-section">
                 <h1 className="volunteer-section__title">¿Querés ser voluntarie?</h1>
@@ -71,16 +69,16 @@ function Home() {
 
 
             <div className="contact-section">
-                <h2 className="contact-section__title">¡Dejanos tu mensaje!</h2>
+                <h1 className="contact-section__title">¡Dejanos tu mensaje!</h1>
                 <form id='contact-form' className='contact-section__form' onSubmit={(e) => { sendEmail(e) }}>
                     <fieldset className="contact-section__input-container">
                         <input className='contact-section__input' type="text" placeholder='Nombre/s:' name='user_name' />
-                        <input className='contact-section__input' type="text" placeholder='Prenombre/s:' name='user_pronouns' />
+                        <input className='contact-section__input' type="text" placeholder='Pronombre/s:' name='user_pronouns' />
                         <input className='contact-section__input' type="text" placeholder='Correo electrónico:' name='user_email' />
                     </fieldset>
                     <fieldset className="contact-section__input-container">
                         <textarea className='contact-section__textarea' placeholder='Mensaje:' name='message'></textarea>
-                        <Button type='submit' className='contact-section__button' icon='send' value='Send'>Enviar</Button>
+                        <Button type='submit' disabled className='contact-section__button' icon='send' value='Send'>Enviar</Button>
                     </fieldset>
                 </form>
             </div>

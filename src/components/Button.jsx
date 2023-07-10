@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import { snackbar } from './Snackbar';
 
 import iconSend from '../assets/svg/icon_send.svg'
@@ -6,8 +7,9 @@ import iconCopy from '../assets/svg/icon_copy.svg'
 import iconLink from '../assets/svg/icon_arrow.svg';
 
 function Button(props) {
-    let { icon } = props;
-    let Icon = () => <></>
+    let { type, icon, copy, href, className, children, onClick, ...otherProps } = props;
+    let Icon = () => <></>;
+    let Element = () => <></>;
 
     if (icon) {
         switch (icon) {
@@ -18,7 +20,7 @@ function Button(props) {
                 icon = { href: iconMail, alt: 'Icono de mail' }
                 break;
             case 'link':
-                icon = { href: iconLink, alt: 'Icono de link externol' }
+                icon = { href: iconLink, alt: 'Icono de link externo' }
                 break;
             case 'copy':
                 icon = { href: iconCopy, alt: 'Icono de copiar texto' }
@@ -32,34 +34,67 @@ function Button(props) {
         }
     }
 
+    switch (type) {
+        case 'link':
+            Element = () => {
+                return (
+                    <Link {...otherProps} to={href} className={`${className || ''} button ${icon ? 'button--icon' : ''}`}>
+                        {children}
+                        < Icon />
+                    </Link>
+                )
+            }
+            break;
+        case 'anchor':
+            Element = () => {
+                return (
+                    <a {...otherProps} href={href} type="text/html" className={`${className || ''} button ${icon ? 'button--icon' : ''}`}>
+                        {children}
+                        < Icon />
+                    </a>
+                )
+            }
+            break;
+        default:
+            Element = () => {
+                return (
+                    <button {...otherProps} type={type} className={`${className || ''} button ${icon ? 'button--icon' : ''}`} onClick={copy ? (e) => copyText(e) : props.onClick} >
+                        {children}
+                        < Icon />
+                    </button >
+                )
+            }
+            break;
+    }
+
     function copyText(e) {
-        if (props.copy) {
-            e.preventDefault();
-            e.stopPropagation();
-            navigator.clipboard.writeText(props.copy)
-                .then(() => {
-                    snackbar('Texto copiado exitosamente', 'success', 3000)
-                })
-                .catch((error) => {
-                    snackbar('Ha ocurrido un error inesperado', 'error', 3000)
-                });
-        }
+        e.preventDefault();
+        e.stopPropagation();
+        navigator.clipboard.writeText(props.copy)
+            .then(() => {
+                snackbar('Texto copiado exitosamente', 'success', 3000)
+            })
+            .catch((error) => {
+                snackbar('Ha ocurrido un error inesperado', 'error', 3000)
+            });
+
     }
 
     return (
         <>
-            {props.type === 'link'
+            <Element />
+            {/* {props.type === 'link'
                 ?
-                <a {...props} type="text/html" className={`${props.className || ''} button ${icon ? 'button--icon' : ''}`} onClick={(e) => copyText(e)}>
-                    {props.children}
+                <a {...otherProps} type="text/html" className={`${className || ''} button ${icon ? 'button--icon' : ''}`}>
+                    {children}
                     < Icon />
                 </a>
                 :
-                <button {...props} className={`${props.className || ''} button ${icon ? 'button--icon' : ''}`} onClick={(e) => copyText(e)}>
-                    {props.children}
+                <button {...otherProps} className={`${className || ''} button ${icon ? 'button--icon' : ''}`} onClick={copy ? (e) => copyText(e) : props.onClick} >
+                    {children}
                     < Icon />
-                </button>
-            }
+                </button >
+            } */}
         </>
     );
 }
