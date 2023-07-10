@@ -48,10 +48,10 @@ function Courses() {
 
             <div className="faq-section">
                 <h2 className="faq-section__title">Preguntas frecuentes</h2>
-                <Dropdown type='basic' title={"¿Cuál es el costo de los cursos?"}>
+                <Dropdown type='basic' title="¿Cuál es el costo de los cursos?">
                     Los cursos son gratuitos y no tienen coste de emisión de certificado.
                 </Dropdown>
-                <Dropdown title="¿Quiénes pueden anotarse a los cursos?">
+                <Dropdown type='basic' title="¿Quiénes pueden anotarse a los cursos?">
                     Cualquier persona interesada, damos prioridad a personas del colectivo LGTBIQANB+.
                 </Dropdown>
                 <Dropdown type='basic' title="¿Si termino el curso recibo un certificado?">

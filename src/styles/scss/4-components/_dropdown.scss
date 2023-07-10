@@ -11,11 +11,11 @@
         color: $yellow;
         display: flex;
         justify-content: space-between;
-        
+
         @media screen and (min-width: $tablet-bp) {
-            font-size: font('d-large');
+            font-size: font("d-large");
         }
-        
+
         &:hover {
             cursor: pointer;
         }
@@ -32,6 +32,10 @@
         transition-timing-function: ease-in-out;
         max-height: 0px;
         overflow: hidden;
+    }
+
+    &__inner-container {
+        padding-bottom: 12px;
     }
 
     &__integrants-container {

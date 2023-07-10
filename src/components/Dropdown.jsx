@@ -44,7 +44,10 @@ function Dropdown(props) {
 
             <DropdownContext.Provider value={active}>
                 <div className="dropdown__info" aria-disabled={!active}>
-                    {props.type === 'basic' ? props.children : <div className="dropdown__integrants-container">{integrants}</div>}
+                    {props.type === 'basic' ?
+                        <div className="dropdown__inner-container">{props.children}</div>
+                        :
+                        <div className="dropdown__integrants-container">{integrants}</div>}
                 </div>
             </DropdownContext.Provider>
         </div >

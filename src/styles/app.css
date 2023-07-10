@@ -1603,6 +1603,9 @@ textarea {
   max-height: 0px;
   overflow: hidden;
 }
+.dropdown__inner-container {
+  padding-bottom: 12px;
+}
 .dropdown__integrants-container {
   width: 100%;
   display: -webkit-box;
