@@ -3,7 +3,6 @@ import emptyCourseCardImage from "../assets/svg/empty-course-card-icon.svg";
 import iconInstagramOutline from '../assets/svg/media_instagram_outline.svg';
 import iconTwitterOutline from '../assets/svg/media_twiter_outline.svg';
 import iconLinkedinOutline from '../assets/svg/media_linkedin_outline.svg';
-import { Link } from "react-router-dom";
 
 function CourseCard(props) {
 
@@ -20,7 +19,7 @@ function CourseCard(props) {
                 </p>
 
 
-                <a className="course-card__curriculum-link" target="_blank" rel="noreferrer" href='https://www.instagram.com/transistemas/'>¡Seguinos!</a>
+                <p className="course-card__curriculum-link">¡Seguinos!</p>
                 <div className="course-card__icon-container">
                     <a href="https://www.instagram.com/transistemas/" target="_blank" rel="noreferrer">
                         <img className="footer__icon" src={iconInstagramOutline} alt="icono de instagram" />

@@ -1421,7 +1421,7 @@ button[disabled] {
   gap: 11px;
   width: 100%;
   height: 125px;
-  padding: 32px 0px;
+  padding: 32px 24px;
   border: 2px #CCCCCC solid;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -1911,7 +1911,7 @@ textarea {
   }
   .nosotres .teams-section__description {
     margin-bottom: 120px;
-    max-width: 800px;
+    max-width: 869px;
   }
   .nosotres .metrics {
     margin-bottom: 140px;
@@ -1997,6 +1997,7 @@ textarea {
   padding: 0px 5px;
 }
 .courses .faq-section .dropdown__title {
+  color: #FFCC00;
   padding-left: 0px;
 }
 
@@ -2098,6 +2099,12 @@ textarea {
 }
 .donations .transfer-card {
   margin-bottom: 64px;
+}
+.donations .transfer-card__title {
+  margin-bottom: 32px;
+}
+.donations .transfer-card__button-alias {
+  font-weight: 400;
 }
 .donations .metrics-title {
   margin-bottom: 50px;

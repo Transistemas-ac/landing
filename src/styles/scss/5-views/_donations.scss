@@ -63,6 +63,16 @@
     }
     .transfer-card {
         margin-bottom: 64px;
+
+        &__title {
+            margin-bottom: 32px;
+        }
+
+        &__button-alias {
+            font-weight: 400;
+        }
+        &__inner-container {
+        }
     }
 
     .metrics-title {

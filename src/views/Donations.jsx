@@ -52,6 +52,7 @@ function Donations() {
                 <Button target='_blank' rel="noreferrer" type='anchor' className='donation-card__link' href='https://mpago.la/18EHZ8i' icon='link'>$1000</Button>
                 <Button target='_blank' rel="noreferrer" type='anchor' className='donation-card__link' href='https://mpago.la/1G1eoZc' icon='link'>$2000</Button>
                 <Button target='_blank' rel="noreferrer" type='anchor' className='donation-card__link' href='http://mpago.la/1ydp1Tp' icon='link'>$3000</Button>
+                <Button type='button' className='donation-card__alias' icon='copy' copy='transistemasdonar.mp'>Alias: Transistemasdonar.mp</Button>
             </Card>
 
             <h1 className="transfer-title">
@@ -68,6 +69,7 @@ function Donations() {
                 </span>
                 <Button type='button' className='transfer-card__link' icon='copy' copy='Transistemas'>Alias: Transistemas</Button>
                 <Button type='button' className='transfer-card__link' icon='copy' copy='0140002101400205400077'>CBU: 0140002101400205400077</Button>
+
             </Card>
 
             <h1 className="metrics-title">
@@ -77,6 +79,7 @@ function Donations() {
 
             <Footer />
         </div>
+
     );
 }
 
