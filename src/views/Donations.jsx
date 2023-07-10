@@ -50,7 +50,7 @@ function Donations() {
                     <Button target='_blank' type='link' className='donation__button' href='https://mpago.la/18EHZ8i' icon='link'>$1000</Button>
                     <Button target='_blank' type='link' className='donation__button' href='https://mpago.la/1G1eoZc' icon='link'>$2000</Button>
                     <Button target='_blank' type='link' className='donation__button' href='http://mpago.la/1ydp1Tp' icon='link'>$3000</Button>
-                    <Button type='link' className='donation__button' href='_blank' icon='copy' copy='TransistemasDonar.mp'>Alias: TransistemasDonar.mp</Button>
+                    <Button type='link' className='donation__button-alias' href='_blank' icon='copy' copy='transistemasdonar.mp'>Alias: Transistemasdonar.mp</Button>
                 </Card>
             </div>
 
@@ -63,7 +63,7 @@ function Donations() {
                         <h3 className='transfer__subtitle'>Asociación Transistemas</h3>
                         <h4 className='transfer__type'>Cuenta corriente - Banco Provincia</h4>
                     </span>
-                    <Button type='link' className='transfer__button' href='_blank' icon='copy' copy='Transistemas'>Alias: Transistemas</Button>
+                    <Button type='link' className='transfer__button' href='_blank' icon='copy' copy='transistemas'>Alias: Transistemas</Button>
                     <Button type='link' className='transfer__button' href='_blank' icon='copy' copy='0140002101400205400077'>CBU: 0140002101400205400077</Button>
                 </Card>
             </div>

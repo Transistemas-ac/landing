@@ -1608,6 +1608,9 @@ textarea {
 .donations .donation__title {
   margin-bottom: 32px;
 }
+.donations .donation__button-alias {
+  font-weight: 400;
+}
 .donations .transfer {
   margin-bottom: 64px;
 }
