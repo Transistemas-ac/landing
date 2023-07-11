@@ -6,6 +6,8 @@ import { Paths } from "./routes";
 import Navbar from "./components/Navbar";
 import ErrorPage from "./views/ErrorPage";
 import { SnackbarContainer } from './components/Snackbar';
+import ScrollToTop from './utils/ScrollToTop';
+
 function App() {
 
 	const isMobile = useDisplay();
@@ -14,6 +16,7 @@ function App() {
 		<div className="app">
 			<DisplayContext.Provider value={isMobile}>
 				<Router>
+					<ScrollToTop />
 					<Navbar />
 
 					<Routes>

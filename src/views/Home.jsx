@@ -3,7 +3,7 @@ import imgVoluntarie from '../assets/svg/img_voluntarie.svg';
 
 import Button from '../components/Button';
 import Footer from '../components/Footer';
-import HomeSlides from '../utils/HomeCards';
+import { HomeSlides } from '../utils/Slides';
 
 import { SwiperHOC } from '../utils/SwiperHOC';
 import { Pagination } from 'swiper';

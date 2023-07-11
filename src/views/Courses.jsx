@@ -3,8 +3,7 @@ import { Pagination } from 'swiper';
 
 import CourseCard from "../components/CourseCard";
 import Footer from "../components/Footer";
-import courseCardImage from "../assets/svg/course-card-image.svg";
-import { PastCards } from "../utils/CoursesCards"
+import { PastCourseSlides } from "../utils/Slides"
 
 import Dropdown from "../components/Dropdown";
 
@@ -42,7 +41,7 @@ function Courses() {
                     spaceBetween={20}
                     pagination={{ clickable: true }}
                 >
-                    {PastCards()}
+                    {PastCourseSlides()}
                 </SwiperHOC>
             </div>
 

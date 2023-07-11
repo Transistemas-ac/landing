@@ -1,5 +1,6 @@
 import { LazyHome, LazyCourses, LazyNosotres, LazyDonations } from '../lazy-components';
-import { Link, Route, useMatch, useResolvedPath } from 'react-router-dom';
+import { Route, useMatch, useResolvedPath } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const routes = [
     {
@@ -40,7 +41,7 @@ function CustomLink({ to, children, ...props }) {
 
     return (
         <li className={`navbar__link ${isActive ? 'active' : ''}`} >
-            <Link {...props} to={to}>{children}</Link>
+            <HashLink {...props} to={to}>{children}</HashLink>
         </li>
     )
 }

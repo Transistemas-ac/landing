@@ -1,4 +1,5 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
 
 function IllustrativeCard(props) {
 
@@ -17,7 +18,7 @@ function IllustrativeCard(props) {
                     ?
                     <a className="illustrative-card__link" href={href}>{link}</a>
                     :
-                    <Link className="illustrative-card__link" to={href}>{link}</Link>
+                    <HashLink smooth className="illustrative-card__link" to={href}>{link}</HashLink>
             }
         </div>
     );

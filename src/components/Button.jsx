@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import { snackbar } from './Snackbar';
 
 import iconSend from '../assets/svg/icon_send.svg'
@@ -38,10 +38,10 @@ function Button(props) {
         case 'link':
             Element = () => {
                 return (
-                    <Link {...otherProps} to={href} className={`${className || ''} button ${icon ? 'button--icon' : ''}`}>
+                    <HashLink {...otherProps} to={href} className={`${className || ''} button ${icon ? 'button--icon' : ''}`}>
                         {children}
                         < Icon />
-                    </Link>
+                    </HashLink>
                 )
             }
             break;

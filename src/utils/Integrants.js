@@ -1,5 +1,5 @@
 
-const members = [
+const integrants = [
     {
         name: 'Abe Quiroga',
         role: 'Diversity Equity & Inclusion | Co-fundadore y presidente de Transistemas',
@@ -107,4 +107,4 @@ const members = [
 
 
 
-export default members;
+export default integrants;

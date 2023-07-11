@@ -1,12 +1,12 @@
 import { useEffect, useState, useRef, createContext } from "react";
 import dropdownArrow from "../assets/svg/dropdown_arrow.svg";
 import Integrant from "../components/Integrant";
-import members from '../utils/members';
+import integrants from '../utils/Integrants';
 
 export const DropdownContext = createContext();
 const url = process.env.REACT_APP_PUBLIC_URL;
 
-const iterateMembers = (role) => members.map((member, idx) => member.team === role ?
+const iterateMembers = (role) => integrants.map((member, idx) => member.team === role ?
     <Integrant
         key={idx}
         picture={`${url}/assets/png/${member.picture}.png`}
