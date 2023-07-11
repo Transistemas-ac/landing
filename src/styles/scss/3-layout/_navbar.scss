@@ -1,4 +1,5 @@
-.topbar-container {
+.navbar {
+    $r: ".navbar";
     position: fixed;
     top: 0px;
     width: 100%;
@@ -9,8 +10,8 @@
 
     pointer-events: none;
 
-    .progress-bar {
-        width: 1%;
+    &__progress-bar {
+        width: 0%;
         height: 10px;
         transition: 0.3s width ease-in-out;
         background-color: $pink;
@@ -23,13 +24,12 @@
             height: inherit;
             position: absolute;
             background-color: $black;
+            border: 7px solid $black;
             z-index: -20;
         }
     }
 
-    .topbar {
-        $r: ".topbar";
-
+    &__inner-container {
         width: 100%;
         padding: 20px;
         background-color: $black;
@@ -39,14 +39,17 @@
         justify-content: space-between;
         margin-bottom: auto;
 
-        &__logo {
-            width: 160px;
+        #{$r}__logo {
+            pointer-events: auto;
+            display: flex;
+
+            img {
+                width: 160px;
+            }
         }
 
-        &__menu-button {
+        #{$r}__menu-button {
             height: 20px;
-            padding: 0px 2px;
-            @include flexCenter(row);
             pointer-events: auto;
 
             &:hover {
@@ -58,7 +61,8 @@
                 width: 20px;
                 height: 2px;
                 background-color: $white;
-                transition: all 0.2s;
+                transition-duration: 0.2s;
+                transition-property: background-color;
 
                 &::after,
                 &::before {
@@ -68,7 +72,8 @@
                     width: 20px;
                     height: 2px;
                     background-color: $white;
-                    transition: all 0.3s;
+                    transition-duration: 0.3s;
+                    transition-property: transform;
                 }
 
                 &::after {
@@ -82,28 +87,30 @@
         }
     }
 
-    .menu {
-        $r: ".menu";
+    &__links {
         width: 100%;
 
         @include flexCenter(column);
         flex-grow: 1;
-
         gap: 60px;
-
-        transition: 0.3s opacity;
-        opacity: 0;
 
         font-size: font("m-medium");
         background-color: $black;
         font-weight: 600;
 
+        transition: 0.3s opacity;
+        opacity: 0;
+
         #{$r}__link {
             text-align: center;
 
-            a.donar {
+            a {
+                font-size: font("m-medium");
+            }
+
+            a.donate {
                 display: block;
-                width: 50vw;
+                width: 60vw;
                 min-width: min-content;
                 max-width: 300px;
 
@@ -118,10 +125,10 @@
         }
     }
 
-    &.menu-open {
+    &.navbar--expanded {
         z-index: 20;
 
-        .topbar__menu-icon {
+        #{$r}__menu-icon {
             background-color: transparent;
 
             &::after {
@@ -133,29 +140,29 @@
             }
         }
 
-        .menu {
+        #{$r}__links {
             opacity: 1;
             pointer-events: auto;
         }
     }
 }
 
-body.menu-open {
+body.navbar--expanded {
     overflow: hidden;
 }
 
 @media screen and (min-width: $tablet-bp) {
-    .topbar-container {
+    body.menu-open {
+        overflow: unset;
+        overflow-x: hidden;
+    }
+
+    .navbar {
+        $r: ".navbar";
         pointer-events: none;
 
-        .topbar {
-            $r: ".topbar";
-
-            &__logo {
-                width: 160px;
-            }
-
-            &__menu-button {
+        &__inner-container {
+            #{$r}__menu-button {
                 display: none;
 
                 #{$r}__menu-icon {
@@ -163,31 +170,29 @@ body.menu-open {
                 }
             }
 
-            .menu {
-                $r: ".menu";
+            #{$r}__links {
                 max-width: 1080px;
+                pointer-events: auto;
 
                 flex-direction: row;
                 justify-content: space-around;
-                padding: 0px 20px;
-                pointer-events: auto;
                 margin-right: auto;
                 margin-left: auto;
 
-                font-size: font("d-medium");
-                background-color: $black;
+                font-size: font("d-x-small");
                 font-weight: 600;
+                background-color: $black;
 
                 opacity: 1;
 
-                &__link {
+                #{$r}__link {
                     color: $grey-lighter;
 
                     &.active {
                         color: $pink;
                     }
 
-                    a.donar {
+                    a.donate {
                         display: inline;
                         color: inherit;
                         background-color: transparent;
@@ -195,10 +200,5 @@ body.menu-open {
                 }
             }
         }
-    }
-
-    body.menu-open {
-        overflow: unset;
-        overflow-x: hidden;
     }
 }

@@ -30,9 +30,9 @@
             margin-bottom: 25px;
         }
 
-        .swiper-pagination {
-            margin: 0px;
-        }
+        // .swiper-pagination {
+        //     margin: 0px;
+        // }
     }
 
     .faq-section {
@@ -51,6 +51,7 @@
             padding: 0px 5px;
 
             &__title {
+                color: $yellow;
                 padding-left: 0px;
             }
         }
@@ -90,7 +91,7 @@
             &__title {
                 margin-bottom: 104px;
                 text-align: center;
-                font-size: font("d-large");
+                font-size: font("d-x-large");
             }
 
             .dropdown {

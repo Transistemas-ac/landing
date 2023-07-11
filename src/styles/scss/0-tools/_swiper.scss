@@ -263,11 +263,11 @@
 }
 
 .swiper-pagination-bullet {
-	width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 8px));
-	height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 8px));
+	width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 10px));
+	height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 10px));
 	display: inline-block;
 	border-radius: 50%;
-	background: $grey-darker;
+	background: $grey-lighter;
 
 	@at-root button#{&} {
 		border: none;

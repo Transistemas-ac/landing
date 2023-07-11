@@ -1,61 +1,58 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState, useRef, createContext } from "react";
 import dropdownArrow from "../assets/svg/dropdown_arrow.svg";
 import Integrant from "../components/Integrant";
 import members from '../utils/members';
 
+export const DropdownContext = createContext();
+const url = process.env.REACT_APP_PUBLIC_URL;
+
+const iterateMembers = (role) => members.map((member, idx) => member.team === role ?
+    <Integrant
+        key={idx}
+        picture={`${url}/assets/png/${member.picture}.png`}
+        name={member.name}
+        occupation={member.role}
+        href={member.href}
+    /> : null);
+
+
 function Dropdown(props) {
-
-    const [integrants, setIntegrants] = useState(null)
-    const dropdownButton = useRef()
-
-    const iterateMembers = (role) => members.map((member, idx) => member.team === role ?
-        <Integrant
-            key={idx}
-            picture={`http://localhost:3000/png/${member.picture}.png`}
-            name={member.name}
-            occupation={member.role}
-            href="https://translate.google.com.ar/?sl=es&tl=en&text=Foto%20de%20perfil&op=translate"
-        /> : null);
+    const [active, setActive] = useState(false);
+    const dropdown = useRef()
 
 
-    const toggleDropdown = () => {
-        let dropdown = dropdownButton.current.nextSibling;
-        let dropdownArrow = dropdownButton.current.lastChild.classList;
-
-        dropdown.classList.toggle("active");
-        dropdownArrow.toggle("active");
-
-        if (dropdown.classList.contains("active")) {
-            dropdown.style.maxHeight = `${dropdown.scrollHeight}px`;
-        } else {
-            dropdown.style.maxHeight = "0px";
-        }
-    }
+    const [integrants, setIntegrants] = useState(null);
 
     useEffect(() => {
-        if (integrants) {
-            toggleDropdown()
-        }
-    }, [integrants])
+        if (active) {
+            if (props.role && !integrants) {
+                setIntegrants(iterateMembers(props.role))
+            }
 
-    function openDropdown(e) {
-        if (props.role) { setIntegrants(() => iterateMembers(props.role)); return }
-        toggleDropdown()
-    }
+            dropdown.current.lastChild.style.maxHeight = `${dropdown.current.lastChild.scrollHeight}px`;
+            return
+        }
+        dropdown.current.lastChild.style.maxHeight = "0px";
+    }, [active, integrants])
 
     return (
-        <div className="dropdown" >
-            <button ref={dropdownButton} type="button" className="dropdown__title" onClick={(e) => { openDropdown(e) }} >
+        <div className={`${props.className || ''}dropdown ${active ? 'active' : ''}`} ref={dropdown}>
+            <button type="button" className="dropdown__button" onClick={() => { setActive(!active) }} >
                 {props.title}
                 <img className="dropdown__arrow" src={dropdownArrow} alt="flecha desplegable" />
             </button>
 
-            <div className="dropdown__info">
-                {props?.role ? <>{integrants}</> : <>{props.children}</>}
-            </div>
-
-        </div>
+            <DropdownContext.Provider value={active}>
+                <div className="dropdown__info" aria-disabled={!active}>
+                    {props.type === 'basic' ?
+                        <div className="dropdown__inner-container">{props.children}</div>
+                        :
+                        <div className="dropdown__integrants-container">{integrants}</div>}
+                </div>
+            </DropdownContext.Provider>
+        </div >
     );
+
 }
 
 export default Dropdown;

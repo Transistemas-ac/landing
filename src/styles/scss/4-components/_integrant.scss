@@ -1,7 +1,7 @@
 .integrant {
-    $r:&;
+    $r: ".integrant";
     width: 100%;
-    padding: 12px 0px;
+    padding-bottom: 6px;
 
     display: flex;
     justify-content: space-between;
@@ -15,17 +15,37 @@
         width: 34px;
     }
 
+    &__info-container {
+        width: 50%;
+        margin-right: auto;
+    }
+
     &__link {
-        width: unset;
-        
         #{$r}__icon {
             width: 16px;
             margin-right: 5px;
         }
     }
+}
 
+@media screen and (min-width: $tablet-bp) {
+    .integrant {
+        $r: ".integrant";
+        padding-bottom: 16px;
 
-    &__info-container {
-        margin-right: auto;
+        &__picture {
+            // height: 50px;
+        }
+
+        &__link {
+            #{$r}__icon {
+                width: 18px;
+                margin-right: 5px;
+            }
+        }
+
+        &__info-container {
+            margin-right: auto;
+        }
     }
 }

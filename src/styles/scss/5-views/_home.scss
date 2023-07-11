@@ -15,6 +15,7 @@
             width: 100%;
             max-width: 500px;
             margin-bottom: 60px;
+
             display: flex;
             flex-direction: column;
             justify-content: space-between;
@@ -30,21 +31,20 @@
     .cards-section {
         width: 100vw;
         overflow: hidden;
-        margin-bottom: 0px;
+        margin-bottom: 110px;
 
         &__title {
             margin-bottom: 24px;
         }
     }
 
-    .metrics-section {
-        width: 100%;
+    .metrics {
+        margin-bottom: 110px;
     }
 
     .volunteer-section {
         $r: ".volunteer-section";
         width: 100%;
-        overflow: hidden;
         margin-bottom: 104px;
         max-width: 328px;
 
@@ -58,6 +58,7 @@
             }
 
             #{$r}__info-container {
+                max-width: 544px;
                 margin-top: 20px;
                 display: flex;
                 flex-direction: column;
@@ -68,11 +69,13 @@
                     display: flex;
                     flex-direction: column;
                     justify-content: space-between;
+                    text-align: left;
                     flex-grow: 1;
                     gap: 20px;
                 }
 
                 #{$r}__button {
+                    max-width: 380px;
                 }
             }
         }
@@ -186,7 +189,6 @@
             margin-bottom: 190px;
 
             &__title {
-                font-size: font("d-large");
                 margin-bottom: 68px;
             }
 

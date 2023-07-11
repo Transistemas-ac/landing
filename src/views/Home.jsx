@@ -7,10 +7,15 @@ import HomeSlides from '../utils/HomeCards';
 
 import { SwiperHOC } from '../utils/SwiperHOC';
 import { Pagination } from 'swiper';
-
 import Metrics from '../components/Metrics';
 
 function Home() {
+
+    function sendEmail(e) {
+        e.preventDefault()
+        const form = e.currentTarget;
+        form.reset()
+    }
 
     return (
         <div className="home">
@@ -44,9 +49,7 @@ function Home() {
 
 
 
-            <div className="metrics-section">
-                <Metrics />
-            </div>
+            <Metrics />
 
             <div className="volunteer-section">
                 <h1 className="volunteer-section__title">¿Querés ser voluntarie?</h1>
@@ -55,30 +58,27 @@ function Home() {
                     <div className="volunteer-section__info-container">
                         <p className="volunteer-section__info">
                             <span>
-                                Podés colaborar desde cualquier lugar del mundo, nos reunimos de forma remota.
-                            </span>
-                            <span>
-                                Equipos de Diseño, Desarrollo Web, Comunicación, Social o Educación.
+                                Podés colaborar con nosotres desde cualquier lugar del mundo de forma remota en nuestros equipos de Diseño, Programación, Comunicación o Educación.
                             </span>
                             <strong className="text-yellow">¡Queremos escuchar tus propuestas!</strong>
                         </p>
-                        <Button type='link' className="volunteer-section__button" href="/cursos">Sumate</Button>
+                        <Button type='link' className="volunteer-section__button" href="/#contact-form">Sumate</Button>
                     </div>
                 </div>
             </div>
 
 
             <div className="contact-section">
-                <h2 className="contact-section__title">¡Dejanos tu mensaje!</h2>
-                <form className='contact-section__form' action="#">
+                <h1 className="contact-section__title">¡Dejanos tu mensaje!</h1>
+                <form id='contact-form' className='contact-section__form' onSubmit={(e) => { sendEmail(e) }}>
                     <fieldset className="contact-section__input-container">
-                        <input className='contact-section__input' type="text" placeholder='Nombre/s:' />
-                        <input className='contact-section__input' type="text" placeholder='Prenombre/s:' />
-                        <input className='contact-section__input' type="text" placeholder='Correo electrónico:' />
+                        <input className='contact-section__input' type="text" placeholder='Nombre/s:' name='user_name' />
+                        <input className='contact-section__input' type="text" placeholder='Pronombre/s:' name='user_pronouns' />
+                        <input className='contact-section__input' type="text" placeholder='Correo electrónico:' name='user_email' />
                     </fieldset>
                     <fieldset className="contact-section__input-container">
-                        <textarea className='contact-section__textarea' placeholder='Mensaje:'></textarea>
-                        <Button type='submit' className='contact-section__button' icon='send'>Enviar</Button>
+                        <textarea className='contact-section__textarea' placeholder='Mensaje:' name='message'></textarea>
+                        <Button type='submit' disabled className='contact-section__button' icon='send' value='Send'>Enviar</Button>
                     </fieldset>
                 </form>
             </div>

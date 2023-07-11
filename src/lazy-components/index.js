@@ -1,5 +1,5 @@
-import { lazy, Suspense } from "react";
-import LoadingScreen from "../views/LoadingScreen";
+import { lazy, Suspense } from 'react';
+import LoadingScreen from '../views/LoadingScreen';
 
 const Home = lazy(() => import('../views/Home'))
 const Courses = lazy(() => import('../views/Courses'))
@@ -29,23 +29,5 @@ const LazyDonations = () => (
         <Donations />
     </Suspense>
 );
-
-
-// import loadable from '../utils/loadable';
-
-// const LazyHome = loadable({
-//     loader: () => lazy(() => import('./Home')),
-//     Loading: LoadingScreen
-// })
-
-// const LazyCourses = loadable({
-//     loader: () => lazy(() => import('./Courses')),
-//     Loading: LoadingScreen
-// })
-
-// const LazyNosotres = loadable({
-//     loader: () => lazy(() => import('./Nosotres')),
-//     Loading: LoadingScreen
-// })
 
 export { LazyHome, LazyCourses, LazyNosotres, LazyDonations }

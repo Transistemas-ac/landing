@@ -1,44 +1,49 @@
-import pastCourseImage from '../assets/jpg/past-course-image.jpg';
 import Card from '../components/Card';
 import { SwiperSlide } from 'swiper/react';
 
 const pastCards = [
     {
-        img: pastCourseImage,
-        date: 'Abril 2022',
-        title: 'Testing Manual'
+        title: 'Herramientas Básicas para la inserción laboral',
+        date: 'Junio 2023'
+    },
+    {
+        title: 'UX Writing',
+        date: 'Septiembre 2022'
     },
     {
         title: 'Diseño UX/UI',
-        date: 'Marzo 2020',
-        img: pastCourseImage
+        date: 'Septiembre 2022'
     },
     {
-        title: 'UX Writing',
-        date: 'Junio 2021',
-        img: pastCourseImage
+        title: 'Taller de testing manual',
+        date: 'Agosto 2021'
     },
     {
-        title: 'UX Writing',
-        date: 'Junio 2021',
-        img: pastCourseImage
+        title: 'Alfabetización digital',
+        date: 'Junio 2021'
+    },
+    {
+        title: 'Speak Up',
+        date: 'Marzo 2021'
+    },
+    {
+        title: 'WordPress',
+        date: 'Septiembre 2020'
+    },
+    {
+        title: 'Programación',
+        date: 'Febrero 2020'
     }
 ];
 
 const PastCards = () => pastCards.map((item, idx) =>
 (<SwiperSlide key={idx}>
     <Card
+        type='basic'
         className='past-course-card'
-    // divider={true}
-    // title={item.title}
-    // date={item.date}
-    // img={item.img}
     >
         <h2 className="past-course-card__title">{item.title}</h2>
         <h4 className="past-course-card__date">{item.date}</h4>
-        <div className="past-course-card__image-container">
-            <img className="past-course-card__image" src={item.img} alt="" />
-        </div>
     </Card>
 </SwiperSlide>));
 
