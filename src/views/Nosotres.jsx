@@ -15,7 +15,7 @@ function Nosotres() {
             <div className="teams-section">
                 <h1 className="teams-section__title">Nosotres</h1>
                 <p className="teams-section__description">
-                    Transistemas comenzó en 2019, meses antes de la ley del Cupo Laboral Travesti Trans. Queríamos armar una cooperativa para incluirnos como comunidad dentro del sistema laboral en el área de programación y diseño. Para lograr eso debíamos capacitarnos; así comenzamos a dictar cursos, con el objetivo de cambiar la cultura de trabajo dominante.
+                Transistemas comenzó a fines del 2019, años antes de la ley del Cupo Laboral Travesti Trans, nuestro deseo era armar una cooperativa para incluirnos como comunidad dentro del sistema laboral de las TICs. Para lograr eso debíamos capacitarnos, así comenzamos a dictar cursos, con el objetivo de cambiar la cultura empresarial dominante y mejorar la situación laboral de nuestra comunidad.
                 </p>
                 <SwiperHOC
                     modules={[Pagination]}
