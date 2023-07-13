@@ -1180,7 +1180,6 @@ button[disabled] {
   color: #FFCC00;
 }
 .metrics__item .metrics__title {
-  margin-top: auto;
   margin-bottom: auto;
 }
 @media screen and (min-width: 980px) {
