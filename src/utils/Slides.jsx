@@ -67,8 +67,8 @@ const homeCards = [
         alt: 'Descripcion de la imagen',
         title: 'Acompañamiento',
         description: 'Colaboramos con personas de la comunidad a sortear situaciones complejas.',
-        link: 'Ver más',
-        href: '/donar'
+        //link: 'Ver más',
+        //href: '/donar'
     }
 ];
 
