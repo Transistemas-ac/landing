@@ -15,7 +15,7 @@ function IllustrativeCard(props) {
             {
                 anchor
                     ?
-                    <a className="illustrative-card__link" href={href}>{link}</a>
+                    <a className="illustrative-card__link" target='_blank' rel="noreferrer" href={href}>{link}</a>
                     :
                     <HashLink smooth className="illustrative-card__link" to={href}>{link}</HashLink>
             }

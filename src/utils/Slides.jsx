@@ -118,8 +118,8 @@ const NosotresSlides = () => nosotresCards.map((item, idx) =>
         title={item.title}
         description={item.description}
         link={item.link}
-        anchor={false}
-        href={'/#contact-form'}
+        anchor={true}
+        href={'https://docs.google.com/forms/d/e/1FAIpQLSePZcGZlbE1JHx3PyLMgdzvtot6IZPVZ0XDi6SAquWPResx7g/viewform'}
     />
 </SwiperSlide>));
 
