@@ -20,12 +20,12 @@
         margin-right: auto;
     }
 
-    &__link {
-        #{$r}__icon {
-            width: 16px;
-            margin-right: 5px;
-        }
+
+    #{$r}__icon {
+        width: 16px;
+        margin-right: 5px;
     }
+
 }
 
 @media screen and (min-width: $tablet-bp) {

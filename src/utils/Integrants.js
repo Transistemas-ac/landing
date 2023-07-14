@@ -90,7 +90,7 @@ const integrants = [
 
     {
         name: 'Alex Valdez',
-        role: 'Developer / QA Tester',
+        role: 'Fullstack Developer / Tester QA',
         picture: '12',
         team: 'development',
         href: 'https://www.linkedin.com/in/alexvaldez-dev/'
