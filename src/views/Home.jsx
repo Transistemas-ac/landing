@@ -11,11 +11,7 @@ import Metrics from '../components/Metrics';
 
 function Home() {
 
-    function sendEmail(e) {
-        e.preventDefault()
-        const form = e.currentTarget;
-        form.reset()
-    }
+
 
     return (
         <div className="home">
@@ -70,16 +66,17 @@ function Home() {
 
             <div className="contact-section">
                 <h1 className="contact-section__title">¡Dejanos tu mensaje!</h1>
-                <form id='contact-form' className='contact-section__form' onSubmit={(e) => { sendEmail(e) }}>
+                <form id='contact-form' className='contact-section__form' action='https://formsubmit.co/8b0ded5b4c4229e2cc6249cf91f5e2b4' method='POST'>
                     <fieldset className="contact-section__input-container">
-                        <input className='contact-section__input' type="text" placeholder='Nombre/s:' name='user_name' />
-                        <input className='contact-section__input' type="text" placeholder='Pronombre/s:' name='user_pronouns' />
-                        <input className='contact-section__input' type="text" placeholder='Correo electrónico:' name='user_email' />
+                        <input className='contact-section__input' type="text" placeholder='Nombre/s:' name='nombre' required/>
+                        <input className='contact-section__input' type="text" placeholder='Pronombre/s:' name='pronombres' />
+                        <input className='contact-section__input' type="email" placeholder='Correo electrónico:' name='email' required/>
                     </fieldset>
                     <fieldset className="contact-section__input-container">
                         <textarea className='contact-section__textarea' placeholder='Mensaje:' name='message'></textarea>
-                        <Button type='submit' disabled className='contact-section__button' icon='send' value='Send'>Enviar</Button>
+                        <Button type='submit' className='contact-section__button' icon='send' value='Send'>Enviar</Button>
                     </fieldset>
+                    <input type='hidden' name='_next' value='https://transistemas.org/' />
                 </form>
             </div>
 
