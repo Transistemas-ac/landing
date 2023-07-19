@@ -17,14 +17,22 @@ function Courses() {
                 </h4>
 
                 <CourseCard
-                // title="Introducción a UX/UI"
-                // img={courseCardImage}
-                // teacher="Profe Pepita"
-                // description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque earum provident, nulla molestias blanditiis voluptatum ab dicta culpa praesentium, explicabo mollitia architecto pariatur accusamus unde consectetur"
-                // date="15/07"
-                // duration="4 Semanas"
-                // modality="Online"
-                // signupHref="_blank"
+                title="TESTING MANUAL"
+                //img={courseCardImage}
+                teacher="Lorena Miranda, Luis Thur, Julián Landó, Andres del Valle y Gisela Cordero"
+                description={<p>¿Que es el testing? <br />
+                    Analizamos softwares y realizamos pruebas para analizar su calidad y detectar defectos. <br />
+                    <br />
+                    ¿Quienes pueden hacer el curso?<br />
+                    Cualquier persona interesada en el mundo de las TICs, que tenga el compromiso de finalizar el curso.
+                    No es necesario tener conocimientos previos . 
+                    Miércoles de 18:30 a 20:30 hs
+                    </p>}
+                curriculumHref="https://drive.google.com/file/d/1c-KsPMruhFILetBSaneSigI42GBiPwpy"
+                date="09/08"
+                duration="17 Semanas"
+                modality="Online"
+                signupHref="https://docs.google.com/forms/d/16s5Q9mo145caz2-vpAJxm0qxqPjOVMJFhycaxxo5kh8"
                 />
             </div>
 

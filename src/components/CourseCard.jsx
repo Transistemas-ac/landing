@@ -47,13 +47,13 @@ function CourseCard(props) {
                 <p className="course-card__description">{props.description}</p>
 
 
-                <a className="course-card__curriculum-link text-yellow" href={props.curriculumHref}>Ver temario</a>
+                <a target="_blank" rel="noreferrer" className="course-card__curriculum-link text-yellow" href={props.curriculumHref}>Ver temario</a>
                 <div className="course-card__tags-container">
                     <h4 className="course-card__tag">📆 {props.date}</h4>
                     <h4 className="course-card__tag">⏰ {props.duration}</h4>
                     <h4 className="course-card__tag">💻 {props.modality}</h4>
                 </div>
-                <Button className='course-card__button' href={props.signupHref}>Inscribirse</Button>
+                <Button type="anchor" target="_blank" rel="noreferrer" className='course-card__button' href={props.signupHref}>Inscribirse</Button>
             </div>
         );
     }

@@ -150,6 +150,9 @@ textarea {
   color: inherit;
   border: 0px;
 }
+input::-moz-placeholder, textarea::-moz-placeholder {
+  color: inherit;
+}
 input::placeholder,
 textarea::placeholder {
   color: inherit;
@@ -398,7 +401,9 @@ button.swiper-pagination-bullet {
   margin: 0;
   padding: 0;
   box-shadow: none;
-  appearance: none;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 .swiper-pagination-clickable .swiper-pagination-bullet {
@@ -601,6 +606,10 @@ h1 {
   font-weight: 700;
 }
 
+input::-moz-placeholder, textarea::-moz-placeholder input {
+  font-size: 12px;
+}
+
 input::placeholder,
 textarea::placeholder input,
 textarea {
@@ -621,6 +630,9 @@ button {
   }
   h1 {
     font-size: 40px;
+  }
+  input::-moz-placeholder, textarea::-moz-placeholder {
+    font-size: 20px;
   }
   a,
   button,
@@ -791,6 +803,7 @@ body::-webkit-scrollbar-thumb {
 .navbar__links .navbar__link a.donate {
   display: block;
   width: 60vw;
+  min-width: -moz-min-content;
   min-width: min-content;
   max-width: 300px;
   padding: 16px 0px;
@@ -1056,10 +1069,12 @@ button[disabled] {
   max-width: 600px;
 }
 .course-card .course-card__curriculum-link {
+  width: -moz-fit-content;
   width: fit-content;
 }
 .course-card .course-card__tags-container {
   display: flex;
+  width: -moz-fit-content;
   width: fit-content;
   justify-content: space-between;
   gap: 5px;
@@ -1067,6 +1082,7 @@ button[disabled] {
 .course-card .course-card__tags-container .course-card__tag {
   flex-shrink: 0;
   flex-grow: 1;
+  width: -moz-max-content;
   width: max-content;
   padding: 8px;
   border-radius: 1000px;
@@ -1090,6 +1106,7 @@ button[disabled] {
   gap: 29px;
 }
 .course-card.course-card--empty .course-card__icon-container img {
+  width: -moz-fit-content;
   width: fit-content;
   height: 56px;
 }
@@ -1712,4 +1729,4 @@ textarea {
 }
 .error-page__text {
   max-width: 500px;
-}
+}/*# sourceMappingURL=app.css.map */
