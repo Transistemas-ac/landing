@@ -2,6 +2,7 @@ import { SwiperHOC } from "../utils/SwiperHOC"
 import { Pagination } from 'swiper';
 
 import CourseCard from "../components/CourseCard";
+import courseCardImage from "../assets/png/imgCursoTesting.png"
 import Footer from "../components/Footer";
 import { PastCourseSlides } from "../utils/Slides"
 
@@ -18,14 +19,14 @@ function Courses() {
 
                 <CourseCard
                 title="TESTING MANUAL"
-                //img={courseCardImage}
+                img={courseCardImage}
                 teacher="Lorena Miranda, Luis Thur, Julián Landó, Andres del Valle y Gisela Cordero"
                 description={<p>¿Que es el testing? <br />
                     Analizamos softwares y realizamos pruebas para analizar su calidad y detectar defectos. <br />
                     <br />
                     ¿Quienes pueden hacer el curso?<br />
                     Cualquier persona interesada en el mundo de las TICs, que tenga el compromiso de finalizar el curso.
-                    No es necesario tener conocimientos previos . 
+                    No es necesario tener conocimientos previos. <br />
                     Miércoles de 18:30 a 20:30 hs
                     </p>}
                 curriculumHref="https://drive.google.com/file/d/1c-KsPMruhFILetBSaneSigI42GBiPwpy"

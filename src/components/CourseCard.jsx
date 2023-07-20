@@ -40,8 +40,8 @@ function CourseCard(props) {
     if (props.signupHref) {
         return (
             <div className="course-card">
-                <img className="course-card__image" src={props.img} alt={props.alt} />
                 <h1 className="course-card__title">{props.title}</h1>
+                <img className="course-card__image" src={props.img} alt={props.alt} />
                 <h3 className="course-card__teacher">{props.teacher}</h3>
 
                 <p className="course-card__description">{props.description}</p>
