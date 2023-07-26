@@ -760,6 +760,11 @@ body {
   }
 }
 
+*:focus {
+  outline: 1px solid #FFCC00;
+  border: 1px solid #FF99CC;
+}
+
 .loading-screen {
   width: 100vw;
   height: 100vh;
