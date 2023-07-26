@@ -2,7 +2,7 @@ import { SwiperHOC } from "../utils/SwiperHOC"
 import { Pagination } from 'swiper';
 
 import CourseCard from "../components/CourseCard";
-import courseCardImage from "../assets/png/imgCursoTesting.png"
+import courseCardImage from "../assets/svg/cursoTesting.svg"
 import Footer from "../components/Footer";
 import { PastCourseSlides } from "../utils/Slides"
 
