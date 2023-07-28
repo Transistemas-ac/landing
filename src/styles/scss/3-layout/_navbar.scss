@@ -147,16 +147,7 @@
     }
 }
 
-body.navbar--expanded {
-    overflow: hidden;
-}
-
 @media screen and (min-width: $tablet-bp) {
-    body.menu-open {
-        overflow: unset;
-        overflow-x: hidden;
-    }
-
     .navbar {
         $r: ".navbar";
         pointer-events: none;

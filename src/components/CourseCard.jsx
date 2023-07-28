@@ -12,7 +12,7 @@ function CourseCard(props) {
                 <h2 className="course-card__title">Próximamente</h2>
 
                 <img className="course-card__image" src={emptyCourseCardImage} alt='Imagen de indisponibilidad' />
-                <h3 className="course-card__teacher">No hay actividades disponibles</h3>
+                <h3 className="course-card__subtitle">No hay actividades disponibles</h3>
 
                 <p className="course-card__description">
                     Por el momento no estamos dictando cursos o talleres, pero te invitamos a que nos sigas en las redes para enterarte cuando comienza la siguiente actividad.
@@ -42,9 +42,13 @@ function CourseCard(props) {
             <div className="course-card">
                 <h1 className="course-card__title">{props.title}</h1>
                 <img className="course-card__image" src={props.img} alt={props.alt} />
-                <h3 className="course-card__teacher">{props.teacher}</h3>
 
-                <p className="course-card__description">{props.description}</p>
+                <p className="course-card__description">
+                    <span>
+                        <b>Profes a cargó:</b> {props.teachers}
+                    </span>
+                    {props.description}
+                </p>
 
 
                 <a target="_blank" rel="noreferrer" className="course-card__curriculum-link text-yellow" href={props.curriculumHref}>Ver temario</a>

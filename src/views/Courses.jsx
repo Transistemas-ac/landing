@@ -18,22 +18,30 @@ function Courses() {
                 </h4>
 
                 <CourseCard
-                title="TESTING MANUAL"
-                img={courseCardImage}
-                teacher="Lorena Miranda, Luis Thur, Julián Landó, Andres del Valle y Gisela Cordero"
-                description={<p>¿Que es el testing? <br />
-                    Analizamos softwares y realizamos pruebas para analizar su calidad y detectar defectos. <br />
-                    <br />
-                    ¿Quienes pueden hacer el curso?<br />
-                    Cualquier persona interesada en el mundo de las TICs, que tenga el compromiso de finalizar el curso.
-                    No es necesario tener conocimientos previos. <br />
-                    Miércoles de 18:30 a 20:30 hs
-                    </p>}
-                curriculumHref="https://drive.google.com/file/d/1c-KsPMruhFILetBSaneSigI42GBiPwpy"
-                date="09/08"
-                duration="17 Semanas"
-                modality="Online"
-                signupHref="https://docs.google.com/forms/d/16s5Q9mo145caz2-vpAJxm0qxqPjOVMJFhycaxxo5kh8"
+                    title="TESTING MANUAL"
+                    img={courseCardImage}
+                    teachers="Lorena Miranda, Luis Thur, Julián Landó, Andres del Valle y Gisela Cordero"
+                    description={
+                        <>
+                            <span>
+                                <b>¿Que es el testing?:</b> Analizamos softwares y realizamos pruebas para analizar su calidad y detectar defectos.
+                            </span>
+
+                            <span>
+                                <b>¿Quienes pueden hacer el curso?:</b> Cualquier persona interesada en el mundo de las TICs, que tenga el compromiso de finalizar el curso.
+                                No es necesario tener conocimientos previos.
+                            </span>
+
+                            <span>
+                                <b>¿Cuandó?:</b> Miércoles de 18:30 a 20:30 hs
+                            </span>
+                        </>
+                    }
+                    curriculumHref="https://drive.google.com/file/d/1c-KsPMruhFILetBSaneSigI42GBiPwpy"
+                    date="09/08"
+                    duration="17 Semanas"
+                    modality="Online"
+                    signupHref="https://docs.google.com/forms/d/16s5Q9mo145caz2-vpAJxm0qxqPjOVMJFhycaxxo5kh8"
                 />
             </div>
 

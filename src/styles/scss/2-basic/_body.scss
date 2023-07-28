@@ -3,7 +3,16 @@ body {
     padding-top: 115px;
     overflow-x: hidden;
 
+    &.navbar--expanded {
+        overflow: hidden;
+    }
+
     @media screen and (min-width: $tablet-bp) {
         padding-top: 180px;
+
+        &.navbar--expanded {
+            overflow: unset;
+            overflow-x: hidden;
+        }
     }
 }
