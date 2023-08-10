@@ -3,7 +3,7 @@ const integrants = [
     {
         name: 'Abe Quiroga',
         role: 'Diversity Equity & Inclusion | Co-fundadore y presidente de Transistemas',
-        picture: '01',
+        picture: '01.png',
         team: 'communication',
         href: 'https://www.linkedin.com/in/abe-quiroga/'
     },
@@ -11,7 +11,7 @@ const integrants = [
     {
         name: 'Maximiliano Monti',
         role: 'UX Content Designer',
-        picture: '02',
+        picture: '02.png',
         team: 'communication',
         href: 'https://www.linkedin.com/in/maximilianomonti/'
     },
@@ -19,7 +19,7 @@ const integrants = [
     {
         name: 'Julián Landó',
         role: 'Tester QA',
-        picture: '03',
+        picture: '03.png',
         team: 'education',
         href: 'https://www.linkedin.com/in/julianlandoqa/'
     },
@@ -27,7 +27,7 @@ const integrants = [
     {
         name: 'Raysa Alanes',
         role: 'Full Stack Developer',
-        picture: '04',
+        picture: '04.png',
         team: 'education',
         href: 'https://www.linkedin.com/in/raysa-alanes/'
     },
@@ -35,7 +35,7 @@ const integrants = [
     {
         name: 'Ailin Lezcano',
         role: 'UX Designer',
-        picture: '05',
+        picture: '05.png',
         team: 'design',
         href: 'https://www.linkedin.com/in/ailin-lezcano/'
     },
@@ -43,7 +43,7 @@ const integrants = [
     {
         name: 'Camila Rodriguez Vera',
         role: 'Estudiante de Diseño Multimedial / Diseñadora UX/UI',
-        picture: '06',
+        picture: '06.png',
         team: 'design',
         href: 'https://www.linkedin.com/in/camila-rodriguez-vera-/'
     },
@@ -51,7 +51,7 @@ const integrants = [
     {
         name: 'Guadalupe Saavedra',
         role: 'Realizadora Audiovisual',
-        picture: '07',
+        picture: '07.png',
         team: 'design',
         href: 'https://ar.linkedin.com/in/guadalupe-saavedra-b770b1118'
     },
@@ -59,7 +59,7 @@ const integrants = [
     {
         name: 'Jazmin de Zavaleta',
         role: 'Digital Designer',
-        picture: '08',
+        picture: '08.png',
         team: 'design',
         href: 'https://www.linkedin.com/in/jazmin-de-zavaleta-1502a292/'
     },
@@ -67,7 +67,7 @@ const integrants = [
     {
         name: 'Micaela Montero',
         role: 'UX Designer',
-        picture: '09',
+        picture: '09.png',
         team: 'design',
         href: 'https://www.linkedin.com/in/micaela-montero/'
     },
@@ -75,7 +75,7 @@ const integrants = [
     {
         name: 'Micaela Paula Reynoso',
         role: 'Diseñadora Gráfica / Diseñadora Digital',
-        picture: '10',
+        picture: '10.png',
         team: 'design',
         href: 'https://www.linkedin.com/in/micaelapaulareynoso/'
     },
@@ -83,7 +83,7 @@ const integrants = [
     {
         name: 'Veronica Frund',
         role: 'UX/UI Designer / UX Researcher',
-        picture: '11',
+        picture: '11.png',
         team: 'design',
         href: 'https://www.linkedin.com/in/veronicafrund/'
     },
@@ -91,17 +91,33 @@ const integrants = [
     {
         name: 'Alex Valdez',
         role: 'Fullstack Developer / Tester QA',
-        picture: '12',
+        picture: '12.png',
         team: 'development',
         href: 'https://www.linkedin.com/in/alexvaldez-dev/'
     },
 
     {
         name: 'Martin Bejarano',
-        role: 'Web Developer',
-        picture: '13',
+        role: 'FullStack Developer',
+        picture: '13.png',
         team: 'development',
         href: 'https://www.linkedin.com/in/martin-bejarano-589001206/'
+    },
+
+    {
+        name: 'Francis Alexandra Castellanos',
+        role: 'Redactora creativa de contenidos especializada en cine, cultura queer-pop y fotografía para SEO, RRSS, guiones y más.',
+        picture: '14.jpg',
+        team: 'communication',
+        href: 'https://www.linkedin.com/in/stoa/'
+    },
+
+    {
+        name: 'Damian Copello',
+        role: 'Sr QA Analyst',
+        picture: '15.jpg',
+        team: 'education',
+        href: 'https://www.linkedin.com/in/damiancopello/'
     }
 ]
 

@@ -1576,6 +1576,7 @@ textarea {
 }
 .integrant__picture {
   width: 34px;
+  border-radius: 100%;
 }
 .integrant__info-container {
   width: 50%;

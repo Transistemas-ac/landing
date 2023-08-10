@@ -66,11 +66,11 @@ function Home() {
 
             <div className="contact-section">
                 <h1 className="contact-section__title">¡Dejanos tu mensaje!</h1>
-                <form id='contact-form' className='contact-section__form' action='https://formsubmit.co/8b0ded5b4c4229e2cc6249cf91f5e2b4' method='POST'>
+                <form id='contact-form' className='contact-section__form' action='https://formsubmit.co/ade9f45c5434abd4809353d661e76f97' method='POST'>
                     <fieldset className="contact-section__input-container">
-                        <input className='contact-section__input' type="text" placeholder='Nombre/s:' name='nombre' required/>
+                        <input className='contact-section__input' type="text" placeholder='Nombre/s:' name='nombre' required />
                         <input className='contact-section__input' type="text" placeholder='Pronombre/s:' name='pronombres' />
-                        <input className='contact-section__input' type="email" placeholder='Correo electrónico:' name='email' required/>
+                        <input className='contact-section__input' type="email" placeholder='Correo electrónico:' name='email' required />
                     </fieldset>
                     <fieldset className="contact-section__input-container">
                         <textarea className='contact-section__textarea' placeholder='Mensaje:' name='message'></textarea>

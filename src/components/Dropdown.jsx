@@ -9,7 +9,7 @@ const url = process.env.REACT_APP_PUBLIC_URL;
 const iterateMembers = (role) => integrants.map((member, idx) => member.team === role ?
     <Integrant
         key={idx}
-        picture={`${url}/assets/png/${member.picture}.png`}
+        picture={`${url}/assets/images/${member.picture}`}
         name={member.name}
         occupation={member.role}
         href={member.href}
