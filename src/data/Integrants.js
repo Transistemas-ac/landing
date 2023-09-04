@@ -127,6 +127,14 @@ const integrants = [
         picture: '16.png',
         team: 'development',
         href: 'https://www.linkedin.com/in/alexis-boscaroli/'
+    },
+
+    {
+        name: 'Noah Cassutti',
+        role: 'FullStack Developer',
+        picture: '17.png',
+        team: 'development',
+        href: 'https://www.linkedin.com/in/noah-a-cassutti-99160b1b5/'
     }
 ]
 
