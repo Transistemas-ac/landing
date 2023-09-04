@@ -1,7 +1,7 @@
 import { useEffect, useState, useRef, createContext } from "react";
 import dropdownArrow from "../assets/svg/dropdown_arrow.svg";
 import Integrant from "../components/Integrant";
-import integrants from '../utils/Integrants';
+import integrants from '../data/Integrants';
 
 export const DropdownContext = createContext();
 const url = process.env.REACT_APP_PUBLIC_URL;
@@ -19,7 +19,6 @@ const iterateMembers = (role) => integrants.map((member, idx) => member.team ===
 function Dropdown(props) {
     const [active, setActive] = useState(false);
     const dropdown = useRef()
-
 
     const [integrants, setIntegrants] = useState(null);
 

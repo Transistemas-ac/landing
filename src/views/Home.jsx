@@ -3,16 +3,13 @@ import imgVoluntarie from '../assets/svg/img_voluntarie.svg';
 
 import Button from '../components/Button';
 import Footer from '../components/Footer';
-import { HomeSlides } from '../utils/Slides';
-
-import { SwiperHOC } from '../utils/SwiperHOC';
-import { Pagination } from 'swiper';
 import Metrics from '../components/Metrics';
 
+import { SwiperHOC } from '../components/HOC/SwiperHOC';
+import { Pagination } from 'swiper';
+import { HomeSlides } from '../components/Slides';
+
 function Home() {
-
-
-
     return (
         <div className="home">
             <div className="hero-section">

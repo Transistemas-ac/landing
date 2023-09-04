@@ -1,7 +1,7 @@
-import { SwiperHOC } from '../utils/SwiperHOC';
+import { SwiperHOC } from '../components/HOC/SwiperHOC';
 import { Pagination } from "swiper";
 
-import { NosotresSlides } from '../utils/Slides';
+import { NosotresSlides } from '../components/Slides';
 import Footer from "../components/Footer";
 import Dropdown from "../components/Dropdown";
 import Metrics from '../components/Metrics';
@@ -15,7 +15,7 @@ function Nosotres() {
             <div className="teams-section">
                 <h1 className="teams-section__title">Nosotres</h1>
                 <p className="teams-section__description">
-                Transistemas comenzó a fines del 2019, años antes de la ley del Cupo Laboral Travesti Trans, nuestro deseo era armar una cooperativa para incluirnos como comunidad dentro del sistema laboral de las TICs. Para lograr eso debíamos capacitarnos, así comenzamos a dictar cursos, con el objetivo de cambiar la cultura empresarial dominante y mejorar la situación laboral de nuestra comunidad.
+                    Transistemas comenzó a fines del 2019, años antes de la ley del Cupo Laboral Travesti Trans, nuestro deseo era armar una cooperativa para incluirnos como comunidad dentro del sistema laboral de las TICs. Para lograr eso debíamos capacitarnos, así comenzamos a dictar cursos, con el objetivo de cambiar la cultura empresarial dominante y mejorar la situación laboral de nuestra comunidad.
                 </p>
                 <SwiperHOC
                     modules={[Pagination]}
