@@ -104,6 +104,7 @@ const integrants = [
         href: 'https://www.linkedin.com/in/martin-bejarano-589001206/'
     },
 
+
     {
         name: 'Francis Alexandra Castellanos',
         role: 'Redactora creativa de contenidos especializada en cine, cultura queer-pop y fotografía para SEO, RRSS, guiones y más.',
@@ -118,6 +119,14 @@ const integrants = [
         picture: '15.jpg',
         team: 'education',
         href: 'https://www.linkedin.com/in/damiancopello/'
+    },
+
+    {
+        name: 'Alexis Boscaroli',
+        role: 'FullStack Developer',
+        picture: '16.png',
+        team: 'development',
+        href: 'https://www.linkedin.com/in/alexis-boscaroli/'
     }
 ]
 
