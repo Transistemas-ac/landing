@@ -1,8 +1,6 @@
-import { createContext, useState } from 'react';
+import { useState } from "react";
 
-export const DisplayContext = createContext();
-
-export function useDisplay() {
+function useDisplay() {
     const mql = window.matchMedia("(max-width: 980px)");
 
     const [isMobile, setIsMobile] = useState(mql.matches)
@@ -13,3 +11,5 @@ export function useDisplay() {
 
     return isMobile
 }
+
+export default useDisplay;

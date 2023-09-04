@@ -1,12 +1,14 @@
 import React from 'react';
 import { HashRouter as Router, Route, Routes } from "react-router-dom";
-import { DisplayContext, useDisplay } from './utils/DisplayProvider';
 import { Paths } from "./routes";
-
 import Navbar from "./components/Navbar";
 import ErrorPage from "./views/ErrorPage";
 import { SnackbarContainer } from './components/Snackbar';
-import ScrollToTop from './utils/ScrollToTop';
+
+
+import useDisplay from './hooks/useDisplay';
+import DisplayContext from './context/DisplayProvider';
+import ScrollToTop from './components/ScrollToTop';
 
 function App() {
 

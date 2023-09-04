@@ -1,8 +1,8 @@
 import { useContext, useEffect, useRef, useState } from 'react';
-import { DisplayContext } from './DisplayProvider';
+import DisplayContext from '../../context/DisplayProvider';
 import { Swiper } from 'swiper/react';
 import { Navigation } from 'swiper';
-import dropdownArrow from "../assets/svg/dropdown_arrow.svg";
+import dropdownArrow from "../../assets/svg/dropdown_arrow.svg";
 
 
 export const SwiperHOC = (props) => {

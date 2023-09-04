@@ -1,6 +1,6 @@
-import { useEffect, useRef, useContext, useState } from 'react';
+import { useEffect, useContext, useState } from 'react';
 import { NavbarLinks } from '../routes';
-import { DisplayContext } from '../utils/DisplayProvider';
+import DisplayContext from '../context/DisplayProvider';
 
 import transistemasLogo from '../assets/svg/logo_transistemas.svg';
 import { HashLink } from 'react-router-hash-link';
@@ -10,10 +10,6 @@ function Navbar() {
     const isMobile = useContext(DisplayContext);
     const [expanded, setExpanded] = useState(false);
     const [progress, setProgress] = useState('0%');
-
-    const navbar = useRef();
-    const innerContainer = useRef();
-    const links = useRef();
 
     const updateProgrresBar = () => {
         const { scrollTop, scrollHeight } = document.documentElement;
@@ -26,36 +22,44 @@ function Navbar() {
         window.requestAnimationFrame(updateProgrresBar);
     }, [])
 
-
     const toggleMenu = () => {
         if (!isMobile) return
         document.body.classList.toggle('navbar--expanded')
         setExpanded(!expanded)
     }
 
-    useEffect(() => {
-        if (!isMobile) innerContainer.current.appendChild(links.current);
-        else navbar.current.appendChild(links.current);
-    }, [isMobile])
-
-
     return (
-        <nav ref={navbar} className={`navbar ${expanded ? 'navbar--expanded' : ''}`}>
+        <nav className={`navbar ${expanded ? 'navbar--expanded' : ''}`}>
 
             <div style={{ width: `${progress}` }} className='navbar__progress-bar'></div>
 
-            <div ref={innerContainer} className='navbar__inner-container'>
+            <div className='navbar__inner-container'>
                 <HashLink to={'/'} className='navbar__logo'>
                     <img src={transistemasLogo} alt='logo' />
                 </HashLink>
                 <button type='button' className='navbar__menu-button' onClick={() => toggleMenu()}>
                     <div className='navbar__menu-icon'></div>
                 </button>
+                {
+                    !isMobile
+                        ?
+                        <ul className='navbar__links' >
+                            <NavbarLinks onClick={() => toggleMenu()} />
+                        </ul>
+                        :
+                        null
+                }
             </div>
 
-            <ul ref={links} className='navbar__links' >
-                <NavbarLinks onClick={() => toggleMenu()} />
-            </ul>
+            {
+                isMobile
+                    ?
+                    <ul className='navbar__links' >
+                        <NavbarLinks onClick={() => toggleMenu()} />
+                    </ul>
+                    :
+                    null
+            }
         </nav >
     );
 }

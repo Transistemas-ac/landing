@@ -1,12 +1,12 @@
-import { SwiperHOC } from "../utils/SwiperHOC"
+import { SwiperHOC } from '../components/HOC/SwiperHOC';
 import { Pagination } from 'swiper';
 
-import CourseCard from "../components/CourseCard";
-import courseCardImage from "../assets/svg/cursoTesting.svg"
+// import CourseCard from "../components/CourseCard";
+// import courseCardImage from "../assets/svg/cursoTesting.svg"
 import Footer from "../components/Footer";
-import { PastCourseSlides } from "../utils/Slides"
-
 import Dropdown from "../components/Dropdown";
+
+import { CoursesSlides, PastCoursesSlides } from "../components/Slides";
 
 function Courses() {
     return (
@@ -16,8 +16,16 @@ function Courses() {
                 <h4 className="courses-section__description">
                     Brindamos capacitaciones en el área de la tecnología y ofrecemos diferentes herramientas para la inserción laboral a personas de la comunidad LGTBIQANB+.
                 </h4>
+                {/* <SwiperHOC
+                    modules={[Pagination]}
+                    spaceBetween={20}
+                    pagination={{ clickable: true }}
+                > */}
+                {CoursesSlides()}
 
-                <CourseCard
+                {/* </SwiperHOC> */}
+
+                {/* <CourseCard
                     title="TESTING MANUAL"
                     img={courseCardImage}
                     teachers="Lorena Miranda, Luis Thur, Julián Landó, Andres del Valle y Gisela Cordero"
@@ -42,7 +50,8 @@ function Courses() {
                     duration="17 Semanas"
                     modality="Online"
                     signupHref="https://docs.google.com/forms/d/16s5Q9mo145caz2-vpAJxm0qxqPjOVMJFhycaxxo5kh8"
-                />
+                /> */}
+
             </div>
 
             <div className="past-courses-section">
@@ -58,7 +67,7 @@ function Courses() {
                     spaceBetween={20}
                     pagination={{ clickable: true }}
                 >
-                    {PastCourseSlides()}
+                    {PastCoursesSlides()}
                 </SwiperHOC>
             </div>
 
