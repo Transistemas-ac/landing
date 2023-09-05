@@ -1,5 +1,9 @@
 const pastCourses = [
     {
+        title: 'Testing Manual',
+        date: 'Agosto 2023'
+    },
+    {
         title: 'Herramientas Básicas para la inserción laboral',
         date: 'Junio 2023'
     },
