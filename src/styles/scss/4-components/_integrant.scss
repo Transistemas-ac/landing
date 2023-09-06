@@ -13,7 +13,9 @@
 
     &__picture {
         width: 34px;
+        height: 34px;
         border-radius: 100%;
+        object-fit: cover;
     }
 
     &__info-container {

@@ -1576,7 +1576,10 @@ textarea {
 }
 .integrant__picture {
   width: 34px;
+  height: 34px;
   border-radius: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .integrant__info-container {
   width: 50%;
