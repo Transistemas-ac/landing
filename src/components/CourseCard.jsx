@@ -45,7 +45,7 @@ function CourseCard(props) {
 
                 <p className="course-card__description">
                     <span>
-                        <b>Profes a cargó:</b> {props.teachers}
+                        <b>Profes a cargo:</b> {props.teachers}
                     </span>
                     {props.description}
                 </p>
