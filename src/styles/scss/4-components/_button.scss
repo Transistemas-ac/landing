@@ -1,35 +1,34 @@
 .button {
-    display: block;
-    position: relative;
-    width: 100%;
-    padding: 16px 0px;
+  display: block;
+  position: relative;
+  width: 100%;
+  padding: 16px 0px;
 
-    max-width: 330px;
-    
-    gap: 10px;
-    
-    font-weight: 600;
-    border-radius: 1000px;
-    background: $yellow;
-    color: $black;
-    
-    @media screen and (min-width: $tablet-bp) {
-        max-width: 380px;
-        font-size: font("d-xx-small");
-    }
+  max-width: 330px;
 
-    &.button--icon {
-        @include flexCenter(row);
-    }
+  gap: 10px;
 
-    &:hover{
-        cursor: pointer;
-    }
+  font-weight: 600;
+  border-radius: 1000px;
+  background: $yellow;
+  color: $black;
 
+  @media screen and (min-width: $tablet-bp) {
+    max-width: 380px;
+    font-size: font("d-xx-small");
+  }
+
+  &.button--icon {
+    @include flexCenter(row);
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 button:disabled,
 button[disabled] {
-    pointer-events: none;
-    background-color: $grey-lighter;
+  pointer-events: none;
+  background-color: $grey-lighter;
 }

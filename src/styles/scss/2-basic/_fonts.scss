@@ -1,132 +1,133 @@
 @font-face {
-	font-family: "Work Sans";
-	font-weight: 100;
-	src: url("../assets/fonts/WorkSans/WorkSans-Thin.ttf") format("truetype");
+  font-family: "Work Sans";
+  font-weight: 100;
+  src: url("../assets/fonts/WorkSans/WorkSans-Thin.ttf") format("truetype");
 }
 
 @font-face {
-	font-family: "Work Sans";
-	font-weight: 200;
-	src: url("../assets/fonts/WorkSans/WorkSans-ExtraLight.ttf") format("truetype");
+  font-family: "Work Sans";
+  font-weight: 200;
+  src: url("../assets/fonts/WorkSans/WorkSans-ExtraLight.ttf")
+    format("truetype");
 }
 
 @font-face {
-	font-family: "Work Sans";
-	font-weight: 300;
-	src: url("../assets/fonts/WorkSans/WorkSans-Light.ttf") format("truetype");
+  font-family: "Work Sans";
+  font-weight: 300;
+  src: url("../assets/fonts/WorkSans/WorkSans-Light.ttf") format("truetype");
 }
 
 @font-face {
-	font-family: "Work Sans";
-	font-weight: 400;
-	src: url("../assets/fonts/WorkSans/WorkSans-Regular.ttf") format("truetype");
+  font-family: "Work Sans";
+  font-weight: 400;
+  src: url("../assets/fonts/WorkSans/WorkSans-Regular.ttf") format("truetype");
 }
 
 @font-face {
-	font-family: "Work Sans";
-	font-weight: 500;
-	src: url("../assets/fonts/WorkSans/WorkSans-Medium.ttf") format("truetype");
+  font-family: "Work Sans";
+  font-weight: 500;
+  src: url("../assets/fonts/WorkSans/WorkSans-Medium.ttf") format("truetype");
 }
 
 @font-face {
-	font-family: "Work Sans";
-	font-weight: 600;
-	src: url("../assets/fonts/WorkSans/WorkSans-SemiBold.ttf") format("truetype");
+  font-family: "Work Sans";
+  font-weight: 600;
+  src: url("../assets/fonts/WorkSans/WorkSans-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
-	font-family: "Work Sans";
-	font-weight: 700;
-	src: url("../assets/fonts/WorkSans/WorkSans-Bold.ttf") format("truetype");
+  font-family: "Work Sans";
+  font-weight: 700;
+  src: url("../assets/fonts/WorkSans/WorkSans-Bold.ttf") format("truetype");
 }
 
 @font-face {
-	font-family: "Work Sans";
-	font-weight: 800;
-	src: url("../assets/fonts/WorkSans/WorkSans-ExtraBold.ttf") format("truetype");
+  font-family: "Work Sans";
+  font-weight: 800;
+  src: url("../assets/fonts/WorkSans/WorkSans-ExtraBold.ttf") format("truetype");
 }
 
 @font-face {
-	font-family: "Work Sans";
-	font-weight: 900;
-	src: url("../assets/fonts/WorkSans/WorkSans-Black.ttf") format("truetype");
+  font-family: "Work Sans";
+  font-weight: 900;
+  src: url("../assets/fonts/WorkSans/WorkSans-Black.ttf") format("truetype");
 }
 
 $font-sizes: (
-	"m-xx-small": 10px,
-	"m-x-small": 12px,
-	"m-small": 14px,
-	"m-medium": 20px,
-	"m-large": 26px,
-	"m-x-large": 32px,
-	"d-xx-small": 18px,
-	"d-x-small": 20px,
-	"d-small": 22px,
-	"d-medium": 24px,
-	"d-large": 32px,
-	"d-x-large": 40px,
+  "m-xx-small": 10px,
+  "m-x-small": 12px,
+  "m-small": 14px,
+  "m-medium": 20px,
+  "m-large": 26px,
+  "m-x-large": 32px,
+  "d-xx-small": 18px,
+  "d-x-small": 20px,
+  "d-small": 22px,
+  "d-medium": 24px,
+  "d-large": 32px,
+  "d-x-large": 40px,
 );
 
 @function font($size) {
-	@return map.get($font-sizes, $size);
+  @return map.get($font-sizes, $size);
 }
 
 body {
-	font-family: "Work Sans";
-	color: $white;
-	font-size: font("m-small");
-	font-weight: 400;
-	line-height: 1.2;
+  font-family: "Work Sans";
+  color: $white;
+  font-size: font("m-small");
+  font-weight: 400;
+  line-height: 1.2;
 }
 
 strong {
-	font-weight: 600;
+  font-weight: 600;
 }
 
 h3 {
-	font-weight: 600;
+  font-weight: 600;
 }
 
 h2 {
-	font-size: font("m-medium");
-	font-weight: 600;
+  font-size: font("m-medium");
+  font-weight: 600;
 }
 
 h1 {
-	font-size: font("m-x-large");
-	font-weight: 700;
+  font-size: font("m-x-large");
+  font-weight: 700;
 }
 
 input::placeholder,
 textarea::placeholder input,
 textarea {
-	font-size: font("m-x-small");
+  font-size: font("m-x-small");
 }
 
 a,
 button {
-	font-size: font("m-small");
+  font-size: font("m-small");
 }
 
 @media screen and (min-width: $tablet-bp) {
-	body {
-		font-size: font("d-small");
-	}
+  body {
+    font-size: font("d-small");
+  }
 
-	h2 {
-		font-size: font("d-medium");
-	}
+  h2 {
+    font-size: font("d-medium");
+  }
 
-	h1 {
-		font-size: font("d-x-large");
-	}
+  h1 {
+    font-size: font("d-x-large");
+  }
 
-	a,
-	button,
-	input::placeholder,
-	textarea::placeholder,
-	input,
-	textarea {
-		font-size: font("d-x-small");
-	}
+  a,
+  button,
+  input::placeholder,
+  textarea::placeholder,
+  input,
+  textarea {
+    font-size: font("d-x-small");
+  }
 }

@@ -36,5 +36,4 @@
 //     }
 // ];
 
-
 // export { nosotresCards, homeCards, pastCourseCards }

@@ -1,12 +1,12 @@
-import activities from '../../data/Activities';
-import Card from '../Card';
-import { SwiperSlide } from 'swiper/react';
+import activities from "../../data/Activities";
+import Card from "../Card";
+import { SwiperSlide } from "swiper/react";
 
-
-const HomeSlides = () => activities.map((item, idx) =>
-(<SwiperSlide key={idx}>
-    <Card
-        type='illustrative'
+const HomeSlides = () =>
+  activities.map((item, idx) => (
+    <SwiperSlide key={idx}>
+      <Card
+        type="illustrative"
         img={item.img}
         alt={item.alt}
         title={item.title}
@@ -14,7 +14,8 @@ const HomeSlides = () => activities.map((item, idx) =>
         link={item.link}
         href={item.href}
         anchor={false}
-    />
-</SwiperSlide>));
+      />
+    </SwiperSlide>
+  ));
 
 export default HomeSlides;

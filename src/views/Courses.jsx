@@ -1,4 +1,3 @@
-import { SwiperHOC } from "../components/HOC/SwiperHOC";
 import { Pagination } from "swiper/modules";
 
 // import CourseCard from "../components/CourseCard";
@@ -6,6 +5,7 @@ import { Pagination } from "swiper/modules";
 import Footer from "../components/Footer";
 import Dropdown from "../components/Dropdown";
 
+import { SwiperHOC } from "../components/HOC/SwiperHOC";
 import { CoursesSlides, PastCoursesSlides } from "../components/Slides";
 
 function Courses() {

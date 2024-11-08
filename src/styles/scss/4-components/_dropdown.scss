@@ -1,54 +1,54 @@
 .dropdown {
-    $r: ".dropdown";
+  $r: ".dropdown";
+  width: 100%;
+  border-bottom: 1px solid white;
+
+  &__button {
     width: 100%;
-    border-bottom: 1px solid white;
+    color: $white;
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: $yellow;
+    display: flex;
+    justify-content: space-between;
 
-    &__button {
-        width: 100%;
-        color: $white;
-        padding-bottom: 10px;
-        font-weight: 600;
-        color: $yellow;
-        display: flex;
-        justify-content: space-between;
-
-        @media screen and (min-width: $tablet-bp) {
-            font-size: font("d-large");
-        }
-
-        &:hover {
-            cursor: pointer;
-        }
+    @media screen and (min-width: $tablet-bp) {
+      font-size: font("d-large");
     }
 
-    &__arrow {
-        width: 20px;
-        transition: 0.3s transform ease-in-out;
+    &:hover {
+      cursor: pointer;
     }
+  }
 
-    &__info {
-        transition-property: max-height;
-        transition-duration: 0.3s;
-        transition-timing-function: ease-in-out;
-        max-height: 0px;
-        overflow: hidden;
-    }
+  &__arrow {
+    width: 20px;
+    transition: 0.3s transform ease-in-out;
+  }
 
-    &__inner-container {
-        padding-bottom: 12px;
-    }
+  &__info {
+    transition-property: max-height;
+    transition-duration: 0.3s;
+    transition-timing-function: ease-in-out;
+    max-height: 0px;
+    overflow: hidden;
+  }
 
-    &__integrants-container {
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        gap: 12px;
-        padding-bottom: 12px;
-    }
+  &__inner-container {
+    padding-bottom: 12px;
+  }
 
-    &.active {
-        #{$r}__arrow {
-            transform: rotateX(180deg);
-        }
+  &__integrants-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding-bottom: 12px;
+  }
+
+  &.active {
+    #{$r}__arrow {
+      transform: rotateX(180deg);
     }
+  }
 }

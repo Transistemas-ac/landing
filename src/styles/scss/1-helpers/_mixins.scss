@@ -1,19 +1,19 @@
 @mixin flexCenter($direction) {
-    display: flex;
-    flex-direction: $direction;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
 }
 
 @mixin section() {
-    padding: 0px 16px;
-    width: 100%;
-    max-width: 1080px;
-    margin: 0 auto;
-    text-align: center;
+  padding: 0px 16px;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .text-yellow {
-    color: $yellow !important;
-    font-weight: 600 !important;
+  color: $yellow !important;
+  font-weight: 600 !important;
 }
