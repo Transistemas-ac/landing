@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import arrowIcon from "../assets/svg/icon_arrow.svg";
-import { DropdownContext } from "./Dropdown";
+import DropdownContext from "../context/DropdownContext";
 
 function Integrant(props) {
   const isActive = useContext(DropdownContext);
