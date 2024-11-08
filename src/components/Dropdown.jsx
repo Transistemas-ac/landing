@@ -2,6 +2,7 @@ import { useEffect, useState, useRef, createContext } from "react";
 import dropdownArrow from "../assets/svg/dropdown_arrow.svg";
 import Integrant from "../components/Integrant";
 import integrants from "../data/Integrants";
+import PropTypes from "prop-types";
 
 export const DropdownContext = createContext();
 const url = "https://transistemas.org/";
@@ -21,9 +22,16 @@ const iterateMembers = (role) =>
 
 function Dropdown(props) {
   const [active, setActive] = useState(false);
+  const [integrants, setIntegrants] = useState(null);
   const dropdown = useRef();
 
-  const [integrants, setIntegrants] = useState(null);
+  Dropdown.propTypes = {
+    role: PropTypes.string,
+    title: PropTypes.string,
+    type: PropTypes.oneOf(["basic", "integrants"]),
+    children: PropTypes.node,
+    className: PropTypes.string,
+  };
 
   useEffect(() => {
     if (active) {
@@ -35,7 +43,7 @@ function Dropdown(props) {
       return;
     }
     dropdown.current.lastChild.style.maxHeight = "0px";
-  }, [active, integrants]);
+  }, [active, integrants, props.role]);
 
   return (
     <div
