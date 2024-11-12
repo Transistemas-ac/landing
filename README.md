@@ -18,7 +18,7 @@ Actuamos para la inserción laboral de nuestra comunidad en empleos formales del
 ## Nuestro Impacto
 ✅ 24 Cursos dictados
 ✅ 500 Ayudas sociales
-✅ 19 Voluntaries
+✅ 18 Voluntaries
 ✅ 1770 Egresades
 ✅ +350 Personas consiguieron trabajo registrado
 
