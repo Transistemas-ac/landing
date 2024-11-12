@@ -1,8 +1,26 @@
-# React + Vite
+<img src="https://transistemas.org/static/media/img_transistemas.23be2ab795cbf682ddef134610a68815.svg"></img>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# TranSistemas
+Somos una organización social integrada por personas del colectivo LGTBIQANB+ y personas con discapacidad (PcD).
+Actuamos para la inserción laboral de nuestra comunidad en empleos formales del área de sistemas. Para lograrlo, realizamos cursos y capacitaciones gratuitas.
 
-Currently, two official plugins are available:
+## Qué hacemos
+- 🛠️ Cursos y talleres: Brindamos capacitaciones en Testing, Diseño UX/UI y Programación para personas de la comunidad LGTBIQANB+.
+- 💡 Capacitaciones: Facilitamos capacitaciones en diversidad, género y discapacidad para empresas y organizaciones.
+- ❤️ Acompañamiento: Colaboramos con personas de la comunidad a sortear situaciones complejas.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Equipos
+- 📢 Equipo de Comunicación: Pensamos y ejecutamos la estrategia de comunicación de nuestra organización.
+- 👩‍🏫 Equipo de Educación: Planificamos y llevamos adelante los cursos y talleres en conjunto con empresas.
+- 🎨 Equipo de Diseño: Investigamos, analizamos y diseñamos una experiencia digital accesible y agradable.
+- 💻 Equipo de Desarrollo: Desarrollamos y mantenemos actualizada la web con las últimas tecnologías.
+
+## Nuestro Impacto
+✅ 24 Cursos dictados
+✅ 500 Ayudas sociales
+✅ 19 Voluntaries
+✅ 1770 Egresades
+✅ +350 Personas consiguieron trabajo registrado
+
+___
+
