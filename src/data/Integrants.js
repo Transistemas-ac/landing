@@ -134,6 +134,13 @@ const integrants = [
     team: "development",
     href: "https://www.linkedin.com/in/noah-a-cassutti-99160b1b5/",
   },
+  {
+    name: "Nadya Jerochim",
+    role: "FullStack Developer",
+    picture: "18.png",
+    team: "development",
+    href: "https://www.linkedin.com/in/nady4/",
+  },
 ];
 
 export default integrants;

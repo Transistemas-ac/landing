@@ -8,7 +8,7 @@ const activities = [
     alt: "Descripcion de la imagen",
     title: "Cursos y talleres",
     description:
-      "Brindamos capacitaciones en Testing, Diseño UX/UI y Programación para personas de la comunidad LGTBI+.",
+      "Brindamos capacitaciones en Testing, Diseño UX/UI y Programación para personas de la comunidad LGTBIQANB+.",
     link: "Ver más",
     href: "/cursos",
   },
@@ -29,8 +29,8 @@ const activities = [
     title: "Acompañamiento",
     description:
       "Colaboramos con personas de la comunidad a sortear situaciones complejas.",
-    //link: 'Ver más',
-    //href: '/donar'
+    link: "Ver más",
+    href: "/donar",
   },
 ];
 

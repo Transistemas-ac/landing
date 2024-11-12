@@ -9,7 +9,7 @@ const teams = [
     alt: "Descripcion de la imagen",
     title: "Equipo Comunicación",
     description:
-      "Pensamos y ejecutamos la estrategia de comunicación de nuestra organicación.",
+      "Pensamos y ejecutamos la estrategia de comunicación de nuestra organización.",
     link: "Me quiero sumar",
   },
 
