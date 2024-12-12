@@ -1,10 +1,10 @@
 const integrants = [
   {
-    name: "Abe Quiroga",
-    role: "Diversity Equity & Inclusion | Co-fundadore y presidente de Transistemas",
+    name: "Abel Quiroga",
+    role: "Director de Transistemas Inclusive Projects Coordinator| Museum Curator | DE&I Specialist| Theater Educator",
     picture: "01.png",
     team: "communication",
-    href: "https://www.linkedin.com/in/abe-quiroga/",
+    href: "https://www.linkedin.com/in/abelquiroga/",
   },
 
   {
@@ -126,7 +126,13 @@ const integrants = [
     team: "development",
     href: "https://www.linkedin.com/in/alexis-boscaroli/",
   },
-
+  {
+    name: "Alexis Boscaroli",
+    role: "FullStack Developer",
+    picture: "16.png",
+    team: "education",
+    href: "https://www.linkedin.com/in/alexis-boscaroli/",
+  },
   {
     name: "Noah Cassutti",
     role: "FullStack Developer",
@@ -140,6 +146,13 @@ const integrants = [
     picture: "18.png",
     team: "development",
     href: "https://www.linkedin.com/in/nady4/",
+  },
+  {
+    name: "Espi Madrazo",
+    role: "QA Tester",
+    picture: "19.jpg",
+    team: "education",
+    href: "https://www.linkedin.com/in/espi-madrazo",
   },
 ];
 
