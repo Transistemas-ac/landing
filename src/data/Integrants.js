@@ -118,14 +118,6 @@ const integrants = [
     team: "education",
     href: "https://www.linkedin.com/in/damiancopello/",
   },
-
-  {
-    name: "Alexis Boscaroli",
-    role: "FullStack Developer",
-    picture: "16.png",
-    team: "development",
-    href: "https://www.linkedin.com/in/alexis-boscaroli/",
-  },
   {
     name: "Alexis Boscaroli",
     role: "FullStack Developer",
