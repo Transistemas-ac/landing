@@ -120,7 +120,7 @@ const integrants = [
   },
   {
     name: "Alexis Boscaroli",
-    role: "FullStack Developer",
+    role: "FullStack Developer | Asistente Administrativo",
     picture: "16.png",
     team: "education",
     href: "https://www.linkedin.com/in/alexis-boscaroli/",
