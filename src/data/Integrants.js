@@ -1,11 +1,11 @@
 
 const integrants = [
     {
-        name: 'Abe Quiroga',
-        role: 'Diversity Equity & Inclusion | Co-fundadore y presidente de Transistemas',
+        name: 'Abel Quiroga',
+        role: 'Inclusive Projects Coordinator| Museum Curator | DE&I Specialist| Theater Educator',
         picture: '01.png',
         team: 'communication',
-        href: 'https://www.linkedin.com/in/abe-quiroga/'
+        href: 'https://www.linkedin.com/in/abelquiroga/'
     },
 
     {
@@ -90,10 +90,10 @@ const integrants = [
 
     {
         name: 'Alex Valdez',
-        role: 'Fullstack Developer / Tester QA',
+        role: 'Fullstack Developer | Sys Admin',
         picture: '12.png',
         team: 'development',
-        href: 'https://www.linkedin.com/in/alexvaldez-dev/'
+        href: 'https://www.linkedin.com/in/alexvaldez-it/'
     },
 
     {
