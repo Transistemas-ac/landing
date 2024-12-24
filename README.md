@@ -21,6 +21,3 @@ Actuamos para la inserción laboral de nuestra comunidad en empleos formales del
 ✅ 18 Voluntaries
 ✅ 1770 Egresades
 ✅ +350 Personas consiguieron trabajo registrado
-
-___
-
