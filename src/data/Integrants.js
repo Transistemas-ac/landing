@@ -135,6 +135,14 @@ const integrants = [
         picture: '17.png',
         team: 'development',
         href: 'https://www.linkedin.com/in/noah-a-cassutti-99160b1b5/'
+    },
+
+    {
+        name: 'Espi Madrazo',
+        role: 'QA Tester',
+        picture: '18.png',
+        team: 'education',
+        href: 'https://www.linkedin.com/in/espi-madrazo/ '
     }
 ]
 
