@@ -11,7 +11,7 @@ const iterateMembers = (role) =>
     member.team === role ? (
       <Integrant
         key={idx}
-        picture={`${url}/assets/${member.picture}`}
+        picture={`${url}assets/${member.picture}`}
         name={member.name}
         occupation={member.role}
         href={member.href}
