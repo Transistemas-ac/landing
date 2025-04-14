@@ -4,8 +4,18 @@ import iconInstagramOutline from "../assets/svg/media_instagram_outline.svg";
 import iconTwitterOutline from "../assets/svg/media_twiter_outline.svg";
 import iconLinkedinOutline from "../assets/svg/media_linkedin_outline.svg";
 
-function CourseCard(props) {
-  if (!props.signupHref) {
+function CourseCard({
+  title,
+  img,
+  teachers,
+  description,
+  curriculumHref,
+  date,
+  duration,
+  modality,
+  signupHref,
+}) {
+  if (!signupHref) {
     return (
       <div className="course-card course-card--empty">
         <h2 className="course-card__title">Próximamente</h2>
@@ -52,7 +62,7 @@ function CourseCard(props) {
           </a>
 
           <a
-            href="https://twitter.com/Transistemas1"
+            href="https://x.com/Transistemas1"
             target="_blank"
             rel="noreferrer"
           >
@@ -65,40 +75,38 @@ function CourseCard(props) {
         </div>
       </div>
     );
-  }
-
-  if (props.signupHref) {
+  } else {
     return (
       <div className="course-card">
-        <h1 className="course-card__title">{props.title}</h1>
-        <img className="course-card__image" src={props.img} alt={props.alt} />
+        <h1 className="course-card__title">{title}</h1>
+        <img className="course-card__image" src={img} alt={title} />
 
         <p className="course-card__description">
           <span>
-            <b>Profes a cargó:</b> {props.teachers}
+            <b>Profes a cargo:</b> {teachers}
           </span>
-          {props.description}
+          {description}
         </p>
 
         <a
           target="_blank"
           rel="noreferrer"
           className="course-card__curriculum-link text-yellow"
-          href={props.curriculumHref}
+          href={curriculumHref}
         >
           Ver temario
         </a>
         <div className="course-card__tags-container">
-          <h4 className="course-card__tag">📆 {props.date}</h4>
-          <h4 className="course-card__tag">⏰ {props.duration}</h4>
-          <h4 className="course-card__tag">💻 {props.modality}</h4>
+          <h4 className="course-card__tag">📆 {date}</h4>
+          <h4 className="course-card__tag">⏰ {duration}</h4>
+          <h4 className="course-card__tag">💻 {modality}</h4>
         </div>
         <Button
           type="anchor"
           target="_blank"
           rel="noreferrer"
           className="course-card__button"
-          href={props.signupHref}
+          href={signupHref}
         >
           Inscribirse
         </Button>

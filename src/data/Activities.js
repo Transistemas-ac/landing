@@ -5,7 +5,7 @@ import cardAcompaniamiento from "../assets/svg/card_acompaniamiento.svg";
 const activities = [
   {
     img: cardTalleres,
-    alt: "Descripcion de la imagen",
+    alt: "Talleres",
     title: "Cursos y talleres",
     description:
       "Brindamos capacitaciones en Testing, Diseño UX/UI y Programación para personas de la comunidad LGTBIQANB+.",
@@ -15,7 +15,7 @@ const activities = [
 
   {
     img: cardCapacitaciones,
-    alt: "Descripcion de la imagen",
+    alt: "Capacitaciones",
     title: "Capacitaciones",
     description:
       "Facilitamos capacitaciones en diversidad, género y discapacidad para empresas y organizaciones.",
@@ -25,7 +25,7 @@ const activities = [
 
   {
     img: cardAcompaniamiento,
-    alt: "Descripcion de la imagen",
+    alt: "Acompañamiento",
     title: "Acompañamiento",
     description:
       "Colaboramos con personas de la comunidad a sortear situaciones complejas.",

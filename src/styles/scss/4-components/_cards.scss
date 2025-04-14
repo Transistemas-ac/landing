@@ -45,12 +45,6 @@
     height: 175px;
   }
 
-  &__title {
-  }
-
-  &__description {
-  }
-
   &__link {
     color: $yellow;
     font-weight: 600;
@@ -162,9 +156,6 @@
   border: 2px $grey-lighter solid;
   justify-content: center;
   text-align: center;
-
-  &__title {
-  }
 }
 
 @media screen and (min-width: $tablet-bp) {

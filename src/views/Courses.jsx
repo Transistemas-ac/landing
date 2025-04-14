@@ -1,12 +1,8 @@
 import { Pagination } from "swiper/modules";
-
-// import CourseCard from "../components/CourseCard";
-// import courseCardImage from "../assets/svg/cursoTesting.svg"
-import Footer from "../components/Footer";
-import Dropdown from "../components/Dropdown";
-
 import { SwiperHOC } from "../components/HOC/SwiperHOC";
 import { CoursesSlides, PastCoursesSlides } from "../components/Slides";
+import Dropdown from "../components/Dropdown";
+import Footer from "../components/Footer";
 
 function Courses() {
   return (
@@ -18,41 +14,7 @@ function Courses() {
           diferentes herramientas para la inserción laboral a personas de la
           comunidad LGTBIQANB+.
         </h4>
-        {/* <SwiperHOC
-                    modules={[Pagination]}
-                    spaceBetween={20}
-                    pagination={{ clickable: true }}
-                > */}
         {CoursesSlides()}
-
-        {/* </SwiperHOC> */}
-
-        {/* <CourseCard
-                    title="TESTING MANUAL"
-                    img={courseCardImage}
-                    teachers="Lorena Miranda, Luis Thur, Julián Landó, Andres del Valle y Gisela Cordero"
-                    description={
-                        <>
-                            <span>
-                                <b>¿Que es el testing?:</b> Analizamos softwares y realizamos pruebas para analizar su calidad y detectar defectos.
-                            </span>
-
-                            <span>
-                                <b>¿Quienes pueden hacer el curso?:</b> Cualquier persona interesada en el mundo de las TICs, que tenga el compromiso de finalizar el curso.
-                                No es necesario tener conocimientos previos.
-                            </span>
-
-                            <span>
-                                <b>¿Cuandó?:</b> Miércoles de 18:30 a 20:30 hs
-                            </span>
-                        </>
-                    }
-                    curriculumHref="https://drive.google.com/file/d/1c-KsPMruhFILetBSaneSigI42GBiPwpy"
-                    date="09/08"
-                    duration="17 Semanas"
-                    modality="Online"
-                    signupHref="https://docs.google.com/forms/d/16s5Q9mo145caz2-vpAJxm0qxqPjOVMJFhycaxxo5kh8"
-                /> */}
       </div>
 
       <div className="past-courses-section">

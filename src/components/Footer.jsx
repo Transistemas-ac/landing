@@ -5,7 +5,7 @@ import iconTikTokOutline from "../assets/svg/media_tiktok_outline.svg";
 import iconLinkedinOutline from "../assets/svg/media_linkedin_outline.svg";
 import iconTelegramOutline from "../assets/svg/media_telegram_outline.svg";
 
-function Footer(props) {
+function Footer() {
   return (
     <div className="footer">
       <h1 className="footer__title">Nuestras redes</h1>
@@ -35,11 +35,7 @@ function Footer(props) {
           />
         </a>
 
-        <a
-          href="https://twitter.com/Transistemas1"
-          target="_blank"
-          rel="noreferrer"
-        >
+        <a href="https://x.com/Transistemas1" target="_blank" rel="noreferrer">
           <img
             className="footer__icon"
             src={iconTwitterOutline}

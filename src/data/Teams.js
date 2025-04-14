@@ -1,7 +1,7 @@
-import teamProgramming from "../assets/svg/team_programming.svg";
-import teamDesigners from "../assets/svg/team_design.svg";
 import teamCommunication from "../assets/svg/team_communication.svg";
 import teamEducation from "../assets/svg/team_education.svg";
+import teamDesigners from "../assets/svg/team_design.svg";
+import teamDevelopment from "../assets/svg/team_development.svg";
 
 const teams = [
   {
@@ -32,9 +32,9 @@ const teams = [
   },
 
   {
-    img: teamProgramming,
+    img: teamDevelopment,
     alt: "Descripcion de la imagen",
-    title: "Equipo Programación",
+    title: "Equipo Desarrollo",
     description:
       "Desarrollamos y mantenemos actualizada la web con las últimas tecnologías.",
     link: "Me quiero sumar",

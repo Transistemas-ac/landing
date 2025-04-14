@@ -1,8 +1,8 @@
 import { useEffect, useState, useRef } from "react";
-import dropdownArrow from "../assets/svg/dropdown_arrow.svg";
+import DropdownContext from "../context/DropdownContext";
 import Integrant from "../components/Integrant";
 import integrants from "../data/Integrants";
-import DropdownContext from "../context/DropdownContext";
+import dropdownArrow from "../assets/svg/dropdown_arrow.svg";
 
 const url = "https://transistemas.org/";
 
@@ -11,7 +11,7 @@ const iterateMembers = (role) =>
     member.team === role ? (
       <Integrant
         key={idx}
-        picture={`${url}/assets/images/${member.picture}`}
+        picture={`${url}/assets/${member.picture}`}
         name={member.name}
         occupation={member.role}
         href={member.href}

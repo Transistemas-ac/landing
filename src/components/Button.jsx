@@ -104,18 +104,6 @@ function Button(props) {
   return (
     <>
       <Element />
-      {/* {props.type === 'link'
-                ?
-                <a {...otherProps} type="text/html" className={`${className || ''} button ${icon ? 'button--icon' : ''}`}>
-                    {children}
-                    < Icon />
-                </a>
-                :
-                <button {...otherProps} className={`${className || ''} button ${icon ? 'button--icon' : ''}`} onClick={copy ? (e) => copyText(e) : props.onClick} >
-                    {children}
-                    < Icon />
-                </button >
-            } */}
     </>
   );
 }

@@ -1,9 +1,8 @@
 import { useEffect, useContext, useState } from "react";
+import { HashLink } from "react-router-hash-link";
 import { NavbarLinks } from "../routes";
 import DisplayContext from "../context/DisplayProvider";
-
 import transistemasLogo from "../assets/svg/logo_transistemas.svg";
-import { HashLink } from "react-router-hash-link";
 
 function Navbar() {
   const isMobile = useContext(DisplayContext);
