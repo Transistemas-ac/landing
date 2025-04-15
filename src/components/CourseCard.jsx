@@ -87,7 +87,7 @@ function CourseCard({
           </span>
           {description}
         </p>
-
+	{/*
         <a
           target="_blank"
           rel="noreferrer"
@@ -96,6 +96,7 @@ function CourseCard({
         >
           Ver temario
         </a>
+        */}
         <div className="course-card__tags-container">
           <h4 className="course-card__tag">📆 {date}</h4>
           <h4 className="course-card__tag">⏰ {duration}</h4>
