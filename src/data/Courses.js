@@ -5,7 +5,8 @@ const courses = [
     title: "Curso de Front End",
     img: frontendImage,
     teachers: "María LaClau y Celeste Cabrera",
-    description: "16 clases Lunes y Viernes de 13 hs a 14 hs",
+    description:
+      " El curso es gratuito y no se necesitan conocimientos previos. Consta de 16 clases los Lunes y Viernes de 13 hs a 14 hs. Aprenderemos HTML para la estructura, CSS para los estilos y JavaScript para la interactividad.",
     curriculumHref:
       "https://drive.google.com/file/d/18O1tyBqcPXjkrQbmncXqJAFfJt9n7RvX",
     date: "05/05",
