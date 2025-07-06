@@ -34,3 +34,20 @@ Actuamos para la inserción laboral de nuestra comunidad en empleos formales del
 - ✅ 1770 Egresades
 
 - ✅ +350 Personas consiguieron trabajo registrado
+
+## 🛠 Herramientas que usamos
+
+- **Notion** para gestión de tareas y documentación interna.  
+- **Figma** para diseño de interfaces y prototipado.  
+- **GitHub** para desarrollo colaborativo y control de versiones.
+
+## 🛡️ Licencia
+
+A menos que se indique lo contrario, el contenido publicado en esta organización está bajo licencia:
+
+- **MIT** para código.
+- **Creative Commons BY-SA 4.0** para documentación y recursos educativos.
+
+---
+
+_Creado con orgullo por el Equipo de Desarrollo de Transistemas_
