@@ -80,14 +80,13 @@ function CourseCard({
       <div className="course-card">
         <h1 className="course-card__title">{title}</h1>
         <img className="course-card__image" src={img} alt={title} />
-
         <p className="course-card__description">
           <span>
             <b>Profes a cargo:</b> {teachers}
           </span>
           {description}
         </p>
-	{/*
+        {/*
         <a
           target="_blank"
           rel="noreferrer"
