@@ -1,4 +1,5 @@
-<a href="http://www.transistemas.org"><img src="https://www.transistemas.org/assets/img_transistemas-vq8ieajI.svg"></img></a>
+<a href="http://www.transistemas.org"><img src="https://camo.githubusercontent.com/17be38e43487f075e779546531c47dff3d33175f99ce8acca70d4059d2160fbb/68747470733a2f2f7777772e7472616e73697374656d61732e6f72672f6173736574732f696d675f7472616e73697374656d61732d7671386965616a492e737667"></img></a>
+=======
 
 # 🏳️‍⚧️ TranSistemas 🏳️‍🌈
 
