@@ -1,18 +1,18 @@
 body {
-    background-color: #1a1a1a;
-    padding-top: 115px;
-    overflow-x: hidden;
+  background-color: #1a1a1a;
+  padding-top: 115px;
+  overflow-x: hidden;
+
+  &.navbar--expanded {
+    overflow: hidden;
+  }
+
+  @media screen and (min-width: $tablet-bp) {
+    padding-top: 180px;
 
     &.navbar--expanded {
-        overflow: hidden;
+      overflow: unset;
+      overflow-x: hidden;
     }
-
-    @media screen and (min-width: $tablet-bp) {
-        padding-top: 180px;
-
-        &.navbar--expanded {
-            overflow: unset;
-            overflow-x: hidden;
-        }
-    }
+  }
 }

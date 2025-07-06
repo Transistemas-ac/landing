@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+<a href="http://www.transistemas.org"><img src="https://camo.githubusercontent.com/17be38e43487f075e779546531c47dff3d33175f99ce8acca70d4059d2160fbb/68747470733a2f2f7777772e7472616e73697374656d61732e6f72672f6173736574732f696d675f7472616e73697374656d61732d7671386965616a492e737667"></img></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 🏳️‍⚧️ TranSistemas 🏳️‍🌈
 
-## Available Scripts
+Somos una organización social integrada por personas del colectivo LGTBIQANB+ y personas con discapacidad (PcD).
+Actuamos para la inserción laboral de nuestra comunidad en empleos formales del área de sistemas. Para lograrlo, realizamos cursos y capacitaciones gratuitas.
 
-In the project directory, you can run:
+<br></br>
+## Qué hacemos
 
-### `npm start`
+- 🛠️ Cursos y talleres: Brindamos capacitaciones en Testing, Diseño UX/UI y Programación para personas de la comunidad LGTBIQANB+.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 💡 Capacitaciones: Facilitamos capacitaciones en diversidad, género y discapacidad para empresas y organizaciones.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- ❤️ Acompañamiento: Colaboramos con personas de la comunidad a sortear situaciones complejas.
 
-### `npm test`
+<br></br>
+## Equipos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 📢 Equipo de Comunicación: Pensamos y ejecutamos la estrategia de comunicación de nuestra organización.
 
-### `npm run build`
+- 👩‍🏫 Equipo de Educación: Planificamos y llevamos adelante los cursos y talleres en conjunto con empresas.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 🎨 Equipo de Diseño: Investigamos, analizamos y diseñamos una experiencia digital accesible y agradable.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- 💻 Equipo de Desarrollo: Desarrollamos y mantenemos actualizada la web con las últimas tecnologías.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<br></br>
+## Nuestro Impacto
 
-### `npm run eject`
+- ✅ 25 Cursos dictados
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- ✅ 500 Ayudas sociales
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- ✅ 19 Voluntaries
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- ✅ 1770 Egresades
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- ✅ +350 Personas consiguieron trabajo registrado
 
-## Learn More
+<br></br>
+## 🛠 Herramientas que usamos
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- <a href="https://nady4.notion.site/22746434d33580bb9d3de34369309325?v=22746434d335809baa50000c3aada987">**Notion**</a> para gestión de tareas y documentación interna.  
+- <a href="https://www.figma.com/files/team/1230296749953661610">**Figma**</a> para diseño de interfaces y prototipado.  
+- <a href="https://github.com/Transistemas-ac">**GitHub**</a> para desarrollo colaborativo y control de versiones.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<br></br>
+## 🛡️ Licencia
 
-### Code Splitting
+A menos que se indique lo contrario, el contenido publicado en esta organización está bajo licencia:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+- **MIT** para código.
+- **Creative Commons BY-SA 4.0** para documentación y recursos educativos.
 
-### Analyzing the Bundle Size
+<br></br>
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+_Creado con orgullo por el Equipo de Desarrollo de Transistemas_

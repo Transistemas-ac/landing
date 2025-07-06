@@ -1,18 +1,20 @@
-import testingImage from "../assets/svg/cursoTesting.svg"
+import frontendImage from "../assets/images/cursoFrontend.png";
 
 const courses = [
-
-    {
-        title: "Herramientas básicas para la inserción laboral II",
-        img: testingImage,
-        teachers: "Profesionales de PedidosYa",
-        description: "Junto a Pedidos Ya te invitamos a participar de la certificación “Herramientas básicas para la inserción laboral II” dirigida a personas de la comunidad LGTBIQNB+ en la que, a través de 4 clases, aprenderemos habilidades necesarias para transitar los primeros pasos en la búsqueda de empleo.",
-        curriculumHref: "https://drive.google.com/file/d/18O1tyBqcPXjkrQbmncXqJAFfJt9n7RvX",
-        date: "02/10",
-        duration: "4 Semanas",
-        modality: "Online",
-        signupHref: "https://docs.google.com/forms/d/1E0jJGXVGrpjOp21n6wCtw5a_7py9SJjccM5AMikJatU",
-    },
-]
+  {
+    title: "Curso de Front End",
+    img: frontendImage,
+    teachers: "María LaClau y Celeste Cabrera",
+    description:
+      " El curso es gratuito y no se necesitan conocimientos previos. Consta de 16 clases los Lunes y Viernes de 13 hs a 14 hs. Aprenderemos HTML para la estructura, CSS para los estilos y JavaScript para la interactividad.",
+    curriculumHref:
+      "https://drive.google.com/file/d/18O1tyBqcPXjkrQbmncXqJAFfJt9n7RvX",
+    date: "05/05",
+    duration: "2 meses",
+    modality: "Online",
+    signupHref:
+      "https://docs.google.com/forms/d/1rnjpOZBKh7OOSjH4toWfEoXcL0qF04xJxW_36AKeOcU/",
+  },
+];
 
 export default courses;

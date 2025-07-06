@@ -1,31 +1,31 @@
 .metrics {
-    $r: &;
-    width: 100%;
+  $r: &;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+  margin: 0px auto;
+
+  gap: 50px;
+
+  &__item {
     display: flex;
     flex-direction: column;
-    text-align: left;
+    gap: 10px;
 
-    margin: 0px auto;
-
-    gap: 50px;
-
-    &__item {
-        display: flex;
-        flex-direction: column;
-        gap: 10px;
-
-        #{$r}__value {
-            color: $yellow;
-        }
-
-        #{$r}__title {
-            margin-bottom: auto;
-        }
+    #{$r}__value {
+      color: $yellow;
     }
 
-    @media screen and (min-width: $tablet-bp) {
-        flex-direction: row;
-        justify-content: space-between;
-        text-align: center;
+    #{$r}__title {
+      margin-bottom: auto;
     }
+  }
+
+  @media screen and (min-width: $tablet-bp) {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+  }
 }

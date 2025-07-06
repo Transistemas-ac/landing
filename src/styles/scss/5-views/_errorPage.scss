@@ -1,16 +1,16 @@
 .error-page {
-    @include section();
-    @include flexCenter(column);
+  @include section();
+  @include flexCenter(column);
 
-    &__img {
-        width: 80%;
-        height: 80%;
-        max-width: 349px;
-        max-height: 294px;
-        margin-bottom: 80px;
-    }
+  &__img {
+    width: 80%;
+    height: 80%;
+    max-width: 349px;
+    max-height: 294px;
+    margin-bottom: 80px;
+  }
 
-    &__text {
-        max-width: 500px;
-    }
+  &__text {
+    max-width: 500px;
+  }
 }
