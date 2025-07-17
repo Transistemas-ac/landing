@@ -6,7 +6,6 @@ const integrants = [
     team: "communication",
     href: "https://www.linkedin.com/in/abelquiroga/",
   },
-
   {
     name: "Maximiliano Monti",
     role: "UX Content Designer",
@@ -86,7 +85,6 @@ const integrants = [
     team: "design",
     href: "https://www.linkedin.com/in/veronicafrund/",
   },
-
   {
     name: "Alex Valdez",
     role: "Fullstack Developer / Tester QA",
@@ -102,7 +100,6 @@ const integrants = [
     team: "development",
     href: "https://www.linkedin.com/in/martin-bejarano-589001206/",
   },
-
   {
     name: "Francis Alexandra Castellanos",
     role: "Redactora creativa de contenidos especializada en cine, cultura queer-pop y fotografía para SEO, RRSS, guiones y más.",

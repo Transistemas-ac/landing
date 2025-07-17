@@ -83,7 +83,7 @@ function Home() {
         <form
           id="contact-form"
           className="contact-section__form"
-          action="https://formsubmit.co/ade9f45c5434abd4809353d661e76f97"
+          action="https://formsubmit.co/contacto@transistemas.org"
           method="POST"
         >
           <fieldset className="contact-section__input-container">
