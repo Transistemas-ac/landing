@@ -1,19 +1,19 @@
-import frontendImage from "../assets/images/cursoFrontend.png";
+import image from "../assets/images/imagen_curso.jpg";
 
 const courses = [
   {
-    title: "Curso de Front End",
-    img: frontendImage,
-    teachers: "María LaClau y Celeste Cabrera",
+    title: "Curso de Testing de Software",
+    img: image,
+    teachers:
+      "Damian Copello, Francisco Ferreyra, Lucas Herrera, Julián Landó, Espi Madrazo, Victoria Peluffo",
     description:
-      " El curso es gratuito y no se necesitan conocimientos previos. Consta de 16 clases los Lunes y Viernes de 13 hs a 14 hs. Aprenderemos HTML para la estructura, CSS para los estilos y JavaScript para la interactividad.",
+      "El curso es gratuito y no se necesitan conocimientos previos. Vas a aprender todo lo necesario para formarte como profesional en el área de testing manual dentro de un marco de trabajo Agile. Consta de 16 clases semanales los Miércoles a las 18:30 hs (hora argentina).",
     curriculumHref:
-      "https://drive.google.com/file/d/18O1tyBqcPXjkrQbmncXqJAFfJt9n7RvX",
-    date: "05/05",
-    duration: "2 meses",
+      "https://drive.google.com/file/d/1C3neqJ7SsZJ5DH2uOTKH3jgcFOnopaF5/view?usp=drive_link",
+    date: "13/08/2025",
+    duration: "4 meses",
     modality: "Online",
-    signupHref:
-      "https://docs.google.com/forms/d/1rnjpOZBKh7OOSjH4toWfEoXcL0qF04xJxW_36AKeOcU/",
+    signupHref: "https://forms.gle/oL9X2cSumds2GefRA",
   },
 ];
 

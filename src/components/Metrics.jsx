@@ -1,8 +1,8 @@
 const metrics = [
-  { value: 25, title: "Cursos dictados" },
+  { value: 26, title: "Cursos dictados" },
   { value: 500, title: "Ayudas sociales" },
   { value: 19, title: "Voluntaries" },
-  { value: 1770, title: "Egresades" },
+  { value: 1789, title: "Egresades" },
   { value: "+350", title: "Personas consiguieron trabajo registrado" },
 ];
 
@@ -14,7 +14,7 @@ const Items = () =>
     </div>
   ));
 
-function Metrics(props) {
+function Metrics() {
   return (
     <>
       <div className="metrics">
