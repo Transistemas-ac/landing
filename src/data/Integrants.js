@@ -23,6 +23,21 @@ const integrants = [
   },
 
   {
+    name: "Espi Madrazo",
+    role: "Tester QA",
+    picture: "19.jpg",
+    team: "education",
+    href: "https://www.linkedin.com/in/espi-madrazo",
+  },
+
+  {
+    name: "Damian Copello",
+    role: "Sr QA Analyst",
+    picture: "15.jpg",
+    team: "education",
+    href: "https://www.linkedin.com/in/damiancopello/",
+  },
+  {
     name: "Raysa Alanes",
     role: "Full Stack Developer",
     picture: "04.png",
@@ -30,6 +45,13 @@ const integrants = [
     href: "https://www.linkedin.com/in/raysa-alanes/",
   },
 
+  {
+    name: "Jazmin de Zavaleta",
+    role: "Digital Designer",
+    picture: "08.png",
+    team: "design",
+    href: "https://www.linkedin.com/in/jazmin-de-zavaleta-1502a292/",
+  },
   {
     name: "Ailin Lezcano",
     role: "UX Designer",
@@ -52,14 +74,6 @@ const integrants = [
     picture: "07.png",
     team: "design",
     href: "https://ar.linkedin.com/in/guadalupe-saavedra-b770b1118",
-  },
-
-  {
-    name: "Jazmin de Zavaleta",
-    role: "Digital Designer",
-    picture: "08.png",
-    team: "design",
-    href: "https://www.linkedin.com/in/jazmin-de-zavaleta-1502a292/",
   },
 
   {
@@ -86,41 +100,33 @@ const integrants = [
     href: "https://www.linkedin.com/in/veronicafrund/",
   },
   {
-    name: "Alex Valdez",
-    role: "Fullstack Developer / Tester QA",
-    picture: "12.png",
-    team: "development",
-    href: "https://www.linkedin.com/in/alexvaldez-dev/",
-  },
-
-  {
-    name: "Martin Bejarano",
-    role: "FullStack Developer",
-    picture: "13.png",
-    team: "development",
-    href: "https://www.linkedin.com/in/martin-bejarano-589001206/",
-  },
-  {
     name: "Francis Alexandra Castellanos",
     role: "Redactora creativa de contenidos especializada en cine, cultura queer-pop y fotografía para SEO, RRSS, guiones y más.",
     picture: "14.jpg",
     team: "communication",
-    href: "https://www.linkedin.com/in/stoa/",
+    href: "https://www.linkedin.com/in/stoarts/",
   },
 
   {
-    name: "Damian Copello",
-    role: "Sr QA Analyst",
-    picture: "15.jpg",
-    team: "education",
-    href: "https://www.linkedin.com/in/damiancopello/",
+    name: "Nadya Jerochim",
+    role: "Coordinadora del equipo | FullStack Developer",
+    picture: "18.png",
+    team: "development",
+    href: "https://www.linkedin.com/in/nady4/",
   },
   {
     name: "Alexis Boscaroli",
     role: "FullStack Developer | Asistente Administrativo",
     picture: "16.png",
-    team: "education",
+    team: "development",
     href: "https://www.linkedin.com/in/alexis-boscaroli/",
+  },
+  {
+    name: "Alex Valdez",
+    role: "Fullstack Developer | Tester QA",
+    picture: "12.png",
+    team: "development",
+    href: "https://www.linkedin.com/in/alexvaldez-dev/",
   },
   {
     name: "Noah Cassutti",
@@ -130,18 +136,11 @@ const integrants = [
     href: "https://www.linkedin.com/in/noah-a-cassutti-99160b1b5/",
   },
   {
-    name: "Nadya Jerochim",
+    name: "Martin Bejarano",
     role: "FullStack Developer",
-    picture: "18.png",
+    picture: "13.png",
     team: "development",
-    href: "https://www.linkedin.com/in/nady4/",
-  },
-  {
-    name: "Espi Madrazo",
-    role: "QA Tester",
-    picture: "19.jpg",
-    team: "education",
-    href: "https://www.linkedin.com/in/espi-madrazo",
+    href: "https://www.linkedin.com/in/martin-bejarano-589001206/",
   },
 ];
 
