@@ -54,7 +54,7 @@
 
 .course-card {
   $r: ".course-card";
-  // width: 300px;
+  width: 400px;
   width: 100%;
   max-width: 330px;
   min-height: 430px;
@@ -175,6 +175,7 @@
 
   .course-card {
     $r: ".course-card";
+    min-width: 90%;
     max-width: 700px;
     min-height: 510px;
     gap: 22px;
