@@ -70,7 +70,7 @@ function Home() {
               rel="noreferrer"
               type="anchor"
               className="volunteer-section__button"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSePZcGZlbE1JHx3PyLMgdzvtot6IZPVZ0XDi6SAquWPResx7g/viewform"
+              href="https://discord.gg/yuYpD6QW74"
             >
               Sumate
             </Button>

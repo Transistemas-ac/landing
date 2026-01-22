@@ -16,7 +16,7 @@ const routes = [
     class: "home",
   },
   {
-    name: "Cursos y talleres",
+    name: "Cursos y Talleres",
     path: "/cursos",
     component: <LazyCourses />,
     exact: true,

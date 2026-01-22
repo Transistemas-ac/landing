@@ -1,8 +1,8 @@
 const metrics = [
-  { value: 26, title: "Cursos dictados" },
+  { value: 28, title: "Cursos dictados" },
   { value: 500, title: "Ayudas sociales" },
-  { value: 19, title: "Voluntaries" },
-  { value: 1789, title: "Egresades" },
+  { value: 10, title: "Voluntaries" },
+  { value: 1821, title: "Egresades" },
   { value: "+350", title: "Personas consiguieron trabajo registrado" },
 ];
 

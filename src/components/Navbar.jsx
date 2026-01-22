@@ -9,16 +9,16 @@ function Navbar() {
   const [expanded, setExpanded] = useState(false);
   const [progress, setProgress] = useState("0%");
 
-  const updateProgrresBar = () => {
+  const updateProgressBar = () => {
     const { scrollTop, scrollHeight } = document.documentElement;
     const scrollPercent =
       (scrollTop / (scrollHeight - window.innerHeight)) * 100 + "%";
     setProgress(scrollPercent);
-    window.requestAnimationFrame(updateProgrresBar);
+    window.requestAnimationFrame(updateProgressBar);
   };
 
   useEffect(() => {
-    window.requestAnimationFrame(updateProgrresBar);
+    window.requestAnimationFrame(updateProgressBar);
   }, []);
 
   const toggleMenu = () => {

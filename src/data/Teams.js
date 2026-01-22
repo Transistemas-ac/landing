@@ -5,28 +5,25 @@ import teamDevelopment from "../assets/svg/team_development.svg";
 
 const teams = [
   {
-    img: teamCommunication,
-    alt: "Descripcion de la imagen",
-    title: "Equipo Comunicación",
-    description:
-      "Pensamos y ejecutamos la estrategia de comunicación de nuestra organización.",
-    link: "Me quiero sumar",
-  },
-  {
     img: teamEducation,
     alt: "Descripcion de la imagen",
     title: "Equipo Educación",
     description:
       "Planificamos y llevamos adelante los cursos y talleres en conjunto con empresas.",
-    link: "Me quiero sumar",
   },
   {
     img: teamDevelopment,
     alt: "Descripcion de la imagen",
     title: "Equipo Desarrollo",
     description:
-      "Desarrollamos y mantenemos actualizada la web con las últimas tecnologías.",
-    link: "Me quiero sumar",
+      "Desarrollamos y mantenemos la web de nuestra organización y la de nuestra red comunitaria.",
+  },
+  {
+    img: teamCommunication,
+    alt: "Descripcion de la imagen",
+    title: "Equipo Comunicación",
+    description:
+      "Pensamos y ejecutamos la estrategia de comunicación de nuestra organización.",
   },
   {
     img: teamDesigners,
@@ -34,7 +31,6 @@ const teams = [
     title: "Equipo Diseño",
     description:
       "Investigamos, analizamos y diseñamos una experiencia digital accesible y agradable.",
-    link: "Me quiero sumar",
   },
 ];
 

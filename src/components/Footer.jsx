@@ -3,7 +3,7 @@ import iconInstagramOutline from "../assets/svg/media_instagram_outline.svg";
 import iconTwitterOutline from "../assets/svg/media_twiter_outline.svg";
 import iconTikTokOutline from "../assets/svg/media_tiktok_outline.svg";
 import iconLinkedinOutline from "../assets/svg/media_linkedin_outline.svg";
-import iconTelegramOutline from "../assets/svg/media_telegram_outline.svg";
+import iconDiscordOutline from "../assets/svg/media_discord_outline.svg";
 
 function Footer() {
   return (
@@ -12,18 +12,6 @@ function Footer() {
 
       <div className="footer__icon-container">
         <a
-          href="https://www.facebook.com/Transistemas"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            className="footer__icon"
-            src={iconFacebookOutline}
-            alt="icono de facebook"
-          />
-        </a>
-
-        <a
           href="https://www.instagram.com/transistemas/"
           target="_blank"
           rel="noreferrer"
@@ -31,7 +19,18 @@ function Footer() {
           <img
             className="footer__icon"
             src={iconInstagramOutline}
-            alt="icono de instagram"
+            alt="Ícono de Instagram"
+          />
+        </a>
+        <a
+          href="https://www.facebook.com/Transistemas"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <img
+            className="footer__icon"
+            src={iconFacebookOutline}
+            alt="Ícono de Facebook"
           />
         </a>
 
@@ -39,7 +38,7 @@ function Footer() {
           <img
             className="footer__icon"
             src={iconTwitterOutline}
-            alt="icono de instagram"
+            alt="Ícono de Twitter"
           />
         </a>
 
@@ -51,7 +50,7 @@ function Footer() {
           <img
             className="footer__icon"
             src={iconTikTokOutline}
-            alt="icono de instagram"
+            alt="Ícono de TikTok"
           />
         </a>
 
@@ -63,15 +62,19 @@ function Footer() {
           <img
             className="footer__icon"
             src={iconLinkedinOutline}
-            alt="icono de instagram"
+            alt="Ícono de LinkedIn"
           />
         </a>
 
-        <a href="https://t.me/Transistemas" target="_blank" rel="noreferrer">
+        <a
+          href="https://discord.gg/yuYpD6QW74"
+          target="_blank"
+          rel="noreferrer"
+        >
           <img
             className="footer__icon"
-            src={iconTelegramOutline}
-            alt="icono de instagram"
+            src={iconDiscordOutline}
+            alt="Ícono de Discord"
           />
         </a>
       </div>

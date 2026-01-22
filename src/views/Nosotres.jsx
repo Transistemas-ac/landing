@@ -34,17 +34,18 @@ function Nosotres() {
         <h2 className="integrants-section__title">
           Integrantes de Transistemas
         </h2>
+
+        <Dropdown title="Equipo Educación" type="members" role="education" />
+
+        <Dropdown title="Equipo Desarrollo" type="members" role="development" />
+
         <Dropdown
           title="Equipo Comunicación"
           type="members"
           role="communication"
         />
 
-        <Dropdown title="Equipo Educación" type="members" role="education" />
-
         <Dropdown title="Equipo Diseño" type="members" role="design" />
-
-        <Dropdown title="Equipo Desarrollo" type="members" role="development" />
       </div>
 
       <Footer />
