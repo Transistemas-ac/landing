@@ -10,7 +10,7 @@ const integrants = [
   {
     name: "Damian Copello",
     role: "Sr QA Analyst",
-    picture: "2.png",
+    picture: "2.jpg",
     team: "education",
     href: "https://www.linkedin.com/in/damiancopello/",
   },
