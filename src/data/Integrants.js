@@ -19,7 +19,7 @@ const integrants = [
     role: "Digital Designer",
     picture: "3.png",
     team: "design",
-    href: "https://www.linkedin.com/in/jazmin-de-zavaleta-1502a292/",
+    href: "https://www.linkedin.com/in/jazm%C3%ADn-de-zavaleta-1502a292/",
   },
   {
     name: "Nadya Jerochim",
