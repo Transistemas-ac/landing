@@ -1,4 +1,4 @@
-import metrics from "../data/metrics.js";
+import metrics from "../data/Metrics";
 
 const Items = () =>
   metrics.map((item, idx) => (
