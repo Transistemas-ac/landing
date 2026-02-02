@@ -1,6 +1,6 @@
 <a href="http://www.transistemas.org"><img src="https://transistemas.org/assets/img_transistemas-vq8ieajI.svg"></img></a>
 
-# 💜 <a href="https://transistemas.org/W">Transistemas.org 🏳️‍🌈</a>
+# 💜 <a href="https://transistemas.org/">Transistemas.org 🏳️‍🌈</a>
 
 Somos una organización social integrada por personas del colectivo LGTBIQANB+ y personas con discapacidad (PcD).
 Actuamos para la inserción laboral de nuestra comunidad en empleos formales del área de sistemas. Para lograrlo, realizamos cursos y capacitaciones gratuitas.
