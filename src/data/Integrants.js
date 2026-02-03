@@ -38,10 +38,10 @@ const integrants = [
    {
     name: "Larú Saldaña",
     role: "Development y QA",
-    picture: "6.jpg",
     team: "development",
     href: "www.linkedin.com/in/larú-saldaña-73651a264/,
   },
+  
 ];
 
 export default integrants;
