@@ -37,7 +37,7 @@ const integrants = [
   },
    {
     name: "Larú Saldaña",
-    role: "Development y QA",
+    role: "Developer y QA",
     picture: "6.png",
     team: "development",
     href: "https://www.linkedin.com/in/laru-saldaña-73651a264/",
