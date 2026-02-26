@@ -40,7 +40,7 @@ const integrants = [
     role: "Developer y QA",
     picture: "6.png",
     team: "development",
-    href: "https://www.linkedin.com/in/larú-saldaña",
+    href: "www.linkedin.com/in/larú-saldaña",
   },
   {
     name: "Soledad Martínez",
