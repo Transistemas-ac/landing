@@ -1,4 +1,4 @@
-<a href="http://www.transistemas.org"><img src="https://transistemas.org/assets/img_transistemas-vq8ieajI.svg"></img></a>
+<a href="https://transistemas.org/assets/img_transistemas-vq8ieajI.svg></img></a>
 
 # 💜 <a href="https://transistemas.org/">Transistemas.org 🏳️‍🌈</a>
 
@@ -45,9 +45,9 @@ Actuamos para la inserción laboral de nuestra comunidad en empleos formales del
 
 ## 🛠 Herramientas que usamos
 
-- <a href="https://nady4.notion.site/22746434d33580bb9d3de34369309325?v=22746434d335809baa50000c3aada987">**Notion**</a> para gestión de tareas y documentación interna.
-- <a href="https://www.figma.com/files/team/1230296749953661610">**Figma**</a> para diseño de interfaces y prototipado.
-- <a href="https://github.com/Transistemas-ac">**GitHub**</a> para desarrollo colaborativo y control de versiones.
+- **Notion** para gestión de tareas y documentación interna.
+- **Figma** para diseño de interfaces y prototipado.
+- **GitHub** para desarrollo colaborativo y control de versiones.
 
 <br></br>
 
