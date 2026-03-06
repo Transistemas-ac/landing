@@ -16,7 +16,7 @@ const teams = [
     alt: "Descripcion de la imagen",
     title: "Equipo Desarrollo",
     description:
-      "Desarrollamos aplicaciones web para empresas y organizaciones sociales",
+      "Desarrollamos aplicaciones web para empresas y organizaciones sociales.",
   },
   {
     img: teamDesigners,
