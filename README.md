@@ -1,4 +1,4 @@
-<a href="https://transistemas.org/assets/img_transistemas-vq8ieajI.svg></img></a>
+<a href="http://www.transistemas.org"><img src="https://transistemas.org/assets/img_transistemas-vq8ieajI.svg"/></a>
 
 # 💜 <a href="https://transistemas.org/">Transistemas.org 🏳️‍🌈</a>
 
