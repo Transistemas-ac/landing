@@ -18,7 +18,7 @@
     &__description {
       font-size: 16px;
       max-width: 430px;
-      margin: 0px auto 32px;
+      margin: 0 auto 32px;
     }
 
     &__image {
@@ -206,7 +206,7 @@
 
     .services-contact-section {
       margin-bottom: 200px;
-      width: 1000px;
+      max-width: 1000px;
 
       &__title {
         font-size: 36px;

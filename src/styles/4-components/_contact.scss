@@ -1,25 +1,6 @@
 @use "../1-helpers/variables" as *;
 @use "../2-basic/fonts" as *;
 
-.contact {
-  height: 48px;
-  width: 100%;
-  padding: 19px 15px;
-
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  align-items: left;
-  gap: 22px;
-
-  background-color: $black;
-  border: 1px solid;
-  border-color: $white;
-  color: $white;
-  border-radius: 1000px;
-  text-align: left;
-}
-
 .contact-section {
   width: 100%;
   text-align: left;

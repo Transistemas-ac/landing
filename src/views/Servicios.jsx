@@ -3,6 +3,7 @@ import Button from "../components/Button";
 import Card from "../components/Card";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
+import { serviceOfferings, workflowSteps } from "../data/Servicios";
 
 function Servicios() {
   return (
@@ -25,75 +26,24 @@ function Servicios() {
       <section className="offer-section">
         <h2 className="offer-section__title">Qué ofrecemos</h2>
         <div className="offer-section__cards">
-          <Card type="basic" className="service-card">
-            <h3 className="service-card__title">Desarrollo de software</h3>
-            <p className="service-card__description">
-              Construimos aplicaciones web a medida, priorizando calidad,
-              escalabilidad y usabilidad.
-            </p>
-          </Card>
-
-          <Card type="basic" className="service-card">
-            <h3 className="service-card__title">Diseño UX/UI</h3>
-            <p className="service-card__description">
-              Diseñamos experiencias digitales claras y accesibles, desde el
-              relevamiento hasta prototipos listos para implementación.
-            </p>
-          </Card>
-
-          <Card type="basic" className="service-card">
-            <h3 className="service-card__title">Testing</h3>
-            <p className="service-card__description">
-              Realizamos pruebas unitarias y de integración para mejorar la
-              estabilidad del producto y reducir errores en producción.
-            </p>
-          </Card>
+          {serviceOfferings.map(({ title, description }) => (
+            <Card key={title} type="basic" className="service-card">
+              <h3 className="service-card__title">{title}</h3>
+              <p className="service-card__description">{description}</p>
+            </Card>
+          ))}
         </div>
       </section>
 
       <section className="workflow-section">
         <h2 className="workflow-section__title">Cómo trabajamos</h2>
         <Card type="basic" divider={true} className="workflow-card">
-          <div className="workflow-card__item">
-            <p className="workflow-card__step">01. Diagnóstico</p>
-            <p className="workflow-card__description">
-              Relevamos necesidades, objetivos y alcance del proyecto para
-              definir una propuesta realista.
-            </p>
-          </div>
-
-          <div className="workflow-card__item">
-            <p className="workflow-card__step">02. Diseño</p>
-            <p className="workflow-card__description">
-              Creamos prototipos interactivos y diseños visuales para validar la
-              experiencia antes de la implementación.
-            </p>
-          </div>
-
-          <div className="workflow-card__item">
-            <p className="workflow-card__step">03. Desarrollo</p>
-            <p className="workflow-card__description">
-              Ejecutamos el trabajo en etapas cortas y con entregables visibles,
-              manteniendo comunicación continua.
-            </p>
-          </div>
-
-          <div className="workflow-card__item">
-            <p className="workflow-card__step">04. Testing</p>
-            <p className="workflow-card__description">
-              Realizamos pruebas funcionales y de usabilidad para asegurar la
-              calidad del producto antes de su lanzamiento.
-            </p>
-          </div>
-
-          <div className="workflow-card__item">
-            <p className="workflow-card__step">05. Mantenimiento</p>
-            <p className="workflow-card__description">
-              Ofrecemos soporte continuo para resolver problemas, actualizar
-              funcionalidades y asegurar la estabilidad del producto a largo
-              plazo.
-            </p>
-          </div>
+          {workflowSteps.map(({ step, description }) => (
+            <div key={step} className="workflow-card__item">
+              <p className="workflow-card__step">{step}</p>
+              <p className="workflow-card__description">{description}</p>
+            </div>
+          ))}
         </Card>
       </section>
 

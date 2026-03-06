@@ -18,20 +18,21 @@
     overflow: hidden;
 
     &__title {
+      font-size: 28px;
       margin-bottom: 20px;
     }
 
     &__description {
+      font-size: 16px;
       width: 100%;
       max-width: 420px;
-      margin: 0px auto;
-      margin-bottom: 20px;
-      padding: 0px 16px;
+      margin: 0 auto 80px;
+      padding: 0 16px;
     }
   }
 
   .metrics {
-    margin: 0px;
+    margin: 0;
     margin-bottom: 100px;
   }
 
@@ -46,7 +47,7 @@
     margin-bottom: 76px;
 
     .dropdown {
-      padding: 0px 5px;
+      padding: 0 5px;
 
       &__button {
         color: $yellow;
@@ -61,10 +62,12 @@
       margin-bottom: 140px;
 
       &__title {
+        font-size: 40px;
         margin-bottom: 48px;
       }
 
       &__description {
+        font-size: 22px;
         margin-bottom: 120px;
         max-width: 869px;
       }

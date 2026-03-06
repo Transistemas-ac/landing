@@ -1,13 +1,20 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
+
+const MOBILE_MEDIA_QUERY = "(max-width: 980px)";
 
 function useDisplay() {
-  const mql = window.matchMedia("(max-width: 980px)");
+  const getCurrentDisplay = () => window.matchMedia(MOBILE_MEDIA_QUERY).matches;
+  const [isMobile, setIsMobile] = useState(getCurrentDisplay);
 
-  const [isMobile, setIsMobile] = useState(mql.matches);
+  useEffect(() => {
+    const mediaQuery = window.matchMedia(MOBILE_MEDIA_QUERY);
+    const handleChange = (event) => {
+      setIsMobile(event.matches);
+    };
 
-  mql.onchange = ({ matches }) => {
-    setIsMobile(matches);
-  };
+    mediaQuery.addEventListener("change", handleChange);
+    return () => mediaQuery.removeEventListener("change", handleChange);
+  }, []);
 
   return isMobile;
 }

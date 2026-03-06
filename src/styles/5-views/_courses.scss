@@ -43,17 +43,14 @@
     margin-bottom: 80px;
     width: 100%;
     text-align: left;
-
-    display: flex;
-    flex-direction: column;
     gap: 20px;
 
     .dropdown {
-      padding: 0px 5px;
+      padding: 0 5px;
 
       &__title {
         color: $yellow;
-        padding-left: 0px;
+        padding-left: 0;
       }
     }
   }

@@ -3,67 +3,46 @@ import { Route, useMatch, useResolvedPath } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import LoadingScreen from "../views/LoadingScreen";
 
-const Home = lazy(() => import("../views/Home"));
-const Courses = lazy(() => import("../views/Courses"));
-const Servicios = lazy(() => import("../views/Servicios"));
-const Equipos = lazy(() => import("../views/Equipos"));
+const HomeView = lazy(() => import("../views/Home"));
+const CoursesView = lazy(() => import("../views/Courses"));
+const ServiciosView = lazy(() => import("../views/Servicios"));
+const EquiposView = lazy(() => import("../views/Equipos"));
+
+const getRouteElement = (Component) => (
+  <Suspense fallback={<LoadingScreen />}>
+    <Component />
+  </Suspense>
+);
 
 const routes = [
   {
     name: "Inicio",
     path: "/",
-    component: (
-      <Suspense fallback={<LoadingScreen />}>
-        <Home />
-      </Suspense>
-    ),
-    exact: true,
-    class: "home",
+    element: getRouteElement(HomeView),
+    className: "home",
   },
   {
     name: "Cursos",
     path: "/cursos",
-    component: (
-      <Suspense fallback={<LoadingScreen />}>
-        <Courses />
-      </Suspense>
-    ),
-    exact: true,
-    class: "courses",
+    element: getRouteElement(CoursesView),
+    className: "courses",
   },
   {
     name: "Servicios",
     path: "/servicios",
-    component: (
-      <Suspense fallback={<LoadingScreen />}>
-        <Servicios />
-      </Suspense>
-    ),
-    exact: true,
-    class: "courses",
+    element: getRouteElement(ServiciosView),
+    className: "services",
   },
   {
     name: "Equipos",
     path: "/equipos",
-    component: (
-      <Suspense fallback={<LoadingScreen />}>
-        <Equipos />
-      </Suspense>
-    ),
-    exact: true,
-    class: "equipos",
+    element: getRouteElement(EquiposView),
+    className: "equipos",
   },
 ];
 
-const Paths = (props) =>
-  routes.map((item, idx) => (
-    <Route
-      key={idx}
-      path={item.path}
-      element={item.component}
-      exact={item.exact}
-    />
-  ));
+const Paths = () =>
+  routes.map(({ path, element }) => <Route key={path} path={path} element={element} />);
 
 function CustomLink({ to, children, ...props }) {
   const resolvedPath = useResolvedPath(to);
@@ -79,9 +58,9 @@ function CustomLink({ to, children, ...props }) {
 }
 
 const NavbarLinks = (props) =>
-  routes.map((item, idx) => (
-    <CustomLink key={idx} className={item.class} to={item.path} {...props}>
-      {item.name}
+  routes.map(({ name, path, className }) => (
+    <CustomLink key={path} className={className} to={path} {...props}>
+      {name}
     </CustomLink>
   ));
 

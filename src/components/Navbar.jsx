@@ -1,4 +1,4 @@
-import { useEffect, useContext, useState } from "react";
+import { useCallback, useContext, useEffect, useState } from "react";
 import { HashLink } from "react-router-hash-link";
 import { NavbarLinks } from "../routes";
 import DisplayContext from "../context/DisplayProvider";
@@ -9,17 +9,29 @@ function Navbar() {
   const [expanded, setExpanded] = useState(false);
   const [progress, setProgress] = useState("0%");
 
-  const updateProgressBar = () => {
+  const updateProgressBar = useCallback(() => {
     const { scrollTop, scrollHeight } = document.documentElement;
-    const scrollPercent =
-      (scrollTop / (scrollHeight - window.innerHeight)) * 100 + "%";
-    setProgress(scrollPercent);
-    window.requestAnimationFrame(updateProgressBar);
-  };
+    const scrollableHeight = scrollHeight - window.innerHeight;
+
+    if (scrollableHeight <= 0) {
+      setProgress("0%");
+      return;
+    }
+
+    const scrollPercent = Math.min((scrollTop / scrollableHeight) * 100, 100);
+    setProgress(`${scrollPercent}%`);
+  }, []);
 
   useEffect(() => {
-    window.requestAnimationFrame(updateProgressBar);
-  }, []);
+    updateProgressBar();
+    window.addEventListener("scroll", updateProgressBar, { passive: true });
+    window.addEventListener("resize", updateProgressBar);
+
+    return () => {
+      window.removeEventListener("scroll", updateProgressBar);
+      window.removeEventListener("resize", updateProgressBar);
+    };
+  }, [updateProgressBar]);
 
   useEffect(() => {
     if (!isMobile) {
@@ -39,10 +51,8 @@ function Navbar() {
     };
   }, [isMobile, expanded]);
 
-  const toggleMenu = () => {
-    if (!isMobile) return;
-    setExpanded((prevState) => !prevState);
-  };
+  const toggleMenu = () => isMobile && setExpanded((prevState) => !prevState);
+  const closeMenu = () => setExpanded(false);
 
   return (
     <nav className={`navbar ${expanded ? "navbar--expanded" : ""}`}>
@@ -52,26 +62,22 @@ function Navbar() {
       ></div>
 
       <div className="navbar__inner-container">
-        <HashLink to={"/"} className="navbar__logo" onClick={() => toggleMenu()}>
+        <HashLink to={"/"} className="navbar__logo" onClick={closeMenu}>
           <img src={transistemasLogo} alt="logo" />
         </HashLink>
-        <button
-          type="button"
-          className="navbar__menu-button"
-          onClick={() => toggleMenu()}
-        >
+        <button type="button" className="navbar__menu-button" onClick={toggleMenu}>
           <div className="navbar__menu-icon"></div>
         </button>
         {!isMobile ? (
           <ul className="navbar__links">
-            <NavbarLinks onClick={() => toggleMenu()} />
+            <NavbarLinks onClick={closeMenu} />
           </ul>
         ) : null}
       </div>
 
       {isMobile ? (
         <ul className="navbar__links">
-          <NavbarLinks onClick={() => toggleMenu()} />
+          <NavbarLinks onClick={closeMenu} />
         </ul>
       ) : null}
     </nav>

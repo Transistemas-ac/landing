@@ -1,4 +1,4 @@
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import DropdownContext from "../context/DropdownContext";
 import Integrant from "../components/Integrant";
 import integrants from "../data/Integrants";
@@ -6,35 +6,35 @@ import dropdownArrow from "../assets/svg/dropdown_arrow.svg";
 
 const url = "https://transistemas.org/";
 
-const iterateMembers = (role) =>
-  integrants.map((member, idx) =>
-    member.team === role ? (
+const getMembersByRole = (role) =>
+  integrants
+    .filter((member) => member.team === role)
+    .map((member) => (
       <Integrant
-        key={idx}
+        key={member.name}
         picture={`${url}assets/${member.picture}`}
         name={member.name}
         occupation={member.role}
         href={member.href}
       />
-    ) : null,
-  );
+    ));
 
 function Dropdown(props) {
   const [active, setActive] = useState(false);
-  const [integrants, setIntegrants] = useState(null);
   const dropdown = useRef();
+  const members = useMemo(
+    () => (props.role ? getMembersByRole(props.role) : null),
+    [props.role],
+  );
 
   useEffect(() => {
-    if (active) {
-      if (props.role && !integrants) {
-        setIntegrants(iterateMembers(props.role));
-      }
+    if (!dropdown.current) return;
 
-      dropdown.current.lastChild.style.maxHeight = `${dropdown.current.lastChild.scrollHeight}px`;
-      return;
-    }
-    dropdown.current.lastChild.style.maxHeight = "0px";
-  }, [active, integrants, props.role]);
+    const dropdownContent = dropdown.current.lastChild;
+    dropdownContent.style.maxHeight = active
+      ? `${dropdownContent.scrollHeight}px`
+      : "0px";
+  }, [active, members]);
 
   return (
     <div
@@ -61,7 +61,7 @@ function Dropdown(props) {
           {props.type === "basic" ? (
             <div className="dropdown__inner-container">{props.children}</div>
           ) : (
-            <div className="dropdown__inner-container">{integrants}</div>
+            <div className="dropdown__inner-container">{members}</div>
           )}
         </div>
       </DropdownContext.Provider>

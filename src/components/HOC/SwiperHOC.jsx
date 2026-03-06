@@ -1,4 +1,4 @@
-import { useContext, useEffect, useRef, useState } from "react";
+import { Children, useContext, useEffect, useRef, useState } from "react";
 import DisplayContext from "../../context/DisplayProvider";
 import { Swiper } from "swiper/react";
 import { Navigation } from "swiper/modules";
@@ -6,9 +6,10 @@ import dropdownArrow from "../../assets/svg/dropdown_arrow.svg";
 
 export const SwiperHOC = (props) => {
   const isMobile = useContext(DisplayContext);
+  const slides = Children.toArray(props.children);
   const desktopSlides = 4;
-  const hasDesktopLayout = props.children.length >= desktopSlides;
-  const hasDesktopOverflow = props.children.length > desktopSlides;
+  const hasDesktopLayout = slides.length >= desktopSlides;
+  const hasDesktopOverflow = slides.length > desktopSlides;
 
   const swiperRef = useRef();
   const [options, setOptions] = useState({ active: true, extended: false });
@@ -20,12 +21,12 @@ export const SwiperHOC = (props) => {
     }
 
     if (!hasDesktopLayout) {
-      swiperRef.current.swiper.slideTo(1);
+      swiperRef.current?.swiper?.slideTo(1);
       setOptions({ active: false, extended: false });
     } else {
       setOptions({ active: hasDesktopOverflow, extended: true });
     }
-  }, [isMobile]);
+  }, [isMobile, hasDesktopLayout, hasDesktopOverflow]);
 
   return (
     <div className="swiper-container">
@@ -35,7 +36,7 @@ export const SwiperHOC = (props) => {
         allowSlidePrev={options.active}
         allowTouchMove={options.active}
         slidesPerGroup={1}
-        modules={[Navigation, ...props.modules]}
+        modules={[Navigation, ...(props.modules || [])]}
         navigation={{
           prevEl: "#custom-prev",
           nextEl: "#custom-next",

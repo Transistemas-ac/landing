@@ -12,7 +12,11 @@ function Home() {
   return (
     <div className="home">
       <div className="hero-section">
-        <img src={imgHero} className="hero-section__illustration" alt="" />
+        <img
+          src={imgHero}
+          className="hero-section__illustration"
+          alt="Transistemas ilustración"
+        />
 
         <p className="hero-section__description">
           <span>
