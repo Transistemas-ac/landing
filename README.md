@@ -14,7 +14,7 @@ Ofrecemos servicios de **desarrollo de software, diseño y testing** para empres
 
 - 💡 **Servicios**: Ofrecemos servicios de desarrollo de software, diseño y testing para organizaciones sociales y empresas de distintos sectores.
 
-- ❤️ Acompañamiento: Creamos una comunidad de acompañamiento y apoyo mutuo para compartir experiencias y generar redes que ayuden a sortear situaciones difíciles."
+- ❤️ **Acompañamiento**: Creamos una comunidad de acompañamiento y apoyo mutuo para compartir experiencias y generar redes que ayuden a sortear situaciones difíciles."
 
 <br></br>
 
@@ -36,7 +36,7 @@ Ofrecemos servicios de **desarrollo de software, diseño y testing** para empres
 
 - ✅ 500 Ayudas sociales
 
-- ✅ 10 Voluntaries
+- ✅ 9 Voluntaries
 
 - ✅ 1821 Egresades
 
@@ -49,15 +49,6 @@ Ofrecemos servicios de **desarrollo de software, diseño y testing** para empres
 - **Notion** para gestión de tareas y documentación interna.
 - **Figma** para diseño de interfaces y prototipado.
 - **GitHub** para desarrollo colaborativo y control de versiones.
-
-<br></br>
-
-## 🛡️ Licencia
-
-A menos que se indique lo contrario, el contenido publicado en esta organización está bajo licencia:
-
-- **MIT** para código.
-- **Creative Commons BY-SA 4.0** para documentación y recursos educativos.
 
 ## <br></br>
 

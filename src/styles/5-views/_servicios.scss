@@ -1,0 +1,198 @@
+@use "../1-helpers/variables" as *;
+@use "../1-helpers/mixins" as *;
+@use "../2-basic/fonts" as *;
+
+.servicios {
+  @include section();
+  @include flexCenter(column);
+
+  .services-section {
+    width: 100%;
+    margin-bottom: 72px;
+
+    &__title {
+      font-size: 40px;
+      text-align: center;
+      margin-bottom: 24px;
+    }
+
+    &__description {
+      max-width: 430px;
+      margin: 0px auto 32px;
+    }
+
+    &__image {
+      width: 100%;
+      max-width: 640px;
+      border-radius: 16px;
+      object-fit: cover;
+    }
+  }
+
+  .offer-section {
+    width: 100%;
+    margin-bottom: 72px;
+
+    &__title {
+      font-size: 40px;
+      margin-bottom: 24px;
+    }
+
+    &__cards {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 16px;
+      justify-items: center;
+    }
+
+    .service-card {
+      width: 100%;
+      max-width: 700px;
+      text-align: left;
+      align-items: center;
+      justify-content: flex-start;
+
+      &__title {
+        font-size: 24px;
+        margin-bottom: 12px;
+        color: $yellow;
+      }
+
+      &__description {
+        font-size: 20px;
+        margin-bottom: 12px;
+        max-width: 550px;
+      }
+    }
+  }
+
+  .workflow-section {
+    width: 100%;
+    margin-bottom: 72px;
+
+    &__title {
+      font-size: 40px;
+      margin-bottom: 24px;
+      margin-bottom: 24px;
+    }
+
+    .workflow-card {
+      width: 100%;
+      max-width: 700px;
+      margin: 0 auto;
+      text-align: left;
+      align-items: stretch;
+
+      &__item {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+
+      &__step {
+        color: $pink;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .services-contact-section {
+    width: 100%;
+    max-width: 700px;
+    margin-bottom: 100px;
+
+    &__title {
+      margin-bottom: 20px;
+    }
+
+    &__description {
+      margin-bottom: 24px;
+    }
+
+    &__button {
+      margin: 0 auto;
+    }
+  }
+
+  .impact-section {
+    width: 100%;
+    margin-bottom: 100px;
+
+    &__title {
+      margin-bottom: 50px;
+    }
+  }
+}
+
+@media screen and (min-width: $tablet-bp) {
+  .servicios {
+    .services-section {
+      margin-bottom: 120px;
+
+      &__title {
+        margin-bottom: 48px;
+      }
+
+      &__description {
+        max-width: 860px;
+        margin-bottom: 56px;
+      }
+
+      &__image {
+        max-width: 920px;
+      }
+    }
+
+    .offer-section {
+      margin-bottom: 120px;
+
+      &__title {
+        margin-bottom: 48px;
+      }
+
+      &__cards {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        align-items: stretch;
+        gap: 20px;
+      }
+
+      .service-card {
+        max-width: unset;
+        height: 100%;
+      }
+    }
+
+    .workflow-section {
+      margin-bottom: 120px;
+
+      &__title {
+        margin-bottom: 48px;
+      }
+    }
+
+    .services-contact-section {
+      margin-bottom: 140px;
+
+      &__title {
+        margin-bottom: 32px;
+      }
+
+      &__description {
+        margin-bottom: 40px;
+      }
+
+      &__button {
+        max-width: 420px;
+      }
+    }
+
+    .impact-section {
+      margin-bottom: 120px;
+
+      &__title {
+        margin-bottom: 70px;
+      }
+    }
+  }
+}

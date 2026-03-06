@@ -10,13 +10,13 @@ import Metrics from "../components/Metrics";
 function Nosotres() {
   return (
     <div className="nosotres">
+      <h1 className="teams-section__title">Nosotres</h1>
       <img
         className="nosotres__hero-image"
         src={imgVoluntarie}
         alt="Ilustración de voluntaries"
       />
       <div className="teams-section">
-        <h1 className="teams-section__title">Nosotres</h1>
         <p className="teams-section__description">
           Transistemas nació en 2019 con el objetivo de ampliar las
           oportunidades laborales en el sector tecnológico para personas
