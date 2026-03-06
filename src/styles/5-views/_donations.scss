@@ -1,0 +1,125 @@
+@use "../1-helpers/variables" as *;
+@use "../1-helpers/mixins" as *;
+
+.donations {
+  @include section();
+  @include flexCenter(column);
+
+  &__title {
+    margin-bottom: 24px;
+  }
+
+  &__description {
+    margin-bottom: 43px;
+    max-width: 360px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 425px;
+  }
+
+  .card--divided {
+    & > * {
+      max-width: 380px;
+    }
+
+    .button {
+      color: $white;
+      padding: 0px;
+      background-color: transparent;
+      justify-content: space-between;
+      border-radius: 0px;
+    }
+  }
+
+  .enterprise-card {
+    margin-bottom: 48px;
+
+    &__title {
+      margin-bottom: 8px;
+    }
+
+    .button {
+      @include textYellow();
+      justify-content: center;
+    }
+  }
+
+  .colaborate-card {
+    min-height: 200px;
+    margin-bottom: 65px;
+    .button {
+      max-width: 320px;
+    }
+  }
+
+  .donation-title {
+    margin-bottom: 32px;
+  }
+  .donation-card {
+    margin-bottom: 65px;
+  }
+
+  .transfer-title {
+    margin-bottom: 32px;
+  }
+  .transfer-card {
+    margin-bottom: 64px;
+
+    &__title {
+      margin-bottom: 32px;
+    }
+
+    &__button-alias {
+      font-weight: 400;
+    }
+  }
+
+  .metrics-title {
+    margin-bottom: 50px;
+  }
+
+  .metrics {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: $tablet-bp) {
+  .donations {
+    &__title {
+      margin-bottom: 50px;
+    }
+
+    &__description {
+      margin-bottom: 120px;
+      max-width: 700px;
+    }
+
+    .card {
+      max-width: 700px;
+    }
+
+    .enterprise-card {
+      margin-bottom: 110px;
+    }
+
+    .colaborate-card {
+      margin-bottom: 120px;
+    }
+
+    .donation-title {
+      margin-bottom: 32px;
+    }
+    .donation-card {
+      margin-bottom: 120px;
+    }
+
+    .transfer-title {
+      margin-bottom: 32px;
+    }
+    .transfer-card {
+      margin-bottom: 150px;
+    }
+  }
+}

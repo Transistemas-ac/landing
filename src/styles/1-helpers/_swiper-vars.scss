@@ -1,0 +1,5 @@
+$swiper-desktop-visible-elements: 4 !default;
+$swiper-desktop-slide-width: 300px !default;
+$swiper-desktop-gap: 20px !default;
+$swiper-desktop-width: $swiper-desktop-visible-elements * $swiper-desktop-slide-width +
+  ($swiper-desktop-visible-elements - 1) * $swiper-desktop-gap !default;

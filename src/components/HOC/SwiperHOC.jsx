@@ -6,7 +6,9 @@ import dropdownArrow from "../../assets/svg/dropdown_arrow.svg";
 
 export const SwiperHOC = (props) => {
   const isMobile = useContext(DisplayContext);
-  const larger = props.children.length > 3;
+  const desktopSlides = 4;
+  const hasDesktopLayout = props.children.length >= desktopSlides;
+  const hasDesktopOverflow = props.children.length > desktopSlides;
 
   const swiperRef = useRef();
   const [options, setOptions] = useState({ active: true, extended: false });
@@ -17,11 +19,11 @@ export const SwiperHOC = (props) => {
       return;
     }
 
-    if (!larger) {
+    if (!hasDesktopLayout) {
       swiperRef.current.swiper.slideTo(1);
       setOptions({ active: false, extended: false });
     } else {
-      setOptions({ active: true, extended: true });
+      setOptions({ active: hasDesktopOverflow, extended: true });
     }
   }, [isMobile]);
 
@@ -38,7 +40,7 @@ export const SwiperHOC = (props) => {
           prevEl: "#custom-prev",
           nextEl: "#custom-next",
         }}
-        slidesPerView={options.extended ? 3 : 1}
+        slidesPerView={options.extended ? desktopSlides : 1}
         ref={swiperRef}
         className={`${isMobile ? "mobile" : "desktop"} ${
           options.extended ? "extended" : ""
@@ -46,7 +48,7 @@ export const SwiperHOC = (props) => {
       />
       <div className="swiper-buttons-container">
         <div
-          style={{ display: options.extended ? "flex" : "none" }}
+          style={{ display: options.active ? "flex" : "none" }}
           id="custom-prev"
           className="swiper-button-prev"
         >
@@ -57,7 +59,7 @@ export const SwiperHOC = (props) => {
           />
         </div>
         <div
-          style={{ display: options.extended ? "flex" : "none" }}
+          style={{ display: options.active ? "flex" : "none" }}
           id="custom-next"
           className="swiper-button-next"
         >

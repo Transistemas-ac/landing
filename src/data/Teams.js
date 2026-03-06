@@ -16,14 +16,7 @@ const teams = [
     alt: "Descripcion de la imagen",
     title: "Equipo Desarrollo",
     description:
-      "Desarrollamos y mantenemos la web de nuestra organización y la de nuestra red comunitaria.",
-  },
-  {
-    img: teamCommunication,
-    alt: "Descripcion de la imagen",
-    title: "Equipo Comunicación",
-    description:
-      "Pensamos y ejecutamos la estrategia de comunicación de nuestra organización.",
+      "Desarrollamos aplicaciones web para empresas y organizaciones sociales",
   },
   {
     img: teamDesigners,
@@ -31,6 +24,13 @@ const teams = [
     title: "Equipo Diseño",
     description:
       "Investigamos, analizamos y diseñamos una experiencia digital accesible y agradable.",
+  },
+  {
+    img: teamCommunication,
+    alt: "Descripcion de la imagen",
+    title: "Equipo Comunicación",
+    description:
+      "Pensamos y ejecutamos la estrategia de comunicación de nuestra organización.",
   },
 ];
 

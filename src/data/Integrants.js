@@ -23,7 +23,7 @@ const integrants = [
   },
   {
     name: "Nadya Jerochim",
-    role: "Coordinadora del equipo | FullStack Developer",
+    role: "Coordinadora del equipo y FullStack Developer",
     picture: "4.png",
     team: "development",
     href: "https://www.linkedin.com/in/nady4/",
@@ -33,14 +33,14 @@ const integrants = [
     role: "Community Manager",
     picture: "5.jpg",
     team: "communication",
-    href: "https://ar.linkedin.com/in/merele-c-tamara",
+    href: "https://www.linkedin.com/in/merele-c-tamara",
   },
-   {
+  {
     name: "Larú Saldaña",
     role: "Developer y QA",
     picture: "6.png",
     team: "development",
-    href: "www.linkedin.com/in/lar%C3%BA-salda%C3%B1a/",
+    href: "https://www.linkedin.com/in/lar%C3%BA-salda%C3%B1a/",
   },
   {
     name: "Soledad Martínez",
@@ -49,7 +49,6 @@ const integrants = [
     team: "development",
     href: "https://www.linkedin.com/in/msoledadmartinez88/",
   },
-  
 ];
 
 export default integrants;

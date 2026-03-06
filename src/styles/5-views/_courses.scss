@@ -1,0 +1,96 @@
+@use "../1-helpers/variables" as *;
+@use "../1-helpers/mixins" as *;
+@use "../2-basic/fonts" as *;
+
+.courses {
+  @include section();
+  @include flexCenter(column);
+
+  .courses-section {
+    width: 100%;
+    @include flexCenter(column);
+    margin-bottom: 72px;
+
+    &__title {
+      margin-bottom: 24px;
+      font-size: 40px;
+    }
+
+    &__description {
+      max-width: 420px;
+      margin-bottom: 24px;
+    }
+  }
+
+  .past-courses-section {
+    width: 100vw;
+    overflow: hidden;
+    margin-bottom: 40px;
+
+    &__title {
+      margin-bottom: 15px;
+    }
+
+    &__description {
+      margin-bottom: 25px;
+    }
+  }
+
+  .faq-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 132px;
+    width: 100%;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    .dropdown {
+      padding: 0px 5px;
+
+      &__title {
+        color: $yellow;
+        padding-left: 0px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $tablet-bp) {
+  .courses {
+    .courses-section {
+      margin-bottom: 120px;
+      &__title {
+        margin-bottom: 48px;
+      }
+
+      &__description {
+        max-width: 800px;
+        margin-bottom: 120px;
+      }
+    }
+
+    .past-courses-section {
+      margin-bottom: 119px;
+
+      &__title {
+        margin-bottom: 32px;
+      }
+
+      &__description {
+        margin-bottom: 48px;
+      }
+    }
+
+    .faq-section {
+      &__title {
+        margin-bottom: 104px;
+        text-align: center;
+        font-size: font("d-x-large");
+      }
+    }
+  }
+}

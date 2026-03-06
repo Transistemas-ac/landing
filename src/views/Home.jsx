@@ -1,6 +1,4 @@
 import imgHero from "../assets/svg/img_transistemas.svg";
-import imgVoluntarie from "../assets/svg/img_voluntarie.svg";
-
 import Button from "../components/Button";
 import Footer from "../components/Footer";
 import Metrics from "../components/Metrics";
@@ -17,19 +15,24 @@ function Home() {
 
         <p className="hero-section__description">
           <span>
-            Somos una organización social integrada por personas del colectivo{" "}
-            <strong>LGTBIQANB+</strong> y personas con discapacidad (
-            <strong>PcD</strong>).
+            Somos un equipo tecnológico diverso y experimentado que impulsa la
+            formación tecnológica y la inserción laboral de talento
+            subrepresentado en la industria IT.
           </span>
           <span>
-            Actuamos para la inserción laboral de nuestra comunidad en empleos
-            formales del <strong>área de sistemas</strong>. Para lograrlo,
-            realizamos <strong>cursos y capacitaciones gratuitas.</strong>
+            Ofrecemos servicios de{" "}
+            <strong>desarrollo de software, diseño y testing</strong> para
+            empresas y organizaciones sociales. Además realizamos cursos
+            gratuitos para nuestra comunidad.
           </span>
         </p>
 
-        <Button className="hero-section__button" type="link" href="/donar">
-          Colaborá donando
+        <Button
+          className="hero-section__button"
+          type="link"
+          href="https://discord.gg/yuYpD6QW74"
+        >
+          Unirse a la comunidad
         </Button>
       </div>
 
@@ -45,7 +48,7 @@ function Home() {
       </div>
 
       <Metrics />
-
+      {/*
       <div className="volunteer-section">
         <h1 className="volunteer-section__title">¿Querés ser voluntarie?</h1>
         <div className="volunteer-section__inner-container">
@@ -77,7 +80,7 @@ function Home() {
           </div>
         </div>
       </div>
-
+*/}
       <div className="contact-section">
         <h1 className="contact-section__title">¡Dejanos tu mensaje!</h1>
         <form

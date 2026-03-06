@@ -41,7 +41,7 @@ function Courses() {
         </Dropdown>
         <Dropdown type="basic" title="¿Quiénes pueden anotarse a los cursos?">
           Cualquier persona interesada, damos prioridad a personas del colectivo
-          LGTBIQANB+.
+          LGTBIQ+.
         </Dropdown>
         <Dropdown
           type="basic"

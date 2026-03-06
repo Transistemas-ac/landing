@@ -1,3 +1,4 @@
+import imgVoluntarie from "../assets/svg/img_voluntarie.svg";
 import { SwiperHOC } from "../components/HOC/SwiperHOC";
 import { Pagination } from "swiper/modules";
 
@@ -9,15 +10,21 @@ import Metrics from "../components/Metrics";
 function Nosotres() {
   return (
     <div className="nosotres">
+      <img
+        className="nosotres__hero-image"
+        src={imgVoluntarie}
+        alt="Ilustración de voluntaries"
+      />
       <div className="teams-section">
         <h1 className="teams-section__title">Nosotres</h1>
         <p className="teams-section__description">
-          Transistemas comenzó a fines del 2019, años antes de la ley del Cupo
-          Laboral Travesti Trans, nuestro deseo era armar una cooperativa para
-          incluirnos como comunidad dentro del sistema laboral de las TICs. Para
-          lograr eso debíamos capacitarnos, así comenzamos a dictar cursos, con
-          el objetivo de cambiar la cultura empresarial dominante y mejorar la
-          situación laboral de nuestra comunidad.
+          Transistemas nació en 2019 con el objetivo de ampliar las
+          oportunidades laborales en el sector tecnológico para personas
+          travestis, trans y otras comunidades subrepresentadas A partir de
+          programas de formación y trabajo colaborativo, fuimos construyendo una
+          red de aprendizaje y desarrollo profesional que hoy impulsa tanto la
+          capacitación tecnológica como la creación de proyectos y servicios
+          digitales.
         </p>
         <SwiperHOC
           modules={[Pagination]}
@@ -34,18 +41,14 @@ function Nosotres() {
         <h2 className="integrants-section__title">
           Integrantes de Transistemas
         </h2>
-
         <Dropdown title="Equipo Educación" type="members" role="education" />
-
         <Dropdown title="Equipo Desarrollo" type="members" role="development" />
-
+        <Dropdown title="Equipo Diseño" type="members" role="design" />
         <Dropdown
           title="Equipo Comunicación"
           type="members"
           role="communication"
         />
-
-        <Dropdown title="Equipo Diseño" type="members" role="design" />
       </div>
 
       <Footer />

@@ -1,0 +1,43 @@
+@use "../1-helpers/variables" as *;
+
+.loading-screen {
+  $r: ".loading-screen";
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  z-index: 15;
+  padding-top: 125px;
+
+  top: 0px;
+  left: 0px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+
+  background-color: $black;
+
+  &__circle {
+    width: 125px;
+    height: 125px;
+    border: 15px solid $grey-light;
+    border-top-color: $pink;
+    border-radius: 50%;
+    animation: loading 0.75s ease infinite;
+  }
+}
+
+@keyframes loading {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+body.loading {
+  overflow: hidden;
+}

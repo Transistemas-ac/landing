@@ -1,40 +1,57 @@
-import {
-  LazyHome,
-  LazyCourses,
-  LazyNosotres,
-  LazyDonations,
-} from "../lazy-components";
+import { lazy, Suspense } from "react";
 import { Route, useMatch, useResolvedPath } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import LoadingScreen from "../views/LoadingScreen";
+
+const Home = lazy(() => import("../views/Home"));
+const Courses = lazy(() => import("../views/Courses"));
+const Servicios = lazy(() => import("../views/Servicios"));
+const Nosotres = lazy(() => import("../views/Nosotres"));
 
 const routes = [
   {
     name: "Inicio",
     path: "/",
-    component: <LazyHome />,
+    component: (
+      <Suspense fallback={<LoadingScreen />}>
+        <Home />
+      </Suspense>
+    ),
     exact: true,
     class: "home",
   },
   {
-    name: "Cursos y Talleres",
+    name: "Cursos",
     path: "/cursos",
-    component: <LazyCourses />,
+    component: (
+      <Suspense fallback={<LoadingScreen />}>
+        <Courses />
+      </Suspense>
+    ),
+    exact: true,
+    class: "courses",
+  },
+  {
+    name: "Servicios",
+    path: "/servicios",
+    component: (
+      <Suspense fallback={<LoadingScreen />}>
+        <Servicios />
+      </Suspense>
+    ),
     exact: true,
     class: "courses",
   },
   {
     name: "Nosotres",
     path: "/nosotres",
-    component: <LazyNosotres />,
+    component: (
+      <Suspense fallback={<LoadingScreen />}>
+        <Nosotres />
+      </Suspense>
+    ),
     exact: true,
     class: "nosotres",
-  },
-  {
-    name: "Donar",
-    path: "/donar",
-    component: <LazyDonations />,
-    exact: true,
-    class: "donate",
   },
 ];
 
