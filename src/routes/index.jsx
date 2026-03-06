@@ -6,7 +6,7 @@ import LoadingScreen from "../views/LoadingScreen";
 const Home = lazy(() => import("../views/Home"));
 const Courses = lazy(() => import("../views/Courses"));
 const Servicios = lazy(() => import("../views/Servicios"));
-const Nosotres = lazy(() => import("../views/Nosotres"));
+const Equipos = lazy(() => import("../views/Equipos"));
 
 const routes = [
   {
@@ -43,15 +43,15 @@ const routes = [
     class: "courses",
   },
   {
-    name: "Nosotres",
-    path: "/nosotres",
+    name: "Equipos",
+    path: "/equipos",
     component: (
       <Suspense fallback={<LoadingScreen />}>
-        <Nosotres />
+        <Equipos />
       </Suspense>
     ),
     exact: true,
-    class: "nosotres",
+    class: "equipos",
   },
 ];
 

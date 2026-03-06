@@ -1,8 +1,8 @@
-import servicesImage from "../assets/images/servicios.jpeg";
+import servicesImage from "../assets/images/servicios.png";
 import Button from "../components/Button";
 import Card from "../components/Card";
+import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-import Metrics from "../components/Metrics";
 
 function Servicios() {
   return (
@@ -18,7 +18,7 @@ function Servicios() {
         <img
           className="services-section__image"
           src={servicesImage}
-          alt="Equipo de Transistemas en una jornada de trabajo"
+          alt="Equipos de Transistemas en una jornada de trabajo"
         />
       </section>
 
@@ -28,8 +28,8 @@ function Servicios() {
           <Card type="basic" className="service-card">
             <h3 className="service-card__title">Desarrollo de software</h3>
             <p className="service-card__description">
-              Construimos aplicaciones web a medida, priorizando calidad
-              técnica, escalabilidad y mantenimiento a largo plazo.
+              Construimos aplicaciones web a medida, priorizando calidad,
+              escalabilidad y usabilidad.
             </p>
           </Card>
 
@@ -44,8 +44,8 @@ function Servicios() {
           <Card type="basic" className="service-card">
             <h3 className="service-card__title">Testing</h3>
             <p className="service-card__description">
-              Realizamos pruebas funcionales y de usabilidad para mejorar la
-              estabilidad de tu producto y reducir errores en producción.
+              Realizamos pruebas unitarias y de integración para mejorar la
+              estabilidad del producto y reducir errores en producción.
             </p>
           </Card>
         </div>
@@ -105,14 +105,7 @@ function Servicios() {
           Contanos qué necesitás y pensamos la mejor forma de trabajarlo en
           conjunto.
         </p>
-        <Button
-          type="link"
-          href="/#contact-form"
-          icon="mail"
-          className="services-contact-section__button"
-        >
-          Contactanos
-        </Button>
+        <Contact />
       </section>
       <Footer />
     </div>

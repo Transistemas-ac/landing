@@ -85,50 +85,9 @@
   }
 
   .contact-section {
-    $r: ".contact-section";
     width: 100%;
     max-width: 328px;
     margin-bottom: 150px;
-    text-align: left;
-
-    &__title {
-      margin-bottom: 30px;
-    }
-
-    &__form {
-      display: flex;
-      flex-direction: column;
-      gap: 16px;
-
-      .contact-section__textarea {
-        &::-webkit-scrollbar {
-          width: 6px;
-        }
-
-        &::-webkit-scrollbar-track {
-          background: transparent;
-          margin: 10px 0px;
-        }
-
-        &::-webkit-scrollbar-thumb {
-          background-color: $black;
-          border-radius: 20px;
-        }
-      }
-
-      #{$r}__input-container {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-        width: 100%;
-
-        #{$r}__button {
-          max-width: 400px;
-          cursor: pointer;
-        }
-      }
-    }
   }
 }
 
@@ -165,48 +124,17 @@
         display: flex;
         gap: 20px;
 
-        #{$r}__illustration {
-        }
-
         #{$r}__info-container {
           margin: 0px;
           gap: 40px;
-
-          #{$r}__info {
-          }
-
-          #{$r}__button {
-          }
         }
       }
     }
 
     .contact-section {
-      $r: ".contact-section";
       text-align: center;
       max-width: 1120px;
       margin-bottom: 190px;
-
-      &__title {
-        margin-bottom: 68px;
-      }
-
-      &__form {
-        flex-direction: row;
-        gap: 70px;
-
-        #{$r}__input-container {
-          justify-content: space-between;
-
-          #{$r}__button {
-            position: absolute;
-            bottom: -40%;
-          }
-        }
-      }
-    }
-
-    .footer {
     }
   }
 }

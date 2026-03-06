@@ -8,12 +8,15 @@ function Courses() {
   return (
     <div className="courses">
       <div className="courses-section">
-        <h1 className="courses-section__title">Cursos y talleres</h1>
+        <h1 className="courses-section__title">Cursos</h1>
         <h4 className="courses-section__description">
-          Brindamos capacitaciones en el área de la tecnología y ofrecemos
-          diferentes herramientas para la inserción laboral a personas de la
-          comunidad LGTBIQANB+.
+          Brindamos capacitaciones gratuitas en Testing, Programación y Diseño
+          para formar a nuestra comunidad y facilitar su inserción laboral.
+          <br></br>
+          Nuestros cursos son gratuitos y cualquiera puede anotarse pero damos
+          prioridad a personas del colectivo LGTBIQ+
         </h4>
+
         {CoursesSlides()}
       </div>
 

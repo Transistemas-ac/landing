@@ -25,9 +25,8 @@
 @use "./4-components/dropdown";
 
 // Views
-@use "./5-views/home";
-@use "./5-views/nosotres";
-@use "./5-views/courses";
-@use "./5-views/donations";
 @use "./5-views/errorPage";
+@use "./5-views/home";
+@use "./5-views/courses";
 @use "./5-views/servicios";
+@use "./5-views/equipos";

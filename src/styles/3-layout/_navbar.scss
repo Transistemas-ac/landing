@@ -7,7 +7,7 @@
   position: fixed;
   top: 0px;
   width: 100%;
-  height: 100vh;
+  height: auto;
   z-index: 20;
 
   @include flexCenter(column);
@@ -93,6 +93,7 @@
 
   &__links {
     width: 100%;
+    display: none;
 
     @include flexCenter(column);
     flex-grow: 1;
@@ -131,6 +132,7 @@
 
   &.navbar--expanded {
     z-index: 20;
+    height: 100vh;
 
     #{$r}__menu-icon {
       background-color: transparent;
@@ -145,6 +147,7 @@
     }
 
     #{$r}__links {
+      display: flex;
       opacity: 1;
       pointer-events: auto;
     }
@@ -166,6 +169,7 @@
       }
 
       #{$r}__links {
+        display: flex;
         max-width: 1080px;
         pointer-events: auto;
 

@@ -3,7 +3,9 @@
 .footer {
   width: 100%;
   max-width: 240px;
-  margin-bottom: 50px;
+  margin: 0 auto 50px;
+  position: relative;
+  z-index: 30;
 
   &__title {
     margin-bottom: 40px;

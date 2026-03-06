@@ -21,10 +21,27 @@ function Navbar() {
     window.requestAnimationFrame(updateProgressBar);
   }, []);
 
+  useEffect(() => {
+    if (!isMobile) {
+      setExpanded(false);
+    }
+  }, [isMobile]);
+
+  useEffect(() => {
+    if (isMobile && expanded) {
+      document.body.classList.add("navbar--expanded");
+    } else {
+      document.body.classList.remove("navbar--expanded");
+    }
+
+    return () => {
+      document.body.classList.remove("navbar--expanded");
+    };
+  }, [isMobile, expanded]);
+
   const toggleMenu = () => {
     if (!isMobile) return;
-    document.body.classList.toggle("navbar--expanded");
-    setExpanded(!expanded);
+    setExpanded((prevState) => !prevState);
   };
 
   return (
@@ -35,7 +52,7 @@ function Navbar() {
       ></div>
 
       <div className="navbar__inner-container">
-        <HashLink to={"/"} className="navbar__logo">
+        <HashLink to={"/"} className="navbar__logo" onClick={() => toggleMenu()}>
           <img src={transistemasLogo} alt="logo" />
         </HashLink>
         <button

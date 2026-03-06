@@ -2,7 +2,7 @@
 @use "../1-helpers/mixins" as *;
 @use "../2-basic/fonts" as *;
 
-.nosotres {
+.equipos {
   @include section();
   @include flexCenter(column);
 
@@ -12,7 +12,7 @@
     margin-bottom: 40px;
   }
 
-  .teams-section {
+  .equipos-section {
     width: 100vw;
     margin-bottom: 100px;
     overflow: hidden;
@@ -56,8 +56,8 @@
 }
 
 @media screen and (min-width: $tablet-bp) {
-  .nosotres {
-    .teams-section {
+  .equipos {
+    .equipos-section {
       margin-bottom: 140px;
 
       &__title {

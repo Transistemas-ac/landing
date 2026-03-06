@@ -2,7 +2,7 @@ import teams from "../../data/Teams";
 import Card from "../Card";
 import { SwiperSlide } from "swiper/react";
 
-const NosotresSlides = () =>
+const EquiposSlides = () =>
   teams.map((item, idx) => (
     <SwiperSlide key={idx}>
       <Card
@@ -20,4 +20,4 @@ const NosotresSlides = () =>
     </SwiperSlide>
   ));
 
-export default NosotresSlides;
+export default EquiposSlides;

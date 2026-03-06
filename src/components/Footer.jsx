@@ -8,8 +8,6 @@ import iconDiscordOutline from "../assets/svg/media_discord_outline.svg";
 function Footer() {
   return (
     <div className="footer">
-      <h1 className="footer__title">Nuestras redes</h1>
-
       <div className="footer__icon-container">
         <a
           href="https://www.instagram.com/transistemas/"
