@@ -87,6 +87,15 @@
       &__button {
         color: $yellow;
       }
+
+      .integrant__name {
+        font-size: 18px;
+        font-weight: 600;
+      }
+
+      .integrant__occupation {
+        font-size: 16px;
+      }
     }
   }
 }
@@ -135,6 +144,17 @@
         text-align: center;
         font-size: font("d-x-large");
         margin-bottom: 80px;
+      }
+
+      .dropdown {
+        .integrant__name {
+          font-size: 22px;
+          font-weight: 600;
+        }
+
+        .integrant__occupation {
+          font-size: 18px;
+        }
       }
     }
   }

@@ -18,7 +18,7 @@ function Equipos() {
         <p className="equipos-section__description">
           Transistemas nació en 2019 con el objetivo de ampliar las
           oportunidades laborales en el sector tecnológico para personas del
-          colectivo LGBTIQ+ A partir de programas de formación y trabajo
+          colectivo LGBTIQ+. A partir de programas de formación y trabajo
           colaborativo, fuimos construyendo una red de aprendizaje y desarrollo
           profesional que hoy impulsa tanto la capacitación tecnológica como la
           creación de proyectos y servicios digitales.
