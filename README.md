@@ -14,7 +14,7 @@ Ofrecemos servicios de **desarrollo de software, diseño y testing** para empres
 
 - 💡 **Servicios**: Ofrecemos servicios de desarrollo de software, diseño y testing para organizaciones sociales y empresas de distintos sectores.
 
-- ❤️ **Acompañamiento**: Creamos una comunidad de acompañamiento y apoyo mutuo para compartir experiencias y generar redes que ayuden a sortear situaciones difíciles."
+- ❤️ **Acompañamiento**: Creamos una comunidad de acompañamiento y apoyo mutuo para compartir experiencias y generar redes que ayuden a sortear situaciones difíciles.
 
 <br></br>
 

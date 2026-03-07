@@ -109,7 +109,7 @@ function CourseCard({
               href={signupHref}
               icon="close"
             >
-              Finalizado
+              Inscripciones cerradas
             </Button>
           )}
 

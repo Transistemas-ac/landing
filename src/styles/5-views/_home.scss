@@ -65,7 +65,16 @@
       height: 175px;
     }
 
+    &__title {
+      font-size: 24px;
+    }
+
+    &__description {
+      font-size: 16px;
+    }
+
     &__link {
+      font-size: 16px;
       color: $yellow;
       font-weight: 600;
       margin-top: auto;
@@ -76,52 +85,13 @@
     margin-bottom: 150px;
   }
 
-  .volunteer-section {
-    $r: ".volunteer-section";
-    width: 100%;
-    margin-bottom: 150px;
-    max-width: 328px;
-
-    &__title {
-      margin-bottom: 26px;
-    }
-
-    &__inner-container {
-      #{$r}__illustration {
-        width: 100%;
-      }
-
-      #{$r}__info-container {
-        max-width: 544px;
-        margin-top: 20px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        gap: 20px;
-
-        #{$r}__info {
-          display: flex;
-          flex-direction: column;
-          justify-content: space-between;
-          text-align: left;
-          flex-grow: 1;
-          gap: 20px;
-        }
-
-        #{$r}__button {
-          max-width: 380px;
-        }
-      }
-    }
-  }
-
   .contact-section {
     width: 100%;
     max-width: 328px;
     margin-bottom: 150px;
 
     &__title {
-      font-size: 24px;
+      font-size: 30px;
       margin-bottom: 24px;
     }
   }

@@ -23,7 +23,7 @@
     }
 
     &__description {
-      font-size: 16px;
+      font-size: 18px;
       width: 100%;
       max-width: 420px;
       margin: 0 auto 80px;
@@ -49,6 +49,14 @@
 
     &__image {
       height: 175px;
+    }
+
+    &__title {
+      font-size: 22px;
+    }
+
+    &__description {
+      font-size: 16px;
     }
 
     &__link {

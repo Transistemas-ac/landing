@@ -22,7 +22,7 @@ import {
 
 const courses = [
   {
-    title: "Testing Manual",
+    title: "Curso de Testing Manual",
     img: img2025Testing,
     teachers: "Equipo de Educación de Transistemas",
     description: "",
@@ -68,7 +68,7 @@ const courses = [
     status: "Finalizado",
   },
   {
-    title: "Testing Manual",
+    title: "Curso de Testing Manual",
     img: img2024Testing,
     teachers: "Transistemas",
     description: "",
@@ -83,7 +83,7 @@ const courses = [
     status: "Finalizado",
   },
   {
-    title: "Testing Manual",
+    title: "Curso de Testing Manual",
     img: img2023Testing,
     teachers: "Transistemas",
     description: "",
@@ -113,7 +113,7 @@ const courses = [
     status: "Finalizado",
   },
   {
-    title: "Diseño UX/UI",
+    title: "Curso de Diseño UX/UI",
     img: img2022Diseno,
     teachers: "Transistemas",
     description: "",
@@ -132,7 +132,7 @@ const courses = [
     status: "Finalizado",
   },
   {
-    title: "UX Writing",
+    title: "Curso de UX Writing",
     img: img2022Uxwriting,
     teachers: "Transistemas",
     description: "",
@@ -149,7 +149,7 @@ const courses = [
     status: "Finalizado",
   },
   {
-    title: "Testing Manual",
+    title: "Curso de Testing Manual",
     img: img2022Testing,
     teachers: "Transistemas",
     description: "",
