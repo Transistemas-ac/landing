@@ -32,12 +32,21 @@
     }
   }
 
+  &__input {
+    font-size: 16px;
+  }
+
   &__input-container {
+    font-size: 16px;
     position: relative;
     display: flex;
     flex-direction: column;
     gap: 16px;
     width: 100%;
+  }
+
+  &__textarea {
+    font-size: 18px;
   }
 
   &__button {
@@ -49,13 +58,17 @@
 @media screen and (min-width: $tablet-bp) {
   .contact-section {
     &__title {
-      font-size: 32px;
+      font-size: 30px;
       margin-bottom: 68px;
     }
 
     &__form {
       flex-direction: row;
       gap: 70px;
+    }
+
+    &__input {
+      font-size: 18px;
     }
 
     &__input-container {
