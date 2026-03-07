@@ -1,20 +1,25 @@
 import courses from "../../data/Courses";
 import CourseCard from "../CourseCard";
+import { SwiperSlide } from "swiper/react";
 
 const CoursesSlides = () =>
   courses.map((item, idx) => (
-    <CourseCard
-      key={idx}
-      title={item.title}
-      img={item.img}
-      teachers={item.teachers}
-      description={item.description}
-      curriculumHref={item.curriculumHref}
-      date={item.date}
-      duration={item.duration}
-      modality={item.modality}
-      signupHref={item.signupHref}
-    />
+    <SwiperSlide key={idx}>
+      <CourseCard
+        title={item.title}
+        img={item.img}
+        teachers={item.teachers}
+        description={item.description}
+        fechaInicio={item.fechaInicio}
+        fechaFin={item.fechaFin}
+        duration={item.duration}
+        horario={item.horario}
+        curriculumHref={item.curriculumHref}
+        signupHref={item.signupHref}
+        status={item.status}
+        ig={item.ig}
+      />
+    </SwiperSlide>
   ));
 
 export default CoursesSlides;

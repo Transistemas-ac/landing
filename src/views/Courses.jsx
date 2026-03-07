@@ -1,14 +1,15 @@
-import { Pagination } from "swiper/modules";
-import { SwiperHOC } from "../components/HOC/SwiperHOC";
-import { CoursesSlides, PastCoursesSlides } from "../components/Slides";
+import imgCursos from "../assets/hero/cursos.png";
+import { CoursesSlides } from "../components/Slides";
 import Dropdown from "../components/Dropdown";
 import Footer from "../components/Footer";
+import { SwiperHOC } from "../components/HOC/SwiperHOC";
+import { Pagination } from "swiper/modules";
 
 function Courses() {
   return (
     <div className="courses">
       <div className="courses-section">
-        <h1 className="courses-section__title">Cursos</h1>
+        <h1 className="courses-section__title">Cursos y Talleres</h1>
         <h4 className="courses-section__description">
           Brindamos capacitaciones gratuitas en Testing, Programación y Diseño
           para formar a nuestra comunidad y facilitar su inserción laboral.
@@ -17,23 +18,20 @@ function Courses() {
           prioridad a personas del colectivo LGTBIQ+
         </h4>
 
-        {CoursesSlides()}
-      </div>
-
-      <div className="past-courses-section">
-        <h1 className="past-courses-section__title">Cursos pasados</h1>
-        <p className="past-courses-section__description">
-          Estas son las actividades que brindamos anteriormente.
-          <br />
-          ¡Seguinos en las redes para no perderte ninguna!
-        </p>
+        <img
+          className="courses-section__image"
+          src={imgCursos}
+          alt="Ilustración de cursos"
+        />
 
         <SwiperHOC
           modules={[Pagination]}
-          spaceBetween={20}
+          spaceBetween={16}
+          desktopSlides={3}
+          desktopSlideWidth={470}
           pagination={{ clickable: true }}
         >
-          {PastCoursesSlides()}
+          {CoursesSlides()}
         </SwiperHOC>
       </div>
 

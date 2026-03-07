@@ -41,7 +41,7 @@ function Footer() {
         </a>
 
         <a
-          href="https://www.tiktok.com/@transistemas?lang=es"
+          href="https://www.tiktok.com/@transistemas"
           target="_blank"
           rel="noreferrer"
         >

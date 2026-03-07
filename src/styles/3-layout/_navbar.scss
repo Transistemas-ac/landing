@@ -8,7 +8,7 @@
   top: 0px;
   width: 100%;
   height: auto;
-  z-index: 20;
+  z-index: 200;
 
   @include flexCenter(column);
 
@@ -34,6 +34,7 @@
   }
 
   &__inner-container {
+    position: relative;
     width: 100%;
     padding: 20px;
     background-color: $black;
@@ -53,7 +54,17 @@
     }
 
     #{$r}__menu-button {
-      height: 20px;
+      position: relative;
+      width: 28px;
+      min-width: 28px;
+      height: 24px;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 240;
       pointer-events: auto;
 
       &:hover {
@@ -62,8 +73,8 @@
 
       #{$r}__menu-icon {
         position: relative;
-        width: 20px;
-        height: 2px;
+        width: 24px;
+        height: 3px;
         background-color: $white;
         transition-duration: 0.2s;
         transition-property: background-color;
@@ -73,8 +84,8 @@
           content: "";
           position: absolute;
 
-          width: 20px;
-          height: 2px;
+          width: 24px;
+          height: 3px;
           background-color: $white;
           transition-duration: 0.3s;
           transition-property: transform;

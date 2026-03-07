@@ -3,10 +3,9 @@ import Button from "../components/Button";
 import Footer from "../components/Footer";
 import Metrics from "../components/Metrics";
 import Contact from "../components/Contact";
-
 import { SwiperHOC } from "../components/HOC/SwiperHOC";
-import { Pagination } from "swiper/modules";
 import { HomeSlides } from "../components/Slides";
+import { Pagination } from "swiper/modules";
 
 function Home() {
   return (
@@ -20,8 +19,8 @@ function Home() {
 
         <p className="hero-section__description">
           <span>
-            Somos un equipo diverso y profesional que impulsa la formación
-            tecnológica y la inserción laboral de talento subrepresentado en la
+            Somos un equipo profesional y diverso que impulsa la formación
+            tecnológica y la inserción laboral de nuestra comunidad en la
             industria IT.
           </span>
           <span>
@@ -53,7 +52,9 @@ function Home() {
       </div>
 
       <Metrics />
+
       <h3 className="contact-section__title">¡Dejanos tu mensaje!</h3>
+
       <Contact />
 
       <Footer />

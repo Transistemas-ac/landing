@@ -1,5 +1,4 @@
-import servicesImage from "../assets/images/servicios.png";
-import Button from "../components/Button";
+import servicesImage from "../assets/hero/servicios.png";
 import Card from "../components/Card";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";

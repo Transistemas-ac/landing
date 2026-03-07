@@ -5,9 +5,28 @@ import { Navigation } from "swiper/modules";
 import dropdownArrow from "../../assets/svg/dropdown_arrow.svg";
 
 export const SwiperHOC = (props) => {
+  const {
+    children,
+    modules = [],
+    spaceBetween = 20,
+    desktopSlides: desktopSlidesProp = 4,
+    desktopSlideWidth = 300,
+    ...swiperProps
+  } = props;
   const isMobile = useContext(DisplayContext);
-  const slides = Children.toArray(props.children);
-  const desktopSlides = 4;
+  const slides = Children.toArray(children);
+  const desktopSlides = desktopSlidesProp;
+  const desktopWidth =
+    desktopSlides * desktopSlideWidth + (desktopSlides - 1) * spaceBetween;
+  const swiperStyle = isMobile
+    ? {
+        "--swiper-desktop-width": "100%",
+        "--swiper-desktop-slide-width": "100%",
+      }
+    : {
+        "--swiper-desktop-width": `${desktopWidth}px`,
+        "--swiper-desktop-slide-width": `${desktopSlideWidth}px`,
+      };
   const hasDesktopLayout = slides.length >= desktopSlides;
   const hasDesktopOverflow = slides.length > desktopSlides;
 
@@ -29,24 +48,27 @@ export const SwiperHOC = (props) => {
   }, [isMobile, hasDesktopLayout, hasDesktopOverflow]);
 
   return (
-    <div className="swiper-container">
+    <div className="swiper-container" style={swiperStyle}>
       <Swiper
-        {...props}
+        {...swiperProps}
         allowSlideNext={options.active}
         allowSlidePrev={options.active}
         allowTouchMove={options.active}
         slidesPerGroup={1}
-        modules={[Navigation, ...(props.modules || [])]}
+        modules={[Navigation, ...modules]}
         navigation={{
           prevEl: "#custom-prev",
           nextEl: "#custom-next",
         }}
         slidesPerView={options.extended ? desktopSlides : 1}
+        spaceBetween={spaceBetween}
         ref={swiperRef}
         className={`${isMobile ? "mobile" : "desktop"} ${
           options.extended ? "extended" : ""
         }`}
-      />
+      >
+        {children}
+      </Swiper>
       <div className="swiper-buttons-container">
         <div
           style={{ display: options.active ? "flex" : "none" }}

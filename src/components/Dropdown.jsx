@@ -4,15 +4,13 @@ import Integrant from "../components/Integrant";
 import integrants from "../data/Integrants";
 import dropdownArrow from "../assets/svg/dropdown_arrow.svg";
 
-const url = "https://transistemas.org/";
-
 const getMembersByRole = (role) =>
   integrants
     .filter((member) => member.team === role)
     .map((member) => (
       <Integrant
-        key={member.name}
-        picture={`${url}assets/${member.picture}`}
+        key={member.href}
+        picture={member.picture}
         name={member.name}
         occupation={member.role}
         href={member.href}

@@ -1,7 +1,11 @@
-//Swiper 8.4.4 https://swiperjs.com
-
 @use "./variables" as *;
-@use "./swiper-vars" as *;
+
+$swiper-desktop-visible-elements: 4 !default;
+$swiper-desktop-slide-width: 300px !default;
+$swiper-desktop-gap: 20px !default;
+$swiper-desktop-width: $swiper-desktop-visible-elements *
+  $swiper-desktop-slide-width + ($swiper-desktop-visible-elements - 1) *
+  $swiper-desktop-gap !default;
 
 $themeColor: #007aff !default;
 
@@ -30,13 +34,13 @@ $themeColor: #007aff !default;
 
   .swiper-buttons-container {
     position: absolute;
-    width: $swiper-desktop-width;
+    width: var(--swiper-desktop-width, #{$swiper-desktop-width});
     height: 10px;
   }
 }
 
 .swiper {
-  width: $swiper-desktop-slide-width;
+  width: var(--swiper-desktop-slide-width, #{$swiper-desktop-slide-width});
   margin-left: auto;
   margin-right: auto;
   position: relative;
@@ -51,8 +55,13 @@ $themeColor: #007aff !default;
     }
   }
 
+  &.mobile {
+    width: 100%;
+    max-width: 100%;
+  }
+
   &.extended {
-    width: $swiper-desktop-width;
+    width: var(--swiper-desktop-width, #{$swiper-desktop-width});
     overflow: hidden;
 
     & > .swiper-wrapper {
@@ -365,6 +374,10 @@ $themeColor: #007aff !default;
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 1000px;
+  border: 1px solid $yellow;
+  background-color: rgba($grey-darker, 0.95);
+  padding: 6px;
 
   &.swiper-button-disabled {
     opacity: 0.2;
@@ -402,6 +415,8 @@ $themeColor: #007aff !default;
 
   img {
     height: 30px;
+    filter: invert(85%) sepia(88%) saturate(483%) hue-rotate(356deg)
+      brightness(101%) contrast(108%);
   }
 }
 
@@ -412,6 +427,8 @@ $themeColor: #007aff !default;
 
   img {
     height: 30px;
+    filter: invert(85%) sepia(88%) saturate(483%) hue-rotate(356deg)
+      brightness(101%) contrast(108%);
   }
 }
 

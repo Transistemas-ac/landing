@@ -1,18 +1,17 @@
-import imgVoluntarie from "../assets/svg/img_voluntarie.svg";
+import imgEquipos from "../assets/hero/equipos.png";
 import { Pagination } from "swiper/modules";
 import { SwiperHOC } from "../components/HOC/SwiperHOC";
 import { EquiposSlides } from "../components/Slides";
 import Footer from "../components/Footer";
 import Dropdown from "../components/Dropdown";
-import Metrics from "../components/Metrics";
 
 function Equipos() {
   return (
     <div className="equipos">
-      <h1 className="equipos-section__title">Equipos</h1>
+      <h1 className="equipos-section__title">Nuestros Equipos</h1>
       <img
         className="equipos__hero-image"
-        src={imgVoluntarie}
+        src={imgEquipos}
         alt="Ilustración de voluntaries"
       />
       <div className="equipos-section">

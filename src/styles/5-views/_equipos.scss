@@ -8,7 +8,7 @@
 
   &__hero-image {
     width: 100%;
-    max-width: 600px;
+    max-width: 500px;
     margin-bottom: 40px;
   }
 
@@ -28,6 +28,33 @@
       max-width: 420px;
       margin: 0 auto 80px;
       padding: 0 16px;
+    }
+  }
+
+  .illustrative-card {
+    width: 328px;
+    min-height: 390px;
+    padding: 30px 20px 25px 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 22px;
+
+    background-color: $grey-darker;
+    color: $white;
+    border-radius: 16px;
+    text-align: center;
+
+    &__image {
+      height: 175px;
+    }
+
+    &__link {
+      color: $yellow;
+      font-weight: 600;
+      margin-top: auto;
     }
   }
 
@@ -58,6 +85,10 @@
 
 @media screen and (min-width: $tablet-bp) {
   .equipos {
+    &__hero-image {
+      margin-bottom: 64px;
+    }
+
     .equipos-section {
       margin-bottom: 140px;
 
@@ -68,13 +99,26 @@
 
       &__description {
         font-size: 22px;
-        margin-bottom: 120px;
+        margin-bottom: 80px;
         max-width: 869px;
       }
     }
 
     .metrics {
       margin-bottom: 140px;
+    }
+
+    .illustrative-card {
+      width: 352px;
+      min-height: 440px;
+
+      &__link {
+        font-size: font("d-xx-small");
+      }
+
+      &__description {
+        font-size: font("d-xx-small");
+      }
     }
 
     .integrants-section {

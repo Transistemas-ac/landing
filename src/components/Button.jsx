@@ -5,12 +5,14 @@ import iconSend from "../assets/svg/icon_send.svg";
 import iconMail from "../assets/svg/icon_mail.svg";
 import iconCopy from "../assets/svg/icon_copy.svg";
 import iconLink from "../assets/svg/icon_arrow.svg";
+import iconClose from "../assets/svg/icon_close.svg";
 
 const ICONS = {
   send: { src: iconSend, alt: "Icono de enviar" },
   mail: { src: iconMail, alt: "Icono de mail" },
   link: { src: iconLink, alt: "Icono de link externo" },
   copy: { src: iconCopy, alt: "Icono de copiar texto" },
+  close: { src: iconClose, alt: "Icono de cerrar" },
 };
 
 function Button({
@@ -24,7 +26,8 @@ function Button({
   ...otherProps
 }) {
   const iconData = icon ? ICONS[icon] : null;
-  const buttonClassName = `${className} button ${iconData ? "button--icon" : ""}`.trim();
+  const buttonClassName =
+    `${className} button ${iconData ? "button--icon" : ""}`.trim();
 
   const handleCopy = (event) => {
     event.preventDefault();
@@ -58,7 +61,12 @@ function Button({
 
   if (type === "anchor") {
     return (
-      <a {...otherProps} href={href} type="text/html" className={buttonClassName}>
+      <a
+        {...otherProps}
+        href={href}
+        type="text/html"
+        className={buttonClassName}
+      >
         {content}
       </a>
     );
