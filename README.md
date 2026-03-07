@@ -50,6 +50,15 @@ Ofrecemos servicios de **desarrollo de software, diseño y testing** para empres
 - **Figma** para diseño de interfaces y prototipado.
 - **GitHub** para desarrollo colaborativo y control de versiones.
 
+<br></br>
+
+## 🛡️ Licencia
+
+A menos que se indique lo contrario, el contenido publicado en esta organización está bajo licencia:
+
+- **MIT** para código.
+- **Creative Commons BY-SA 4.0** para documentación y recursos educativos.
+
 ## <br></br>
 
 _Creado con orgullo por el Equipo de Desarrollo de Transistemas ♥_
