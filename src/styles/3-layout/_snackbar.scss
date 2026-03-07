@@ -1,0 +1,69 @@
+@use "../1-helpers/variables" as *;
+@use "../1-helpers/mixins" as *;
+
+#snackbar-container {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+
+  @include flexCenter(column);
+
+  .snackbar-container__snack {
+    width: 100%;
+    @include flexCenter(column);
+
+    .snack {
+      position: absolute;
+      bottom: 12px;
+      width: 70%;
+      min-width: 300px;
+      max-width: 600px;
+      padding: 18px;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      animation: 0.3s ease-in-out appear;
+
+      &.dissapear {
+        animation: 0.3s ease-in-out forwards dissapear;
+      }
+
+      border-radius: 12px;
+      color: $black;
+
+      &__close {
+        height: 20px;
+        &:hover {
+          cursor: pointer;
+        }
+      }
+
+      &.success {
+        background-color: $green;
+      }
+
+      &.error {
+        background-color: $red;
+      }
+    }
+  }
+}
+
+@keyframes appear {
+  0% {
+    transform: translateY(100px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+@keyframes dissapear {
+  0% {
+    transform: translateY(0px);
+  }
+  100% {
+    transform: translateY(100px);
+  }
+}

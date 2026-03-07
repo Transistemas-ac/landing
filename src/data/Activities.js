@@ -1,26 +1,26 @@
 import cardTalleres from "../assets/svg/card_talleres.svg";
-import cardCapacitaciones from "../assets/svg/card_capacitaciones.svg";
+import cardServicios from "../assets/svg/card_servicios.svg";
 import cardAcompaniamiento from "../assets/svg/card_acompaniamiento.svg";
 
 const activities = [
   {
     img: cardTalleres,
-    alt: "Talleres",
-    title: "Cursos y talleres",
+    alt: "Cursos",
+    title: "Cursos",
     description:
-      "Brindamos capacitaciones en Testing, Diseño UX/UI y Programación para personas de la comunidad LGTBIQANB+.",
-    link: "Ver más",
+      "Brindamos capacitaciones gratuitas en Testing, Programación y Diseño para formar a nuestra comunidad y facilitar su inserción laboral.",
+    link: "Anotarse",
     href: "/cursos",
   },
 
   {
-    img: cardCapacitaciones,
-    alt: "Capacitaciones",
-    title: "Capacitaciones",
+    img: cardServicios,
+    alt: "Servicios",
+    title: "Servicios",
     description:
-      "Facilitamos capacitaciones en diversidad, género y discapacidad para empresas y organizaciones.",
+      "Ofrecemos servicios de desarrollo de software, diseño y testing para organizaciones sociales y empresas de distintos sectores.",
     link: "Ver más",
-    href: "/#contact-form",
+    href: "/servicios",
   },
 
   {
@@ -28,9 +28,9 @@ const activities = [
     alt: "Acompañamiento",
     title: "Acompañamiento",
     description:
-      "Colaboramos con personas de la comunidad a sortear situaciones complejas.",
-    link: "Ver más",
-    href: "/donar",
+      "Creamos una comunidad de acompañamiento y apoyo mutuo para compartir experiencias y generar redes que ayuden a sortear situaciones difíciles.",
+    link: "Unirse a la comunidad",
+    href: "https://discord.gg/yuYpD6QW74",
   },
 ];
 

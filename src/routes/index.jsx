@@ -1,52 +1,48 @@
-import {
-  LazyHome,
-  LazyCourses,
-  LazyNosotres,
-  LazyDonations,
-} from "../lazy-components";
+import { lazy, Suspense } from "react";
 import { Route, useMatch, useResolvedPath } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
+import LoadingScreen from "../views/LoadingScreen";
+
+const HomeView = lazy(() => import("../views/Home"));
+const CoursesView = lazy(() => import("../views/Courses"));
+const ServiciosView = lazy(() => import("../views/Servicios"));
+const EquiposView = lazy(() => import("../views/Equipos"));
+
+const getRouteElement = (Component) => (
+  <Suspense fallback={<LoadingScreen />}>
+    <Component />
+  </Suspense>
+);
 
 const routes = [
   {
     name: "Inicio",
     path: "/",
-    component: <LazyHome />,
-    exact: true,
-    class: "home",
+    element: getRouteElement(HomeView),
+    className: "home",
   },
   {
-    name: "Cursos y Talleres",
+    name: "Cursos",
     path: "/cursos",
-    component: <LazyCourses />,
-    exact: true,
-    class: "courses",
+    element: getRouteElement(CoursesView),
+    className: "courses",
   },
   {
-    name: "Nosotres",
-    path: "/nosotres",
-    component: <LazyNosotres />,
-    exact: true,
-    class: "nosotres",
+    name: "Servicios",
+    path: "/servicios",
+    element: getRouteElement(ServiciosView),
+    className: "services",
   },
   {
-    name: "Donar",
-    path: "/donar",
-    component: <LazyDonations />,
-    exact: true,
-    class: "donate",
+    name: "Equipos",
+    path: "/equipos",
+    element: getRouteElement(EquiposView),
+    className: "equipos",
   },
 ];
 
-const Paths = (props) =>
-  routes.map((item, idx) => (
-    <Route
-      key={idx}
-      path={item.path}
-      element={item.component}
-      exact={item.exact}
-    />
-  ));
+const Paths = () =>
+  routes.map(({ path, element }) => <Route key={path} path={path} element={element} />);
 
 function CustomLink({ to, children, ...props }) {
   const resolvedPath = useResolvedPath(to);
@@ -62,9 +58,9 @@ function CustomLink({ to, children, ...props }) {
 }
 
 const NavbarLinks = (props) =>
-  routes.map((item, idx) => (
-    <CustomLink key={idx} className={item.class} to={item.path} {...props}>
-      {item.name}
+  routes.map(({ name, path, className }) => (
+    <CustomLink key={path} className={className} to={path} {...props}>
+      {name}
     </CustomLink>
   ));
 

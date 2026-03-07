@@ -1,116 +1,134 @@
 import Button from "./Button";
 import emptyCourseCardImage from "../assets/svg/empty-course-card-icon.svg";
-import iconInstagramOutline from "../assets/svg/media_instagram_outline.svg";
-import iconTwitterOutline from "../assets/svg/media_twiter_outline.svg";
-import iconLinkedinOutline from "../assets/svg/media_linkedin_outline.svg";
 
 function CourseCard({
-  title,
-  img,
-  teachers,
-  description,
-  curriculumHref,
-  date,
-  duration,
-  modality,
-  signupHref,
+  title = "",
+  img = "",
+  teachers = "",
+  description = "",
+  curriculumHref = "",
+  date = "",
+  fechaInicio = "",
+  fechaFin = "",
+  duration = "",
+  horario = "",
+  modality = "",
+  signupHref = "",
+  status = "",
+  ig = [],
 }) {
-  if (!signupHref) {
-    return (
-      <div className="course-card course-card--empty">
-        <h2 className="course-card__title">Próximamente</h2>
+  const courseTitle = title || "Curso";
+  const courseImg = img || emptyCourseCardImage;
+  const courseTeachers = teachers || "";
+  const courseDescription = description || "";
+  const courseDate =
+    date || [fechaInicio, fechaFin].filter(Boolean).join(" - ");
+  const courseDuration = duration || "";
+  const courseHorario = horario || "";
+  const courseModality = modality || "";
+  const hasActions = signupHref || curriculumHref;
+  const courseIgHref = ig[0] || "";
+  const courseStatus = status || "";
+  const isFinalized = courseStatus.trim().toLowerCase() === "finalizado";
 
-        <img
-          className="course-card__image"
-          src={emptyCourseCardImage}
-          alt="Imagen de indisponibilidad"
-        />
-        <h3 className="course-card__subtitle">
-          No hay actividades disponibles
-        </h3>
+  return (
+    <div className="course-card">
+      <h1 className="course-card__title">{courseTitle}</h1>
 
-        <p className="course-card__description">
-          Por el momento no estamos dictando cursos o talleres, pero te
-          invitamos a que nos sigas en las redes para enterarte cuando comienza
-          la siguiente actividad.
-        </p>
-
-        <p className="course-card__curriculum-link">¡Seguinos!</p>
-        <div className="course-card__icon-container">
-          <a
-            href="https://www.instagram.com/transistemas/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              className="footer__icon"
-              src={iconInstagramOutline}
-              alt="icono de instagram"
-            />
-          </a>
-
-          <a
-            href="https://www.linkedin.com/company/transistemasok/"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              className="footer__icon"
-              src={iconLinkedinOutline}
-              alt="icono de instagram"
-            />
-          </a>
-
-          <a
-            href="https://x.com/Transistemas1"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              className="footer__icon"
-              src={iconTwitterOutline}
-              alt="icono de instagram"
-            />
-          </a>
-        </div>
-      </div>
-    );
-  } else {
-    return (
-      <div className="course-card">
-        <h1 className="course-card__title">{title}</h1>
-        <img className="course-card__image" src={img} alt={title} />
-        <p className="course-card__description">
-          <span>
-            <b>Profes a cargo:</b> {teachers}
-          </span>
-          {description}
-        </p>
+      {courseIgHref ? (
         <a
+          href={courseIgHref}
           target="_blank"
           rel="noreferrer"
-          className="course-card__curriculum-link text-yellow"
-          href={curriculumHref}
+          className="course-card__image-link"
         >
-          Ver temario
+          <img
+            className="course-card__image"
+            src={courseImg}
+            alt={courseTitle}
+          />
         </a>
-        <div className="course-card__tags-container">
-          <h4 className="course-card__tag">📆 {date}</h4>
-          <h4 className="course-card__tag">⏰ {duration}</h4>
-          <h4 className="course-card__tag">💻 {modality}</h4>
+      ) : (
+        <img className="course-card__image" src={courseImg} alt={courseTitle} />
+      )}
+
+      {(courseTeachers || courseDescription) && (
+        <div className="course-card__content">
+          {courseTeachers && (
+            <p className="course-card__teachers">
+              <span className="course-card__teachers-label">
+                Profes a cargo
+              </span>
+              <span className="course-card__teachers-names">
+                {courseTeachers}
+              </span>
+            </p>
+          )}
+
+          {courseDescription && (
+            <p className="course-card__description">{courseDescription}</p>
+          )}
         </div>
-        <Button
-          type="anchor"
-          target="_blank"
-          rel="noreferrer"
-          className="course-card__button"
-          href={signupHref}
-        >
-          Inscribirse
-        </Button>
-      </div>
-    );
-  }
+      )}
+
+      {(courseDate || courseDuration || courseModality) && (
+        <div className="course-card__tags-container">
+          {courseDate && <h4 className="course-card__tag">📆 {courseDate}</h4>}
+          {courseDuration && (
+            <h4 className="course-card__tag">⌛ {courseDuration}</h4>
+          )}
+          {courseModality && (
+            <h4 className="course-card__tag">💻 {courseModality}</h4>
+          )}
+        </div>
+      )}
+
+      {courseHorario && (
+        <p className="course-card__schedule">⏰ {courseHorario}</p>
+      )}
+
+      {hasActions && (
+        <div className="course-card__actions">
+          {!isFinalized ? (
+            <Button
+              type="anchor"
+              target="_blank"
+              rel="noreferrer"
+              className="course-card__button course-card__button--signup"
+              href={signupHref}
+              icon="send"
+            >
+              Inscribirme
+            </Button>
+          ) : (
+            <Button
+              type="anchor"
+              target="_blank"
+              rel="noreferrer"
+              className="course-card__button course-card__button--signup"
+              href={signupHref}
+              icon="close"
+            >
+              Finalizado
+            </Button>
+          )}
+
+          {curriculumHref && (
+            <Button
+              type="anchor"
+              target="_blank"
+              rel="noreferrer"
+              className="course-card__button course-card__button--curriculum"
+              href={curriculumHref}
+              icon="link"
+            >
+              Programa de estudios
+            </Button>
+          )}
+        </div>
+      )}
+    </div>
+  );
 }
 
 export default CourseCard;

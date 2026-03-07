@@ -1,0 +1,165 @@
+@use "../1-helpers/variables" as *;
+@use "../1-helpers/mixins" as *;
+@use "../2-basic/fonts" as *;
+
+.donations {
+  @include section();
+  @include flexCenter(column);
+
+  &__title {
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+
+  &__description {
+    font-size: 16px;
+    margin-bottom: 43px;
+    max-width: 360px;
+  }
+
+  .card {
+    width: 100%;
+    max-width: 425px;
+  }
+
+  .card--divided {
+    & > * {
+      max-width: 380px;
+    }
+
+    .button {
+      color: $white;
+      padding: 0;
+      background-color: transparent;
+      justify-content: space-between;
+      border-radius: 0;
+    }
+  }
+
+  .enterprise-card {
+    margin-bottom: 48px;
+
+    &__title {
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+
+    &__description {
+      font-size: 16px;
+    }
+
+    .button {
+      @include textYellow();
+      justify-content: center;
+    }
+  }
+
+  .colaborate-card {
+    min-height: 200px;
+    margin-bottom: 65px;
+    .button {
+      max-width: 320px;
+    }
+  }
+
+  .donation-title {
+    font-size: 28px;
+    margin-bottom: 32px;
+  }
+  .donation-card {
+    margin-bottom: 65px;
+  }
+
+  .transfer-title {
+    font-size: 28px;
+    margin-bottom: 32px;
+  }
+  .transfer-card {
+    margin-bottom: 64px;
+
+    &__title {
+      font-size: 24px;
+      margin-bottom: 32px;
+    }
+
+    &__subtitle {
+      font-size: 16px;
+    }
+
+    &__button-alias {
+      font-weight: 400;
+    }
+  }
+
+  .metrics-title {
+    font-size: 28px;
+    margin-bottom: 50px;
+  }
+
+  .metrics {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: $tablet-bp) {
+  .donations {
+    &__title {
+      font-size: 56px;
+      margin-bottom: 50px;
+    }
+
+    &__description {
+      font-size: 22px;
+      margin-bottom: 120px;
+      max-width: 700px;
+    }
+
+    .card {
+      max-width: 700px;
+    }
+
+    .enterprise-card {
+      margin-bottom: 110px;
+
+      &__title {
+        font-size: 36px;
+      }
+
+      &__description {
+        font-size: font("d-xx-small");
+      }
+    }
+
+    .colaborate-card {
+      margin-bottom: 120px;
+    }
+
+    .donation-title {
+      font-size: 40px;
+      margin-bottom: 32px;
+    }
+    .donation-card {
+      margin-bottom: 120px;
+    }
+
+    .transfer-title {
+      font-size: 40px;
+      margin-bottom: 32px;
+    }
+    .transfer-card {
+      margin-bottom: 150px;
+
+      &__title {
+        font-size: 32px;
+      }
+
+      &__subtitle {
+        font-size: font("d-xx-small");
+      }
+    }
+
+    .metrics-title {
+      font-size: 40px;
+    }
+  }
+}

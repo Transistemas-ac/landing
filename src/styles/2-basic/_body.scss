@@ -1,0 +1,18 @@
+@use "../1-helpers/variables" as *;
+
+body {
+  background-color: #1a1a1a;
+  padding-top: 120px;
+  overflow-x: hidden;
+
+  &.navbar--expanded {
+    overflow: hidden;
+  }
+
+  @media screen and (min-width: $tablet-bp) {
+    &.navbar--expanded {
+      overflow: unset;
+      overflow-x: hidden;
+    }
+  }
+}

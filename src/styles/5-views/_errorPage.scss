@@ -1,0 +1,29 @@
+@use "../1-helpers/variables" as *;
+@use "../1-helpers/mixins" as *;
+@use "../2-basic/fonts" as *;
+
+.error-page {
+  @include section();
+  @include flexCenter(column);
+
+  &__img {
+    width: 80%;
+    height: 80%;
+    max-width: 349px;
+    max-height: 294px;
+    margin-bottom: 80px;
+  }
+
+  &__text {
+    max-width: 500px;
+    font-size: 32px;
+  }
+}
+
+@media screen and (min-width: $tablet-bp) {
+  .error-page {
+    &__text {
+      font-size: font("d-x-large");
+    }
+  }
+}

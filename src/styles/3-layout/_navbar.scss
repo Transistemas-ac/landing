@@ -1,0 +1,214 @@
+@use "../1-helpers/variables" as *;
+@use "../1-helpers/mixins" as *;
+@use "../2-basic/fonts" as *;
+
+.navbar {
+  $r: ".navbar";
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: auto;
+  z-index: 200;
+
+  @include flexCenter(column);
+
+  pointer-events: none;
+
+  &__progress-bar {
+    width: 0%;
+    height: 10px;
+    transition: 0.3s width ease-in-out;
+    background-color: $pink;
+    margin-right: auto;
+
+    &::before {
+      content: "";
+      display: block;
+      width: 100%;
+      height: inherit;
+      position: absolute;
+      background-color: $black;
+      border: 7px solid $black;
+      z-index: -20;
+    }
+  }
+
+  &__inner-container {
+    position: relative;
+    width: 100%;
+    padding: 20px;
+    background-color: $black;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: auto;
+
+    #{$r}__logo {
+      pointer-events: auto;
+      display: flex;
+
+      img {
+        width: 160px;
+      }
+    }
+
+    #{$r}__menu-button {
+      position: relative;
+      width: 28px;
+      min-width: 28px;
+      height: 24px;
+      padding: 0;
+      border: 0;
+      background: transparent;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 240;
+      pointer-events: auto;
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      #{$r}__menu-icon {
+        position: relative;
+        width: 24px;
+        height: 3px;
+        background-color: $white;
+        transition-duration: 0.2s;
+        transition-property: background-color;
+
+        &::after,
+        &::before {
+          content: "";
+          position: absolute;
+
+          width: 24px;
+          height: 3px;
+          background-color: $white;
+          transition-duration: 0.3s;
+          transition-property: transform;
+        }
+
+        &::after {
+          transform: translateY(-6px);
+        }
+
+        &::before {
+          transform: translateY(6px);
+        }
+      }
+    }
+  }
+
+  &__links {
+    width: 100%;
+    display: none;
+
+    @include flexCenter(column);
+    flex-grow: 1;
+    gap: 60px;
+
+    font-size: font("m-medium");
+    background-color: $black;
+    font-weight: 600;
+
+    transition: 0.3s opacity;
+    opacity: 0;
+
+    #{$r}__link {
+      text-align: center;
+
+      a {
+        font-size: font("m-medium");
+      }
+
+      a.donate {
+        display: block;
+        width: 60vw;
+        min-width: min-content;
+        max-width: 300px;
+
+        padding: 16px 0px;
+
+        font-weight: 600;
+        border-radius: 1000px;
+        color: $black;
+
+        background-color: $yellow;
+      }
+    }
+  }
+
+  &.navbar--expanded {
+    z-index: 20;
+    height: 100vh;
+
+    #{$r}__menu-icon {
+      background-color: transparent;
+
+      &::after {
+        transform: rotate(45deg);
+      }
+
+      &::before {
+        transform: rotate(-45deg);
+      }
+    }
+
+    #{$r}__links {
+      display: flex;
+      opacity: 1;
+      pointer-events: auto;
+    }
+  }
+}
+
+@media screen and (min-width: $tablet-bp) {
+  .navbar {
+    $r: ".navbar";
+    pointer-events: none;
+
+    &__inner-container {
+      #{$r}__menu-button {
+        display: none;
+
+        #{$r}__menu-icon {
+          display: none;
+        }
+      }
+
+      #{$r}__links {
+        display: flex;
+        max-width: 1080px;
+        pointer-events: auto;
+
+        flex-direction: row;
+        justify-content: space-around;
+        margin-right: auto;
+        margin-left: auto;
+
+        font-size: font("d-x-small");
+        font-weight: 600;
+        background-color: $black;
+
+        opacity: 1;
+
+        #{$r}__link {
+          color: $grey-lighter;
+
+          &.active {
+            color: $pink;
+          }
+
+          a.donate {
+            display: inline;
+            color: inherit;
+            background-color: transparent;
+          }
+        }
+      }
+    }
+  }
+}

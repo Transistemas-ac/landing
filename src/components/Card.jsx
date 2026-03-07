@@ -1,11 +1,12 @@
-import { Children } from "react";
+import { Children, Fragment } from "react";
 import IllustrativeCard from "./IllustrativeCard";
 import CourseCard from "./CourseCard";
 
 function Card(props) {
-  if (props.type === "basic") {
-    const arrayChildren = Children.toArray(props.children);
-    const { className, divider, ...otherProps } = props;
+  const { type, children, className, divider, ...otherProps } = props;
+
+  if (type === "basic") {
+    const arrayChildren = Children.toArray(children);
 
     return (
       <div
@@ -13,23 +14,26 @@ function Card(props) {
         className={`${className || ""} card ${divider ? "card--divided" : ""}`}
       >
         {divider
-          ? Children.map(arrayChildren, (child, idx) => (
-              <>
-                {child} <hr />
-              </>
+          ? arrayChildren.map((child, idx) => (
+              <Fragment key={`divider-item-${idx}`}>
+                {child}
+                {idx < arrayChildren.length - 1 ? <hr /> : null}
+              </Fragment>
             ))
-          : props.children}
+          : children}
       </div>
     );
   }
 
-  if (props.type === "illustrative") {
+  if (type === "illustrative") {
     return <IllustrativeCard {...props} />;
   }
 
-  if (props.type === "course") {
+  if (type === "course") {
     return <CourseCard {...props} />;
   }
+
+  return null;
 }
 
 export default Card;

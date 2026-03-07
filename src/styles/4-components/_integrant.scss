@@ -1,0 +1,90 @@
+@use "../1-helpers/variables" as *;
+
+.integrant {
+  $r: ".integrant";
+  width: 100%;
+  padding: 10px 12px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  background-color: rgba(255, 255, 255, 0.03);
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  color: $white;
+  text-decoration: none;
+  transition:
+    background-color 0.2s ease-in-out,
+    border-color 0.2s ease-in-out;
+
+  &:active {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-color: rgba(255, 255, 255, 0.28);
+  }
+
+  &__picture {
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    object-fit: cover;
+    flex-shrink: 0;
+  }
+
+  &__info-container {
+    flex: 1;
+    min-width: 0;
+
+    .integrant__name {
+      font-size: 20px;
+      font-weight: 600;
+      line-height: 1.25;
+      margin-bottom: 2px;
+      overflow-wrap: anywhere;
+    }
+
+    .integrant__occupation {
+      width: 70%;
+      font-size: 13px;
+      color: rgba(255, 255, 255, 0.871);
+      line-height: 1.3;
+      overflow-wrap: anywhere;
+    }
+  }
+
+  #{$r}__icon {
+    width: 18px;
+    margin-right: 0;
+    flex-shrink: 0;
+  }
+}
+
+@media screen and (min-width: $tablet-bp) {
+  .integrant {
+    padding: 12px 14px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    background-color: rgba(255, 255, 255, 0.03);
+    gap: 14px;
+
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.08);
+      border-color: rgba(255, 255, 255, 0.28);
+    }
+
+    &__picture {
+      width: 50px;
+      height: 50px;
+    }
+
+    &__info-container {
+      .integrant__name {
+        font-size: 20px;
+      }
+
+      .integrant__occupation {
+        font-size: 17px;
+      }
+    }
+  }
+}
