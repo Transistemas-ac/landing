@@ -1,33 +1,30 @@
-// Helpers
-@use "./1-helpers/variables";
-@use "./1-helpers/mixins";
-@use "./1-helpers/reset";
-@use "./1-helpers/swiper";
-
-// Basic
-@use "./2-basic/fonts";
-@use "./2-basic/body";
+// Utils
+@use "./utils/variables";
+@use "./utils/mixins";
+@use "./utils/reset";
+@use "./utils/swiper";
+@use "./utils/fonts";
 
 // Layout
-@use "./3-layout/loading-screen";
-@use "./3-layout/scrollbar";
-@use "./3-layout/navbar";
-@use "./3-layout/footer";
-@use "./3-layout/snackbar";
+@use "./layout/loading-screen";
+@use "./layout/scrollbar";
+@use "./layout/navbar";
+@use "./layout/footer";
+@use "./layout/snackbar";
 
 // Components
-@use "./4-components/button";
-@use "./4-components/cards";
-@use "./4-components/contact";
-@use "./4-components/metrics";
-@use "./4-components/inputs";
-@use "./4-components/integrant";
-@use "./4-components/dropdown";
+@use "./components/button";
+@use "./components/cards";
+@use "./components/contact";
+@use "./components/metrics";
+@use "./components/inputs";
+@use "./components/integrant";
+@use "./components/dropdown";
 
 // Views
-@use "./5-views/error-page";
-@use "./5-views/home";
-@use "./5-views/donations";
-@use "./5-views/courses";
-@use "./5-views/servicios";
-@use "./5-views/equipos";
+@use "./views/error-page";
+@use "./views/home";
+@use "./views/donations";
+@use "./views/courses";
+@use "./views/servicios";
+@use "./views/equipos";

@@ -1,5 +1,5 @@
-@use "../1-helpers/variables" as *;
-@use "../1-helpers/mixins" as *;
+@use "../utils/variables" as *;
+@use "../utils/mixins" as *;
 
 #snackbar-container {
   width: 100%;
