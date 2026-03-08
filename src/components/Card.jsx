@@ -11,7 +11,7 @@ function Card(props) {
     return (
       <div
         {...otherProps}
-        className={`${className || ""} card ${divider ? "card--divided" : ""}`}
+        className={`${className || ""} card ${divider ? "card-divided" : ""}`}
       >
         {divider
           ? arrayChildren.map((child, idx) => (

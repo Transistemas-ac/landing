@@ -1,6 +1,5 @@
 @use "../1-helpers/variables" as *;
 @use "../1-helpers/mixins" as *;
-@use "../2-basic/fonts" as *;
 
 .servicios {
   @include section();
@@ -10,18 +9,18 @@
     width: 100%;
     margin-bottom: 72px;
 
-    &__title {
-      font-size: 40px;
+    .services-section-title {
       margin-bottom: 40px;
+      font-size: 40px;
     }
 
-    &__description {
-      font-size: 18px;
+    .services-section-description {
       max-width: 430px;
       margin: 0 auto 32px;
+      font-size: 18px;
     }
 
-    &__image {
+    .services-section-image {
       width: 100%;
       max-width: 640px;
       border-radius: 16px;
@@ -33,38 +32,42 @@
     width: 100%;
     margin-bottom: 72px;
 
-    &__title {
-      font-size: 28px;
+    .offer-section-title {
       margin-bottom: 24px;
+      font-size: 28px;
     }
 
-    &__cards {
+    .offer-section-cards {
       width: 100%;
+
       display: grid;
       grid-template-columns: 1fr;
-      gap: 16px;
       justify-items: center;
+      gap: 16px;
     }
 
     .service-card {
       width: 100%;
       max-width: 700px;
-      text-align: left;
+
+      display: flex;
       align-items: center;
       justify-content: space-between;
 
-      &__title {
+      text-align: left;
+
+      .service-card-title {
+        margin-bottom: 8px;
         text-align: center;
         font-size: 22px;
-        margin-bottom: 8px;
         color: $yellow;
       }
 
-      &__description {
+      .service-card-description {
+        max-width: 550px;
+        margin-bottom: 12px;
         text-align: center;
         font-size: 16px;
-        margin-bottom: 12px;
-        max-width: 550px;
       }
     }
   }
@@ -73,35 +76,31 @@
     width: 100%;
     margin-bottom: 100px;
 
-    &__title {
-      font-size: 28px;
+    .workflow-section-title {
       margin-bottom: 24px;
+      font-size: 28px;
     }
 
     .workflow-card {
       width: 100%;
       max-width: 700px;
       margin: 0 auto;
-      text-align: left;
       align-items: stretch;
+      text-align: left;
 
-      &__item {
+      .workflow-card-item {
         display: flex;
         flex-direction: column;
         gap: 8px;
       }
 
-      &__step {
+      .workflow-card-step {
         color: $pink;
         font-weight: 600;
         font-size: 20px;
       }
 
-      &__title {
-        font-size: 22px;
-      }
-
-      &__description {
+      .workflow-card-description {
         font-size: 16px;
       }
     }
@@ -111,27 +110,14 @@
     width: 100%;
     margin-bottom: 100px;
 
-    &__title {
-      font-size: 30px;
+    .services-contact-section-title {
       margin-bottom: 20px;
+      font-size: 30px;
     }
 
-    &__description {
-      font-size: 16px;
+    .services-contact-section-description {
       margin-bottom: 32px;
-    }
-
-    &__button {
-      margin: 0 auto;
-    }
-  }
-
-  .impact-section {
-    width: 100%;
-    margin-bottom: 100px;
-
-    &__title {
-      margin-bottom: 50px;
+      font-size: 16px;
     }
   }
 }
@@ -141,18 +127,18 @@
     .services-section {
       margin-bottom: 60px;
 
-      &__title {
-        text-align: center;
+      .services-section-title {
         margin-bottom: 48px;
+        text-align: center;
       }
 
-      &__description {
-        font-size: 22px;
+      .services-section-description {
         max-width: 860px;
         margin-bottom: 56px;
+        font-size: 22px;
       }
 
-      &__image {
+      .services-section-image {
         max-width: 920px;
       }
     }
@@ -160,12 +146,12 @@
     .offer-section {
       margin-bottom: 120px;
 
-      &__title {
-        font-size: 40px;
+      .offer-section-title {
         margin-bottom: 48px;
+        font-size: 40px;
       }
 
-      &__cards {
+      .offer-section-cards {
         grid-template-columns: repeat(3, minmax(0, 1fr));
         align-items: stretch;
         gap: 20px;
@@ -174,11 +160,11 @@
       .service-card {
         height: 100%;
 
-        &__title {
+        .service-card-title {
           font-size: 28px;
         }
 
-        &__description {
+        .service-card-description {
           font-size: 20px;
         }
       }
@@ -187,42 +173,38 @@
     .workflow-section {
       margin-bottom: 120px;
 
-      &__title {
-        font-size: 40px;
+      .workflow-section-title {
         margin-bottom: 48px;
+        font-size: 40px;
       }
 
       .workflow-card {
-        &__item {
+        .workflow-card-item {
           gap: 12px;
         }
 
-        &__step {
+        .workflow-card-step {
           font-size: 26px;
         }
 
-        &__description {
+        .workflow-card-description {
           font-size: 20px;
         }
       }
     }
 
     .services-contact-section {
-      margin-bottom: 200px;
       max-width: 1000px;
+      margin-bottom: 200px;
 
-      &__title {
-        font-size: 36px;
+      .services-contact-section-title {
         margin-bottom: 32px;
+        font-size: 36px;
       }
 
-      &__description {
-        font-size: 24px;
+      .services-contact-section-description {
         margin-bottom: 40px;
-      }
-
-      &__button {
-        max-width: 420px;
+        font-size: 24px;
       }
     }
   }

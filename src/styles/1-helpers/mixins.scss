@@ -1,0 +1,69 @@
+@use "./variables" as *;
+
+@mixin flexCenter($direction) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin section() {
+  padding: 0 16px;
+  width: 100%;
+  max-width: 1080px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+@mixin textYellow() {
+  color: $yellow !important;
+  font-weight: 600 !important;
+}
+
+@mixin illustrativeCardBase() {
+  width: 328px;
+  min-height: 390px;
+  padding: 30px 20px 25px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 22px;
+
+  background-color: $grey-darker;
+  color: $white;
+  border-radius: 16px;
+  text-align: center;
+
+  .illustrative-card-image {
+    height: 175px;
+  }
+
+  .illustrative-card-description {
+    font-size: 16px;
+  }
+
+  .illustrative-card-link {
+    color: $yellow;
+    font-weight: 600;
+    margin-top: auto;
+  }
+}
+
+@mixin illustrativeCardDesktopBase($text-size) {
+  width: 352px;
+  min-height: 440px;
+
+  .illustrative-card-description {
+    font-size: $text-size;
+  }
+
+  .illustrative-card-link {
+    font-size: $text-size;
+  }
+}
+
+.text-yellow {
+  @include textYellow();
+}

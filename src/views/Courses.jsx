@@ -9,8 +9,8 @@ function Courses() {
   return (
     <div className="courses">
       <div className="courses-section">
-        <h1 className="courses-section__title">Cursos y Talleres</h1>
-        <h4 className="courses-section__description">
+        <h1 className="courses-section-title">Cursos y Talleres</h1>
+        <h4 className="courses-section-description">
           Brindamos capacitaciones gratuitas en Testing, Programación y Diseño
           para formar a nuestra comunidad y facilitar su inserción laboral.
           <br></br>
@@ -19,7 +19,7 @@ function Courses() {
         </h4>
 
         <img
-          className="courses-section__image"
+          className="courses-section-image"
           src={imgCursos}
           alt="Ilustración de cursos"
         />
@@ -36,7 +36,7 @@ function Courses() {
       </div>
 
       <div className="faq-section">
-        <h2 className="faq-section__title">Preguntas frecuentes</h2>
+        <h2 className="faq-section-title">Preguntas frecuentes</h2>
         <Dropdown type="basic" title="¿Cuál es el costo de los cursos?">
           Los cursos son gratuitos y no tienen coste de emisión de certificado.
         </Dropdown>

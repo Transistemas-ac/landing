@@ -1,15 +1,13 @@
 @use "../1-helpers/variables" as *;
 
 .loading-screen {
-  $r: ".loading-screen";
   width: 100vw;
   height: 100vh;
   position: fixed;
   z-index: 15;
   padding-top: 125px;
-
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
 
   display: flex;
   justify-content: center;
@@ -18,7 +16,7 @@
 
   background-color: $black;
 
-  &__circle {
+  .loading-screen-circle {
     width: 125px;
     height: 125px;
     border: 15px solid $grey-light;

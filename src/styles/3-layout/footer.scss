@@ -7,20 +7,15 @@
   position: relative;
   z-index: 30;
 
-  &__title {
-    margin-bottom: 40px;
-  }
-
-  &__icon-container {
+  .footer-icon-container {
     width: 100%;
-
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
     gap: 29px;
   }
 
-  &__icon {
+  .footer-icon {
     height: 56px;
   }
 }
@@ -30,16 +25,12 @@
     max-width: 700px;
     margin-bottom: 93px;
 
-    &__title {
-      display: none;
-    }
-
-    &__icon-container {
+    .footer-icon-container {
       display: flex;
       justify-content: space-around;
     }
 
-    &__icon {
+    .footer-icon {
       height: 72px;
     }
   }

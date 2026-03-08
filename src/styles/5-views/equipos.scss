@@ -1,0 +1,109 @@
+@use "../1-helpers/variables" as *;
+@use "../1-helpers/mixins" as *;
+
+.equipos {
+  @include section();
+  @include flexCenter(column);
+
+  .equipos-section-title {
+    margin-bottom: 40px;
+    font-size: 40px;
+  }
+
+  .equipos-hero-image {
+    width: 100%;
+    max-width: 450px;
+    margin-bottom: 40px;
+  }
+
+  .equipos-section {
+    width: 100vw;
+    margin-bottom: 100px;
+    overflow: hidden;
+
+    .equipos-section-description {
+      width: 100%;
+      max-width: 420px;
+      margin: 0 auto 80px;
+      padding: 0 16px;
+      font-size: 18px;
+    }
+  }
+
+  .illustrative-card {
+    @include illustrativeCardBase();
+
+    .illustrative-card-title {
+      font-size: 22px;
+    }
+  }
+
+  .integrants-section {
+    width: 100%;
+    margin-bottom: 76px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+
+    text-align: left;
+
+    .dropdown {
+      padding: 0 5px;
+
+      .dropdown-button {
+        color: $yellow;
+      }
+    }
+
+    .integrant-name {
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    .integrant-occupation {
+      width: 90%;
+      font-size: 16px;
+    }
+  }
+}
+
+@media screen and (min-width: $tablet-bp) {
+  .equipos {
+    .equipos-hero-image {
+      margin-bottom: 64px;
+    }
+
+    .equipos-section {
+      margin-bottom: 140px;
+
+      .equipos-section-description {
+        max-width: 869px;
+        margin-bottom: 80px;
+        font-size: 22px;
+      }
+    }
+
+    .equipos-section-title {
+      margin-bottom: 48px;
+    }
+
+    .illustrative-card {
+      @include illustrativeCardDesktopBase(1.125rem);
+    }
+
+    .integrants-section {
+      margin-bottom: 120px;
+
+      .integrant-name {
+        font-size: 22px;
+        font-weight: 600;
+      }
+
+      .integrant-occupation {
+        font-size: 18px;
+      }
+    }
+  }
+}

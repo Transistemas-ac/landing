@@ -41,13 +41,13 @@ function Navbar() {
 
   useEffect(() => {
     if (isMobile && expanded) {
-      document.body.classList.add("navbar--expanded");
+      document.body.classList.add("navbar-expanded");
     } else {
-      document.body.classList.remove("navbar--expanded");
+      document.body.classList.remove("navbar-expanded");
     }
 
     return () => {
-      document.body.classList.remove("navbar--expanded");
+      document.body.classList.remove("navbar-expanded");
     };
   }, [isMobile, expanded]);
 
@@ -55,28 +55,28 @@ function Navbar() {
   const closeMenu = () => setExpanded(false);
 
   return (
-    <nav className={`navbar ${expanded ? "navbar--expanded" : ""}`}>
+    <nav className={`navbar ${expanded ? "navbar-expanded" : ""}`}>
       <div
         style={{ width: `${progress}` }}
-        className="navbar__progress-bar"
+        className="navbar-progress-bar"
       ></div>
 
-      <div className="navbar__inner-container">
-        <HashLink to={"/"} className="navbar__logo" onClick={closeMenu}>
+      <div className="navbar-inner-container">
+        <HashLink to={"/"} className="navbar-logo" onClick={closeMenu}>
           <img src={transistemasLogo} alt="logo" />
         </HashLink>
-        <button type="button" className="navbar__menu-button" onClick={toggleMenu}>
-          <div className="navbar__menu-icon"></div>
+        <button type="button" className="navbar-menu-button" onClick={toggleMenu}>
+          <div className="navbar-menu-icon"></div>
         </button>
         {!isMobile ? (
-          <ul className="navbar__links">
+          <ul className="navbar-links">
             <NavbarLinks onClick={closeMenu} />
           </ul>
         ) : null}
       </div>
 
       {isMobile ? (
-        <ul className="navbar__links">
+        <ul className="navbar-links">
           <NavbarLinks onClick={closeMenu} />
         </ul>
       ) : null}

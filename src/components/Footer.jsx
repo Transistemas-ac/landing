@@ -8,14 +8,14 @@ import iconDiscordOutline from "../assets/svg/media_discord_outline.svg";
 function Footer() {
   return (
     <div className="footer">
-      <div className="footer__icon-container">
+      <div className="footer-icon-container">
         <a
           href="https://www.instagram.com/transistemas/"
           target="_blank"
           rel="noreferrer"
         >
           <img
-            className="footer__icon"
+            className="footer-icon"
             src={iconInstagramOutline}
             alt="Ícono de Instagram"
           />
@@ -26,7 +26,7 @@ function Footer() {
           rel="noreferrer"
         >
           <img
-            className="footer__icon"
+            className="footer-icon"
             src={iconFacebookOutline}
             alt="Ícono de Facebook"
           />
@@ -34,7 +34,7 @@ function Footer() {
 
         <a href="https://x.com/Transistemas1" target="_blank" rel="noreferrer">
           <img
-            className="footer__icon"
+            className="footer-icon"
             src={iconTwitterOutline}
             alt="Ícono de Twitter"
           />
@@ -46,7 +46,7 @@ function Footer() {
           rel="noreferrer"
         >
           <img
-            className="footer__icon"
+            className="footer-icon"
             src={iconTikTokOutline}
             alt="Ícono de TikTok"
           />
@@ -58,7 +58,7 @@ function Footer() {
           rel="noreferrer"
         >
           <img
-            className="footer__icon"
+            className="footer-icon"
             src={iconLinkedinOutline}
             alt="Ícono de LinkedIn"
           />
@@ -70,7 +70,7 @@ function Footer() {
           rel="noreferrer"
         >
           <img
-            className="footer__icon"
+            className="footer-icon"
             src={iconDiscordOutline}
             alt="Ícono de Discord"
           />

@@ -13,11 +13,11 @@ function Home() {
       <div className="hero-section">
         <img
           src={imgHero}
-          className="hero-section__illustration"
+          className="hero-section-illustration"
           alt="Transistemas ilustración"
         />
 
-        <p className="hero-section__description">
+        <p className="hero-section-description">
           <span>
             Somos un equipo profesional y diverso que impulsa la formación
             tecnológica y la inserción laboral de nuestra comunidad en la
@@ -32,7 +32,7 @@ function Home() {
         </p>
 
         <Button
-          className="hero-section__button"
+          className="hero-section-button"
           type="link"
           href="https://discord.gg/yuYpD6QW74"
         >
@@ -41,7 +41,7 @@ function Home() {
       </div>
 
       <div className="cards-section">
-        <h1 className="cards-section__title">Que hacemos</h1>
+        <h1 className="cards-section-title">Que hacemos</h1>
         <SwiperHOC
           modules={[Pagination]}
           spaceBetween={32}
@@ -53,7 +53,7 @@ function Home() {
 
       <Metrics />
 
-      <h3 className="contact-section__title">¡Dejanos tu mensaje!</h3>
+      <h3 className="contact-section-title">¡Dejanos tu mensaje!</h3>
 
       <Contact />
 

@@ -1,15 +1,12 @@
 @use "../1-helpers/variables" as *;
 @use "../1-helpers/mixins" as *;
-@use "../2-basic/fonts" as *;
 
 .button {
   display: block;
   position: relative;
   width: 100%;
-  padding: 16px 0px;
-
   max-width: 330px;
-
+  padding: 16px 0;
   gap: 10px;
 
   font-weight: 600;
@@ -17,12 +14,7 @@
   background: $yellow;
   color: $black;
 
-  @media screen and (min-width: $tablet-bp) {
-    max-width: 380px;
-    font-size: font("d-xx-small");
-  }
-
-  &.button--icon {
+  &.button-icon {
     @include flexCenter(row);
   }
 
@@ -31,8 +23,17 @@
   }
 }
 
-button:disabled,
-button[disabled] {
-  pointer-events: none;
-  background-color: $grey-lighter;
+button {
+  &:disabled,
+  &[disabled] {
+    pointer-events: none;
+    background-color: $grey-lighter;
+  }
+}
+
+@media screen and (min-width: $tablet-bp) {
+  .button {
+    max-width: 380px;
+    font-size: 1.125rem;
+  }
 }

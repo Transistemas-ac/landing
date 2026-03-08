@@ -36,30 +36,32 @@ function Dropdown(props) {
 
   return (
     <div
-      className={`${props.className || ""}dropdown ${active ? "active" : ""}`}
+      className={[props.className, "dropdown", active ? "active" : ""]
+        .filter(Boolean)
+        .join(" ")}
       ref={dropdown}
     >
       <button
         type="button"
-        className="dropdown__button"
+        className="dropdown-button"
         onClick={() => {
           setActive(!active);
         }}
       >
         {props.title}
         <img
-          className="dropdown__arrow"
+          className="dropdown-arrow"
           src={dropdownArrow}
           alt="flecha desplegable"
         />
       </button>
 
       <DropdownContext.Provider value={active}>
-        <div className="dropdown__info" aria-disabled={!active}>
+        <div className="dropdown-info" aria-disabled={!active}>
           {props.type === "basic" ? (
-            <div className="dropdown__inner-container">{props.children}</div>
+            <div className="dropdown-inner-container">{props.children}</div>
           ) : (
-            <div className="dropdown__inner-container">{members}</div>
+            <div className="dropdown-inner-container">{members}</div>
           )}
         </div>
       </DropdownContext.Provider>

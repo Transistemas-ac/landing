@@ -8,14 +8,14 @@ import Dropdown from "../components/Dropdown";
 function Equipos() {
   return (
     <div className="equipos">
-      <h1 className="equipos-section__title">Nuestros Equipos</h1>
+      <h1 className="equipos-section-title">Nuestros Equipos</h1>
       <img
-        className="equipos__hero-image"
+        className="equipos-hero-image"
         src={imgEquipos}
         alt="Ilustración de voluntaries"
       />
       <div className="equipos-section">
-        <p className="equipos-section__description">
+        <p className="equipos-section-description">
           Transistemas nació en 2019 con el objetivo de ampliar las
           oportunidades laborales en el sector tecnológico para personas del
           colectivo LGBTIQ+. A partir de programas de formación y trabajo

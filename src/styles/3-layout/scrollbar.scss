@@ -1,0 +1,19 @@
+@use "../1-helpers/variables" as *;
+
+body {
+  &::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $grey-darker;
+    margin-top: 70px;
+    border-radius: 20px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $grey-light;
+    border-radius: 20px;
+  }
+}

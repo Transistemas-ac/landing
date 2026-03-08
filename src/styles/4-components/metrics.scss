@@ -1,31 +1,32 @@
 @use "../1-helpers/variables" as *;
 
 .metrics {
-  $r: &;
   width: 100%;
+  margin: 0 auto;
+
   display: flex;
   flex-direction: column;
-  text-align: left;
-
-  margin: 0px auto;
-
   gap: 50px;
 
-  &__item {
+  text-align: left;
+
+  .metrics-item {
     display: flex;
     flex-direction: column;
     gap: 10px;
 
-    #{$r}__value {
+    .metrics-value {
       color: $yellow;
     }
 
-    #{$r}__title {
+    .metrics-title {
       margin-bottom: auto;
     }
   }
+}
 
-  @media screen and (min-width: $tablet-bp) {
+@media screen and (min-width: $tablet-bp) {
+  .metrics {
     flex-direction: row;
     justify-content: space-between;
     text-align: center;

@@ -49,7 +49,7 @@ function CustomLink({ to, children, ...props }) {
   const isActive = useMatch({ path: resolvedPath.pathname, end: true });
 
   return (
-    <li className={`navbar__link ${isActive ? "active" : ""}`}>
+    <li className={`navbar-link ${isActive ? "active" : ""}`}>
       <HashLink {...props} to={to}>
         {children}
       </HashLink>

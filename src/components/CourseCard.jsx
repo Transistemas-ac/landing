@@ -33,68 +33,68 @@ function CourseCard({
 
   return (
     <div className="course-card">
-      <h1 className="course-card__title">{courseTitle}</h1>
+      <h1 className="course-card-title">{courseTitle}</h1>
 
       {courseIgHref ? (
         <a
           href={courseIgHref}
           target="_blank"
           rel="noreferrer"
-          className="course-card__image-link"
+          className="course-card-image-link"
         >
           <img
-            className="course-card__image"
+            className="course-card-image"
             src={courseImg}
             alt={courseTitle}
           />
         </a>
       ) : (
-        <img className="course-card__image" src={courseImg} alt={courseTitle} />
+        <img className="course-card-image" src={courseImg} alt={courseTitle} />
       )}
 
       {(courseTeachers || courseDescription) && (
-        <div className="course-card__content">
+        <div className="course-card-content">
           {courseTeachers && (
-            <p className="course-card__teachers">
-              <span className="course-card__teachers-label">
+            <p className="course-card-teachers">
+              <span className="course-card-teachers-label">
                 Profes a cargo
               </span>
-              <span className="course-card__teachers-names">
+              <span className="course-card-teachers-names">
                 {courseTeachers}
               </span>
             </p>
           )}
 
           {courseDescription && (
-            <p className="course-card__description">{courseDescription}</p>
+            <p className="course-card-description">{courseDescription}</p>
           )}
         </div>
       )}
 
       {(courseDate || courseDuration || courseModality) && (
-        <div className="course-card__tags-container">
-          {courseDate && <h4 className="course-card__tag">📆 {courseDate}</h4>}
+        <div className="course-card-tags-container">
+          {courseDate && <h4 className="course-card-tag">📆 {courseDate}</h4>}
           {courseDuration && (
-            <h4 className="course-card__tag">⌛ {courseDuration}</h4>
+            <h4 className="course-card-tag">⌛ {courseDuration}</h4>
           )}
           {courseModality && (
-            <h4 className="course-card__tag">💻 {courseModality}</h4>
+            <h4 className="course-card-tag">💻 {courseModality}</h4>
           )}
         </div>
       )}
 
       {courseHorario && (
-        <p className="course-card__schedule">⏰ {courseHorario}</p>
+        <p className="course-card-schedule">⏰ {courseHorario}</p>
       )}
 
       {hasActions && (
-        <div className="course-card__actions">
+        <div className="course-card-actions">
           {!isFinalized ? (
             <Button
               type="anchor"
               target="_blank"
               rel="noreferrer"
-              className="course-card__button course-card__button--signup"
+              className="course-card-button course-card-button-signup"
               href={signupHref}
               icon="send"
             >
@@ -105,7 +105,7 @@ function CourseCard({
               type="anchor"
               target="_blank"
               rel="noreferrer"
-              className="course-card__button course-card__button--signup"
+              className="course-card-button course-card-button-signup"
               href={signupHref}
               icon="close"
             >
@@ -118,7 +118,7 @@ function CourseCard({
               type="anchor"
               target="_blank"
               rel="noreferrer"
-              className="course-card__button course-card__button--curriculum"
+              className="course-card-button course-card-button-curriculum"
               href={curriculumHref}
               icon="link"
             >

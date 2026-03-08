@@ -4,12 +4,13 @@
 #snackbar-container {
   width: 100%;
   position: fixed;
-  bottom: 0px;
+  bottom: 0;
 
   @include flexCenter(column);
 
-  .snackbar-container__snack {
+  .snackbar-container-snack {
     width: 100%;
+
     @include flexCenter(column);
 
     .snack {
@@ -25,18 +26,11 @@
       align-items: center;
       animation: 0.3s ease-in-out appear;
 
-      &.dissapear {
-        animation: 0.3s ease-in-out forwards dissapear;
-      }
-
       border-radius: 12px;
       color: $black;
 
-      &__close {
-        height: 20px;
-        &:hover {
-          cursor: pointer;
-        }
+      &.dissapear {
+        animation: 0.3s ease-in-out forwards dissapear;
       }
 
       &.success {
@@ -46,6 +40,14 @@
       &.error {
         background-color: $red;
       }
+
+      .snack-close {
+        height: 20px;
+
+        &:hover {
+          cursor: pointer;
+        }
+      }
     }
   }
 }
@@ -54,15 +56,17 @@
   0% {
     transform: translateY(100px);
   }
+
   100% {
-    transform: translateY(0px);
+    transform: translateY(0);
   }
 }
 
 @keyframes dissapear {
   0% {
-    transform: translateY(0px);
+    transform: translateY(0);
   }
+
   100% {
     transform: translateY(100px);
   }

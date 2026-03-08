@@ -5,12 +5,14 @@ body {
   padding-top: 120px;
   overflow-x: hidden;
 
-  &.navbar--expanded {
+  &.navbar-expanded {
     overflow: hidden;
   }
+}
 
-  @media screen and (min-width: $tablet-bp) {
-    &.navbar--expanded {
+@media screen and (min-width: $tablet-bp) {
+  body {
+    &.navbar-expanded {
       overflow: unset;
       overflow-x: hidden;
     }

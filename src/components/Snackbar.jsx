@@ -6,9 +6,9 @@ const SnackbarContainer = () => <div id="snackbar-container"></div>;
 const Snackbar = ({ message, type, root }) => {
   return (
     <div className={`snack ${type}`}>
-      <p className="snack__message">{message}</p>
+      <p className="snack-message">{message}</p>
       <img
-        className="snack__close"
+        className="snack-close"
         src={iconClose}
         alt="icono de cerrar snackbar"
         onClick={() => root.unmount()}
@@ -24,7 +24,7 @@ function snackbar(message, type, duration) {
   if (lastSnack) lastSnack.unmount();
 
   const snack = document.createElement("div");
-  snack.className = "snackbar-container__snack";
+  snack.className = "snackbar-container-snack";
   snack.root = createRoot(snack);
   snack.dissapear = setTimeout(() => {
     snack.unmount();

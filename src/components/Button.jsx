@@ -27,7 +27,7 @@ function Button({
 }) {
   const iconData = icon ? ICONS[icon] : null;
   const buttonClassName =
-    `${className} button ${iconData ? "button--icon" : ""}`.trim();
+    `${className} button ${iconData ? "button-icon" : ""}`.trim();
 
   const handleCopy = (event) => {
     event.preventDefault();
@@ -46,7 +46,7 @@ function Button({
     <>
       {children}
       {iconData ? (
-        <img className="button__icon" src={iconData.src} alt={iconData.alt} />
+        <img className="button-icon" src={iconData.src} alt={iconData.alt} />
       ) : null}
     </>
   );

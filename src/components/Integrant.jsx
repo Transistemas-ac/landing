@@ -14,18 +14,18 @@ function Integrant(props) {
       tabIndex={isActive ? 0 : -1}
     >
       <img
-        className="integrant__picture"
+        className="integrant-picture"
         src={props.picture}
         alt="Imagen de integrante"
       />
 
-      <div className="integrant__info-container">
-        <h3 className="integrant__name">{props.name}</h3>
+      <div className="integrant-info-container">
+        <h3 className="integrant-name">{props.name}</h3>
 
-        <p className="integrant__occupation">{props.occupation}</p>
+        <p className="integrant-occupation">{props.occupation}</p>
       </div>
 
-      <img className="integrant__icon" src={arrowIcon} alt="icono de flecha" />
+      <img className="integrant-icon" src={arrowIcon} alt="icono de flecha" />
     </a>
   );
 }

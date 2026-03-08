@@ -76,7 +76,7 @@ export const SwiperHOC = (props) => {
           className="swiper-button-prev"
         >
           <img
-            className="swiper-button-prev__arrow"
+            className="swiper-button-prev-arrow"
             src={dropdownArrow}
             alt="anterior carta"
           />
@@ -87,7 +87,7 @@ export const SwiperHOC = (props) => {
           className="swiper-button-next"
         >
           <img
-            className="swiper-button-next__arrow"
+            className="swiper-button-next-arrow"
             src={dropdownArrow}
             alt="siguiente carta"
           />

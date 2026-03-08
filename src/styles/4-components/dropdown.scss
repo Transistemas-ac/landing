@@ -1,40 +1,36 @@
 @use "../1-helpers/variables" as *;
-@use "../2-basic/fonts" as *;
 
 .dropdown {
-  $r: ".dropdown";
   width: 100%;
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
 
-  &__button {
+  .dropdown-button {
     appearance: none;
     background: transparent;
     border: 0;
     width: 100%;
-    text-align: left;
-    color: $white;
-    padding: 14px 0;
     min-height: 52px;
+    padding: 14px 0;
+
+    text-align: left;
+    line-height: 1.25;
     font-size: 24px;
     font-weight: 600;
     color: $yellow;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 16px;
-    line-height: 1.25;
-    transition: color 0.2s ease-in-out;
 
-    @media screen and (min-width: $tablet-bp) {
-      font-size: 30px;
-    }
+    transition: color 0.2s ease-in-out;
 
     &:hover {
       cursor: pointer;
     }
   }
 
-  &__arrow {
+  .dropdown-arrow {
     width: 18px;
     height: 12px;
     flex-shrink: 0;
@@ -42,34 +38,40 @@
     transition: 0.3s transform ease-in-out;
   }
 
-  &__info {
+  .dropdown-info {
+    max-height: 0;
+    overflow: hidden;
     transition-property: max-height;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
-    max-height: 0px;
-    overflow: hidden;
   }
 
-  &__inner-container {
+  .dropdown-inner-container {
     display: flex;
     flex-direction: column;
     gap: 12px;
-    font-size: 20px;
     padding-bottom: 16px;
+    font-size: 20px;
   }
 
   &.active {
     border-bottom-color: transparent;
 
-    #{$r}__arrow {
+    .dropdown-arrow {
       transform: rotateX(180deg);
     }
   }
+}
 
-  @media screen and (min-width: $tablet-bp) {
+@media screen and (min-width: $tablet-bp) {
+  .dropdown {
     width: 70%;
 
-    &__inner-container {
+    .dropdown-button {
+      font-size: 30px;
+    }
+
+    .dropdown-inner-container {
       font-size: 22px;
     }
   }

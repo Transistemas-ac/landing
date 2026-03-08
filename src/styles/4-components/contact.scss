@@ -1,55 +1,53 @@
 @use "../1-helpers/variables" as *;
-@use "../2-basic/fonts" as *;
 
 .contact-section {
   width: 100%;
   text-align: left;
 
-  &__title {
-    font-size: font("m-medium");
+  .contact-section-title {
+    font-size: 1.25rem;
     margin-bottom: 30px;
   }
 
-  &__form {
+  .contact-section-form {
     display: flex;
     flex-direction: column;
     gap: 16px;
+  }
 
-    .contact-section__textarea {
-      &::-webkit-scrollbar {
-        width: 6px;
-      }
+  .contact-section-input-container {
+    font-size: 16px;
+    position: relative;
+    width: 100%;
 
-      &::-webkit-scrollbar-track {
-        background: transparent;
-        margin: 10px 0px;
-      }
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
 
-      &::-webkit-scrollbar-thumb {
-        background-color: $black;
-        border-radius: 20px;
-      }
+  .contact-section-input {
+    font-size: 16px;
+  }
+
+  .contact-section-textarea {
+    font-size: 18px;
+
+    &::-webkit-scrollbar {
+      width: 6px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: transparent;
+      margin: 10px 0;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background-color: $black;
+      border-radius: 20px;
     }
   }
 
-  &__input {
-    font-size: 16px;
-  }
-
-  &__input-container {
-    font-size: 16px;
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    width: 100%;
-  }
-
-  &__textarea {
-    font-size: 18px;
-  }
-
-  &__button {
+  .contact-section-button {
     max-width: 400px;
     cursor: pointer;
   }
@@ -57,25 +55,25 @@
 
 @media screen and (min-width: $tablet-bp) {
   .contact-section {
-    &__title {
+    .contact-section-title {
       font-size: 30px;
       margin-bottom: 68px;
     }
 
-    &__form {
+    .contact-section-form {
       flex-direction: row;
       gap: 70px;
     }
 
-    &__input {
+    .contact-section-input {
       font-size: 18px;
     }
 
-    &__input-container {
+    .contact-section-input-container {
       justify-content: space-between;
     }
 
-    &__button {
+    .contact-section-button {
       position: absolute;
       bottom: -40%;
     }

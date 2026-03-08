@@ -1,0 +1,115 @@
+@use "../1-helpers/variables" as *;
+@use "../1-helpers/mixins" as *;
+
+.home {
+  @include section();
+  @include flexCenter(column);
+
+  .hero-section {
+    margin-top: 40px;
+    margin-bottom: 60px;
+
+    .hero-section-illustration {
+      width: 100%;
+      max-width: 500px;
+      margin-bottom: 25px;
+    }
+
+    .hero-section-description {
+      width: 100%;
+      max-width: 500px;
+      margin-bottom: 40px;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 20px;
+
+      font-size: 18px;
+    }
+
+    .hero-section-button {
+      max-width: 330px;
+      margin: 0 auto;
+    }
+  }
+
+  .cards-section {
+    width: 100vw;
+    overflow: hidden;
+    margin-bottom: 150px;
+
+    .cards-section-title {
+      font-size: 28px;
+      margin-bottom: 24px;
+    }
+  }
+
+  .illustrative-card {
+    @include illustrativeCardBase();
+
+    .illustrative-card-title {
+      font-size: 24px;
+    }
+
+    .illustrative-card-link {
+      font-size: 16px;
+    }
+  }
+
+  .metrics {
+    margin-bottom: 150px;
+  }
+
+  .contact-section-title {
+    font-size: 30px;
+    margin-bottom: 24px;
+  }
+
+  .contact-section {
+    width: 100%;
+    max-width: 328px;
+    margin-bottom: 150px;
+  }
+}
+
+@media screen and (min-width: $tablet-bp) {
+  .home {
+    .hero-section {
+      margin-bottom: 150px;
+
+      .hero-section-illustration {
+        max-width: 735px;
+      }
+
+      .hero-section-description {
+        max-width: 800px;
+        font-size: 22px;
+      }
+
+      .hero-section-button {
+        max-width: 400px;
+      }
+    }
+
+    .cards-section {
+      .cards-section-title {
+        font-size: 40px;
+      }
+    }
+
+    .illustrative-card {
+      @include illustrativeCardDesktopBase(1.125rem);
+    }
+
+    .contact-section {
+      max-width: 1120px;
+      margin-bottom: 190px;
+      text-align: center;
+    }
+
+    .contact-section-title {
+      font-size: 40px;
+    }
+  }
+}
