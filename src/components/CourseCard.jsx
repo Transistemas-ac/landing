@@ -16,7 +16,7 @@ function CourseCard({
   modality = "",
   signupHref = "",
   status = "",
-  links = [],
+  links = []
 }) {
   const courseTitle = title || "Curso";
   const courseImg = img || emptyCourseCardImage;
@@ -27,12 +27,12 @@ function CourseCard({
   const courseDuration = duration || "";
   const courseHorario = horario || "";
   const courseModality = modality || "";
-  const hasActions = signupHref || curriculumHref;
   const courseLinks = links || [];
   const primaryCourseLink = courseLinks[0] || "";
   const isPrimaryLinkInternal = primaryCourseLink.startsWith("/");
   const courseStatus = status || "";
-  const isFinalized = courseStatus.trim().toLowerCase() === "finalizado";
+  const isFinalized =
+    courseStatus.trim().toLowerCase() === "finalizado" || !signupHref;
 
   return (
     <div className="course-card">
@@ -98,46 +98,44 @@ function CourseCard({
         <p className="course-card-schedule">⏰ {courseHorario}</p>
       )}
 
-      {hasActions && (
-        <div className="course-card-actions">
-          {!isFinalized ? (
-            <Button
-              type="anchor"
-              target="_blank"
-              rel="noreferrer"
-              className="course-card-button course-card-button-signup"
-              href={signupHref}
-              icon="send"
-            >
-              Inscribirme
-            </Button>
-          ) : (
-            <Button
-              type="anchor"
-              target="_blank"
-              rel="noreferrer"
-              className="course-card-button course-card-button-closed"
-              href={signupHref}
-              icon="close"
-            >
-              Inscripciones cerradas
-            </Button>
-          )}
+      <div className="course-card-actions">
+        {!isFinalized ? (
+          <Button
+            type="anchor"
+            target="_blank"
+            rel="noreferrer"
+            className="course-card-button course-card-button-signup"
+            href={signupHref}
+            icon="send"
+          >
+            Inscribirme
+          </Button>
+        ) : (
+          <Button
+            type="anchor"
+            target="_blank"
+            rel="noreferrer"
+            className="course-card-button course-card-button-closed"
+            href={signupHref || "#"}
+            icon="close"
+          >
+            Inscripciones cerradas
+          </Button>
+        )}
 
-          {curriculumHref && (
-            <Button
-              type="anchor"
-              target="_blank"
-              rel="noreferrer"
-              className="course-card-button course-card-button-curriculum"
-              href={curriculumHref}
-              icon="link"
-            >
-              Programa de estudios
-            </Button>
-          )}
-        </div>
-      )}
+        {curriculumHref && (
+          <Button
+            type="anchor"
+            target="_blank"
+            rel="noreferrer"
+            className="course-card-button course-card-button-curriculum"
+            href={curriculumHref}
+            icon="link"
+          >
+            Programa de estudios
+          </Button>
+        )}
+      </div>
     </div>
   );
 }

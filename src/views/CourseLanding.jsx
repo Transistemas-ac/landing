@@ -15,7 +15,8 @@ function CourseLanding() {
   const courseDate =
     course.date ||
     [course.fechaInicio, course.fechaFin].filter(Boolean).join(" - ");
-  const isFinalized = course.status?.trim().toLowerCase() === "finalizado";
+  const isFinalized =
+    course.status?.trim().toLowerCase() === "finalizado" || true;
 
   return (
     <div className="courses course-landing">
@@ -64,30 +65,29 @@ function CourseLanding() {
               )}
 
               <div className="course-landing-actions">
-                {course.signupHref &&
-                  (!isFinalized ? (
-                    <Button
-                      type="anchor"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="course-landing-button course-landing-button-signup"
-                      href={course.signupHref}
-                      icon="send"
-                    >
-                      Inscribirme
-                    </Button>
-                  ) : (
-                    <Button
-                      type="anchor"
-                      target="_blank"
-                      rel="noreferrer"
-                      className="course-landing-button course-landing-button-closed"
-                      href={course.signupHref}
-                      icon="close"
-                    >
-                      Inscripciones cerradas
-                    </Button>
-                  ))}
+                {!isFinalized ? (
+                  <Button
+                    type="anchor"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="course-landing-button course-landing-button-signup"
+                    href={course.signupHref}
+                    icon="send"
+                  >
+                    Inscribirme
+                  </Button>
+                ) : (
+                  <Button
+                    type="anchor"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="course-landing-button course-landing-button-closed"
+                    href={course.signupHref}
+                    icon="close"
+                  >
+                    Inscripciones cerradas
+                  </Button>
+                )}
 
                 {course.curriculumHref && (
                   <Button
