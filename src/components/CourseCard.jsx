@@ -27,115 +27,95 @@ function CourseCard({
   const courseDuration = duration || "";
   const courseHorario = horario || "";
   const courseModality = modality || "";
-  const courseLinks = links || [];
-  const primaryCourseLink = courseLinks[0] || "";
-  const isPrimaryLinkInternal = primaryCourseLink.startsWith("/");
+  const courseLink = links[0] || "";
   const courseStatus = status || "";
   const isFinalized =
     courseStatus.trim().toLowerCase() === "finalizado" || !signupHref;
 
   return (
     <div className="course-card">
-      <h1 className="course-card-title">{courseTitle}</h1>
+      <HashLink to={courseLink} className="course-card-link">
+        <h1 className="course-card-title">{courseTitle}</h1>
 
-      {primaryCourseLink ? (
-        isPrimaryLinkInternal ? (
-          <HashLink to={primaryCourseLink} className="course-card-image-link">
-            <img
-              className="course-card-image"
-              src={courseImg}
-              alt={courseTitle}
-            />
-          </HashLink>
-        ) : (
-          <a
-            href={primaryCourseLink}
-            target="_blank"
-            rel="noreferrer"
-            className="course-card-image-link"
-          >
-            <img
-              className="course-card-image"
-              src={courseImg}
-              alt={courseTitle}
-            />
-          </a>
-        )
-      ) : (
         <img className="course-card-image" src={courseImg} alt={courseTitle} />
-      )}
 
-      {(courseTeachers || courseDescription) && (
-        <div className="course-card-content">
-          {courseTeachers && (
-            <p className="course-card-teachers">
-              <span className="course-card-teachers-label">Profes a cargo</span>
-              <span className="course-card-teachers-names">
-                {courseTeachers}
-              </span>
-            </p>
-          )}
+        {(courseTeachers || courseDescription) && (
+          <div className="course-card-content">
+            {courseTeachers && (
+              <p className="course-card-teachers">
+                <span className="course-card-teachers-label">
+                  Profes a cargo
+                </span>
+                <span className="course-card-teachers-names">
+                  {courseTeachers}
+                </span>
+              </p>
+            )}
 
-          {courseDescription && (
-            <p className="course-card-description">{courseDescription}</p>
-          )}
-        </div>
-      )}
-
-      {(courseDate || courseDuration || courseModality) && (
-        <div className="course-card-tags-container">
-          {courseDate && <h4 className="course-card-tag">📆 {courseDate}</h4>}
-          {courseDuration && (
-            <h4 className="course-card-tag">⌛ {courseDuration}</h4>
-          )}
-          {courseModality && (
-            <h4 className="course-card-tag">💻 {courseModality}</h4>
-          )}
-        </div>
-      )}
-
-      {courseHorario && (
-        <p className="course-card-schedule">⏰ {courseHorario}</p>
-      )}
-
-      <div className="course-card-actions">
-        {!isFinalized ? (
-          <Button
-            type="anchor"
-            target="_blank"
-            rel="noreferrer"
-            className="course-card-button course-card-button-signup"
-            href={signupHref}
-            icon="send"
-          >
-            Inscribirme
-          </Button>
-        ) : (
-          <Button
-            type="anchor"
-            target="_blank"
-            rel="noreferrer"
-            className="course-card-button course-card-button-closed"
-            href={signupHref || "#"}
-            icon="close"
-          >
-            Inscripciones cerradas
-          </Button>
+            {courseDescription && (
+              <p className="course-card-description">{courseDescription}</p>
+            )}
+          </div>
         )}
 
-        {curriculumHref && (
-          <Button
-            type="anchor"
-            target="_blank"
-            rel="noreferrer"
-            className="course-card-button course-card-button-curriculum"
-            href={curriculumHref}
-            icon="link"
-          >
-            Programa de estudios
-          </Button>
+        {(courseDate || courseDuration || courseModality) && (
+          <div className="course-card-tags-container">
+            {courseDate && <h4 className="course-card-tag">📆 {courseDate}</h4>}
+            {courseDuration && (
+              <h4 className="course-card-tag">⌛ {courseDuration}</h4>
+            )}
+            {courseModality && (
+              <h4 className="course-card-tag">💻 {courseModality}</h4>
+            )}
+          </div>
         )}
-      </div>
+
+        {courseHorario && (
+          <p className="course-card-schedule">⏰ {courseHorario}</p>
+        )}
+
+        <div className="course-card-actions">
+          {!isFinalized ? (
+            <Button
+              type="anchor"
+              target="_blank"
+              rel="noreferrer"
+              className="course-card-button course-card-button-signup"
+              href={signupHref}
+              icon="send"
+              onClick={(e) => e.stopPropagation()}
+            >
+              Inscribirme
+            </Button>
+          ) : (
+            <Button
+              type="anchor"
+              target="_blank"
+              rel="noreferrer"
+              className="course-card-button course-card-button-closed"
+              href={signupHref || "#"}
+              icon="close"
+              onClick={(e) => e.stopPropagation()}
+            >
+              Inscripciones cerradas
+            </Button>
+          )}
+
+          {curriculumHref && (
+            <Button
+              type="anchor"
+              target="_blank"
+              rel="noreferrer"
+              className="course-card-button course-card-button-curriculum"
+              href={curriculumHref}
+              icon="link"
+              onClick={(e) => e.stopPropagation()}
+            >
+              Programa de estudios
+            </Button>
+          )}
+        </div>
+      </HashLink>
     </div>
   );
 }

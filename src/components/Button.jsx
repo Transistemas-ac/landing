@@ -66,6 +66,7 @@ function Button({
         href={href}
         type="text/html"
         className={buttonClassName}
+        onClick={onClick}
       >
         {content}
       </a>

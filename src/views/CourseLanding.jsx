@@ -1,6 +1,7 @@
 import { useParams } from "react-router-dom";
 import Button from "../components/Button";
 import Footer from "../components/Footer";
+import Dropdown from "../components/Dropdown";
 import { findCourseBySlug } from "../data/Courses";
 import ErrorPage from "./ErrorPage";
 
@@ -123,6 +124,23 @@ function CourseLanding() {
             </div>
           </div>
         </div>
+      </div>
+
+      <div className="course-landing-faq">
+        <Dropdown type="basic" title="¿Cuál es el costo de los cursos?">
+          Los cursos son gratuitos y no tienen coste de emisión de certificado.
+        </Dropdown>
+        <Dropdown type="basic" title="¿Quiénes pueden anotarse a los cursos?">
+          Cualquier persona interesada, damos prioridad a personas del colectivo
+          LGTBIQ+.
+        </Dropdown>
+        <Dropdown
+          type="basic"
+          title="¿Si termino el curso recibo un certificado?"
+        >
+          ¡Si! Vas a recibir un certificado expedido por Transistemas y los
+          entes que participen de la certificación.
+        </Dropdown>
       </div>
 
       <Footer />
