@@ -1,5 +1,6 @@
 import Button from "./Button";
 import emptyCourseCardImage from "../assets/svg/empty-course-card-icon.svg";
+import { HashLink } from "react-router-hash-link";
 
 function CourseCard({
   title = "",
@@ -15,7 +16,7 @@ function CourseCard({
   modality = "",
   signupHref = "",
   status = "",
-  ig = [],
+  links = [],
 }) {
   const courseTitle = title || "Curso";
   const courseImg = img || emptyCourseCardImage;
@@ -27,7 +28,9 @@ function CourseCard({
   const courseHorario = horario || "";
   const courseModality = modality || "";
   const hasActions = signupHref || curriculumHref;
-  const courseIgHref = ig[0] || "";
+  const courseLinks = links || [];
+  const primaryCourseLink = courseLinks[0] || "";
+  const isPrimaryLinkInternal = primaryCourseLink.startsWith("/");
   const courseStatus = status || "";
   const isFinalized = courseStatus.trim().toLowerCase() === "finalizado";
 
@@ -35,19 +38,29 @@ function CourseCard({
     <div className="course-card">
       <h1 className="course-card-title">{courseTitle}</h1>
 
-      {courseIgHref ? (
-        <a
-          href={courseIgHref}
-          target="_blank"
-          rel="noreferrer"
-          className="course-card-image-link"
-        >
-          <img
-            className="course-card-image"
-            src={courseImg}
-            alt={courseTitle}
-          />
-        </a>
+      {primaryCourseLink ? (
+        isPrimaryLinkInternal ? (
+          <HashLink to={primaryCourseLink} className="course-card-image-link">
+            <img
+              className="course-card-image"
+              src={courseImg}
+              alt={courseTitle}
+            />
+          </HashLink>
+        ) : (
+          <a
+            href={primaryCourseLink}
+            target="_blank"
+            rel="noreferrer"
+            className="course-card-image-link"
+          >
+            <img
+              className="course-card-image"
+              src={courseImg}
+              alt={courseTitle}
+            />
+          </a>
+        )
       ) : (
         <img className="course-card-image" src={courseImg} alt={courseTitle} />
       )}
@@ -56,9 +69,7 @@ function CourseCard({
         <div className="course-card-content">
           {courseTeachers && (
             <p className="course-card-teachers">
-              <span className="course-card-teachers-label">
-                Profes a cargo
-              </span>
+              <span className="course-card-teachers-label">Profes a cargo</span>
               <span className="course-card-teachers-names">
                 {courseTeachers}
               </span>
@@ -105,7 +116,7 @@ function CourseCard({
               type="anchor"
               target="_blank"
               rel="noreferrer"
-              className="course-card-button course-card-button-signup"
+              className="course-card-button course-card-button-closed"
               href={signupHref}
               icon="close"
             >

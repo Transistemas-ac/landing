@@ -20,7 +20,72 @@ import {
   img2025Testing,
 } from "../assets/cursos";
 
-const courses = [
+const COURSE_PATH_PREFIX = "/cursos";
+
+const slugifyCourseTitle = (title = "") =>
+  title
+    .toString()
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .replace(/[^a-z0-9\s-]/g, "")
+    .trim()
+    .replace(/\s+/g, "-")
+    .replace(/-+/g, "-");
+
+const getCourseSlugFromPath = (path = "") =>
+  path
+    .toString()
+    .replace(/^\/+/, "")
+    .replace(/^cursos\//, "")
+    .replace(/\/+$/, "");
+
+const getYearFromDate = (dateStr = "") => {
+  if (!dateStr) return "";
+  const match = dateStr.match(/(\d{4})/);
+  return match ? match[1] : "";
+};
+
+const buildCoursePath = (title = "", year = "", duplicateNumber = 1) => {
+  const baseSlug = slugifyCourseTitle(title) || "curso";
+  const yearSlug = year ? `-${year}` : "";
+  const uniqueSlug =
+    duplicateNumber > 1
+      ? `${baseSlug}${yearSlug}-${duplicateNumber}`
+      : `${baseSlug}${yearSlug}`;
+
+  return `${COURSE_PATH_PREFIX}/${uniqueSlug}`;
+};
+
+const normalizeCourseLinks = (course = {}, slugCountByBase = new Map()) => {
+  const courseLinks = Array.isArray(course.links)
+    ? course.links.filter(Boolean)
+    : [];
+  const firstLink = courseLinks[0] || "";
+  const isFirstLinkInternal = firstLink.startsWith(`${COURSE_PATH_PREFIX}/`);
+
+  if (isFirstLinkInternal) {
+    return {
+      ...course,
+      links: [firstLink, ...courseLinks.slice(1)],
+    };
+  }
+
+  const baseSlug = slugifyCourseTitle(course.title) || "curso";
+  const year = getYearFromDate(course.fechaInicio);
+  const slugKey = year ? `${baseSlug}-${year}` : baseSlug;
+
+  const nextDuplicateNumber = (slugCountByBase.get(slugKey) || 0) + 1;
+
+  slugCountByBase.set(slugKey, nextDuplicateNumber);
+
+  return {
+    ...course,
+    links: [buildCoursePath(course.title, year, nextDuplicateNumber), ...courseLinks],
+  };
+};
+
+const coursesData = [
   {
     title: "Curso de Testing Manual",
     img: img2025Testing,
@@ -33,7 +98,7 @@ const courses = [
     curriculumHref:
       "https://drive.google.com/file/d/1Hpnl5enHjw9TNZKfjh-P6kIMmV753w4w/view?usp=sharing",
     signupHref: "https://forms.gle/jrFxw2zPZdVKXfd16",
-    ig: ["https://www.instagram.com/p/DMOnyFvsgPX"],
+    links: ["https://www.instagram.com/p/DMOnyFvsgPX"],
     status: "Finalizado",
   },
   {
@@ -49,13 +114,13 @@ const courses = [
       "https://docs.google.com/forms/d/1rnjpOZBKh7OOSjH4toWfEoXcL0qF04xJxW_36AKeOcU",
     signupHref: "https://forms.gle/VZrQ3rsexoDpaPbY9",
 
-    ig: ["https://www.instagram.com/p/DIaFkAYR6Bx"],
+    links: ["https://www.instagram.com/p/DIaFkAYR6Bx"],
     status: "Finalizado",
   },
   {
     title: "Herramientas básicas para la Inserción Laboral II",
     img: img2023Herramientas2,
-    teachers: "PedidosYa",
+    teachers: "PedidosYa y Transistemas",
     description: "",
     fechaInicio: "02/10/2023",
     fechaFin: "30/10/2023",
@@ -64,13 +129,13 @@ const courses = [
     curriculumHref:
       "https://drive.google.com/file/d/18O1tyBqcPXjkrQbmncXqJAFfJt9n7RvX/view?usp=sharing",
     signupHref: "https://forms.gle/cWzmC41azuD3GyY66",
-    ig: ["https://www.instagram.com/p/Cw0GjPZszKP"],
+    links: ["https://www.instagram.com/p/Cw0GjPZszKP"],
     status: "Finalizado",
   },
   {
     title: "Curso de Testing Manual",
     img: img2024Testing,
-    teachers: "Transistemas",
+    teachers: "Equipo de Educación de Transistemas",
     description: "",
     fechaInicio: "07/08/2024",
     fechaFin: "11/12/2024",
@@ -79,13 +144,13 @@ const courses = [
     curriculumHref:
       "https://docs.google.com/spreadsheets/d/1y7iJ_jwyP1GssDlaORhRQy_4B8vRflR-ABf5Kfg-OHo/edit?usp=sharing",
     signupHref: "https://forms.gle/m3Kts9z1mSYtwLXR6",
-    ig: ["https://www.instagram.com/p/C9U67luxTr-"],
+    links: ["https://www.instagram.com/p/C9U67luxTr-"],
     status: "Finalizado",
   },
   {
     title: "Curso de Testing Manual",
     img: img2023Testing,
-    teachers: "Transistemas",
+    teachers: "Equipo de Educación de Transistemas",
     description: "",
     fechaInicio: "09/08/2023",
     fechaFin: "06/12/2023",
@@ -94,13 +159,13 @@ const courses = [
     curriculumHref:
       "https://drive.google.com/drive/folders/1PwQxBiD12quUPgGh-g9vdoKK9umKcyEK?usp=drive_link",
     signupHref: "https://forms.gle/Hth13EFr77Cqmb2a6",
-    ig: ["https://www.instagram.com/p/Cu7Ic0-OScD"],
+    links: ["https://www.instagram.com/p/Cu7Ic0-OScD"],
     status: "Finalizado",
   },
   {
     title: "Herramientas Básicas para la inserción laboral",
     img: img2023Herramientas1,
-    teachers: "PedidosYa",
+    teachers: "PedidosYa y Transistemas",
     description: "",
     fechaInicio: "07/06/2023",
     fechaFin: "05/07/2023",
@@ -109,13 +174,13 @@ const courses = [
     curriculumHref:
       "https://docs.google.com/presentation/d/1yeq8RofNwg2VXMzN6-IoFvq55mRMgSU3M5UDQmpZLe4/edit?usp=sharing",
     signupHref: "https://forms.gle/JBeD8fNzcwMtsT7r8",
-    ig: ["https://www.instagram.com/p/CsRR_M4uU_p"],
+    links: ["https://www.instagram.com/p/CsRR_M4uU_p"],
     status: "Finalizado",
   },
   {
     title: "Curso de Diseño UX/UI",
     img: img2022Diseno,
-    teachers: "Transistemas",
+    teachers: "Equipo de Educación de Transistemas",
     description: "",
     fechaInicio: "14/09/2022",
     fechaFin: "02/11/2022",
@@ -125,7 +190,7 @@ const courses = [
       "https://drive.google.com/drive/folders/1NXhjjeWSpIzgJVgveuxucJ6lvTvxMbJq?usp=drive_link",
     signupHref:
       "https://docs.google.com/forms/d/e/1FAIpQLSf6I_-kWgrPcWdowdoHWbLdY2Ll1ddFK-sSy0xsVokrfXsclQ/viewform",
-    ig: [
+    links: [
       "https://www.instagram.com/p/ChnxlI4MYHb",
       "https://www.instagram.com/p/CkGxkpvr_TO",
     ],
@@ -134,7 +199,7 @@ const courses = [
   {
     title: "Curso de UX Writing",
     img: img2022Uxwriting,
-    teachers: "Transistemas",
+    teachers: "Equipo de Educación de Transistemas",
     description: "",
     fechaInicio: "14/09/2022",
     fechaFin: "26/10/2022",
@@ -145,13 +210,13 @@ const courses = [
     signupHref:
       "https://docs.google.com/forms/d/e/1FAIpQLSccjNOKSLAl38sAzPKnPmOPFxTCU37Ray9zWMO8cOgTd3YEEw/viewform",
 
-    ig: ["https://www.instagram.com/p/ChlK1kJBUE2"],
+    links: ["https://www.instagram.com/p/ChlK1kJBUE2"],
     status: "Finalizado",
   },
   {
     title: "Curso de Testing Manual",
     img: img2022Testing,
-    teachers: "Transistemas",
+    teachers: "Equipo de Educación de Transistemas",
     description: "",
     fechaInicio: "13/04/2022",
     fechaFin: "06/08/2022",
@@ -160,13 +225,13 @@ const courses = [
     curriculumHref:
       "https://drive.google.com/drive/folders/11Qcoi0Z4i3hgvUX9-Kf1Xi0w6H6jkC05?usp=drive_link",
     signupHref: "https://forms.gle/kWSWsfbjCUWkdvSg8",
-    ig: ["https://www.instagram.com/p/Cb8gLYPO57S"],
+    links: ["https://www.instagram.com/p/Cb8gLYPO57S"],
     status: "Finalizado",
   },
   {
     title: "Taller de Agilismo",
     img: img2021Agilismo,
-    teachers: "Transistemas",
+    teachers: "Equipo de Educación de Transistemas",
     description: "",
     fechaInicio: "16/10/2021",
     fechaFin: "16/10/2021",
@@ -175,13 +240,13 @@ const courses = [
     curriculumHref:
       "https://docs.google.com/presentation/d/1b_jg8lq5YLBH4Po3IoCejlfThIaTVKZhyiIAXx2R5h8/edit?usp=sharing",
     signupHref: "https://forms.gle/dUSesJAYoWBxaFfbA",
-    ig: ["https://www.instagram.com/p/CUtGRtdgONm"],
+    links: ["https://www.instagram.com/p/CUtGRtdgONm"],
     status: "Finalizado",
   },
   {
     title: "Curso de Testing",
     img: img2021Testing,
-    teachers: "Transistemas",
+    teachers: "Equipo de Educación de Transistemas",
     description: "",
     fechaInicio: "21/08/2021",
     fechaFin: "15/12/2021",
@@ -190,13 +255,13 @@ const courses = [
     curriculumHref:
       "https://docs.google.com/presentation/d/1q7ln4I92iTfQHbOfO1l602bo8GA410UvyDrdTxOTj58/edit?usp=sharing",
     signupHref: "https://forms.gle/Sy1K49qRKiqGC4Ay7",
-    ig: ["https://www.instagram.com/p/CSVTD05ACSX"],
+    links: ["https://www.instagram.com/p/CSVTD05ACSX"],
     status: "Finalizado",
   },
   {
     title: "Taller de Armado de CV",
     img: img2021Cv,
-    teachers: "Accenture Argentina",
+    teachers: "Accenture Argentina y Transistemas",
     description: "",
     fechaInicio: "14/04/2021",
     fechaFin: "05/05/2021",
@@ -204,13 +269,13 @@ const courses = [
     horario: "Miércoles 17 a 19hs",
     curriculumHref: "",
     signupHref: "",
-    ig: ["https://www.instagram.com/p/CMvUEcdg51p"],
+    links: ["https://www.instagram.com/p/CMvUEcdg51p"],
     status: "Finalizado",
   },
   {
     title: "Speak Up",
     img: img2021Speakup,
-    teachers: "Accenture Argentina",
+    teachers: "Accenture Argentina y Transistemas",
     description: "",
     fechaInicio: "23/03/2021",
     fechaFin: "13/04/2021",
@@ -218,7 +283,7 @@ const courses = [
     horario: "Martes 16:50 a 18hs",
     curriculumHref: "",
     signupHref: "",
-    ig: ["https://www.instagram.com/p/CMM8-5egxzU"],
+    links: ["https://www.instagram.com/p/CMM8-5egxzU"],
     status: "Finalizado",
   },
   {
@@ -232,7 +297,7 @@ const courses = [
     horario: "Lunes, Miércoles y Viernes 19:30 a 22:30hs",
     curriculumHref: "",
     signupHref: "",
-    ig: [
+    links: [
       "https://www.instagram.com/p/CJoRLcngFMS",
       "https://www.instagram.com/p/CJYmMRNA17G",
       "https://www.instagram.com/p/CLEr1aIHk1e",
@@ -242,7 +307,7 @@ const courses = [
   {
     title: "Taller de Armado de CV",
     img: img2020Cv,
-    teachers: "Accenture Argentina",
+    teachers: "Accenture Argentina y Transistemas",
     description: "",
     fechaInicio: "20/11/2020",
     fechaFin: "11/12/2020",
@@ -251,13 +316,13 @@ const courses = [
     curriculumHref:
       "https://docs.google.com/presentation/d/1JDU7UzPeRxWtaG9CftOsEt00VT4YDpIB-jXlS8cER6c/edit?usp=sharing",
     signupHref: "https://forms.gle/NrMp5ru8NfpFh7Wt9",
-    ig: ["https://www.instagram.com/p/CHnXK9BABlB"],
+    links: ["https://www.instagram.com/p/CHnXK9BABlB"],
     status: "Finalizado",
   },
   {
     title: "Alfabetización digital",
     img: img2020Alfabetizacion,
-    teachers: "Transistemas",
+    teachers: "Equipo de Educación de Transistemas",
     description: "",
     fechaInicio: "21/09/2020",
     fechaFin: "23/10/2020",
@@ -265,7 +330,7 @@ const courses = [
     horario: "Lunes & Viernes 17 a 19hs",
     curriculumHref: "",
     signupHref: "",
-    ig: [
+    links: [
       "https://www.instagram.com/p/CFHyIfIgQyx",
       "https://www.instagram.com/p/CFcYOICALfE",
     ],
@@ -274,7 +339,7 @@ const courses = [
   {
     title: "WordPress",
     img: img2020Wordpress,
-    teachers: "Transistemas",
+    teachers: "Equipo de Educación de Transistemas",
     description: "",
     fechaInicio: "23/09/2020",
     fechaFin: "25/11/2020",
@@ -282,7 +347,7 @@ const courses = [
     horario: "Miércoles 17 a 19hs",
     curriculumHref: "",
     signupHref: "",
-    ig: [
+    links: [
       "https://www.instagram.com/p/CFHqH4IgiNz",
       "https://www.instagram.com/p/CFiQC67g9PP",
     ],
@@ -291,7 +356,7 @@ const courses = [
   {
     title: "Diseño para la Inclusión",
     img: img2020Diseno,
-    teachers: "Transistemas",
+    teachers: "Equipo de Educación de Transistemas",
     description: "",
     fechaInicio: "29/02/2020",
     fechaFin: "07/03/2020",
@@ -299,13 +364,13 @@ const courses = [
     horario: "Sábados 15 a 18hs",
     curriculumHref: "",
     signupHref: "",
-    ig: ["https://www.instagram.com/p/B8saeHgAoVg"],
+    links: ["https://www.instagram.com/p/B8saeHgAoVg"],
     status: "Finalizado",
   },
   {
     title: "Capacitación en Sistemas",
     img: img2020Capacitacion,
-    teachers: "Transistemas",
+    teachers: "Equipo de Educación de Transistemas",
     description: "",
     fechaInicio: "23/01/2020",
     fechaFin: "30/01/2020",
@@ -313,7 +378,7 @@ const courses = [
     horario: "Martes 16:30 a 18hs",
     curriculumHref: "",
     signupHref: "",
-    ig: [
+    links: [
       "https://www.instagram.com/p/B7r69PkjCi_",
       "https://www.instagram.com/p/B75sCnbAw2M",
       "https://www.instagram.com/p/B7_YgM3gbMi",
@@ -323,4 +388,16 @@ const courses = [
   },
 ];
 
+const slugCountByBase = new Map();
+
+const courses = coursesData.map((course) =>
+  normalizeCourseLinks(course, slugCountByBase),
+);
+
+const findCourseBySlug = (courseSlug = "") =>
+  courses.find(
+    (course) => getCourseSlugFromPath(course.links?.[0]) === courseSlug,
+  );
+
+export { findCourseBySlug, getCourseSlugFromPath, slugifyCourseTitle };
 export default courses;

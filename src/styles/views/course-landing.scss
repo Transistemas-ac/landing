@@ -1,0 +1,296 @@
+@use "../utils/variables" as *;
+@use "../utils/mixins" as *;
+
+.courses.course-landing {
+  width: 100%;
+
+  .course-landing-section {
+    width: 90%;
+
+    .course-landing-content {
+      width: 100%;
+
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+
+      .course-landing-header {
+        width: 100%;
+
+        .course-landing-title {
+          width: 100%;
+
+          font-size: 30px;
+          text-align: center;
+          line-height: 1.2;
+        }
+      }
+
+      .course-landing-body {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 24px;
+
+        .course-landing-left {
+          width: 100%;
+
+          display: flex;
+          flex-direction: column;
+          gap: 16px;
+
+          text-align: left;
+          justify-content: center;
+
+          .course-landing-teachers {
+            width: 100%;
+            padding: 16px;
+            margin-top: 10px;
+
+            border: 1px solid $yellow;
+            border-radius: 12px;
+            background-color: rgba($yellow, 0.08);
+
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+
+            text-align: left;
+
+            .course-landing-teachers-label {
+              color: $yellow;
+              font-weight: 700;
+              text-transform: uppercase;
+              letter-spacing: 0.02em;
+              font-size: 0.75rem;
+            }
+
+            .course-landing-teachers-names {
+              font-weight: 600;
+              font-size: 1rem;
+            }
+          }
+
+          .course-landing-tags {
+            width: 100%;
+
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 12px;
+
+            .course-landing-tag {
+              width: fit-content;
+              flex-shrink: 0;
+              flex-grow: 0;
+              padding: 10px 16px;
+
+              border: 1px solid $blue;
+              border-radius: 1000px;
+
+              font-weight: 600;
+              font-size: 14px;
+            }
+          }
+
+          .course-landing-schedule {
+            width: 100%;
+            margin: 0;
+            padding: 10px 16px;
+
+            border: 1px solid $pink;
+            border-radius: 12px;
+
+            font-size: 14px;
+            font-weight: 600;
+            text-align: center;
+          }
+
+          .course-landing-description {
+            max-width: 600px;
+
+            font-size: 1rem;
+            line-height: 1.6;
+            text-align: left;
+          }
+
+          .course-landing-actions {
+            width: 100%;
+            margin-top: 10px;
+
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+
+            .course-landing-button {
+              width: 100%;
+              max-width: none;
+              margin: 0;
+              padding: 16px 24px;
+
+              text-align: center;
+              justify-content: center;
+              font-size: 1rem;
+            }
+
+            .course-landing-button-signup {
+              font-weight: 700;
+              box-shadow: 0 8px 20px rgba($yellow, 0.2);
+            }
+
+            .course-landing-button-closed {
+              background-color: $grey-darker;
+              border: 1px solid $grey-light;
+              color: $grey-lighter;
+              cursor: not-allowed;
+            }
+
+            .course-landing-button-curriculum {
+              border: 1px solid $yellow;
+              background: transparent;
+              color: $yellow;
+            }
+
+            .course-landing-back-button {
+              margin-top: 24px;
+            }
+          }
+        }
+
+        .course-landing-right {
+          width: 100%;
+
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+
+          .course-landing-image-container {
+            width: 100%;
+
+            .course-landing-image {
+              width: 100%;
+              max-width: 600px;
+
+              border-radius: 16px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $tablet-bp) {
+  .courses.course-landing {
+    height: 85vh;
+    .course-landing-section {
+      height: 100%;
+      margin-bottom: 0px;
+
+      .course-landing-content {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        height: 100%;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+
+        .course-landing-header {
+          .course-landing-title {
+            font-size: 36px;
+            text-align: center;
+            margin-bottom: 30px;
+          }
+        }
+
+        .course-landing-body {
+          display: flex;
+          justify-content: space-around;
+          flex-direction: row;
+          gap: 40px;
+
+          .course-landing-left {
+            width: 30%;
+            min-width: 300px;
+            gap: 20px;
+
+            .course-landing-teachers {
+              margin-top: 10px;
+              padding: 18px 20px;
+
+              .course-landing-teachers-label {
+                font-size: 0.875rem;
+              }
+
+              .course-landing-teachers-names {
+                font-size: 1.125rem;
+              }
+            }
+
+            .course-landing-tags {
+              justify-content: center;
+
+              .course-landing-tag {
+                font-size: 1rem;
+                padding: 12px 20px;
+              }
+            }
+
+            .course-landing-schedule {
+              font-size: 1rem;
+              padding: 12px 20px;
+              width: fit-content;
+              margin: 0 auto;
+            }
+
+            .course-landing-description {
+              font-size: 1.125rem;
+            }
+
+            .course-landing-actions {
+              flex-direction: column;
+              gap: 16px;
+              margin-top: 14px;
+
+              .course-landing-button {
+                width: 100%;
+                padding: 18px 32px;
+                font-size: 1.125rem;
+              }
+
+              .course-landing-back-button {
+                margin-top: 32px;
+              }
+            }
+          }
+
+          .course-landing-right {
+            width: 30%;
+            gap: 24px;
+
+            .course-landing-image-container {
+              width: 100%;
+
+              .course-landing-image {
+                width: 100%;
+              }
+            }
+          }
+        }
+
+        .course-landing-footer {
+          .course-landing-back-button {
+            width: 30%;
+            margin-bottom: 30px;
+          }
+        }
+      }
+    }
+  }
+
+  .footer {
+    margin-bottom: 0px;
+  }
+}

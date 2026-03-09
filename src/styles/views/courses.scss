@@ -232,6 +232,13 @@
       box-shadow: 0 8px 20px rgba($yellow, 0.2);
     }
 
+    .course-card-button-closed {
+      background-color: $grey-darker;
+      border: 1px solid $grey-light;
+      color: $grey-lighter;
+      cursor: not-allowed;
+    }
+
     .course-card-button-curriculum {
       border: 1px solid $yellow;
       background: transparent;
