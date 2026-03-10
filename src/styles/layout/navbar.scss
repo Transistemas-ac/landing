@@ -137,15 +137,21 @@
     z-index: 20;
     height: 100vh;
 
-    .navbar-menu-icon {
-      background-color: transparent;
+    .navbar-inner-container {
+      .navbar-menu-button {
+        .navbar-menu-icon {
+          background-color: transparent;
 
-      &::after {
-        transform: rotate(45deg);
-      }
+          &::after {
+            transform-origin: center;
+            transform: rotate(45deg);
+          }
 
-      &::before {
-        transform: rotate(-45deg);
+          &::before {
+            transform-origin: center;
+            transform: rotate(-45deg);
+          }
+        }
       }
     }
 
