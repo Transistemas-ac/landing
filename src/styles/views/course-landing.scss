@@ -182,7 +182,7 @@
   .course-landing-faq {
     width: 100%;
     margin-bottom: 80px;
-    margin-top: 80px;
+    margin-top: 40px;
 
     display: flex;
     flex-direction: column;
@@ -299,6 +299,10 @@
           }
         }
       }
+    }
+
+    .course-landing-faq {
+      margin-top: 80px;
     }
   }
 }
