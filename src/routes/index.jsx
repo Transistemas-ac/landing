@@ -5,6 +5,7 @@ import LoadingScreen from "../views/LoadingScreen";
 
 const HomeView = lazy(() => import("../views/Home"));
 const CoursesView = lazy(() => import("../views/Courses"));
+const CourseLandingView = lazy(() => import("../views/CourseLanding"));
 const ServiciosView = lazy(() => import("../views/Servicios"));
 const EquiposView = lazy(() => import("../views/Equipos"));
 
@@ -26,6 +27,13 @@ const routes = [
     path: "/cursos",
     element: getRouteElement(CoursesView),
     className: "courses",
+  },
+  {
+    name: "Curso",
+    path: "/cursos/:courseSlug",
+    element: getRouteElement(CourseLandingView),
+    className: "course-landing",
+    showInNavbar: false,
   },
   {
     name: "Servicios",
@@ -58,10 +66,12 @@ function CustomLink({ to, children, ...props }) {
 }
 
 const NavbarLinks = (props) =>
-  routes.map(({ name, path, className }) => (
-    <CustomLink key={path} className={className} to={path} {...props}>
-      {name}
-    </CustomLink>
-  ));
+  routes
+    .filter(({ showInNavbar = true }) => showInNavbar)
+    .map(({ name, path, className }) => (
+      <CustomLink key={path} className={className} to={path} {...props}>
+        {name}
+      </CustomLink>
+    ));
 
 export { Paths, NavbarLinks };

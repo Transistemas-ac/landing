@@ -4,7 +4,7 @@ import { SwiperSlide } from "swiper/react";
 
 const CoursesSlides = () =>
   courses.map((item, idx) => (
-    <SwiperSlide key={idx}>
+    <SwiperSlide key={item.links?.[0] || idx}>
       <CourseCard
         title={item.title}
         img={item.img}
@@ -17,7 +17,7 @@ const CoursesSlides = () =>
         curriculumHref={item.curriculumHref}
         signupHref={item.signupHref}
         status={item.status}
-        ig={item.ig}
+        links={item.links}
       />
     </SwiperSlide>
   ));

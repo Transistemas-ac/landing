@@ -1,6 +1,6 @@
 import imgErrorElectricity from "../assets/svg/electricity-error.svg";
 
-function ErrorPage() {
+function ErrorPage({ title = "Algo salió mal, intentá de nuevo o regresá más tarde" }) {
   return (
     <div className="error-page">
       <img
@@ -10,7 +10,7 @@ function ErrorPage() {
       />
 
       <h1 className="error-page-text">
-        Algo salió mal, intentá de nuevo o regresá más tarde
+        {title}
       </h1>
     </div>
   );

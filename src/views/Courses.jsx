@@ -51,6 +51,12 @@ function Courses() {
           ¡Si! Vas a recibir un certificado expedido por Transistemas y los
           entes que participen de la certificación.
         </Dropdown>
+        <Dropdown type="basic" title="¿Los cursos son online o presenciales?">
+          Nuestros cursos se dictan de forma online para facilitar el acceso desde distintas regiones.
+        </Dropdown>
+        <Dropdown type="basic" title="¿Cuándo salen nuevos cursos?">
+          Los nuevos cursos se anuncian a través de nuestras redes, seguinos para enterarte.
+        </Dropdown>
       </div>
 
       <Footer />
