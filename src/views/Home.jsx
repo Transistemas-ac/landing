@@ -1,4 +1,4 @@
-import imgHero from "../assets/svg/img_transistemas.svg";
+import imgHero from "../assets/hero/inicio.svg";
 import Button from "../components/Button";
 import Footer from "../components/Footer";
 import Metrics from "../components/Metrics";
