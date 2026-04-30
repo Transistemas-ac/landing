@@ -23,6 +23,7 @@ function Button({
   className = "",
   children,
   onClick,
+  style,
   ...otherProps
 }) {
   const iconData = icon ? ICONS[icon] : null;
@@ -53,7 +54,7 @@ function Button({
 
   if (type === "link") {
     return (
-      <HashLink {...otherProps} to={href} className={buttonClassName}>
+      <HashLink {...otherProps} to={href} className={buttonClassName} style={style}>
         {content}
       </HashLink>
     );
@@ -67,6 +68,7 @@ function Button({
         type="text/html"
         className={buttonClassName}
         onClick={onClick}
+        style={style}
       >
         {content}
       </a>
@@ -79,6 +81,7 @@ function Button({
       type={type}
       className={buttonClassName}
       onClick={copy ? handleCopy : onClick}
+      style={style}
     >
       {content}
     </button>

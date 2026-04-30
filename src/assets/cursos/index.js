@@ -23,6 +23,8 @@ import img2024Testing from "./2024_testing.jpeg";
 import img2025Frontend from "./2025_frontend.jpg";
 import img2025Testing from "./2025_testing.jpg";
 
+import img2026Testing from "./2026_testing.png";
+
 export {
   img2020Alfabetizacion,
   img2020Capacitacion,
@@ -43,4 +45,5 @@ export {
   img2024Testing,
   img2025Frontend,
   img2025Testing,
+  img2026Testing
 };

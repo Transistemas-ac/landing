@@ -2,7 +2,7 @@ import { useParams } from "react-router-dom";
 import Button from "../components/Button";
 import Footer from "../components/Footer";
 import Dropdown from "../components/Dropdown";
-import { findCourseBySlug } from "../data/Courses";
+import { findCourseBySlug } from "../utils/coursesFunctions";
 import ErrorPage from "./ErrorPage";
 
 function CourseLanding() {
@@ -16,8 +16,7 @@ function CourseLanding() {
   const courseDate =
     course.date ||
     [course.fechaInicio, course.fechaFin].filter(Boolean).join(" - ");
-  const isFinalized =
-    course.status?.trim().toLowerCase() === "finalizado" || true;
+  const isFinalized = course.status?.trim().toLowerCase() === "finalizado";
 
   return (
     <div className="courses course-landing">
@@ -142,10 +141,12 @@ function CourseLanding() {
           entes que participen de la certificación.
         </Dropdown>
         <Dropdown type="basic" title="¿Los cursos son online o presenciales?">
-          Nuestros cursos se dictan de forma online para facilitar el acceso desde distintas regiones.
+          Nuestros cursos se dictan de forma online para facilitar el acceso
+          desde distintas regiones.
         </Dropdown>
         <Dropdown type="basic" title="¿Cuándo salen nuevos cursos?">
-          Los nuevos cursos se anuncian a través de nuestras redes, seguinos para enterarte.
+          Los nuevos cursos se anuncian a través de nuestras redes, seguinos
+          para enterarte.
         </Dropdown>
       </div>
 
