@@ -6,5 +6,7 @@ import pic5 from "./5.jpg";
 import pic6 from "./6.png";
 import pic7 from "./7.jpg";
 import pic8 from "./8.jpg";
+import pic9 from "./9.jpg";
+import pic10 from "./10.jpg";
 
-export { pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8 };
+export { pic1, pic2, pic3, pic4, pic5, pic6, pic7, pic8, pic9, pic10 };

@@ -6,7 +6,9 @@ import {
   pic5,
   pic6,
   pic7,
-  pic8
+  pic8,
+  pic9,
+  pic10
 } from "../assets/integrantes/index.js";
 
 const integrants = [
@@ -65,6 +67,20 @@ const integrants = [
     picture: pic8,
     team: "development",
     href: "https://www.linkedin.com/in/alexis-boscaroli/"
+  },
+  {
+    name: "Jésica González Baqué",
+    role: "Full-Stack Security Professional ",
+    picture: pic9,
+    team: "education",
+    href: "https://www.linkedin.com/in/jesicagonzalezbaque/"
+  },
+  {
+    name: "Milagros Cerro",
+    role: "QA Engineer",
+    picture: pic10,
+    team: "education",
+    href: "https://linkedin.com/in/milagros-cerro/"
   }
 ];
 
