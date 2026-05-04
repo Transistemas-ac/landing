@@ -8,7 +8,8 @@ import {
   pic7,
   pic8,
   pic9,
-  pic10
+  pic10,
+  pic11
 } from "../assets/integrantes/index.js";
 
 const integrants = [
@@ -81,6 +82,13 @@ const integrants = [
     picture: pic10,
     team: "education",
     href: "https://linkedin.com/in/milagros-cerro/"
+  },
+  {
+    name: "Victoria Musura",
+    role: "QA Analyst",
+    picture: pic11,
+    team: "education",
+    href: "https://www.linkedin.com/in/vicmusu/"
   }
 ];
 
