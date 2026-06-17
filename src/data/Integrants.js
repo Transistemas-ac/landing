@@ -9,7 +9,8 @@ import {
   pic8,
   pic9,
   pic10,
-  pic11
+  pic11,
+  pic12
 } from "../assets/integrantes/index.js";
 
 const integrants = [
@@ -28,11 +29,11 @@ const integrants = [
     href: "https://www.linkedin.com/in/damiancopello/"
   },
   {
-    name: "Jazmin de Zavaleta",
-    role: "Digital Designer",
+    name: "Micaela Reynoso",
+    role: "Diseñadora Grafica",
     picture: pic3,
     team: "design",
-    href: "https://www.linkedin.com/in/jazm%C3%ADn-de-zavaleta-1502a292/"
+    href: "https://www.linkedin.com/in/micaelapaulareynoso/"
   },
   {
     name: "Nadya Jerochim",
@@ -89,6 +90,13 @@ const integrants = [
     picture: pic11,
     team: "education",
     href: "https://www.linkedin.com/in/vicmusu/"
+  },
+  {
+    name: "Agustina Artemis Luna",
+    role: "QA Senior",
+    picture: pic12,
+    team: "education",
+    href: "/"
   }
 ];
 

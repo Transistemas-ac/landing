@@ -6,7 +6,7 @@ export default function Contact() {
       <form
         id="contact-form"
         className="contact-section-form"
-        action="https://formsubmit.co/contacto@transistemas.org"
+        action="https://formsubmit.co/equipo@transistemas.org"
         method="POST"
       >
         <fieldset className="contact-section-input-container">
