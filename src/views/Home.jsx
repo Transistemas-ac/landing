@@ -34,7 +34,7 @@ function Home() {
         <Button
           className="hero-section-button"
           type="link"
-          href="https://discord.gg/yuYpD6QW74"
+          href="https://discord.gg/FSAbrjsCbW"
         >
           Unirse a la comunidad
         </Button>
