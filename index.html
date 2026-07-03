@@ -5,10 +5,12 @@
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg?v=20260308" />
     <link rel="shortcut icon" href="/favicon.svg?v=20260308" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#6B2FB3" />
 
-    <title>Transistemas</title>
+    <title>Transistemas - Desarrollo web, diseño y testing</title>
 
     <meta
       name="description"
@@ -22,11 +24,21 @@
 
     <meta name="author" content="Transistemas" />
 
-    <meta name="robots" content="index, follow" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"
+    />
+
+    <meta name="google-site-verification" content="FX3J_qYmNIpeMPUCh4vlVZwm-R5JOgYZFviSBsHMZSA" />
 
     <link rel="canonical" href="https://transistemas.org" />
 
+    <link rel="preconnect" href="https://formsubmit.co" />
+    <link rel="preconnect" href="https://forms.gle" />
+
     <!-- Open Graph -->
+    <meta property="og:site_name" content="Transistemas" />
+    <meta property="og:locale" content="es_AR" />
     <meta property="og:title" content="Transistemas" />
     <meta
       property="og:description"
@@ -34,10 +46,18 @@
     />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://transistemas.org" />
-    <meta property="og:image" content="https://transistemas.org/og-image.png" />
+    <meta
+      property="og:image"
+      content="https://transistemas.org/og-image.png"
+    />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Transistemas: formación y servicios IT con impacto social" />
+    <meta property="og:image:type" content="image/png" />
 
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@Transistemas1" />
     <meta name="twitter:title" content="Transistemas" />
     <meta
       name="twitter:description"
@@ -47,52 +67,80 @@
       name="twitter:image"
       content="https://transistemas.org/og-image.png"
     />
+    <meta name="twitter:image:alt" content="Transistemas: formación y servicios IT con impacto social" />
+
     <script type="application/ld+json">
       {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Transistemas",
-        "url": "https://transistemas.org",
-        "logo": "https://transistemas.org/icon.svg",
-        "description": "Equipo tecnológico que ofrece servicios de desarrollo de software, diseño y testing para empresas y organizaciones, mientras impulsa la formación y la inserción laboral en la industria IT.",
-        "foundingDate": "2019",
-        "areaServed": "Worldwide",
-        "sameAs": [
-          "https://x.com/Transistemas1",
-          "https://instagram.com/transistemas",
-          "https://www.linkedin.com/company/transistemasok",
-          "https://www.facebook.com/Transistemas",
-          "https://www.tiktok.com/@transistemas"
-        ],
-        "knowsAbout": [
-          "software development",
-          "web development",
-          "software testing",
-          "quality assurance",
-          "UX design",
-          "UI design"
-        ],
-        "makesOffer": [
+        "@context": "https://www.schema.org",
+        "@graph": [
           {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Desarrollo de software"
-            }
+            "@type": "Organization",
+            "@id": "https://transistemas.org/#organization",
+            "name": "Transistemas",
+            "url": "https://transistemas.org",
+            "logo": {
+              "@type": "ImageObject",
+              "url": "https://transistemas.org/favicon.svg"
+            },
+            "description": "Equipo tecnológico que ofrece servicios de desarrollo de software, diseño y testing para empresas y organizaciones, mientras impulsa la formación y la inserción laboral en la industria IT.",
+            "foundingDate": "2019",
+            "areaServed": { "@type": "Country", "name": "Argentina" },
+            "address": {
+              "@type": "PostalAddress",
+              "addressCountry": "AR"
+            },
+            "contactPoint": {
+              "@type": "ContactPoint",
+              "email": "equipo@transistemas.org",
+              "contactType": "customer support",
+              "url": "https://transistemas.org/"
+            },
+            "sameAs": [
+              "https://x.com/Transistemas1",
+              "https://instagram.com/transistemas",
+              "https://www.linkedin.com/company/transistemasok",
+              "https://www.facebook.com/Transistemas",
+              "https://www.tiktok.com/@transistemas"
+            ],
+            "knowsAbout": [
+              "software development",
+              "web development",
+              "software testing",
+              "quality assurance",
+              "UX design",
+              "UI design"
+            ],
+            "makesOffer": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Desarrollo de software"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Diseño UX/UI"
+                }
+              },
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Testing y QA"
+                }
+              }
+            ]
           },
           {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Diseño UX/UI"
-            }
-          },
-          {
-            "@type": "Offer",
-            "itemOffered": {
-              "@type": "Service",
-              "name": "Testing y QA"
-            }
+            "@type": "WebSite",
+            "@id": "https://transistemas.org/#website",
+            "url": "https://transistemas.org",
+            "name": "Transistemas",
+            "inLanguage": "es-AR",
+            "publisher": { "@id": "https://transistemas.org/#organization" }
           }
         ]
       }

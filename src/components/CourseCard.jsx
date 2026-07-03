@@ -35,7 +35,7 @@ function CourseCard({
   return (
     <div className="course-card">
       <HashLink to={courseLink} className="course-card-link">
-        <h1 className="course-card-title">{courseTitle}</h1>
+        <h3 className="course-card-title">{courseTitle}</h3>
 
         <img className="course-card-image" src={courseImg} alt={courseTitle} />
 

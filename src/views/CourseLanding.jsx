@@ -2,8 +2,69 @@ import { useParams } from "react-router-dom";
 import Button from "../components/Button";
 import Footer from "../components/Footer";
 import Dropdown from "../components/Dropdown";
-import { findCourseBySlug } from "../utils/coursesFunctions";
+import { findCourseBySlug, getCourseSlugFromPath } from "../utils/coursesFunctions";
 import ErrorPage from "./ErrorPage";
+import Seo from "../components/Seo";
+import { SITE_URL, organizationId } from "../utils/seo";
+import Breadcrumb from "../components/Breadcrumb";
+import { buildBreadcrumbSchema } from "../utils/breadcrumb";
+
+const faqItems = [
+  {
+    question: "¿Cuál es el costo de los cursos?",
+    answer:
+      "Los cursos son gratuitos y no tienen coste de emisión de certificado."
+  },
+  {
+    question: "¿Quiénes pueden anotarse a los cursos?",
+    answer:
+      "Cualquier persona interesada, damos prioridad a personas del colectivo LGTBIQ+."
+  },
+  {
+    question: "¿Si termino el curso recibo un certificado?",
+    answer:
+      "¡Si! Vas a recibir un certificado expedido por Transistemas y los entes que participen de la certificación."
+  },
+  {
+    question: "¿Los cursos son online o presenciales?",
+    answer:
+      "Nuestros cursos se dictan de forma online para facilitar el acceso desde distintas regiones."
+  },
+  {
+    question: "¿Cuándo salen nuevos cursos?",
+    answer:
+      "Los nuevos cursos se anuncian a través de nuestras redes, seguinos para enterarte."
+  }
+];
+
+const parseDate = (dateStr) => {
+  if (!dateStr) return null;
+  const match = dateStr.match(/^(\d{2})\/(\d{2})\/(\d{4})$/);
+  if (!match) return null;
+  return `${match[3]}-${match[2]}-${match[1]}`;
+};
+
+const buildSchedule = (horario) => {
+  if (!horario) return null;
+  const weekdayMatch = horario.match(/^([A-Za-záéíóúÁÉÍÓÚ&]+)/);
+  const timeMatch = horario.match(/(\d{1,2}(?::\d{2})?\s*a\s*\d{1,2}(?::\d{2})?)/);
+  return {
+    ...(weekdayMatch && { byDay: weekdayMatch[1].replace(/\s+/g, " ").trim() }),
+    ...(timeMatch && { startTime: timeMatch[1] })
+  };
+};
+
+const faqSchema = {
+  "@type": "FAQPage",
+  mainEntity: faqItems.map(({ question, answer }) => ({
+    "@type": "Question",
+    name: question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: answer
+    }
+  }))
+};
 
 function CourseLanding() {
   const { courseSlug = "" } = useParams();
@@ -17,10 +78,84 @@ function CourseLanding() {
     course.date ||
     [course.fechaInicio, course.fechaFin].filter(Boolean).join(" - ");
   const isFinalized = course.status?.trim().toLowerCase() === "finalizado";
+  const slug = getCourseSlugFromPath(course.links?.[0] || "");
+  const path = `/cursos/${slug}`;
+  const courseUrl = `${SITE_URL}${path}`;
+  const courseImage = course.img
+    ? course.img.startsWith("http")
+      ? course.img
+      : course.img
+    : `${SITE_URL}/og-image.png`;
+
+  const startDate = parseDate(course.fechaInicio);
+  const endDate = parseDate(course.fechaFin);
+  const schedule = buildSchedule(course.horario);
+
+  const courseSchema = {
+    "@type": "Course",
+    "@id": `${courseUrl}#course`,
+    name: course.title,
+    description:
+      course.description ||
+      `Curso de ${course.title} brindado por Transistemas.`,
+    provider: { "@id": organizationId },
+    inLanguage: "es-AR",
+    isAccessibleForFree: true,
+    hasCourseInstance: {
+      "@type": "CourseInstance",
+      courseMode: "online",
+      courseWorkload: course.duration,
+      ...(startDate && { startDate }),
+      ...(endDate && { endDate }),
+      ...(schedule && { courseSchedule: schedule }),
+      ...(course.signupHref && {
+        offers: {
+          "@type": "Offer",
+          price: "0",
+          priceCurrency: "ARS",
+          url: course.signupHref,
+          availability: isFinalized
+            ? "https://schema.org/SoldOut"
+            : "https://schema.org/InStock",
+          validFrom: startDate || undefined
+        }
+      }),
+      instructor: {
+        "@type": "Organization",
+        name: course.teachers || "Equipo de Educación de Transistemas"
+      }
+    }
+  };
+
+  const breadcrumbItems = [
+    { name: "Inicio", url: `${SITE_URL}/` },
+    { name: "Cursos", url: `${SITE_URL}/cursos` },
+    { name: course.title, url: courseUrl }
+  ];
 
   return (
     <div className="courses course-landing">
+      <Seo
+        title={course.title}
+        description={
+          course.description ||
+          `${course.title}: curso gratuito de Transistemas. ${courseDate ? `Fechas: ${courseDate}.` : ""} ${
+            course.duration ? `Duración: ${course.duration}.` : ""
+          } Inscripción abierta con prioridad para la comunidad LGBTIQ+.`
+        }
+        path={path}
+        image={courseImage}
+        type="article"
+        schema={[
+          courseSchema,
+          { ...faqSchema, "@id": `${courseUrl}#faq` },
+          buildBreadcrumbSchema(breadcrumbItems)
+        ]}
+      />
+
       <div className="courses-section course-landing-section">
+        <Breadcrumb items={breadcrumbItems} />
+
         <div className="course-landing-content">
           <div className="course-landing-header">
             <h1 className="course-landing-title">{course.title}</h1>
@@ -118,6 +253,8 @@ function CourseLanding() {
                   className="course-landing-image"
                   src={course.img}
                   alt={course.title}
+                  loading="lazy"
+                  decoding="async"
                 />
               </div>
             </div>
@@ -126,28 +263,12 @@ function CourseLanding() {
       </div>
 
       <div className="course-landing-faq">
-        <Dropdown type="basic" title="¿Cuál es el costo de los cursos?">
-          Los cursos son gratuitos y no tienen coste de emisión de certificado.
-        </Dropdown>
-        <Dropdown type="basic" title="¿Quiénes pueden anotarse a los cursos?">
-          Cualquier persona interesada, damos prioridad a personas del colectivo
-          LGTBIQ+.
-        </Dropdown>
-        <Dropdown
-          type="basic"
-          title="¿Si termino el curso recibo un certificado?"
-        >
-          ¡Si! Vas a recibir un certificado expedido por Transistemas y los
-          entes que participen de la certificación.
-        </Dropdown>
-        <Dropdown type="basic" title="¿Los cursos son online o presenciales?">
-          Nuestros cursos se dictan de forma online para facilitar el acceso
-          desde distintas regiones.
-        </Dropdown>
-        <Dropdown type="basic" title="¿Cuándo salen nuevos cursos?">
-          Los nuevos cursos se anuncian a través de nuestras redes, seguinos
-          para enterarte.
-        </Dropdown>
+        <h2 className="faq-section-title">Preguntas frecuentes</h2>
+        {faqItems.map(({ question, answer }) => (
+          <Dropdown type="basic" title={question} key={question}>
+            {answer}
+          </Dropdown>
+        ))}
       </div>
 
       <Footer />

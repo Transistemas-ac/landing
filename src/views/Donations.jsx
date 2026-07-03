@@ -53,7 +53,7 @@ function Donations() {
         </Button>
       </Card>
 
-      <h1 className="donation-title">Donación única</h1>
+      <h2 className="donation-title">Donación única</h2>
       <Card className="donation-card" type="basic" divider={true}>
         <h3 className="donation-card-title">A través de Mercado Pago</h3>
         <Button
@@ -106,7 +106,7 @@ function Donations() {
         </Button>
       </Card>
 
-      <h1 className="transfer-title">Transferencia</h1>
+      <h2 className="transfer-title">Transferencia</h2>
       <Card className="transfer-card" type="basic" divider={true}>
         <span>
           <h3 className="transfer-card-title">Asociación Transistemas</h3>
@@ -132,7 +132,7 @@ function Donations() {
         </Button>
       </Card>
 
-      <h1 className="metrics-title">Nuestro impacto</h1>
+      <h2 className="metrics-title">Nuestro impacto</h2>
       <Metrics />
 
       <Footer />

@@ -4,24 +4,119 @@ import Dropdown from "../components/Dropdown";
 import Footer from "../components/Footer";
 import { SwiperHOC } from "../components/HOC/SwiperHOC";
 import { Pagination } from "swiper/modules";
+import Seo from "../components/Seo";
+import { SITE_URL, organizationId } from "../utils/seo";
+import Breadcrumb from "../components/Breadcrumb";
+import { buildBreadcrumbSchema } from "../utils/breadcrumb";
+
+const faqItems = [
+  {
+    question: "¿Cuál es el costo de los cursos?",
+    answer:
+      "Los cursos son gratuitos y no tienen coste de emisión de certificado."
+  },
+  {
+    question: "¿Quiénes pueden anotarse a los cursos?",
+    answer:
+      "Cualquier persona interesada, damos prioridad a personas del colectivo LGTBIQ+."
+  },
+  {
+    question: "¿Si termino el curso recibo un certificado?",
+    answer:
+      "¡Si! Vas a recibir un certificado expedido por Transistemas y los entes que participen de la certificación."
+  },
+  {
+    question: "¿Los cursos son online o presenciales?",
+    answer:
+      "Nuestros cursos se dictan de forma online para facilitar el acceso desde distintas regiones."
+  },
+  {
+    question: "¿Cuándo salen nuevos cursos?",
+    answer:
+      "Los nuevos cursos se anuncian a través de nuestras redes, seguinos para enterarte."
+  }
+];
+
+const faqSchema = {
+  "@type": "FAQPage",
+  mainEntity: faqItems.map(({ question, answer }) => ({
+    "@type": "Question",
+    name: question,
+    acceptedAnswer: {
+      "@type": "Answer",
+      text: answer
+    }
+  }))
+};
+
+const breadcrumbItems = [
+  { name: "Inicio", url: `${SITE_URL}/` },
+  { name: "Cursos", url: `${SITE_URL}/cursos` }
+];
+
+const courseListSchema = {
+  "@type": "ItemList",
+  name: "Cursos y talleres de Transistemas",
+  itemListOrder: "https://schema.org/ItemListUnordered",
+  numberOfItems: 3,
+  itemListElement: [
+    {
+      "@type": "ListItem",
+      position: 1,
+      name: "Testing",
+      url: `${SITE_URL}/cursos`
+    },
+    {
+      "@type": "ListItem",
+      position: 2,
+      name: "Programación",
+      url: `${SITE_URL}/cursos`
+    },
+    {
+      "@type": "ListItem",
+      position: 3,
+      name: "Diseño UX/UI",
+      url: `${SITE_URL}/cursos`
+    }
+  ]
+};
 
 function Courses() {
   return (
     <div className="courses">
+      <Seo
+        title="Cursos gratuitos de tecnología"
+        description="Cursos y talleres gratuitos en Testing, Programación y Diseño para la comunidad LGBTIQ+ y todas las personas interesadas. Inscripción abierta con prioridad para el colectivo LGBTIQ+."
+        path="/cursos"
+        schema={[
+          { ...faqSchema, "@id": `${SITE_URL}/cursos#faq` },
+          {
+            ...courseListSchema,
+            "@id": `${SITE_URL}/cursos#courses`,
+            provider: { "@id": organizationId }
+          },
+          buildBreadcrumbSchema(breadcrumbItems)
+        ]}
+      />
+
       <div className="courses-section">
+        <Breadcrumb items={breadcrumbItems} />
+
         <h1 className="courses-section-title">Cursos y Talleres</h1>
-        <h4 className="courses-section-description">
+        <p className="courses-section-description">
           Brindamos capacitaciones gratuitas en Testing, Programación y Diseño
           para formar a nuestra comunidad y facilitar su inserción laboral.
           <br></br>
           Nuestros cursos son gratuitos y cualquiera puede anotarse pero damos
           prioridad a personas del colectivo LGTBIQ+
-        </h4>
+        </p>
 
         <img
           className="courses-section-image"
           src={imgCursos}
-          alt="Ilustración de cursos"
+          alt="Ilustración de cursos y talleres de Transistemas"
+          loading="lazy"
+          decoding="async"
         />
 
         <SwiperHOC
@@ -37,26 +132,11 @@ function Courses() {
 
       <div className="faq-section">
         <h2 className="faq-section-title">Preguntas frecuentes</h2>
-        <Dropdown type="basic" title="¿Cuál es el costo de los cursos?">
-          Los cursos son gratuitos y no tienen coste de emisión de certificado.
-        </Dropdown>
-        <Dropdown type="basic" title="¿Quiénes pueden anotarse a los cursos?">
-          Cualquier persona interesada, damos prioridad a personas del colectivo
-          LGTBIQ+.
-        </Dropdown>
-        <Dropdown
-          type="basic"
-          title="¿Si termino el curso recibo un certificado?"
-        >
-          ¡Si! Vas a recibir un certificado expedido por Transistemas y los
-          entes que participen de la certificación.
-        </Dropdown>
-        <Dropdown type="basic" title="¿Los cursos son online o presenciales?">
-          Nuestros cursos se dictan de forma online para facilitar el acceso desde distintas regiones.
-        </Dropdown>
-        <Dropdown type="basic" title="¿Cuándo salen nuevos cursos?">
-          Los nuevos cursos se anuncian a través de nuestras redes, seguinos para enterarte.
-        </Dropdown>
+        {faqItems.map(({ question, answer }) => (
+          <Dropdown type="basic" title={question} key={question}>
+            {answer}
+          </Dropdown>
+        ))}
       </div>
 
       <Footer />

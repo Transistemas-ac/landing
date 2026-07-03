@@ -79,4 +79,4 @@ const findCourseBySlug = (courseSlug = "") =>
     (course) => getCourseSlugFromPath(course.links?.[0]) === courseSlug
   );
 
-export { findCourseBySlug, normalizeCourseLinks };
+export { findCourseBySlug, normalizeCourseLinks, getCourseSlugFromPath };

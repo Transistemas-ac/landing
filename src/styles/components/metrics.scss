@@ -17,6 +17,8 @@
 
     .metrics-value {
       color: $yellow;
+      font-size: 2rem;
+      font-weight: 700;
     }
 
     .metrics-title {
@@ -31,5 +33,11 @@
     justify-content: space-between;
     text-align: center;
     width: 80%;
+
+    .metrics-item {
+      .metrics-value {
+        font-size: 2.5rem;
+      }
+    }
   }
 }

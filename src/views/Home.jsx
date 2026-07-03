@@ -6,15 +6,26 @@ import Contact from "../components/Contact";
 import { SwiperHOC } from "../components/HOC/SwiperHOC";
 import { HomeSlides } from "../components/Slides";
 import { Pagination } from "swiper/modules";
+import Seo from "../components/Seo";
 
 function Home() {
   return (
     <div className="home">
+      <Seo
+        title="Transistemas — Formación y servicios IT con impacto social"
+        description="Equipo profesional y diverso que impulsa la formación tecnológica gratuita y la inserción laboral de la comunidad LGBTIQ+ en la industria IT. Ofrecemos servicios de desarrollo de software, diseño UX/UI y testing para empresas y organizaciones."
+        path="/"
+      />
+
       <div className="hero-section">
+        <h1 className="visually-hidden">
+          Transistemas: formación tecnológica y servicios IT con impacto social
+        </h1>
         <img
           src={imgHero}
           className="hero-section-illustration"
-          alt="Transistemas ilustración"
+          alt="Ilustración de Transistemas"
+          decoding="async"
         />
 
         <p className="hero-section-description">
@@ -41,7 +52,7 @@ function Home() {
       </div>
 
       <div className="cards-section">
-        <h1 className="cards-section-title">Que hacemos</h1>
+        <h2 className="cards-section-title">Que hacemos</h2>
         <SwiperHOC
           modules={[Pagination]}
           spaceBetween={32}
@@ -53,7 +64,7 @@ function Home() {
 
       <Metrics />
 
-      <h3 className="contact-section-title">¡Dejanos tu mensaje!</h3>
+      <h2 className="contact-section-title">¡Dejanos tu mensaje!</h2>
 
       <Contact />
 
