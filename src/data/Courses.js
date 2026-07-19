@@ -34,7 +34,7 @@ const coursesData = [
     curriculumHref: "",
     signupHref: "https://forms.gle/R6igKvR371EqwBxQ8",
     links: ["https://www.instagram.com/p/DXwecydAM2K"],
-    status: "Próximamente"
+    status: "Finalizado"
   },
   {
     title: "Curso de Testing Manual",
