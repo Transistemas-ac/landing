@@ -5,78 +5,56 @@ import iconTikTokOutline from "../assets/svg/media_tiktok_outline.svg";
 import iconLinkedinOutline from "../assets/svg/media_linkedin_outline.svg";
 import iconDiscordOutline from "../assets/svg/media_discord_outline.svg";
 
+const SOCIAL_LINKS = [
+  {
+    href: "https://www.instagram.com/transistemas/",
+    icon: iconInstagramOutline,
+    label: "Visitar Instagram de Transistemas"
+  },
+  {
+    href: "https://www.facebook.com/Transistemas",
+    icon: iconFacebookOutline,
+    label: "Visitar Facebook de Transistemas"
+  },
+  {
+    href: "https://x.com/Transistemas1",
+    icon: iconTwitterOutline,
+    label: "Visitar X (Twitter) de Transistemas"
+  },
+  {
+    href: "https://www.tiktok.com/@transistemas",
+    icon: iconTikTokOutline,
+    label: "Visitar TikTok de Transistemas"
+  },
+  {
+    href: "https://www.linkedin.com/company/transistemasok/",
+    icon: iconLinkedinOutline,
+    label: "Visitar LinkedIn de Transistemas"
+  },
+  {
+    href: "https://discord.gg/FSAbrjsCbW",
+    icon: iconDiscordOutline,
+    label: "Unirse al Discord de Transistemas"
+  }
+];
+
 function Footer() {
   return (
-    <div className="footer">
+    <footer className="footer">
       <div className="footer-icon-container">
-        <a
-          href="https://www.instagram.com/transistemas/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            className="footer-icon"
-            src={iconInstagramOutline}
-            alt="Ícono de Instagram"
-          />
-        </a>
-        <a
-          href="https://www.facebook.com/Transistemas"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            className="footer-icon"
-            src={iconFacebookOutline}
-            alt="Ícono de Facebook"
-          />
-        </a>
-
-        <a href="https://x.com/Transistemas1" target="_blank" rel="noreferrer">
-          <img
-            className="footer-icon"
-            src={iconTwitterOutline}
-            alt="Ícono de Twitter"
-          />
-        </a>
-
-        <a
-          href="https://www.tiktok.com/@transistemas"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            className="footer-icon"
-            src={iconTikTokOutline}
-            alt="Ícono de TikTok"
-          />
-        </a>
-
-        <a
-          href="https://www.linkedin.com/company/transistemasok/"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            className="footer-icon"
-            src={iconLinkedinOutline}
-            alt="Ícono de LinkedIn"
-          />
-        </a>
-
-        <a
-          href="https://discord.gg/FSAbrjsCbW"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            className="footer-icon"
-            src={iconDiscordOutline}
-            alt="Ícono de Discord"
-          />
-        </a>
+        {SOCIAL_LINKS.map(({ href, icon, label }) => (
+          <a
+            key={href}
+            href={href}
+            target="_blank"
+            rel="noreferrer"
+            aria-label={label}
+          >
+            <img className="footer-icon" src={icon} alt="" />
+          </a>
+        ))}
       </div>
-    </div>
+    </footer>
   );
 }
 

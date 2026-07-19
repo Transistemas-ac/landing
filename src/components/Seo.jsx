@@ -18,7 +18,8 @@ const Seo = ({
   schema,
   schemaId
 }) => {
-  const fullUrl = `${SITE_URL}${path.toLowerCase()}`;
+  const lowerPath = path.toLowerCase();
+  const fullUrl = lowerPath === "/" ? SITE_URL : `${SITE_URL}${lowerPath}`;
   const fullTitle = title
     ? title.includes(SITE_NAME)
       ? title
@@ -58,6 +59,8 @@ const Seo = ({
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={resolvedImage} />
+      <meta name="twitter:image:width" content="1200" />
+      <meta name="twitter:image:height" content="630" />
       <meta name="twitter:image:alt" content={fullTitle} />
       <meta name="twitter:site" content="@Transistemas1" />
 

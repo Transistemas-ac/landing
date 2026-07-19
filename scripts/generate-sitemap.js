@@ -10,6 +10,8 @@ const COURSES_FILE = path.join(ROOT, "src", "data", "Courses.js");
 
 const SITE_URL = "https://transistemas.org";
 const today = new Date().toISOString().slice(0, 10);
+const currentYear = new Date().getUTCFullYear();
+const STALE_COURSE_YEARS = 2;
 
 const dateToIso = (dateStr) => {
   if (!dateStr) return today;
@@ -33,6 +35,12 @@ const getYearFromDate = (dateStr = "") => {
   if (!dateStr) return "";
   const match = dateStr.match(/(\d{4})/);
   return match ? match[1] : "";
+};
+
+const isStaleCourse = (dateStr = "") => {
+  const year = parseInt(getYearFromDate(dateStr), 10);
+  if (!year) return true;
+  return currentYear - year >= STALE_COURSE_YEARS;
 };
 
 const extractCourses = (source) => {
@@ -78,11 +86,14 @@ const computeCoursePaths = (courses) => {
 };
 
 const staticRoutes = [
-  { loc: "/", changefreq: "weekly", priority: "1.0" },
+  { loc: "", changefreq: "weekly", priority: "1.0" },
   { loc: "/cursos", changefreq: "weekly", priority: "0.9" },
   { loc: "/servicios", changefreq: "weekly", priority: "0.9" },
   { loc: "/equipos", changefreq: "monthly", priority: "0.8" }
 ];
+
+const renderUrl = ({ loc, lastmod, changefreq, priority }) =>
+  `  <url>\n    <loc>${SITE_URL}${loc}</loc>\n    <lastmod>${lastmod || today}</lastmod>\n    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`;
 
 const generate = async () => {
   const source = await fs.readFile(COURSES_FILE, "utf-8");
@@ -93,24 +104,21 @@ const generate = async () => {
     loc,
     lastmod: dateToIso(courses[i].fechaInicio),
     changefreq: "monthly",
-    priority: "0.7"
+    priority: isStaleCourse(courses[i].fechaInicio) ? "0.3" : "0.7"
   }));
 
   const allUrls = [...staticRoutes, ...courseUrls];
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-${allUrls
-  .map(
-    ({ loc, lastmod, changefreq, priority }) =>
-      `  <url>\n    <loc>${SITE_URL}${loc}</loc>\n    <lastmod>${lastmod || today}</lastmod>\n    <changefreq>${changefreq}</changefreq>\n    <priority>${priority}</priority>\n  </url>`
-  )
-  .join("\n")}
+${allUrls.map(renderUrl).join("\n")}
 </urlset>
 `;
 
   await fs.writeFile(path.join(PUBLIC, "sitemap.xml"), xml);
-  console.log(`  sitemap.xml       (${allUrls.length} URLs: ${staticRoutes.length} static, ${courseUrls.length} courses)`);
+  console.log(
+    `  sitemap.xml       (${allUrls.length} URLs: ${staticRoutes.length} static, ${courseUrls.length} courses)`
+  );
 };
 
 generate()

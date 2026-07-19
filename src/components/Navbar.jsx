@@ -63,7 +63,7 @@ function Navbar() {
 
       <div className="navbar-inner-container">
         <HashLink to={"/"} className="navbar-logo" onClick={closeMenu}>
-          <img src={transistemasLogo} alt="logo" />
+          <img src={transistemasLogo} alt="Transistemas" />
         </HashLink>
         <button type="button" className="navbar-menu-button" onClick={toggleMenu}>
           <div className="navbar-menu-icon"></div>

@@ -20,7 +20,7 @@ function Integrant(props) {
       />
 
       <div className="integrant-info-container">
-        <h3 className="integrant-name">{props.name}</h3>
+        <h2 className="integrant-name">{props.name}</h2>
 
         <p className="integrant-occupation">{props.occupation}</p>
       </div>
