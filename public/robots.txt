@@ -1,6 +1,9 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
-Disallow:
+Disallow: /*?trk=
+Disallow: /*?utm_
+Disallow: /*?fbclid=
+Disallow: /*?gclid=
 Allow: /
 
 Sitemap: https://transistemas.org/sitemap.xml

@@ -1,5 +1,5 @@
 import { HashLink } from "react-router-hash-link";
-import { snackbar } from "./Snackbar";
+import snackbar from "./snackbar";
 
 import iconSend from "../assets/svg/icon_send.svg";
 import iconMail from "../assets/svg/icon_mail.svg";

@@ -18,7 +18,7 @@ const Seo = ({
   schema,
   schemaId
 }) => {
-  const fullUrl = `${SITE_URL}${path}`;
+  const fullUrl = `${SITE_URL}${path.toLowerCase()}`;
   const fullTitle = title
     ? title.includes(SITE_NAME)
       ? title

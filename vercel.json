@@ -1,4 +1,18 @@
 {
+  "redirects": [
+    {
+      "source": "/:path(.*)",
+      "has": [{ "type": "host", "value": "www\\.transistemas\\.org" }],
+      "destination": "https://transistemas.org/:path",
+      "statusCode": 301
+    },
+    {
+      "source": "/:path(.*)",
+      "has": [{ "type": "scheme", "value": "http" }],
+      "destination": "https://transistemas.org/:path",
+      "statusCode": 301
+    }
+  ],
   "rewrites": [
     {
       "source": "/(.*)",
