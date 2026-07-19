@@ -7,12 +7,6 @@
       "statusCode": 301
     },
     {
-      "source": "/:path(.*)",
-      "has": [{ "type": "scheme", "value": "http" }],
-      "destination": "https://transistemas.org/:path",
-      "statusCode": 301
-    },
-    {
       "source": "/servicios/:path*",
       "destination": "/services/:path*",
       "statusCode": 301
