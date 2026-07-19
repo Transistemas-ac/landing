@@ -1,8 +1,9 @@
-import servicesImage from "../assets/hero/servicios.png";
+import servicesImage from "../assets/hero/services.png";
 import Card from "../components/Card";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-import { serviceOfferings, workflowSteps } from "../data/Servicios";
+import Dropdown from "../components/Dropdown";
+import { serviceOfferings, workflowSteps } from "../data/Services";
 import Seo from "../components/Seo";
 import { SITE_URL, organizationId } from "../utils/seo";
 import Breadcrumb from "../components/Breadcrumb";
@@ -16,7 +17,7 @@ const serviceSchemaByName = (name) => {
     .replace(/[\u0300-\u036f]/g, "")
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/(^-|-$)/g, "");
-  return `${SITE_URL}/servicios#${slug}`;
+  return `${SITE_URL}/services#${slug}`;
 };
 
 const serviceSchemas = serviceOfferings.map(({ title, description }) => ({
@@ -30,14 +31,14 @@ const serviceSchemas = serviceOfferings.map(({ title, description }) => ({
   serviceType: title,
   availableChannel: {
     "@type": "ServiceChannel",
-    serviceUrl: `${SITE_URL}/servicios`
+    serviceUrl: `${SITE_URL}/services`
   }
 }));
 
 const faqSchema = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
-  "@id": `${SITE_URL}/servicios#faq`,
+  "@id": `${SITE_URL}/services#faq`,
   mainEntity: faqItems.map(({ question, answer }) => ({
     "@type": "Question",
     name: question,
@@ -50,16 +51,16 @@ const faqSchema = {
 
 const breadcrumbItems = [
   { name: "Inicio", url: `${SITE_URL}/` },
-  { name: "Servicios", url: `${SITE_URL}/servicios` }
+  { name: "Servicios", url: `${SITE_URL}/services` }
 ];
 
-function Servicios() {
+function Services() {
   return (
-    <div className="servicios">
+    <div className="services">
       <Seo
         title="Servicios de desarrollo, diseño y testing"
         description="Construimos productos digitales inclusivos: desarrollo de software a medida, diseño UX/UI accesible y testing funcional. Servicios para empresas y organizaciones sociales en Argentina y la región."
-        path="/servicios"
+        path="/services"
         schema={[
           ...serviceSchemas,
           faqSchema,
@@ -120,9 +121,18 @@ function Servicios() {
         <Contact />
       </section>
 
+      <div className="faq-section">
+        <h2 className="faq-section-title">Preguntas frecuentes</h2>
+        {faqItems.map(({ question, answer }) => (
+          <Dropdown type="basic" title={question} key={question}>
+            {answer}
+          </Dropdown>
+        ))}
+      </div>
+
       <Footer />
     </div>
   );
 }
 
-export default Servicios;
+export default Services;

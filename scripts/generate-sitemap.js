@@ -88,7 +88,7 @@ const computeCoursePaths = (courses) => {
 const staticRoutes = [
   { loc: "", changefreq: "weekly", priority: "1.0" },
   { loc: "/cursos", changefreq: "weekly", priority: "0.9" },
-  { loc: "/servicios", changefreq: "weekly", priority: "0.9" },
+  { loc: "/services", changefreq: "weekly", priority: "0.9" },
   { loc: "/equipos", changefreq: "monthly", priority: "0.8" }
 ];
 

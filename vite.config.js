@@ -7,18 +7,13 @@ const runScript = (script) => {
   execSync(`node ${script}`, { stdio: "inherit" });
 };
 
-const prebuild = () => {
-  runScript("scripts/generate-sitemap.js");
-  runScript("scripts/generate-assets.js");
-};
-
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
     {
       name: "transistemas-seo-prebuild",
       buildStart() {
-        prebuild();
+        runScript("scripts/generate-sitemap.js");
       }
     },
     react()

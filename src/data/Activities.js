@@ -20,7 +20,7 @@ const activities = [
     description:
       "Ofrecemos servicios de desarrollo de software, diseño y testing para organizaciones sociales y empresas de distintos sectores.",
     link: "Ver más",
-    href: "/servicios",
+    href: "/services",
   },
 
   {

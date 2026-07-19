@@ -6,7 +6,7 @@ import LoadingScreen from "../views/LoadingScreen";
 const HomeView = lazy(() => import("../views/Home"));
 const CoursesView = lazy(() => import("../views/Courses"));
 const CourseLandingView = lazy(() => import("../views/CourseLanding"));
-const ServiciosView = lazy(() => import("../views/Servicios"));
+const ServicesView = lazy(() => import("../views/Services"));
 const EquiposView = lazy(() => import("../views/Equipos"));
 
 const getRouteElement = (Component) => (
@@ -37,8 +37,8 @@ const routes = [
   },
   {
     name: "Servicios",
-    path: "/servicios",
-    element: getRouteElement(ServiciosView),
+    path: "/services",
+    element: getRouteElement(ServicesView),
     className: "services",
   },
   {
