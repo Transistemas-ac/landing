@@ -13,7 +13,7 @@ export default defineConfig({
     {
       name: "transistemas-seo-prebuild",
       buildStart() {
-        runScript("scripts/generate-sitemap.js");
+        runScript("src/utils/generate-sitemap.js");
       }
     },
     react()
