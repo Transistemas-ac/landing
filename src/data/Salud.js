@@ -1,12 +1,12 @@
 const Salud = [
   {
     nombre: "Hospital Saturnino E. Unzué",
-    especialidad: "Hormonización, Atención Integral",
+    especialidad: "Hormonización, Atención a Infancias, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "25 de Mayo",
     direccion: "Calle 37 entre 1 y 101",
     telefono: "(2345) 462267 / 464849",
-    correo: "info@hospitalunzue.com.ar "
+    correo: "info@hospitalunzue.com.ar"
   },
   {
     nombre:
@@ -56,6 +56,16 @@ const Salud = [
     correo: "direccion-melendez@ms.gba.gov.ar"
   },
   {
+    nombre: "Hospital Dr. Arturo Oñativia",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Buenos Aires",
+    ciudad: "Almirante Brown, Rafael Calzada",
+    direccion: "Dr. Ramón Carrillo 1339",
+    telefono: "4219-5079 / 4219-5040 / 4219-5046/7/8",
+    correo: "onativia@ms.gba.gov.ar"
+  },
+  {
     nombre: "Hospital Interzonal General de Agudos Dr. Pedro Fiorito",
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
@@ -65,6 +75,15 @@ const Salud = [
     correo: "comunicacion@hosfio@org.ar"
   },
   {
+    nombre: "Centro Municipal de Cuidado Familiar y Comunitario Villa Azul",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Buenos Aires",
+    ciudad: "Avellaneda, Wilde",
+    direccion: "Av. Ramón Franco 6459",
+    telefono: "4220-4910 / 2004-1009",
+    correo: ""
+  },
+  {
     nombre: "Sala Periférica de Atención Primaria Eva Perón",
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
@@ -72,6 +91,17 @@ const Salud = [
     direccion: "Av. Solanet 300 (esq. Somigliana)",
     telefono: "(249) 455-4948",
     correo: "saludayacucho@gmail.com"
+  },
+  {
+    nombre: "Espacio Integral para la Diversidad",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Buenos Aires",
+    ciudad: "Azul",
+    direccion: "Julio Argentino Roca 409",
+    telefono: "(2281) 470275",
+    correo:
+      "espaciodiversidadazul@gmail.com / dir.politicasgeneroydiversidad@azul.gob.ar"
   },
   {
     nombre: "Hospital Municipal Dr. Ángel Pintos",
@@ -94,11 +124,11 @@ const Salud = [
   {
     nombre: "Hospital Municipal Leónidas Lucero",
     especialidad:
-      "Endocrinología, Atención Integral, Trabajo Social, Atención a Infancias",
+      "Hormonización, Atención a Infancias, Salud Mental, Endocrinología, Atención Integral, Trabajo Social, Atención a Infancias",
     provincia: "Buenos Aires",
     ciudad: "Bahía Blanca",
     direccion: "Estomba 968",
-    telefono: "(291) 459-8484",
+    telefono: "(291) 459-8484 503-0348",
     correo: "docencia@hmabb.gov.ar / direcciondecapitalhumanohmabb@gmail.com"
   },
   {
@@ -141,8 +171,8 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "Hospital Zonal General de Agudos Mario V. Larrain",
-    especialidad: "Hormonización, Atención Integral",
+    nombre: "Hospital Zonal General de Agudos Dr. Mario V. Larrain",
+    especialidad: "Hormonización, Atención a Infancias, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Berisso",
     direccion: "Calle 5 (Londres), 4435",
@@ -150,13 +180,13 @@ const Salud = [
     correo: "larrain@ms.gba.gov.ar"
   },
   {
-    nombre: "Unidad Sanitaria Dr. Pedro Elustondo",
-    especialidad: "Hormonización, Ginecología, Atención Integral",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Villa Azul",
+    especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Bernal",
-    direccion: "Avellaneda 1147",
-    telefono: "4350-3000 (int. 4315) / 8865-4466 / 4252-0101",
-    correo: ""
+    direccion: "Sargento Cabral 701 entre Chubut y Neuquén",
+    telefono: "6549-9250",
+    correo: "secretariadesalud@quilmes.gov.ar"
   },
   {
     nombre: "Unidad de Pronta Atención (UPA) N°17",
@@ -168,13 +198,13 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "Centro de Atención Primaria de Salud (CAPS) Villa Azul",
-    especialidad: "Hormonización, Atención Integral",
+    nombre: "Unidad Sanitaria Dr. Pedro Elustondo",
+    especialidad: "Hormonización, Ginecología, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Bernal",
-    direccion: "Sargento Cabral 701 entre Chubut y Neuquén",
-    telefono: "6549-9250",
-    correo: "secretariadesalud@quilmes.gov.ar"
+    direccion: "Avellaneda 1147",
+    telefono: "4350-3000 (int. 4315) / 8865-4466 / 4252-0101",
+    correo: ""
   },
   {
     nombre:
@@ -196,24 +226,6 @@ const Salud = [
     correo: "info@bragado.gov.ar"
   },
   {
-    nombre: "Hospital Subzonal General de Agudos Nuestra Señora del Carmen",
-    especialidad: "Hormonización, Atención Integral",
-    provincia: "Buenos Aires",
-    ciudad: "Carmen de Areco",
-    direccion: "Dr. Carlos M. Espil 409",
-    telefono: "(2273) 442155",
-    correo: "vcarmen@ms.gba.gov.ar / direccion-carmen@ms.gba.gov.ar"
-  },
-  {
-    nombre: "Centro de Salud Dr. René Favaloro",
-    especialidad: "Salud Mental, Clínica Médica",
-    provincia: "Buenos Aires",
-    ciudad: "Castelar",
-    direccion: "Nicolás Granada 3200",
-    telefono: "2259-0887",
-    correo: "turnoscapsfavaloro@gmail.com"
-  },
-  {
     nombre: "Hospital Cuenca Alta Néstor Kirchner Cañuelas",
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
@@ -232,8 +244,26 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "Hospital Municipal Nuestra Señora del Carmen",
+    nombre: "Hospital Subzonal General de Agudos Nuestra Señora del Carmen",
     especialidad: "Hormonización, Atención Integral",
+    provincia: "Buenos Aires",
+    ciudad: "Carmen de Areco",
+    direccion: "Dr. Carlos M. Espil 409",
+    telefono: "(2273) 442155",
+    correo: "vcarmen@ms.gba.gov.ar / direccion-carmen@ms.gba.gov.ar"
+  },
+  {
+    nombre: "Centro de Salud Dr. René Favaloro",
+    especialidad: "Salud Mental, Clínica Médica",
+    provincia: "Buenos Aires",
+    ciudad: "Castelar",
+    direccion: "Nicolás Granada 3200",
+    telefono: "2259-0887",
+    correo: "turnoscapsfavaloro@gmail.com"
+  },
+  {
+    nombre: "Hospital Municipal Nuestra Señora del Carmen",
+    especialidad: "Hormonización, Atención Integral, Atención a Infancias",
     provincia: "Buenos Aires",
     ciudad: "Chacabuco",
     direccion: "Av. Garay 224",
@@ -254,10 +284,10 @@ const Salud = [
     nombre:
       "Centro de Atención Primaria de Salud (CAPS) La Unión - Consultorio Amigable",
     especialidad:
-      "Hormonización, Trabajo Social, Atención Integral, Salud Mental",
+      "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social, Atención Integral, Salud Mental",
     provincia: "Buenos Aires",
     ciudad: "Chivilcoy",
-    direccion: "Av. Protesta de los Labradores 28",
+    direccion: "Av. Protesta de los Labradores (Calle 9) 28",
     telefono: "(2346) 427-924",
     correo: ""
   },
@@ -269,6 +299,15 @@ const Salud = [
     direccion: "Calle 129 entre Calle 47 y Calle 48",
     telefono: "(2473) 40-8066 / 43-0431",
     correo: "info@municipalidadcolonpba.gob.ar"
+  },
+  {
+    nombre: "Hospital Municipal Eva Perón - Consultorio de Diversidad",
+    especialidad: "Endocrinología, Ginecología, Clínica Médica",
+    provincia: "Buenos Aires",
+    ciudad: "Coronel de Marina Leonardo Rosales, Punta Alta",
+    direccion: "Uriburu 650",
+    telefono: "(2932) 45-4683 / 42-2955 / 47-0732",
+    correo: "hepmerlo@hotmail.com"
   },
   {
     nombre: "Hospital Municipal Dr. Raúl Caccavo",
@@ -300,24 +339,23 @@ const Salud = [
     correo: ""
   },
   {
-    nombre:
-      "Centro de Atención Primaria de Salud (CAPS) Malvinas Argentinas - Consultorio de Diversidad",
-    especialidad:
-      "Endocrinología, Ginecología, Clínica Médica, Atención a Infancias, Trabajo Social, Salud Mental",
-    provincia: "Buenos Aires",
-    ciudad: "El Palomar",
-    direccion: "Ing. Guillermo Marconi y Cacique Namuncurá",
-    telefono: "1123240759 / 4656-9488",
-    correo: ""
-  },
-  {
     nombre: "Hospital Zonal General de Agudos Dr. Horacio Cestino",
-    especialidad: "Hormonización, Atención Integral",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Ensenada",
     direccion: "San Martín 328",
     telefono: "(221) 469-1041 / 469-1255 / 2215 98-8122 ",
-    correo: "hcestino@ms.gba.gov.ar"
+    correo: "generoydiversidadensenada@gmail.com / hcestino@ms.gba.gov.ar"
+  },
+  {
+    nombre: "Unidad Sanitaria N°298 Juana Azurduy",
+    especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
+    provincia: "Buenos Aires",
+    ciudad: "Ensenada, Punta Lara",
+    direccion: "Almirante Brown y Calle 44",
+    telefono: "(221) 466-0114",
+    correo: "unidadsanitaria298@gmail.com"
   },
   {
     nombre: "Consultorio Inclusivo Claudia Pía Baudracco",
@@ -395,6 +433,17 @@ const Salud = [
     correo: "consultas-hmartinez@ms.gba.gov.ar / martinez@ms.gba.gov.ar"
   },
   {
+    nombre:
+      "Centro de Atención Primaria de Salud (CAPS) N°1 - Programa Municipal de Salud y Diversidad",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Clínica Médica, Trabajo Social",
+    provincia: "Buenos Aires",
+    ciudad: "General Pueyrredón, Mar del Plata",
+    direccion: "Avenida Colón y Salta",
+    telefono: "(223) 6027000 / 6690126",
+    correo: ""
+  },
+  {
     nombre: "Centro de Atención Primaria de Salud (CAPS) N°16 (El Hospitalito)",
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
@@ -414,14 +463,35 @@ const Salud = [
       "higaevaperon@ms.gba.gov.ar / secretariadirevaperon@gmail.com / administracion-evaperon@ms.gba.gov.ar"
   },
   {
+    nombre: "Hospital Local Dr. Alexander Fleming - Consultorio de Diversidad",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social, Endocrinología, Ginecología, Clínica Médica",
+    provincia: "Buenos Aires",
+    ciudad: "General San Martín, José León Suárez",
+    direccion: "Av. Brigadier General Juan Manuel de Rosas 4230",
+    telefono: "4580-1050 / 4580-1063 / 4089-9717 / 0800-777-88766",
+    correo: "diversidadfleming@gmail.com / hospitalfleming@gmail.com"
+  },
+  {
     nombre: "Hospital Zonal General de Agudos General Manuel Belgrano",
-    especialidad: "Hormonización, Atención Integral",
+    especialidad:
+      "Hormonización, , Salud Mental, Ginecología, Trabajo Social, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "General San Martín, Villa Zagala",
     direccion: "Av. de los Constituyentes 3120",
     telefono:
       "4713-2352 / 4713-4038 / 4755-2228 / 4755-4038 / 4752-8375 / 4752-8450",
     correo: "diversidad.hospital.belgrano@gmail.com / mbelgrano@ms.gba.gov.ar"
+  },
+  {
+    nombre:
+      "Centro Integrador Comunitario (CIC) Juan Domingo Perón - Centro de Atención de Salud Integral Adolescente (CASIA)",
+    especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Buenos Aires",
+    ciudad: "General Viamonte, Los Toldos",
+    direccion: "Ricardo Balbín 1300 (esq. Los Jacarandaes)",
+    telefono: "(2358) 400995 / (2364) 308331",
+    correo: "casia@generalviamonte.gob.ar"
   },
   {
     nombre: "Hospital Simplemente Evita - Consultorio de Diversidad",
@@ -500,15 +570,6 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "Hospital Local Dr. Alexander Fleming - Consultorio de Diversidad",
-    especialidad: "Endocrinología, Ginecología, Clínica Médica",
-    provincia: "Buenos Aires",
-    ciudad: "José León Suárez",
-    direccion: "Av. Brigadier General Juan Manuel de Rosas 4230",
-    telefono: "4580-1050 / 4580-1063 / 4089-9717 / 0800-777-88766",
-    correo: "diversidadfleming@gmail.com / hospitalfleming@gmail.com"
-  },
-  {
     nombre: "Centro de Atención Primaria de Salud (CAPS) N°12 Dr. Genna",
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
@@ -519,12 +580,33 @@ const Salud = [
   },
   {
     nombre: "Hospital Interzonal General de Agudos Abraham Piñeyro",
-    especialidad: "Hormonización, Atención Integral",
+    especialidad: "Hormonización, Atención Integral, Atención a Infancias",
     provincia: "Buenos Aires",
     ciudad: "Junín",
     direccion: "Lavalle 1084",
     telefono: "(236) 433313 / 433138 / 443-3108",
     correo: "hjunin@ms.gba.gov.ar"
+  },
+  {
+    nombre: "Hospital Dr. Alberto Balestrini",
+    especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
+    provincia: "Buenos Aires",
+    ciudad: "La Matanza, Ciudad Evita",
+    direccion: "Av. Monseñor Bufano 1778",
+    telefono: "1157086829 / 4620-2305 (int. 1001) / 4620-2760 / 4620-1628",
+    correo:
+      "admisionhospitalbalestrini@gmail.com / admisionhospitalbalestrini@gmail.com / direccionbalestrini@gmail.com / servicio.pediatriahb@gmail.com"
+  },
+  {
+    nombre: "Hospital Interzonal Dr. Diego Paroissien",
+    especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
+    provincia: "Buenos Aires",
+    ciudad: "La Matanza, Isidro Casanova",
+    direccion: "Av. Brig. Gral. Juan Manuel de Rosas 5975",
+    telefono:
+      "1169699994 / 4669-3640 / 4669-3790 / 4669-3490 / 4669-3190 / (2223) 49-4757",
+    correo:
+      "melinabarril@hotmail.com / higaparoissien@yahoo.com.ar / saps.paroissien22@gmail.com"
   },
   {
     nombre: "Unidad Sanitaria Juan Manuel de Rosas - Consultorio Amigable",
@@ -536,13 +618,15 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "Hospital Infantil Sor María Ludovica - Servicio de Adolescencia",
-    especialidad: "Atención a Infancias, Atención Integral",
+    nombre: "Hospital Infantil Sor María Ludovica",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "La Plata",
-    direccion: "Calle 14, 1631 entre 65 y 66",
-    telefono: "(221) 453-5901 / 453-5901/07 (int. 1859)",
-    correo: "sorludovica@ms.gba.gov.ar / ludovica@ms.gba.gov.ar"
+    direccion: "Calle 14, 1631 entre Calle 65 y Calle 66",
+    telefono: "(221) 453-5901 / 453-5907 (int. 1859)",
+    correo:
+      "diversidadygeneroludovica@gmail.com / sorludovica@ms.gba.gov.ar / ludovica@ms.gba.gov.ar"
   },
   {
     nombre:
@@ -584,11 +668,12 @@ const Salud = [
   },
   {
     nombre: "Hospital Zonal General de Agudos Dr. Ricardo Gutiérrez",
-    especialidad: "Endocrinología, Trabajo Social",
+    especialidad:
+      "Hormonización, Salud Mental, Cirugía de Masculinización Tórax, Atención a Infancias, Endocrinología, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "La Plata",
-    direccion: "Diagonal 114 entre 39 y 40",
-    telefono: "(221) 483-0171/2/3/4/5 (int. 229)",
+    direccion: "Diagonal 114 entre Calle 39 y Calle 40",
+    telefono: "(221) 483-0171/2/3/4/5 (int. 229) / 421-5241",
     correo: "urologiagutierrez@hotmail.com / direccion-gutierrez@ms.gba.gov.ar"
   },
   {
@@ -613,12 +698,12 @@ const Salud = [
     nombre:
       "Hospital Interzonal General de Agudos Evita - Servicio de Adolescencia",
     especialidad:
-      "Endocrinología, Atención a Infancias, Ginecología, Salud Mental",
+      "Endocrinología, Atención a Infancias, Ginecología, Salud Mental, Cirugía de Masculinización Tórax, Grupo de Pares, Clínica Médica, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Lanús",
     direccion: "Diego Armando Maradona 1910 (ex. Río de Janeiro 1910)",
-    telefono: "1170354506 / 4241-4050/51/52/53/54/55",
-    correo: "evita-direccion@ms.gba.gov.ar"
+    telefono: "1170354506 / 1135918908 / 4241-4050/51/52/53/54/55",
+    correo: "evita-direccion@ms.gba.gov.ar / adolevita@gmail.com"
   },
   {
     nombre: "Hospital Zonal General de Agudos Narciso López",
@@ -639,18 +724,18 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "Hospital Municipal Alberto Conocchiari",
+    nombre: "Hospital Municipal de Vedia Alberto Conocchiari",
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Leandro N. Alem, Vedia",
-    direccion: "Mendoza, entre Belgrano y La Rioja",
+    direccion: "Mendoza entre Belgrano y La Rioja",
     telefono: "(2354) 42-2600",
     correo: ""
   },
   {
     nombre:
       "Hospital Municipal Subzonal Dr. Rubén O. Miravalle - Servicio Diversidad",
-    especialidad: "Hormonización, Atención Integral",
+    especialidad: "Hormonización, Atención Integral, Atención a Infancias",
     provincia: "Buenos Aires",
     ciudad: "Lincoln",
     direccion: "Av. San Lorenzo 2007",
@@ -695,6 +780,15 @@ const Salud = [
     correo: "politicasdegenerolomas@gmail.com"
   },
   {
+    nombre: "Centro Integral de Salud Temperley Oeste",
+    especialidad: "Hormonización, Atención a Infancias, Atención Integral",
+    provincia: "Buenos Aires",
+    ciudad: "Lomas de Zamora, Temperley",
+    direccion: "General José María Paz 1405",
+    telefono: "4231-1324",
+    correo: "secretariadesalud@lomasdezamora.gov.ar"
+  },
+  {
     nombre: "Maternidad Municipal María Eva Duarte de Perón",
     especialidad: "Endocrinología, Ginecología",
     provincia: "Buenos Aires",
@@ -714,6 +808,18 @@ const Salud = [
     correo: "sec_salud@lujan.gob.ar"
   },
   {
+    nombre:
+      "Hospital Nacional y Comunidad Dr. Ramón Carrillo - Centro Interdisciplinario de Salud Integral (CISI) (ex CISaM)",
+    especialidad:
+      "Endocrinología, Salud Mental, Clínica Médica, Atención Integral",
+    provincia: "Buenos Aires",
+    ciudad: "Luján, Torres",
+    direccion: "Padre José María Criado Alonso 399 (esq. Evaristo Carriego)",
+    telefono: "1136411053 / (2323) 274593 / 2801-8490",
+    correo:
+      "diversidades@cmdo.gov.ar / espacioequiscisi@gmail.com / cisi@cmdo.gov.ar"
+  },
+  {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Villa Vanelli",
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
@@ -726,7 +832,7 @@ const Salud = [
     nombre: "Centro de Atención Primaria de Salud (CAPS) MGP Libertad",
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
-    ciudad: "Mar Del Plata",
+    ciudad: "Mar del Plata",
     direccion: "Leguizamon Onésimo 552",
     telefono: "(223) 478-3030 / 487-5541",
     correo: "sslibertad@mardelplata.gob.ar"
@@ -751,16 +857,6 @@ const Salud = [
   },
   {
     nombre:
-      "Hospital Interzonal Especializado Materno Infantil (HIEMI) Don Victorio Tetamanti",
-    especialidad: "Atención a Infancias, Atención Integral",
-    provincia: "Buenos Aires",
-    ciudad: "Mar del Plata",
-    direccion: "Castelli 2450",
-    telefono: "(223) 499-100 / 493-6352 (int.208) / 493-9455 (int. 202)",
-    correo: "direccionhiemi@yahoo.com.ar"
-  },
-  {
-    nombre:
       "Unidad de Pronta Atención (UPA) N°13 Hospital Zonal General de Agudos Dr. Oscar E. Alende - Consultorio Diversidad Sexual",
     especialidad: "Salud Mental, Clínica Médica, Trabajo Social",
     provincia: "Buenos Aires",
@@ -768,6 +864,17 @@ const Salud = [
     direccion: "Rodriguez Peña 6802",
     telefono: "(223) 5749983 / 4770262 / 0800-999-1085",
     correo: "diversidadhiga@gmail.com"
+  },
+  {
+    nombre:
+      "Hospital Interzonal Especializado Materno Infantil (HIEMI) Don Victorio Tetamanti",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social, Atención Integral",
+    provincia: "Buenos Aires",
+    ciudad: "Mar del Plata, General Pueyrredón",
+    direccion: "Castelli 2450",
+    telefono: "(223) 499-100 / 493-6352 (int.208) / 493-9455 (int. 202)",
+    correo: "direccionhiemi@yahoo.com.ar"
   },
   {
     nombre: "Unidad Sanitaria Mar del Tuyú",
@@ -818,13 +925,24 @@ const Salud = [
     correo: ""
   },
   {
+    nombre: "Centro Integrador Comunitario (CIC) Monte Hermoso",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Buenos Aires",
+    ciudad: "Monte Hermoso",
+    direccion: "Río Salado 1000",
+    telefono: "(2921) 400804 / 483221",
+    correo: ""
+  },
+  {
     nombre: "Hospital Zonal General Mariano y Luciano de la Vega",
-    especialidad: "Hormonización, Atención Integral",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Moreno",
     direccion: "Av. Libertador 710",
-    telefono: "(237) 460-1085 / 462-0039",
-    correo: "direccion-hmlv@ms.gba.gov.ar / hmyldelavega.comunicacion@gmail.com"
+    telefono: "1138071823 / (237) 460-1085 / 462-0039",
+    correo:
+      "direccion-hmlv@ms.gba.gov.ar / hmyldelavega.comunicacion@gmail.com / saludsexualmoreno@gmail.com"
   },
   {
     nombre: "Unidad Sanitaria Barrio 2000 - Consultorio LGBTIQ+ Perla Carrizo",
@@ -864,6 +982,27 @@ const Salud = [
     telefono: "011 4489-0673",
     correo:
       "diversidadenviasmoron@gmail.com / viasrespiratoriasmoron@ms.gba.gov.ar"
+  },
+  {
+    nombre:
+      "Centro de Atención Primaria de Salud (CAPS) Malvinas Argentinas - Consultorio de Diversidad",
+    especialidad:
+      "Hormonización, Endocrinología, Salud Mental, Ginecología, Clínica Médica, Atención a Infancias, Trabajo Social, Salud Mental",
+    provincia: "Buenos Aires",
+    ciudad: "Morón, El Palomar",
+    direccion: "Cacique Namuncurá 351 (esq. Ing. Guillermo Marconi)",
+    telefono: "1123240759 / 1123240459 / 4656-9488",
+    correo: "diversidad.capsmalvinas@gmail.com"
+  },
+  {
+    nombre: "Hospital Posadas",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
+    provincia: "Buenos Aires",
+    ciudad: "Morón, El Palomar",
+    direccion: "Ing. Guillermo Marconi Morón 386 (esq. Av. Presidente Illia)",
+    telefono: "1127678072 / 4469-9300",
+    correo: "saludsexual@hospitalposadas.gob.ar"
   },
   {
     nombre:
@@ -945,10 +1084,11 @@ const Salud = [
   {
     nombre:
       "Centro de Atención Primaria de Salud (CAPS) Salvador Mazza - Consultorio Amigable",
-    especialidad: "Hormonización, Salud Mental, Trabajo Social",
+    especialidad:
+      "Hormonización, Salud Mental, Trabajo Social, Atención a Infancias",
     provincia: "Buenos Aires",
     ciudad: "Pergamino",
-    direccion: "Vicente López 2002",
+    direccion: "Vicente López 2002 (esq. Balboa)",
     telefono: "(2477) 414437 / 414277 / 328384",
     correo: "consultorioamigablepergamino@gmail.com"
   },
@@ -981,13 +1121,15 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "Hospital Municipal Eva Perón - Consultorio de Diversidad",
-    especialidad: "Endocrinología, Ginecología, Clínica Médica",
+    nombre:
+      "Centro de Atención Primaria de Salud (CAPS) Dr. Arturo Illia - Barrio América Unida",
+    especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
     provincia: "Buenos Aires",
-    ciudad: "Punta Alta",
-    direccion: "Uriburu 650",
-    telefono: "(2932) 45-4683 / 42-2955",
-    correo: "hepmerlo@hotmail.com"
+    ciudad: "Presidente Perón, Guernica",
+    direccion:
+      "Francisco Petrone 3645 entre Florencio Parravicini y Blanca Podestá",
+    telefono: "4397-1145 / (2224) 50-7041",
+    correo: ""
   },
   {
     nombre: "CIC Agustín Ramírez",
@@ -1010,14 +1152,15 @@ const Salud = [
       "saludsexualiriarte@gmail.com / lic.lautarodelfabro@gmail.com / direccion-iriarte@ms.gba.gov.ar"
   },
   {
-    nombre: "Hospital Dr. Arturo Oñativia",
+    nombre:
+      "Hospital Subzonal Materno Infantil Dr. Eduardo Oller - Consultorio de Integral, Género y Diversidades",
     especialidad:
-      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
+      "Endocrinología, Salud Mental, Grupo de Pares, Atención a Infancias, Trabajo Social, Ginecología, Clínica Médica",
     provincia: "Buenos Aires",
-    ciudad: "Rafael Calzada",
-    direccion: "Dr. Ramón Carrillo 1339",
-    telefono: "4219-5079 / 4219-5040 / 4219-5046/7/8",
-    correo: "onativia@ms.gba.gov.ar"
+    ciudad: "Quilmes, San Francisco Solano",
+    direccion: "Av. 844, 2100",
+    telefono: "4350-3000 (int. 3417) / 4212-2976 / 4212-7339 / 4212-9721",
+    correo: "saludsexualintegraloller@gmail.com"
   },
   {
     nombre: "Hospital Municipal José María Gomendio",
@@ -1094,13 +1237,15 @@ const Salud = [
     correo: "capsfalucho@saladillo.gob.ar / capsibarbia2016@gmail.com"
   },
   {
-    nombre: "Centro Integrador Comunitario (CIC) San Andrés de Giles",
-    especialidad: "Hormonización, Atención Integral",
+    nombre:
+      "Centro Integrador Comunitario (CIC) San Andrés de Giles - Área de Diversidad y Disidencias",
+    especialidad:
+      "Hormonización, Salud Mental, Grupo de Pares, Trabajo Social, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "San Andrés de Giles",
     direccion: "Rawson entre Calle 49 y Calle 51",
-    telefono: "(2325) 44-0345 / 42-3837",
-    correo: "cic@sanandresdegiles.gob.ar"
+    telefono: "(2325) 44-0345 / 42-3837 / 42-4848",
+    correo: "diversidadsag@gmail.com / cic@sanandresdegiles.gob.ar"
   },
   {
     nombre:
@@ -1123,6 +1268,15 @@ const Salud = [
     correo: ""
   },
   {
+    nombre: "Hospital Municipal Dr. Oscar do Porto (ex Boca Carabelas)",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Buenos Aires",
+    ciudad: "San Fernando",
+    direccion: "Río Paraná de las Palmas y Río Carabelas",
+    telefono: "1126321175 / 1167858647 / 4728-0026 / VHF: Canal 68",
+    correo: "a_retamar@hotmail.com / vecinos@sanfernando.gov.ar"
+  },
+  {
     nombre: "Hospital Zonal General de Agudos Petrona V. Cordero",
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
@@ -1134,12 +1288,13 @@ const Salud = [
   },
   {
     nombre: "Hospital Materno Infantil Dr. Carlos Gianantonio",
-    especialidad: "Hormonización, Atención a Infancias, Atención Integral",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "San Isidro",
     direccion: "Diego Palma 505",
-    telefono: "4512-3919 / 4747-1096 / 4707-1900",
-    correo: "turnos.hmi@sanisidro.gob.ar"
+    telefono: "4512-3136 / 4512-3919 / 4747-1096 / 4707-1900",
+    correo: "diversidad@sanisidro.gov.ar / turnos.hmi@sanisidro.gob.ar"
   },
   {
     nombre: "Unidad Sanitaria San Francisco de Asís",
@@ -1170,6 +1325,17 @@ const Salud = [
     correo: "puntodigital@sanpedro.gob.ar / mesaentradas@sanpedro.gob.ar"
   },
   {
+    nombre: "Hospital Rural Dr. Ramón Carrillo",
+    especialidad:
+      "Hormonización, Atención a InfanciasSalud Mental, Trabajo Social",
+    provincia: "Buenos Aires",
+    ciudad: "San Vicente",
+    direccion: "Santoro 1865",
+    telefono: "(2225) 48-4932 / 48-1387",
+    correo:
+      "saludyadolescenciasv@gmail.com / hospitalcarrillosanvicente@gmail.com"
+  },
+  {
     nombre:
       "Centro de Atención Primaria de Salud (CAPS) Santa Clara del Mar - Servicio de Diversidad",
     especialidad: "Hormonización, Atención Integral",
@@ -1190,23 +1356,23 @@ const Salud = [
     correo: "direcciondelasmujeres@mda.gob.ar"
   },
   {
-    nombre:
-      "Hospital Subzonal Materno Infantil Dr. Eduardo Oller - Consultorio de Integral, Género y Diversidades",
-    especialidad: "Endocrinología, Ginecología, Clínica Médica",
-    provincia: "Buenos Aires",
-    ciudad: "Solano",
-    direccion: "Av. 844, 2100",
-    telefono: "4350-3000 (int. 3417) / 4212-2976 / 4212-7339 / 4212-9721",
-    correo: "saludsexualintegraloller@gmail.com"
-  },
-  {
-    nombre: "Centro de Atención Primaria de Salud (CAPS) N°35 20 de Junio",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) N°35 - 20 de Junio",
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Sourigues",
     direccion: "203 entre 254 y 255",
     telefono: "4356-9200 (int. 2035)",
     correo: ""
+  },
+  {
+    nombre: "Hospital de Niños Dr. Bebilio Blanco Villegas",
+    especialidad:
+      "Hormonización, Atención a Infancias, Atención Integral, Salud Mental, Clínica Médica, Trabajo Social",
+    provincia: "Buenos Aires",
+    ciudad: "Tandil",
+    direccion: "Leandro Alem 1355",
+    telefono: "(249) 442-5749 / 442-5514",
+    correo: "endocrinodiabetes.hdbv@gmail.com / dirmedica@sisptandil.gob.ar"
   },
   {
     nombre:
@@ -1219,31 +1385,13 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "Hospital de Niños Dr. Bebilio Blanco Villegas",
-    especialidad: "Atención a Infancias, Atención Integral",
-    provincia: "Buenos Aires",
-    ciudad: "Tandil",
-    direccion: "Leandro Alem 1300",
-    telefono: "(249) 442-5749 / 442-5514",
-    correo: "dirmedica@sisptandil.gob.ar"
-  },
-  {
     nombre: "Centro Integrador Comunitario (CIC) Barrio La Milagrosa",
     especialidad: "Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Tapalqué",
     direccion: "Almirante Brown 37 (esq. 1° de Mayo)",
     telefono: "(2281) 539617 / 492931",
-    correo: "direjuventudtapalque@gmail.com "
-  },
-  {
-    nombre: "Centro Integral de Salud Temperley Oeste",
-    especialidad: "Hormonización, Atención a Infancias, Atención Integral",
-    provincia: "Buenos Aires",
-    ciudad: "Temperley",
-    direccion: "General José María Paz 1405",
-    telefono: "4231-1324",
-    correo: "secretariadesalud@lomasdezamora.gov.ar"
+    correo: "direjuventudtapalque@gmail.com"
   },
   {
     nombre: "Unidad Sanitaria Villa General San Martín",
@@ -1255,6 +1403,18 @@ const Salud = [
     correo: "secretariadesalud@lomasdezamora.gov.ar"
   },
   {
+    nombre:
+      "Equipo de Asistencia - Dirección General de Mujeres, Géneros y Diversidad",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Buenos Aires",
+    ciudad: "Tigre, General Pacheco",
+    direccion: "Hipólito Yrigoyen 1264",
+    telefono: "5280-0410",
+    correo:
+      "politicasdeigualdad@tigre.gob.ar / secmujeresgeneroseinfancias@tigre.gob.ar"
+  },
+  {
     nombre: "Centro de Atención y Formación en Salud (CAFyS) Troncos del Talar",
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
@@ -1262,25 +1422,6 @@ const Salud = [
     direccion: "Av. Coronel Escalada 598",
     telefono: "4512-9987 / 1127671939",
     correo: "cstroncosdeltalar@tigre.gov.ar"
-  },
-  {
-    nombre: "Centro Interdisciplinario de Salud Integral (CISI)",
-    especialidad: "Endocrinología, Salud Mental, Clínica Médica",
-    provincia: "Buenos Aires",
-    ciudad: "Torres",
-    direccion: "Padre José María Criado Alonso 399",
-    telefono: "2801-8490 / 2323274593",
-    correo: "cisi@cmdo.gov.ar"
-  },
-  {
-    nombre:
-      "Hospital Nacional y Comunidad Dr. Ramón Carrillo - Centro Interdisciplinario de Salud Integral (CISI) (ex CISaM)",
-    especialidad: "Atención Integral",
-    provincia: "Buenos Aires",
-    ciudad: "Torres, Luján",
-    direccion: "Padre José María Criado Alonso 380",
-    telefono: "1136411053 / 02323274593",
-    correo: "espacioequiscisi@gmail.com"
   },
   {
     nombre: "Hospital Municipal Dr. Pedro T. Orellana",
@@ -1292,15 +1433,6 @@ const Salud = [
     correo: "direccionhospitaltl@hotmail.com"
   },
   {
-    nombre: "Centro Municipal de Salud Dr. Ignacio Pirovano",
-    especialidad: "Hormonización, Atención Integral",
-    provincia: "Buenos Aires",
-    ciudad: "Tres Arroyos",
-    direccion: "Av. Primera Junta 400",
-    telefono: "(2983) 57-2400 / 43-9400",
-    correo: "contacto@centrodesaludtsas.com.ar / direccionaps@cmsta.gob.ar"
-  },
-  {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Benito Machado",
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
@@ -1308,6 +1440,25 @@ const Salud = [
     direccion: "20 de Abril 1186",
     telefono: "(2983) 15 611-689 / 15 642-159",
     correo: ""
+  },
+  {
+    nombre: "Centro Municipal de Salud Tres Arroyos - Consultorio Amigable",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Clínica Médica, Trabajo Social",
+    provincia: "Buenos Aires",
+    ciudad: "Tres Arroyos",
+    direccion: "José Manuel Estrada 955",
+    telefono: "(2983) 439404 / 413523 / 572400 / 439400",
+    correo: "consultorioamigabletsas@gmail.com"
+  },
+  {
+    nombre: "Hospital Dr. Ignacio Pirovano - Centro Municipal de Salud",
+    especialidad: "Hormonización, Atención Integral, Atención a Infancias",
+    provincia: "Buenos Aires",
+    ciudad: "Tres Arroyos",
+    direccion: "Av. Primera Junta 400",
+    telefono: "(2983) 57-2400 / 43-9400 / 47-0732",
+    correo: "contacto@centrodesaludtsas.com.ar / direccionaps@cmsta.gob.ar"
   },
   {
     nombre: "Unidad Sanitaria N°3 Lomas de Mariló - Consultorio Diversidad",
@@ -1319,13 +1470,13 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "Hospital Municipal Dr. B. Houssay",
+    nombre: "Hospital Municipal Dr. Bernardo Houssay",
     especialidad:
       "Hormonización, Atención a Infancias, Atención Integral, Trabajo Social, Salud Mental, Endocrinología",
     provincia: "Buenos Aires",
     ciudad: "Vicente López",
     direccion: "Pres. Hipólito Yrigoyen 1757",
-    telefono: "11 4796-7200",
+    telefono: "4796-7200",
     correo: "diversidad.salud@vicentelopez.gov.ar"
   },
   {
@@ -1395,21 +1546,13 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "Centro Municipal de Cuidado Familiar y Comunitario Villa Azul",
-    especialidad: "Hormonización",
-    provincia: "Buenos Aires",
-    ciudad: "Wilde",
-    direccion: "Av. Ramón Franco 6459",
-    telefono: "4220-4910 / 2004-1009",
-    correo: ""
-  },
-  {
     nombre: "Hospital Zonal General de Agudos Dr. Eduardo Wilde",
-    especialidad: "Cirugía de Masculinización Tórax",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social, Cirugía de Masculinización Tórax",
     provincia: "Buenos Aires",
     ciudad: "Wilde",
     direccion: "Baradero 5808",
-    telefono: "5227-7600 / 5227-7630 (int. Ginecología)",
+    telefono: "(11) 67858647 / 5227-7600 / 5227-7630 (int. Ginecología)",
     correo: "hospitalwilde@ms.gba.gov.ar"
   },
   {
@@ -1424,7 +1567,7 @@ const Salud = [
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°11",
     especialidad:
-      "Endocrinología, Grupo de Pares, Cirugía de Masculinización Tórax",
+      "Endocrinología, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social, Cirugía de Masculinización Tórax",
     provincia: "CABA",
     ciudad: "Balvanera",
     direccion: "Agüero 940",
@@ -1469,9 +1612,9 @@ const Salud = [
     correo: "pirovanodiversidad@hotmail.com / pirova-diversidad@hotmail.com"
   },
   {
-    nombre: "Hospital Durand",
+    nombre: "Hospital General de Agudos Durand",
     especialidad:
-      "Endocrinología, Atención a Infancias, Cirugía de Masculinización Tórax",
+      "Endocrinología, Atención a Infancias, Salud Mental, Cirugía de Masculinización Tórax, Grupo de Pares",
     provincia: "CABA",
     ciudad: "Caballito",
     direccion: "Av. Díaz Vélez 5044",
@@ -1488,46 +1631,49 @@ const Salud = [
     correo: "info@huesped.org.ar"
   },
   {
-    nombre: "Hospital Elizalde",
-    especialidad: "Atención a Infancias, Endocrinología",
+    nombre: "Hospital Pediátrico Pedro de Elizalde",
+    especialidad:
+      "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Atención Integral",
     provincia: "CABA",
     ciudad: "Constitución",
     direccion: "Av. Montes de Oca 40",
-    telefono: "4363-2100 int. 6160",
+    telefono: "4363-2100 (int. 6160 / 6161)",
     correo: "endocrinoelizalde@gmail.com / diversidadhospitalelizalde@gmail.com"
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°19",
     especialidad:
-      "Endocrinología, Grupo de Pares, Cirugía de Masculinización Tórax",
+      "Endocrinología, Atención a Infancias, Grupo de Pares, Cirugía de Masculinización Tórax",
     provincia: "CABA",
     ciudad: "Flores",
     direccion: "Curapaligüe 1905",
-    telefono: "2821-3619 / 4925-0992",
+    telefono: "2821-3619 / 4925-0992 / 2263-8885",
     correo: "consultoriosaludintegralc19@gmail.com"
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°20",
-    especialidad: "Endocrinología",
+    especialidad:
+      "Endocrinología, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "CABA",
     ciudad: "Flores",
-    direccion: "Charrúa 2320",
+    direccion: "Charrúa 2320 (esq. Ana María Janer)",
     telefono: "2821-3620 / 4919-2144",
     correo: "cesac20@gmail.com"
   },
   {
-    nombre: "Hospital Álvarez",
-    especialidad: "Endocrinología, Ginecología",
+    nombre: "Hospital General de Agudos Álvarez",
+    especialidad: "Hormonización, Salud Mental, Endocrinología, Ginecología",
     provincia: "CABA",
     ciudad: "Flores",
     direccion: "Dr. Juan Felipe Aranguren 2701",
-    telefono: "4630-2933",
+    telefono: "4630-2933 / 4611-6666",
     correo:
       "adrianhelien@yahoo.com.ar / madescalzo@yahoo.com.ar / mgsacan@fibertel.com.ar / amaliaruiz78@hotmail.com"
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°41",
-    especialidad: "Endocrinología, Grupo de Pares",
+    especialidad:
+      "Endocrinología, Atención a Infancias, Salud Mental, Trabajo Social, Grupo de Pares",
     provincia: "CABA",
     ciudad: "La Boca",
     direccion: "Ministro Brin 843",
@@ -1535,8 +1681,10 @@ const Salud = [
     correo: "diversidad.cesac41@gmail.com"
   },
   {
-    nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°9",
-    especialidad: "Endocrinología",
+    nombre:
+      "Centro de Salud y Acción Comunitaria (CeSAC) N°9 - Beatriz Perosio",
+    especialidad:
+      "Hormonización, Atención a Infancias, Grupo de Pares, Atención Integral, Endocrinología",
     provincia: "CABA",
     ciudad: "La Boca",
     direccion: "Irala 1254",
@@ -1544,8 +1692,9 @@ const Salud = [
     correo: "diversidadcesac9@gmail.com"
   },
   {
-    nombre: "Hospital Argerich",
-    especialidad: "Endocrinología, Salud Mental, Ginecología, Clínica Médica",
+    nombre: "Hospital  de Agudos Dr. Cosme Argerich",
+    especialidad:
+      "Endocrinología, Atención a Infancias, Trabajo Social, Salud Mental, Ginecología, Clínica Médica",
     provincia: "CABA",
     ciudad: "La Boca",
     direccion: "Pi y Margall 750",
@@ -1562,13 +1711,13 @@ const Salud = [
     correo: "cemar1diversidad@gmail.com"
   },
   {
-    nombre: "Hospital Santojanni",
+    nombre: "Hospital General de Agudos Donación F. Santojanni",
     especialidad:
-      "Endocrinología, Atención a Infancias, Cirugía de Masculinización Tórax",
+      "Hormonización, Endocrinología, Atención a Infancias, Salud Mental, Trabajo Social, Cirugía de Masculinización Tórax",
     provincia: "CABA",
     ciudad: "Liniers",
     direccion: "Pilar 950",
-    telefono: "4630-5500 / 4630-5509",
+    telefono: "4630-5500 / 4630-5509 / 4630-5716",
     correo: "saludtranssantojanni@gmail.com"
   },
   {
@@ -1599,9 +1748,9 @@ const Salud = [
     correo: "consultoriaintegraldelamujer@gmail.com / gineco.33@gmail.com"
   },
   {
-    nombre: "Hospital Fernández",
+    nombre: "Hospital General de Agudos Fernández",
     especialidad:
-      "Endocrinología, Grupo de Pares, Atención a Infancias, Cirugía de Masculinización Tórax",
+      "Hormonización, Endocrinología, Grupo de Pares, Atención a Infancias, Cirugía de Masculinización Tórax, Ginecología, Trabajo Social",
     provincia: "CABA",
     ciudad: "Palermo",
     direccion: "Cerviño 3356",
@@ -1610,31 +1759,43 @@ const Salud = [
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°39",
-    especialidad: "Endocrinología, Grupo de Pares",
+    especialidad:
+      "Hormonización, Atención a Infancias, Trabajo Social, Endocrinología, Grupo de Pares",
     provincia: "CABA",
     ciudad: "Parque Patricios",
-    direccion: "24 de Noviembre, 1679",
-    telefono: "1162438331 / 2821-3639 / 4911-3576 / 1162343730",
+    direccion: "24 de Noviembre 1679",
+    telefono:
+      "(11) 62438331 / 62343730 / 5113-3779 / 7362-0877 / 2821-3639 / 4911-3576",
     correo: "cesac39@hotmail.com"
   },
   {
-    nombre: "Hospital Bonaparte",
-    especialidad: "Endocrinología",
+    nombre: "Hospital Nacional en Red Lic. Laura Bonaparte",
+    especialidad:
+      "Hormonización, Endocrinología, Atención a Infancias, Salud Mental",
     provincia: "CABA",
     ciudad: "Parque Patricios",
     direccion: "Combate de los Pozos 2133",
-    telefono: "1131509104 / 4305-0091 / 4305-1190",
+    telefono: "1131509104 / 4305-0091 / 4305-1190 / 4304-6353 (int. 1190)",
     correo: "saludintegral@hospitalbonaparte.gob.ar"
   },
   {
-    nombre: "Hospital Penna",
+    nombre: "Hospital General de Agudos Dr. José M. Penna",
     especialidad:
-      "Endocrinología, Grupo de Pares, Atención a Infancias, Ginecología",
+      "Hormonización, Endocrinología, Grupo de Pares, Atención a Infancias, Ginecología, Grupo de Pares, Trabajo Social",
     provincia: "CABA",
     ciudad: "Parque Patricios",
     direccion: "Pedro Chutro 3380",
     telefono: "4911-5555",
     correo: "diversidadpenna@gmail.com / endopenna@gmail.com"
+  },
+  {
+    nombre: "Hospital de Clínicas",
+    especialidad: "Endocrinología, Grupo de Pares",
+    provincia: "CABA",
+    ciudad: "Recoleta",
+    direccion: "Av. Córdoba 2351",
+    telefono: "1159508000 / 5248-2644",
+    correo: "endoturnos@hospitaldeclinicas.uba.ar"
   },
   {
     nombre: "Hospital Gutiérrez",
@@ -1656,15 +1817,6 @@ const Salud = [
     correo: "diversidadhospitalrivadavia@gmail.com"
   },
   {
-    nombre: "Hospital de Clínicas",
-    especialidad: "Endocrinología, Grupo de Pares",
-    provincia: "CABA",
-    ciudad: "Recoleta",
-    direccion: "Av. Córdoba 2351",
-    telefono: "1159508000 / 5248-2644",
-    correo: "endoturnos@hospitaldeclinicas.uba.ar"
-  },
-  {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°47",
     especialidad: "Endocrinología",
     provincia: "CABA",
@@ -1675,7 +1827,8 @@ const Salud = [
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°45",
-    especialidad: "Endocrinología, Cirugía de Masculinización Tórax",
+    especialidad:
+      "Hormonización, Atención a Infancias, Endocrinología, Cirugía de Masculinización Tórax",
     provincia: "CABA",
     ciudad: "San Cristóbal",
     direccion: "Cochabamba 2622",
@@ -1693,7 +1846,8 @@ const Salud = [
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°28",
-    especialidad: "Endocrinología",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social, Endocrinología",
     provincia: "CABA",
     ciudad: "Villa Lugano",
     direccion: "Santander 5955",
@@ -1702,25 +1856,27 @@ const Salud = [
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°44",
-    especialidad: "Endocrinología, Cirugía de Masculinización Tórax",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social, Endocrinología, Cirugía de Masculinización Tórax",
     provincia: "CABA",
     ciudad: "Villa Lugano",
     direccion: "Saraza 4202",
-    telefono: "4601-3686 / 1131505247 / 4601-5573 / 4601-9776",
+    telefono: "4601-3686 / 4445-3113 / 4601-5573 / 4601-9776 / 1131505247",
     correo: "saludsexualintegral44@gmail.com"
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°5",
-    especialidad: "Endocrinología",
+    especialidad: "Endocrinología, Atención a Infancias, Trabajo Social",
     provincia: "CABA",
     ciudad: "Villa Lugano",
-    direccion: "Piedrabuena 3140",
+    direccion: "Piedrabuena 3141",
     telefono: "2821-3605 / 1136295516",
-    correo: "diversidad.cesac5@gmail.com /  cesac5@buenosaires.gob.ar"
+    correo: "diversidad.cesac5@gmail.com / cesac5@buenosaires.gob.ar"
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°7",
-    especialidad: "Endocrinología, Cirugía de Masculinización Tórax",
+    especialidad:
+      "Hormonización, Atención a Infancias, Trabajo Social, Endocrinología, Cirugía de Masculinización Tórax",
     provincia: "CABA",
     ciudad: "Villa Lugano",
     direccion: "2 de Abril de 1982, 6850",
@@ -1728,9 +1884,9 @@ const Salud = [
     correo: "diversidadcesac7@gmail.com"
   },
   {
-    nombre: "Hospital Tornú",
+    nombre: "Hospital General de Agudos Dr. Enrique Tornú",
     especialidad:
-      "Endocrinología, Atención a Infancias, Cirugía de Masculinización Tórax",
+      "Hormonización, Endocrinología, Atención a Infancias, Salud Mental, Trabajo Social, Cirugía de Masculinización Tórax",
     provincia: "CABA",
     ciudad: "Villa Ortúzar",
     direccion: "Combatientes de Malvinas 3002",
@@ -1748,7 +1904,8 @@ const Salud = [
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°6",
-    especialidad: "Endocrinología",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social, Endocrinología",
     provincia: "CABA",
     ciudad: "Villa Soldati",
     direccion: "Mariano Acosta 3673",
@@ -1765,266 +1922,258 @@ const Salud = [
     correo: "dra.dfainstein@gmail.com / consultascesac12@gmail.com"
   },
   {
-    nombre: "Hospital Dr. Emilio F Rodríguez",
-    especialidad: "Endocrinología",
-    provincia: "Chaco",
-    ciudad: "Quitilipi",
-    direccion: "Almte. Brown 550",
-    telefono: "3644466298",
-    correo: "victorhugodok@gmail.com"
-  },
-  {
-    nombre: "Centro de Atención Primaria de Salud (CAPS) N°3 Ramón Carrillo",
-    especialidad: "Endocrinología",
-    provincia: "Córdoba",
-    ciudad: "Alta Gracia",
-    direccion: "Urquiza 358",
-    telefono: "3547630462",
-    correo: "capsramoncarrillohenderson@gmail.com"
-  },
-  {
-    nombre: "Hospital Regional José A. Ceballos",
-    especialidad: "Endocrinología",
-    provincia: "Córdoba",
-    ciudad: "Bell Ville",
-    direccion: "Geronimo del Barco 1289",
-    telefono: "08005554141",
-    correo: "oris.hospitalromagosa@gmail.com"
-  },
-  {
-    nombre: "Dirección de Especialidades Médicas Oeste",
-    especialidad: "Endocrinología",
-    provincia: "Córdoba",
-    ciudad: "CBA",
-    direccion: "Dean Funes 2000 B° Alberdi",
-    telefono: "(351) 4337112 / 4337113",
-    correo: ""
-  },
-  {
     nombre: "Hospital Córdoba",
-    especialidad: "Endocrinología",
+    especialidad: "Hormonización, Endocrinología",
     provincia: "Córdoba",
     ciudad: "CBA",
-    direccion: "Av. Patria 656",
+    direccion: "Libertad 2051",
     telefono: "0800-555-4141",
-    correo: "info@hospitalcordoba.com.ar"
+    correo:
+      "endocrinologiahospitalcordoba@gmail.com / info@hospitalcordoba.com.ar"
+  },
+  {
+    nombre: "Hospital de Niños de la Santísima Trinidad",
+    especialidad: "Hormonización",
+    provincia: "Córdoba",
+    ciudad: "CBA",
+    direccion: "Ferroviarios 1250 (esq. Bajada Pucará)",
+    telefono: "(351) 458-6484 / 0800-555-4141",
+    correo: "servicioendocrinologiahnst@gmail.com"
   },
   {
     nombre: "Hospital Elpidio Torres",
-    especialidad: "Endocrinología",
+    especialidad: "Hormonización, Endocrinología",
     provincia: "Córdoba",
     ciudad: "CBA",
-    direccion: "Av. Juan B Justo 7100",
+    direccion: "Av. Juan B. Justo 7100",
     telefono: "0800-555-4141",
     correo: "oris.elpidiotorres@gmail.com"
   },
   {
     nombre: "Hospital Infantil",
-    especialidad: "Endocrinología",
+    especialidad: "Hormonización",
     provincia: "Córdoba",
     ciudad: "CBA",
-    direccion: "Luis de Góngora 550-598",
-    telefono: "4708800 int. 5104 / 3512094378",
+    direccion: "Luis de Góngora 550",
+    telefono: "(351) 4708800 (int. 5104) / 2094378 / 474-9253",
     correo: "ssocialhospitalinfatil@gmail.com"
   },
   {
-    nombre: "Hospital Materno Neonatal",
-    especialidad: "Endocrinología",
+    nombre: "Hospital Materno Neonatal Ministro Dr. Ramón Carrillo",
+    especialidad:
+      "Hormonización, Atención a Infancias, Atención Integral, Salud Mental, Trabajo Social, Endocrinología",
     provincia: "Córdoba",
     ciudad: "CBA",
-    direccion: "Av. la Cardeñosa 2900",
+    direccion: "Av. La Cardeñosa 2900",
     telefono: "(351) 434-8350",
     correo: "orishospitalneonatal@cba.gov.ar"
   },
   {
     nombre: "Hospital Misericordia",
-    especialidad: "Endocrinología",
+    especialidad: "Hormonización, Endocrinología",
     provincia: "Córdoba",
     ciudad: "CBA",
     direccion: "Belgrano 1502",
-    telefono: "08005554141",
+    telefono: "0800-555-4141",
     correo: "orishospitalmisericordia@gmail.com"
   },
   {
-    nombre: "Hospital Municipal Villa el Libertador Príncipe de Asturias",
-    especialidad: "Endocrinología, Salud Mental, Ginecología",
+    nombre: "Hospital Municipal Príncipe de Asturias",
+    especialidad: "Hormonización, Salud Mental, Ginecología, Trabajo Social",
     provincia: "Córdoba",
     ciudad: "CBA",
     direccion: "Defensa 1200",
-    telefono: "3518058254",
+    telefono: "(351) 8058254",
     correo: "hmpa.dispositivolgbt@gmail.com"
   },
   {
     nombre: "Hospital Nacional de Clínicas",
-    especialidad: "Endocrinología",
+    especialidad: "Hormonización",
     provincia: "Córdoba",
     ciudad: "CBA",
     direccion: "Santa Rosa 1600",
-    telefono: "3515353970",
+    telefono: "(351) 5353970",
     correo: "direccion-hnc@fcm.unc.edu.ar"
   },
   {
-    nombre: "Hospital de Niños de la Santísima Trinidad de Córdoba",
-    especialidad: "Endocrinología",
-    provincia: "Córdoba",
-    ciudad: "CBA",
-    direccion: "Ferroviarios 1250",
-    telefono: "0800-555-4141",
-    correo: "servicioendocrinologiahnst@gmail.com"
-  },
-  {
     nombre: "Nueva Maternidad Provincial",
-    especialidad: "Endocrinología, Cirugía de Masculinización Tórax",
+    especialidad:
+      "Hormonización, Endocrinología, Cirugía de Masculinización Tórax",
     provincia: "Córdoba",
     ciudad: "CBA",
-    direccion: "Av. Vélez Sarsfield 2221",
-    telefono: "4708800 int. 5104 / 3512094378",
+    direccion: "Av. Vélez Sársfield 2221",
+    telefono: "0800-555-4141 / 4708800 (int. 5104) / 3512094378",
     correo: "programa.asidiversidad@gmail.com"
   },
   {
-    nombre: "Centro de Atención Primaria de Salud (CAPS) Cabana",
-    especialidad: "Endocrinología",
+    nombre: "Dirección de Especialidades Médicas Oeste Dr. Benito Soria",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Ginecología, Grupo de Pares, Trabajo Social",
     provincia: "Córdoba",
-    ciudad: "Cabana, Unquillo",
+    ciudad: "CBA, Alberdi",
+    direccion: "Dean Funes 2000",
+    telefono: "(351) 4337112 / 4337113 / 661-5590",
+    correo: ""
+  },
+  {
+    nombre:
+      "Centro de Salud Dra. Ana Pascazzi (Dispensario Municipal Agua de Oro)",
+    especialidad: "Hormonización",
+    provincia: "Córdoba",
+    ciudad: "Colón, Agua de Oro",
+    direccion: "San Martín 354",
+    telefono: "(3525) 444083 / 646425",
+    correo: ""
+  },
+  {
+    nombre: "Espacio Tehuel",
+    especialidad: "Hormonización, Endocrinología",
+    provincia: "Córdoba",
+    ciudad: "Colón, Jesús María",
+    direccion: "C. Doménico Zípoli 750",
+    telefono: "(3525) 539270 / 443730",
+    correo: "comunicacionpublica@jesusmaria.gov.ar"
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Cabana",
+    especialidad: "Hormonización, Atención Integral",
+    provincia: "Córdoba",
+    ciudad: "Colón, Unquillo",
     direccion: "Av. 5 de Octubre 3894",
-    telefono: "3543550806",
+    telefono: "(3543) 550806",
     correo: ""
   },
   {
     nombre: "Hospital Aurelio Crespo",
-    especialidad: "Endocrinología",
+    especialidad: "Hormonización, Endocrinología",
     provincia: "Córdoba",
     ciudad: "Cruz del Eje",
-    direccion: "Felix Caceres 245",
-    telefono: "08005554141",
+    direccion: "Félix Cáceres 245",
+    telefono: "0800-555-4141",
+    correo: ""
+  },
+  {
+    nombre: "Consultorio Inclusivo Villa María",
+    especialidad: "Hormonización, Endocrinología, Atención Integral",
+    provincia: "Córdoba",
+    ciudad: "General San Martín, Villa María",
+    direccion: "Lisandro de la Torre (esq. Catamarca)",
+    telefono: "(353) 6577318",
     correo: ""
   },
   {
     nombre: "Hospital Ernesto Romagosa",
-    especialidad: "Endocrinología",
+    especialidad: "Hormonización, Endocrinología",
     provincia: "Córdoba",
-    ciudad: "Dean Funes",
+    ciudad: "Ischilín, Deán Funes",
     direccion: "Colón 247",
     telefono: "03521-426223 / 03521-426231 (int. 104)",
     correo: ""
   },
   {
-    nombre: "Espacio Tehuel",
-    especialidad: "Endocrinología",
+    nombre: "Centro de Salud El Parador",
+    especialidad: "Hormonización",
     provincia: "Córdoba",
-    ciudad: "Jesús María",
-    direccion: "C. Doménico Zípoli 750, X5220 Jesus María, Córdoba.",
-    telefono: "03525-443730",
-    correo: "comunicacionpublica@jesusmaria.gov.ar"
+    ciudad: "Punilla, Tanti",
+    direccion: "Paraguay S/N entre Costa Rica y Nicaragua",
+    telefono: "(3541) 337286",
+    correo: ""
   },
   {
-    nombre: "Centro de Atención Primaria de Salud (CAPS) La Serranita",
-    especialidad: "Endocrinología",
+    nombre: "Centro de Salud Municipal - Consultorio Inclusivo",
+    especialidad:
+      "Hormonización, Endocrinología, Atención a Infancias, Salud Mental, Trabajo Social, Ginecología",
     provincia: "Córdoba",
-    ciudad: "La Serranita",
-    direccion: "General Roca (esq. Belgrano y San Agustín)",
-    telefono: "3547477087",
-    correo: "caps@comunalaserranita.com.ar"
+    ciudad: "Río Cuarto",
+    direccion: "Cabrera 1344",
+    telefono: "(358) 476-8420 / 571-0115 / 484-6451",
+    correo: ""
+  },
+  {
+    nombre: "Nuevo Hospital Río Cuarto San Antonio de Padua",
+    especialidad:
+      "Hormonización, Atención a Infancias, Grupo de Pares, Trabajo Social, Endocrinología",
+    provincia: "Córdoba",
+    ciudad: "Río Cuarto",
+    direccion: "Guardias Nacionales 1051",
+    telefono: "(358) 467-8700 (int. 1606) / 514-4113",
+    correo: "orisnuevohospitalriocuarto@gmail.com"
   },
   {
     nombre: "Hospital Regional Dr. Luis María Bellodi",
-    especialidad: "Endocrinología",
+    especialidad: "Hormonización, Endocrinología",
     provincia: "Córdoba",
-    ciudad: "Mina Clavero",
+    ciudad: "San Alberto, Mina Clavero",
     direccion: "Boulevard Rossel S/N",
     telefono: "0800-555-4141",
     correo: "oris.luismariabellodi@gmail.com"
   },
   {
-    nombre: "Centro de Salud Municipal - Consultorio Inclusivo",
-    especialidad: "Endocrinología, Salud Mental, Ginecología",
-    provincia: "Córdoba",
-    ciudad: "Río Cuarto",
-    direccion: "Cabrera 1344",
-    telefono: "(358) 476-8420 / 571-0115",
-    correo: ""
-  },
-  {
-    nombre: "Nuevo Hospital Río IV San Antonio de Padua",
-    especialidad: "Endocrinología",
-    provincia: "Córdoba",
-    ciudad: "Río Cuarto",
-    direccion: "Guardias Nacionales 1051",
-    telefono: "3584678700",
-    correo: "orisnuevohospitalriocuarto@gmail.com"
-  },
-  {
     nombre: "Hospital Regional José Bernardo Iturraspe",
-    especialidad: "Endocrinología",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social, Endocrinología",
     provincia: "Córdoba",
     ciudad: "San Francisco",
-    direccion: "Domingo Cullen 450",
-    telefono: "08005554141",
+    direccion: "Dominga Cullen 450",
+    telefono: "0800-555-4141 / (3564) 44-3718 / 44-3774",
     correo: "orishospiturraspesf@gmail.com"
   },
   {
-    nombre:
-      "Casa de la Cultura - Consultorio de Adolescencia Juventudes y Diversidades",
-    especialidad: "Endocrinología, Salud Mental, Trabajo Social",
+    nombre: "Consultorio Inclusivo Integral Villa Dolores",
+    especialidad: "Hormonización, Atención Integral",
     provincia: "Córdoba",
-    ciudad: "San Javier y Yacanto",
-    direccion: "Ruta 14 S/N",
-    telefono: "549482404",
+    ciudad: "San Javier, Villa Dolores",
+    direccion: "Cenobio Soto 740",
+    telefono: "(3544) 643677 / 46-943",
     correo: ""
+  },
+  {
+    nombre:
+      "Dispensario Achiras Arriba (Casa de la Cultura) - Consultorio de Adolescencia Juventudes y Diversidades",
+    especialidad:
+      "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Trabajo Social, Atención Integral",
+    provincia: "Córdoba",
+    ciudad: "San Javier, Yacanto",
+    direccion: "Ruta 14 S/N",
+    telefono: "(549) 48-2404 / (3544) 48-2041",
+    correo: "programa.asidiversidad@gmail.com"
   },
   {
     nombre: "Hospital Domingo Funes",
-    especialidad: "Endocrinología",
+    especialidad: "Hormonización",
     provincia: "Córdoba",
-    ciudad: "Santa María de Punilla",
-    direccion: "Villa Caeiro",
-    telefono: "08005554141",
+    ciudad: "Santa María de Punilla, Villa Caeiro",
+    direccion: "Av. Deán Funes S/N, Ruta Nacional 38",
+    telefono: "0800-555-4141 / (3541) 48-8900",
     correo: ""
   },
   {
-    nombre: "Centro de Salud el Parador",
-    especialidad: "Endocrinología",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) N°3 Ramón Carrillo",
+    especialidad: "Hormonización, Salud Mental, Endocrinología",
     provincia: "Córdoba",
-    ciudad: "Tanti",
-    direccion: "Paraguay S/N entre Costa Rica y Nicaragua",
-    telefono: "3541337286",
-    correo: ""
+    ciudad: "Santa María, Alta Gracia",
+    direccion: "Urquiza 358",
+    telefono: "(3547) 630462",
+    correo:
+      "programassi.altagracia@gmail.com / capsramoncarrillohenderson@gmail.com"
   },
   {
-    nombre: "Consultorio Inclusivo Integral Villa Dolores",
-    especialidad: "Endocrinología",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) La Serranita",
+    especialidad: "Hormonización",
     provincia: "Córdoba",
-    ciudad: "Villa Dolores",
-    direccion: "Cenobio Soto 740",
-    telefono: "3544643677",
-    correo: ""
+    ciudad: "Santa María, La Serranita",
+    direccion: "General Roca S/N (esq. Belgrano y San Agustín)",
+    telefono: "(3547) 477087",
+    correo: "caps@comunalaserranita.com.ar"
   },
   {
-    nombre: "Consultorio Inclusivo Villa María",
-    especialidad: "Endocrinología",
+    nombre: "Hospital Regional José Antonio Ceballos",
+    especialidad: "Hormonización, Endocrinología",
     provincia: "Córdoba",
-    ciudad: "Villa María",
-    direccion: "Lisandro de la Torre y Catamarca",
-    telefono: "3536577318",
-    correo: ""
-  },
-  {
-    nombre: "Centro de Salud Selig Golding",
-    especialidad: "Endocrinología, Salud Mental, Ginecología",
-    provincia: "Entre Ríos",
-    ciudad: "Paraná",
-    direccion: "Av. Laurencena 63",
-    telefono: "3434619526",
-    correo: "csseliggoldin@hotmail.com"
-  },
-  {
-    nombre: "Hospital de Itaembé Guazú",
-    especialidad: "Endocrinología, Ginecología",
-    provincia: "Misiones",
-    ciudad: "Posadas",
-    direccion: "Las Orquídeas 10609",
-    telefono: "3765157000 / 3765157002 / (376) 154831890",
-    correo: "msp_itaembeguazu@misiones.gov.ar"
+    ciudad: "Unión, Bell Ville",
+    direccion: "Jerónimo del Barco 1289",
+    telefono: "0800-555-4141",
+    correo: "hospitalbellvillecba@gmail.com"
   },
   {
     nombre:
@@ -2076,15 +2225,6 @@ const Salud = [
     correo: "hospitalreconquista@hotmail.com"
   },
   {
-    nombre: "Centro de Especialidades Médicas Ambulatorias Rosario (CEMAR)",
-    especialidad: "Clínica Médica",
-    provincia: "Santa Fe",
-    ciudad: "Rosario",
-    direccion: "San Luis 2020",
-    telefono: "(341) 489-7200 / 480-2200 / 480-2555",
-    correo: ""
-  },
-  {
     nombre: "Centro de Salud N°47",
     especialidad:
       "Ginecología, Clínica Médica, Atención a Infancias, Atención Integral",
@@ -2093,6 +2233,1661 @@ const Salud = [
     direccion: "Juan José Paso y Travesía",
     telefono: "(341) 273-7924 / (341) 480-4535 / (342) 446-9173",
     correo: "sauropushi@gmail.com"
+  },
+  {
+    nombre: "Unidad de Pronta Atención (UPA) N°6 Barrio Dorrego",
+    especialidad: "Atención a Infancias, Trabajo Social",
+    provincia: "Santiago del Estero",
+    ciudad: "La Banda",
+    direccion: "Aristóbulo del Valle 1699",
+    telefono: "(385) 416-2701 / 600-6879 / 627-9845",
+    correo: ""
+  },
+  {
+    nombre: "Centro Provincial de Salud Infantil (CEPSI)",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Ginecología",
+    provincia: "Santiago del Estero",
+    ciudad: "Santiago del Estero",
+    direccion: "Misiones 1087",
+    telefono: "0800-777-2377 / (0385) 4210812 - 4216890 (int. 1023)",
+    correo:
+      "serviciosaludsexualcepsi@gmail.com / comunicacioninstitucional@cepsi.gob.ar"
+  },
+  {
+    nombre: "Hospital Independencia",
+    especialidad:
+      "Hormonización, Atención a Infancias, Clínica Médica, Trabajo Social",
+    provincia: "Santiago del Estero",
+    ciudad: "Santiago del Estero",
+    direccion: "Av. Belgrano Norte 660",
+    telefono: "(385) 422-2938 / 473-7984 / 421-1515",
+    correo: "ministeriosaludsantiago@gmail.com"
+  },
+  {
+    nombre: "Unidad de Pronta Atención (UPA) N°25 Barrio Belén",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santiago del Estero",
+    ciudad: "Santiago del Estero",
+    direccion: "Manzana 14 S/N, Barrio Belén",
+    telefono: "(385) 068-440 / 473-7984 / 477-8640 ",
+    correo: "upa25barriobelen@gmail.com"
+  },
+  {
+    nombre: "Casa de Jóvenes - Dirección de Salud Mental Municipal",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Clínica Médica",
+    provincia: "Tierra del Fuego",
+    ciudad: "Río Grande",
+    direccion: "Isla de los Estados 1195",
+    telefono: "(2964) 43-6223 (int. 6065) / 44-3074",
+    correo: ""
+  },
+  {
+    nombre: "Centro Provincial de Salud Infanto Juvenil",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Clínica Médica",
+    provincia: "Tierra del Fuego",
+    ciudad: "Río Grande",
+    direccion: "Batalla de Georgias 775",
+    telefono: "(2964) 46-7272",
+    correo: "cps.infantojuvenil@gmail.com"
+  },
+  {
+    nombre: "Hospital Regional de Río Grande - Nuestra Señora de la Candelaria",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Clínica Médica, Trabajo Social",
+    provincia: "Tierra del Fuego",
+    ciudad: "Río Grande",
+    direccion: "Florentino Ameghino 709",
+    telefono: "(2964) 42-3222 / 42-2042 / 42-2086",
+    correo: "vmuller@tierradelfuego.gob.ar"
+  },
+  {
+    nombre: "Centro Asistencial Tolhuin (CAT)",
+    especialidad:
+      "Atención a Infancias, Salud Mental, Clínica Médica, Trabajo Social",
+    provincia: "Tierra del Fuego",
+    ciudad: "Tolhuin",
+    direccion: "Avenida Los Shelknams 273",
+    telefono: "(2901) 64-5844 / 49-2121",
+    correo: "caps1ush@tierradelfuego.gob.ar / generalistascat@gmail.com"
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS)  N°3",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Clínica Médica, Trabajo Social",
+    provincia: "Tierra del Fuego",
+    ciudad: "Ushuaia",
+    direccion: "Gobernador Valdez 894",
+    telefono: "(2901) 58-1545 / 44-1028 / 59-1103",
+    correo: "consultoriodediversidadushuaia@gmail.com / capstressalud@gmail.com"
+  },
+  {
+    nombre: "Hospital Regional de Ushuaia - Gobernador Ernesto Campos",
+    especialidad: "Atención a Infancias, Trabajo Social",
+    provincia: "Tierra del Fuego",
+    ciudad: "Ushuaia",
+    direccion: "12 de Octubre y Maipú",
+    telefono: "(2901) 58-1545 / 42-3200 / 44-1000",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Dr. Elíseo Cantón",
+    especialidad: "Hormonización, Atención a Infancias, Clínica Médica",
+    provincia: "Tucumán",
+    ciudad: "Lules",
+    direccion: "Belgrano 300",
+    telefono: "(381) 481-1355 / 156454212",
+    correo: "portalpaciente@telemedicinamsptucuman.com.ar"
+  },
+  {
+    nombre:
+      "Centro de Atención Primaria de Salud (CAPS) San Martín y Fundación Transformando Familias",
+    especialidad: "Hormonización, Atención a Infancias, Salud Mental",
+    provincia: "Tucumán",
+    ciudad: "San Miguel de Tucumán",
+    direccion: "Alsina 4700",
+    telefono: "(381) 539-4617 / 439-5021 / (3816) 27-7711 / (3876) 11-4548",
+    correo: "laumagadan@hotmail.com / transformandofamiliasf@gmail.com"
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Villa 9 de Julio",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Clínica Médica",
+    provincia: "Tucumán",
+    ciudad: "San Miguel de Tucumán",
+    direccion: "Avenida Juan B. Justo 1577",
+    telefono: "(381) 4282263 / 262-9148",
+    correo: ""
+  },
+  {
+    nombre: "Hospital de Clínicas Nuestra Señora del Carmen",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Clínica Médica, Trabajo Social",
+    provincia: "Tucumán",
+    ciudad: "San Miguel de Tucumán",
+    direccion: "Calle Ildefonso de las Muñecas 2550",
+    telefono: "(381) 317-0458 / 427-6303 / 427-9721",
+    correo: ""
+  },
+  {
+    nombre: "Programa de Salud Sexual y Reproductiva",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Ginecología",
+    provincia: "Tucumán",
+    ciudad: "San Miguel de Tucumán",
+    direccion: "General José María Paz 555 3°B",
+    telefono: "0800-4444-999 / 0381-4844-000 (int. 504 / 505)",
+    correo: "ssyrtucuman@gmail.com / mij_ssyr@msptucuman.gov.ar"
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Villa Cubas",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Catamarca",
+    ciudad: "San Fernando del Valle de Catamarca",
+    direccion: "Av. Ahumada y Barros 850",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "Hospital de Niños Eva Perón",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Catamarca",
+    ciudad: "San Fernando del Valle de Catamarca",
+    direccion: "Av. Virgen del Valle 1050",
+    telefono: "(3834) 50-1063 / 69-0840 / 443-7900 / 479-2292",
+    correo: "ocd_catamarca@hotmail.com"
+  },
+  {
+    nombre: "Hospital Regional Dr. Luis Alberto Vargas",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Catamarca",
+    ciudad: "Santa María",
+    direccion: "Av. 1° de Mayo 260",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Dr. Julio C. Perrando",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Ginecología, Grupo de Pares, Trabajo Social",
+    provincia: "Chaco",
+    ciudad: "Resistencia",
+    direccion: "Av. 9 de Julio 1100",
+    telefono: "(362) 468-3000",
+    correo: "msp_hperadolescencia@chaco.gob.ar"
+  },
+  {
+    nombre: "Centro de Salud Mental La Lomita",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Chaco",
+    ciudad: "Barranqueras",
+    direccion: "Gabardini 5427",
+    telefono: "(362) 411-9873",
+    correo: ""
+  },
+  {
+    nombre: "Hospital del Bicentenario General Güemes",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Chaco",
+    ciudad: "Juan José Castelli",
+    direccion: "Av. Güemes 1100",
+    telefono: "",
+    correo: "diversidadelimpenetrable@gmail.com"
+  },
+  {
+    nombre: "Hospital 4 de Junio Dr. Ramón Carrillo",
+    especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
+    provincia: "Chaco",
+    ciudad: "Presidencia Roque Sáenz Peña",
+    direccion: "Calle 28 entre 31 bis y 25 bis",
+    telefono: "(362) 487-6023 / (3644) 12-0185",
+    correo: ""
+  },
+  {
+    nombre: "Servicio Integral Amigable para Adolescentes (SIAPA)",
+    especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Chaco",
+    ciudad: "Presidencia Roque Sáenz Peña",
+    direccion: "Calle 25 entre 28 y 30",
+    telefono: "(362) 15-475-8320",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Dr. Emilio F. Rodríguez",
+    especialidad: "Hormonización, Atención a Infancias, Endocrinología",
+    provincia: "Chaco",
+    ciudad: "Quitilipi",
+    direccion: "Almirante Brown 550 (esq. Ayacucho)",
+    telefono: "(3644) 450-513 / 66298",
+    correo: "victorhugodok@gmail.com"
+  },
+  {
+    nombre: "Hospital Pediátrico Avelino Castelán",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Chaco",
+    ciudad: "Resistencia",
+    direccion: "Av. Vélez Sársfield 120",
+    telefono:
+      "(362) 444-1477 (int. 1098/1096) / (362) 445-2931 / (362) 497-0553",
+    correo: ""
+  },
+  {
+    nombre:
+      "Hospital Regional - CESIA Centro de Salud Integral del Adolescente",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Chubut",
+    ciudad: "Comodoro Rivadavia",
+    direccion: "San Martín y Saavedra",
+    telefono: "(280) 444-5329",
+    correo: "casitaverdecr@gmail.com"
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) San Martín",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Chubut",
+    ciudad: "Comodoro Rivadavia",
+    direccion: "Huergo y Las Violetas",
+    telefono: "(297) 446-0740",
+    correo: "direccionaps@comodoro.gov.ar"
+  },
+  {
+    nombre: "Hospital Rural El Hoyo",
+    especialidad: "Atención a Infancias, Salud Mental",
+    provincia: "Chubut",
+    ciudad: "El Hoyo",
+    direccion: "Islas Malvinas S/N",
+    telefono: "(2944) 166-292",
+    correo: "conectadxshreh@gmail.com"
+  },
+  {
+    nombre: "Servicio de Atención al Niño (SANI)",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Chubut",
+    ciudad: "Esquel",
+    direccion: "Av. Alvear y Molinari",
+    telefono: "(11) 5329-90872",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Zonal de Esquel",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Chubut",
+    ciudad: "Esquel",
+    direccion: "25 de Mayo 150",
+    telefono: "(2945) 59-5852",
+    correo: ""
+  },
+  {
+    nombre:
+      "Centro Especializado en Salud Integral de Adolescentes (CESIA) Pozzi",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Chubut",
+    ciudad: "Puerto Madryn",
+    direccion: "Agustín Pujol y Juan Acosta",
+    telefono: "(280) 445-1387",
+    correo: "centropozzi@gmail.com"
+  },
+  {
+    nombre: "Hospital Dr. A. Isola",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Chubut",
+    ciudad: "Puerto Madryn",
+    direccion: "Roberto Gómez 383",
+    telefono: "(280) 445-1240",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Gobernador Fontana",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Chubut",
+    ciudad: "Puerto Madryn",
+    direccion: "España y La Rioja",
+    telefono: "(280) 447-2230",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Roque González",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Chubut",
+    ciudad: "Puerto Madryn",
+    direccion: "Estivariz 2484",
+    telefono: "",
+    correo: "capsroquegonzalez@gmail.com / spaopat@gmail.com"
+  },
+  {
+    nombre: "Hospital Santa Teresita",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
+    provincia: "Chubut",
+    ciudad: "Rawson",
+    direccion: "Roca 534",
+    telefono: "",
+    correo: "endocrinologiames@gmail.com"
+  },
+  {
+    nombre: "Hospital Subzonal Maitén",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Chubut",
+    ciudad: "El Maitén",
+    direccion: "Liniers y José Hernández S/N",
+    telefono: "(2945) 49-5117",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Lago Puelo - Centro de Salud Radal",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Chubut",
+    ciudad: "Lago Puelo",
+    direccion: "Av. 2 de Abril",
+    telefono: "(2944) 49-9041",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Favaloro",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Chubut",
+    ciudad: "Puerto Madryn",
+    direccion: "Alto Río Senguer 1300",
+    telefono: "(280) 445-1887",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Subzonal Rawson",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Ginecología",
+    provincia: "Chubut",
+    ciudad: "Rawson",
+    direccion: "Julio Argentino Roca 545",
+    telefono: "(280) 485-3994",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°43",
+    especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
+    provincia: "CABA",
+    ciudad: "Villa Lugano",
+    direccion: "Fonrouge 4377",
+    telefono: "(11) 4602-4178",
+    correo: "saludcesac43@gmail.com"
+  },
+  {
+    nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°29",
+    especialidad: "Atención a Infancias, Trabajo Social",
+    provincia: "CABA",
+    ciudad: "Villa Lugano",
+    direccion: "Au. Dellepiane 6999",
+    telefono: "(11) 2821-3629",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Luis María Bellodi y Dispensarios Municipales",
+    especialidad: "Atención a Infancias",
+    provincia: "Córdoba",
+    ciudad: "San Alberto, Mina Clavero",
+    direccion: "Fleming 1332",
+    telefono: "(351) 511-9511",
+    correo: ""
+  },
+  {
+    nombre:
+      "Consultorio Inclusivo Integral - Centro de Atención Primaria Paulus",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
+    provincia: "Córdoba",
+    ciudad: "San Alberto, Mina Clavero",
+    direccion: "Rivadavia 540",
+    telefono: "",
+    correo: "consultorioinclusivomc@gmail.com"
+  },
+  {
+    nombre: "Hospital Municipal Oncativo",
+    especialidad: "Atención a Infancias, Trabajo Social",
+    provincia: "Córdoba",
+    ciudad: "Río Segundo, Oncativo",
+    direccion: "Colón 158",
+    telefono: "(3572) 46-6025",
+    correo: ""
+  },
+  {
+    nombre: "Hospital de Pediatría Garrahan",
+    especialidad:
+      "Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
+    provincia: "CABA",
+    ciudad: "Parque Patricios",
+    direccion: "Combate de los Pozos 1881",
+    telefono: "",
+    correo: "comitegeneroydiversidad@gmail.com"
+  },
+  {
+    nombre: "Hospital Materno Provincial Dr. Raúl Felipe Lucini",
+    especialidad: "Atención a Infancias, Endocrinología",
+    provincia: "Córdoba",
+    ciudad: "CBA",
+    direccion: "Pasaje Luis Caeiro 1545",
+    telefono: "0800-555-4141",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Infantil Municipal",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
+    provincia: "Córdoba",
+    ciudad: "CBA",
+    direccion: "Lavalleja 3050",
+    telefono: "(351) 470-8800 (int. 5104)",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Florencio Díaz",
+    especialidad: "Atención a Infancias, Ginecología",
+    provincia: "Córdoba",
+    ciudad: "CBA",
+    direccion: "11 de Septiembre 2900",
+    telefono: "0800-555-4141",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Salud N°72 B° La Floresta",
+    especialidad: "Atención a Infancias, Salud Mental",
+    provincia: "Córdoba",
+    ciudad: "CBA",
+    direccion: "Las Orquídeas S/N",
+    telefono: "(351) 751-6112",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Salud N°30 Villa Páez",
+    especialidad: "Atención a Infancias, Salud Mental",
+    provincia: "Córdoba",
+    ciudad: "CBA",
+    direccion: "Emilio Coni 2090",
+    telefono: "(351) 537-4090",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Ampliación Ferreyra",
+    especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Córdoba",
+    ciudad: "CBA",
+    direccion: "Manzana 11, Barrio Ciudad Ampliación Ferreyra",
+    telefono: "(351) 631-0092",
+    correo: "capsamplferreyra@gmail.com"
+  },
+  {
+    nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°35",
+    especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "CABA",
+    ciudad: "Barracas",
+    direccion: "Av. Osvaldo Cruz y Zavaleta",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°30",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "CABA",
+    ciudad: "Barracas",
+    direccion: "Amancio Alcorta 3100",
+    telefono: "(11) 2821-3630",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Salud Mental N° 3 Arturo Ameghino",
+    especialidad: "Atención a Infancias, Salud Mental",
+    provincia: "CABA",
+    ciudad: "Balvanera",
+    direccion: "Av. Córdoba 3120",
+    telefono: "(3723) 02-31",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Pediátrico Juan Pablo II",
+    especialidad: "Atención a Infancias, Trabajo Social",
+    provincia: "Corrientes",
+    ciudad: "Capital, Corrientes",
+    direccion: "Av. Artigas 1435",
+    telefono: "(379) 447-5300",
+    correo: ""
+  },
+  {
+    nombre: "Subsecretaría de Acción Comunitaria",
+    especialidad:
+      "Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
+    provincia: "Corrientes",
+    ciudad: "Monte Caseros",
+    direccion: "Caa Guazú 955",
+    telefono: "(3775) 45-0192",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Salud Selig Golding",
+    especialidad:
+      "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Ginecología, Salud Mental, Grupo de Pares",
+    provincia: "Entre Ríos",
+    ciudad: "Paraná",
+    direccion: "Av. Laurencena 63",
+    telefono: "(343) 464-9777 / 431-0676 / 4619526",
+    correo: "saludintegraltransgoldin@hotmail.com / csseliggoldin@hotmail.com"
+  },
+  {
+    nombre: "Hospital San José",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Entre Ríos",
+    ciudad: "San José",
+    direccion: "Dr. Cettour 1274",
+    telefono: "(3447) 47-0894",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Interdistrital Evita",
+    especialidad: "Hormonización, Atención a Infancias, Endocrinología",
+    provincia: "Formosa",
+    ciudad: "Capital, Formosa",
+    direccion: "Av. Lucas Barberis 200-298",
+    telefono: "(370) 444-5561",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Distrito Sanitario N° 8 Eva Perón",
+    especialidad: "Atención a Infancias, Trabajo Social",
+    provincia: "Formosa",
+    ciudad: "Capital, Formosa",
+    direccion: "Elías de Caanepa y Soldado Formoseño",
+    telefono: "(370) 444-5885",
+    correo: "serviciosocialhd8@gmail.com"
+  },
+  {
+    nombre: "Hospital Central Ramón Carrillo",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Formosa",
+    ciudad: "Capital, Formosa",
+    direccion: "Salta 500",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Salud 1° Nivel de Atención Bernardino Rivadavia",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Formosa",
+    ciudad: "Capital, Formosa",
+    direccion: "Padre Patiño y Salta",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Materno Infantil Dr. Héctor Quintana",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Jujuy",
+    ciudad: "San Salvador de Jujuy",
+    direccion: "José Hernández 624",
+    telefono: "(388) 424-5005 (int. 330)",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Manuel Belgrano",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Jujuy",
+    ciudad: "Humahuaca",
+    direccion: "Santa Fe 34",
+    telefono: "(3887) 42-1009",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Maimará",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Jujuy",
+    ciudad: "Maimará",
+    direccion: "Av. Belgrano 906",
+    telefono: "(388) 499-7003",
+    correo: ""
+  },
+  {
+    nombre: "Centro Integrador Comunitario (CIC) Canal de Beagle",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Jujuy",
+    ciudad: "Palpalá",
+    direccion: "Av. Quispe esq. Chacho Peñaloza",
+    telefono: "(388) 427-5996",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Dr. Guillermo Paterson",
+    especialidad: "Hormonización, Atención a Infancias, Ginecología",
+    provincia: "Jujuy",
+    ciudad: "San Pedro de Jujuy",
+    direccion: "Av. Siria 44",
+    telefono: "(3888) 42-0006",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Especialidades Norte",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Jujuy",
+    ciudad: "San Salvador de Jujuy",
+    direccion: "Independencia 41",
+    telefono: "(388) 422-3305",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Pablo Soria",
+    especialidad: "Atención a Infancias, Cirugía de Masculinización Tórax",
+    provincia: "Jujuy",
+    ciudad: "San Salvador de Jujuy",
+    direccion: "Gral. Güemes 1345",
+    telefono: "(388) 422-1259",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Dr. Lucio Molas",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "La Pampa",
+    ciudad: "Santa Rosa",
+    direccion: "Raúl B. Díaz y Pilcomayo",
+    telefono: "(2954) 455-000 (int. 3216)",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Luisa Pedemonte de Pistarini",
+    especialidad: "Atención a Infancias, Salud Mental",
+    provincia: "La Pampa",
+    ciudad: "Victorica",
+    direccion: "Calle 21 1194",
+    telefono: "(2954) 49-7489",
+    correo: "sole.munoz94@gmail.com"
+  },
+  {
+    nombre: "Establecimiento Asistencial Dr. Manuel Freire",
+    especialidad: "Hormonización, Atención a Infancias, Ginecología",
+    provincia: "La Pampa",
+    ciudad: "Guatraché",
+    direccion: "1° Junta 158",
+    telefono: "(2954) 49-2532",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Gobernador Centeno",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "La Pampa",
+    ciudad: "General Pico",
+    direccion: "Calle 17 Oeste 500-598",
+    telefono: "(2302) 43-6148",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Regional Dr. Enrique Vera Barros",
+    especialidad: "Atención a Infancias, Atención Integral",
+    provincia: "La Rioja",
+    ciudad: "Chilecito",
+    direccion: "Olta y Madre Teresa de Calcuta",
+    telefono: "",
+    correo: "servicio_adolescencia_larioja@yahoo.com.ar"
+  },
+  {
+    nombre:
+      "Centro de Atención Primaria de Salud (CAPS) La Cañada y Anexo Parque de la Familia",
+    especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "La Rioja",
+    ciudad: "Capital, La Rioja",
+    direccion: "Proyectada y Faustino Molina (esq. Av. René Favaloro)",
+    telefono: "(380) 436-9421",
+    correo: "lic.nataliamendoza@gmail.com"
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) N°30",
+    especialidad: "Atención a Infancias, Salud Mental",
+    provincia: "Mendoza",
+    ciudad: "Godoy Cruz",
+    direccion: "Colón 339",
+    telefono: "",
+    correo: "ppmics30@mendoza.gov.ar"
+  },
+  {
+    nombre: "Hospital Dr. Humberto Notti",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Mendoza",
+    ciudad: "Guaymallén",
+    direccion: "Bandera de los Andes 2603",
+    telefono: "(261) 413-2720",
+    correo: "saludmentalnotti@gmail.com"
+  },
+  {
+    nombre: "Hospital Central",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Cirugía de Masculinización Tórax, Grupo de Pares",
+    provincia: "Mendoza",
+    ciudad: "Mendoza",
+    direccion: "Alem 450",
+    telefono: "(261) 449-0684",
+    correo: ""
+  },
+  {
+    nombre: "Modo SI (Salud Integral)",
+    especialidad:
+      "Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
+    provincia: "Mendoza",
+    ciudad: "Godoy Cruz",
+    direccion: "Armani 1800",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Schestakow",
+    especialidad:
+      "Hormonización, Atención a Infancias, Grupo de Pares, Trabajo Social",
+    provincia: "Mendoza",
+    ciudad: "San Rafael",
+    direccion: "Comandante Torres 150",
+    telefono: "(260) 424-0300",
+    correo: "trabajosocialschestakow@gmail.com"
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) N°198 La Arboleda",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Mendoza",
+    ciudad: "Tupungato",
+    direccion: "Calle Iriarte S/N",
+    telefono: "(2622) 48-9153",
+    correo: "caps198laarboleda@gmail.com"
+  },
+  {
+    nombre: "Hospital Dr. Domingo Sicoli",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Mendoza",
+    ciudad: "Villa Tulumaya",
+    direccion: "Calle Belgrano 415",
+    telefono: "(261) 494-1065",
+    correo: "saludintegralsicoli@gmail.com"
+  },
+  {
+    nombre: "Hospital Nuestra Señora de Fátima",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
+    provincia: "Misiones",
+    ciudad: "Posadas",
+    direccion: "Av. Jorge Kemerer S/N",
+    telefono: "(376) 440-9118",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) San Gerardo",
+    especialidad: "Atención a Infancias, Trabajo Social",
+    provincia: "Misiones",
+    ciudad: "Posadas",
+    direccion: "Barrio San Gerardo S/N",
+    telefono: "(376) 475-5550",
+    correo: ""
+  },
+  {
+    nombre: "Hospital de Itaembé Guazú",
+    especialidad:
+      "Atención a Infancias, Endocrinología, Ginecología, Trabajo Social",
+    provincia: "Misiones",
+    ciudad: "Posadas",
+    direccion: "Las Orquídeas 10609",
+    telefono: "3765157000 / 3765157002 / (376) 154831890",
+    correo: "msp_itaembeguazu@misiones.gov.ar"
+  },
+  {
+    nombre: "Centro de Salud 15 de Febrero",
+    especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
+    provincia: "Neuquén",
+    ciudad: "Junín de los Andes",
+    direccion: "Patagonia 540",
+    telefono: "(294) 591-6213",
+    correo: ""
+  },
+  {
+    nombre: "Subsecretaría de Niñez y Adolescencia Neuquén",
+    especialidad: "Atención a Infancias, Trabajo Social",
+    provincia: "Neuquén",
+    ciudad: "Neuquén",
+    direccion: "Entre Ríos 303",
+    telefono: "(299) 581-5851",
+    correo: "equipoextension.subse@gmail.com"
+  },
+  {
+    nombre: "Hospital Provincial Neuquén",
+    especialidad: "Hormonización, Atención a Infancias, Salud Mental",
+    provincia: "Neuquén",
+    ciudad: "Neuquén",
+    direccion: "Buenos Aires 350",
+    telefono: "",
+    correo: "identidadespediatriahpn@gmail.com"
+  },
+  {
+    nombre: "Hospital Dr. Horacio Heller",
+    especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Neuquén",
+    ciudad: "Neuquén Capital",
+    direccion: "Coronel Godoy y Lighuen E. 1549",
+    telefono: "",
+    correo: "sminfanciasyadolescenciashhh@gmail.com"
+  },
+  {
+    nombre: "Hospital Bouquet Roldan",
+    especialidad: "Atención a Infancias",
+    provincia: "Neuquén",
+    ciudad: "Neuquén Capital",
+    direccion: "Teodoro Planas 1915",
+    telefono: "(299) 464-5782",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Regional Ramón Carrillo",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Neuquén",
+    ciudad: "San Martín de los Andes",
+    direccion: "Av. San Martín 381",
+    telefono: "(297) 250-9333 (whatsapp pediatría)",
+    correo: "pediatriasma@gmail.com / equipodiversidadsma@gmail.com"
+  },
+  {
+    nombre: "Hospital Ramón Carrillo",
+    especialidad: "Hormonización, Atención a Infancias, Salud Mental",
+    provincia: "Neuquén",
+    ciudad: "San Martín de los Andes",
+    direccion: "Pasaje del Pueblo 270",
+    telefono: "",
+    correo: "saludmentalsma@gmail.com"
+  },
+  {
+    nombre: "Centro de Salud Tiro Federal",
+    especialidad: "Hormonización, Atención a Infancias, Salud Mental",
+    provincia: "Neuquén",
+    ciudad: "San Martín de los Andes",
+    direccion: "Pérez y Weber",
+    telefono: "",
+    correo: "equidiversidadsma@gmail.com"
+  },
+  {
+    nombre: "Hospital Adolfo del Valle Senillosa",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares",
+    provincia: "Neuquén",
+    ciudad: "Senillosa",
+    direccion: "Belgrano y Neuquén",
+    telefono: "(299) 689-4212",
+    correo: "adolescencia.hospitalsenillosa@gmail.com"
+  },
+  {
+    nombre: "Hospital Provincial Neuquén Dr. Castro Rendón",
+    especialidad: "Atención a Infancias, Endocrinología, Salud Mental",
+    provincia: "Neuquén",
+    ciudad: "Capital, Neuquén",
+    direccion: "Buenos Aires 450",
+    telefono: "(299) 449-0800",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Cuevas",
+    especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Neuquén",
+    ciudad: "Loncopué",
+    direccion: "Av. San Martín S/N",
+    telefono: "(2948) 49-8039",
+    correo: ""
+  },
+  {
+    nombre: "Equipo Interinstitucional de Salud Pública Neuquén",
+    especialidad: "Hormonización, Atención a Infancias, Grupo de Pares",
+    provincia: "Neuquén",
+    ciudad: "Neuquén",
+    direccion: "Santa Fe 535",
+    telefono: "",
+    correo: "rondaencuentros@gmail.com"
+  },
+  {
+    nombre: "Hospital Dr. Oscar Arraiz",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Ginecología, Grupo de Pares, Trabajo Social",
+    provincia: "Neuquén",
+    ciudad: "Villa La Angostura",
+    direccion: "Blvd. Nahuel Huapi 1107",
+    telefono: "(2944) 49-4170 (int. 35/27)",
+    correo: "consultoriointegraldiversovla@gmail.com"
+  },
+  {
+    nombre: "Centro de Salud B° Lanín",
+    especialidad: "Hormonización, Atención a Infancias, Salud Mental",
+    provincia: "Neuquén",
+    ciudad: "Junín de los Andes",
+    direccion: "Río Negro S/N",
+    telefono: "(2972) 49-1208",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Salud B° Lonquimay",
+    especialidad: "Hormonización, Atención a Infancias, Salud Mental",
+    provincia: "Neuquén",
+    ciudad: "Junín de los Andes",
+    direccion: "Gines Ponte 343",
+    telefono: "(294) 15-458-5213",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Salud Los Aromos",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Neuquén",
+    ciudad: "Plottier",
+    direccion: "Santiago del Estero 864",
+    telefono: "(299) 493-7203",
+    correo: ""
+  },
+  {
+    nombre: "Hospital de Plottier",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Neuquén",
+    ciudad: "Plottier",
+    direccion: "Sargento Cabral y Paraguay",
+    telefono: "(299) 493-6098",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Dra. Cecilia Grierson",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Río Negro",
+    ciudad: "Catriel",
+    direccion: "Av. Gral. Mosconi 1699",
+    telefono: "(299) 654-7362",
+    correo: ""
+  },
+  {
+    nombre:
+      "Consultorio Inclusivo para la Atención Integral de Personas Trans Claudia Pía Baudracco - Hospital Cipolletti Dr. Pedro Moguillansky",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Río Negro",
+    ciudad: "Cipolletti",
+    direccion: "Fernández Oro y Sáenz Peña",
+    telefono: "(299) 429-0235",
+    correo: "consultorioinclusivocipolletti@gmail.com"
+  },
+  {
+    nombre: "Hospital Francisco López Lima",
+    especialidad: "Hormonización, Atención a Infancias, Grupo de Pares",
+    provincia: "Río Negro",
+    ciudad: "General Roca",
+    direccion: "Gelonch 721",
+    telefono: "(2984) 165-557",
+    correo: ""
+  },
+  {
+    nombre: "Consultorio LGBTIQ+ Allen",
+    especialidad:
+      "Hormonización, Atención a Infancias, Grupo de Pares, Trabajo Social",
+    provincia: "Río Negro",
+    ciudad: "Allen",
+    direccion: "Quesnel S/N",
+    telefono: "(2984) 760-683",
+    correo: "consultorioamigable.lgbtiq@gmail.com"
+  },
+  {
+    nombre: "Centro de Salud de Barrio El Rosario",
+    especialidad: "Hormonización, Atención a Infancias, Salud Mental",
+    provincia: "Río Negro",
+    ciudad: "Río Colorado",
+    direccion: "Eliseo Calegari 1250",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Zonal Ramón Carrillo",
+    especialidad: "Atención a Infancias, Salud Mental, Atención Integral",
+    provincia: "Río Negro",
+    ciudad: "San Carlos de Bariloche",
+    direccion: "Moreno 601",
+    telefono: "(294) 480-7979 (whatsapp)",
+    correo: "adolescenciasbariloche@gmail.com"
+  },
+  {
+    nombre: "Hospital Dr. Elías Smirnoff",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Río Negro",
+    ciudad: "Villa Regina",
+    direccion: "Fray Luis Beltrán 496",
+    telefono: "(298) 446-1277",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Nuestra Señora del Rosario",
+    especialidad: "Hormonización, Atención a Infancias, Salud Mental",
+    provincia: "Salta",
+    ciudad: "Cafayate",
+    direccion: "12 de Octubre esq. Costanera",
+    telefono: "",
+    correo: "nadua144@hotmail.com"
+  },
+  {
+    nombre: "Centro de Salud Manjón",
+    especialidad: "Atención a Infancias",
+    provincia: "Salta",
+    ciudad: "Salta",
+    direccion: "Av. José de Artigas 902",
+    telefono: "(387) 428-1393",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Salud Nro. 63 Roberto Nazr - Espacio Transitando",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Salta",
+    ciudad: "Salta Capital",
+    direccion: "Sarmiento 625",
+    telefono: "(387) 431-9349",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Dr. Arturo Oñativia - Consultorio de Diversidad",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Salta",
+    ciudad: "Salta Capital",
+    direccion: "Paz Chaín 30",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Villa Constitución",
+    especialidad: "Atención a Infancias, Salud Mental",
+    provincia: "San Juan",
+    ciudad: "Pocito",
+    direccion: "Lemos y Picasso",
+    telefono: "(264) 576-2274",
+    correo: "lic.patricialopeznarvaez@gmail.com"
+  },
+  {
+    nombre: "Hospital Marcial Quiroga",
+    especialidad: "Atención a Infancias",
+    provincia: "San Juan",
+    ciudad: "San Juan",
+    direccion: "Calle R. Calívar y Av. Libertador",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "Ministerio de Salud de la Provincia",
+    especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "San Juan",
+    ciudad: "Capital, San Juan",
+    direccion: "Av. Libertador y Calle Las Heras",
+    telefono: "(264) 430-6981",
+    correo: "iniciativamildias@gmail.com"
+  },
+  {
+    nombre: "Centro de Adiestramiento Dr. René Favaloro (CARF) La Rotonda",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
+    provincia: "San Juan",
+    ciudad: "San Juan, Villa Krause",
+    direccion: "Calle Fermín Rodríguez Este, Villa Krause",
+    telefono: "(264) 424-2610",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Dr. Guillermo Rawson",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Cirugía de Masculinización Tórax",
+    provincia: "San Juan",
+    ciudad: "San Juan",
+    direccion: "Av. Guillermo Rawson Sur 494",
+    telefono: "(264) 621-0689",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Madre Catalina Rodríguez",
+    especialidad: "Hormonización, Atención a Infancias, Salud Mental",
+    provincia: "San Luis",
+    ciudad: "Merlo",
+    direccion: "Ruta 1 y El Ceibo",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) N°9 San Gerónimo",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "San Luis",
+    ciudad: "San Luis",
+    direccion: "San Gerónimo",
+    telefono: "",
+    correo: "centrodesaludsangeronimo@gmail.com"
+  },
+  {
+    nombre:
+      "Centro de Atención Primaria de Salud (CAPS) N°1 Juan Domingo Perón",
+    especialidad: "Atención a Infancias",
+    provincia: "San Luis",
+    ciudad: "Villa Mercedes",
+    direccion: "Manzana Sol Naciente",
+    telefono: "",
+    correo: "caps1jdp@gmail.com"
+  },
+  {
+    nombre: "Área Provincial de Adolescencia, Ministerio de Salud de San Luis",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Ginecología, Grupo de Pares",
+    provincia: "San Luis",
+    ciudad: "Capital, San Luis",
+    direccion: "Marcelino Poblet 668, Casa Weye",
+    telefono: "",
+    correo: "adolescenciassanluis@gmail.com"
+  },
+  {
+    nombre: "Centro de Salud Carpintería",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "San Luis",
+    ciudad: "Carpintería",
+    direccion: "Pringles y San Martín",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Salud Cortaderas",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "San Luis",
+    ciudad: "Cortaderas",
+    direccion: "Calle San Martín S/N",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Salud N°36",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "San Luis",
+    ciudad: "La Calera",
+    direccion: "Pasaje La Calera 136",
+    telefono: "(266) 445-2000 (int. 5206)",
+    correo: ""
+  },
+  {
+    nombre: "Hospital María Juliana Becker",
+    especialidad:
+      "Atención a Infancias, Salud Mental, Ginecología, Trabajo Social",
+    provincia: "San Luis",
+    ciudad: "La Punta",
+    direccion: "5 Sur entre 8 Este y Av. Serrana",
+    telefono: "(4452) 0-00-00 (int. 5002)",
+    correo: "adolescenciasanluis@gmail.com"
+  },
+  {
+    nombre: "Centro de Salud Los Molles",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "San Luis",
+    ciudad: "Los Molles",
+    direccion: "Pringles y Belgrano",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Salud Papagayos",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "San Luis",
+    ciudad: "Papagayos",
+    direccion: "Av. Comechingones 150",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Santa Rosa del Conlara",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "San Luis",
+    ciudad: "Santa Rosa del Conlara",
+    direccion: "Santa Rosa de Lima y 9 de Julio",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "Hospital de Unión",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "San Luis",
+    ciudad: "Unión",
+    direccion: "Av. A. Dassa 510",
+    telefono: "(2954) 51-0037",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Suárez Rocha",
+    especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
+    provincia: "San Luis",
+    ciudad: "Villa Mercedes",
+    direccion: "Héctor Aubert S/N",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "Hospital de Alta Complejidad SAMIC El Calafate",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
+    provincia: "Santa Cruz",
+    ciudad: "El Calafate",
+    direccion: "Av. Jorge Newbery 453",
+    telefono: "(2902) 491-831 (int. 2226)",
+    correo: "derechosysalud.samic@gmail.com"
+  },
+  {
+    nombre: "Hospital Distrital Gobernador Gregores",
+    especialidad: "Hormonización, Atención a Infancias, Salud Mental",
+    provincia: "Santa Cruz",
+    ciudad: "Gobernador Gregores",
+    direccion: "Mario Paradelo 1025",
+    telefono: "(2966) 589-694",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Distrital Las Heras",
+    especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Santa Cruz",
+    ciudad: "Las Heras",
+    direccion: "Colombia 398 Solar 02, Barrio las Américas",
+    telefono: "(2974) 093-328",
+    correo: ""
+  },
+  {
+    nombre: "S.A.M.CO Reynaldo Barrionuevo Capitán Bermúdez",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Capitán Bermúdez",
+    direccion: "Escalada 136",
+    telefono: "",
+    correo: "samcocb@gmail.com"
+  },
+  {
+    nombre: "S.A.M.CO Carlos Pellegrini",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Carlos Pellegrini",
+    direccion: "San Martín 721",
+    telefono: "(3401) 48-0217",
+    correo: "samcocp@carpell.com.ar"
+  },
+  {
+    nombre: "Hospital San Carlos de Casilda",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Casilda",
+    direccion: "Boulevard 9 de Julio 2351",
+    telefono: "(3464) 422107 / 422382",
+    correo: "sancarlos@knett.com.ar"
+  },
+  {
+    nombre: "SAMCO Esperanza Dr. Daniel A. Criado",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Esperanza",
+    direccion: "Janssen 2693",
+    telefono: "(3496) 420027 / 420263 / 420317 / 6883",
+    correo: "samcoesperanza@esperanza.gov.ar"
+  },
+  {
+    nombre: "Centro de Salud Houssay",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Funes",
+    direccion: "Angelomé y Sarmiento",
+    telefono: "(341) 493-6010",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Eva Perón",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Granadero Baigorria",
+    direccion: "Av. San Martín 1645",
+    telefono: "(341) 471-0940",
+    correo: "secretariaheep@santafe.gov.ar"
+  },
+  {
+    nombre: "S.A.M.CO Las Parejas",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Las Parejas",
+    direccion: "Av. 21 y Calle 6",
+    telefono: "(371) 471-200",
+    correo: "hospitallasparejas@yahoo.com.ar"
+  },
+  {
+    nombre: "S.A.M.CO Las Rosas",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Las Rosas",
+    direccion: "Paso de los Andes 419",
+    telefono: "(3471) 451205 / 562188",
+    correo: "samcolasrosas@hotmail.com"
+  },
+  {
+    nombre: "S.A.M.CO María Juana",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "María Juana",
+    direccion: "Belgrano 252",
+    telefono: "(3406) 471-795",
+    correo: "samcomjuana@hotmail.com"
+  },
+  {
+    nombre: "Centro de Salud N° 4 Virgen de Fátima",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Rafaela",
+    direccion: "Dante Alighieri 479",
+    telefono: "(3492) 426-430",
+    correo: "cs4_rafaela@santafe.gov.ar"
+  },
+  {
+    nombre: "Hospital J. B. Alberdi",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Rafaela",
+    direccion: "Av. Puccio 575",
+    telefono: "(341) 480-6177 (int. 101)",
+    correo: "consejeriahjba@gmail.com"
+  },
+  {
+    nombre: "Posta Don Carlos",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Reconquista",
+    direccion: "Calle 127 esq. 72, Barrio Don Carlos",
+    telefono: "(3482) 655-122 (whatsapp)",
+    correo: "postadoncarlos@hotmail.com.ar"
+  },
+  {
+    nombre: "Centro de Salud V Guadalupe",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Reconquista",
+    direccion: "Manzana 10 Calle 68",
+    telefono: "(3482) 487-170",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Salud Carmen Luisa",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Reconquista",
+    direccion: "San Martín 3830",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "S.A.M.CO Roldán",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Roldán",
+    direccion: "Bv. Sarmiento 900",
+    telefono: "(341) 496-1309",
+    correo: "samcoroldan@hotmail.com"
+  },
+  {
+    nombre: "Hospital de Niños Zona Norte",
+    especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
+    provincia: "Santa Fe",
+    ciudad: "Rosario",
+    direccion: "Av. de los Trabajadores 1331",
+    telefono: "(341) 472-4535",
+    correo: "especialidadeshnzn@santafe.gov.ar / psicologiahnzn@gmail.com"
+  },
+  {
+    nombre: "Centro de Especialidades Médicas Ambulatorias Rosario (CEMAR)",
+    especialidad: "Hormonización, Atención a Infancias, Clínica Médica",
+    provincia: "Santa Fe",
+    ciudad: "Rosario",
+    direccion: "San Luis 2020",
+    telefono: "(341) 489-7200 / 480-2200 / 480-2555 / 224-4889",
+    correo: "generoydiversidadcemar@gmail.com"
+  },
+  {
+    nombre: "Hospital Jaime Ferre",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Rosario",
+    direccion: "Lisandro de la Torre 737",
+    telefono: "",
+    correo: "direccion_rafaela@santafe.gov.ar"
+  },
+  {
+    nombre: "Centro de Salud 1 de Julio",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "San Lorenzo",
+    direccion: "Luis Borgui 182",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Especialidades Médicas Ambulatorias (CEMAFE)",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Santa Fe",
+    direccion: "Mendoza 2419",
+    telefono: "(342) 478-7676 / 484-4400",
+    correo: "direccioncemafe@santafe.gov.ar"
+  },
+  {
+    nombre: "Centro de Salud Acería",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Santa Fe",
+    direccion: "Matheu y Viñas",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Salud Las Lomas",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Santa Fe",
+    direccion: "Camino Viejo Esperanza 7000",
+    telefono: "",
+    correo: "cslaloma@santafe.gov.ar"
+  },
+  {
+    nombre: "Centro de Salud San Martín N°8",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Santa Fe",
+    direccion: "Estrada y Alberti",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Sayago",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Santa Fe",
+    direccion: "French 5224",
+    telefono: "(342) 457-9237",
+    correo: "direccion_sayago@santafe.gov.ar"
+  },
+  {
+    nombre: "S.A.M.CO Dr. Nanzer",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Santo Tomé",
+    direccion: "12 de Septiembre y Azcuénaga",
+    telefono: "(342) 474-3444 (int. 4915)",
+    correo: "samconanzer@gmail.com"
+  },
+  {
+    nombre: "S.A.M.CO Suardi",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Suardi",
+    direccion: "Dr. Fernández 365",
+    telefono: "(3562) 441-338",
+    correo: "hospitalsuardi@hotmail.com"
+  },
+  {
+    nombre: "Hospital Teodelina",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Teodelina",
+    direccion: "Sarmiento 449",
+    telefono: "",
+    correo: "samcoteodelina@yahoo.com.ar"
+  },
+  {
+    nombre: "Centro de Salud Néstor Kirchner",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Tostado",
+    direccion: "Hipólito Irigoyen y 6 de Caballería",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Salud Nqandenqa",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Tostado",
+    direccion: "Chaco S/N",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Alejandro Gutiérrez",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Venado Tuerto",
+    direccion: "Santa Fe 1311",
+    telefono: "(3462) 405-902",
+    correo: "secretariadedireccion2017@hotmail.com"
+  },
+  {
+    nombre: "CAPS Ideal",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Villa Gobernador Gálvez",
+    direccion: "Ceci y 9 de Julio S/N",
+    telefono: "(3404) 433-393",
+    correo: "capsideal@cegnet.com.ar"
+  },
+  {
+    nombre: "Hospital Anselmo Gamen",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Villa Gobernador Gálvez",
+    direccion: "Balcarce 1355",
+    telefono: "(341) 492-12223",
+    correo: "hospitalgamen@yahoo.com.ar"
+  },
+  {
+    nombre: "Hospital Villa Ocampo",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Villa Ocampo",
+    direccion: "Dr. Farran 2021",
+    telefono: "(3482) 466-002",
+    correo: "turnossamcovillaocampo@gmail.com"
+  },
+  {
+    nombre: "Hospital de Niños Dr. O. Alassia",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
+    provincia: "Santa Fe",
+    ciudad: "Capital, Santa Fe",
+    direccion: "Mendoza 4151",
+    telefono: "(342) 450-5900 (int. 201)",
+    correo: "sadolescenciahnoa@gmail.com"
+  },
+  {
+    nombre: "Nuevo Hospital Central Olga Stucki de Rizzi",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Reconquista",
+    direccion: "Hipólito Irigoyen 1951",
+    telefono: "(3482) 489-100",
+    correo: ""
+  },
+  {
+    nombre: "CAPS Centenario",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Sauce Viejo",
+    direccion: "Las Heras y Rivadavia",
+    telefono: "(342) 495-0678",
+    correo: ""
+  },
+  {
+    nombre: "CAPS San Cayetano",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Sauce Viejo",
+    direccion: "Pasaje 6 entre Victoria Ocampo y Juan José Paso",
+    telefono: "(342) 480-2804",
+    correo: ""
+  },
+  {
+    nombre: "CAPS Adelina Este",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Sauce Viejo",
+    direccion: "Calle 71 y 12",
+    telefono: "(342) 499-6311",
+    correo: ""
+  },
+  {
+    nombre: "SAMCO de Funes Eva Perón",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Funes",
+    direccion: "Avila y Monteagudo",
+    telefono: "(341) 493-6011",
+    correo: ""
+  },
+  {
+    nombre: "SAMCO de Bigand Dr. Alfredo E. Berraz",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Bigand",
+    direccion: "San Martín 1088",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Salud Barrio Acería",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Santa Fe",
+    direccion: "Matheu y Viñas",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "CAPS Eva Duarte de Perón",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Santo Tomé",
+    direccion: "Córdoba y Necochea",
+    telefono: "(342) 542-5516",
+    correo: ""
+  },
+  {
+    nombre: "SAMCO de Maciel Dr. Federico Meroi",
+    especialidad: "Hormonización, Atención a Infancias",
+    provincia: "Santa Fe",
+    ciudad: "Maciel",
+    direccion: "Ruta 11 412",
+    telefono: "(3476) 470-240",
+    correo: ""
   }
 ];
 
