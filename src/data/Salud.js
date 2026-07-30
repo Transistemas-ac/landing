@@ -2480,7 +2480,7 @@ const Salud = [
   },
   {
     nombre:
-      "Hospital Regional - CESIA Centro de Salud Integral del Adolescente",
+      "Hospital Regional - Centro de Salud Integral del Adolescente (CESIA)",
     especialidad:
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Chubut",
@@ -2581,7 +2581,7 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Chubut",
     ciudad: "El Maitén",
-    direccion: "Liniers y José Hernández S/N",
+    direccion: "Liniers y José Hernández",
     telefono: "(2945) 49-5117",
     correo: ""
   },
@@ -2590,7 +2590,7 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Chubut",
     ciudad: "Lago Puelo",
-    direccion: "Av. 2 de Abril",
+    direccion: "Av. 2 de Abril S/N",
     telefono: "(2944) 49-9041",
     correo: ""
   },
@@ -2699,7 +2699,7 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "Centro de Salud N°72 B° La Floresta",
+    nombre: "Centro de Salud N°72 Barrio La Floresta",
     especialidad: "Atención a Infancias, Salud Mental",
     provincia: "Córdoba",
     ciudad: "CBA",
@@ -2775,7 +2775,7 @@ const Salud = [
   {
     nombre: "Centro de Salud Selig Golding",
     especialidad:
-      "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Ginecología, Salud Mental, Grupo de Pares",
+      "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Ginecología, Grupo de Pares",
     provincia: "Entre Ríos",
     ciudad: "Paraná",
     direccion: "Av. Laurencena 63",
@@ -2906,7 +2906,7 @@ const Salud = [
     especialidad: "Atención a Infancias, Salud Mental",
     provincia: "La Pampa",
     ciudad: "Victorica",
-    direccion: "Calle 21 1194",
+    direccion: "Calle 21, 1194",
     telefono: "(2954) 49-7489",
     correo: "sole.munoz94@gmail.com"
   },
@@ -2944,7 +2944,7 @@ const Salud = [
     especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "La Rioja",
     ciudad: "Capital, La Rioja",
-    direccion: "Proyectada y Faustino Molina (esq. Av. René Favaloro)",
+    direccion: "Proyectada y Faustino Molina",
     telefono: "(380) 436-9421",
     correo: "lic.nataliamendoza@gmail.com"
   },
@@ -3043,7 +3043,7 @@ const Salud = [
     provincia: "Misiones",
     ciudad: "Posadas",
     direccion: "Las Orquídeas 10609",
-    telefono: "3765157000 / 3765157002 / (376) 154831890",
+    telefono: "(376) 5157000 / 5157002 / 154831890",
     correo: "msp_itaembeguazu@misiones.gov.ar"
   },
   {
@@ -3077,7 +3077,7 @@ const Salud = [
     nombre: "Hospital Dr. Horacio Heller",
     especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Neuquén",
-    ciudad: "Neuquén Capital",
+    ciudad: "Capital, Neuquén",
     direccion: "Coronel Godoy y Lighuen E. 1549",
     telefono: "",
     correo: "sminfanciasyadolescenciashhh@gmail.com"
@@ -3086,7 +3086,7 @@ const Salud = [
     nombre: "Hospital Bouquet Roldan",
     especialidad: "Atención a Infancias",
     provincia: "Neuquén",
-    ciudad: "Neuquén Capital",
+    ciudad: "Capital, Neuquén",
     direccion: "Teodoro Planas 1915",
     telefono: "(299) 464-5782",
     correo: ""
@@ -3098,7 +3098,7 @@ const Salud = [
     provincia: "Neuquén",
     ciudad: "San Martín de los Andes",
     direccion: "Av. San Martín 381",
-    telefono: "(297) 250-9333 (whatsapp pediatría)",
+    telefono: "(297) 250-9333",
     correo: "pediatriasma@gmail.com / equipodiversidadsma@gmail.com"
   },
   {
@@ -3162,12 +3162,12 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Ginecología, Grupo de Pares, Trabajo Social",
     provincia: "Neuquén",
     ciudad: "Villa La Angostura",
-    direccion: "Blvd. Nahuel Huapi 1107",
+    direccion: "Boulevard Nahuel Huapi 1107",
     telefono: "(2944) 49-4170 (int. 35/27)",
     correo: "consultoriointegraldiversovla@gmail.com"
   },
   {
-    nombre: "Centro de Salud B° Lanín",
+    nombre: "Centro de Salud Barrio Lanín",
     especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "Neuquén",
     ciudad: "Junín de los Andes",
@@ -3176,7 +3176,7 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "Centro de Salud B° Lonquimay",
+    nombre: "Centro de Salud Barrio Lonquimay",
     especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "Neuquén",
     ciudad: "Junín de los Andes",
@@ -3257,7 +3257,7 @@ const Salud = [
     provincia: "Río Negro",
     ciudad: "San Carlos de Bariloche",
     direccion: "Moreno 601",
-    telefono: "(294) 480-7979 (whatsapp)",
+    telefono: "(294) 480-7979",
     correo: "adolescenciasbariloche@gmail.com"
   },
   {
@@ -3274,7 +3274,7 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "Salta",
     ciudad: "Cafayate",
-    direccion: "12 de Octubre esq. Costanera",
+    direccion: "12 de Octubre (esq. Costanera)",
     telefono: "",
     correo: "nadua144@hotmail.com"
   },
@@ -3288,10 +3288,10 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "Centro de Salud Nro. 63 Roberto Nazr - Espacio Transitando",
+    nombre: "Centro de Salud N°63 Roberto Nazr - Espacio Transitando",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Salta",
-    ciudad: "Salta Capital",
+    ciudad: "Capital, Salta",
     direccion: "Sarmiento 625",
     telefono: "(387) 431-9349",
     correo: ""
@@ -3300,7 +3300,7 @@ const Salud = [
     nombre: "Hospital Dr. Arturo Oñativia - Consultorio de Diversidad",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Salta",
-    ciudad: "Salta Capital",
+    ciudad: "Capital, Salta",
     direccion: "Paz Chaín 30",
     telefono: "",
     correo: ""
@@ -3367,7 +3367,7 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "San Luis",
     ciudad: "San Luis",
-    direccion: "San Gerónimo",
+    direccion: "San Gerónimo S/N",
     telefono: "",
     correo: "centrodesaludsangeronimo@gmail.com"
   },
@@ -3583,7 +3583,7 @@ const Salud = [
     correo: "samcomjuana@hotmail.com"
   },
   {
-    nombre: "Centro de Salud N° 4 Virgen de Fátima",
+    nombre: "Centro de Salud N°4 Virgen de Fátima",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Rafaela",
@@ -3605,8 +3605,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Reconquista",
-    direccion: "Calle 127 esq. 72, Barrio Don Carlos",
-    telefono: "(3482) 655-122 (whatsapp)",
+    direccion: "Calle 127 (esq. 72), Barrio Don Carlos",
+    telefono: "(3482) 655-122",
     correo: "postadoncarlos@hotmail.com.ar"
   },
   {
@@ -3632,7 +3632,7 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Roldán",
-    direccion: "Bv. Sarmiento 900",
+    direccion: "Boulevard Sarmiento 900",
     telefono: "(341) 496-1309",
     correo: "samcoroldan@hotmail.com"
   },
@@ -3772,11 +3772,11 @@ const Salud = [
     correo: "secretariadedireccion2017@hotmail.com"
   },
   {
-    nombre: "CAPS Ideal",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Ideal",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Villa Gobernador Gálvez",
-    direccion: "Ceci y 9 de Julio S/N",
+    direccion: "Ceci y 9 de Julio",
     telefono: "(3404) 433-393",
     correo: "capsideal@cegnet.com.ar"
   },
@@ -3818,7 +3818,7 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "CAPS Centenario",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Centenario",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Sauce Viejo",
@@ -3827,7 +3827,7 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "CAPS San Cayetano",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) San Cayetano",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Sauce Viejo",
@@ -3836,11 +3836,11 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "CAPS Adelina Este",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Adelina Este",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Sauce Viejo",
-    direccion: "Calle 71 y 12",
+    direccion: "Calle 71 y Calle 12",
     telefono: "(342) 499-6311",
     correo: ""
   },
@@ -3872,7 +3872,7 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "CAPS Eva Duarte de Perón",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Eva Duarte de Perón",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Santo Tomé",
