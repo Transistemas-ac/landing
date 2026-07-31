@@ -118,7 +118,7 @@ const Salud = [
     provincia: "Buenos Aires",
     ciudad: "Bahía Blanca",
     direccion: "Av. Lainez 2401",
-    telefono: "(291) 459-3600 / 459-3611 / 459-3616 / 459-3602",
+    telefono: "(291) 459-3600 (int. 308) / 459-3611 / 459-3616 / 459-3602",
     correo: "zona.turnospenna@gmail.com / direccion-penna@ms.gba.gov.ar"
   },
   {
@@ -183,7 +183,7 @@ const Salud = [
     nombre: "Centro de Atención Primaria de Salud (CAPS) Villa Azul",
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
-    ciudad: "Bernal",
+    ciudad: "Quilmes, Bernal",
     direccion: "Sargento Cabral 701 entre Chubut y Neuquén",
     telefono: "6549-9250",
     correo: "secretariadesalud@quilmes.gov.ar"
@@ -192,7 +192,7 @@ const Salud = [
     nombre: "Unidad de Pronta Atención (UPA) N°17",
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
-    ciudad: "Bernal",
+    ciudad: "Quilmes, Bernal",
     direccion: "Cabo R. Cessa 1499",
     telefono: "1151483449 / 4270-9983 / 1161285852",
     correo: ""
@@ -201,7 +201,7 @@ const Salud = [
     nombre: "Unidad Sanitaria Dr. Pedro Elustondo",
     especialidad: "Hormonización, Ginecología, Atención Integral",
     provincia: "Buenos Aires",
-    ciudad: "Bernal",
+    ciudad: "Quilmes, Bernal",
     direccion: "Avellaneda 1147",
     telefono: "4350-3000 (int. 4315) / 8865-4466 / 4252-0101",
     correo: ""
@@ -555,7 +555,7 @@ const Salud = [
     nombre: "Centro de Atención Primaria de Salud (CAPS) N°10 Esperanza",
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
-    ciudad: "José León Suárez",
+    ciudad: "General San Martín, José León Suárez",
     direccion: "Garibaldi 1897",
     telefono: "4580-1067",
     correo: "centro10mg@gmail.com"
@@ -564,7 +564,7 @@ const Salud = [
     nombre: "Centro de Atención Primaria de Salud (CAPS) N°4 Dr. Luis Agote",
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
-    ciudad: "José León Suárez",
+    ciudad: "General San Martín, José León Suárez",
     direccion: "J. V. González (Calle 55), 50",
     telefono: "4580-1118/1056/1057",
     correo: ""
@@ -968,7 +968,7 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Morón",
-    direccion: "Pelegrini 620",
+    direccion: "Carlos Pelegrini 620",
     telefono: "1139394070 / 4133-3311 / 4133-3352 / 4133-3351",
     correo:
       "dir.politicasdiversidad@moron.gob.ar / ssypromoron@gmail.com / atencion.vecino@moron.gob.ar"
@@ -1025,7 +1025,7 @@ const Salud = [
   },
   {
     nombre:
-      "Centro de Atención Primaria de Salud (CAPS) N°22 Villa Mailín (Servicio Territorial N° 6) - Servicio Diversidad",
+      "Centro de Atención Primaria de Salud (CAPS) N°22 Villa Mailín (Servicio Territorial N° 6) - Servicio de Diversidad",
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Olavarría",
@@ -1049,7 +1049,7 @@ const Salud = [
     provincia: "Buenos Aires",
     ciudad: "Olavarría",
     direccion: "Rufino Fal 4124",
-    telefono: "(2284) 420646 / 416928",
+    telefono: "(2284) 420-646 / 416-928",
     correo: "direccionaps@olavarria.gov.ar"
   },
   {
@@ -1059,7 +1059,7 @@ const Salud = [
     provincia: "Buenos Aires",
     ciudad: "Olavarría",
     direccion: "Yrigoyen 603",
-    telefono: "02284 45653",
+    telefono: "(2284) 45-653",
     correo: "direccionaps@olavarria.gov.ar"
   },
   {
@@ -1068,7 +1068,7 @@ const Salud = [
     provincia: "Buenos Aires",
     ciudad: "Olavarría",
     direccion: "Sarmiento 2669",
-    telefono: "(2284) 229029 / 440800 (int. 2338)",
+    telefono: "(2284) 229-029 / 440-800 (int. 2338)",
     correo: "direccionaps@olavarria.gov.ar"
   },
   {
@@ -1381,7 +1381,7 @@ const Salud = [
     provincia: "Buenos Aires",
     ciudad: "Tandil",
     direccion: "General Paz 1406",
-    telefono: "0800-222-8876 / (249) 442-2010 (int. 244) / 442-2014 (int. 216)",
+    telefono: "0800-222-8876 / (249) 442-2010/4 (int. 244 / 216)",
     correo: ""
   },
   {
@@ -1493,7 +1493,7 @@ const Salud = [
       "Centro de Atención Primaria de Salud (CAPS) N°3 Eva Perón - Consultorio Diversidad",
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
-    ciudad: "Villa Concepción",
+    ciudad: "General San Martín, Villa Concepción",
     direccion: "Calle 88 (Independencia) 876",
     telefono: "4512-6259 / 4830-0711 / 4830-0723",
     correo: "codeiaps@gmail.com / sanmartin@arnet.com.ar"
@@ -1550,7 +1550,7 @@ const Salud = [
     especialidad:
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social, Cirugía de Masculinización Tórax",
     provincia: "Buenos Aires",
-    ciudad: "Wilde",
+    ciudad: "Avellaneda, Wilde",
     direccion: "Baradero 5808",
     telefono: "(11) 67858647 / 5227-7600 / 5227-7630 (int. Ginecología)",
     correo: "hospitalwilde@ms.gba.gov.ar"
@@ -1575,12 +1575,13 @@ const Salud = [
     correo: "universodiverso11@gmail.com"
   },
   {
-    nombre: "Hospital Ramos Mejía",
-    especialidad: "Endocrinología, Cirugía de Masculinización Tórax",
+    nombre: "Hospital General de Agudos José Ramos Mejía",
+    especialidad:
+      "Hormonización, Endocrinología, Cirugía de Masculinización Tórax",
     provincia: "CABA",
     ciudad: "Balvanera",
     direccion: "Urquiza 609",
-    telefono: "4127-0400",
+    telefono: "4127-0400 / 4931-1884",
     correo:
       "endocrinologiaramosmejia@gmail.com, endocri-logiaramosmejia@gmail.com"
   },
@@ -1618,7 +1619,7 @@ const Salud = [
     provincia: "CABA",
     ciudad: "Caballito",
     direccion: "Av. Díaz Vélez 5044",
-    telefono: "4982-5555 / 4982-5655",
+    telefono: "4982-5555 / 4982-5655 / 4982-1050",
     correo: "diversidadesdurand@gmail.com"
   },
   {
@@ -1754,7 +1755,7 @@ const Salud = [
     provincia: "CABA",
     ciudad: "Palermo",
     direccion: "Cerviño 3356",
-    telefono: "4808-2600 / 4808-2650",
+    telefono: "4808-2600 (int. 1107) / 4808-2650",
     correo: "consultavirtualdiversidad@gmail.com"
   },
   {
@@ -1765,7 +1766,7 @@ const Salud = [
     ciudad: "Parque Patricios",
     direccion: "24 de Noviembre 1679",
     telefono:
-      "(11) 62438331 / 62343730 / 5113-3779 / 7362-0877 / 2821-3639 / 4911-3576",
+      "(11) 4911-3576 / 62438331 / 62343730 / 5113-3779 / 7362-0877 / 2821-3639",
     correo: "cesac39@hotmail.com"
   },
   {
@@ -2179,10 +2180,10 @@ const Salud = [
     nombre:
       "Hospital Área Programa Dr. Pedro Moguillansky - Consultorio Inclusivo Claudia Pía Baudracco",
     especialidad:
-      "Clínica Médica, Trabajo Social, Grupo de Pares, Salud Mental",
+      "Hormonización, Atención a Infancias, Salud Mental, Clínica Médica, Trabajo Social, Grupo de Pares, Salud Mental",
     provincia: "Río Negro",
     ciudad: "Cipolletti",
-    direccion: "Fernandez Oro 770",
+    direccion: "Fernandez Oro 770 (esq. Sáenz Peña)",
     telefono: "(299) 4290235 / 4770030 / 4792563 (int. SM 153)",
     correo:
       "consultorioinclusivocipolletti@gmail.com / saludmental@hospital-cipolletti.com.ar"
@@ -2208,7 +2209,8 @@ const Salud = [
   },
   {
     nombre: "Centro de Adiestramiento Dr. René Favaloro (CARF) La Rotonda",
-    especialidad: "Endocrinología, Salud Mental, Clínica Médica",
+    especialidad:
+      "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, , Grupo de Pares, Trabajo Social, Clínica Médica",
     provincia: "San Juan",
     ciudad: "Villa Krause",
     direccion: "Tierra del Fuego Este y C. Fermín Rodríguez Este",
@@ -2217,12 +2219,13 @@ const Salud = [
   },
   {
     nombre: "Hospital Central de Reconquista",
-    especialidad: "Endocrinología, Clínica Médica",
+    especialidad: "Hormonización, Endocrinología, Clínica Médica",
     provincia: "Santa Fe",
     ciudad: "Reconquista",
     direccion: "Av. Hipólito Yrigoyen 2051",
-    telefono: "3482 489100",
-    correo: "hospitalreconquista@hotmail.com"
+    telefono: "(3482) 489-100",
+    correo:
+      "consultorioinclusivorqta@gmail.com / hospitalreconquista@hotmail.com"
   },
   {
     nombre: "Centro de Salud N°47",
@@ -2314,7 +2317,7 @@ const Salud = [
     correo: "caps1ush@tierradelfuego.gob.ar / generalistascat@gmail.com"
   },
   {
-    nombre: "Centro de Atención Primaria de Salud (CAPS)  N°3",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) N°3",
     especialidad:
       "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Clínica Médica, Trabajo Social",
     provincia: "Tierra del Fuego",
@@ -2330,6 +2333,15 @@ const Salud = [
     ciudad: "Ushuaia",
     direccion: "12 de Octubre y Maipú",
     telefono: "(2901) 58-1545 / 42-3200 / 44-1000",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Regional de Concepción Dr. Miguel Belascuain",
+    especialidad: "",
+    provincia: "Tucumán",
+    ciudad: "",
+    direccion: "",
+    telefono: "",
     correo: ""
   },
   {
@@ -2498,6 +2510,16 @@ const Salud = [
     direccion: "Huergo y Las Violetas",
     telefono: "(297) 446-0740",
     correo: "direccionaps@comodoro.gov.ar"
+  },
+  {
+    nombre:
+      "Centro de Atención Primaria de Salud (CAPS) N°3 - Consultorio de Diversidad Nicolás Cristal",
+    especialidad: "",
+    provincia: "Tierra del Fuego",
+    ciudad: "Río Grande",
+    direccion: "Orosky y Karukinka",
+    telefono: "2964662811",
+    email: "subsediversidad@gmail.com"
   },
   {
     nombre: "Hospital Rural El Hoyo",
@@ -3065,8 +3087,9 @@ const Salud = [
     correo: "equipoextension.subse@gmail.com"
   },
   {
-    nombre: "Hospital Provincial Neuquén",
-    especialidad: "Hormonización, Atención a Infancias, Salud Mental",
+    nombre: "Hospital Provincial Neuquén Dr. Castro Rendón",
+    especialidad:
+      "Hormonización, Atención a Infancias, Endocrinología, Salud Mental",
     provincia: "Neuquén",
     ciudad: "Neuquén",
     direccion: "Buenos Aires 350",
@@ -3128,15 +3151,6 @@ const Salud = [
     direccion: "Belgrano y Neuquén",
     telefono: "(299) 689-4212",
     correo: "adolescencia.hospitalsenillosa@gmail.com"
-  },
-  {
-    nombre: "Hospital Provincial Neuquén Dr. Castro Rendón",
-    especialidad: "Atención a Infancias, Endocrinología, Salud Mental",
-    provincia: "Neuquén",
-    ciudad: "Capital, Neuquén",
-    direccion: "Buenos Aires 450",
-    telefono: "(299) 449-0800",
-    correo: ""
   },
   {
     nombre: "Hospital Cuevas",
@@ -3211,17 +3225,6 @@ const Salud = [
     direccion: "Av. Gral. Mosconi 1699",
     telefono: "(299) 654-7362",
     correo: ""
-  },
-  {
-    nombre:
-      "Consultorio Inclusivo para la Atención Integral de Personas Trans Claudia Pía Baudracco - Hospital Cipolletti Dr. Pedro Moguillansky",
-    especialidad:
-      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
-    provincia: "Río Negro",
-    ciudad: "Cipolletti",
-    direccion: "Fernández Oro y Sáenz Peña",
-    telefono: "(299) 429-0235",
-    correo: "consultorioinclusivocipolletti@gmail.com"
   },
   {
     nombre: "Hospital Francisco López Lima",
@@ -3331,16 +3334,6 @@ const Salud = [
     direccion: "Av. Libertador y Calle Las Heras",
     telefono: "(264) 430-6981",
     correo: "iniciativamildias@gmail.com"
-  },
-  {
-    nombre: "Centro de Adiestramiento Dr. René Favaloro (CARF) La Rotonda",
-    especialidad:
-      "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
-    provincia: "San Juan",
-    ciudad: "San Juan, Villa Krause",
-    direccion: "Calle Fermín Rodríguez Este, Villa Krause",
-    telefono: "(264) 424-2610",
-    correo: ""
   },
   {
     nombre: "Hospital Dr. Guillermo Rawson",
@@ -3507,7 +3500,7 @@ const Salud = [
     provincia: "Santa Fe",
     ciudad: "Capitán Bermúdez",
     direccion: "Escalada 136",
-    telefono: "",
+    telefono: "(341) 4912388",
     correo: "samcocb@gmail.com"
   },
   {
@@ -3534,11 +3527,11 @@ const Salud = [
     provincia: "Santa Fe",
     ciudad: "Esperanza",
     direccion: "Janssen 2693",
-    telefono: "(3496) 420027 / 420263 / 420317 / 6883",
+    telefono: "(3496) 420027 / 420263 / 420317 / 6883 / 414962",
     correo: "samcoesperanza@esperanza.gov.ar"
   },
   {
-    nombre: "Centro de Salud Houssay",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Houssay",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Funes",
@@ -3579,11 +3572,11 @@ const Salud = [
     provincia: "Santa Fe",
     ciudad: "María Juana",
     direccion: "Belgrano 252",
-    telefono: "(3406) 471-795",
+    telefono: "(3406) 471-795 / 459-222",
     correo: "samcomjuana@hotmail.com"
   },
   {
-    nombre: "Centro de Salud N°4 Virgen de Fátima",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) N°4 Virgen de Fátima",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Rafaela",
@@ -3595,7 +3588,7 @@ const Salud = [
     nombre: "Hospital J. B. Alberdi",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
-    ciudad: "Rafaela",
+    ciudad: "Rosario",
     direccion: "Av. Puccio 575",
     telefono: "(341) 480-6177 (int. 101)",
     correo: "consejeriahjba@gmail.com"
@@ -3606,16 +3599,16 @@ const Salud = [
     provincia: "Santa Fe",
     ciudad: "Reconquista",
     direccion: "Calle 127 (esq. 72), Barrio Don Carlos",
-    telefono: "(3482) 655-122",
+    telefono: "(3482) 655-122 / 660-768",
     correo: "postadoncarlos@hotmail.com.ar"
   },
   {
-    nombre: "Centro de Salud V Guadalupe",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) V Guadalupe",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Reconquista",
     direccion: "Manzana 10 Calle 68",
-    telefono: "(3482) 487-170",
+    telefono: "(3482) 487-170 / 660-768",
     correo: ""
   },
   {
@@ -3624,7 +3617,7 @@ const Salud = [
     provincia: "Santa Fe",
     ciudad: "Reconquista",
     direccion: "San Martín 3830",
-    telefono: "",
+    telefono: "(3382) 660768",
     correo: ""
   },
   {
@@ -3655,21 +3648,21 @@ const Salud = [
     correo: "generoydiversidadcemar@gmail.com"
   },
   {
-    nombre: "Hospital Jaime Ferre",
+    nombre: "Hospital Dr. Jaime Ferre",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
-    ciudad: "Rosario",
+    ciudad: "Rafaela",
     direccion: "Lisandro de la Torre 737",
-    telefono: "",
+    telefono: "(341) 2110054",
     correo: "direccion_rafaela@santafe.gov.ar"
   },
   {
-    nombre: "Centro de Salud 1 de Julio",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) 1° de Julio",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "San Lorenzo",
     direccion: "Luis Borgui 182",
-    telefono: "",
+    telefono: "(341) 5724668",
     correo: ""
   },
   {
@@ -3682,16 +3675,7 @@ const Salud = [
     correo: "direccioncemafe@santafe.gov.ar"
   },
   {
-    nombre: "Centro de Salud Acería",
-    especialidad: "Hormonización, Atención a Infancias",
-    provincia: "Santa Fe",
-    ciudad: "Santa Fe",
-    direccion: "Matheu y Viñas",
-    telefono: "",
-    correo: ""
-  },
-  {
-    nombre: "Centro de Salud Las Lomas",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Las Lomas",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Santa Fe",
@@ -3700,7 +3684,7 @@ const Salud = [
     correo: "cslaloma@santafe.gov.ar"
   },
   {
-    nombre: "Centro de Salud San Martín N°8",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) N°8 San Martín",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Santa Fe",
@@ -3715,7 +3699,7 @@ const Salud = [
     ciudad: "Santa Fe",
     direccion: "French 5224",
     telefono: "(342) 457-9237",
-    correo: "direccion_sayago@santafe.gov.ar"
+    correo: "ssocial_sayago@santafe.gov.ar / direccion_sayago@santafe.gov.ar"
   },
   {
     nombre: "S.A.M.CO Dr. Nanzer",
@@ -3727,7 +3711,7 @@ const Salud = [
     correo: "samconanzer@gmail.com"
   },
   {
-    nombre: "S.A.M.CO Suardi",
+    nombre: "Hospital Dr. Giménez - S.A.M.CO Suardi",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Suardi",
@@ -3741,25 +3725,34 @@ const Salud = [
     provincia: "Santa Fe",
     ciudad: "Teodelina",
     direccion: "Sarmiento 449",
-    telefono: "",
+    telefono: "(3462) 557096",
     correo: "samcoteodelina@yahoo.com.ar"
   },
   {
-    nombre: "Centro de Salud Néstor Kirchner",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Carmen Castilla",
+    especialidad: "Hormonización",
+    provincia: "Santa Fe",
+    ciudad: "Murphy",
+    direccion: "",
+    telefono: "(3462) 441972",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Néstor Kirchner",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Tostado",
     direccion: "Hipólito Irigoyen y 6 de Caballería",
-    telefono: "",
+    telefono: "(3491) 437335",
     correo: ""
   },
   {
-    nombre: "Centro de Salud Nqandenqa",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Nqandenqa",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Tostado",
     direccion: "Chaco S/N",
-    telefono: "",
+    telefono: "(3491) 437335",
     correo: ""
   },
   {
@@ -3772,7 +3765,7 @@ const Salud = [
     correo: "secretariadedireccion2017@hotmail.com"
   },
   {
-    nombre: "Centro de Atención Primaria de Salud (CAPS) Ideal",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Barrio Ideal",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Villa Gobernador Gálvez",
@@ -3790,11 +3783,20 @@ const Salud = [
     correo: "hospitalgamen@yahoo.com.ar"
   },
   {
-    nombre: "Hospital Villa Ocampo",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) San Martín",
+    especialidad: "Hormonización",
+    provincia: "Santa Fe",
+    ciudad: "Villa Gobernador Gálvez",
+    direccion: "Suipacha 3040",
+    telefono: "(341) 4269861",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Villa Ocampo SAMCO",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Villa Ocampo",
-    direccion: "Dr. Farran 2021",
+    direccion: "Dr. Farran 2021/2129",
     telefono: "(3482) 466-002",
     correo: "turnossamcovillaocampo@gmail.com"
   },
@@ -3803,9 +3805,9 @@ const Salud = [
     especialidad:
       "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
     provincia: "Santa Fe",
-    ciudad: "Capital, Santa Fe",
+    ciudad: "Santa Fe",
     direccion: "Mendoza 4151",
-    telefono: "(342) 450-5900 (int. 201)",
+    telefono: "(342) 450-5900 (int. 127 / 201)",
     correo: "sadolescenciahnoa@gmail.com"
   },
   {
@@ -3841,7 +3843,7 @@ const Salud = [
     provincia: "Santa Fe",
     ciudad: "Sauce Viejo",
     direccion: "Calle 71 y Calle 12",
-    telefono: "(342) 499-6311",
+    telefono: "(342) 499-6311 / 545-1793",
     correo: ""
   },
   {
@@ -3878,7 +3880,7 @@ const Salud = [
     ciudad: "Santo Tomé",
     direccion: "Córdoba y Necochea",
     telefono: "(342) 542-5516",
-    correo: ""
+    correo: "capsevadperon@gmail.com"
   },
   {
     nombre: "SAMCO de Maciel Dr. Federico Meroi",
@@ -3887,6 +3889,259 @@ const Salud = [
     ciudad: "Maciel",
     direccion: "Ruta 11 412",
     telefono: "(3476) 470-240",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Barrio Sur",
+    especialidad: "Hormonización",
+    provincia: "Santa Fe",
+    ciudad: "Villa Ocampo",
+    direccion: "Chacabuco y Alberdi",
+    telefono: "(3482) 575367",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Barrio Obrero",
+    especialidad: "Hormonización",
+    provincia: "Santa Fe",
+    ciudad: "Romang",
+    direccion: "San Martín 2124",
+    telefono: "(3483) 477192",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Regional",
+    especialidad: "Hormonización",
+    provincia: "Santa Fe",
+    ciudad: "Vera",
+    direccion: "Soldado Gómez 2400",
+    telefono: "(342) 4457750",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Puerto Reconquista",
+    especialidad: "Hormonización",
+    provincia: "Santa Fe",
+    ciudad: "Reconquista",
+    direccion: "Calle Los Pescadores S/N",
+    telefono: "(342) 4457750",
+    correo: ""
+  },
+  {
+    nombre: "SAMCO de Las Toscas",
+    especialidad: "Hormonización",
+    provincia: "Santa Fe",
+    ciudad: "Las Toscas",
+    direccion: "Calle 31 450",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "SAMCO de San Guillermo",
+    especialidad: "Hormonización",
+    provincia: "Santa Fe",
+    ciudad: "San Guillermo",
+    direccion: "",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Dr. Warchavsky",
+    especialidad: "Hormonización",
+    provincia: "Santa Fe",
+    ciudad: "San Guillermo",
+    direccion: "Centenario 445",
+    telefono: "(3562) 468185",
+    correo: ""
+  },
+  {
+    nombre: "Hospital Rawson",
+    especialidad: "Hormonización",
+    provincia: "Santa Fe",
+    ciudad: "San Javier",
+    direccion: "",
+    telefono: "(3405) 424247 / 424104",
+    correo: ""
+  },
+  {
+    nombre: "SAMCO de Gálvez",
+    especialidad: "Hormonización",
+    provincia: "Santa Fe",
+    ciudad: "Villa Gobernador Gálvez",
+    direccion: "Boulevard Mitre 1551",
+    telefono: "(3404) 480391",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Padre Cobo",
+    especialidad: "Hormonización",
+    provincia: "Santa Fe",
+    ciudad: "Capital, Santa Fe",
+    direccion: "",
+    telefono: "(342) 432-6462 / 512-3098",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Villa Hipódromo",
+    especialidad: "Hormonización",
+    provincia: "Santa Fe",
+    ciudad: "Capital, Santa Fe",
+    direccion: "Blas Parera 6200",
+    telefono: "(342) 4579279",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Juventud del Norte",
+    especialidad: "Hormonización",
+    provincia: "Santa Fe",
+    ciudad: "Capital, Santa Fe",
+    direccion: "Lehman 7695",
+    telefono: "(342) 4579290",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Maiztegui",
+    especialidad: "Hormonización",
+    provincia: "Santa Fe",
+    ciudad: "Casilda",
+    direccion: "Hipólito Yrigoyen y Saavedra",
+    telefono: "(3464) 429051",
+    correo: "centrodesaludnuevaroma@hotmail.com.ar"
+  },
+  {
+    nombre: "SAMCO de Pavón Arriba",
+    especialidad: "Hormonización",
+    provincia: "Santa Fe",
+    ciudad: "Pavón Arriba",
+    direccion: "",
+    telefono: "(3469) 491541",
+    correo: ""
+  },
+  {
+    nombre: "SAMCO de Acebal",
+    especialidad: "Hormonización",
+    provincia: "Santa Fe",
+    ciudad: "Acebal",
+    direccion: "",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Coronel Domínguez",
+    especialidad: "Hormonización",
+    provincia: "Santa Fe",
+    ciudad: "Coronel Domínguez",
+    direccion: "",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Barrio Luzuriaga",
+    especialidad: "Hormonización",
+    provincia: "Santa Fe",
+    ciudad: "Villa Constitución",
+    direccion: "",
+    telefono: "(3400) 660994",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Eva Perón",
+    especialidad: "Hormonización",
+    provincia: "Santa Fe",
+    ciudad: "Fighiera",
+    direccion: "Belgrano y Saavedra",
+    telefono: "(3402) 470746",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Ramón Carrillo",
+    especialidad: "Hormonización",
+    provincia: "Santa Fe",
+    ciudad: "Arroyo Seco",
+    direccion: "Cardozo y Juárez Celman",
+    telefono: "(341) 5091600",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) N°36 Pichincha",
+    especialidad: "Hormonización",
+    provincia: "Santa Fe",
+    ciudad: "Rosario",
+    direccion: "",
+    telefono: "(341) 4353705",
+    correo: ""
+  },
+  {
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Ingeniero Mosconi",
+    especialidad: "Hormonización",
+    provincia: "Santa Fe",
+    ciudad: "Villa Gobernador Gálvez",
+    direccion: "",
+    telefono: "",
+    correo: ""
+  },
+  {
+    nombre: "Hospital del Centenario",
+    especialidad: "Hormonización",
+    provincia: "Santa Fe",
+    ciudad: "Rosario",
+    direccion: "Urquiza 3101",
+    telefono: "(341) 4307185",
+    correo: ""
+  },
+  {
+    nombre: "Unidad Sanitaria N°5 - Consultorio Diversidad",
+    especialidad: "Hormonización",
+    provincia: "Buenos Aires",
+    ciudad: "Merlo",
+    direccion: "de la Unión 1205",
+    telefono: "(220) 493-0822",
+    correo: ""
+  },
+  {
+    nombre: "Unidad Sanitaria N°11 - Consultorio Diversidad",
+    especialidad: "Hormonización",
+    provincia: "Buenos Aires",
+    ciudad: "Merlo",
+    direccion: "Av. José de San Martín S/N",
+    telefono: "(220) 480-0111",
+    correo: ""
+  },
+  {
+    nombre: "Secretaría de la Salud - Consultorio de Diversidad",
+    especialidad: "Hormonización",
+    provincia: "Buenos Aires",
+    ciudad: "José C. Paz",
+    direccion: "Av. Pres. Hipólito Yrigoyen 2945",
+    telefono: "(2320) 440-511 (int. 24) / (2320) 437-770",
+    correo: ""
+  },
+  {
+    nombre: "Unidad Sanitaria Malvinas Argentinas - Consultorio Diversidad",
+    especialidad: "Hormonización",
+    provincia: "Buenos Aires",
+    ciudad: "Morón, El Palomar",
+    direccion: "Ing. Guillermo Marconi S/N",
+    telefono: "(11) 4656-9488",
+    correo: ""
+  },
+  {
+    nombre:
+      "Centro de Atención Primaria de Salud (CAPS) N°11 Santa Ana - Consultorio de Diversidad",
+    especialidad: "Hormonización",
+    provincia: "Buenos Aires",
+    ciudad: "General San Martín",
+    direccion: "3 de Febrero 2590",
+    telefono: "(11) 4512-6228 / 4755-3993 / 4830-6228",
+    correo: ""
+  },
+  {
+    nombre: "Centro Integrador Comunitario (CIC) Sur - Consultorio Amigable",
+    especialidad: "Hormonización",
+    provincia: "Buenos Aires",
+    ciudad: "Chivilcoy",
+    direccion: "Miguel Calderón 1250",
+    telefono: "(2346) 431-267",
     correo: ""
   }
 ];
