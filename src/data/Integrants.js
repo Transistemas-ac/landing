@@ -64,13 +64,6 @@ const integrants = [
     href: "https://www.linkedin.com/in/msoledadmartinez88/"
   },
   {
-    name: "Alexis Boscaroli",
-    role: "Developer",
-    picture: pic8,
-    team: "development",
-    href: "https://www.linkedin.com/in/alexis-boscaroli/"
-  },
-  {
     name: "Jésica González Baqué",
     role: "Full-Stack Security Professional ",
     picture: pic9,
