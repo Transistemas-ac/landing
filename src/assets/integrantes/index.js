@@ -8,8 +8,7 @@ import pic7 from "./7.jpg";
 import pic8 from "./8.jpg";
 import pic9 from "./9.jpg";
 import pic10 from "./10.jpg";
-import pic11 from "./11.jpg";
-import pic12 from "./12.png";
+import pic11 from "./11.png";
 
 export {
   pic1,
@@ -22,6 +21,5 @@ export {
   pic8,
   pic9,
   pic10,
-  pic11,
-  pic12
+  pic11
 };
