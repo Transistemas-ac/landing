@@ -37,10 +37,10 @@ const integrants = [
   },
   {
     name: "Nadya Jerochim",
-    role: "Coordinadora del equipo y FullStack Developer",
+    role: "Full Stack Engineer",
     picture: pic4,
     team: "development",
-    href: "https://www.linkedin.com/in/nady4/"
+    href: "https://www.nady4.com"
   },
   {
     name: "Tamara Merele",
