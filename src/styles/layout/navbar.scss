@@ -45,8 +45,162 @@
       pointer-events: auto;
       display: flex;
 
-      img {
-        width: 160px;
+      p {
+        font-family: "Robot Crush";
+        font-size: 1.5rem;
+        color: $white;
+
+        span {
+          display: inline-block;
+          transition: color 0.3s ease, transform 0.3s ease;
+
+          &:hover {
+            transform: translateY(-3px);
+          }
+
+          // Colores bandera Trans (primeros 6 caracteres: <Trans)
+          // Orden: Azul claro, Rosa, Blanco, Rosa, Azul claro
+          &:nth-child(1):hover {
+            color: #ffffff;
+          } // Blanco (para <)
+          &:nth-child(2):hover {
+            color: #5bcefa;
+          } // Azul claro
+          &:nth-child(3):hover {
+            color: #f5a9b8;
+          } // Rosa
+          &:nth-child(4):hover {
+            color: #ffffff;
+          } // Blanco
+          &:nth-child(5):hover {
+            color: #f5a9b8;
+          } // Rosa
+          &:nth-child(6):hover {
+            color: #5bcefa;
+          } // Azul claro
+
+          // Colores bandera LGBT (resto de caracteres)
+          &:nth-child(7):hover {
+            color: #e40303;
+          } // Rojo
+          &:nth-child(8):hover {
+            color: #ff8c00;
+          } // Naranja
+          &:nth-child(9):hover {
+            color: #ffed00;
+          } // Amarillo
+          &:nth-child(10):hover {
+            color: #008026;
+          } // Verde
+          &:nth-child(11):hover {
+            color: #24408e;
+          } // Azul
+          &:nth-child(12):hover {
+            color: #732982;
+          } // Violeta
+          &:nth-child(13):hover {
+            color: #e40303;
+          } // Rojo
+          &:nth-child(14):hover {
+            color: #ff8c00;
+          } // Naranja
+          &:nth-child(15):hover {
+            color: #ffed00;
+          } // Amarillo
+        }
+
+        // Cuando se presiona cualquier span, todos los spans cambian a su color
+        span:active ~ span,
+        span:active {
+          &:nth-child(1) {
+            color: #ffffff;
+          }
+          &:nth-child(2) {
+            color: #5bcefa;
+          }
+          &:nth-child(3) {
+            color: #f5a9b8;
+          }
+          &:nth-child(4) {
+            color: #ffffff;
+          }
+          &:nth-child(5) {
+            color: #f5a9b8;
+          }
+          &:nth-child(6) {
+            color: #5bcefa;
+          }
+          &:nth-child(7) {
+            color: #e40303;
+          }
+          &:nth-child(8) {
+            color: #ff8c00;
+          }
+          &:nth-child(9) {
+            color: #ffed00;
+          }
+          &:nth-child(10) {
+            color: #008026;
+          }
+          &:nth-child(11) {
+            color: #24408e;
+          }
+          &:nth-child(12) {
+            color: #732982;
+          }
+          &:nth-child(13) {
+            color: #ffed00;
+          }
+          &:nth-child(14) {
+            color: #ffffff;
+          }
+        }
+
+        // Cuando se presiona cualquier span, aplicar colores a los hermanos anteriores
+        &:has(span:active) span {
+          &:nth-child(1) {
+            color: #ffffff;
+          }
+          &:nth-child(2) {
+            color: #5bcefa;
+          }
+          &:nth-child(3) {
+            color: #f5a9b8;
+          }
+          &:nth-child(4) {
+            color: #ffffff;
+          }
+          &:nth-child(5) {
+            color: #f5a9b8;
+          }
+          &:nth-child(6) {
+            color: #5bcefa;
+          }
+          &:nth-child(7) {
+            color: #e40303;
+          }
+          &:nth-child(8) {
+            color: #ff8c00;
+          }
+          &:nth-child(9) {
+            color: #ffed00;
+          }
+          &:nth-child(10) {
+            color: #008026;
+          }
+          &:nth-child(11) {
+            color: #24408e;
+          }
+          &:nth-child(12) {
+            color: #732982;
+          }
+          &:nth-child(13) {
+            color: #ffed00;
+          }
+          &:nth-child(14) {
+            color: #ffffff;
+          }
+        }
       }
     }
 
@@ -116,7 +270,24 @@
       text-align: center;
 
       a {
+        position: relative;
         font-size: 1.25rem;
+
+        &::after {
+          content: "";
+          position: absolute;
+          left: 50%;
+          bottom: -6px;
+          width: 0;
+          height: 2px;
+          background-color: $pink;
+          transform: translateX(-50%);
+          transition: 0.2s width ease-in-out;
+        }
+
+        &:hover::after {
+          width: 80px;
+        }
       }
 
       a.donate {

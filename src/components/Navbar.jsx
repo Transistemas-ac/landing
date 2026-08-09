@@ -2,12 +2,14 @@ import { useCallback, useContext, useEffect, useState } from "react";
 import { HashLink } from "react-router-hash-link";
 import { NavbarLinks } from "../routes";
 import DisplayContext from "../context/DisplayProvider";
-import transistemasLogo from "../assets/svg/logo_transistemas.svg";
 
 function Navbar() {
   const isMobile = useContext(DisplayContext);
   const [expanded, setExpanded] = useState(false);
   const [progress, setProgress] = useState("0%");
+
+  const wrapLetters = (text) =>
+    text.split("").map((char, index) => <span key={index}>{char}</span>);
 
   const updateProgressBar = useCallback(() => {
     const { scrollTop, scrollHeight } = document.documentElement;
@@ -63,7 +65,7 @@ function Navbar() {
 
       <div className="navbar-inner-container">
         <HashLink to={"/"} className="navbar-logo" onClick={closeMenu}>
-          <img src={transistemasLogo} alt="Transistemas" />
+          <p>{wrapLetters("<Transistemas>")}</p>
         </HashLink>
         <button type="button" className="navbar-menu-button" onClick={toggleMenu}>
           <div className="navbar-menu-icon"></div>

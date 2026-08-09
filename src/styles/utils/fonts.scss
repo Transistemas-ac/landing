@@ -1,6 +1,11 @@
 @use "../utils/variables" as *;
 
 @font-face {
+  font-family: "Robot Crush";
+  src: url("../assets/fonts/RobotCrush/RobotCrush.ttf") format("truetype");
+}
+
+@font-face {
   font-family: "Work Sans";
   font-weight: 100;
   src: url("../assets/fonts/WorkSans/WorkSans-Thin.ttf") format("truetype");
