@@ -18,14 +18,16 @@ const integrants = [
     role: "Tester QA",
     picture: pic1,
     team: "education",
-    href: "https://www.linkedin.com/in/julianlandoqa/"
+    href: "https://www.linkedin.com/in/julianlandoqa/",
+    email: "julianlando1992@gmail.com"
   },
   {
     name: "Damian Copello",
     role: "Sr QA Analyst",
     picture: pic2,
     team: "education",
-    href: "https://www.linkedin.com/in/damiancopello/"
+    href: "https://www.linkedin.com/in/damiancopello/",
+    email: "copello.dam@gmail.com"
   },
   {
     name: "Micaela Reynoso",
@@ -39,56 +41,64 @@ const integrants = [
     role: "Full Stack Engineer",
     picture: pic4,
     team: "development",
-    href: "https://www.nady4.com"
+    href: "https://www.nady4.com",
+    email: "dev@nady4.com"
   },
   {
     name: "Tamara Merele",
     role: "Community Manager",
     picture: pic5,
     team: "communication",
-    href: "https://www.linkedin.com/in/merele-c-tamara"
+    href: "https://www.linkedin.com/in/merele-c-tamara",
+    email: "merelectamara@gmail.com"
   },
   {
     name: "Larú Saldaña",
     role: "Developer y QA",
     picture: pic6,
     team: "development",
-    href: "https://www.linkedin.com/in/lar%C3%BA-salda%C3%B1a/"
+    href: "https://www.linkedin.com/in/lar%C3%BA-salda%C3%B1a/",
+    email: "yaguito.8453@gmail.com"
   },
   {
     name: "Soledad Martínez",
     role: "Fullstack Developer y QA",
     picture: pic7,
     team: "development",
-    href: "https://www.linkedin.com/in/msoledadmartinez88/"
+    href: "https://www.linkedin.com/in/msoledadmartinez88/",
+    email: "mmsoledad88@gmail.com"
   },
   {
     name: "Jésica González Baqué",
     role: "Full-Stack Security Professional ",
     picture: pic8,
     team: "education",
-    href: "https://www.linkedin.com/in/jesicagonzalezbaque/"
+    href: "https://www.linkedin.com/in/jesicagonzalezbaque/",
+    email: "jesicagonzalezbaque@gmail.com"
   },
   {
     name: "Milagros Cerro",
     role: "QA Engineer",
     picture: pic9,
     team: "education",
-    href: "https://linkedin.com/in/milagros-cerro/"
+    href: "https://linkedin.com/in/milagros-cerro/",
+    email: "cerromilagros1@gmail.com"
   },
   {
     name: "Victoria Musura",
     role: "QA Analyst",
     picture: pic10,
     team: "education",
-    href: "https://www.linkedin.com/in/vicmusu/"
+    href: "https://www.linkedin.com/in/vicmusu/",
+    email: "victoriamusura1@gmail.com"
   },
   {
     name: "Agustina Artemis Luna",
     role: "QA Senior",
     picture: pic11,
     team: "education",
-    href: "/"
+    href: "/",
+    email: "facundoluna2001@gmail.com"
   }
 ];
 
