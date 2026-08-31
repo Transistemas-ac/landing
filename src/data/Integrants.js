@@ -38,7 +38,7 @@ const integrants = [
   },
   {
     name: "Nadya Jerochim",
-    role: "Full Stack Engineer",
+    role: "Tech Lead - Full Stack Engineer",
     picture: pic4,
     team: "development",
     href: "https://www.nady4.com",
