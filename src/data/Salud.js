@@ -6,7 +6,7 @@ const Salud = [
     ciudad: "25 de Mayo",
     direccion: "Calle 37 entre 1 y 101",
     telefono: "(2345) 462267 / 464849",
-    correo: "info@hospitalunzue.com.ar",
+    correo: "info@hospitalunzue.com.ar"
   },
   {
     nombre:
@@ -17,7 +17,7 @@ const Salud = [
     ciudad: "9 de Julio",
     direccion: "Av. Tomás Cosentino 1223",
     telefono: "(2317) 57-7355 / 43-0125 / 43-0025",
-    correo: "sapsjuliodevedia@gmail.com",
+    correo: "sapsjuliodevedia@gmail.com"
   },
   {
     nombre: "Hospital Central Municipal de San Isidro Melchor A. Posse",
@@ -26,7 +26,7 @@ const Salud = [
     ciudad: "Acassuso",
     direccion: "Av. Sta Fe 431",
     telefono: "4512-3707 / 4512-3786",
-    correo: "consultascud@sanisidro.gob.ar / csi@sanisidro.gob.ar",
+    correo: "consultascud@sanisidro.gob.ar / csi@sanisidro.gob.ar"
   },
   {
     nombre: "Hospital Local Municipal General José de San Martín",
@@ -35,7 +35,7 @@ const Salud = [
     ciudad: "Adolfo Alsina, Carhué",
     direccion: "Avellaneda y Boulevard Alsina",
     telefono: "(2936) 432222 (int. 114 / 113)",
-    correo: "hospcarhue@invertel.com.ar",
+    correo: "hospcarhue@invertel.com.ar"
   },
   {
     nombre: "Hospital Local General Anita Eliçagaray",
@@ -44,7 +44,7 @@ const Salud = [
     ciudad: "Adolfo Gonzales Chaves",
     direccion: "Torchiari 200",
     telefono: "(2983) 48-4450",
-    correo: "hospital.chaves@gmail.com / adm.hospi.agchaves@gmail.com",
+    correo: "hospital.chaves@gmail.com / adm.hospi.agchaves@gmail.com"
   },
   {
     nombre: "Hospital Zonal General de Agudos Dr. Lucio Meléndez",
@@ -53,7 +53,7 @@ const Salud = [
     ciudad: "Adrogué",
     direccion: "Presidente Perón (ex Gorriti) 859",
     telefono: "4294-5555",
-    correo: "direccion-melendez@ms.gba.gov.ar",
+    correo: "direccion-melendez@ms.gba.gov.ar"
   },
   {
     nombre: "Hospital Dr. Arturo Oñativia",
@@ -63,7 +63,7 @@ const Salud = [
     ciudad: "Almirante Brown, Rafael Calzada",
     direccion: "Dr. Ramón Carrillo 1339",
     telefono: "4219-5079 / 4219-5040 / 4219-5046/7/8",
-    correo: "onativia@ms.gba.gov.ar",
+    correo: "onativia@ms.gba.gov.ar"
   },
   {
     nombre: "Hospital Interzonal General de Agudos Dr. Pedro Fiorito",
@@ -72,7 +72,7 @@ const Salud = [
     ciudad: "Avellaneda",
     direccion: "Av. Manuel Belgrano 827",
     telefono: "4201-5555 / 4201-3081 / 4201-3087",
-    correo: "comunicacion@hosfio.org.ar",
+    correo: "comunicacion@hosfio.org.ar"
   },
   {
     nombre: "Centro Municipal de Cuidado Familiar y Comunitario Villa Azul",
@@ -81,7 +81,7 @@ const Salud = [
     ciudad: "Avellaneda, Wilde",
     direccion: "Av. Ramón Franco 6459",
     telefono: "4220-4910 / 2004-1009",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Zonal General de Agudos Dr. Eduardo Wilde",
@@ -91,7 +91,7 @@ const Salud = [
     ciudad: "Avellaneda, Wilde",
     direccion: "Baradero 5808",
     telefono: "(11) 67858647 / 5227-7600 / 5227-7630",
-    correo: "hospitalwilde@ms.gba.gov.ar",
+    correo: "hospitalwilde@ms.gba.gov.ar"
   },
   {
     nombre: "Sala Periférica de Atención Primaria Eva Perón",
@@ -100,7 +100,7 @@ const Salud = [
     ciudad: "Ayacucho",
     direccion: "Av. Solanet 300 (esq. Somigliana)",
     telefono: "(249) 455-4948",
-    correo: "saludayacucho@gmail.com",
+    correo: "saludayacucho@gmail.com"
   },
   {
     nombre: "Espacio Integral para la Diversidad",
@@ -111,7 +111,7 @@ const Salud = [
     direccion: "Julio Argentino Roca 409",
     telefono: "(2281) 470275",
     correo:
-      "espaciodiversidadazul@gmail.com / dir.politicasgeneroydiversidad@azul.gob.ar",
+      "espaciodiversidadazul@gmail.com / dir.politicasgeneroydiversidad@azul.gob.ar"
   },
   {
     nombre: "Hospital Municipal Dr. Ángel Pintos",
@@ -120,7 +120,7 @@ const Salud = [
     ciudad: "Azul",
     direccion: "Amado Diab 270",
     telefono: "(2281) 47-0275 / 42-4014 / 43-5200",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Interzonal Dr. José Penna",
@@ -129,7 +129,7 @@ const Salud = [
     ciudad: "Bahía Blanca",
     direccion: "Av. Lainez 2401",
     telefono: "(291) 459-3600 (int. 308) / 459-3611 / 459-3616 / 459-3602",
-    correo: "zona.turnospenna@gmail.com / direccion-penna@ms.gba.gov.ar",
+    correo: "zona.turnospenna@gmail.com / direccion-penna@ms.gba.gov.ar"
   },
   {
     nombre: "Hospital Municipal Leónidas Lucero",
@@ -139,7 +139,7 @@ const Salud = [
     ciudad: "Bahía Blanca",
     direccion: "Estomba 968",
     telefono: "(291) 459-8484 503-0348",
-    correo: "docencia@hmabb.gov.ar / direcciondecapitalhumanohmabb@gmail.com",
+    correo: "docencia@hmabb.gov.ar / direcciondecapitalhumanohmabb@gmail.com"
   },
   {
     nombre: "Centro Integrador Comunitario (CIC) N°2",
@@ -148,7 +148,7 @@ const Salud = [
     ciudad: "Balcarce",
     direccion: "Calle 15 y Calle 116 bis",
     telefono: "2266 48-1742",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Municipal Dr. Lino Piñeiro",
@@ -157,7 +157,7 @@ const Salud = [
     ciudad: "Baradero",
     direccion: "Teófilo Rosell 1150",
     telefono: "(3329) 15551531 / 48-0004",
-    correo: "hospital@baradero.gob.ar / hospitalmunicipalbaradero@gmail.com",
+    correo: "hospital@baradero.gob.ar / hospitalmunicipalbaradero@gmail.com"
   },
   {
     nombre:
@@ -168,7 +168,7 @@ const Salud = [
     direccion: "Dr. Labriola 275",
     telefono: "(2292) 451370",
     correo:
-      "hospitalsaintout@hotmail.com / atencionhepbj@hotmail.com / dirmedicabj@gmail.com",
+      "hospitalsaintout@hotmail.com / atencionhepbj@hotmail.com / dirmedicabj@gmail.com"
   },
   {
     nombre:
@@ -178,7 +178,7 @@ const Salud = [
     ciudad: "Berazategui",
     direccion: "Calle 52 B entre Calle 134 y Calle 135",
     telefono: "4356-9200 (int. 2036)",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Zonal General de Agudos Dr. Mario V. Larrain",
@@ -187,7 +187,7 @@ const Salud = [
     ciudad: "Berisso",
     direccion: "Calle 5 (Londres), 4435",
     telefono: "(221) 461-1101 / 461-6176",
-    correo: "larrain@ms.gba.gov.ar",
+    correo: "larrain@ms.gba.gov.ar"
   },
   {
     nombre:
@@ -197,7 +197,7 @@ const Salud = [
     ciudad: "Bosques",
     direccion: "Iberia 359",
     telefono: "4213-9318 / 2149-3929",
-    correo: "villahudson@gmail.com",
+    correo: "villahudson@gmail.com"
   },
   {
     nombre: "Hospital Municipal San Luis de Bragado",
@@ -206,7 +206,7 @@ const Salud = [
     ciudad: "Bragado",
     direccion: "Hermanos Islas 700",
     telefono: "(2342) 482-450 / 541-154 / 541-100 (int. 1152)",
-    correo: "info@bragado.gov.ar",
+    correo: "info@bragado.gov.ar"
   },
   {
     nombre: "Hospital Cuenca Alta Néstor Kirchner Cañuelas",
@@ -215,7 +215,7 @@ const Salud = [
     ciudad: "Cañuelas",
     direccion: "Ruta 6 km 92,5",
     telefono: "(2226) 557446 / 628250 / 1152734700",
-    correo: "cicu@hospitalcuencaalta.org.ar",
+    correo: "cicu@hospitalcuencaalta.org.ar"
   },
   {
     nombre: "Unidad Sanitaria Sagrado Corazón de Jesús Máximo Paz",
@@ -224,7 +224,7 @@ const Salud = [
     ciudad: "Cañuelas, Máximo Paz",
     direccion: "M. Vicente y Belgrano",
     telefono: "(2274) 430994 / 451252",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Subzonal General de Agudos Nuestra Señora del Carmen",
@@ -233,7 +233,7 @@ const Salud = [
     ciudad: "Carmen de Areco",
     direccion: "Dr. Carlos M. Espil 409",
     telefono: "(2273) 442155",
-    correo: "vcarmen@ms.gba.gov.ar / direccion-carmen@ms.gba.gov.ar",
+    correo: "vcarmen@ms.gba.gov.ar / direccion-carmen@ms.gba.gov.ar"
   },
   {
     nombre: "Centro de Salud Dr. René Favaloro",
@@ -242,7 +242,7 @@ const Salud = [
     ciudad: "Castelar",
     direccion: "Nicolás Granada 3200",
     telefono: "2259-0887",
-    correo: "turnoscapsfavaloro@gmail.com",
+    correo: "turnoscapsfavaloro@gmail.com"
   },
   {
     nombre: "Hospital Municipal Nuestra Señora del Carmen",
@@ -251,7 +251,7 @@ const Salud = [
     ciudad: "Chacabuco",
     direccion: "Av. Garay 224",
     telefono: "(2352) 43-0827",
-    correo: "direccion-carmen@ms.gba.gov.ar",
+    correo: "direccion-carmen@ms.gba.gov.ar"
   },
   {
     nombre:
@@ -261,7 +261,7 @@ const Salud = [
     ciudad: "Chascomús",
     direccion: "Juárez y Correa y 26 de Julio",
     telefono: "(2241) 60-4874",
-    correo: "municipalidad@chascomus.gob.ar",
+    correo: "municipalidad@chascomus.gob.ar"
   },
   {
     nombre:
@@ -272,7 +272,7 @@ const Salud = [
     ciudad: "Chivilcoy",
     direccion: "Av. Protesta de los Labradores (Calle 9) 28",
     telefono: "(2346) 427-924",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro Integrador Comunitario (CIC) Sur - Consultorio Amigable",
@@ -281,7 +281,7 @@ const Salud = [
     ciudad: "Chivilcoy",
     direccion: "Miguel Calderón 1271",
     telefono: "(2346) 431-267",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) - Barrio Rivadavia",
@@ -290,7 +290,7 @@ const Salud = [
     ciudad: "Colón",
     direccion: "Calle 129 entre Calle 47 y Calle 48",
     telefono: "(2473) 40-8066 / 43-0431",
-    correo: "info@municipalidadcolonpba.gob.ar",
+    correo: "info@municipalidadcolonpba.gob.ar"
   },
   {
     nombre: "Hospital Municipal Eva Perón - Consultorio de Diversidad",
@@ -299,7 +299,7 @@ const Salud = [
     ciudad: "Coronel de Marina Leonardo Rosales, Punta Alta",
     direccion: "Uriburu 650",
     telefono: "(2932) 45-4683 / 42-2955 / 47-0732",
-    correo: "hepmerlo@hotmail.com",
+    correo: "hepmerlo@hotmail.com"
   },
   {
     nombre: "Hospital Municipal Dr. Raúl Caccavo",
@@ -309,7 +309,7 @@ const Salud = [
     direccion: "Garibaldi 599 (esq. Avellaneda)",
     telefono: "(2926) 429400 / 430711 / 429438",
     correo:
-      "hospitalcsuarez@speedy.com.ar / secretaria.salud@coronelsuarez.gob.ar",
+      "hospitalcsuarez@speedy.com.ar / secretaria.salud@coronelsuarez.gob.ar"
   },
   {
     nombre:
@@ -319,7 +319,7 @@ const Salud = [
     ciudad: "Dock Sud",
     direccion: "Mazzini 1325",
     telefono: "4205-9633",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Unidad Sanitaria N°9 Isla Maciel",
@@ -328,7 +328,7 @@ const Salud = [
     ciudad: "Dock Sud",
     direccion: "Montaña 172",
     telefono: "4205-9634 / 2005-9115",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Zonal General de Agudos Dr. Horacio Cestino",
@@ -338,7 +338,7 @@ const Salud = [
     ciudad: "Ensenada",
     direccion: "San Martín 328",
     telefono: "(221) 469-1041 / 469-1255 / 2215 98-8122",
-    correo: "generoydiversidadensenada@gmail.com / hcestino@ms.gba.gov.ar",
+    correo: "generoydiversidadensenada@gmail.com / hcestino@ms.gba.gov.ar"
   },
   {
     nombre: "Unidad Sanitaria N°298 Juana Azurduy",
@@ -347,7 +347,7 @@ const Salud = [
     ciudad: "Ensenada, Punta Lara",
     direccion: "Almirante Brown y Calle 44",
     telefono: "(221) 466-0114",
-    correo: "unidadsanitaria298@gmail.com",
+    correo: "unidadsanitaria298@gmail.com"
   },
   {
     nombre: "Consultorio Inclusivo Claudia Pía Baudracco",
@@ -357,7 +357,7 @@ const Salud = [
     ciudad: "Escobar",
     direccion: "Colectora Este Ramal Escobar 659",
     telefono: "1154051906 / 1121694283",
-    correo: "consultorioinclusivo@escobar.gob.ar",
+    correo: "consultorioinclusivo@escobar.gob.ar"
   },
   {
     nombre: "Centro Asistencial Pavón",
@@ -366,7 +366,7 @@ const Salud = [
     ciudad: "Exaltación de la Cruz, Pavón",
     direccion: "Ruta 39 (km. 1) y 12 de Octubre",
     telefono: "(2323) 47-3100",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Base de Salud N°14 - La Unión",
@@ -375,7 +375,7 @@ const Salud = [
     ciudad: "Ezeiza",
     direccion: "Rayo de Sol y El Pericón",
     telefono: "2005-6465",
-    correo: "",
+    correo: ""
   },
   {
     nombre:
@@ -386,7 +386,7 @@ const Salud = [
     ciudad: "Florencio Varela",
     direccion: "Av. Padre Obispo J. Novak 2266",
     telefono: "4237-3423",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Salud Villa Vatteone",
@@ -395,7 +395,7 @@ const Salud = [
     ciudad: "Florencio Varela",
     direccion: "Av. 12 de Octubre 363",
     telefono: "4287-3160",
-    correo: "saludfv@florenciovarela.gov.ar",
+    correo: "saludfv@florenciovarela.gov.ar"
   },
   {
     nombre:
@@ -405,7 +405,7 @@ const Salud = [
     ciudad: "General Alvear",
     direccion: "Av. 25 de Mayo 372",
     telefono: "(2344) 45-0110 / 50-0682",
-    correo: "salud@munialvear.gov.ar",
+    correo: "salud@munialvear.gov.ar"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Dr. Ramón Carrillo",
@@ -414,7 +414,7 @@ const Salud = [
     ciudad: "General Belgrano",
     direccion: "Av. 25 de Mayo y Calle 109",
     telefono: "(2243) 401892 / (2223) 436580",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Barrio 17 de Octubre",
@@ -423,7 +423,7 @@ const Salud = [
     ciudad: "General La Madrid",
     direccion: "Azcuénaga y Jauretche",
     telefono: "(2286) 420090",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital General Pacheco (Magdalena V. de Martínez)",
@@ -432,7 +432,7 @@ const Salud = [
     ciudad: "General Pacheco",
     direccion: "Av. Constituyentes 395 - Ruta 9",
     telefono: "4736-0157/0211/0154/0144 (int. 362/363)",
-    correo: "consultas-hmartinez@ms.gba.gov.ar / martinez@ms.gba.gov.ar",
+    correo: "consultas-hmartinez@ms.gba.gov.ar / martinez@ms.gba.gov.ar"
   },
   {
     nombre:
@@ -443,7 +443,7 @@ const Salud = [
     ciudad: "General Pueyrredón, Mar del Plata",
     direccion: "Avenida Colón y Salta",
     telefono: "(223) 6027000 / 6690126",
-    correo: "",
+    correo: ""
   },
   {
     nombre:
@@ -454,7 +454,7 @@ const Salud = [
     ciudad: "General Pueyrredón, Mar del Plata",
     direccion: "Castelli 2450",
     telefono: "(223) 499-100 / 493-6352 (int.208) / 493-9455 (int. 202)",
-    correo: "direccionhiemi@yahoo.com.ar",
+    correo: "direccionhiemi@yahoo.com.ar"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) N°16 (El Hospitalito)",
@@ -463,7 +463,7 @@ const Salud = [
     ciudad: "General Rodríguez",
     direccion: "Dr. Cherubini 450",
     telefono: "(237) 484-0641 / 484-1547 / 1123349553",
-    correo: "salud@generalrodriguez.gob.ar / direcciondesaludgr@gmail.com",
+    correo: "salud@generalrodriguez.gob.ar / direcciondesaludgr@gmail.com"
   },
   {
     nombre:
@@ -473,7 +473,7 @@ const Salud = [
     ciudad: "General San Martín",
     direccion: "3 de Febrero 2590",
     telefono: "(11) 4512-6228 / 4755-3993 / 4830-6228",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Interzonal General de Agudos Eva Perón",
@@ -483,7 +483,7 @@ const Salud = [
     direccion: "Av. Dr. Ricardo Balbín 3200",
     telefono: "4724-3000/1/2/3/4/5/6/7/8",
     correo:
-      "higaevaperon@ms.gba.gov.ar / secretariadirevaperon@gmail.com / administracion-evaperon@ms.gba.gov.ar",
+      "higaevaperon@ms.gba.gov.ar / secretariadirevaperon@gmail.com / administracion-evaperon@ms.gba.gov.ar"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) N°10 Esperanza",
@@ -492,7 +492,7 @@ const Salud = [
     ciudad: "General San Martín, José León Suárez",
     direccion: "Garibaldi 1897",
     telefono: "4580-1067",
-    correo: "centro10mg@gmail.com",
+    correo: "centro10mg@gmail.com"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) N°4 Dr. Luis Agote",
@@ -501,7 +501,7 @@ const Salud = [
     ciudad: "General San Martín, José León Suárez",
     direccion: "J. V. González (Calle 55), 50",
     telefono: "4580-1118/1056/1057",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Local Dr. Alexander Fleming - Consultorio de Diversidad",
@@ -511,7 +511,7 @@ const Salud = [
     ciudad: "General San Martín, José León Suárez",
     direccion: "Av. Brigadier General Juan Manuel de Rosas 4230",
     telefono: "4580-1050 / 4580-1063 / 4089-9717 / 0800-777-88766",
-    correo: "diversidadfleming@gmail.com / hospitalfleming@gmail.com",
+    correo: "diversidadfleming@gmail.com / hospitalfleming@gmail.com"
   },
   {
     nombre:
@@ -521,7 +521,7 @@ const Salud = [
     ciudad: "General San Martín, Villa Concepción",
     direccion: "Calle 88 (Independencia) 876",
     telefono: "4512-6259 / 4830-0711 / 4830-0723",
-    correo: "codeiaps@gmail.com / sanmartin@arnet.com.ar",
+    correo: "codeiaps@gmail.com / sanmartin@arnet.com.ar"
   },
   {
     nombre: "Hospital Zonal General de Agudos General Manuel Belgrano",
@@ -532,7 +532,7 @@ const Salud = [
     direccion: "Av. de los Constituyentes 3120",
     telefono:
       "4713-2352 / 4713-4038 / 4755-2228 / 4755-4038 / 4752-8375 / 4752-8450",
-    correo: "diversidad.hospital.belgrano@gmail.com / mbelgrano@ms.gba.gov.ar",
+    correo: "diversidad.hospital.belgrano@gmail.com / mbelgrano@ms.gba.gov.ar"
   },
   {
     nombre:
@@ -542,7 +542,7 @@ const Salud = [
     ciudad: "General Viamonte, Los Toldos",
     direccion: "Ricardo Balbín 1300 (esq. Los Jacarandaes)",
     telefono: "(2358) 400995 / (2364) 308331",
-    correo: "casia@generalviamonte.gob.ar",
+    correo: "casia@generalviamonte.gob.ar"
   },
   {
     nombre: "Hospital Simplemente Evita - Consultorio de Diversidad",
@@ -551,7 +551,7 @@ const Salud = [
     ciudad: "González Catán",
     direccion: "Av. Dr. José Equiza 6310",
     telefono: "1167076485 / (2202) 42-2232 / 42-8144",
-    correo: "direccion-simplementeevita@ms.gba.gov.ar",
+    correo: "direccion-simplementeevita@ms.gba.gov.ar"
   },
   {
     nombre: "Unidad Primaria de Atención - Ampliación Devoto",
@@ -560,7 +560,7 @@ const Salud = [
     ciudad: "Grand Bourg, Malvinas Argentinas",
     direccion: "Mario Bravo 799 (esq. Paso de los Patos)",
     telefono: "1141661257 / (2320) 41-1475",
-    correo: "",
+    correo: ""
   },
   {
     nombre:
@@ -571,7 +571,7 @@ const Salud = [
     ciudad: "Hurlingham",
     direccion: "General Levalle y Potosí S/N",
     telefono: "4665-7021 / 1125597342",
-    correo: "ssalud@munhurli.gov.ar",
+    correo: "ssalud@munhurli.gov.ar"
   },
   {
     nombre:
@@ -581,7 +581,7 @@ const Salud = [
     ciudad: "Ituzaingó",
     direccion: "Haití 1905",
     telefono: "1121201947 / 4661-4554 / 2120-1944",
-    correo: "cimituzaingo@gmail.com",
+    correo: "cimituzaingo@gmail.com"
   },
   {
     nombre: "Centro de Salud San Roque",
@@ -590,7 +590,7 @@ const Salud = [
     ciudad: "José C. Paz",
     direccion: "Pavón 3545",
     telefono: "4451-4327",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) N°12 Dr. Genna",
@@ -599,7 +599,7 @@ const Salud = [
     ciudad: "Junín",
     direccion: "Primera Junta y Alvear",
     telefono: "(236) 4313412 / 4420785",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Interzonal General de Agudos Abraham Piñeyro",
@@ -608,7 +608,7 @@ const Salud = [
     ciudad: "Junín",
     direccion: "Lavalle 1084",
     telefono: "(236) 433313 / 433138 / 443-3108",
-    correo: "hjunin@ms.gba.gov.ar",
+    correo: "hjunin@ms.gba.gov.ar"
   },
   {
     nombre: "Hospital Dr. Alberto Balestrini",
@@ -618,7 +618,7 @@ const Salud = [
     direccion: "Av. Monseñor Bufano 1778",
     telefono: "1157086829 / 4620-2305 (int. 1001) / 4620-2760 / 4620-1628",
     correo:
-      "admisionhospitalbalestrini@gmail.com / direccionbalestrini@gmail.com / servicio.pediatriahb@gmail.com",
+      "admisionhospitalbalestrini@gmail.com / direccionbalestrini@gmail.com / servicio.pediatriahb@gmail.com"
   },
   {
     nombre: "Hospital Interzonal Dr. Diego Paroissien",
@@ -629,7 +629,7 @@ const Salud = [
     telefono:
       "1169699994 / 4669-3640 / 4669-3790 / 4669-3490 / 4669-3190 / (2223) 49-4757",
     correo:
-      "melinabarril@hotmail.com / higaparoissien@yahoo.com.ar / saps.paroissien22@gmail.com",
+      "melinabarril@hotmail.com / higaparoissien@yahoo.com.ar / saps.paroissien22@gmail.com"
   },
   {
     nombre: "Unidad Sanitaria Juan Manuel de Rosas - Consultorio Amigable",
@@ -638,7 +638,7 @@ const Salud = [
     ciudad: "La Matanza, Isidro Casanova",
     direccion: "Ruiz de los Llanos 267",
     telefono: "4694-3877 / 1164569918",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Infantil Sor María Ludovica",
@@ -649,7 +649,7 @@ const Salud = [
     direccion: "Calle 14, 1631 entre Calle 65 y Calle 66",
     telefono: "(221) 453-5901 / 453-5907 (int. 1859)",
     correo:
-      "diversidadygeneroludovica@gmail.com / sorludovica@ms.gba.gov.ar / ludovica@ms.gba.gov.ar",
+      "diversidadygeneroludovica@gmail.com / sorludovica@ms.gba.gov.ar / ludovica@ms.gba.gov.ar"
   },
   {
     nombre:
@@ -659,7 +659,7 @@ const Salud = [
     ciudad: "La Plata",
     direccion: "Calle 64, 591 entre Calle 6 y Calle 7",
     telefono: "(221) 425-5661 / 483-1313 / 421-5557",
-    correo: "direccion-reencuentro@ms.gba.gov.ar",
+    correo: "direccion-reencuentro@ms.gba.gov.ar"
   },
   {
     nombre: "Hospital Interzonal General de Agudos General San Martín",
@@ -668,7 +668,7 @@ const Salud = [
     ciudad: "La Plata",
     direccion: "Calle 1 y Calle 70",
     telefono: "(221) 421-1195/ 421-1199 / 421-1196 / 483-5759 / 483-6588",
-    correo: "hsanmartin@ms.gba.gov.ar",
+    correo: "hsanmartin@ms.gba.gov.ar"
   },
   {
     nombre: "Hospital Interzonal General de Agudos Prof. Dr. Rodolfo Rossi",
@@ -678,7 +678,7 @@ const Salud = [
     ciudad: "La Plata",
     direccion: "Calle 37, 183 entre 116 y 117",
     telefono: "(221) 556-7674 / 482-8821 / 482-8824",
-    correo: "administracionrossi@ms.gba.gov.ar",
+    correo: "administracionrossi@ms.gba.gov.ar"
   },
   {
     nombre: "Hospital Subzonal Especializado Elina de La Serna de Montes",
@@ -687,7 +687,7 @@ const Salud = [
     ciudad: "La Plata",
     direccion: "Calle 8, 483 entre 41 y 42",
     telefono: "(221) 4212729 (int. 115) / 4833869",
-    correo: "administracion-hdelaserna@ms.gba.gov.ar",
+    correo: "administracion-hdelaserna@ms.gba.gov.ar"
   },
   {
     nombre: "Hospital Zonal General de Agudos Dr. Ricardo Gutiérrez",
@@ -697,7 +697,7 @@ const Salud = [
     ciudad: "La Plata",
     direccion: "Diagonal 114 entre Calle 39 y Calle 40",
     telefono: "(221) 483-0171/2/3/4/5 (int. 229) / 421-5241",
-    correo: "urologiagutierrez@hotmail.com / direccion-gutierrez@ms.gba.gov.ar",
+    correo: "urologiagutierrez@hotmail.com / direccion-gutierrez@ms.gba.gov.ar"
   },
   {
     nombre: "Hospital Interzonal General de Agudos San Roque de Gonnet",
@@ -706,7 +706,7 @@ const Salud = [
     ciudad: "La Plata, Gonnet",
     direccion: "508 entre 18 y 19",
     telefono: "(221) 484-0290 / 471-0063 / 471-1593",
-    correo: "sanroquecomunicacion@gmail.com",
+    correo: "sanroquecomunicacion@gmail.com"
   },
   {
     nombre: "Unidad de Pronta Atención (UPA) N°6 - Los Hornos",
@@ -715,7 +715,7 @@ const Salud = [
     ciudad: "La Plata, Los Hornos",
     direccion: "Calle 66 y Calle 153",
     telefono: "(221) 450-9005",
-    correo: "upa-loshornos@ms.gba.gov.ar",
+    correo: "upa-loshornos@ms.gba.gov.ar"
   },
   {
     nombre:
@@ -726,7 +726,7 @@ const Salud = [
     ciudad: "Lanús",
     direccion: "Diego Armando Maradona 1910 (ex. Río de Janeiro 1910)",
     telefono: "1170354506 / 1135918908 / 4241-4050/51/52/53/54/55",
-    correo: "evita-direccion@ms.gba.gov.ar / adolevita@gmail.com",
+    correo: "evita-direccion@ms.gba.gov.ar / adolevita@gmail.com"
   },
   {
     nombre: "Hospital Zonal General de Agudos Narciso López",
@@ -735,7 +735,7 @@ const Salud = [
     ciudad: "Lanús Este",
     direccion: "O'Higgins 1333",
     telefono: "4241-2749 / 4241-4184 / 4241-5377",
-    correo: "nlopez@ms.gba.gov.ar",
+    correo: "nlopez@ms.gba.gov.ar"
   },
   {
     nombre: "Unidad Sanitaria 1° de Mayo - Equipo Disidente Cris Miró",
@@ -744,7 +744,7 @@ const Salud = [
     ciudad: "Lanús Este",
     direccion: "Av. Teodoro Sánchez de Bustamante 2355",
     telefono: "1123957975 / 4246-8689",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Municipal de Vedia Alberto Conocchiari",
@@ -753,7 +753,7 @@ const Salud = [
     ciudad: "Leandro N. Alem, Vedia",
     direccion: "Mendoza entre Belgrano y La Rioja",
     telefono: "(2354) 42-2600",
-    correo: "",
+    correo: ""
   },
   {
     nombre:
@@ -763,7 +763,7 @@ const Salud = [
     ciudad: "Lincoln",
     direccion: "Av. San Lorenzo 2007",
     telefono: "(2355) 42-1400 / 43-2900 / 0800-222-5159",
-    correo: "hospital@lincoln.gob.ar / admisionhospital@lincoln.gob.ar",
+    correo: "hospital@lincoln.gob.ar / admisionhospital@lincoln.gob.ar"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Ramón Carrillo",
@@ -772,7 +772,7 @@ const Salud = [
     ciudad: "Lobería",
     direccion: "Jauretche 335",
     telefono: "44-2105 (int. 2014) / 44-3179",
-    correo: "ssydsloberia@gmail.com / direccioncapsloberia@gmail.com",
+    correo: "ssydsloberia@gmail.com / direccioncapsloberia@gmail.com"
   },
   {
     nombre: "Hospital Zonal General de Agudos de Lobos",
@@ -781,7 +781,7 @@ const Salud = [
     ciudad: "Lobos",
     direccion: "Mastropietro entre Chacabuco y Salgado",
     telefono: "(2227) 62-8938 / 42-1212 / 51-7622 / 0800-666-1085",
-    correo: "administracion-hlobos@ms.gba.gov.ar",
+    correo: "administracion-hlobos@ms.gba.gov.ar"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) N°6 Barrio Libertador",
@@ -790,7 +790,7 @@ const Salud = [
     ciudad: "Loma Hermosa",
     direccion: "El Pensamiento 5401",
     telefono: "1128459795 / 4513-5122 / 4513-5125",
-    correo: "capsn6@yahoo.com.ar",
+    correo: "capsn6@yahoo.com.ar"
   },
   {
     nombre:
@@ -800,7 +800,7 @@ const Salud = [
     ciudad: "Lomas de Zamora",
     direccion: "Av. Pres. Hipólito Yrigoyen 10043",
     telefono: "1160686003 / 1139491493 / 4239-9689",
-    correo: "politicasdegenerolomas@gmail.com",
+    correo: "politicasdegenerolomas@gmail.com"
   },
   {
     nombre: "Centro Integral de Salud Temperley Oeste",
@@ -809,7 +809,7 @@ const Salud = [
     ciudad: "Lomas de Zamora, Temperley",
     direccion: "General José María Paz 1405",
     telefono: "4231-1324",
-    correo: "secretariadesalud@lomasdezamora.gov.ar",
+    correo: "secretariadesalud@lomasdezamora.gov.ar"
   },
   {
     nombre: "Maternidad Municipal María Eva Duarte de Perón",
@@ -818,7 +818,7 @@ const Salud = [
     ciudad: "Los Polvorines",
     direccion: "Av. del Sesquicentenario 2047",
     telefono: "4469-9600 / 4660-9000",
-    correo: "contacto@malvinasargentinas.gob.ar",
+    correo: "contacto@malvinasargentinas.gob.ar"
   },
   {
     nombre: "Centro de Medicina Preventiva y Social Eva Perón",
@@ -828,7 +828,7 @@ const Salud = [
     ciudad: "Luján",
     direccion: "Gral. Las Heras 475",
     telefono: "(2323) 42-1260 / 1155828124",
-    correo: "sec_salud@lujan.gob.ar",
+    correo: "sec_salud@lujan.gob.ar"
   },
   {
     nombre:
@@ -840,7 +840,7 @@ const Salud = [
     direccion: "Padre José María Criado Alonso 399 (esq. Evaristo Carriego)",
     telefono: "1136411053 / (2323) 274593 / 2801-8490",
     correo:
-      "diversidades@cmdo.gov.ar / espacioequiscisi@gmail.com / cisi@cmdo.gov.ar",
+      "diversidades@cmdo.gov.ar / espacioequiscisi@gmail.com / cisi@cmdo.gov.ar"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Villa Vanelli",
@@ -849,7 +849,7 @@ const Salud = [
     ciudad: "Maipú",
     direccion: "Kakel Huincul entre San Martín y Necochea",
     telefono: "(2268) 15527840 / 15519748",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) MGP Libertad",
@@ -858,7 +858,7 @@ const Salud = [
     ciudad: "Mar del Plata",
     direccion: "Leguizamon Onésimo 552",
     telefono: "(223) 478-3030 / 487-5541",
-    correo: "sslibertad@mardelplata.gob.ar",
+    correo: "sslibertad@mardelplata.gob.ar"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Santa Rita",
@@ -867,7 +867,7 @@ const Salud = [
     ciudad: "Mar del Plata",
     direccion: "Guanahani 7751",
     telefono: "(223) 483-0385",
-    correo: "ss_starita@mardelplata.gob.ar",
+    correo: "ss_starita@mardelplata.gob.ar"
   },
   {
     nombre: "Centro de Salud N°1 - Servicio de Diversidad",
@@ -876,7 +876,7 @@ const Salud = [
     ciudad: "Mar del Plata",
     direccion: "Av. Colón 3294",
     telefono: "(223) 499-7999 (int. 1350) / 602-7000",
-    correo: "ssnro1@mardelplata.gov.ar",
+    correo: "ssnro1@mardelplata.gov.ar"
   },
   {
     nombre:
@@ -886,7 +886,7 @@ const Salud = [
     ciudad: "Mar del Plata",
     direccion: "Rodriguez Peña 6802",
     telefono: "(223) 5749983 / 4770262 / 0800-999-1085",
-    correo: "diversidadhiga@gmail.com",
+    correo: "diversidadhiga@gmail.com"
   },
   {
     nombre: "Unidad Sanitaria Mar del Tuyú",
@@ -895,7 +895,7 @@ const Salud = [
     ciudad: "Mar del Tuyú",
     direccion: "Calle 74 y Calle 1",
     telefono: "02246 43-4555",
-    correo: "salud@lacosta.gov.ar",
+    correo: "salud@lacosta.gov.ar"
   },
   {
     nombre: "Hospital Subzonal Especializado Dr. José Ingenieros",
@@ -904,7 +904,7 @@ const Salud = [
     ciudad: "Melchor Romero",
     direccion: "Calle 161 y Calle 515",
     telefono: "(221) 478-1158 / 478-6004 / 478-2243",
-    correo: "cexternosjingenieros@gmail.com / direccionjingenieros@gmail.com",
+    correo: "cexternosjingenieros@gmail.com / direccionjingenieros@gmail.com"
   },
   {
     nombre:
@@ -915,7 +915,7 @@ const Salud = [
     ciudad: "Mercedes",
     direccion: "12 entre 55 y 57",
     telefono: "(2324) 41-5882",
-    correo: "contacto@mercedes.gob.ar",
+    correo: "contacto@mercedes.gob.ar"
   },
   {
     nombre: "Unidad Sanitaria N°11 Parque San Martín - Consultorio Diversidad",
@@ -924,7 +924,7 @@ const Salud = [
     ciudad: "Merlo",
     direccion: "Av. San Martín entre Bariloche y Castelli",
     telefono: "(220) 480-0111",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Unidad Sanitaria N°5 Villa Magdalena - Consultorio Diversidad",
@@ -933,7 +933,7 @@ const Salud = [
     ciudad: "Merlo",
     direccion: "Av. Eva Perón entre Balbastro y Paso de los Patos",
     telefono: "(220) 493-0822 / (11) 3231-3549",
-    correo: "",
+    correo: ""
   },
   {
     nombre:
@@ -943,7 +943,7 @@ const Salud = [
     ciudad: "Ministro Rivadavia",
     direccion: "25 de Mayo 594 y Dardo Rocha",
     telefono: "4279-2242 / 7156-6651",
-    correo: "caps1@almirantebrown.gob.ar",
+    correo: "caps1@almirantebrown.gob.ar"
   },
   {
     nombre: "Hospital Municipal Dr. Marino Cassano",
@@ -952,7 +952,7 @@ const Salud = [
     ciudad: "Miramar",
     direccion: "Diag. J. M. Dupuy 1550",
     telefono: "(2291) 43-1253",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro Integrador Comunitario (CIC) Monte Hermoso",
@@ -961,7 +961,7 @@ const Salud = [
     ciudad: "Monte Hermoso",
     direccion: "Río Salado 1000",
     telefono: "(2921) 400804 / 483221",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Zonal General Mariano y Luciano de la Vega",
@@ -972,7 +972,7 @@ const Salud = [
     direccion: "Av. Libertador 710",
     telefono: "1138071823 / (237) 460-1085 / 462-0039",
     correo:
-      "direccion-hmlv@ms.gba.gov.ar / hmyldelavega.comunicacion@gmail.com / saludsexualmoreno@gmail.com",
+      "direccion-hmlv@ms.gba.gov.ar / hmyldelavega.comunicacion@gmail.com / saludsexualmoreno@gmail.com"
   },
   {
     nombre: "Unidad Sanitaria Barrio 2000 - Consultorio LGBTIQ+ Perla Carrizo",
@@ -981,7 +981,7 @@ const Salud = [
     ciudad: "Moreno",
     direccion: "Carlos Gardel 902 (esq. Bolivia), Barrio 2000",
     telefono: "1138071823",
-    correo: "saludsexualmoreno@gmail.com",
+    correo: "saludsexualmoreno@gmail.com"
   },
   {
     nombre: "Unidad de Pronta Atención (UPA) N°12 Moreno",
@@ -990,7 +990,7 @@ const Salud = [
     ciudad: "Moreno, Cuartel V",
     direccion: "Ruta Provincial 24, 7800 (esq. C. Bernardi)",
     telefono: "(2320) 53-3638 / 53-3628",
-    correo: "upa12.turnera.9@gmail.com / upa12cuartelv@gmail.com",
+    correo: "upa12.turnera.9@gmail.com / upa12cuartelv@gmail.com"
   },
   {
     nombre:
@@ -1001,7 +1001,7 @@ const Salud = [
     direccion: "Carlos Pelegrini 620",
     telefono: "1139394070 / 4133-3311 / 4133-3352 / 4133-3351",
     correo:
-      "dir.politicasdiversidad@moron.gob.ar / ssypromoron@gmail.com / atencion.vecino@moron.gob.ar",
+      "dir.politicasdiversidad@moron.gob.ar / ssypromoron@gmail.com / atencion.vecino@moron.gob.ar"
   },
   {
     nombre: "Unidad Sanitaria Vías Respiratorias",
@@ -1011,7 +1011,7 @@ const Salud = [
     direccion: "General Machado 778",
     telefono: "011 4489-0673",
     correo:
-      "diversidadenviasmoron@gmail.com / viasrespiratoriasmoron@ms.gba.gov.ar",
+      "diversidadenviasmoron@gmail.com / viasrespiratoriasmoron@ms.gba.gov.ar"
   },
   {
     nombre:
@@ -1022,7 +1022,7 @@ const Salud = [
     ciudad: "Morón, El Palomar",
     direccion: "Cacique Namuncurá 351 (esq. Ing. Guillermo Marconi)",
     telefono: "1123240759 / 1123240459 / 4656-9488",
-    correo: "diversidad.capsmalvinas@gmail.com",
+    correo: "diversidad.capsmalvinas@gmail.com"
   },
   {
     nombre: "Hospital Posadas",
@@ -1032,7 +1032,7 @@ const Salud = [
     ciudad: "Morón, El Palomar",
     direccion: "Ing. Guillermo Marconi Morón 386 (esq. Av. Presidente Illia)",
     telefono: "1127678072 / 4469-9300",
-    correo: "saludsexual@hospitalposadas.gob.ar",
+    correo: "saludsexual@hospitalposadas.gob.ar"
   },
   {
     nombre:
@@ -1042,7 +1042,7 @@ const Salud = [
     ciudad: "Necochea",
     direccion: "Calle 77, 1865",
     telefono: "(2262) 43-8187 / 43-9376",
-    correo: "politicasdegeneronecochea@gmail.com",
+    correo: "politicasdegeneronecochea@gmail.com"
   },
   {
     nombre: "Hospital Subzonal Especializado Neur. Dr. Domingo J. Taraborelli",
@@ -1051,7 +1051,7 @@ const Salud = [
     ciudad: "Necochea",
     direccion: "Calle 49, 1868",
     telefono: "(2262) 42-8538 / 42-5164",
-    correo: "taraborelli@ms.gba.gov.ar",
+    correo: "taraborelli@ms.gba.gov.ar"
   },
   {
     nombre:
@@ -1061,7 +1061,7 @@ const Salud = [
     ciudad: "Olavarría",
     direccion: "Mendoza y Balcarce S/N",
     telefono: "(2284) 451601",
-    correo: "direccionaps@olavarria.gov.ar",
+    correo: "direccionaps@olavarria.gov.ar"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) N°26 Lourdes",
@@ -1070,7 +1070,7 @@ const Salud = [
     ciudad: "Olavarría",
     direccion: "Grimaldi 894",
     telefono: "(2284) 455-200 / 1557-9766",
-    correo: "direccionaps@olavarria.gov.ar",
+    correo: "direccionaps@olavarria.gov.ar"
   },
   {
     nombre:
@@ -1080,7 +1080,7 @@ const Salud = [
     ciudad: "Olavarría",
     direccion: "Rufino Fal 4124",
     telefono: "(2284) 420-646 / 416-928",
-    correo: "direccionaps@olavarria.gov.ar",
+    correo: "direccionaps@olavarria.gov.ar"
   },
   {
     nombre:
@@ -1090,7 +1090,7 @@ const Salud = [
     ciudad: "Olavarría",
     direccion: "Yrigoyen 603",
     telefono: "(2284) 45-653",
-    correo: "direccionaps@olavarria.gov.ar",
+    correo: "direccionaps@olavarria.gov.ar"
   },
   {
     nombre: "Hospital Municipal Dr. Héctor M. Cura - Servicio Diversidad",
@@ -1099,7 +1099,7 @@ const Salud = [
     ciudad: "Olavarría",
     direccion: "Sarmiento 2669",
     telefono: "(2284) 229-029 / 440-800 (int. 2338)",
-    correo: "direccionaps@olavarria.gov.ar",
+    correo: "direccionaps@olavarria.gov.ar"
   },
   {
     nombre:
@@ -1109,7 +1109,7 @@ const Salud = [
     ciudad: "Olavarría, Sierra Chica",
     direccion: "Marelli 1175 (esq. Pablo Sbardolini)",
     telefono: "(2284) 422-229 / 536-661",
-    correo: "direccionaps@olavarria.gov.ar",
+    correo: "direccionaps@olavarria.gov.ar"
   },
   {
     nombre:
@@ -1120,7 +1120,7 @@ const Salud = [
     ciudad: "Pergamino",
     direccion: "Vicente López 2002 (esq. Balboa)",
     telefono: "(2477) 414437 / 414277 / 328384",
-    correo: "consultorioamigablepergamino@gmail.com",
+    correo: "consultorioamigablepergamino@gmail.com"
   },
   {
     nombre: "Centro de Salud La Loma - Servicio Diversidad",
@@ -1130,7 +1130,7 @@ const Salud = [
     ciudad: "Pilar, Del Viso",
     direccion: "Polonia 8064 (esq. Juana de Arco)",
     telefono: "1152386864 / (2320) 40-1944",
-    correo: "mimuni@pilar.gov.ar",
+    correo: "mimuni@pilar.gov.ar"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Ostende",
@@ -1139,7 +1139,7 @@ const Salud = [
     ciudad: "Pinamar",
     direccion: "Av. del Parque 7167 y Misiones",
     telefono: "(2254) 49-1777",
-    correo: "apspinamar@gmail.com",
+    correo: "apspinamar@gmail.com"
   },
   {
     nombre: "Unidad Sanitaria N°18 de Avellaneda",
@@ -1148,7 +1148,7 @@ const Salud = [
     ciudad: "Piñeyro",
     direccion: "Moisés Lebensohn 941",
     telefono: "7720-5973",
-    correo: "",
+    correo: ""
   },
   {
     nombre:
@@ -1159,7 +1159,7 @@ const Salud = [
     direccion:
       "Francisco Petrone 3645 entre Florencio Parravicini y Blanca Podestá",
     telefono: "4397-1145 / (2224) 50-7041",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "CIC Agustín Ramírez",
@@ -1168,7 +1168,7 @@ const Salud = [
     ciudad: "Quilmes",
     direccion: "Camino General Manuel Belgrano 1893",
     telefono: "0800-999-5656 / 1150430045",
-    correo: "",
+    correo: ""
   },
   {
     nombre:
@@ -1179,7 +1179,7 @@ const Salud = [
     direccion: "Allison Bell 770",
     telefono: "4253-6021 / 4224-6263 / 4224-7738 / 3434525086",
     correo:
-      "saludsexualiriarte@gmail.com / lic.lautarodelfabro@gmail.com / direccion-iriarte@ms.gba.gov.ar",
+      "saludsexualiriarte@gmail.com / lic.lautarodelfabro@gmail.com / direccion-iriarte@ms.gba.gov.ar"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Villa Azul",
@@ -1188,7 +1188,7 @@ const Salud = [
     ciudad: "Quilmes, Bernal",
     direccion: "Sargento Cabral 701 entre Chubut y Neuquén",
     telefono: "6549-9250",
-    correo: "secretariadesalud@quilmes.gov.ar",
+    correo: "secretariadesalud@quilmes.gov.ar"
   },
   {
     nombre: "Unidad de Pronta Atención (UPA) N°17",
@@ -1197,7 +1197,7 @@ const Salud = [
     ciudad: "Quilmes, Bernal",
     direccion: "Cabo R. Cessa 1499",
     telefono: "(11) 51483449 / 4270-9983 / 61285852",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Unidad Sanitaria Dr. Pedro Elustondo",
@@ -1206,7 +1206,7 @@ const Salud = [
     ciudad: "Quilmes, Bernal",
     direccion: "Avellaneda 1147",
     telefono: "4350-3000 (int. 4315) / 8865-4466 / 4252-0101",
-    correo: "",
+    correo: ""
   },
   {
     nombre:
@@ -1217,7 +1217,7 @@ const Salud = [
     ciudad: "Quilmes, San Francisco Solano",
     direccion: "Av. 844, 2100",
     telefono: "4350-3000 (int. 3417) / 4212-2976 / 4212-7339 / 4212-9721",
-    correo: "saludsexualintegraloller@gmail.com",
+    correo: "saludsexualintegraloller@gmail.com"
   },
   {
     nombre: "Hospital Municipal José María Gomendio",
@@ -1226,7 +1226,7 @@ const Salud = [
     ciudad: "Ramallo",
     direccion: "José María Gomendio 1374",
     telefono: "(3407) 42-1555 / 42-1336",
-    correo: "hospitaljosemariagomendio@gmail.com",
+    correo: "hospitaljosemariagomendio@gmail.com"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) N°22 Ranelagh",
@@ -1235,7 +1235,7 @@ const Salud = [
     ciudad: "Ranelagh",
     direccion: "359 entre 303 y 304",
     telefono: "4356-9200 (int. 2022)",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro Integrador Comunitario (CIC) José Luis Massa",
@@ -1244,7 +1244,7 @@ const Salud = [
     ciudad: "Rauch",
     direccion: "Conesa y Rondeau",
     telefono: "(2297) 44-3895",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Local General Agudos Dr. Arturo Melo",
@@ -1253,7 +1253,7 @@ const Salud = [
     ciudad: "Remedios de Escalada",
     direccion: "Villa de Luján 3050",
     telefono: "1124825956 / 1156003712 / 4227-8620",
-    correo: "hamelo@ms.gba.gov.ar",
+    correo: "hamelo@ms.gba.gov.ar"
   },
   {
     nombre: "Hospital Municipal María Unzué de Alvear",
@@ -1263,7 +1263,7 @@ const Salud = [
     ciudad: "Rojas",
     direccion: "Av. 25 de Mayo, entre Vélez Sarsfield y María Unzué de Alvear",
     telefono: "(2474) 49-3263 / 44-5237 / (2475) 46-5316 / 46-5410 / 46-2973",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro Integrador Comunitario (CIC) Evita",
@@ -1272,7 +1272,7 @@ const Salud = [
     ciudad: "Roque Pérez",
     direccion: "Avellaneda y San Martín",
     telefono: "(2227) 9-1044 / 49-12514",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) N°3",
@@ -1281,7 +1281,7 @@ const Salud = [
     ciudad: "Sáenz Peña",
     direccion: "Av. América 651",
     telefono: "4757-5555 / 4757-0093 / 2105-6619",
-    correo: "",
+    correo: ""
   },
   {
     nombre:
@@ -1291,7 +1291,7 @@ const Salud = [
     ciudad: "Saladillo",
     direccion: "Av. Bozan 9741 (esq. Martín Fierro)",
     telefono: "(2344) 431104",
-    correo: "capsfalucho@saladillo.gob.ar / capsibarbia2016@gmail.com",
+    correo: "capsfalucho@saladillo.gob.ar / capsibarbia2016@gmail.com"
   },
   {
     nombre:
@@ -1302,7 +1302,7 @@ const Salud = [
     ciudad: "San Andrés de Giles",
     direccion: "Rawson entre Calle 49 y Calle 51",
     telefono: "(2325) 44-0345 / 42-3837 / 42-4848",
-    correo: "diversidadsag@gmail.com / cic@sanandresdegiles.gob.ar",
+    correo: "diversidadsag@gmail.com / cic@sanandresdegiles.gob.ar"
   },
   {
     nombre:
@@ -1312,7 +1312,7 @@ const Salud = [
     ciudad: "San Antonio de Areco",
     direccion: "Balvé entre Martín Fierro y José Pereyra",
     telefono: "(2326) 45-4336 / 53-0895",
-    correo: "caps.drdisanto@gmail.com",
+    correo: "caps.drdisanto@gmail.com"
   },
   {
     nombre: "Unidad Sanitaria Dr. José Antonio Bucca",
@@ -1322,7 +1322,7 @@ const Salud = [
     ciudad: "San Carlos de Bolívar",
     direccion: "M. Chatrue Miguens y Castells",
     telefono: "(2314) 53-2130",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Municipal Dr. Oscar do Porto (ex Boca Carabelas)",
@@ -1331,7 +1331,7 @@ const Salud = [
     ciudad: "San Fernando",
     direccion: "Río Paraná de las Palmas y Río Carabelas",
     telefono: "1126321175 / 1167858647 / 4728-0026",
-    correo: "a_retamar@hotmail.com / vecinos@sanfernando.gov.ar",
+    correo: "a_retamar@hotmail.com / vecinos@sanfernando.gov.ar"
   },
   {
     nombre: "Hospital Zonal General de Agudos Petrona V. Cordero",
@@ -1341,7 +1341,7 @@ const Salud = [
     direccion: "Belgrano 1955",
     telefono: "4744-2693",
     correo:
-      "turnos.hcordero@gmail.com / direccion-cordero@ms.gba.gov.ar / administracion-cordero@ms.gba.gov.ar",
+      "turnos.hcordero@gmail.com / direccion-cordero@ms.gba.gov.ar / administracion-cordero@ms.gba.gov.ar"
   },
   {
     nombre: "Hospital Materno Infantil Dr. Carlos Gianantonio",
@@ -1351,7 +1351,7 @@ const Salud = [
     ciudad: "San Isidro",
     direccion: "Diego Palma 505",
     telefono: "4512-3136 / 4512-3919 / 4747-1096 / 4707-1900",
-    correo: "diversidad@sanisidro.gov.ar / turnos.hmi@sanisidro.gob.ar",
+    correo: "diversidad@sanisidro.gov.ar / turnos.hmi@sanisidro.gob.ar"
   },
   {
     nombre: "Unidad Sanitaria San Francisco de Asís",
@@ -1360,7 +1360,7 @@ const Salud = [
     ciudad: "San Miguel del Monte",
     direccion: "Neuquén entre Santiago del Estero y Santa Fe",
     telefono: "(2271) 40-7608 / (2226) 60-9522",
-    correo: "salud@monte.gov.ar",
+    correo: "salud@monte.gov.ar"
   },
   {
     nombre: "Hospital General Interzonal de Agudos San Felipe",
@@ -1370,7 +1370,7 @@ const Salud = [
     ciudad: "San Nicolás de los Arroyos",
     direccion: "Av. Mariano Moreno 31",
     telefono: "(336) 4451479 / 4422054 / 4423912 (int. 291/258)",
-    correo: "sfelipe@ms.gba.gov.ar",
+    correo: "sfelipe@ms.gba.gov.ar"
   },
   {
     nombre: "Centro Integrador Comunitario (CIC)",
@@ -1379,7 +1379,7 @@ const Salud = [
     ciudad: "San Pedro",
     direccion: "Hermano Indio 2102",
     telefono: "(3329) 48-101 / 43-8403",
-    correo: "puntodigital@sanpedro.gob.ar / mesaentradas@sanpedro.gob.ar",
+    correo: "puntodigital@sanpedro.gob.ar / mesaentradas@sanpedro.gob.ar"
   },
   {
     nombre: "Hospital Rural Dr. Ramón Carrillo",
@@ -1390,7 +1390,7 @@ const Salud = [
     direccion: "Santoro 1865",
     telefono: "(2225) 48-4932 / 48-1387",
     correo:
-      "saludyadolescenciasv@gmail.com / hospitalcarrillosanvicente@gmail.com",
+      "saludyadolescenciasv@gmail.com / hospitalcarrillosanvicente@gmail.com"
   },
   {
     nombre:
@@ -1400,7 +1400,7 @@ const Salud = [
     ciudad: "Santa Clara del Mar",
     direccion: "Punta Lara 408",
     telefono: "(223) 460-2338 / 469-3742",
-    correo: "",
+    correo: ""
   },
   {
     nombre:
@@ -1410,7 +1410,7 @@ const Salud = [
     ciudad: "Sarandí",
     direccion: "Av. Mitre 3043",
     telefono: "(11) 35379010 / 4203-5879",
-    correo: "direcciondelasmujeres@mda.gob.ar",
+    correo: "direcciondelasmujeres@mda.gob.ar"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) N°35 - 20 de Junio",
@@ -1419,7 +1419,7 @@ const Salud = [
     ciudad: "Sourigues",
     direccion: "203 entre 254 y 255",
     telefono: "4356-9200 (int. 2035)",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital de Niños Dr. Bebilio Blanco Villegas",
@@ -1429,7 +1429,7 @@ const Salud = [
     ciudad: "Tandil",
     direccion: "Leandro Alem 1355",
     telefono: "(249) 442-5749 / 442-5514",
-    correo: "endocrinodiabetes.hdbv@gmail.com / dirmedica@sisptandil.gob.ar",
+    correo: "endocrinodiabetes.hdbv@gmail.com / dirmedica@sisptandil.gob.ar"
   },
   {
     nombre:
@@ -1439,7 +1439,7 @@ const Salud = [
     ciudad: "Tandil",
     direccion: "General Paz 1406",
     telefono: "0800-222-8876 / (249) 442-2010/4 (int. 244 / 216)",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro Integrador Comunitario (CIC) Barrio La Milagrosa",
@@ -1448,7 +1448,7 @@ const Salud = [
     ciudad: "Tapalqué",
     direccion: "Almirante Brown 37 (esq. 1° de Mayo)",
     telefono: "(2281) 539617 / 492931",
-    correo: "direjuventudtapalque@gmail.com",
+    correo: "direjuventudtapalque@gmail.com"
   },
   {
     nombre: "Unidad Sanitaria Villa General San Martín",
@@ -1457,7 +1457,7 @@ const Salud = [
     ciudad: "Temperley",
     direccion: "Anchoris 3338",
     telefono: "4260-5623",
-    correo: "secretariadesalud@lomasdezamora.gov.ar",
+    correo: "secretariadesalud@lomasdezamora.gov.ar"
   },
   {
     nombre:
@@ -1469,7 +1469,7 @@ const Salud = [
     direccion: "Hipólito Yrigoyen 1264",
     telefono: "5280-0410",
     correo:
-      "politicasdeigualdad@tigre.gob.ar / secmujeresgeneroseinfancias@tigre.gob.ar",
+      "politicasdeigualdad@tigre.gob.ar / secmujeresgeneroseinfancias@tigre.gob.ar"
   },
   {
     nombre: "Centro de Atención y Formación en Salud (CAFyS) Troncos del Talar",
@@ -1478,7 +1478,7 @@ const Salud = [
     ciudad: "Tigre, Troncos del Talar",
     direccion: "Av. Coronel Escalada 598",
     telefono: "4512-9987 / 1127671939",
-    correo: "cstroncosdeltalar@tigre.gov.ar",
+    correo: "cstroncosdeltalar@tigre.gov.ar"
   },
   {
     nombre: "Hospital Municipal Dr. Pedro T. Orellana",
@@ -1487,7 +1487,7 @@ const Salud = [
     ciudad: "Trenque Lauquen",
     direccion: "Castelli 150",
     telefono: "(2392) 410-511 / 410-513 / 410-516",
-    correo: "direccionhospitaltl@hotmail.com",
+    correo: "direccionhospitaltl@hotmail.com"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Benito Machado",
@@ -1496,7 +1496,7 @@ const Salud = [
     ciudad: "Tres Arroyos",
     direccion: "20 de Abril 1186",
     telefono: "(2983) 15 611-689 / 15 642-159",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro Municipal de Salud Tres Arroyos - Consultorio Amigable",
@@ -1506,7 +1506,7 @@ const Salud = [
     ciudad: "Tres Arroyos",
     direccion: "José Manuel Estrada 955",
     telefono: "(2983) 439404 / 413523 / 572400 / 439400",
-    correo: "consultorioamigabletsas@gmail.com",
+    correo: "consultorioamigabletsas@gmail.com"
   },
   {
     nombre: "Hospital Dr. Ignacio Pirovano - Centro Municipal de Salud",
@@ -1515,7 +1515,7 @@ const Salud = [
     ciudad: "Tres Arroyos",
     direccion: "Av. Primera Junta 400",
     telefono: "(2983) 57-2400 / 43-9400 / 47-0732",
-    correo: "contacto@centrodesaludtsas.com.ar / direccionaps@cmsta.gob.ar",
+    correo: "contacto@centrodesaludtsas.com.ar / direccionaps@cmsta.gob.ar"
   },
   {
     nombre: "Unidad Sanitaria N°3 Lomas de Mariló - Consultorio Diversidad",
@@ -1524,7 +1524,7 @@ const Salud = [
     ciudad: "Trujui",
     direccion: "Rosario y Vicente Yanez Pinzón",
     telefono: "(237) 481-5607 / 466-9243",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Municipal Dr. Bernardo Houssay",
@@ -1534,7 +1534,7 @@ const Salud = [
     ciudad: "Vicente López",
     direccion: "Pres. Hipólito Yrigoyen 1757",
     telefono: "4796-7200",
-    correo: "diversidad.salud@vicentelopez.gov.ar",
+    correo: "diversidad.salud@vicentelopez.gov.ar"
   },
   {
     nombre: "Unidad de Respuesta Inmediata (URI) Dr. J. Burman",
@@ -1543,7 +1543,7 @@ const Salud = [
     ciudad: "Vicente López, Carapachay",
     direccion: "Ituzaingó 5725",
     telefono: "4711-2843 / 5194-4300 (int. 7612) / 4580-6232 / 4253-6021",
-    correo: "uriburman@gmail.com / atprimaria@vicentelopez.gov.ar",
+    correo: "uriburman@gmail.com / atprimaria@vicentelopez.gov.ar"
   },
   {
     nombre:
@@ -1553,7 +1553,7 @@ const Salud = [
     ciudad: "Villa Domínico",
     direccion: "Pierres y Casacuberta S/N",
     telefono: "4207-0046 / 1131512627",
-    correo: "cmcfyc1@gmail.com",
+    correo: "cmcfyc1@gmail.com"
   },
   {
     nombre: "Centro de Salud Oeste",
@@ -1562,7 +1562,7 @@ const Salud = [
     ciudad: "Villa Gesell",
     direccion: "Paseo 115 y Av. 30",
     telefono: "(2255) 50-8902 / 47-8080 / 47-9993",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Dr. Llobera",
@@ -1571,7 +1571,7 @@ const Salud = [
     ciudad: "Villa Martelli",
     direccion: "Estados Unidos 314",
     telefono: "4513-1941 / 2063-9508",
-    correo: "uapllobera@hotmail.com.ar",
+    correo: "uapllobera@hotmail.com.ar"
   },
   {
     nombre: "Centro de Salud 2 de Abril",
@@ -1580,7 +1580,7 @@ const Salud = [
     ciudad: "Villa Tesei",
     direccion: "La Trilla 5068",
     telefono: "4450-6605",
-    correo: "ssalud@munhurli.gov.ar",
+    correo: "ssalud@munhurli.gov.ar"
   },
   {
     nombre: "Centro de Salud Dr. Domingo Roca - Servicio Diversidad",
@@ -1590,7 +1590,7 @@ const Salud = [
     ciudad: "Virrey del Pino",
     direccion: "Miller, entre Vicente Camargo y Santiago Bynnon",
     telefono: "(2202) 44-6731",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Zonal General de Agudos Virgen del Carmen",
@@ -1599,7 +1599,7 @@ const Salud = [
     ciudad: "Zárate",
     direccion: "Felix Pagola 1506",
     telefono: "(3487) 422300",
-    correo: "vcarmen@ms.gba.gov.ar / adminhvcarmen@ms.gba.gov.ar",
+    correo: "vcarmen@ms.gba.gov.ar / adminhvcarmen@ms.gba.gov.ar"
   },
   {
     nombre: "Centro de Salud Mental N°3 Arturo Ameghino",
@@ -1608,7 +1608,7 @@ const Salud = [
     ciudad: "Balvanera",
     direccion: "Av. Córdoba 3120",
     telefono: "(3723) 02-31",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°11",
@@ -1618,7 +1618,7 @@ const Salud = [
     ciudad: "Balvanera",
     direccion: "Agüero 940",
     telefono: "2821-3611 / 4864-1446",
-    correo: "universodiverso11@gmail.com",
+    correo: "universodiverso11@gmail.com"
   },
   {
     nombre: "Hospital General de Agudos José Ramos Mejía",
@@ -1628,7 +1628,7 @@ const Salud = [
     ciudad: "Balvanera",
     direccion: "Urquiza 609",
     telefono: "4127-0400 / 4931-1884",
-    correo: "endocrinologiaramosmejia@gmail.com",
+    correo: "endocrinologiaramosmejia@gmail.com"
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°1",
@@ -1637,7 +1637,7 @@ const Salud = [
     ciudad: "Barracas",
     direccion: "Av. Vélez Sarsfield 1271",
     telefono: "2821-3601 / 1131567882",
-    correo: "cesac1@buenosaires.gob.ar / saludintegralcesac1@gmail.com",
+    correo: "cesac1@buenosaires.gob.ar / saludintegralcesac1@gmail.com"
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°30",
@@ -1647,7 +1647,7 @@ const Salud = [
     ciudad: "Barracas",
     direccion: "Amancio Alcorta 3100",
     telefono: "(11) 2821-3630",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°35",
@@ -1656,7 +1656,7 @@ const Salud = [
     ciudad: "Barracas",
     direccion: "Av. Osvaldo Cruz y Zavaleta",
     telefono: "",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°49",
@@ -1665,7 +1665,7 @@ const Salud = [
     ciudad: "Barracas",
     direccion: "Camino de Sirga, Agustín Magaldi",
     telefono: "1130490358 / 2821-3649",
-    correo: "saludsexualcesac49@gmail.com",
+    correo: "saludsexualcesac49@gmail.com"
   },
   {
     nombre: "Hospital Pirovano",
@@ -1674,7 +1674,7 @@ const Salud = [
     ciudad: "Belgrano",
     direccion: "Monroe 3555",
     telefono: "4542-5552 / 4542-2772 / 4542-9279",
-    correo: "pirovanodiversidad@hotmail.com",
+    correo: "pirovanodiversidad@hotmail.com"
   },
   {
     nombre: "Hospital General de Agudos Durand",
@@ -1684,7 +1684,7 @@ const Salud = [
     ciudad: "Caballito",
     direccion: "Av. Díaz Vélez 5044",
     telefono: "4982-5555 / 4982-5655 / 4982-1050",
-    correo: "diversidadesdurand@gmail.com",
+    correo: "diversidadesdurand@gmail.com"
   },
   {
     nombre: "Fundación Huésped",
@@ -1693,7 +1693,7 @@ const Salud = [
     ciudad: "Chacarita",
     direccion: "Av. Forest 345",
     telefono: "0800-222-4837 / 1164681673",
-    correo: "info@huesped.org.ar",
+    correo: "info@huesped.org.ar"
   },
   {
     nombre: "Hospital Pediátrico Pedro de Elizalde",
@@ -1703,8 +1703,7 @@ const Salud = [
     ciudad: "Constitución",
     direccion: "Av. Montes de Oca 40",
     telefono: "4363-2100 (int. 6160 / 6161)",
-    correo:
-      "endocrinoelizalde@gmail.com / diversidadhospitalelizalde@gmail.com",
+    correo: "endocrinoelizalde@gmail.com / diversidadhospitalelizalde@gmail.com"
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°19",
@@ -1714,7 +1713,7 @@ const Salud = [
     ciudad: "Flores",
     direccion: "Curapaligüe 1905",
     telefono: "2821-3619 / 4925-0992 / 2263-8885",
-    correo: "consultoriosaludintegralc19@gmail.com",
+    correo: "consultoriosaludintegralc19@gmail.com"
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°20",
@@ -1724,7 +1723,7 @@ const Salud = [
     ciudad: "Flores",
     direccion: "Charrúa 2320 (esq. Ana María Janer)",
     telefono: "2821-3620 / 4919-2144",
-    correo: "cesac20@gmail.com",
+    correo: "cesac20@gmail.com"
   },
   {
     nombre: "Hospital General de Agudos Álvarez",
@@ -1734,7 +1733,7 @@ const Salud = [
     direccion: "Dr. Juan Felipe Aranguren 2701",
     telefono: "4630-2933 / 4611-6666",
     correo:
-      "adrianhelien@yahoo.com.ar / madescalzo@yahoo.com.ar / mgsacan@fibertel.com.ar / amaliaruiz78@hotmail.com",
+      "adrianhelien@yahoo.com.ar / madescalzo@yahoo.com.ar / mgsacan@fibertel.com.ar / amaliaruiz78@hotmail.com"
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°41",
@@ -1744,7 +1743,7 @@ const Salud = [
     ciudad: "La Boca",
     direccion: "Ministro Brin 843",
     telefono: "2821-3641 / 4361-8736",
-    correo: "diversidad.cesac41@gmail.com",
+    correo: "diversidad.cesac41@gmail.com"
   },
   {
     nombre:
@@ -1755,7 +1754,7 @@ const Salud = [
     ciudad: "La Boca",
     direccion: "Irala 1254",
     telefono: "2821-3609 / 4302-9983",
-    correo: "diversidadcesac9@gmail.com",
+    correo: "diversidadcesac9@gmail.com"
   },
   {
     nombre: "Hospital de Agudos Dr. Cosme Argerich",
@@ -1765,7 +1764,7 @@ const Salud = [
     ciudad: "La Boca",
     direccion: "Pi y Margall 750",
     telefono: "4121-0700 / 4121-0800",
-    correo: "diversidadargerich750@gmail.com",
+    correo: "diversidadargerich750@gmail.com"
   },
   {
     nombre: "CEMAR N°1",
@@ -1774,7 +1773,7 @@ const Salud = [
     ciudad: "La Paternal",
     direccion: "Fragata Sarmiento 2152, 1er Piso",
     telefono: "011 2821-3671",
-    correo: "cemar1diversidad@gmail.com",
+    correo: "cemar1diversidad@gmail.com"
   },
   {
     nombre: "Hospital General de Agudos Donación F. Santojanni",
@@ -1784,7 +1783,7 @@ const Salud = [
     ciudad: "Liniers",
     direccion: "Pilar 950",
     telefono: "4630-5500 / 4630-5509 / 4630-5716",
-    correo: "saludtranssantojanni@gmail.com",
+    correo: "saludtranssantojanni@gmail.com"
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°37",
@@ -1793,7 +1792,7 @@ const Salud = [
     ciudad: "Mataderos",
     direccion: "Av. de los Corrales 6999",
     telefono: "2821-3637 / 1161675010",
-    correo: "pacientescesac37@gmail.com",
+    correo: "pacientescesac37@gmail.com"
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°4",
@@ -1802,7 +1801,7 @@ const Salud = [
     ciudad: "Mataderos",
     direccion: "Av. Juan Bautista Alberdi 6300",
     telefono: "1172360787 / 28213604",
-    correo: "diversidadcesac4@gmail.com",
+    correo: "diversidadcesac4@gmail.com"
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°33",
@@ -1811,7 +1810,7 @@ const Salud = [
     ciudad: "Palermo",
     direccion: "Córdoba 5471",
     telefono: "4770-9202 / 11-2821-3633 / 11-5197-5078 / 11-5197-5079",
-    correo: "consultoriaintegraldelamujer@gmail.com / gineco.33@gmail.com",
+    correo: "consultoriaintegraldelamujer@gmail.com / gineco.33@gmail.com"
   },
   {
     nombre: "Hospital General de Agudos Fernández",
@@ -1821,7 +1820,7 @@ const Salud = [
     ciudad: "Palermo",
     direccion: "Cerviño 3356",
     telefono: "4808-2600 (int. 1107) / 4808-2650",
-    correo: "consultavirtualdiversidad@gmail.com",
+    correo: "consultavirtualdiversidad@gmail.com"
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°39",
@@ -1832,7 +1831,7 @@ const Salud = [
     direccion: "24 de Noviembre 1679",
     telefono:
       "(11) 4911-3576 / 62438331 / 62343730 / 5113-3779 / 7362-0877 / 2821-3639",
-    correo: "cesac39@hotmail.com",
+    correo: "cesac39@hotmail.com"
   },
   {
     nombre: "Hospital de Pediatría Garrahan",
@@ -1842,7 +1841,7 @@ const Salud = [
     ciudad: "Parque Patricios",
     direccion: "Combate de los Pozos 1881",
     telefono: "",
-    correo: "comitegeneroydiversidad@gmail.com",
+    correo: "comitegeneroydiversidad@gmail.com"
   },
   {
     nombre: "Hospital General de Agudos Dr. José M. Penna",
@@ -1852,7 +1851,7 @@ const Salud = [
     ciudad: "Parque Patricios",
     direccion: "Pedro Chutro 3380",
     telefono: "4911-5555",
-    correo: "diversidadpenna@gmail.com / endopenna@gmail.com",
+    correo: "diversidadpenna@gmail.com / endopenna@gmail.com"
   },
   {
     nombre: "Hospital Nacional en Red Lic. Laura Bonaparte",
@@ -1862,7 +1861,7 @@ const Salud = [
     ciudad: "Parque Patricios",
     direccion: "Combate de los Pozos 2133",
     telefono: "1131509104 / 4305-0091 / 4305-1190 / 4304-6353 (int. 1190)",
-    correo: "saludintegral@hospitalbonaparte.gob.ar",
+    correo: "saludintegral@hospitalbonaparte.gob.ar"
   },
   {
     nombre: "Hospital de Clínicas",
@@ -1871,7 +1870,7 @@ const Salud = [
     ciudad: "Recoleta",
     direccion: "Av. Córdoba 2351",
     telefono: "1159508000 / 5248-2644",
-    correo: "endoturnos@hospitaldeclinicas.uba.ar",
+    correo: "endoturnos@hospitaldeclinicas.uba.ar"
   },
   {
     nombre: "Hospital Gutiérrez",
@@ -1881,7 +1880,7 @@ const Salud = [
     ciudad: "Recoleta",
     direccion: "Gallo 1330",
     telefono: "4963-5931 (int. 230) / 4962-4035",
-    correo: "aldolescenciahnrg@gmail.com / secretariaendo@cedie.org.ar",
+    correo: "aldolescenciahnrg@gmail.com / secretariaendo@cedie.org.ar"
   },
   {
     nombre: "Hospital Rivadavia",
@@ -1890,7 +1889,7 @@ const Salud = [
     ciudad: "Recoleta",
     direccion: "General las Heras 2670",
     telefono: "4809-2000 / 4809-2218",
-    correo: "diversidadhospitalrivadavia@gmail.com",
+    correo: "diversidadhospitalrivadavia@gmail.com"
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°47",
@@ -1899,7 +1898,7 @@ const Salud = [
     ciudad: "Retiro",
     direccion: "Calle Playón (ex Galpón Sic) Barrio 31",
     telefono: "2821-3647 / 1140785930",
-    correo: "consultoriodiversidad47@gmail.com / 47.cesac@gmail.com",
+    correo: "consultoriodiversidad47@gmail.com / 47.cesac@gmail.com"
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°45",
@@ -1909,7 +1908,7 @@ const Salud = [
     ciudad: "San Cristóbal",
     direccion: "Cochabamba 2622",
     telefono: "2821-3645 / 1160075665",
-    correo: "diversidad.cesac45@gmail.com",
+    correo: "diversidad.cesac45@gmail.com"
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°18",
@@ -1918,7 +1917,7 @@ const Salud = [
     ciudad: "Villa Lugano",
     direccion: "Corvalán y Manuela Gandarilla (ex Calle 5)",
     telefono: "2821-3618",
-    correo: "diversidadcesac18@gmail.com",
+    correo: "diversidadcesac18@gmail.com"
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°28",
@@ -1928,7 +1927,7 @@ const Salud = [
     ciudad: "Villa Lugano",
     direccion: "Santander 5955",
     telefono: "011 2821-3628 / 4605-2148",
-    correo: "diversidad.cesac28@gmail.com",
+    correo: "diversidad.cesac28@gmail.com"
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°29",
@@ -1937,7 +1936,7 @@ const Salud = [
     ciudad: "Villa Lugano",
     direccion: "Au. Dellepiane 6999",
     telefono: "(11) 2821-3629",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°43",
@@ -1946,7 +1945,7 @@ const Salud = [
     ciudad: "Villa Lugano",
     direccion: "Fonrouge 4377",
     telefono: "(11) 4602-4178",
-    correo: "saludcesac43@gmail.com",
+    correo: "saludcesac43@gmail.com"
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°44",
@@ -1956,7 +1955,7 @@ const Salud = [
     ciudad: "Villa Lugano",
     direccion: "Saraza 4202",
     telefono: "4601-3686 / 4445-3113 / 4601-5573 / 4601-9776 / 1131505247",
-    correo: "saludsexualintegral44@gmail.com",
+    correo: "saludsexualintegral44@gmail.com"
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°5",
@@ -1965,7 +1964,7 @@ const Salud = [
     ciudad: "Villa Lugano",
     direccion: "Piedrabuena 3141",
     telefono: "2821-3605 / 1136295516",
-    correo: "diversidad.cesac5@gmail.com / cesac5@buenosaires.gob.ar",
+    correo: "diversidad.cesac5@gmail.com / cesac5@buenosaires.gob.ar"
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°7",
@@ -1975,7 +1974,7 @@ const Salud = [
     ciudad: "Villa Lugano",
     direccion: "2 de Abril de 1982, 6850",
     telefono: "1136317997 / 2821-3607",
-    correo: "diversidadcesac7@gmail.com",
+    correo: "diversidadcesac7@gmail.com"
   },
   {
     nombre: "Hospital General de Agudos Dr. Enrique Tornú",
@@ -1985,7 +1984,7 @@ const Salud = [
     ciudad: "Villa Ortúzar",
     direccion: "Combatientes de Malvinas 3002",
     telefono: "5243-9000",
-    correo: "diversidadtornu@gmail.com / tornudiversidad@gmail.com",
+    correo: "diversidadtornu@gmail.com / tornudiversidad@gmail.com"
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°24",
@@ -1994,7 +1993,7 @@ const Salud = [
     ciudad: "Villa Soldati",
     direccion: "Laguna y Pasaje L. B° Ramón Carrillo",
     telefono: "2821-3624 (int. 109) / 4637-2002",
-    correo: "rmgp.cesac24@gmail.com",
+    correo: "rmgp.cesac24@gmail.com"
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°6",
@@ -2004,7 +2003,7 @@ const Salud = [
     ciudad: "Villa Soldati",
     direccion: "Mariano Acosta 3673",
     telefono: "2821-3606 / 4918-4879",
-    correo: "diversidadsexualcesac6@gmail.com / oris@buenosaires.gob.ar",
+    correo: "diversidadsexualcesac6@gmail.com / oris@buenosaires.gob.ar"
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°12",
@@ -2013,7 +2012,7 @@ const Salud = [
     ciudad: "Villa Urquiza",
     direccion: "Av. Olazábal 3960",
     telefono: "2821-3612",
-    correo: "dra.dfainstein@gmail.com / consultascesac12@gmail.com",
+    correo: "dra.dfainstein@gmail.com / consultascesac12@gmail.com"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Villa Cubas",
@@ -2023,7 +2022,7 @@ const Salud = [
     ciudad: "San Fernando del Valle de Catamarca",
     direccion: "Av. Ahumada y Barros 850",
     telefono: "",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital de Niños Eva Perón",
@@ -2033,7 +2032,7 @@ const Salud = [
     ciudad: "San Fernando del Valle de Catamarca",
     direccion: "Av. Virgen del Valle 1050",
     telefono: "(3834) 50-1063 / 69-0840 / 443-7900 / 479-2292",
-    correo: "ocd_catamarca@hotmail.com",
+    correo: "ocd_catamarca@hotmail.com"
   },
   {
     nombre: "Hospital Regional Dr. Luis Alberto Vargas",
@@ -2042,7 +2041,7 @@ const Salud = [
     ciudad: "Santa María",
     direccion: "Av. 1° de Mayo 260",
     telefono: "(3838) 425134",
-    correo: "contacto@hospitalvargas.com",
+    correo: "contacto@hospitalvargas.com"
   },
   {
     nombre: "Centro de Salud Mental La Lomita",
@@ -2052,7 +2051,7 @@ const Salud = [
     ciudad: "Barranqueras",
     direccion: "Gabardini 5427",
     telefono: "(362) 411-9873",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital del Bicentenario General Güemes",
@@ -2062,7 +2061,7 @@ const Salud = [
     ciudad: "Juan José Castelli",
     direccion: "Av. Güemes 1100",
     telefono: "",
-    correo: "diversidadelimpenetrable@gmail.com",
+    correo: "diversidadelimpenetrable@gmail.com"
   },
   {
     nombre: "Hospital 4 de Junio Dr. Ramón Carrillo",
@@ -2071,7 +2070,7 @@ const Salud = [
     ciudad: "Presidencia Roque Sáenz Peña",
     direccion: "Calle 28 entre 31 bis y 25 bis",
     telefono: "(362) 487-6023 / (3644) 12-0185",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Servicio Integral Amigable para Adolescentes (SIAPA)",
@@ -2080,7 +2079,7 @@ const Salud = [
     ciudad: "Presidencia Roque Sáenz Peña",
     direccion: "Calle 25 entre 28 y 30",
     telefono: "(362) 15-475-8320",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Dr. Emilio F. Rodríguez",
@@ -2089,7 +2088,7 @@ const Salud = [
     ciudad: "Quitilipi",
     direccion: "Almirante Brown 550 (esq. Ayacucho)",
     telefono: "(3644) 450-513 / 66298",
-    correo: "victorhugodok@gmail.com",
+    correo: "victorhugodok@gmail.com"
   },
   {
     nombre: "Hospital Dr. Julio C. Perrando",
@@ -2099,7 +2098,7 @@ const Salud = [
     ciudad: "Resistencia",
     direccion: "Av. 9 de Julio 1100",
     telefono: "(362) 468-3000",
-    correo: "msp_hperadolescencia@chaco.gob.ar",
+    correo: "msp_hperadolescencia@chaco.gob.ar"
   },
   {
     nombre: "Hospital Pediátrico Avelino Castelán",
@@ -2110,7 +2109,7 @@ const Salud = [
     direccion: "Av. Vélez Sársfield 120",
     telefono:
       "(362) 444-1477 (int. 1098/1096) / (362) 445-2931 / (362) 497-0553",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) San Martín",
@@ -2120,7 +2119,7 @@ const Salud = [
     ciudad: "Comodoro Rivadavia",
     direccion: "Huergo y Las Violetas",
     telefono: "(297) 446-0740",
-    correo: "direccionaps@comodoro.gov.ar",
+    correo: "direccionaps@comodoro.gov.ar"
   },
   {
     nombre:
@@ -2131,7 +2130,7 @@ const Salud = [
     ciudad: "Comodoro Rivadavia",
     direccion: "San Martín y Saavedra",
     telefono: "(280) 444-5329",
-    correo: "casitaverdecr@gmail.com",
+    correo: "casitaverdecr@gmail.com"
   },
   {
     nombre: "Hospital Rural El Hoyo",
@@ -2140,7 +2139,7 @@ const Salud = [
     ciudad: "El Hoyo",
     direccion: "Islas Malvinas S/N",
     telefono: "(2944) 166-292",
-    correo: "conectadxshreh@gmail.com",
+    correo: "conectadxshreh@gmail.com"
   },
   {
     nombre: "Hospital Subzonal Maitén",
@@ -2149,7 +2148,7 @@ const Salud = [
     ciudad: "El Maitén",
     direccion: "Liniers y José Hernández",
     telefono: "(2945) 49-5117",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Zonal de Esquel",
@@ -2158,7 +2157,7 @@ const Salud = [
     ciudad: "Esquel",
     direccion: "25 de Mayo 150",
     telefono: "(2945) 59-5852",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Servicio de Atención al Niño (SANI)",
@@ -2167,7 +2166,7 @@ const Salud = [
     ciudad: "Esquel",
     direccion: "Av. Alvear y Molinari",
     telefono: "(11) 5329-90872",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Lago Puelo - Centro de Salud Radal",
@@ -2176,7 +2175,7 @@ const Salud = [
     ciudad: "Lago Puelo",
     direccion: "Av. 2 de Abril S/N",
     telefono: "(2944) 49-9041",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Favaloro",
@@ -2185,7 +2184,7 @@ const Salud = [
     ciudad: "Puerto Madryn",
     direccion: "Alto Río Senguer 1300",
     telefono: "(280) 445-1887",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Gobernador Fontana",
@@ -2195,7 +2194,7 @@ const Salud = [
     ciudad: "Puerto Madryn",
     direccion: "España y La Rioja",
     telefono: "(280) 447-2230",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Roque González",
@@ -2205,7 +2204,7 @@ const Salud = [
     ciudad: "Puerto Madryn",
     direccion: "Estivariz 2484",
     telefono: "",
-    correo: "capsroquegonzalez@gmail.com / spaopat@gmail.com",
+    correo: "capsroquegonzalez@gmail.com / spaopat@gmail.com"
   },
   {
     nombre:
@@ -2216,7 +2215,7 @@ const Salud = [
     ciudad: "Puerto Madryn",
     direccion: "Agustín Pujol y Juan Acosta",
     telefono: "(280) 445-1387",
-    correo: "centropozzi@gmail.com",
+    correo: "centropozzi@gmail.com"
   },
   {
     nombre: "Hospital Dr. A. Isola",
@@ -2225,7 +2224,7 @@ const Salud = [
     ciudad: "Puerto Madryn",
     direccion: "Roberto Gómez 383",
     telefono: "(280) 445-1240",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Santa Teresita",
@@ -2235,7 +2234,7 @@ const Salud = [
     ciudad: "Rawson",
     direccion: "Roca 534",
     telefono: "",
-    correo: "endocrinologiames@gmail.com",
+    correo: "endocrinologiames@gmail.com"
   },
   {
     nombre: "Hospital Subzonal Rawson",
@@ -2245,7 +2244,7 @@ const Salud = [
     ciudad: "Rawson",
     direccion: "Julio Argentino Roca 545",
     telefono: "(280) 485-3994",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Ampliación Ferreyra",
@@ -2254,7 +2253,7 @@ const Salud = [
     ciudad: "CBA",
     direccion: "Manzana 11, Barrio Ciudad Ampliación Ferreyra",
     telefono: "(351) 631-0092",
-    correo: "capsamplferreyra@gmail.com",
+    correo: "capsamplferreyra@gmail.com"
   },
   {
     nombre: "Centro de Salud N°30 Villa Páez",
@@ -2263,7 +2262,7 @@ const Salud = [
     ciudad: "CBA",
     direccion: "Emilio Coni 2090",
     telefono: "(351) 537-4090",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Salud N°72 Barrio La Floresta",
@@ -2272,7 +2271,7 @@ const Salud = [
     ciudad: "CBA",
     direccion: "Las Orquídeas S/N",
     telefono: "(351) 751-6112",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Córdoba",
@@ -2282,7 +2281,7 @@ const Salud = [
     direccion: "Libertad 2051",
     telefono: "0800-555-4141",
     correo:
-      "endocrinologiahospitalcordoba@gmail.com / info@hospitalcordoba.com.ar",
+      "endocrinologiahospitalcordoba@gmail.com / info@hospitalcordoba.com.ar"
   },
   {
     nombre: "Hospital de Niños de la Santísima Trinidad",
@@ -2291,7 +2290,7 @@ const Salud = [
     ciudad: "CBA",
     direccion: "Ferroviarios 1250 (esq. Bajada Pucará)",
     telefono: "(351) 458-6484 / 0800-555-4141",
-    correo: "servicioendocrinologiahnst@gmail.com",
+    correo: "servicioendocrinologiahnst@gmail.com"
   },
   {
     nombre: "Hospital Elpidio Torres",
@@ -2300,7 +2299,7 @@ const Salud = [
     ciudad: "CBA",
     direccion: "Av. Juan B. Justo 7100",
     telefono: "0800-555-4141",
-    correo: "oris.elpidiotorres@gmail.com",
+    correo: "oris.elpidiotorres@gmail.com"
   },
   {
     nombre: "Hospital Florencio Díaz",
@@ -2309,7 +2308,7 @@ const Salud = [
     ciudad: "CBA",
     direccion: "11 de Septiembre 2900",
     telefono: "0800-555-4141",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Infantil",
@@ -2318,7 +2317,7 @@ const Salud = [
     ciudad: "CBA",
     direccion: "Luis de Góngora 550",
     telefono: "(351) 4708800 (int. 5104) / 2094378 / 474-9253",
-    correo: "ssocialhospitalinfatil@gmail.com",
+    correo: "ssocialhospitalinfatil@gmail.com"
   },
   {
     nombre: "Hospital Infantil Municipal",
@@ -2328,7 +2327,7 @@ const Salud = [
     ciudad: "CBA",
     direccion: "Lavalleja 3050",
     telefono: "(351) 470-8800 (int. 5104)",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Materno Neonatal Ministro Dr. Ramón Carrillo",
@@ -2338,7 +2337,7 @@ const Salud = [
     ciudad: "CBA",
     direccion: "Av. La Cardeñosa 2900",
     telefono: "(351) 434-8350",
-    correo: "orishospitalneonatal@cba.gov.ar",
+    correo: "orishospitalneonatal@cba.gov.ar"
   },
   {
     nombre: "Hospital Materno Provincial Dr. Raúl Felipe Lucini",
@@ -2347,7 +2346,7 @@ const Salud = [
     ciudad: "CBA",
     direccion: "Pasaje Luis Caeiro 1545",
     telefono: "0800-555-4141",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Misericordia",
@@ -2356,7 +2355,7 @@ const Salud = [
     ciudad: "CBA",
     direccion: "Belgrano 1502",
     telefono: "0800-555-4141",
-    correo: "orishospitalmisericordia@gmail.com",
+    correo: "orishospitalmisericordia@gmail.com"
   },
   {
     nombre: "Hospital Municipal Príncipe de Asturias",
@@ -2365,7 +2364,7 @@ const Salud = [
     ciudad: "CBA",
     direccion: "Defensa 1200",
     telefono: "(351) 8058254",
-    correo: "hmpa.dispositivolgbt@gmail.com",
+    correo: "hmpa.dispositivolgbt@gmail.com"
   },
   {
     nombre: "Hospital Nacional de Clínicas",
@@ -2374,7 +2373,7 @@ const Salud = [
     ciudad: "CBA",
     direccion: "Santa Rosa 1600",
     telefono: "(351) 5353970",
-    correo: "direccion-hnc@fcm.unc.edu.ar",
+    correo: "direccion-hnc@fcm.unc.edu.ar"
   },
   {
     nombre: "Nueva Maternidad Provincial",
@@ -2384,7 +2383,7 @@ const Salud = [
     ciudad: "CBA",
     direccion: "Av. Vélez Sársfield 2221",
     telefono: "0800-555-4141 / 4708800 (int. 5104) / 3512094378",
-    correo: "programa.asidiversidad@gmail.com",
+    correo: "programa.asidiversidad@gmail.com"
   },
   {
     nombre: "Dirección de Especialidades Médicas Oeste Dr. Benito Soria",
@@ -2394,7 +2393,7 @@ const Salud = [
     ciudad: "CBA, Alberdi",
     direccion: "Dean Funes 2000",
     telefono: "(351) 4337112 / 4337113 / 661-5590",
-    correo: "",
+    correo: ""
   },
   {
     nombre:
@@ -2404,7 +2403,7 @@ const Salud = [
     ciudad: "Colón, Agua de Oro",
     direccion: "San Martín 354",
     telefono: "(3525) 444083 / 646425",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Espacio Tehuel",
@@ -2413,7 +2412,7 @@ const Salud = [
     ciudad: "Colón, Jesús María",
     direccion: "C. Doménico Zípoli 750",
     telefono: "(3525) 539270 / 443730",
-    correo: "comunicacionpublica@jesusmaria.gov.ar",
+    correo: "comunicacionpublica@jesusmaria.gov.ar"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Cabana",
@@ -2422,7 +2421,7 @@ const Salud = [
     ciudad: "Colón, Unquillo",
     direccion: "Av. 5 de Octubre 3894",
     telefono: "(3543) 550806",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Aurelio Crespo",
@@ -2431,7 +2430,7 @@ const Salud = [
     ciudad: "Cruz del Eje",
     direccion: "Félix Cáceres 245",
     telefono: "0800-555-4141",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Consultorio Inclusivo Villa María",
@@ -2440,7 +2439,7 @@ const Salud = [
     ciudad: "General San Martín, Villa María",
     direccion: "Lisandro de la Torre (esq. Catamarca)",
     telefono: "(353) 6577318",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Ernesto Romagosa",
@@ -2449,7 +2448,7 @@ const Salud = [
     ciudad: "Ischilín, Deán Funes",
     direccion: "Colón 247",
     telefono: "(3521) 426223 / 426231 (int. 104)",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Salud El Parador",
@@ -2458,7 +2457,7 @@ const Salud = [
     ciudad: "Punilla, Tanti",
     direccion: "Paraguay S/N entre Costa Rica y Nicaragua",
     telefono: "(3541) 337286",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Salud Municipal - Consultorio Inclusivo",
@@ -2468,7 +2467,7 @@ const Salud = [
     ciudad: "Río Cuarto",
     direccion: "Cabrera 1344",
     telefono: "(358) 476-8420 / 571-0115 / 484-6451",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Nuevo Hospital Río Cuarto San Antonio de Padua",
@@ -2478,7 +2477,7 @@ const Salud = [
     ciudad: "Río Cuarto",
     direccion: "Guardias Nacionales 1051",
     telefono: "(358) 467-8700 (int. 1606) / 514-4113",
-    correo: "orisnuevohospitalriocuarto@gmail.com",
+    correo: "orisnuevohospitalriocuarto@gmail.com"
   },
   {
     nombre: "Hospital Municipal Oncativo",
@@ -2487,7 +2486,7 @@ const Salud = [
     ciudad: "Río Segundo, Oncativo",
     direccion: "Colón 158",
     telefono: "(3572) 46-6025",
-    correo: "",
+    correo: ""
   },
   {
     nombre:
@@ -2498,7 +2497,7 @@ const Salud = [
     ciudad: "San Alberto, Mina Clavero",
     direccion: "Rivadavia 540",
     telefono: "",
-    correo: "consultorioinclusivomc@gmail.com",
+    correo: "consultorioinclusivomc@gmail.com"
   },
   {
     nombre: "Hospital Regional Dr. Luis María Bellodi",
@@ -2507,7 +2506,7 @@ const Salud = [
     ciudad: "San Alberto, Mina Clavero",
     direccion: "Fleming 1332",
     telefono: "0800-555-4141 / (351) 511-9511",
-    correo: "oris.luismariabellodi@gmail.com",
+    correo: "oris.luismariabellodi@gmail.com"
   },
   {
     nombre: "Hospital Regional José Bernardo Iturraspe",
@@ -2517,7 +2516,7 @@ const Salud = [
     ciudad: "San Francisco",
     direccion: "Dominga Cullen 450",
     telefono: "0800-555-4141 / (3564) 44-3718 / 44-3774",
-    correo: "orishospiturraspesf@gmail.com",
+    correo: "orishospiturraspesf@gmail.com"
   },
   {
     nombre: "Consultorio Inclusivo Integral Villa Dolores",
@@ -2526,7 +2525,7 @@ const Salud = [
     ciudad: "San Javier, Villa Dolores",
     direccion: "Cenobio Soto 740",
     telefono: "(3544) 643677 / 46-943",
-    correo: "",
+    correo: ""
   },
   {
     nombre:
@@ -2537,7 +2536,7 @@ const Salud = [
     ciudad: "San Javier, Yacanto",
     direccion: "Ruta 14 S/N",
     telefono: "(549) 48-2404 / (3544) 48-2041",
-    correo: "programa.asidiversidad@gmail.com",
+    correo: "programa.asidiversidad@gmail.com"
   },
   {
     nombre: "Hospital Domingo Funes",
@@ -2546,7 +2545,7 @@ const Salud = [
     ciudad: "Santa María de Punilla, Villa Caeiro",
     direccion: "Av. Deán Funes S/N, Ruta Nacional 38",
     telefono: "0800-555-4141 / (3541) 48-8900",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) N°3 Ramón Carrillo",
@@ -2556,7 +2555,7 @@ const Salud = [
     direccion: "Urquiza 358",
     telefono: "(3547) 630462",
     correo:
-      "programassi.altagracia@gmail.com / capsramoncarrillohenderson@gmail.com",
+      "programassi.altagracia@gmail.com / capsramoncarrillohenderson@gmail.com"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) La Serranita",
@@ -2565,7 +2564,7 @@ const Salud = [
     ciudad: "Santa María, La Serranita",
     direccion: "General Roca entre Belgrano y San Agustín",
     telefono: "(3547) 477087",
-    correo: "caps@comunalaserranita.com.ar",
+    correo: "caps@comunalaserranita.com.ar"
   },
   {
     nombre: "Hospital Regional José Antonio Ceballos",
@@ -2574,7 +2573,7 @@ const Salud = [
     ciudad: "Unión, Bell Ville",
     direccion: "Jerónimo del Barco 1289",
     telefono: "0800-555-4141",
-    correo: "hospitalbellvillecba@gmail.com",
+    correo: "hospitalbellvillecba@gmail.com"
   },
   {
     nombre: "Hospital Pediátrico Juan Pablo II",
@@ -2583,7 +2582,7 @@ const Salud = [
     ciudad: "Corrientes",
     direccion: "Av. Artigas 1435",
     telefono: "(379) 447-5300",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Subsecretaría de Acción Comunitaria",
@@ -2593,7 +2592,7 @@ const Salud = [
     ciudad: "Monte Caseros",
     direccion: "Caa Guazú 955",
     telefono: "(3775) 45-0192",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Salud Selig Golding",
@@ -2603,7 +2602,7 @@ const Salud = [
     ciudad: "Paraná",
     direccion: "Av. Laurencena 63",
     telefono: "(343) 464-9777 / 431-0676 / 4619526",
-    correo: "saludintegraltransgoldin@hotmail.com / csseliggoldin@hotmail.com",
+    correo: "saludintegraltransgoldin@hotmail.com / csseliggoldin@hotmail.com"
   },
   {
     nombre: "Hospital San José",
@@ -2612,7 +2611,7 @@ const Salud = [
     ciudad: "San José",
     direccion: "Dr. Cettour 1274",
     telefono: "(3447) 47-0894",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Salud 1° Nivel de Atención Bernardino Rivadavia",
@@ -2621,7 +2620,7 @@ const Salud = [
     ciudad: "Formosa",
     direccion: "Padre Patiño y Salta",
     telefono: "(370) 443-1323",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Central Ramón Carrillo",
@@ -2630,7 +2629,7 @@ const Salud = [
     ciudad: "Formosa",
     direccion: "Salta 550",
     telefono: "(370) 442-6194",
-    correo: "mdh.hospitalcentral@formosa.gov.ar",
+    correo: "mdh.hospitalcentral@formosa.gov.ar"
   },
   {
     nombre: "Hospital Distrito Sanitario N°8 Eva Perón",
@@ -2639,7 +2638,7 @@ const Salud = [
     ciudad: "Formosa",
     direccion: "Elías de Caanepa y Soldado Formoseño",
     telefono: "(370) 444-5885",
-    correo: "serviciosocialhd8@gmail.com",
+    correo: "serviciosocialhd8@gmail.com"
   },
   {
     nombre: "Hospital Interdistrital Evita",
@@ -2648,7 +2647,7 @@ const Salud = [
     ciudad: "Formosa",
     direccion: "Av. Lucas Barberis 200-298",
     telefono: "(370) 444-5561",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Manuel Belgrano",
@@ -2657,7 +2656,7 @@ const Salud = [
     ciudad: "Humahuaca",
     direccion: "Santa Fe 34",
     telefono: "(3887) 42-1009",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Maimará",
@@ -2666,7 +2665,7 @@ const Salud = [
     ciudad: "Maimará",
     direccion: "Av. Belgrano 906",
     telefono: "(388) 499-7003",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro Integrador Comunitario (CIC) Canal de Beagle",
@@ -2675,7 +2674,7 @@ const Salud = [
     ciudad: "Palpalá",
     direccion: "Av. Quispe (esq. Chacho Peñaloza)",
     telefono: "(388) 427-5996",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Dr. Guillermo Paterson",
@@ -2684,7 +2683,7 @@ const Salud = [
     ciudad: "San Pedro de Jujuy",
     direccion: "Av. Siria 44",
     telefono: "(3888) 42-0006",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Especialidades Norte",
@@ -2693,7 +2692,7 @@ const Salud = [
     ciudad: "San Salvador de Jujuy",
     direccion: "Independencia 41",
     telefono: "(388) 422-3305",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Materno Infantil Dr. Héctor Quintana",
@@ -2703,7 +2702,7 @@ const Salud = [
     ciudad: "San Salvador de Jujuy",
     direccion: "José Hernández 624",
     telefono: "(388) 424-5005 (int. 330)",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Pablo Soria",
@@ -2712,7 +2711,7 @@ const Salud = [
     ciudad: "San Salvador de Jujuy",
     direccion: "Gral. Güemes 1345",
     telefono: "(388) 422-1259",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Gobernador Centeno",
@@ -2722,7 +2721,7 @@ const Salud = [
     ciudad: "General Pico",
     direccion: "Calle 17 Oeste 500-598",
     telefono: "(2302) 43-6148",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Establecimiento Asistencial Dr. Manuel Freire",
@@ -2731,7 +2730,7 @@ const Salud = [
     ciudad: "Guatraché",
     direccion: "1° Junta 158",
     telefono: "(2954) 49-2532",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Dr. Lucio Molas",
@@ -2741,7 +2740,7 @@ const Salud = [
     ciudad: "Santa Rosa",
     direccion: "Raúl B. Díaz y Pilcomayo",
     telefono: "(2954) 455-000 (int. 3216)",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Luisa Pedemonte de Pistarini",
@@ -2750,7 +2749,7 @@ const Salud = [
     ciudad: "Victorica",
     direccion: "Calle 21, 1194",
     telefono: "(2954) 49-7489",
-    correo: "sole.munoz94@gmail.com",
+    correo: "sole.munoz94@gmail.com"
   },
   {
     nombre: "Hospital Regional Dr. Enrique Vera Barros",
@@ -2759,7 +2758,7 @@ const Salud = [
     ciudad: "Chilecito",
     direccion: "Olta y Madre Teresa de Calcuta",
     telefono: "0800-444-0211",
-    correo: "servicio_adolescencia_larioja@yahoo.com.ar",
+    correo: "servicio_adolescencia_larioja@yahoo.com.ar"
   },
   {
     nombre:
@@ -2769,7 +2768,7 @@ const Salud = [
     ciudad: "La Rioja",
     direccion: "Proyectada y Faustino Molina",
     telefono: "(380) 436-9421",
-    correo: "lic.nataliamendoza@gmail.com",
+    correo: "lic.nataliamendoza@gmail.com"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) N°30",
@@ -2778,7 +2777,7 @@ const Salud = [
     ciudad: "Godoy Cruz",
     direccion: "Colón 339",
     telefono: "(261) 422-0001 / 422-1611",
-    correo: "ppmics30@mendoza.gov.ar",
+    correo: "ppmics30@mendoza.gov.ar"
   },
   {
     nombre: "Modo SI (Salud Integral)",
@@ -2788,7 +2787,7 @@ const Salud = [
     ciudad: "Godoy Cruz",
     direccion: "Armani 1880",
     telefono: "(261) 272-2123",
-    correo: "modosi.comunicacion@gmail.com",
+    correo: "modosi.comunicacion@gmail.com"
   },
   {
     nombre: "Hospital Dr. Humberto Notti",
@@ -2798,7 +2797,7 @@ const Salud = [
     ciudad: "Guaymallén",
     direccion: "Bandera de los Andes 2603",
     telefono: "(261) 413-2720",
-    correo: "saludmentalnotti@gmail.com",
+    correo: "saludmentalnotti@gmail.com"
   },
   {
     nombre: "Hospital Central",
@@ -2808,7 +2807,7 @@ const Salud = [
     ciudad: "Mendoza",
     direccion: "Alem 450",
     telefono: "(261) 449-0684",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Teodoro J. Schestakow",
@@ -2818,7 +2817,7 @@ const Salud = [
     ciudad: "San Rafael",
     direccion: "Comandante Torres 150",
     telefono: "(260) 424-0300",
-    correo: "trabajosocialschestakow@gmail.com",
+    correo: "trabajosocialschestakow@gmail.com"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) N°198 La Arboleda",
@@ -2828,7 +2827,7 @@ const Salud = [
     ciudad: "Tupungato",
     direccion: "Calle Iriarte S/N",
     telefono: "(2622) 48-9153",
-    correo: "caps198laarboleda@gmail.com",
+    correo: "caps198laarboleda@gmail.com"
   },
   {
     nombre: "Hospital Dr. Domingo Sicoli",
@@ -2838,7 +2837,7 @@ const Salud = [
     ciudad: "Villa Tulumaya",
     direccion: "Calle Belgrano 415",
     telefono: "(261) 494-1065",
-    correo: "saludintegralsicoli@gmail.com",
+    correo: "saludintegralsicoli@gmail.com"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) San Gerardo",
@@ -2847,7 +2846,7 @@ const Salud = [
     ciudad: "Posadas",
     direccion: "Barrio San Gerardo S/N",
     telefono: "(376) 475-5550",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital de Itaembé Guazú",
@@ -2857,7 +2856,7 @@ const Salud = [
     ciudad: "Posadas",
     direccion: "Las Orquídeas 10609",
     telefono: "(376) 5157000 / 5157002 / 154831890",
-    correo: "msp_itaembeguazu@misiones.gov.ar",
+    correo: "msp_itaembeguazu@misiones.gov.ar"
   },
   {
     nombre: "Hospital Nuestra Señora de Fátima",
@@ -2867,7 +2866,7 @@ const Salud = [
     ciudad: "Posadas",
     direccion: "Calle 3 y 13",
     telefono: "(376) 440-9118",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Salud 15 de Febrero",
@@ -2876,7 +2875,7 @@ const Salud = [
     ciudad: "Junín de los Andes",
     direccion: "Patagonia 540",
     telefono: "(294) 591-6213",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Salud Barrio Lanín",
@@ -2885,7 +2884,7 @@ const Salud = [
     ciudad: "Junín de los Andes",
     direccion: "Río Negro S/N",
     telefono: "(2972) 49-1208",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Salud Barrio Lonquimay",
@@ -2894,7 +2893,7 @@ const Salud = [
     ciudad: "Junín de los Andes",
     direccion: "Gines Ponte 343",
     telefono: "(294) 15-458-5213",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Loncopué Dr. José E. Cuevas",
@@ -2903,7 +2902,7 @@ const Salud = [
     ciudad: "Loncopué",
     direccion: "Antártida Argentina 1245, Edificio 3",
     telefono: "(299) 449-5590 / 5591",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Equipo Interinstitucional de Salud Pública Neuquén",
@@ -2912,7 +2911,7 @@ const Salud = [
     ciudad: "Neuquén",
     direccion: "Santa Fe 535",
     telefono: "",
-    correo: "rondaencuentros@gmail.com",
+    correo: "rondaencuentros@gmail.com"
   },
   {
     nombre: "Hospital Bouquet Roldan",
@@ -2921,7 +2920,7 @@ const Salud = [
     ciudad: "Neuquén",
     direccion: "Teodoro Planas 1915",
     telefono: "(299) 464-5782",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Dr. Horacio Heller",
@@ -2930,7 +2929,7 @@ const Salud = [
     ciudad: "Neuquén",
     direccion: "Coronel Godoy y Lighuen E. 1549",
     telefono: "",
-    correo: "sminfanciasyadolescenciashhh@gmail.com",
+    correo: "sminfanciasyadolescenciashhh@gmail.com"
   },
   {
     nombre: "Hospital Provincial Neuquén Dr. Castro Rendón",
@@ -2940,7 +2939,7 @@ const Salud = [
     ciudad: "Neuquén",
     direccion: "Buenos Aires 350",
     telefono: "",
-    correo: "identidadespediatriahpn@gmail.com",
+    correo: "identidadespediatriahpn@gmail.com"
   },
   {
     nombre: "Subsecretaría de Niñez y Adolescencia Neuquén",
@@ -2949,7 +2948,7 @@ const Salud = [
     ciudad: "Neuquén",
     direccion: "Entre Ríos 303",
     telefono: "(299) 581-5851",
-    correo: "equipoextension.subse@gmail.com",
+    correo: "equipoextension.subse@gmail.com"
   },
   {
     nombre: "Centro de Salud Los Aromos",
@@ -2958,7 +2957,7 @@ const Salud = [
     ciudad: "Plottier",
     direccion: "Santiago del Estero 864",
     telefono: "(299) 493-7203",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital de Plottier",
@@ -2967,7 +2966,7 @@ const Salud = [
     ciudad: "Plottier",
     direccion: "Sargento Cabral y Paraguay",
     telefono: "(299) 493-6098",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Salud Tiro Federal Ida China Paredes",
@@ -2976,7 +2975,7 @@ const Salud = [
     ciudad: "San Martín de los Andes",
     direccion: "Teniente Coronel Pérez y Carlos Weber",
     telefono: "(29372) 42-8145 / (299) 606-7656",
-    correo: "equidiversidadsma@gmail.com",
+    correo: "equidiversidadsma@gmail.com"
   },
   {
     nombre: "Hospital Regional Ramón Carrillo",
@@ -2986,7 +2985,7 @@ const Salud = [
     ciudad: "San Martín de los Andes",
     direccion: "Pasaje del Pueblo 247",
     telefono: "(297) 42-6033 / 215-42-7211",
-    correo: "equipodiversidadsma@gmail.com",
+    correo: "equipodiversidadsma@gmail.com"
   },
   {
     nombre: "Hospital Adolfo del Valle Senillosa",
@@ -2996,7 +2995,7 @@ const Salud = [
     ciudad: "Senillosa",
     direccion: "Belgrano y Neuquén",
     telefono: "(299) 689-4212",
-    correo: "adolescencia.hospitalsenillosa@gmail.com",
+    correo: "adolescencia.hospitalsenillosa@gmail.com"
   },
   {
     nombre: "Hospital Dr. Oscar Arraiz",
@@ -3006,7 +3005,7 @@ const Salud = [
     ciudad: "Villa La Angostura",
     direccion: "Boulevard Nahuel Huapi 1107",
     telefono: "(2944) 49-4170 (int. 35/27)",
-    correo: "consultoriointegraldiversovla@gmail.com",
+    correo: "consultoriointegraldiversovla@gmail.com"
   },
   {
     nombre: "Consultorio LGBTIQ+ Allen",
@@ -3016,7 +3015,7 @@ const Salud = [
     ciudad: "Allen",
     direccion: "Quesnel S/N",
     telefono: "(2984) 760-683",
-    correo: "consultorioamigable.lgbtiq@gmail.com",
+    correo: "consultorioamigable.lgbtiq@gmail.com"
   },
   {
     nombre: "Hospital Dra. Cecilia Grierson",
@@ -3026,7 +3025,7 @@ const Salud = [
     ciudad: "Catriel",
     direccion: "Av. Gral. Mosconi 1699",
     telefono: "(299) 654-7362",
-    correo: "",
+    correo: ""
   },
   {
     nombre:
@@ -3038,7 +3037,7 @@ const Salud = [
     direccion: "Fernandez Oro 770 (esq. Sáenz Peña)",
     telefono: "(299) 4290235 / 4770030 / 4792563 (int. 153)",
     correo:
-      "consultorioinclusivocipolletti@gmail.com / saludmental@hospital-cipolletti.com.ar",
+      "consultorioinclusivocipolletti@gmail.com / saludmental@hospital-cipolletti.com.ar"
   },
   {
     nombre: "Centro Integrador Comunitario (CIC) Primavera",
@@ -3048,7 +3047,7 @@ const Salud = [
     ciudad: "El Bolsón",
     direccion: "Av. los Cipreses 3240",
     telefono: "(294) 491-3353 / 472-0331",
-    correo: "cicprimaverattnb@gmail.com",
+    correo: "cicprimaverattnb@gmail.com"
   },
   {
     nombre: "Hospital Francisco López Lima",
@@ -3057,7 +3056,7 @@ const Salud = [
     ciudad: "General Roca",
     direccion: "Gelonch 721",
     telefono: "(2984) 165-557",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Salud de Barrio El Rosario",
@@ -3066,7 +3065,7 @@ const Salud = [
     ciudad: "Río Colorado",
     direccion: "Eliseo Calegari 1250",
     telefono: "",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Zonal Ramón Carrillo",
@@ -3075,7 +3074,7 @@ const Salud = [
     ciudad: "San Carlos de Bariloche",
     direccion: "Moreno 601",
     telefono: "(294) 480-7979",
-    correo: "adolescenciasbariloche@gmail.com",
+    correo: "adolescenciasbariloche@gmail.com"
   },
   {
     nombre: "Hospital Dr. Elías Smirnoff",
@@ -3084,7 +3083,7 @@ const Salud = [
     ciudad: "Villa Regina",
     direccion: "Fray Luis Beltrán 496",
     telefono: "(298) 446-1277",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Nuestra Señora del Rosario",
@@ -3093,7 +3092,7 @@ const Salud = [
     ciudad: "Cafayate",
     direccion: "12 de Octubre (esq. Costanera)",
     telefono: "",
-    correo: "nadua144@hotmail.com",
+    correo: "nadua144@hotmail.com"
   },
   {
     nombre: "Centro de Salud Manjón",
@@ -3102,7 +3101,7 @@ const Salud = [
     ciudad: "Salta",
     direccion: "Av. José de Artigas 902",
     telefono: "(387) 428-1393",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Salud N°63 Roberto Nazr - Espacio Transitando",
@@ -3112,7 +3111,7 @@ const Salud = [
     ciudad: "Salta",
     direccion: "Sarmiento 655",
     telefono: "(387) 442-7152 / 431-9349 / 421-3387 / 431-7400 / 0800-777-6452",
-    correo: "hsmcapacitacion@gmail.com",
+    correo: "hsmcapacitacion@gmail.com"
   },
   {
     nombre: "Hospital Dr. Arturo Oñativia - Consultorio de Diversidad",
@@ -3121,7 +3120,7 @@ const Salud = [
     ciudad: "Salta",
     direccion: "Paz Chaín 30",
     telefono: "",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Villa Constitución",
@@ -3130,7 +3129,7 @@ const Salud = [
     ciudad: "Pocito",
     direccion: "Lemos y Picasso",
     telefono: "(264) 576-2274",
-    correo: "lic.patricialopeznarvaez@gmail.com",
+    correo: "lic.patricialopeznarvaez@gmail.com"
   },
   {
     nombre: "Hospital Dr. Guillermo Rawson",
@@ -3140,7 +3139,7 @@ const Salud = [
     ciudad: "San Juan",
     direccion: "Av. Guillermo Rawson Sur 494",
     telefono: "(264) 621-0689",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Marcial Quiroga",
@@ -3149,7 +3148,7 @@ const Salud = [
     ciudad: "San Juan",
     direccion: "Calle R. Calívar y Av. Libertador",
     telefono: "",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Ministerio de Salud de la Provincia",
@@ -3158,7 +3157,7 @@ const Salud = [
     ciudad: "San Juan",
     direccion: "Av. Libertador y Calle Las Heras",
     telefono: "(264) 430-6981",
-    correo: "iniciativamildias@gmail.com",
+    correo: "iniciativamildias@gmail.com"
   },
   {
     nombre: "Centro de Adiestramiento Dr. René Favaloro (CARF) La Rotonda",
@@ -3168,7 +3167,7 @@ const Salud = [
     ciudad: "Villa Krause",
     direccion: "Tierra del Fuego Este y C. Fermín Rodríguez Este",
     telefono: "(264) 424-2610 / 0800-222-4002",
-    correo: "rotonda.carf@gmail.com",
+    correo: "rotonda.carf@gmail.com"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Carpintería",
@@ -3177,7 +3176,7 @@ const Salud = [
     ciudad: "Carpintería",
     direccion: "Pringles y San Martín",
     telefono: "(2656) 47-9157",
-    correo: "cscarpinteria@gmail.com",
+    correo: "cscarpinteria@gmail.com"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Cortaderas",
@@ -3186,7 +3185,7 @@ const Salud = [
     ciudad: "Cortaderas",
     direccion: "Calle San Martín S/N",
     telefono: "(2664) 61-4654 / 445-2000 (int. 5309)",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) La Calera",
@@ -3195,7 +3194,7 @@ const Salud = [
     ciudad: "La Calera",
     direccion: "Pasaje La Calera 136",
     telefono: "(266) 4614654 / 445-2000 (int. 5206)",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital María Juliana Becker",
@@ -3205,7 +3204,7 @@ const Salud = [
     ciudad: "La Punta",
     direccion: "5 Sur entre 8 Este y Av. Serrana",
     telefono: "(266) 445-2000 (int. 5002)",
-    correo: "adolescenciasanluis@gmail.com",
+    correo: "adolescenciasanluis@gmail.com"
   },
   {
     nombre: "Centro de Salud Los Molles",
@@ -3214,7 +3213,7 @@ const Salud = [
     ciudad: "Los Molles",
     direccion: "Pringles y Belgrano",
     telefono: "(266) 445-2000 (int. 5311)",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Madre Catalina Rodríguez",
@@ -3223,7 +3222,7 @@ const Salud = [
     ciudad: "Merlo",
     direccion: "Ruta 1 y El Ceibo",
     telefono: "",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Salud Papagayos",
@@ -3232,7 +3231,7 @@ const Salud = [
     ciudad: "Papagayos",
     direccion: "Av. Comechingones 150",
     telefono: "",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Área Provincial de Adolescencia, Ministerio de Salud de San Luis",
@@ -3242,7 +3241,7 @@ const Salud = [
     ciudad: "San Luis",
     direccion: "Marcelino Poblet 668, Casa Weye",
     telefono: "",
-    correo: "adolescenciassanluis@gmail.com",
+    correo: "adolescenciassanluis@gmail.com"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) N°9 San Gerónimo",
@@ -3252,7 +3251,7 @@ const Salud = [
     ciudad: "San Luis",
     direccion: "San Gerónimo S/N",
     telefono: "(2656) 473-712 / (2664) 175-949",
-    correo: "centrodesaludsangeronimo@gmail.com",
+    correo: "centrodesaludsangeronimo@gmail.com"
   },
   {
     nombre: "Hospital Santa Rosa del Conlara",
@@ -3261,7 +3260,7 @@ const Salud = [
     ciudad: "Santa Rosa del Conlara",
     direccion: "Santa Rosa de Lima y 9 de Julio",
     telefono: "(2656) 49-2020",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital de Unión",
@@ -3270,7 +3269,7 @@ const Salud = [
     ciudad: "Unión",
     direccion: "Av. A. Dassa 510",
     telefono: "(2954) 51-0037",
-    correo: "",
+    correo: ""
   },
   {
     nombre:
@@ -3280,7 +3279,7 @@ const Salud = [
     ciudad: "Villa Mercedes",
     direccion: "Manzana Sol Naciente",
     telefono: "",
-    correo: "caps1jdp@gmail.com",
+    correo: "caps1jdp@gmail.com"
   },
   {
     nombre: "Hospital Suárez Rocha",
@@ -3289,7 +3288,7 @@ const Salud = [
     ciudad: "Villa Mercedes",
     direccion: "Héctor Aubert S/N",
     telefono: "",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital de Alta Complejidad SAMIC El Calafate",
@@ -3299,7 +3298,7 @@ const Salud = [
     ciudad: "El Calafate",
     direccion: "Av. Jorge Newbery 453",
     telefono: "(2902) 491-831 (int. 2226)",
-    correo: "derechosysalud.samic@gmail.com",
+    correo: "derechosysalud.samic@gmail.com"
   },
   {
     nombre: "Hospital Distrital Gobernador Gregores",
@@ -3308,7 +3307,7 @@ const Salud = [
     ciudad: "Gobernador Gregores",
     direccion: "Mario Paradelo 1025",
     telefono: "(2966) 589-694",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Distrital Las Heras",
@@ -3317,7 +3316,7 @@ const Salud = [
     ciudad: "Las Heras",
     direccion: "Colombia 398 Solar 02, Barrio las Américas",
     telefono: "(2974) 093-328",
-    correo: "",
+    correo: ""
   },
   {
     nombre:
@@ -3327,7 +3326,7 @@ const Salud = [
     ciudad: "Acebal",
     direccion: "Aristóbulo Del Valle 303",
     telefono: "(3469) 400082",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Ramón Carrillo",
@@ -3336,7 +3335,7 @@ const Salud = [
     ciudad: "Arroyo Seco",
     direccion: "Cardozo y Juárez Celman",
     telefono: "(341) 5091600 / (3402) 42-9029",
-    correo: "",
+    correo: ""
   },
   {
     nombre:
@@ -3346,7 +3345,7 @@ const Salud = [
     ciudad: "Bigand",
     direccion: "San Martín 1088",
     telefono: "(3464) 461028",
-    correo: "",
+    correo: ""
   },
   {
     nombre:
@@ -3356,7 +3355,7 @@ const Salud = [
     ciudad: "Capitán Bermúdez",
     direccion: "Escalada 136",
     telefono: "(341) 4912388",
-    correo: "samcocb@gmail.com",
+    correo: "samcocb@gmail.com"
   },
   {
     nombre:
@@ -3366,7 +3365,7 @@ const Salud = [
     ciudad: "Carlos Pellegrini",
     direccion: "San Martín 721",
     telefono: "(3401) 48-0217",
-    correo: "samcocp@carpell.com.ar",
+    correo: "samcocp@carpell.com.ar"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Maiztegui",
@@ -3375,7 +3374,7 @@ const Salud = [
     ciudad: "Casilda",
     direccion: "Hipólito Yrigoyen 3616 (esq. Saavedra)",
     telefono: "(3464) 429051",
-    correo: "centrodesaludnuevaroma@hotmail.com.ar",
+    correo: "centrodesaludnuevaroma@hotmail.com.ar"
   },
   {
     nombre: "Hospital San Carlos de Casilda",
@@ -3384,7 +3383,7 @@ const Salud = [
     ciudad: "Casilda",
     direccion: "Boulevard 9 de Julio 2351",
     telefono: "(3464) 422107 / 422382",
-    correo: "sancarlos@knett.com.ar",
+    correo: "sancarlos@knett.com.ar"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Coronel Domínguez",
@@ -3393,7 +3392,7 @@ const Salud = [
     ciudad: "Coronel Domínguez",
     direccion: "Domínguez 370",
     telefono: "(3402) 49-3138",
-    correo: "dominguezsalud@hotmail.com",
+    correo: "dominguezsalud@hotmail.com"
   },
   {
     nombre:
@@ -3403,7 +3402,7 @@ const Salud = [
     ciudad: "Esperanza",
     direccion: "Janssen 2693",
     telefono: "(3496) 420027 / 420263 / 420317 / 6883 / 414962",
-    correo: "samcoesperanza@esperanza.gov.ar",
+    correo: "samcoesperanza@esperanza.gov.ar"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Eva Perón",
@@ -3412,7 +3411,7 @@ const Salud = [
     ciudad: "Fighiera",
     direccion: "Saavedra 557 (esq. Belgrano)",
     telefono: "(3402) 470746",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Houssay",
@@ -3421,7 +3420,7 @@ const Salud = [
     ciudad: "Funes",
     direccion: "Angelomé y Sarmiento",
     telefono: "(341) 493-6010",
-    correo: "",
+    correo: ""
   },
   {
     nombre:
@@ -3431,7 +3430,7 @@ const Salud = [
     ciudad: "Funes",
     direccion: "Avila y Monteagudo",
     telefono: "(341) 493-6011",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Eva Perón",
@@ -3440,7 +3439,7 @@ const Salud = [
     ciudad: "Granadero Baigorria",
     direccion: "Av. San Martín 1645",
     telefono: "(341) 471-0940",
-    correo: "secretariaheep@santafe.gov.ar",
+    correo: "secretariaheep@santafe.gov.ar"
   },
   {
     nombre:
@@ -3450,7 +3449,7 @@ const Salud = [
     ciudad: "Las Parejas",
     direccion: "Av. 21 y Calle 6",
     telefono: "(371) 471-200",
-    correo: "hospitallasparejas@yahoo.com.ar",
+    correo: "hospitallasparejas@yahoo.com.ar"
   },
   {
     nombre: "Sistema para la Atención Médica de la Comunidad (SAMCo) Las Rosas",
@@ -3459,7 +3458,7 @@ const Salud = [
     ciudad: "Las Rosas",
     direccion: "Paso de los Andes 419",
     telefono: "(3471) 451205 / 562188",
-    correo: "samcolasrosas@hotmail.com",
+    correo: "samcolasrosas@hotmail.com"
   },
   {
     nombre:
@@ -3469,7 +3468,7 @@ const Salud = [
     ciudad: "Las Toscas",
     direccion: "Calle 29, 451",
     telefono: "(3482) 492134 / 492311",
-    correo: "samcolastoscas@hotmail.com",
+    correo: "samcolastoscas@hotmail.com"
   },
   {
     nombre:
@@ -3479,7 +3478,7 @@ const Salud = [
     ciudad: "Maciel",
     direccion: "Ruta 11 412",
     telefono: "(3476) 470-240",
-    correo: "samcomaciel@santafe.gov.ar",
+    correo: "samcomaciel@santafe.gov.ar"
   },
   {
     nombre:
@@ -3489,7 +3488,7 @@ const Salud = [
     ciudad: "María Juana",
     direccion: "Belgrano 252",
     telefono: "(3406) 471-795 / 459-222",
-    correo: "samcomjuana@hotmail.com",
+    correo: "samcomjuana@hotmail.com"
   },
   {
     nombre:
@@ -3499,7 +3498,7 @@ const Salud = [
     ciudad: "Murphy",
     direccion: "",
     telefono: "(3462) 441972",
-    correo: "",
+    correo: ""
   },
   {
     nombre:
@@ -3509,7 +3508,7 @@ const Salud = [
     ciudad: "Pavón Arriba",
     direccion: "Buenos Aires 814 (esq. Valerio Carreras)",
     telefono: "(3469) 491541 / 3402657023 / 3469586758",
-    correo: "samcopavonarriba@gmail.com",
+    correo: "samcopavonarriba@gmail.com"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) N°4 Virgen de Fátima",
@@ -3518,7 +3517,7 @@ const Salud = [
     ciudad: "Rafaela",
     direccion: "Dante Alighieri 479",
     telefono: "(3492) 426-430",
-    correo: "cs4_rafaela@santafe.gov.ar",
+    correo: "cs4_rafaela@santafe.gov.ar"
   },
   {
     nombre: "Hospital Dr. Jaime Ferre",
@@ -3527,7 +3526,7 @@ const Salud = [
     ciudad: "Rafaela",
     direccion: "Lisandro de la Torre 737",
     telefono: "(341) 2110054",
-    correo: "direccion_rafaela@santafe.gov.ar",
+    correo: "direccion_rafaela@santafe.gov.ar"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Puerto Reconquista",
@@ -3536,7 +3535,7 @@ const Salud = [
     ciudad: "Reconquista",
     direccion: "Los Pescadores S/N",
     telefono: "(342) 4457750",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) V Guadalupe",
@@ -3545,7 +3544,7 @@ const Salud = [
     ciudad: "Reconquista",
     direccion: "Manzana 10 Calle 68",
     telefono: "(3482) 487-170 / 660-768",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Salud Carmen Luisa",
@@ -3554,7 +3553,7 @@ const Salud = [
     ciudad: "Reconquista",
     direccion: "San Martín 3830",
     telefono: "(3382) 660768",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Nuevo Hospital Central de Reconquista Dra. Olga Stucki de Rizzi",
@@ -3565,7 +3564,7 @@ const Salud = [
     direccion: "Av. Hipólito Yrigoyen 2051",
     telefono: "(3482) 489-100",
     correo:
-      "consultorioinclusivorqta@gmail.com / hospitalreconquista@hotmail.com / hospitalreconquista@santafe.gov.ar",
+      "consultorioinclusivorqta@gmail.com / hospitalreconquista@hotmail.com / hospitalreconquista@santafe.gov.ar"
   },
   {
     nombre: "Posta Don Carlos",
@@ -3574,7 +3573,7 @@ const Salud = [
     ciudad: "Reconquista",
     direccion: "Calle 127 (esq. 72), Barrio Don Carlos",
     telefono: "(3482) 655-122 / 660-768",
-    correo: "postadoncarlos@hotmail.com.ar",
+    correo: "postadoncarlos@hotmail.com.ar"
   },
   {
     nombre: "Sistema para la Atención Médica de la Comunidad (SAMCo) Roldán",
@@ -3583,7 +3582,7 @@ const Salud = [
     ciudad: "Roldán",
     direccion: "Boulevard Sarmiento 900",
     telefono: "(341) 496-1309",
-    correo: "samcoroldan@hotmail.com",
+    correo: "samcoroldan@hotmail.com"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Barrio Obrero",
@@ -3592,7 +3591,7 @@ const Salud = [
     ciudad: "Romang",
     direccion: "San Martín 2124",
     telefono: "(3483) 477192",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) N°36 Pichincha",
@@ -3601,7 +3600,7 @@ const Salud = [
     ciudad: "Rosario",
     direccion: "Suipacha 667",
     telefono: "(341) 435-3705",
-    correo: "centrodesaludnumero36@gmail.com",
+    correo: "centrodesaludnumero36@gmail.com"
   },
   {
     nombre: "Centro de Especialidades Médicas Ambulatorias Rosario (CEMAR)",
@@ -3610,7 +3609,7 @@ const Salud = [
     ciudad: "Rosario",
     direccion: "San Luis 2020",
     telefono: "(341) 489-7200 / 480-2200 / 480-2555 / 224-4889",
-    correo: "generoydiversidadcemar@gmail.com",
+    correo: "generoydiversidadcemar@gmail.com"
   },
   {
     nombre: "Centro de Salud N°47",
@@ -3620,7 +3619,7 @@ const Salud = [
     ciudad: "Rosario",
     direccion: "Juan José Paso y Travesía",
     telefono: "(341) 273-7924 / 480-4535 / (342) 446-9173",
-    correo: "sauropushi@gmail.com",
+    correo: "sauropushi@gmail.com"
   },
   {
     nombre: "Hospital de Niños Zona Norte",
@@ -3629,7 +3628,7 @@ const Salud = [
     ciudad: "Rosario",
     direccion: "Av. de los Trabajadores 1331",
     telefono: "(341) 472-4535",
-    correo: "especialidadeshnzn@santafe.gov.ar / psicologiahnzn@gmail.com",
+    correo: "especialidadeshnzn@santafe.gov.ar / psicologiahnzn@gmail.com"
   },
   {
     nombre: "Hospital J. B. Alberdi",
@@ -3638,7 +3637,7 @@ const Salud = [
     ciudad: "Rosario",
     direccion: "Av. Puccio 575",
     telefono: "(341) 480-6177 (int. 101)",
-    correo: "consejeriahjba@gmail.com",
+    correo: "consejeriahjba@gmail.com"
   },
   {
     nombre: "Hospital Provincial del Centenario",
@@ -3647,7 +3646,7 @@ const Salud = [
     ciudad: "Rosario",
     direccion: "Urquiza 3101",
     telefono: "(341) 430-7185 / 472-4643 / 472-4649",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Dr. Warchavsky",
@@ -3656,7 +3655,7 @@ const Salud = [
     ciudad: "San Guillermo",
     direccion: "Centenario 445",
     telefono: "(3562) 468185",
-    correo: "",
+    correo: ""
   },
   {
     nombre:
@@ -3666,7 +3665,7 @@ const Salud = [
     ciudad: "San Guillermo",
     direccion: "Sarmiento 744",
     telefono: "(3562) 44-7888 / 46-7600",
-    correo: "samco@sanguillermo.com.ar / samcosanguillermo01@gmail.com",
+    correo: "samco@sanguillermo.com.ar / samcosanguillermo01@gmail.com"
   },
   {
     nombre: "Hospital Dr. Guillermo Rawson",
@@ -3675,7 +3674,7 @@ const Salud = [
     ciudad: "San Javier",
     direccion: "Av. Teófilo Madrejón 1320",
     telefono: "(3405) 424247 / 424104",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) 1° de Julio",
@@ -3684,7 +3683,7 @@ const Salud = [
     ciudad: "San Lorenzo",
     direccion: "Luis Borgui 182",
     telefono: "(341) 5724668",
-    correo: "",
+    correo: ""
   },
   {
     nombre:
@@ -3694,7 +3693,7 @@ const Salud = [
     ciudad: "Santa Fe",
     direccion: "Ayacucho 5821",
     telefono: "(342) 457-9290",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Las Lomas",
@@ -3703,7 +3702,7 @@ const Salud = [
     ciudad: "Santa Fe",
     direccion: "Camino Viejo Esperanza 7000",
     telefono: "",
-    correo: "cslaloma@santafe.gov.ar",
+    correo: "cslaloma@santafe.gov.ar"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) N°8 San Martín",
@@ -3712,7 +3711,7 @@ const Salud = [
     ciudad: "Santa Fe",
     direccion: "Estrada y Alberti",
     telefono: "",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Padre Cobo",
@@ -3721,7 +3720,7 @@ const Salud = [
     ciudad: "Santa Fe",
     direccion: "Pedro de Vega 3865",
     telefono: "(342) 457-9244 / 432-6462 / 512-3098",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Villa Hipódromo",
@@ -3730,7 +3729,7 @@ const Salud = [
     ciudad: "Santa Fe",
     direccion: "Blas Parera 6200",
     telefono: "(342) 457-9279",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Especialidades Médicas Ambulatorias (CEMAFE)",
@@ -3739,7 +3738,7 @@ const Salud = [
     ciudad: "Santa Fe",
     direccion: "Mendoza 2419",
     telefono: "(342) 478-7676 / 484-4400",
-    correo: "direccioncemafe@santafe.gov.ar",
+    correo: "direccioncemafe@santafe.gov.ar"
   },
   {
     nombre: "Centro de Salud Barrio Acería",
@@ -3748,7 +3747,7 @@ const Salud = [
     ciudad: "Santa Fe",
     direccion: "Matheu y Viñas",
     telefono: "(342) 4579101",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital de Niños Dr. O. Alassia",
@@ -3758,7 +3757,7 @@ const Salud = [
     ciudad: "Santa Fe",
     direccion: "Mendoza 4151",
     telefono: "(342) 450-5900 (int. 127 / 201)",
-    correo: "sadolescenciahnoa@gmail.com",
+    correo: "sadolescenciahnoa@gmail.com"
   },
   {
     nombre: "Hospital Sayago",
@@ -3767,7 +3766,7 @@ const Salud = [
     ciudad: "Santa Fe",
     direccion: "French 5224",
     telefono: "(342) 457-9237",
-    correo: "ssocial_sayago@santafe.gov.ar / direccion_sayago@santafe.gov.ar",
+    correo: "ssocial_sayago@santafe.gov.ar / direccion_sayago@santafe.gov.ar"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Eva Duarte de Perón",
@@ -3776,7 +3775,7 @@ const Salud = [
     ciudad: "Santo Tomé",
     direccion: "Córdoba y Necochea",
     telefono: "(342) 542-5516",
-    correo: "capsevadperon@gmail.com",
+    correo: "capsevadperon@gmail.com"
   },
   {
     nombre:
@@ -3786,7 +3785,7 @@ const Salud = [
     ciudad: "Santo Tomé",
     direccion: "12 de Septiembre y Azcuénaga",
     telefono: "(342) 474-3444 (int. 4915)",
-    correo: "samconanzer@gmail.com",
+    correo: "samconanzer@gmail.com"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Adelina Este",
@@ -3795,7 +3794,7 @@ const Salud = [
     ciudad: "Sauce Viejo",
     direccion: "Calle 71 y Calle 12",
     telefono: "(342) 499-6311 / 545-1793",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Centenario",
@@ -3804,7 +3803,7 @@ const Salud = [
     ciudad: "Sauce Viejo",
     direccion: "Las Heras y Rivadavia",
     telefono: "(342) 495-0678",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) San Cayetano",
@@ -3813,7 +3812,7 @@ const Salud = [
     ciudad: "Sauce Viejo",
     direccion: "Pasaje 6 entre Victoria Ocampo y Juan José Paso",
     telefono: "(342) 480-2804",
-    correo: "",
+    correo: ""
   },
   {
     nombre:
@@ -3823,7 +3822,7 @@ const Salud = [
     ciudad: "Suardi",
     direccion: "Dr. Fernández 365",
     telefono: "(3562) 441-338",
-    correo: "hospitalsuardi@hotmail.com",
+    correo: "hospitalsuardi@hotmail.com"
   },
   {
     nombre: "Hospital Teodelina",
@@ -3832,7 +3831,7 @@ const Salud = [
     ciudad: "Teodelina",
     direccion: "Sarmiento 449",
     telefono: "(3462) 557096",
-    correo: "samcoteodelina@yahoo.com.ar",
+    correo: "samcoteodelina@yahoo.com.ar"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Néstor Kirchner",
@@ -3841,7 +3840,7 @@ const Salud = [
     ciudad: "Tostado",
     direccion: "Hipólito Irigoyen y 6 de Caballería",
     telefono: "(3491) 437335",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Nqandenqa",
@@ -3850,7 +3849,7 @@ const Salud = [
     ciudad: "Tostado",
     direccion: "Chaco S/N",
     telefono: "(3491) 437335",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Alejandro Gutiérrez",
@@ -3859,7 +3858,7 @@ const Salud = [
     ciudad: "Venado Tuerto",
     direccion: "Santa Fe 1311",
     telefono: "(3462) 405-902",
-    correo: "secretariadedireccion2017@hotmail.com",
+    correo: "secretariadedireccion2017@hotmail.com"
   },
   {
     nombre: "Hospital Regional",
@@ -3868,7 +3867,7 @@ const Salud = [
     ciudad: "Vera",
     direccion: "Soldado Gómez 2400",
     telefono: "(342) 4457750",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Barrio Luzuriaga",
@@ -3877,7 +3876,7 @@ const Salud = [
     ciudad: "Villa Constitución",
     direccion: "David Peña 4777",
     telefono: "(3400) 660994 / 474057 / 473448",
-    correo: "hospitalvc@arnet.com.ar",
+    correo: "hospitalvc@arnet.com.ar"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Barrio Ideal",
@@ -3886,7 +3885,7 @@ const Salud = [
     ciudad: "Villa Gobernador Gálvez",
     direccion: "Ceci y 9 de Julio",
     telefono: "(3404) 433-393",
-    correo: "capsideal@cegnet.com.ar",
+    correo: "capsideal@cegnet.com.ar"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Ingeniero Mosconi",
@@ -3895,7 +3894,7 @@ const Salud = [
     ciudad: "Villa Gobernador Gálvez",
     direccion: "Ing. Mosconi 1541 (esq. 9 de Julio)",
     telefono: "(341) 317-8847",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) San Martín",
@@ -3904,7 +3903,7 @@ const Salud = [
     ciudad: "Villa Gobernador Gálvez",
     direccion: "Suipacha 3040",
     telefono: "(341) 4269861",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Anselmo Gamen",
@@ -3913,7 +3912,7 @@ const Salud = [
     ciudad: "Villa Gobernador Gálvez",
     direccion: "Balcarce 1355",
     telefono: "(341) 492-12223",
-    correo: "hospitalgamen@yahoo.com.ar",
+    correo: "hospitalgamen@yahoo.com.ar"
   },
   {
     nombre:
@@ -3923,7 +3922,7 @@ const Salud = [
     ciudad: "Villa Gobernador Gálvez",
     direccion: "Boulevard Mitre 1551",
     telefono: "(3404) 480391 / 481115",
-    correo: "samcogalvez@sme.dataco30.com.ar",
+    correo: "samcogalvez@sme.dataco30.com.ar"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Barrio Sur",
@@ -3932,7 +3931,7 @@ const Salud = [
     ciudad: "Villa Ocampo",
     direccion: "Chacabuco y Alberdi",
     telefono: "(3482) 575367",
-    correo: "",
+    correo: ""
   },
   {
     nombre:
@@ -3942,7 +3941,7 @@ const Salud = [
     ciudad: "Villa Ocampo",
     direccion: "Dr. Farran 2021/2129",
     telefono: "(3482) 466-002",
-    correo: "turnossamcovillaocampo@gmail.com",
+    correo: "turnossamcovillaocampo@gmail.com"
   },
   {
     nombre: "Unidad de Pronta Atención (UPA) N°6 Barrio Dorrego",
@@ -3951,7 +3950,7 @@ const Salud = [
     ciudad: "La Banda",
     direccion: "Aristóbulo del Valle 1699",
     telefono: "(385) 416-2701 / 600-6879 / 627-9845",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Centro Provincial de Salud Infantil (CEPSI)",
@@ -3962,7 +3961,7 @@ const Salud = [
     direccion: "Misiones 1087",
     telefono: "0800-777-2377 / (385) 4210812 / 4216890 (int. 1023)",
     correo:
-      "serviciosaludsexualcepsi@gmail.com / comunicacioninstitucional@cepsi.gob.ar",
+      "serviciosaludsexualcepsi@gmail.com / comunicacioninstitucional@cepsi.gob.ar"
   },
   {
     nombre: "Hospital Independencia",
@@ -3972,7 +3971,7 @@ const Salud = [
     ciudad: "Santiago del Estero",
     direccion: "Av. Belgrano Norte 660",
     telefono: "(385) 422-2938 / 473-7984 / 421-1515",
-    correo: "ministeriosaludsantiago@gmail.com",
+    correo: "ministeriosaludsantiago@gmail.com"
   },
   {
     nombre: "Unidad de Pronta Atención (UPA) N°25 Barrio Belén",
@@ -3981,7 +3980,16 @@ const Salud = [
     ciudad: "Santiago del Estero",
     direccion: "Manzana 14 S/N, Barrio Belén",
     telefono: "(385) 068-440 / 473-7984 / 477-8640",
-    correo: "upa25barriobelen@gmail.com",
+    correo: "upa25barriobelen@gmail.com"
+  },
+  {
+    nombre: "King Edward Memorial Hospital",
+    especialidad: "Hormonización",
+    provincia: "Tierra del Fuego",
+    ciudad: "Islas Malvinas, Puerto Argentino",
+    direccion: "St Mary's Walk",
+    telefono: "(500) 28000",
+    correo: "reception@kemh.gov.fk"
   },
   {
     nombre: "Casa de Jóvenes - Dirección de Salud Mental Municipal",
@@ -3991,7 +3999,7 @@ const Salud = [
     ciudad: "Río Grande",
     direccion: "Isla de los Estados 1195",
     telefono: "(2964) 43-6223 (int. 6065) / 44-3074",
-    correo: "",
+    correo: ""
   },
   {
     nombre:
@@ -4002,7 +4010,7 @@ const Salud = [
     ciudad: "Río Grande",
     direccion: "Orosky y Karukinka",
     telefono: "(2964) 662811",
-    correo: "subsediversidad@gmail.com",
+    correo: "subsediversidad@gmail.com"
   },
   {
     nombre: "Centro Provincial de Salud Infanto Juvenil",
@@ -4012,7 +4020,7 @@ const Salud = [
     ciudad: "Río Grande",
     direccion: "Batalla de Georgias 775",
     telefono: "(2964) 46-7272",
-    correo: "cps.infantojuvenil@gmail.com",
+    correo: "cps.infantojuvenil@gmail.com"
   },
   {
     nombre: "Hospital Regional de Río Grande - Nuestra Señora de la Candelaria",
@@ -4022,7 +4030,7 @@ const Salud = [
     ciudad: "Río Grande",
     direccion: "Florentino Ameghino 709",
     telefono: "(2964) 42-3222 / 42-2042 / 42-2086",
-    correo: "vmuller@tierradelfuego.gob.ar",
+    correo: "vmuller@tierradelfuego.gob.ar"
   },
   {
     nombre: "Centro Asistencial Tolhuin (CAT)",
@@ -4032,7 +4040,7 @@ const Salud = [
     ciudad: "Tolhuin",
     direccion: "Avenida Los Shelknams 273",
     telefono: "(2901) 64-5844 / 49-2121",
-    correo: "caps1ush@tierradelfuego.gob.ar / generalistascat@gmail.com",
+    correo: "caps1ush@tierradelfuego.gob.ar / generalistascat@gmail.com"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) N°3",
@@ -4042,8 +4050,7 @@ const Salud = [
     ciudad: "Ushuaia",
     direccion: "Gobernador Valdez 894",
     telefono: "(2901) 58-1545 / 44-1028 / 59-1103",
-    correo:
-      "consultoriodediversidadushuaia@gmail.com / capstressalud@gmail.com",
+    correo: "consultoriodediversidadushuaia@gmail.com / capstressalud@gmail.com"
   },
   {
     nombre: "Hospital Regional de Ushuaia - Gobernador Ernesto Campos",
@@ -4052,7 +4059,7 @@ const Salud = [
     ciudad: "Ushuaia",
     direccion: "12 de Octubre y Maipú",
     telefono: "(2901) 58-1545 / 42-3200 / 44-1000",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Regional de Concepción Dr. Miguel Belascuain",
@@ -4062,7 +4069,7 @@ const Salud = [
     ciudad: "Concepción",
     direccion: "San Luis 150",
     telefono: "(3865) 421784",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital Dr. Elíseo Cantón",
@@ -4071,7 +4078,7 @@ const Salud = [
     ciudad: "Lules",
     direccion: "Belgrano 300",
     telefono: "(381) 481-1355 / 156454212",
-    correo: "portalpaciente@telemedicinamsptucuman.com.ar",
+    correo: "portalpaciente@telemedicinamsptucuman.com.ar"
   },
   {
     nombre:
@@ -4081,7 +4088,7 @@ const Salud = [
     ciudad: "San Miguel de Tucumán",
     direccion: "Alsina 4700",
     telefono: "(381) 539-4617 / 439-5021 / (3816) 27-7711 / (3876) 11-4548",
-    correo: "laumagadan@hotmail.com / transformandofamiliasf@gmail.com",
+    correo: "laumagadan@hotmail.com / transformandofamiliasf@gmail.com"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Villa 9 de Julio",
@@ -4091,7 +4098,7 @@ const Salud = [
     ciudad: "San Miguel de Tucumán",
     direccion: "Avenida Juan B. Justo 1577",
     telefono: "(381) 4282263 / 262-9148",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Hospital de Clínicas Nuestra Señora del Carmen",
@@ -4101,7 +4108,7 @@ const Salud = [
     ciudad: "San Miguel de Tucumán",
     direccion: "Calle Ildefonso de las Muñecas 2550",
     telefono: "(381) 317-0458 / 427-6303 / 427-9721",
-    correo: "",
+    correo: ""
   },
   {
     nombre: "Programa de Salud Sexual y Reproductiva",
@@ -4111,7 +4118,7 @@ const Salud = [
     ciudad: "San Miguel de Tucumán",
     direccion: "General José María Paz 555 3°B",
     telefono: "0800-4444-999 / (381) 4844-000 (int. 504 / 505)",
-    correo: "ssyrtucuman@gmail.com / mij_ssyr@msptucuman.gov.ar",
+    correo: "ssyrtucuman@gmail.com / mij_ssyr@msptucuman.gov.ar"
   }
 ];
 

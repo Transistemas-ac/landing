@@ -26,27 +26,4 @@ const courseFaqItems = [
   }
 ];
 
-const servicesFaqItems = [
-  {
-    question: "¿Cuál es el costo de los servicios?",
-    answer:
-      "El costo se define según el alcance y la duración del proyecto. Escribinos a equipo@transistemas.org y te enviamos una propuesta personalizada."
-  },
-  {
-    question: "¿Trabajan con empresas y organizaciones sociales?",
-    answer:
-      "Sí. Trabajamos con empresas, ONGs y cooperativas que buscan construir productos digitales inclusivos, accesibles y centrados en las personas."
-  },
-  {
-    question: "¿En qué modalidades se pueden prestar los servicios?",
-    answer:
-      "Trabajamos de forma 100% online con equipos distribuidos en distintas regiones, manteniendo comunicación continua y entregables por etapas."
-  },
-  {
-    question: "¿Puedo solicitar solo una etapa del proceso (diseño, desarrollo o testing)?",
-    answer:
-      "Sí. Si ya tenés un equipo y necesitás apoyo puntual en diseño, desarrollo o testing, podemos intervenir solo en esa etapa."
-  }
-];
-
-export { courseFaqItems, servicesFaqItems };
+export { courseFaqItems };

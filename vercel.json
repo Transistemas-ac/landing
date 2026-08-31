@@ -5,16 +5,6 @@
       "has": [{ "type": "host", "value": "www\\.transistemas\\.org" }],
       "destination": "https://transistemas.org/:path",
       "statusCode": 301
-    },
-    {
-      "source": "/servicios/:path*",
-      "destination": "/services/:path*",
-      "statusCode": 301
-    },
-    {
-      "source": "/servicios",
-      "destination": "/services",
-      "statusCode": 301
     }
   ],
   "rewrites": [

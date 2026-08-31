@@ -6,8 +6,11 @@ import LoadingScreen from "../views/LoadingScreen";
 const HomeView = lazy(() => import("../views/Home"));
 const CoursesView = lazy(() => import("../views/Courses"));
 const CourseLandingView = lazy(() => import("../views/CourseLanding"));
-const ServicesView = lazy(() => import("../views/Services"));
 const EquiposView = lazy(() => import("../views/Equipos"));
+const HormonizacionView = lazy(() => import("../views/Hormonizacion"));
+const HormonizacionProvinciaView = lazy(() =>
+  import("../views/HormonizacionProvincia")
+);
 
 const getRouteElement = (Component) => (
   <Suspense fallback={<LoadingScreen />}>
@@ -36,16 +39,24 @@ const routes = [
     showInNavbar: false,
   },
   {
-    name: "Servicios",
-    path: "/services",
-    element: getRouteElement(ServicesView),
-    className: "services",
+    name: "Hormonización",
+    path: "/hormonizacion",
+    element: getRouteElement(HormonizacionView),
+    className: "hormonizacion",
+    showInNavbar: true,
   },
   {
     name: "Equipos",
     path: "/equipos",
     element: getRouteElement(EquiposView),
     className: "equipos",
+  },
+  {
+    name: "Hormonización por provincia",
+    path: "/hormonizacion/:provinciaSlug",
+    element: getRouteElement(HormonizacionProvinciaView),
+    className: "hormonizacion",
+    showInNavbar: false,
   },
 ];
 

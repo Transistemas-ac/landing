@@ -1,0 +1,345 @@
+@use "../utils/variables" as *;
+@use "../utils/mixins" as *;
+
+.hormonizacion-section {
+  @include section();
+  max-width: 1400px;
+  padding-top: 32px;
+  padding-bottom: 64px;
+}
+
+.hormonizacion-header {
+  text-align: left;
+  margin-bottom: 28px;
+}
+
+.hormonizacion-title {
+  color: $white;
+  font-size: 34px;
+  font-weight: 700;
+  margin: 0 0 12px;
+}
+
+.hormonizacion-description {
+  color: $grey-lighter;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0 0 20px;
+  max-width: 760px;
+}
+
+.hormonizacion-provincias-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.hormonizacion-provincias-link {
+  padding: 6px 14px;
+  border-radius: 999px;
+  background-color: $grey-darker;
+  color: $white;
+  font-size: 13px;
+  text-decoration: none;
+  border: 1px solid transparent;
+  transition:
+    background-color 0.2s ease,
+    border-color 0.2s ease,
+    color 0.2s ease;
+
+  &:hover {
+    background-color: $grey-light;
+  }
+
+  &.active {
+    background-color: $yellow;
+    color: $black;
+    font-weight: 600;
+  }
+}
+
+.hormonizacion-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.1fr;
+  gap: 24px;
+  align-items: start;
+}
+
+.hormonizacion-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+}
+
+.hormonizacion-map {
+  position: sticky;
+  top: 88px;
+  height: calc(100vh - 120px);
+  min-height: 520px;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: $grey-darker;
+
+  .salud-map-container {
+    width: 100%;
+    height: 100%;
+    background-color: $grey-darker;
+  }
+
+  // Keep Leaflet layers under the site navbar (z-index 200)
+  .leaflet-pane {
+    z-index: 10;
+  }
+
+  .leaflet-top,
+  .leaflet-bottom {
+    z-index: 30;
+  }
+
+  .leaflet-popup {
+    z-index: 15;
+  }
+}
+
+.hormonizacion-provincia {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  scroll-margin-top: 96px;
+}
+
+.hormonizacion-provincia-title {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  color: $white;
+  font-size: 22px;
+  font-weight: 700;
+  margin: 28px 0 12px;
+
+  a {
+    color: $yellow;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.hormonizacion-provincia-count {
+  color: $grey-lighter;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.salud-item {
+  display: block;
+  width: 100%;
+  background-color: $grey-darker;
+  color: $white;
+  border: 2px solid transparent;
+  border-radius: 16px;
+  padding: 18px 20px;
+  cursor: pointer;
+  text-align: left;
+  transition:
+    border-color 0.2s ease,
+    background-color 0.2s ease,
+    transform 0.2s ease;
+
+  &:hover {
+    border-color: $grey-light;
+    background-color: $grey-light;
+  }
+
+  &.selected {
+    border-color: $yellow;
+    background-color: $grey-light;
+    box-shadow: 0 0 0 3px rgba(255, 204, 0, 0.2);
+  }
+}
+
+.salud-item-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.salud-item-flag {
+  flex-shrink: 0;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid $white;
+  background: linear-gradient(
+    to bottom,
+    #55cdfc 0%,
+    #55cdfc 20%,
+    #f7a8b8 20%,
+    #f7a8b8 40%,
+    #ffffff 40%,
+    #ffffff 60%,
+    #f7a8b8 60%,
+    #f7a8b8 80%,
+    #55cdfc 80%,
+    #55cdfc 100%
+  );
+}
+
+.salud-item-title {
+  color: $white;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 0;
+  line-height: 1.35;
+}
+
+.salud-item-especialidad {
+  color: $pink;
+  font-size: 13px;
+  font-weight: 500;
+  margin: 0 0 10px;
+}
+
+.salud-item-row {
+  color: $grey-lighter;
+  font-size: 13px;
+  line-height: 1.5;
+  margin: 2px 0;
+
+  strong {
+    color: $white;
+    font-weight: 600;
+  }
+}
+
+.salud-item-row-emails {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+}
+
+.salud-emails {
+  display: flex;
+  flex-direction: column;
+
+  a {
+    display: block;
+    color: $blue;
+    text-decoration: none;
+    white-space: nowrap;
+    word-break: keep-all;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Trans flag map marker
+.trans-marker-icon {
+  background: transparent;
+  border: none;
+
+  .trans-marker-flag {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: 3px solid $white;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.45);
+    background: linear-gradient(
+      to bottom,
+      #55cdfc 0%,
+      #55cdfc 20%,
+      #f7a8b8 20%,
+      #f7a8b8 40%,
+      #ffffff 40%,
+      #ffffff 60%,
+      #f7a8b8 60%,
+      #f7a8b8 80%,
+      #55cdfc 80%,
+      #55cdfc 100%
+    );
+    transition:
+      transform 0.2s ease,
+      box-shadow 0.2s ease;
+  }
+
+  .trans-marker-flag.selected {
+    transform: scale(1.3);
+    border-color: $yellow;
+    box-shadow: 0 0 0 3px rgba(255, 204, 0, 0.45);
+  }
+}
+
+// Leaflet popup restyle
+.salud-popup {
+  min-width: 220px;
+  max-width: 280px;
+
+  .salud-popup-title {
+    color: $black;
+    font-size: 14px;
+    font-weight: 700;
+    margin: 0 0 6px;
+    line-height: 1.3;
+  }
+
+  .salud-popup-especialidad {
+    color: #b31e8c;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 0 0 8px;
+  }
+
+  .salud-popup-row {
+    color: #444;
+    font-size: 12px;
+    line-height: 1.5;
+    margin: 2px 0;
+
+    strong {
+      color: $black;
+    }
+  }
+
+  .salud-popup-row-emails {
+    display: flex;
+    align-items: baseline;
+    gap: 4px;
+  }
+
+  .salud-popup-emails {
+    display: flex;
+    flex-direction: column;
+
+    a {
+      display: block;
+      color: #1a73e8;
+      white-space: nowrap;
+      word-break: keep-all;
+    }
+  }
+}
+
+@media (max-width: $tablet-bp) {
+  .hormonizacion-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .hormonizacion-map {
+    position: relative;
+    top: auto;
+    height: 420px;
+    min-height: 0;
+    order: -1;
+  }
+
+  .hormonizacion-title {
+    font-size: 26px;
+  }
+}

@@ -7,6 +7,7 @@ const __dirname = path.dirname(__filename);
 const ROOT = path.resolve(__dirname, "..", "..");
 const PUBLIC = path.join(ROOT, "public");
 const COURSES_FILE = path.join(ROOT, "src", "data", "Courses.js");
+const SALUD_FILE = path.join(ROOT, "src", "data", "Salud.js");
 
 const SITE_URL = "https://transistemas.org";
 const today = new Date().toISOString().slice(0, 10);
@@ -30,6 +31,13 @@ const slugify = (title = "") =>
     .trim()
     .replace(/\s+/g, "-")
     .replace(/-+/g, "-");
+
+const extractProvincias = (source) => {
+  const provincias = [...source.matchAll(/provincia:\s*"([^"]+)"/g)].map(
+    (match) => match[1]
+  );
+  return [...new Set(provincias)];
+};
 
 const getYearFromDate = (dateStr = "") => {
   if (!dateStr) return "";
@@ -88,7 +96,6 @@ const computeCoursePaths = (courses) => {
 const staticRoutes = [
   { loc: "", changefreq: "weekly", priority: "1.0" },
   { loc: "/cursos", changefreq: "weekly", priority: "0.9" },
-  { loc: "/services", changefreq: "weekly", priority: "0.9" },
   { loc: "/equipos", changefreq: "monthly", priority: "0.8" }
 ];
 
@@ -107,7 +114,24 @@ const generate = async () => {
     priority: isStaleCourse(courses[i].fechaInicio) ? "0.3" : "0.7"
   }));
 
-  const allUrls = [...staticRoutes, ...courseUrls];
+  const saludSource = await fs.readFile(SALUD_FILE, "utf-8");
+  const provincias = extractProvincias(saludSource);
+  const saludUrls = [
+    {
+      loc: "/hormonizacion",
+      lastmod: today,
+      changefreq: "weekly",
+      priority: "0.9"
+    },
+    ...provincias.map((provincia) => ({
+      loc: `/hormonizacion/${slugify(provincia)}`,
+      lastmod: today,
+      changefreq: "weekly",
+      priority: "0.7"
+    }))
+  ];
+
+  const allUrls = [...staticRoutes, ...courseUrls, ...saludUrls];
 
   const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -117,7 +141,7 @@ ${allUrls.map(renderUrl).join("\n")}
 
   await fs.writeFile(path.join(PUBLIC, "sitemap.xml"), xml);
   console.log(
-    `  sitemap.xml       (${allUrls.length} URLs: ${staticRoutes.length} static, ${courseUrls.length} courses)`
+    `  sitemap.xml       (${allUrls.length} URLs: ${staticRoutes.length} static, ${courseUrls.length} courses, ${saludUrls.length} salud)`
   );
 };
 
