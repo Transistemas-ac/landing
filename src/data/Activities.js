@@ -1,4 +1,5 @@
 import cardTalleres from "../assets/svg/card_talleres.svg";
+import cardServicios from "../assets/svg/card_servicios.svg";
 import cardAcompaniamiento from "../assets/svg/card_acompaniamiento.svg";
 
 const activities = [
@@ -10,6 +11,16 @@ const activities = [
       "Brindamos capacitaciones gratuitas en Testing, Programación y Diseño para formar a nuestra comunidad y facilitar su inserción laboral.",
     link: "Anotarse",
     href: "/cursos",
+  },
+
+  {
+    img: cardServicios,
+    alt: "Servicios",
+    title: "Servicios",
+    description:
+      "Ofrecemos servicios de desarrollo de software, diseño y testing para organizaciones sociales y empresas de distintos sectores.",
+    link: "Ver más",
+    href: "/services",
   },
 
   {

@@ -8,6 +8,119 @@
   padding-bottom: 64px;
 }
 
+.hormonizacion-guide {
+  @include section();
+  max-width: 1400px;
+  padding-top: 64px;
+  text-align: left;
+
+  .hormonizacion-guide-disclaimer {
+    max-width: 900px;
+    margin: 0 auto 32px;
+    text-align: center;
+    color: $yellow-lighter;
+    font-size: 15px;
+    line-height: 1.6;
+  }
+
+  .hormonizacion-guide-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+  }
+
+  .hormonizacion-guide-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: $grey-darker;
+    border-radius: 16px;
+    padding: 22px;
+    color: $grey-lighter;
+    font-size: 13.5px;
+    line-height: 1.6;
+  }
+
+  .hormonizacion-guide-icon {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+  }
+
+  .hormonizacion-guide-title {
+    color: $white;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.35;
+  }
+
+  .hormonizacion-guide-text {
+    margin: 0;
+
+    strong {
+      color: $white;
+    }
+
+    a {
+      color: $blue;
+      text-decoration: none;
+      font-size: inherit;
+
+      &:hover {
+        text-decoration: underline;
+      }
+
+      &:focus-visible {
+        outline: 2px solid $blue;
+        outline-offset: 2px;
+      }
+    }
+  }
+
+  .hormonizacion-guide-link {
+    color: $yellow;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: inherit;
+    width: fit-content;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &:focus-visible {
+      outline: 2px solid $yellow;
+      outline-offset: 2px;
+    }
+  }
+
+  .hormonizacion-guide-updated {
+    margin: 0;
+    color: $white;
+    font-weight: 600;
+  }
+}
+
+.hormonizacion-contact {
+  @include section();
+  max-width: 1120px;
+  padding-top: 48px;
+  margin-bottom: 190px;
+  text-align: center;
+
+  .contact-section-title {
+    color: $white;
+    font-size: 1.5rem;
+    margin-bottom: 32px;
+
+    @media screen and (min-width: $tablet-bp) {
+      font-size: 36px;
+      margin-bottom: 64px;
+    }
+  }
+}
+
 .hormonizacion-header {
   text-align: left;
   margin-bottom: 28px;
@@ -51,6 +164,11 @@
     background-color: $grey-light;
   }
 
+  &:focus-visible {
+    outline: 2px solid $yellow;
+    outline-offset: 2px;
+  }
+
   &.active {
     background-color: $yellow;
     color: $black;
@@ -70,6 +188,29 @@
   flex-direction: column;
   gap: 16px;
   min-width: 0;
+  position: sticky;
+  top: 88px;
+  height: calc(100vh - 120px);
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  padding-right: 8px;
+  scrollbar-width: thin;
+  scrollbar-color: $white $black;
+
+  &::-webkit-scrollbar {
+    width: 8px;
+    background-color: transparent;
+  }
+
+  &::-webkit-scrollbar-track {
+    background: $black;
+    border-radius: 20px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background-color: $white;
+    border-radius: 20px;
+  }
 }
 
 .hormonizacion-map {
@@ -87,6 +228,15 @@
     background-color: $grey-darker;
   }
 
+  .hormonizacion-map-loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    color: $grey-lighter;
+    font-size: 14px;
+  }
+
   // Keep Leaflet layers under the site navbar (z-index 200)
   .leaflet-pane {
     z-index: 10;
@@ -99,6 +249,12 @@
 
   .leaflet-popup {
     z-index: 15;
+  }
+
+  // Visible focus ring for keyboard navigation on map markers
+  .leaflet-marker-icon:focus-visible .trans-marker-flag {
+    outline: 3px solid $yellow;
+    outline-offset: 3px;
   }
 }
 
@@ -154,6 +310,11 @@
     background-color: $grey-light;
   }
 
+  &:focus-visible {
+    border-color: $yellow;
+    box-shadow: 0 0 0 3px rgba(255, 204, 0, 0.35);
+  }
+
   &.selected {
     border-color: $yellow;
     background-color: $grey-light;
@@ -191,7 +352,7 @@
 
 .salud-item-title {
   color: $white;
-  font-size: 16px;
+  font-size: 17px;
   font-weight: 600;
   margin: 0;
   line-height: 1.35;
@@ -224,17 +385,25 @@
 
 .salud-emails {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 2px 8px;
   min-width: 0;
 
   a {
-    display: block;
     color: $blue;
     text-decoration: none;
+    font-size: 13px;
+    line-height: 1.4;
     overflow-wrap: anywhere;
 
     &:hover {
       text-decoration: underline;
+    }
+
+    &:focus-visible {
+      outline: 2px solid $blue;
+      outline-offset: 2px;
     }
   }
 }
@@ -283,7 +452,7 @@
 
   .salud-popup-title {
     color: $black;
-    font-size: 14px;
+    font-size: 15px;
     font-weight: 700;
     margin: 0 0 6px;
     line-height: 1.3;
@@ -315,13 +484,21 @@
 
   .salud-popup-emails {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 2px 8px;
     min-width: 0;
 
     a {
-      display: block;
       color: #1a73e8;
+      font-size: 13px;
+      line-height: 1.4;
       overflow-wrap: anywhere;
+
+      &:focus-visible {
+        outline: 2px solid #1a73e8;
+        outline-offset: 2px;
+      }
     }
   }
 }
@@ -329,6 +506,14 @@
 @media (max-width: $tablet-bp) {
   .hormonizacion-layout {
     grid-template-columns: 1fr;
+  }
+
+  .hormonizacion-list {
+    position: static;
+    height: auto;
+    overflow: visible;
+    overscroll-behavior: auto;
+    padding-right: 0;
   }
 
   .hormonizacion-map {
@@ -341,5 +526,13 @@
 
   .hormonizacion-title {
     font-size: 26px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .salud-item,
+  .hormonizacion-provincias-link,
+  .trans-marker-flag {
+    transition: none;
   }
 }

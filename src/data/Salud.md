@@ -8,6 +8,8 @@ El archivo debe contener un array de objetos JS con las siguientes propiedades:
     especialidad: "",
     provincia: "",
     ciudad: "",
+    lat: -35.4249948,
+    lng: -60.156494,
     direccion: "",
     telefono: "",
     correo: ""
@@ -15,6 +17,13 @@ El archivo debe contener un array de objetos JS con las siguientes propiedades:
 ```
 
 A continuación se detalla el formato específico que debe seguir cada propiedad:
+
+## `lat` y `lng`
+
+- Números decimales que representan la coordenada geográfica del centro de salud.
+- `lat` es la latitud y debe estar entre -90 y 90. `lng` es la longitud y debe estar entre -180 y 180.
+- Deben corresponder a la ubicación exacta de la dirección del centro, no a un punto genérico de la ciudad.
+- El mapa de `/hormonizacion` lee estas coordenadas directamente; si faltan, el centro no muestra un punto en el mapa.
 
 ## `nombre`
 

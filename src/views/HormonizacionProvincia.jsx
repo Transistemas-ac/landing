@@ -1,10 +1,11 @@
-import { useEffect, useMemo, useState } from "react";
+import { lazy, Suspense, useEffect, useMemo, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import Seo from "../components/Seo";
 import Breadcrumb from "../components/Breadcrumb";
 import Footer from "../components/Footer";
-import SaludMap from "../components/SaludMap";
 import SaludListItem from "../components/SaludListItem";
+import HormonizacionGuide from "../components/HormonizacionGuide";
+import Contact from "../components/Contact";
 import ErrorPage from "./ErrorPage";
 import {
   Salud,
@@ -17,10 +18,18 @@ import {
 import { SITE_URL } from "../utils/seo";
 import { buildBreadcrumbSchema } from "../utils/breadcrumb";
 
+const SaludMap = lazy(() => import("../components/SaludMap"));
+
 const scrollItemIntoView = (index) => {
+  const reduceMotion = window.matchMedia(
+    "(prefers-reduced-motion: reduce)"
+  ).matches;
   document
     .getElementById(`salud-item-${index}`)
-    ?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    ?.scrollIntoView({
+      behavior: reduceMotion ? "auto" : "smooth",
+      block: "nearest"
+    });
 };
 
 const buildItemSchema = (items, provincia) => ({
@@ -42,6 +51,14 @@ const buildItemSchema = (items, provincia) => ({
         addressRegion: item.provincia,
         addressCountry: "AR"
       },
+      ...(typeof item.lat === "number" &&
+        typeof item.lng === "number" && {
+          geo: {
+            "@type": "GeoCoordinates",
+            latitude: item.lat,
+            longitude: item.lng
+          }
+        }),
       ...(item.telefono && { telephone: item.telefono }),
       ...(item.correo && { email: item.correo })
     }
@@ -59,11 +76,16 @@ function HormonizacionProvincia() {
     [provincia]
   );
 
+  const selectedItem = useMemo(() => {
+    if (selectedIndex == null) return null;
+    return items.find((item) => Salud.indexOf(item) === selectedIndex) || null;
+  }, [items, selectedIndex]);
+
   const points = useMemo(
     () =>
       items.map((item) => {
         const index = Salud.indexOf(item);
-        return { index, item, coords: getCoords(item, index) };
+        return { index, item, coords: getCoords(item) };
       }),
     [items]
   );
@@ -106,6 +128,10 @@ function HormonizacionProvincia() {
       <div className="hormonizacion-section">
         <Breadcrumb items={breadcrumbItems} />
 
+        <p className="visually-hidden" role="status">
+          {selectedItem ? `Centro seleccionado: ${selectedItem.nombre}` : ""}
+        </p>
+
         <div className="hormonizacion-header">
           <h1 className="hormonizacion-title">
             Hormonización en {provincia}
@@ -144,6 +170,7 @@ function HormonizacionProvincia() {
                   key={index}
                   index={index}
                   item={item}
+                  headingLevel="h2"
                   selected={selectedIndex === index}
                   onSelect={handleSelect}
                 />
@@ -151,13 +178,28 @@ function HormonizacionProvincia() {
             })}
           </div>
           <aside className="hormonizacion-map" aria-label="Mapa de centros">
-            <SaludMap
-              points={points}
-              selectedIndex={selectedIndex}
-              onSelect={setSelectedIndex}
-            />
+            <Suspense
+              fallback={
+                <div className="hormonizacion-map-loading">Cargando mapa…</div>
+              }
+            >
+              <SaludMap
+                points={points}
+                selectedIndex={selectedIndex}
+                onSelect={setSelectedIndex}
+              />
+            </Suspense>
           </aside>
         </div>
+      </div>
+
+      <HormonizacionGuide />
+
+      <div className="hormonizacion-contact">
+        <h2 className="contact-section-title">
+          ¿Tenés alguna correción o dato para sumar?
+        </h2>
+        <Contact next={`${SITE_URL}${path}`} />
       </div>
 
       <Footer />

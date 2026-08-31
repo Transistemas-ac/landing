@@ -1,10 +1,11 @@
-import { useMemo, useState } from "react";
+import { lazy, Suspense, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
 import Seo from "../components/Seo";
 import Breadcrumb from "../components/Breadcrumb";
 import Footer from "../components/Footer";
-import SaludMap from "../components/SaludMap";
 import SaludListItem from "../components/SaludListItem";
+import HormonizacionGuide from "../components/HormonizacionGuide";
+import Contact from "../components/Contact";
 import {
   Salud,
   getCoords,
@@ -13,6 +14,8 @@ import {
 } from "../utils/saludFunctions";
 import { SITE_URL } from "../utils/seo";
 import { buildBreadcrumbSchema } from "../utils/breadcrumb";
+
+const SaludMap = lazy(() => import("../components/SaludMap"));
 
 const breadcrumbItems = [
   { name: "Inicio", url: `${SITE_URL}/` },
@@ -33,9 +36,15 @@ const provinciasSchema = (provincias) => ({
 });
 
 const scrollItemIntoView = (index) => {
+  const reduceMotion = window.matchMedia(
+    "(prefers-reduced-motion: reduce)"
+  ).matches;
   document
     .getElementById(`salud-item-${index}`)
-    ?.scrollIntoView({ behavior: "smooth", block: "nearest" });
+    ?.scrollIntoView({
+      behavior: reduceMotion ? "auto" : "smooth",
+      block: "nearest"
+    });
 };
 
 function Hormonizacion() {
@@ -46,7 +55,7 @@ function Hormonizacion() {
       Salud.map((item, index) => ({
         index,
         item,
-        coords: getCoords(item, index)
+        coords: getCoords(item)
       })),
     []
   );
@@ -55,6 +64,11 @@ function Hormonizacion() {
     setSelectedIndex(index);
     scrollItemIntoView(index);
   };
+
+  const selectedItem = useMemo(() => {
+    if (selectedIndex == null) return null;
+    return points.find((point) => point.index === selectedIndex)?.item || null;
+  }, [points, selectedIndex]);
 
   return (
     <div className="hormonizacion">
@@ -73,6 +87,10 @@ function Hormonizacion() {
 
       <div className="hormonizacion-section">
         <Breadcrumb items={breadcrumbItems} />
+
+        <p className="visually-hidden" role="status">
+          {selectedItem ? `Centro seleccionado: ${selectedItem.nombre}` : ""}
+        </p>
 
         <div className="hormonizacion-header">
           <h1 className="hormonizacion-title">Hormonización en Argentina</h1>
@@ -132,13 +150,28 @@ function Hormonizacion() {
             })}
           </div>
           <aside className="hormonizacion-map" aria-label="Mapa de centros">
-            <SaludMap
-              points={points}
-              selectedIndex={selectedIndex}
-              onSelect={setSelectedIndex}
-            />
+            <Suspense
+              fallback={
+                <div className="hormonizacion-map-loading">Cargando mapa…</div>
+              }
+            >
+              <SaludMap
+                points={points}
+                selectedIndex={selectedIndex}
+                onSelect={setSelectedIndex}
+              />
+            </Suspense>
           </aside>
         </div>
+      </div>
+
+      <HormonizacionGuide />
+
+      <div className="hormonizacion-contact">
+        <h2 className="contact-section-title">
+          ¿Tenés alguna correción o dato para sumar?
+        </h2>
+        <Contact next={`${SITE_URL}/hormonizacion`} />
       </div>
 
       <Footer />

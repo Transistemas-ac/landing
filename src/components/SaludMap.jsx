@@ -28,13 +28,14 @@ const SpanishLabelsOverlay = () => {
   return null;
 };
 
-const createTransIcon = (selected = false) =>
+const createTransIcon = (selected = false, title = "") =>
   L.divIcon({
     className: "trans-marker-icon",
     html: `<span class="trans-marker-flag ${selected ? "selected" : ""}"></span>`,
     iconSize: [34, 34],
     iconAnchor: [17, 17],
-    popupAnchor: [0, -18]
+    popupAnchor: [0, -18],
+    title
   });
 
 const FitBounds = ({ coords }) => {
@@ -72,7 +73,12 @@ const FlyToSelected = ({ points, selectedIndex }) => {
     const point = points.find(({ index }) => index === selectedIndex);
     if (!point || !point.coords) return;
     const { lat, lng } = point.coords;
-    map.flyTo([lat, lng], Math.max(map.getZoom(), 12), { duration: 0.6 });
+    const zoom = Math.max(map.getZoom(), 12);
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      map.setView([lat, lng], zoom);
+    } else {
+      map.flyTo([lat, lng], zoom, { duration: 0.6 });
+    }
   }, [selectedIndex, points, map]);
 
   return null;
@@ -80,6 +86,13 @@ const FlyToSelected = ({ points, selectedIndex }) => {
 
 const SaludMarker = ({ index, coords, item, selected, onSelect }) => {
   const markerRef = useRef(null);
+
+  useEffect(() => {
+    const element = markerRef.current?.getElement();
+    if (element) {
+      element.setAttribute("aria-label", item.nombre);
+    }
+  }, [item.nombre]);
 
   useEffect(() => {
     if (!markerRef.current) return;
@@ -94,12 +107,23 @@ const SaludMarker = ({ index, coords, item, selected, onSelect }) => {
     <Marker
       ref={markerRef}
       position={[coords.lat, coords.lng]}
-      icon={createTransIcon(selected)}
+      icon={createTransIcon(selected, item.nombre)}
       eventHandlers={{
         click: () => onSelect(index)
       }}
     >
-      <Popup maxWidth={380}>
+      <Popup
+        maxWidth={380}
+        eventHandlers={{
+          open: (event) => {
+            const closeButton = event.target
+              .getElement()
+              ?.querySelector(".leaflet-popup-close-button");
+            closeButton?.setAttribute("aria-label", "Cerrar");
+            closeButton?.setAttribute("title", "Cerrar");
+          }
+        }}
+      >
         <div className="salud-popup">
           <h3 className="salud-popup-title">{item.nombre}</h3>
           <p className="salud-popup-especialidad">{item.especialidad}</p>

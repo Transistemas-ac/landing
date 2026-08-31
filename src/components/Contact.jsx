@@ -1,6 +1,6 @@
 import Button from "./Button";
 
-export default function Contact() {
+export default function Contact({ next = "https://transistemas.org/" }) {
   return (
     <div className="contact-section">
       <form
@@ -46,7 +46,7 @@ export default function Contact() {
             Enviar
           </Button>
         </fieldset>
-        <input type="hidden" name="_next" value="https://transistemas.org/" />
+        <input type="hidden" name="_next" value={next} />
       </form>
     </div>
   );

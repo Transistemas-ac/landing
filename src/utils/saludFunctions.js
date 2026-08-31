@@ -1,5 +1,4 @@
 import Salud from "../data/Salud";
-import geocoding from "../data/geocoding.json";
 
 const provincias = [...new Set(Salud.map((item) => item.provincia))];
 
@@ -21,12 +20,17 @@ const getProvinciaSlug = (provincia) => slugifyProvincia(provincia);
 const getItemsByProvincia = (provincia) =>
   Salud.filter((item) => item.provincia === provincia);
 
-const getCoords = (item, index) => {
-  const entry = geocoding[index];
-  if (!entry || typeof entry.lat !== "number" || typeof entry.lng !== "number") {
+const getCoords = (item) => {
+  if (
+    !item ||
+    typeof item.lat !== "number" ||
+    typeof item.lng !== "number" ||
+    !Number.isFinite(item.lat) ||
+    !Number.isFinite(item.lng)
+  ) {
     return null;
   }
-  return { lat: entry.lat, lng: entry.lng };
+  return { lat: item.lat, lng: item.lng };
 };
 
 const splitEmails = (correo = "") =>
@@ -37,7 +41,6 @@ const splitEmails = (correo = "") =>
 
 export {
   Salud,
-  geocoding,
   provincias,
   slugifyProvincia,
   getProvinciaBySlug,

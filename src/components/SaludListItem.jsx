@@ -1,12 +1,14 @@
 import { splitEmails } from "../utils/saludFunctions";
 
-function SaludListItem({ index, item, selected, onSelect }) {
+function SaludListItem({ index, item, selected, onSelect, headingLevel = "h3" }) {
   const handleKeyDown = (event) => {
     if (event.key === "Enter" || event.key === " ") {
       event.preventDefault();
       onSelect(index);
     }
   };
+
+  const Heading = headingLevel;
 
   return (
     <article
@@ -20,7 +22,7 @@ function SaludListItem({ index, item, selected, onSelect }) {
     >
       <div className="salud-item-header">
         <span className="salud-item-flag" aria-hidden="true" />
-        <h3 className="salud-item-title">{item.nombre}</h3>
+        <Heading className="salud-item-title">{item.nombre}</Heading>
       </div>
       <p className="salud-item-especialidad">{item.especialidad}</p>
       <p className="salud-item-row">

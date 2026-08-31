@@ -8,14 +8,10 @@
     "start": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "geocode": "node src/utils/generate-geocoding.js",
-    "geocode:pending": "node src/utils/generate-pending.js",
-    "geocode:apply": "node src/utils/generate-apply.js"
+    "preview": "vite preview"
   },
   "dependencies": {
     "@maplibre/maplibre-gl-leaflet": "^0.1.4",
-    "csv-parse": "^7.0.2",
     "leaflet": "^1.9.4",
     "maplibre-gl": "^6.6.0",
     "react": "^18.3.1",
@@ -29,8 +25,6 @@
   },
   "devDependencies": {
     "@eslint/js": "^9.39.5",
-    "@types/react": "^18.3.31",
-    "@types/react-dom": "^18.3.7",
     "@vitejs/plugin-react": "^4.7.0",
     "eslint": "^9.39.5",
     "eslint-plugin-react": "^7.37.5",
@@ -38,7 +32,6 @@
     "eslint-plugin-react-refresh": "^0.4.26",
     "globals": "^15.15.0",
     "sass-embedded": "^1.102.0",
-    "sharp": "^0.33.5",
     "vite": "^6.4.3"
   }
 }

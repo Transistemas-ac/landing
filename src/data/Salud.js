@@ -4,6 +4,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "25 de Mayo",
+    lat: -35.4249948,
+    lng: -60.156494,
     direccion: "Calle 37 entre 1 y 101",
     telefono: "(2345) 462267 / 464849",
     correo: "info@hospitalunzue.com.ar"
@@ -15,6 +17,8 @@ const Salud = [
       "Atención a Infancias, Endocrinología, Salud Mental, Clínica Médica",
     provincia: "Buenos Aires",
     ciudad: "9 de Julio",
+    lat: -35.4368564,
+    lng: -60.8797934,
     direccion: "Av. Tomás Cosentino 1223",
     telefono: "(2317) 57-7355 / 43-0125 / 43-0025",
     correo: "sapsjuliodevedia@gmail.com"
@@ -24,6 +28,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Acassuso",
+    lat: -34.4776209,
+    lng: -58.5103624,
     direccion: "Av. Sta Fe 431",
     telefono: "4512-3707 / 4512-3786",
     correo: "consultascud@sanisidro.gob.ar / csi@sanisidro.gob.ar"
@@ -33,6 +39,8 @@ const Salud = [
     especialidad: "Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Adolfo Alsina, Carhué",
+    lat: -37.177292,
+    lng: -62.7499562,
     direccion: "Avellaneda y Boulevard Alsina",
     telefono: "(2936) 432222 (int. 114 / 113)",
     correo: "hospcarhue@invertel.com.ar"
@@ -42,6 +50,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Buenos Aires",
     ciudad: "Adolfo Gonzales Chaves",
+    lat: -38.036065,
+    lng: -60.1032259,
     direccion: "Torchiari 200",
     telefono: "(2983) 48-4450",
     correo: "hospital.chaves@gmail.com / adm.hospi.agchaves@gmail.com"
@@ -51,6 +61,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Adrogué",
+    lat: -34.8121851,
+    lng: -58.3860155,
     direccion: "Presidente Perón (ex Gorriti) 859",
     telefono: "4294-5555",
     correo: "direccion-melendez@ms.gba.gov.ar"
@@ -61,6 +73,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Almirante Brown, Rafael Calzada",
+    lat: -34.7847462,
+    lng: -58.352095,
     direccion: "Dr. Ramón Carrillo 1339",
     telefono: "4219-5079 / 4219-5040 / 4219-5046/7/8",
     correo: "onativia@ms.gba.gov.ar"
@@ -70,6 +84,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Avellaneda",
+    lat: -34.6741141,
+    lng: -58.3606209,
     direccion: "Av. Manuel Belgrano 827",
     telefono: "4201-5555 / 4201-3081 / 4201-3087",
     correo: "comunicacion@hosfio.org.ar"
@@ -79,6 +95,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Buenos Aires",
     ciudad: "Avellaneda, Wilde",
+    lat: -34.699846,
+    lng: -58.3072332,
     direccion: "Av. Ramón Franco 6459",
     telefono: "4220-4910 / 2004-1009",
     correo: ""
@@ -89,6 +107,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Cirugía de Masculinización Tórax, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Avellaneda, Wilde",
+    lat: -34.695685,
+    lng: -58.315567,
     direccion: "Baradero 5808",
     telefono: "(11) 67858647 / 5227-7600 / 5227-7630",
     correo: "hospitalwilde@ms.gba.gov.ar"
@@ -98,6 +118,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Ayacucho",
+    lat: -37.1512609,
+    lng: -58.4745616,
     direccion: "Av. Solanet 300 (esq. Somigliana)",
     telefono: "(249) 455-4948",
     correo: "saludayacucho@gmail.com"
@@ -108,6 +130,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Azul",
+    lat: -36.779564099520144,
+    lng: -59.866562686540476,
     direccion: "Julio Argentino Roca 409",
     telefono: "(2281) 470275",
     correo:
@@ -118,6 +142,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Azul",
+    lat: -36.7697971,
+    lng: -59.8588657,
     direccion: "Amado Diab 270",
     telefono: "(2281) 47-0275 / 42-4014 / 43-5200",
     correo: ""
@@ -127,6 +153,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Bahía Blanca",
+    lat: -38.7310897,
+    lng: -62.2280729,
     direccion: "Av. Lainez 2401",
     telefono: "(291) 459-3600 (int. 308) / 459-3611 / 459-3616 / 459-3602",
     correo: "zona.turnospenna@gmail.com / direccion-penna@ms.gba.gov.ar"
@@ -137,6 +165,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Bahía Blanca",
+    lat: -38.7108935,
+    lng: -62.2779091,
     direccion: "Estomba 968",
     telefono: "(291) 459-8484 503-0348",
     correo: "docencia@hmabb.gov.ar / direcciondecapitalhumanohmabb@gmail.com"
@@ -146,6 +176,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Balcarce",
+    lat: -37.8545604,
+    lng: -58.2428929,
     direccion: "Calle 15 y Calle 116 bis",
     telefono: "2266 48-1742",
     correo: ""
@@ -155,6 +187,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Baradero",
+    lat: -33.8129203,
+    lng: -59.4958633,
     direccion: "Teófilo Rosell 1150",
     telefono: "(3329) 15551531 / 48-0004",
     correo: "hospital@baradero.gob.ar / hospitalmunicipalbaradero@gmail.com"
@@ -165,6 +199,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Benito Juárez",
+    lat: -37.6812827,
+    lng: -59.8051971,
     direccion: "Dr. Labriola 275",
     telefono: "(2292) 451370",
     correo:
@@ -176,6 +212,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Buenos Aires",
     ciudad: "Berazategui",
+    lat: -34.8063625,
+    lng: -58.1823927,
     direccion: "Calle 52 B entre Calle 134 y Calle 135",
     telefono: "4356-9200 (int. 2036)",
     correo: ""
@@ -185,6 +223,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Berisso",
+    lat: -34.8666887,
+    lng: -57.889195,
     direccion: "Calle 5 (Londres), 4435",
     telefono: "(221) 461-1101 / 461-6176",
     correo: "larrain@ms.gba.gov.ar"
@@ -195,6 +235,8 @@ const Salud = [
     especialidad: "Salud Mental, Ginecología, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Bosques",
+    lat: -34.8401781,
+    lng: -58.2324261,
     direccion: "Iberia 359",
     telefono: "4213-9318 / 2149-3929",
     correo: "villahudson@gmail.com"
@@ -204,6 +246,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Bragado",
+    lat: -35.1085195,
+    lng: -60.49917,
     direccion: "Hermanos Islas 700",
     telefono: "(2342) 482-450 / 541-154 / 541-100 (int. 1152)",
     correo: "info@bragado.gov.ar"
@@ -213,6 +257,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Cañuelas",
+    lat: -35.0540248,
+    lng: -58.7617379,
     direccion: "Ruta 6 km 92,5",
     telefono: "(2226) 557446 / 628250 / 1152734700",
     correo: "cicu@hospitalcuencaalta.org.ar"
@@ -222,6 +268,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Cañuelas, Máximo Paz",
+    lat: -34.93638353612009,
+    lng: -58.618605503179204,
     direccion: "M. Vicente y Belgrano",
     telefono: "(2274) 430994 / 451252",
     correo: ""
@@ -231,6 +279,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Carmen de Areco",
+    lat: -34.3889187,
+    lng: -59.8239803,
     direccion: "Dr. Carlos M. Espil 409",
     telefono: "(2273) 442155",
     correo: "vcarmen@ms.gba.gov.ar / direccion-carmen@ms.gba.gov.ar"
@@ -240,6 +290,8 @@ const Salud = [
     especialidad: "Salud Mental, Clínica Médica",
     provincia: "Buenos Aires",
     ciudad: "Castelar",
+    lat: -34.6681896,
+    lng: -58.6499099,
     direccion: "Nicolás Granada 3200",
     telefono: "2259-0887",
     correo: "turnoscapsfavaloro@gmail.com"
@@ -249,6 +301,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Chacabuco",
+    lat: -34.6499738,
+    lng: -60.4684523,
     direccion: "Av. Garay 224",
     telefono: "(2352) 43-0827",
     correo: "direccion-carmen@ms.gba.gov.ar"
@@ -259,6 +313,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Chascomús",
+    lat: -35.5717903,
+    lng: -58.0181563,
     direccion: "Juárez y Correa y 26 de Julio",
     telefono: "(2241) 60-4874",
     correo: "municipalidad@chascomus.gob.ar"
@@ -270,6 +326,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Chivilcoy",
+    lat: -34.8821528,
+    lng: -60.0030141,
     direccion: "Av. Protesta de los Labradores (Calle 9) 28",
     telefono: "(2346) 427-924",
     correo: ""
@@ -279,6 +337,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Buenos Aires",
     ciudad: "Chivilcoy",
+    lat: -34.9170409,
+    lng: -60.001894,
     direccion: "Miguel Calderón 1271",
     telefono: "(2346) 431-267",
     correo: ""
@@ -288,6 +348,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Colón",
+    lat: -33.8849743,
+    lng: -61.0922462,
     direccion: "Calle 129 entre Calle 47 y Calle 48",
     telefono: "(2473) 40-8066 / 43-0431",
     correo: "info@municipalidadcolonpba.gob.ar"
@@ -297,6 +359,8 @@ const Salud = [
     especialidad: "Endocrinología, Ginecología, Clínica Médica",
     provincia: "Buenos Aires",
     ciudad: "Coronel de Marina Leonardo Rosales, Punta Alta",
+    lat: -38.8766462,
+    lng: -62.0669552,
     direccion: "Uriburu 650",
     telefono: "(2932) 45-4683 / 42-2955 / 47-0732",
     correo: "hepmerlo@hotmail.com"
@@ -306,6 +370,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Coronel Suárez",
+    lat: -37.4574186,
+    lng: -61.9377252,
     direccion: "Garibaldi 599 (esq. Avellaneda)",
     telefono: "(2926) 429400 / 430711 / 429438",
     correo:
@@ -317,6 +383,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Dock Sud",
+    lat: -34.6496259,
+    lng: -58.3459586,
     direccion: "Mazzini 1325",
     telefono: "4205-9633",
     correo: ""
@@ -326,6 +394,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Buenos Aires",
     ciudad: "Dock Sud",
+    lat: -34.6398413,
+    lng: -58.3542783,
     direccion: "Montaña 172",
     telefono: "4205-9634 / 2005-9115",
     correo: ""
@@ -336,6 +406,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Ensenada",
+    lat: -34.8515845,
+    lng: -57.9173381,
     direccion: "San Martín 328",
     telefono: "(221) 469-1041 / 469-1255 / 2215 98-8122",
     correo: "generoydiversidadensenada@gmail.com / hcestino@ms.gba.gov.ar"
@@ -345,6 +417,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Ensenada, Punta Lara",
+    lat: -34.8319419,
+    lng: -57.9523925,
     direccion: "Almirante Brown y Calle 44",
     telefono: "(221) 466-0114",
     correo: "unidadsanitaria298@gmail.com"
@@ -355,6 +429,8 @@ const Salud = [
       "Hormonización, Salud Mental, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Escobar",
+    lat: -34.93632604263295,
+    lng: -58.61846930530057,
     direccion: "Colectora Este Ramal Escobar 659",
     telefono: "1154051906 / 1121694283",
     correo: "consultorioinclusivo@escobar.gob.ar"
@@ -364,6 +440,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Exaltación de la Cruz, Pavón",
+    lat: -34.3786285,
+    lng: -59.0447137,
     direccion: "Ruta 39 (km. 1) y 12 de Octubre",
     telefono: "(2323) 47-3100",
     correo: ""
@@ -373,6 +451,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Ezeiza",
+    lat: -34.8916254,
+    lng: -58.5377626,
     direccion: "Rayo de Sol y El Pericón",
     telefono: "2005-6465",
     correo: ""
@@ -384,6 +464,8 @@ const Salud = [
       "Salud Mental, Ginecología, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Florencio Varela",
+    lat: -34.82079615062796,
+    lng: -58.285061451748476,
     direccion: "Av. Padre Obispo J. Novak 2266",
     telefono: "4237-3423",
     correo: ""
@@ -393,6 +475,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Florencio Varela",
+    lat: -34.8151116,
+    lng: -58.2700095,
     direccion: "Av. 12 de Octubre 363",
     telefono: "4287-3160",
     correo: "saludfv@florenciovarela.gov.ar"
@@ -403,6 +487,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "General Alvear",
+    lat: -36.0311335,
+    lng: -60.0090776,
     direccion: "Av. 25 de Mayo 372",
     telefono: "(2344) 45-0110 / 50-0682",
     correo: "salud@munialvear.gov.ar"
@@ -412,6 +498,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "General Belgrano",
+    lat: -35.7674099,
+    lng: -58.4853267,
     direccion: "Av. 25 de Mayo y Calle 109",
     telefono: "(2243) 401892 / (2223) 436580",
     correo: ""
@@ -421,6 +509,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "General La Madrid",
+    lat: -37.2421952,
+    lng: -61.2742853,
     direccion: "Azcuénaga y Jauretche",
     telefono: "(2286) 420090",
     correo: ""
@@ -430,6 +520,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Endocrinología",
     provincia: "Buenos Aires",
     ciudad: "General Pacheco",
+    lat: -34.4551279,
+    lng: -58.6406534,
     direccion: "Av. Constituyentes 395 - Ruta 9",
     telefono: "4736-0157/0211/0154/0144 (int. 362/363)",
     correo: "consultas-hmartinez@ms.gba.gov.ar / martinez@ms.gba.gov.ar"
@@ -441,6 +533,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Clínica Médica, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "General Pueyrredón, Mar del Plata",
+    lat: -37.9737027,
+    lng: -57.608991,
     direccion: "Avenida Colón y Salta",
     telefono: "(223) 6027000 / 6690126",
     correo: ""
@@ -452,6 +546,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "General Pueyrredón, Mar del Plata",
+    lat: -38.0102265,
+    lng: -57.5534852,
     direccion: "Castelli 2450",
     telefono: "(223) 499-100 / 493-6352 (int.208) / 493-9455 (int. 202)",
     correo: "direccionhiemi@yahoo.com.ar"
@@ -461,6 +557,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "General Rodríguez",
+    lat: -34.6128829,
+    lng: -58.9547178,
     direccion: "Dr. Cherubini 450",
     telefono: "(237) 484-0641 / 484-1547 / 1123349553",
     correo: "salud@generalrodriguez.gob.ar / direcciondesaludgr@gmail.com"
@@ -471,6 +569,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Buenos Aires",
     ciudad: "General San Martín",
+    lat: -34.8110388,
+    lng: -58.2592733,
     direccion: "3 de Febrero 2590",
     telefono: "(11) 4512-6228 / 4755-3993 / 4830-6228",
     correo: ""
@@ -480,6 +580,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "General San Martín",
+    lat: -34.5714342,
+    lng: -58.553853,
     direccion: "Av. Dr. Ricardo Balbín 3200",
     telefono: "4724-3000/1/2/3/4/5/6/7/8",
     correo:
@@ -490,6 +592,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "General San Martín, José León Suárez",
+    lat: -34.5280002,
+    lng: -58.5668239,
     direccion: "Garibaldi 1897",
     telefono: "4580-1067",
     correo: "centro10mg@gmail.com"
@@ -499,6 +603,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "General San Martín, José León Suárez",
+    lat: -34.5289848,
+    lng: -58.5754297,
     direccion: "J. V. González (Calle 55), 50",
     telefono: "4580-1118/1056/1057",
     correo: ""
@@ -509,6 +615,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Ginecología, Grupo de Pares, Clínica Médica, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "General San Martín, José León Suárez",
+    lat: -34.5261616,
+    lng: -58.5725244,
     direccion: "Av. Brigadier General Juan Manuel de Rosas 4230",
     telefono: "4580-1050 / 4580-1063 / 4089-9717 / 0800-777-88766",
     correo: "diversidadfleming@gmail.com / hospitalfleming@gmail.com"
@@ -519,6 +627,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "General San Martín, Villa Concepción",
+    lat: -34.5457929,
+    lng: -58.5271264,
     direccion: "Calle 88 (Independencia) 876",
     telefono: "4512-6259 / 4830-0711 / 4830-0723",
     correo: "codeiaps@gmail.com / sanmartin@arnet.com.ar"
@@ -529,6 +639,8 @@ const Salud = [
       "Hormonización, Salud Mental, Ginecología, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "General San Martín, Villa Zagala",
+    lat: -34.54979978721965,
+    lng: -58.52489255178429,
     direccion: "Av. de los Constituyentes 3120",
     telefono:
       "4713-2352 / 4713-4038 / 4755-2228 / 4755-4038 / 4752-8375 / 4752-8450",
@@ -540,6 +652,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "General Viamonte, Los Toldos",
+    lat: -35.00598284893259,
+    lng: -61.0513687101011,
     direccion: "Ricardo Balbín 1300 (esq. Los Jacarandaes)",
     telefono: "(2358) 400995 / (2364) 308331",
     correo: "casia@generalviamonte.gob.ar"
@@ -549,6 +663,8 @@ const Salud = [
     especialidad: "Salud Mental, Ginecología, Clínica Médica",
     provincia: "Buenos Aires",
     ciudad: "González Catán",
+    lat: -34.7987467,
+    lng: -58.6116219,
     direccion: "Av. Dr. José Equiza 6310",
     telefono: "1167076485 / (2202) 42-2232 / 42-8144",
     correo: "direccion-simplementeevita@ms.gba.gov.ar"
@@ -558,6 +674,8 @@ const Salud = [
     especialidad: "Endocrinología, Salud Mental, Clínica Médica",
     provincia: "Buenos Aires",
     ciudad: "Grand Bourg, Malvinas Argentinas",
+    lat: -34.5000307,
+    lng: -58.7188264,
     direccion: "Mario Bravo 799 (esq. Paso de los Patos)",
     telefono: "1141661257 / (2320) 41-1475",
     correo: ""
@@ -569,6 +687,8 @@ const Salud = [
       "Hormonización, Salud Mental, Ginecología, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Hurlingham",
+    lat: -34.5733368,
+    lng: -58.6543274,
     direccion: "General Levalle y Potosí S/N",
     telefono: "4665-7021 / 1125597342",
     correo: "ssalud@munhurli.gov.ar"
@@ -579,6 +699,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Ituzaingó",
+    lat: -34.6455642,
+    lng: -58.7124461,
     direccion: "Haití 1905",
     telefono: "1121201947 / 4661-4554 / 2120-1944",
     correo: "cimituzaingo@gmail.com"
@@ -588,6 +710,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "José C. Paz",
+    lat: -34.5122213,
+    lng: -58.7287667,
     direccion: "Pavón 3545",
     telefono: "4451-4327",
     correo: ""
@@ -597,6 +721,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Junín",
+    lat: -34.5848892,
+    lng: -60.9332286,
     direccion: "Primera Junta y Alvear",
     telefono: "(236) 4313412 / 4420785",
     correo: ""
@@ -606,6 +732,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Junín",
+    lat: -34.5813123,
+    lng: -60.9599283,
     direccion: "Lavalle 1084",
     telefono: "(236) 433313 / 433138 / 443-3108",
     correo: "hjunin@ms.gba.gov.ar"
@@ -615,6 +743,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "La Matanza, Ciudad Evita",
+    lat: -34.714738,
+    lng: -58.5224243,
     direccion: "Av. Monseñor Bufano 1778",
     telefono: "1157086829 / 4620-2305 (int. 1001) / 4620-2760 / 4620-1628",
     correo:
@@ -625,6 +755,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "La Matanza, Isidro Casanova",
+    lat: -34.6950406,
+    lng: -58.5801658,
     direccion: "Av. Brig. Gral. Juan Manuel de Rosas 5975",
     telefono:
       "1169699994 / 4669-3640 / 4669-3790 / 4669-3490 / 4669-3190 / (2223) 49-4757",
@@ -636,6 +768,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "La Matanza, Isidro Casanova",
+    lat: -34.7226244,
+    lng: -58.5731358,
     direccion: "Ruiz de los Llanos 267",
     telefono: "4694-3877 / 1164569918",
     correo: ""
@@ -646,6 +780,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "La Plata",
+    lat: -34.9323346,
+    lng: -57.9430549,
     direccion: "Calle 14, 1631 entre Calle 65 y Calle 66",
     telefono: "(221) 453-5901 / 453-5907 (int. 1859)",
     correo:
@@ -657,6 +793,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "La Plata",
+    lat: -34.9239389,
+    lng: -57.9368769,
     direccion: "Calle 64, 591 entre Calle 6 y Calle 7",
     telefono: "(221) 425-5661 / 483-1313 / 421-5557",
     correo: "direccion-reencuentro@ms.gba.gov.ar"
@@ -666,6 +804,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "La Plata",
+    lat: -34.8936668,
+    lng: -57.9512388,
     direccion: "Calle 1 y Calle 70",
     telefono: "(221) 421-1195/ 421-1199 / 421-1196 / 483-5759 / 483-6588",
     correo: "hsanmartin@ms.gba.gov.ar"
@@ -676,6 +816,8 @@ const Salud = [
       "Endocrinología, Salud Mental, Ginecología, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "La Plata",
+    lat: -34.8963664,
+    lng: -57.9540728,
     direccion: "Calle 37, 183 entre 116 y 117",
     telefono: "(221) 556-7674 / 482-8821 / 482-8824",
     correo: "administracionrossi@ms.gba.gov.ar"
@@ -685,6 +827,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "La Plata",
+    lat: -34.9294883,
+    lng: -57.9323825,
     direccion: "Calle 8, 483 entre 41 y 42",
     telefono: "(221) 4212729 (int. 115) / 4833869",
     correo: "administracion-hdelaserna@ms.gba.gov.ar"
@@ -695,6 +839,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "La Plata",
+    lat: -34.8959309,
+    lng: -57.9482609,
     direccion: "Diagonal 114 entre Calle 39 y Calle 40",
     telefono: "(221) 483-0171/2/3/4/5 (int. 229) / 421-5241",
     correo: "urologiagutierrez@hotmail.com / direccion-gutierrez@ms.gba.gov.ar"
@@ -704,6 +850,8 @@ const Salud = [
     especialidad: "Endocrinología, Salud Mental, Ginecología, Clínica Médica",
     provincia: "Buenos Aires",
     ciudad: "La Plata, Gonnet",
+    lat: -34.8854531,
+    lng: -58.0301281,
     direccion: "508 entre 18 y 19",
     telefono: "(221) 484-0290 / 471-0063 / 471-1593",
     correo: "sanroquecomunicacion@gmail.com"
@@ -713,6 +861,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "La Plata, Los Hornos",
+    lat: -34.9638045,
+    lng: -57.975151,
     direccion: "Calle 66 y Calle 153",
     telefono: "(221) 450-9005",
     correo: "upa-loshornos@ms.gba.gov.ar"
@@ -724,6 +874,8 @@ const Salud = [
       "Atención a Infancias, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Ginecología, Grupo de Pares, Clínica Médica, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Lanús",
+    lat: -34.696301,
+    lng: -58.4005496,
     direccion: "Diego Armando Maradona 1910 (ex. Río de Janeiro 1910)",
     telefono: "1170354506 / 1135918908 / 4241-4050/51/52/53/54/55",
     correo: "evita-direccion@ms.gba.gov.ar / adolevita@gmail.com"
@@ -733,6 +885,8 @@ const Salud = [
     especialidad: "Hormonización, Ginecología",
     provincia: "Buenos Aires",
     ciudad: "Lanús Este",
+    lat: -34.7038485,
+    lng: -58.3825197,
     direccion: "O'Higgins 1333",
     telefono: "4241-2749 / 4241-4184 / 4241-5377",
     correo: "nlopez@ms.gba.gov.ar"
@@ -742,6 +896,8 @@ const Salud = [
     especialidad: "Endocrinología, Grupo de Pares, Clínica Médica",
     provincia: "Buenos Aires",
     ciudad: "Lanús Este",
+    lat: -34.7031152,
+    lng: -58.3631078,
     direccion: "Av. Teodoro Sánchez de Bustamante 2355",
     telefono: "1123957975 / 4246-8689",
     correo: ""
@@ -751,6 +907,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Leandro N. Alem, Vedia",
+    lat: -34.4961488,
+    lng: -61.5347387,
     direccion: "Mendoza entre Belgrano y La Rioja",
     telefono: "(2354) 42-2600",
     correo: ""
@@ -761,6 +919,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Lincoln",
+    lat: -34.8667446,
+    lng: -61.5457771,
     direccion: "Av. San Lorenzo 2007",
     telefono: "(2355) 42-1400 / 43-2900 / 0800-222-5159",
     correo: "hospital@lincoln.gob.ar / admisionhospital@lincoln.gob.ar"
@@ -770,6 +930,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Lobería",
+    lat: -38.1759064,
+    lng: -58.7744073,
     direccion: "Jauretche 335",
     telefono: "44-2105 (int. 2014) / 44-3179",
     correo: "ssydsloberia@gmail.com / direccioncapsloberia@gmail.com"
@@ -779,6 +941,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Lobos",
+    lat: -35.1796863,
+    lng: -59.0916195,
     direccion: "Mastropietro entre Chacabuco y Salgado",
     telefono: "(2227) 62-8938 / 42-1212 / 51-7622 / 0800-666-1085",
     correo: "administracion-hlobos@ms.gba.gov.ar"
@@ -788,6 +952,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Loma Hermosa",
+    lat: -34.55339774805615,
+    lng: -58.592507330141686,
     direccion: "El Pensamiento 5401",
     telefono: "1128459795 / 4513-5122 / 4513-5125",
     correo: "capsn6@yahoo.com.ar"
@@ -798,6 +964,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Lomas de Zamora",
+    lat: -34.7661071,
+    lng: -58.4037191,
     direccion: "Av. Pres. Hipólito Yrigoyen 10043",
     telefono: "1160686003 / 1139491493 / 4239-9689",
     correo: "politicasdegenerolomas@gmail.com"
@@ -807,6 +975,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Lomas de Zamora, Temperley",
+    lat: -34.7820661,
+    lng: -58.4156601,
     direccion: "General José María Paz 1405",
     telefono: "4231-1324",
     correo: "secretariadesalud@lomasdezamora.gov.ar"
@@ -816,6 +986,8 @@ const Salud = [
     especialidad: "Endocrinología, Ginecología",
     provincia: "Buenos Aires",
     ciudad: "Los Polvorines",
+    lat: -34.508422,
+    lng: -58.7268474,
     direccion: "Av. del Sesquicentenario 2047",
     telefono: "4469-9600 / 4660-9000",
     correo: "contacto@malvinasargentinas.gob.ar"
@@ -826,6 +998,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Luján",
+    lat: -34.5678526,
+    lng: -59.1167903,
     direccion: "Gral. Las Heras 475",
     telefono: "(2323) 42-1260 / 1155828124",
     correo: "sec_salud@lujan.gob.ar"
@@ -837,6 +1011,8 @@ const Salud = [
       "Endocrinología, Salud Mental, Clínica Médica, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Luján, Torres",
+    lat: -34.4277434,
+    lng: -59.130205,
     direccion: "Padre José María Criado Alonso 399 (esq. Evaristo Carriego)",
     telefono: "1136411053 / (2323) 274593 / 2801-8490",
     correo:
@@ -847,6 +1023,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Maipú",
+    lat: -36.8718567,
+    lng: -57.8832571,
     direccion: "Kakel Huincul entre San Martín y Necochea",
     telefono: "(2268) 15527840 / 15519748",
     correo: ""
@@ -856,6 +1034,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Mar del Plata",
+    lat: -37.9733349,
+    lng: -57.6164124,
     direccion: "Leguizamon Onésimo 552",
     telefono: "(223) 478-3030 / 487-5541",
     correo: "sslibertad@mardelplata.gob.ar"
@@ -865,6 +1045,8 @@ const Salud = [
     especialidad: "Hormonización, Salud Mental, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Mar del Plata",
+    lat: -38.0175485,
+    lng: -57.5901501,
     direccion: "Guanahani 7751",
     telefono: "(223) 483-0385",
     correo: "ss_starita@mardelplata.gob.ar"
@@ -874,6 +1056,8 @@ const Salud = [
     especialidad: "Endocrinología, Salud Mental, Clínica Médica",
     provincia: "Buenos Aires",
     ciudad: "Mar del Plata",
+    lat: -38.0000473,
+    lng: -57.5571796,
     direccion: "Av. Colón 3294",
     telefono: "(223) 499-7999 (int. 1350) / 602-7000",
     correo: "ssnro1@mardelplata.gov.ar"
@@ -884,6 +1068,8 @@ const Salud = [
     especialidad: "Salud Mental, Clínica Médica, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Mar del Plata",
+    lat: -37.9916682,
+    lng: -57.6001838,
     direccion: "Rodriguez Peña 6802",
     telefono: "(223) 5749983 / 4770262 / 0800-999-1085",
     correo: "diversidadhiga@gmail.com"
@@ -893,6 +1079,8 @@ const Salud = [
     especialidad: "Endocrinología, Clínica Médica",
     provincia: "Buenos Aires",
     ciudad: "Mar del Tuyú",
+    lat: -36.5765792,
+    lng: -56.701505,
     direccion: "Calle 74 y Calle 1",
     telefono: "02246 43-4555",
     correo: "salud@lacosta.gov.ar"
@@ -902,6 +1090,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Melchor Romero",
+    lat: -34.9550962,
+    lng: -58.0200681,
     direccion: "Calle 161 y Calle 515",
     telefono: "(221) 478-1158 / 478-6004 / 478-2243",
     correo: "cexternosjingenieros@gmail.com / direccionjingenieros@gmail.com"
@@ -913,6 +1103,8 @@ const Salud = [
       "Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Clínica Médica, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Mercedes",
+    lat: -34.6506717,
+    lng: -59.4317202,
     direccion: "12 entre 55 y 57",
     telefono: "(2324) 41-5882",
     correo: "contacto@mercedes.gob.ar"
@@ -922,6 +1114,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Buenos Aires",
     ciudad: "Merlo",
+    lat: -34.6809099,
+    lng: -58.727909,
     direccion: "Av. San Martín entre Bariloche y Castelli",
     telefono: "(220) 480-0111",
     correo: ""
@@ -931,6 +1125,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Buenos Aires",
     ciudad: "Merlo",
+    lat: -34.6835039,
+    lng: -58.6819737,
     direccion: "Av. Eva Perón entre Balbastro y Paso de los Patos",
     telefono: "(220) 493-0822 / (11) 3231-3549",
     correo: ""
@@ -941,6 +1137,8 @@ const Salud = [
     especialidad: "Hormonización, Ginecología, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Ministro Rivadavia",
+    lat: -34.8414279,
+    lng: -58.369413,
     direccion: "25 de Mayo 594 y Dardo Rocha",
     telefono: "4279-2242 / 7156-6651",
     correo: "caps1@almirantebrown.gob.ar"
@@ -950,6 +1148,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Miramar",
+    lat: -38.270543442235294,
+    lng: -57.844114755445574,
     direccion: "Diag. J. M. Dupuy 1550",
     telefono: "(2291) 43-1253",
     correo: ""
@@ -959,6 +1159,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Buenos Aires",
     ciudad: "Monte Hermoso",
+    lat: -38.9845323,
+    lng: -61.3134738,
     direccion: "Río Salado 1000",
     telefono: "(2921) 400804 / 483221",
     correo: ""
@@ -969,6 +1171,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Moreno",
+    lat: -34.6417591,
+    lng: -58.7884895,
     direccion: "Av. Libertador 710",
     telefono: "1138071823 / (237) 460-1085 / 462-0039",
     correo:
@@ -979,6 +1183,8 @@ const Salud = [
     especialidad: "Endocrinología, Salud Mental, Clínica Médica",
     provincia: "Buenos Aires",
     ciudad: "Moreno",
+    lat: -34.63387629789689,
+    lng: -58.79944579890146,
     direccion: "Carlos Gardel 902 (esq. Bolivia), Barrio 2000",
     telefono: "1138071823",
     correo: "saludsexualmoreno@gmail.com"
@@ -988,6 +1194,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Moreno, Cuartel V",
+    lat: -34.5393897,
+    lng: -58.7979148,
     direccion: "Ruta Provincial 24, 7800 (esq. C. Bernardi)",
     telefono: "(2320) 53-3638 / 53-3628",
     correo: "upa12.turnera.9@gmail.com / upa12cuartelv@gmail.com"
@@ -998,6 +1206,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Morón",
+    lat: -34.65480630473713,
+    lng: -58.6176960054108,
     direccion: "Carlos Pelegrini 620",
     telefono: "1139394070 / 4133-3311 / 4133-3352 / 4133-3351",
     correo:
@@ -1008,6 +1218,8 @@ const Salud = [
     especialidad: "Clínica Médica",
     provincia: "Buenos Aires",
     ciudad: "Morón",
+    lat: -34.6465048,
+    lng: -58.6194795,
     direccion: "General Machado 778",
     telefono: "011 4489-0673",
     correo:
@@ -1020,6 +1232,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Ginecología, Clínica Médica, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Morón, El Palomar",
+    lat: -34.6259062,
+    lng: -58.5778888,
     direccion: "Cacique Namuncurá 351 (esq. Ing. Guillermo Marconi)",
     telefono: "1123240759 / 1123240459 / 4656-9488",
     correo: "diversidad.capsmalvinas@gmail.com"
@@ -1030,6 +1244,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Morón, El Palomar",
+    lat: -34.63013735186006,
+    lng: -58.57521310610285,
     direccion: "Ing. Guillermo Marconi Morón 386 (esq. Av. Presidente Illia)",
     telefono: "1127678072 / 4469-9300",
     correo: "saludsexual@hospitalposadas.gob.ar"
@@ -1040,6 +1256,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Necochea",
+    lat: -38.5671101,
+    lng: -58.7407855,
     direccion: "Calle 77, 1865",
     telefono: "(2262) 43-8187 / 43-9376",
     correo: "politicasdegeneronecochea@gmail.com"
@@ -1049,6 +1267,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Necochea",
+    lat: -38.5560067,
+    lng: -58.7270761,
     direccion: "Calle 49, 1868",
     telefono: "(2262) 42-8538 / 42-5164",
     correo: "taraborelli@ms.gba.gov.ar"
@@ -1059,6 +1279,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Olavarría",
+    lat: -36.9113934,
+    lng: -60.2933533,
     direccion: "Mendoza y Balcarce S/N",
     telefono: "(2284) 451601",
     correo: "direccionaps@olavarria.gov.ar"
@@ -1068,6 +1290,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Olavarría",
+    lat: -36.8705314,
+    lng: -60.3244042,
     direccion: "Grimaldi 894",
     telefono: "(2284) 455-200 / 1557-9766",
     correo: "direccionaps@olavarria.gov.ar"
@@ -1078,6 +1302,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Olavarría",
+    lat: -36.8909083,
+    lng: -60.3026261,
     direccion: "Rufino Fal 4124",
     telefono: "(2284) 420-646 / 416-928",
     correo: "direccionaps@olavarria.gov.ar"
@@ -1088,6 +1314,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Olavarría",
+    lat: -36.8737199,
+    lng: -60.333552,
     direccion: "Yrigoyen 603",
     telefono: "(2284) 45-653",
     correo: "direccionaps@olavarria.gov.ar"
@@ -1097,6 +1325,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Olavarría",
+    lat: -36.8847101,
+    lng: -60.3125485,
     direccion: "Sarmiento 2669",
     telefono: "(2284) 229-029 / 440-800 (int. 2338)",
     correo: "direccionaps@olavarria.gov.ar"
@@ -1107,6 +1337,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Olavarría, Sierra Chica",
+    lat: -36.8468951,
+    lng: -60.2333973,
     direccion: "Marelli 1175 (esq. Pablo Sbardolini)",
     telefono: "(2284) 422-229 / 536-661",
     correo: "direccionaps@olavarria.gov.ar"
@@ -1118,6 +1350,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Pergamino",
+    lat: -33.9042508,
+    lng: -60.5905021,
     direccion: "Vicente López 2002 (esq. Balboa)",
     telefono: "(2477) 414437 / 414277 / 328384",
     correo: "consultorioamigablepergamino@gmail.com"
@@ -1128,6 +1362,8 @@ const Salud = [
       "Hormonización, Salud Mental, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Pilar, Del Viso",
+    lat: -34.4433182,
+    lng: -58.7980791,
     direccion: "Polonia 8064 (esq. Juana de Arco)",
     telefono: "1152386864 / (2320) 40-1944",
     correo: "mimuni@pilar.gov.ar"
@@ -1137,6 +1373,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Pinamar",
+    lat: -37.0926627,
+    lng: -56.8736377,
     direccion: "Av. del Parque 7167 y Misiones",
     telefono: "(2254) 49-1777",
     correo: "apspinamar@gmail.com"
@@ -1146,6 +1384,8 @@ const Salud = [
     especialidad: "Atención a Infancias",
     provincia: "Buenos Aires",
     ciudad: "Piñeyro",
+    lat: -34.6664874,
+    lng: -58.3817869,
     direccion: "Moisés Lebensohn 941",
     telefono: "7720-5973",
     correo: ""
@@ -1156,6 +1396,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Presidente Perón, Guernica",
+    lat: -34.878833,
+    lng: -58.4140852,
     direccion:
       "Francisco Petrone 3645 entre Florencio Parravicini y Blanca Podestá",
     telefono: "4397-1145 / (2224) 50-7041",
@@ -1166,6 +1408,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Quilmes",
+    lat: -34.74610757642257,
+    lng: -58.31063483579914,
     direccion: "Camino General Manuel Belgrano 1893",
     telefono: "0800-999-5656 / 1150430045",
     correo: ""
@@ -1176,6 +1420,8 @@ const Salud = [
     especialidad: "Endocrinología, Salud Mental",
     provincia: "Buenos Aires",
     ciudad: "Quilmes",
+    lat: -34.7203916,
+    lng: -58.2467566,
     direccion: "Allison Bell 770",
     telefono: "4253-6021 / 4224-6263 / 4224-7738 / 3434525086",
     correo:
@@ -1186,6 +1432,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Quilmes, Bernal",
+    lat: -34.7207187,
+    lng: -58.2877598,
     direccion: "Sargento Cabral 701 entre Chubut y Neuquén",
     telefono: "6549-9250",
     correo: "secretariadesalud@quilmes.gov.ar"
@@ -1195,6 +1443,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Quilmes, Bernal",
+    lat: -34.736911446189396,
+    lng: -58.32960659440266,
     direccion: "Cabo R. Cessa 1499",
     telefono: "(11) 51483449 / 4270-9983 / 61285852",
     correo: ""
@@ -1204,6 +1454,8 @@ const Salud = [
     especialidad: "Hormonización, Ginecología, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Quilmes, Bernal",
+    lat: -34.7158062,
+    lng: -58.2909191,
     direccion: "Avellaneda 1147",
     telefono: "4350-3000 (int. 4315) / 8865-4466 / 4252-0101",
     correo: ""
@@ -1215,6 +1467,8 @@ const Salud = [
       "Atención a Infancias, Endocrinología, Salud Mental, Ginecología, Grupo de Pares, Clínica Médica, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Quilmes, San Francisco Solano",
+    lat: -34.7704654,
+    lng: -58.3249082,
     direccion: "Av. 844, 2100",
     telefono: "4350-3000 (int. 3417) / 4212-2976 / 4212-7339 / 4212-9721",
     correo: "saludsexualintegraloller@gmail.com"
@@ -1224,6 +1478,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Ramallo",
+    lat: -33.490174,
+    lng: -60.0064172,
     direccion: "José María Gomendio 1374",
     telefono: "(3407) 42-1555 / 42-1336",
     correo: "hospitaljosemariagomendio@gmail.com"
@@ -1233,6 +1489,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Ranelagh",
+    lat: -34.7893823,
+    lng: -58.2031834,
     direccion: "359 entre 303 y 304",
     telefono: "4356-9200 (int. 2022)",
     correo: ""
@@ -1242,6 +1500,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Rauch",
+    lat: -36.7737091,
+    lng: -59.0817563,
     direccion: "Conesa y Rondeau",
     telefono: "(2297) 44-3895",
     correo: ""
@@ -1251,6 +1511,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Remedios de Escalada",
+    lat: -34.7257464,
+    lng: -58.3852586,
     direccion: "Villa de Luján 3050",
     telefono: "1124825956 / 1156003712 / 4227-8620",
     correo: "hamelo@ms.gba.gov.ar"
@@ -1261,6 +1523,8 @@ const Salud = [
       "Hormonización, Salud Mental, Ginecología, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Rojas",
+    lat: -34.1980905,
+    lng: -60.733945,
     direccion: "Av. 25 de Mayo, entre Vélez Sarsfield y María Unzué de Alvear",
     telefono: "(2474) 49-3263 / 44-5237 / (2475) 46-5316 / 46-5410 / 46-2973",
     correo: ""
@@ -1270,6 +1534,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Roque Pérez",
+    lat: -35.3984113,
+    lng: -59.3334004,
     direccion: "Avellaneda y San Martín",
     telefono: "(2227) 9-1044 / 49-12514",
     correo: ""
@@ -1279,6 +1545,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Sáenz Peña",
+    lat: -34.6020498,
+    lng: -58.5280894,
     direccion: "Av. América 651",
     telefono: "4757-5555 / 4757-0093 / 2105-6619",
     correo: ""
@@ -1289,6 +1557,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Saladillo",
+    lat: -35.6404715,
+    lng: -59.7724983,
     direccion: "Av. Bozan 9741 (esq. Martín Fierro)",
     telefono: "(2344) 431104",
     correo: "capsfalucho@saladillo.gob.ar / capsibarbia2016@gmail.com"
@@ -1300,6 +1570,8 @@ const Salud = [
       "Hormonización, Salud Mental, Grupo de Pares, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "San Andrés de Giles",
+    lat: -34.4465131,
+    lng: -59.4561309,
     direccion: "Rawson entre Calle 49 y Calle 51",
     telefono: "(2325) 44-0345 / 42-3837 / 42-4848",
     correo: "diversidadsag@gmail.com / cic@sanandresdegiles.gob.ar"
@@ -1310,6 +1582,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "San Antonio de Areco",
+    lat: -34.2605463,
+    lng: -59.4844768,
     direccion: "Balvé entre Martín Fierro y José Pereyra",
     telefono: "(2326) 45-4336 / 53-0895",
     correo: "caps.drdisanto@gmail.com"
@@ -1320,6 +1594,8 @@ const Salud = [
       "Hormonización, Salud Mental, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "San Carlos de Bolívar",
+    lat: -36.23360554746332,
+    lng: -61.1022052618534,
     direccion: "M. Chatrue Miguens y Castells",
     telefono: "(2314) 53-2130",
     correo: ""
@@ -1329,6 +1605,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Buenos Aires",
     ciudad: "San Fernando",
+    lat: -34.2462982401607,
+    lng: -58.70932331621197,
     direccion: "Río Paraná de las Palmas y Río Carabelas",
     telefono: "1126321175 / 1167858647 / 4728-0026",
     correo: "a_retamar@hotmail.com / vecinos@sanfernando.gov.ar"
@@ -1338,6 +1616,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "San Fernando",
+    lat: -34.4486484,
+    lng: -58.5524512,
     direccion: "Belgrano 1955",
     telefono: "4744-2693",
     correo:
@@ -1349,6 +1629,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "San Isidro",
+    lat: -34.4736935,
+    lng: -58.5231129,
     direccion: "Diego Palma 505",
     telefono: "4512-3136 / 4512-3919 / 4747-1096 / 4707-1900",
     correo: "diversidad@sanisidro.gov.ar / turnos.hmi@sanisidro.gob.ar"
@@ -1358,6 +1640,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "San Miguel del Monte",
+    lat: -35.4308205,
+    lng: -58.8153388,
     direccion: "Neuquén entre Santiago del Estero y Santa Fe",
     telefono: "(2271) 40-7608 / (2226) 60-9522",
     correo: "salud@monte.gov.ar"
@@ -1368,6 +1652,8 @@ const Salud = [
       "Hormonización, Endocrinología, Salud Mental, Ginecología, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "San Nicolás de los Arroyos",
+    lat: -33.3352949,
+    lng: -60.2228733,
     direccion: "Av. Mariano Moreno 31",
     telefono: "(336) 4451479 / 4422054 / 4423912 (int. 291/258)",
     correo: "sfelipe@ms.gba.gov.ar"
@@ -1377,6 +1663,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "San Pedro",
+    lat: -33.6800941,
+    lng: -59.6838189,
     direccion: "Hermano Indio 2102",
     telefono: "(3329) 48-101 / 43-8403",
     correo: "puntodigital@sanpedro.gob.ar / mesaentradas@sanpedro.gob.ar"
@@ -1387,6 +1675,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "San Vicente",
+    lat: -35.0246039,
+    lng: -58.428622,
     direccion: "Santoro 1865",
     telefono: "(2225) 48-4932 / 48-1387",
     correo:
@@ -1398,6 +1688,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Santa Clara del Mar",
+    lat: -37.8365334,
+    lng: -57.5062127,
     direccion: "Punta Lara 408",
     telefono: "(223) 460-2338 / 469-3742",
     correo: ""
@@ -1408,6 +1700,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Salud Mental",
     provincia: "Buenos Aires",
     ciudad: "Sarandí",
+    lat: -34.6812769,
+    lng: -58.3451497,
     direccion: "Av. Mitre 3043",
     telefono: "(11) 35379010 / 4203-5879",
     correo: "direcciondelasmujeres@mda.gob.ar"
@@ -1417,6 +1711,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Sourigues",
+    lat: -34.806588,
+    lng: -58.2127348,
     direccion: "203 entre 254 y 255",
     telefono: "4356-9200 (int. 2035)",
     correo: ""
@@ -1427,6 +1723,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Clínica Médica, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Tandil",
+    lat: -37.31640726646366,
+    lng: -59.13887320252722,
     direccion: "Leandro Alem 1355",
     telefono: "(249) 442-5749 / 442-5514",
     correo: "endocrinodiabetes.hdbv@gmail.com / dirmedica@sisptandil.gob.ar"
@@ -1437,6 +1735,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Tandil",
+    lat: -37.3154254,
+    lng: -59.1387547,
     direccion: "General Paz 1406",
     telefono: "0800-222-8876 / (249) 442-2010/4 (int. 244 / 216)",
     correo: ""
@@ -1446,6 +1746,8 @@ const Salud = [
     especialidad: "Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Tapalqué",
+    lat: -36.3501275,
+    lng: -60.0315912,
     direccion: "Almirante Brown 37 (esq. 1° de Mayo)",
     telefono: "(2281) 539617 / 492931",
     correo: "direjuventudtapalque@gmail.com"
@@ -1455,6 +1757,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Temperley",
+    lat: -34.7483220479233,
+    lng: -58.34951114470636,
     direccion: "Anchoris 3338",
     telefono: "4260-5623",
     correo: "secretariadesalud@lomasdezamora.gov.ar"
@@ -1466,6 +1770,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Tigre, General Pacheco",
+    lat: -34.4547137,
+    lng: -58.6224885,
     direccion: "Hipólito Yrigoyen 1264",
     telefono: "5280-0410",
     correo:
@@ -1476,6 +1782,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Tigre, Troncos del Talar",
+    lat: -34.4595379366048,
+    lng: -58.61533348917332,
     direccion: "Av. Coronel Escalada 598",
     telefono: "4512-9987 / 1127671939",
     correo: "cstroncosdeltalar@tigre.gov.ar"
@@ -1485,6 +1793,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Trenque Lauquen",
+    lat: -35.9746433,
+    lng: -62.7282117,
     direccion: "Castelli 150",
     telefono: "(2392) 410-511 / 410-513 / 410-516",
     correo: "direccionhospitaltl@hotmail.com"
@@ -1494,6 +1804,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Tres Arroyos",
+    lat: -38.3760162,
+    lng: -60.2535963,
     direccion: "20 de Abril 1186",
     telefono: "(2983) 15 611-689 / 15 642-159",
     correo: ""
@@ -1504,6 +1816,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Clínica Médica, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Tres Arroyos",
+    lat: -38.37159660332759,
+    lng: -60.26175451819257,
     direccion: "Avenida Primera Junta 440",
     telefono: "(2983) 439404 / 413523 / 572400 / 439400",
     correo: "consultorioamigabletsas@gmail.com"
@@ -1513,6 +1827,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Tres Arroyos",
+    lat: -38.3804893,
+    lng: -60.251389,
     direccion: "Av. Primera Junta 400",
     telefono: "(2983) 57-2400 / 43-9400 / 47-0732",
     correo: "contacto@centrodesaludtsas.com.ar / direccionaps@cmsta.gob.ar"
@@ -1522,6 +1838,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Trujui",
+    lat: -34.6084452,
+    lng: -58.734487,
     direccion: "Rosario y Vicente Yanez Pinzón",
     telefono: "(237) 481-5607 / 466-9243",
     correo: ""
@@ -1532,6 +1850,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Vicente López",
+    lat: -34.5209114,
+    lng: -58.4852764,
     direccion: "Pres. Hipólito Yrigoyen 1757",
     telefono: "4796-7200",
     correo: "diversidad.salud@vicentelopez.gov.ar"
@@ -1541,6 +1861,8 @@ const Salud = [
     especialidad: "Endocrinología, Ginecología",
     provincia: "Buenos Aires",
     ciudad: "Vicente López, Carapachay",
+    lat: -34.5278637,
+    lng: -58.5363645,
     direccion: "Ituzaingó 5725",
     telefono: "4711-2843 / 5194-4300 (int. 7612) / 4580-6232 / 4253-6021",
     correo: "uriburman@gmail.com / atprimaria@vicentelopez.gov.ar"
@@ -1551,6 +1873,8 @@ const Salud = [
     especialidad: "Hormonización, Salud Mental, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Villa Domínico",
+    lat: -34.6948985,
+    lng: -58.3344954,
     direccion: "Pierres y Casacuberta S/N",
     telefono: "4207-0046 / 1131512627",
     correo: "cmcfyc1@gmail.com"
@@ -1560,6 +1884,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Villa Gesell",
+    lat: -37.2653798,
+    lng: -56.9813529,
     direccion: "Paseo 115 y Av. 30",
     telefono: "(2255) 50-8902 / 47-8080 / 47-9993",
     correo: ""
@@ -1569,6 +1895,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Buenos Aires",
     ciudad: "Villa Martelli",
+    lat: -34.5469083,
+    lng: -58.5026484,
     direccion: "Estados Unidos 314",
     telefono: "4513-1941 / 2063-9508",
     correo: "uapllobera@hotmail.com.ar"
@@ -1578,6 +1906,8 @@ const Salud = [
     especialidad: "Salud Mental, Ginecología, Clínica Médica",
     provincia: "Buenos Aires",
     ciudad: "Villa Tesei",
+    lat: -34.6195378,
+    lng: -58.660449,
     direccion: "La Trilla 5068",
     telefono: "4450-6605",
     correo: "ssalud@munhurli.gov.ar"
@@ -1588,6 +1918,8 @@ const Salud = [
       "Hormonización, Salud Mental, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Virrey del Pino",
+    lat: -34.8225224,
+    lng: -58.6518081,
     direccion: "Miller, entre Vicente Camargo y Santiago Bynnon",
     telefono: "(2202) 44-6731",
     correo: ""
@@ -1597,6 +1929,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Zárate",
+    lat: -34.0952158,
+    lng: -59.0252404,
     direccion: "Felix Pagola 1506",
     telefono: "(3487) 422300",
     correo: "vcarmen@ms.gba.gov.ar / adminhvcarmen@ms.gba.gov.ar"
@@ -1606,6 +1940,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Salud Mental",
     provincia: "CABA",
     ciudad: "Balvanera",
+    lat: -34.5981851,
+    lng: -58.4107218,
     direccion: "Av. Córdoba 3120",
     telefono: "(3723) 02-31",
     correo: ""
@@ -1616,6 +1952,8 @@ const Salud = [
       "Atención a Infancias, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Grupo de Pares, Trabajo Social",
     provincia: "CABA",
     ciudad: "Balvanera",
+    lat: -34.5988973,
+    lng: -58.4107803,
     direccion: "Agüero 940",
     telefono: "2821-3611 / 4864-1446",
     correo: "universodiverso11@gmail.com"
@@ -1626,6 +1964,8 @@ const Salud = [
       "Hormonización, Endocrinología, Cirugía de Masculinización Tórax",
     provincia: "CABA",
     ciudad: "Balvanera",
+    lat: -34.6180444,
+    lng: -58.4101818,
     direccion: "Urquiza 609",
     telefono: "4127-0400 / 4931-1884",
     correo: "endocrinologiaramosmejia@gmail.com"
@@ -1635,6 +1975,8 @@ const Salud = [
     especialidad: "Endocrinología",
     provincia: "CABA",
     ciudad: "Barracas",
+    lat: -34.6447651,
+    lng: -58.3895214,
     direccion: "Av. Vélez Sarsfield 1271",
     telefono: "2821-3601 / 1131567882",
     correo: "cesac1@buenosaires.gob.ar / saludintegralcesac1@gmail.com"
@@ -1645,6 +1987,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "CABA",
     ciudad: "Barracas",
+    lat: -34.6495186,
+    lng: -58.4043721,
     direccion: "Amancio Alcorta 3100",
     telefono: "(11) 2821-3630",
     correo: ""
@@ -1654,6 +1998,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "CABA",
     ciudad: "Barracas",
+    lat: -34.6561644,
+    lng: -58.4010355,
     direccion: "Av. Osvaldo Cruz y Zavaleta",
     telefono: "",
     correo: ""
@@ -1663,6 +2009,8 @@ const Salud = [
     especialidad: "Endocrinología, Salud Mental, Grupo de Pares",
     provincia: "CABA",
     ciudad: "Barracas",
+    lat: -34.66171104748023,
+    lng: -58.39310368752454,
     direccion: "Camino de Sirga S/N",
     telefono: "1130490358 / 2821-3649",
     correo: "saludsexualcesac49@gmail.com"
@@ -1672,6 +2020,8 @@ const Salud = [
     especialidad: "Endocrinología, Cirugía de Masculinización Tórax",
     provincia: "CABA",
     ciudad: "Belgrano",
+    lat: -34.5641411,
+    lng: -58.4718644,
     direccion: "Monroe 3555",
     telefono: "4542-5552 / 4542-2772 / 4542-9279",
     correo: "pirovanodiversidad@hotmail.com"
@@ -1682,6 +2032,8 @@ const Salud = [
       "Atención a Infancias, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Grupo de Pares",
     provincia: "CABA",
     ciudad: "Caballito",
+    lat: -34.6089049,
+    lng: -58.4379201,
     direccion: "Av. Díaz Vélez 5044",
     telefono: "4982-5555 / 4982-5655 / 4982-1050",
     correo: "diversidadesdurand@gmail.com"
@@ -1691,6 +2043,8 @@ const Salud = [
     especialidad: "Endocrinología, Cirugía de Masculinización Tórax",
     provincia: "CABA",
     ciudad: "Chacarita",
+    lat: -34.5878182,
+    lng: -58.4514055,
     direccion: "Av. Forest 345",
     telefono: "0800-222-4837 / 1164681673",
     correo: "info@huesped.org.ar"
@@ -1701,6 +2055,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Atención Integral",
     provincia: "CABA",
     ciudad: "Constitución",
+    lat: -34.6352689,
+    lng: -58.3757706,
     direccion: "Av. Montes de Oca 40",
     telefono: "4363-2100 (int. 6160 / 6161)",
     correo: "endocrinoelizalde@gmail.com / diversidadhospitalelizalde@gmail.com"
@@ -1711,6 +2067,8 @@ const Salud = [
       "Atención a Infancias, Endocrinología, Cirugía de Masculinización Tórax, Grupo de Pares",
     provincia: "CABA",
     ciudad: "Flores",
+    lat: -34.6428892,
+    lng: -58.4423927,
     direccion: "Curapaligüe 1905",
     telefono: "2821-3619 / 4925-0992 / 2263-8885",
     correo: "consultoriosaludintegralc19@gmail.com"
@@ -1721,6 +2079,8 @@ const Salud = [
       "Atención a Infancias, Endocrinología, Salud Mental, Trabajo Social",
     provincia: "CABA",
     ciudad: "Flores",
+    lat: -34.6492033,
+    lng: -58.4384091,
     direccion: "Charrúa 2320 (esq. Ana María Janer)",
     telefono: "2821-3620 / 4919-2144",
     correo: "cesac20@gmail.com"
@@ -1730,6 +2090,8 @@ const Salud = [
     especialidad: "Hormonización, Endocrinología, Salud Mental, Ginecología",
     provincia: "CABA",
     ciudad: "Flores",
+    lat: -34.6238151,
+    lng: -58.4696314,
     direccion: "Dr. Juan Felipe Aranguren 2701",
     telefono: "4630-2933 / 4611-6666",
     correo:
@@ -1741,6 +2103,8 @@ const Salud = [
       "Atención a Infancias, Endocrinología, Salud Mental, Grupo de Pares, Trabajo Social",
     provincia: "CABA",
     ciudad: "La Boca",
+    lat: -34.6314566,
+    lng: -58.3578605,
     direccion: "Ministro Brin 843",
     telefono: "2821-3641 / 4361-8736",
     correo: "diversidad.cesac41@gmail.com"
@@ -1752,6 +2116,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Grupo de Pares, Atención Integral",
     provincia: "CABA",
     ciudad: "La Boca",
+    lat: -34.6289335,
+    lng: -58.3691006,
     direccion: "Irala 1254",
     telefono: "2821-3609 / 4302-9983",
     correo: "diversidadcesac9@gmail.com"
@@ -1762,6 +2128,8 @@ const Salud = [
       "Atención a Infancias, Endocrinología, Salud Mental, Ginecología, Clínica Médica, Trabajo Social",
     provincia: "CABA",
     ciudad: "La Boca",
+    lat: -34.6281137,
+    lng: -58.3655686,
     direccion: "Pi y Margall 750",
     telefono: "4121-0700 / 4121-0800",
     correo: "diversidadargerich750@gmail.com"
@@ -1771,6 +2139,8 @@ const Salud = [
     especialidad: "Endocrinología",
     provincia: "CABA",
     ciudad: "La Paternal",
+    lat: -34.600814926227336,
+    lng: -58.45915592640014,
     direccion: "Fragata Sarmiento 2152, 1° Piso",
     telefono: "011 2821-3671",
     correo: "cemar1diversidad@gmail.com"
@@ -1781,6 +2151,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Trabajo Social",
     provincia: "CABA",
     ciudad: "Liniers",
+    lat: -34.6486894,
+    lng: -58.5150399,
     direccion: "Pilar 950",
     telefono: "4630-5500 / 4630-5509 / 4630-5716",
     correo: "saludtranssantojanni@gmail.com"
@@ -1790,6 +2162,8 @@ const Salud = [
     especialidad: "Endocrinología",
     provincia: "CABA",
     ciudad: "Mataderos",
+    lat: -34.665492,
+    lng: -58.5040738,
     direccion: "Av. de los Corrales 6999",
     telefono: "2821-3637 / 1161675010",
     correo: "pacientescesac37@gmail.com"
@@ -1799,6 +2173,8 @@ const Salud = [
     especialidad: "Endocrinología, Clínica Médica, Trabajo Social",
     provincia: "CABA",
     ciudad: "Mataderos",
+    lat: -34.6549939,
+    lng: -58.5062539,
     direccion: "Av. Juan Bautista Alberdi 6300",
     telefono: "1172360787 / 28213604",
     correo: "diversidadcesac4@gmail.com"
@@ -1808,6 +2184,8 @@ const Salud = [
     especialidad: "Endocrinología",
     provincia: "CABA",
     ciudad: "Palermo",
+    lat: -34.5882229,
+    lng: -58.4389976,
     direccion: "Córdoba 5471",
     telefono: "4770-9202 / 11-2821-3633 / 11-5197-5078 / 11-5197-5079",
     correo: "consultoriaintegraldelamujer@gmail.com / gineco.33@gmail.com"
@@ -1818,6 +2196,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Cirugía de Masculinización Tórax, Ginecología, Grupo de Pares, Trabajo Social",
     provincia: "CABA",
     ciudad: "Palermo",
+    lat: -34.5814137,
+    lng: -58.4068613,
     direccion: "Cerviño 3356",
     telefono: "4808-2600 (int. 1107) / 4808-2650",
     correo: "consultavirtualdiversidad@gmail.com"
@@ -1828,6 +2208,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Grupo de Pares, Trabajo Social",
     provincia: "CABA",
     ciudad: "Parque Patricios",
+    lat: -34.6310341,
+    lng: -58.4101153,
     direccion: "24 de Noviembre 1679",
     telefono:
       "(11) 4911-3576 / 62438331 / 62343730 / 5113-3779 / 7362-0877 / 2821-3639",
@@ -1839,6 +2221,8 @@ const Salud = [
       "Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
     provincia: "CABA",
     ciudad: "Parque Patricios",
+    lat: -34.6340908,
+    lng: -58.3909578,
     direccion: "Combate de los Pozos 1881",
     telefono: "",
     correo: "comitegeneroydiversidad@gmail.com"
@@ -1849,6 +2233,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Ginecología, Grupo de Pares, Trabajo Social",
     provincia: "CABA",
     ciudad: "Parque Patricios",
+    lat: -34.6432427,
+    lng: -58.411334,
     direccion: "Pedro Chutro 3380",
     telefono: "4911-5555",
     correo: "diversidadpenna@gmail.com / endopenna@gmail.com"
@@ -1859,6 +2245,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Salud Mental",
     provincia: "CABA",
     ciudad: "Parque Patricios",
+    lat: -34.6321353,
+    lng: -58.3914283,
     direccion: "Combate de los Pozos 2133",
     telefono: "1131509104 / 4305-0091 / 4305-1190 / 4304-6353 (int. 1190)",
     correo: "saludintegral@hospitalbonaparte.gob.ar"
@@ -1868,6 +2256,8 @@ const Salud = [
     especialidad: "Endocrinología, Grupo de Pares",
     provincia: "CABA",
     ciudad: "Recoleta",
+    lat: -34.5988462,
+    lng: -58.4001532,
     direccion: "Av. Córdoba 2351",
     telefono: "1159508000 / 5248-2644",
     correo: "endoturnos@hospitaldeclinicas.uba.ar"
@@ -1878,6 +2268,8 @@ const Salud = [
       "Atención a Infancias, Endocrinología, Cirugía de Masculinización Tórax",
     provincia: "CABA",
     ciudad: "Recoleta",
+    lat: -34.5941751,
+    lng: -58.4113926,
     direccion: "Gallo 1330",
     telefono: "4963-5931 (int. 230) / 4962-4035",
     correo: "aldolescenciahnrg@gmail.com / secretariaendo@cedie.org.ar"
@@ -1887,6 +2279,8 @@ const Salud = [
     especialidad: "Endocrinología, Grupo de Pares",
     provincia: "CABA",
     ciudad: "Recoleta",
+    lat: -34.5921572,
+    lng: -58.3913788,
     direccion: "General las Heras 2670",
     telefono: "4809-2000 / 4809-2218",
     correo: "diversidadhospitalrivadavia@gmail.com"
@@ -1896,6 +2290,8 @@ const Salud = [
     especialidad: "Endocrinología",
     provincia: "CABA",
     ciudad: "Retiro",
+    lat: -34.58436457489614,
+    lng: -58.379307915762276,
     direccion: "Alpaca 620",
     telefono: "2821-3647 / 1140785930",
     correo: "consultoriodiversidad47@gmail.com / 47.cesac@gmail.com"
@@ -1906,6 +2302,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Cirugía de Masculinización Tórax",
     provincia: "CABA",
     ciudad: "San Cristóbal",
+    lat: -34.6253603,
+    lng: -58.4022203,
     direccion: "Cochabamba 2622",
     telefono: "2821-3645 / 1160075665",
     correo: "diversidad.cesac45@gmail.com"
@@ -1915,6 +2313,8 @@ const Salud = [
     especialidad: "Endocrinología",
     provincia: "CABA",
     ciudad: "Villa Lugano",
+    lat: -34.6568782,
+    lng: -58.4865056,
     direccion: "Corvalán y Manuela Gandarilla (ex Calle 5)",
     telefono: "2821-3618",
     correo: "diversidadcesac18@gmail.com"
@@ -1925,6 +2325,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Trabajo Social",
     provincia: "CABA",
     ciudad: "Villa Lugano",
+    lat: -34.6730878,
+    lng: -58.4860017,
     direccion: "Santander 5955",
     telefono: "011 2821-3628 / 4605-2148",
     correo: "diversidad.cesac28@gmail.com"
@@ -1934,6 +2336,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Trabajo Social",
     provincia: "CABA",
     ciudad: "Villa Lugano",
+    lat: -34.6779764,
+    lng: -58.4790759,
     direccion: "Au. Dellepiane 6999",
     telefono: "(11) 2821-3629",
     correo: ""
@@ -1943,6 +2347,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
     provincia: "CABA",
     ciudad: "Villa Lugano",
+    lat: -34.6777277,
+    lng: -58.4667534,
     direccion: "Fonrouge 4377",
     telefono: "(11) 4602-4178",
     correo: "saludcesac43@gmail.com"
@@ -1953,6 +2359,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Trabajo Social",
     provincia: "CABA",
     ciudad: "Villa Lugano",
+    lat: -34.6753341,
+    lng: -58.4847785,
     direccion: "Saraza 4202",
     telefono: "4601-3686 / 4445-3113 / 4601-5573 / 4601-9776 / 1131505247",
     correo: "saludsexualintegral44@gmail.com"
@@ -1962,6 +2370,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Endocrinología, Trabajo Social",
     provincia: "CABA",
     ciudad: "Villa Lugano",
+    lat: -34.6847394,
+    lng: -58.4787815,
     direccion: "Piedrabuena 3141",
     telefono: "2821-3605 / 1136295516",
     correo: "diversidad.cesac5@gmail.com / cesac5@buenosaires.gob.ar"
@@ -1972,6 +2382,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Cirugía de Masculinización Tórax, Trabajo Social",
     provincia: "CABA",
     ciudad: "Villa Lugano",
+    lat: -34.6781083,
+    lng: -58.4910413,
     direccion: "2 de Abril de 1982, 6850",
     telefono: "1136317997 / 2821-3607",
     correo: "diversidadcesac7@gmail.com"
@@ -1982,6 +2394,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Trabajo Social",
     provincia: "CABA",
     ciudad: "Villa Ortúzar",
+    lat: -34.586686,
+    lng: -58.4728298,
     direccion: "Combatientes de Malvinas 3002",
     telefono: "5243-9000",
     correo: "diversidadtornu@gmail.com / tornudiversidad@gmail.com"
@@ -1991,6 +2405,8 @@ const Salud = [
     especialidad: "Endocrinología",
     provincia: "CABA",
     ciudad: "Villa Soldati",
+    lat: -34.6593317,
+    lng: -58.454736,
     direccion: "Laguna y Pasaje L. B° Ramón Carrillo",
     telefono: "2821-3624 (int. 109) / 4637-2002",
     correo: "rmgp.cesac24@gmail.com"
@@ -2001,6 +2417,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Grupo de Pares, Trabajo Social",
     provincia: "CABA",
     ciudad: "Villa Soldati",
+    lat: -34.6667425,
+    lng: -58.441547,
     direccion: "Mariano Acosta 3673",
     telefono: "2821-3606 / 4918-4879",
     correo: "diversidadsexualcesac6@gmail.com / oris@buenosaires.gob.ar"
@@ -2010,6 +2428,8 @@ const Salud = [
     especialidad: "Clínica Médica",
     provincia: "CABA",
     ciudad: "Villa Urquiza",
+    lat: -34.5700268,
+    lng: -58.4740809,
     direccion: "Av. Olazábal 3960",
     telefono: "2821-3612",
     correo: "dra.dfainstein@gmail.com / consultascesac12@gmail.com"
@@ -2020,6 +2440,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Catamarca",
     ciudad: "San Fernando del Valle de Catamarca",
+    lat: -28.4730399,
+    lng: -65.7976114,
     direccion: "Av. Ahumada y Barros 850",
     telefono: "",
     correo: ""
@@ -2030,6 +2452,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Catamarca",
     ciudad: "San Fernando del Valle de Catamarca",
+    lat: -28.4745384,
+    lng: -65.7865967,
     direccion: "Av. Virgen del Valle 1050",
     telefono: "(3834) 50-1063 / 69-0840 / 443-7900 / 479-2292",
     correo: "ocd_catamarca@hotmail.com"
@@ -2039,6 +2463,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Catamarca",
     ciudad: "Santa María",
+    lat: -26.696929,
+    lng: -66.0468239,
     direccion: "Av. 1° de Mayo 260",
     telefono: "(3838) 425134",
     correo: "contacto@hospitalvargas.com"
@@ -2049,6 +2475,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Chaco",
     ciudad: "Barranqueras",
+    lat: -27.4814806,
+    lng: -58.9253103,
     direccion: "Gabardini 5427",
     telefono: "(362) 411-9873",
     correo: ""
@@ -2059,6 +2487,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Chaco",
     ciudad: "Juan José Castelli",
+    lat: -25.9529278,
+    lng: -60.6223462,
     direccion: "Av. Güemes 1100",
     telefono: "",
     correo: "diversidadelimpenetrable@gmail.com"
@@ -2068,6 +2498,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
     provincia: "Chaco",
     ciudad: "Presidencia Roque Sáenz Peña",
+    lat: -26.7988015,
+    lng: -60.4349124,
     direccion: "Calle 28 entre 31 bis y 25 bis",
     telefono: "(362) 487-6023 / (3644) 12-0185",
     correo: ""
@@ -2077,6 +2509,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Chaco",
     ciudad: "Presidencia Roque Sáenz Peña",
+    lat: -26.7986451,
+    lng: -60.434816,
     direccion: "Calle 25 entre 28 y 30",
     telefono: "(362) 15-475-8320",
     correo: ""
@@ -2086,6 +2520,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Endocrinología",
     provincia: "Chaco",
     ciudad: "Quitilipi",
+    lat: -26.8787688,
+    lng: -60.2245093,
     direccion: "Almirante Brown 550 (esq. Ayacucho)",
     telefono: "(3644) 450-513 / 66298",
     correo: "victorhugodok@gmail.com"
@@ -2096,6 +2532,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Ginecología, Grupo de Pares, Trabajo Social",
     provincia: "Chaco",
     ciudad: "Resistencia",
+    lat: -27.4581093,
+    lng: -58.9756832,
     direccion: "Av. 9 de Julio 1100",
     telefono: "(362) 468-3000",
     correo: "msp_hperadolescencia@chaco.gob.ar"
@@ -2106,6 +2544,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Chaco",
     ciudad: "Resistencia",
+    lat: -27.4564897,
+    lng: -58.9781228,
     direccion: "Av. Vélez Sársfield 120",
     telefono:
       "(362) 444-1477 (int. 1098/1096) / (362) 445-2931 / (362) 497-0553",
@@ -2117,6 +2557,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Chubut",
     ciudad: "Comodoro Rivadavia",
+    lat: -45.8562785,
+    lng: -67.5455516,
     direccion: "Huergo y Las Violetas",
     telefono: "(297) 446-0740",
     correo: "direccionaps@comodoro.gov.ar"
@@ -2128,6 +2570,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Chubut",
     ciudad: "Comodoro Rivadavia",
+    lat: -45.8579825,
+    lng: -67.5298915,
     direccion: "San Martín y Saavedra",
     telefono: "(280) 444-5329",
     correo: "casitaverdecr@gmail.com"
@@ -2137,6 +2581,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Salud Mental",
     provincia: "Chubut",
     ciudad: "El Hoyo",
+    lat: -42.0650891,
+    lng: -71.5226857,
     direccion: "Islas Malvinas S/N",
     telefono: "(2944) 166-292",
     correo: "conectadxshreh@gmail.com"
@@ -2146,6 +2592,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Chubut",
     ciudad: "El Maitén",
+    lat: -42.0504791,
+    lng: -71.1598343,
     direccion: "Liniers y José Hernández",
     telefono: "(2945) 49-5117",
     correo: ""
@@ -2155,6 +2603,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Chubut",
     ciudad: "Esquel",
+    lat: -42.9178365,
+    lng: -71.3157513,
     direccion: "25 de Mayo 150",
     telefono: "(2945) 59-5852",
     correo: ""
@@ -2164,6 +2614,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Chubut",
     ciudad: "Esquel",
+    lat: -42.9157198,
+    lng: -71.3270283,
     direccion: "Av. Alvear y Molinari",
     telefono: "(11) 5329-90872",
     correo: ""
@@ -2173,6 +2625,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Chubut",
     ciudad: "Lago Puelo",
+    lat: -42.0606125,
+    lng: -71.5979019,
     direccion: "Av. 2 de Abril S/N",
     telefono: "(2944) 49-9041",
     correo: ""
@@ -2182,6 +2636,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Chubut",
     ciudad: "Puerto Madryn",
+    lat: -42.7587414,
+    lng: -65.0608294,
     direccion: "Alto Río Senguer 1300",
     telefono: "(280) 445-1887",
     correo: ""
@@ -2192,6 +2648,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Chubut",
     ciudad: "Puerto Madryn",
+    lat: -42.7796527,
+    lng: -65.0563243,
     direccion: "España y La Rioja",
     telefono: "(280) 447-2230",
     correo: ""
@@ -2202,6 +2660,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Chubut",
     ciudad: "Puerto Madryn",
+    lat: -42.7796947,
+    lng: -65.0482798,
     direccion: "Estivariz 2484",
     telefono: "",
     correo: "capsroquegonzalez@gmail.com / spaopat@gmail.com"
@@ -2213,6 +2673,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Chubut",
     ciudad: "Puerto Madryn",
+    lat: -42.7595182,
+    lng: -65.0607578,
     direccion: "Agustín Pujol y Juan Acosta",
     telefono: "(280) 445-1387",
     correo: "centropozzi@gmail.com"
@@ -2222,6 +2684,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Chubut",
     ciudad: "Puerto Madryn",
+    lat: -42.7590843,
+    lng: -65.0419198,
     direccion: "Roberto Gómez 383",
     telefono: "(280) 445-1240",
     correo: ""
@@ -2232,6 +2696,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
     provincia: "Chubut",
     ciudad: "Rawson",
+    lat: -43.2966604,
+    lng: -65.1067752,
     direccion: "Roca 534",
     telefono: "",
     correo: "endocrinologiames@gmail.com"
@@ -2242,6 +2708,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Ginecología",
     provincia: "Chubut",
     ciudad: "Rawson",
+    lat: -43.2569894,
+    lng: -65.311865,
     direccion: "Julio Argentino Roca 545",
     telefono: "(280) 485-3994",
     correo: ""
@@ -2251,6 +2719,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Córdoba",
     ciudad: "CBA",
+    lat: -31.47002420337081,
+    lng: -64.11690013493605,
     direccion: "Calle 10 S/N, Manzana 11",
     telefono: "(351) 631-0092",
     correo: "capsamplferreyra@gmail.com"
@@ -2260,6 +2730,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Salud Mental",
     provincia: "Córdoba",
     ciudad: "CBA",
+    lat: -31.3976793,
+    lng: -64.2048743,
     direccion: "Emilio Coni 2090",
     telefono: "(351) 537-4090",
     correo: ""
@@ -2269,6 +2741,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Salud Mental",
     provincia: "Córdoba",
     ciudad: "CBA, Malvinas Argentinas",
+    lat: -31.38153421513248,
+    lng: -64.05834253932832,
     direccion: "Las Orquídeas S/N",
     telefono: "(351) 751-6112",
     correo: ""
@@ -2278,6 +2752,8 @@ const Salud = [
     especialidad: "Hormonización, Endocrinología",
     provincia: "Córdoba",
     ciudad: "CBA",
+    lat: -31.4057127,
+    lng: -64.1583598,
     direccion: "Libertad 2051",
     telefono: "0800-555-4141",
     correo:
@@ -2288,6 +2764,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Córdoba",
     ciudad: "CBA",
+    lat: -31.4284523,
+    lng: -64.1686836,
     direccion: "Ferroviarios 1250 (esq. Bajada Pucará)",
     telefono: "(351) 458-6484 / 0800-555-4141",
     correo: "servicioendocrinologiahnst@gmail.com"
@@ -2297,6 +2775,8 @@ const Salud = [
     especialidad: "Hormonización, Endocrinología",
     provincia: "Córdoba",
     ciudad: "CBA",
+    lat: -31.3355702,
+    lng: -64.1743819,
     direccion: "Av. Juan B. Justo 7100",
     telefono: "0800-555-4141",
     correo: "oris.elpidiotorres@gmail.com"
@@ -2306,6 +2786,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Ginecología",
     provincia: "Córdoba",
     ciudad: "CBA",
+    lat: -31.445823513847426,
+    lng: -64.14765956227195,
     direccion: "11 de Septiembre 2900",
     telefono: "0800-555-4141",
     correo: ""
@@ -2315,6 +2797,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Córdoba",
     ciudad: "CBA",
+    lat: -31.3804665,
+    lng: -64.1817503,
     direccion: "Luis de Góngora 550",
     telefono: "(351) 4708800 (int. 5104) / 2094378 / 474-9253",
     correo: "ssocialhospitalinfatil@gmail.com"
@@ -2325,6 +2809,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
     provincia: "Córdoba",
     ciudad: "CBA",
+    lat: -31.3799244,
+    lng: -64.1824572,
     direccion: "Lavalleja 3050",
     telefono: "(351) 470-8800 (int. 5104)",
     correo: ""
@@ -2335,6 +2821,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Atención Integral, Trabajo Social",
     provincia: "Córdoba",
     ciudad: "CBA",
+    lat: -31.36934218858677,
+    lng: -64.21342272319427,
     direccion: "Av. La Cardeñosa 2900",
     telefono: "(351) 434-8350",
     correo: "orishospitalneonatal@cba.gov.ar"
@@ -2344,6 +2832,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Endocrinología",
     provincia: "Córdoba",
     ciudad: "CBA",
+    lat: -31.4232933,
+    lng: -64.1639683,
     direccion: "Pasaje Luis Caeiro 1545",
     telefono: "0800-555-4141",
     correo: ""
@@ -2353,6 +2843,8 @@ const Salud = [
     especialidad: "Hormonización, Endocrinología",
     provincia: "Córdoba",
     ciudad: "CBA",
+    lat: -31.4329583,
+    lng: -64.1967457,
     direccion: "Belgrano 1502",
     telefono: "0800-555-4141",
     correo: "orishospitalmisericordia@gmail.com"
@@ -2362,6 +2854,8 @@ const Salud = [
     especialidad: "Hormonización, Salud Mental, Ginecología, Trabajo Social",
     provincia: "Córdoba",
     ciudad: "CBA",
+    lat: -31.4701581,
+    lng: -64.2106387,
     direccion: "Defensa 1200",
     telefono: "(351) 8058254",
     correo: "hmpa.dispositivolgbt@gmail.com"
@@ -2371,6 +2865,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Córdoba",
     ciudad: "CBA",
+    lat: -31.4061406,
+    lng: -64.2040688,
     direccion: "Santa Rosa 1600",
     telefono: "(351) 5353970",
     correo: "direccion-hnc@fcm.unc.edu.ar"
@@ -2381,6 +2877,8 @@ const Salud = [
       "Hormonización, Endocrinología, Cirugía de Masculinización Tórax",
     provincia: "Córdoba",
     ciudad: "CBA",
+    lat: -31.4396889,
+    lng: -64.195012,
     direccion: "Av. Vélez Sársfield 2221",
     telefono: "0800-555-4141 / 4708800 (int. 5104) / 3512094378",
     correo: "programa.asidiversidad@gmail.com"
@@ -2391,6 +2889,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Ginecología, Grupo de Pares, Trabajo Social",
     provincia: "Córdoba",
     ciudad: "CBA, Alberdi",
+    lat: -31.4068852,
+    lng: -64.2134524,
     direccion: "Dean Funes 2000",
     telefono: "(351) 4337112 / 4337113 / 661-5590",
     correo: ""
@@ -2401,6 +2901,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Córdoba",
     ciudad: "Colón, Agua de Oro",
+    lat: -31.0651069,
+    lng: -64.3065909,
     direccion: "San Martín 354",
     telefono: "(3525) 444083 / 646425",
     correo: ""
@@ -2410,6 +2912,8 @@ const Salud = [
     especialidad: "Hormonización, Endocrinología",
     provincia: "Córdoba",
     ciudad: "Colón, Jesús María",
+    lat: -30.9811412,
+    lng: -64.0994743,
     direccion: "C. Doménico Zípoli 750",
     telefono: "(3525) 539270 / 443730",
     correo: "comunicacionpublica@jesusmaria.gov.ar"
@@ -2419,6 +2923,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Córdoba",
     ciudad: "Colón, Unquillo",
+    lat: -31.231828,
+    lng: -64.33262,
     direccion: "Av. 5 de Octubre 3894",
     telefono: "(3543) 550806",
     correo: ""
@@ -2428,6 +2934,8 @@ const Salud = [
     especialidad: "Hormonización, Endocrinología",
     provincia: "Córdoba",
     ciudad: "Cruz del Eje",
+    lat: -30.7441861,
+    lng: -64.7894098,
     direccion: "Félix Cáceres 245",
     telefono: "0800-555-4141",
     correo: ""
@@ -2437,6 +2945,8 @@ const Salud = [
     especialidad: "Hormonización, Endocrinología, Atención Integral",
     provincia: "Córdoba",
     ciudad: "General San Martín, Villa María",
+    lat: -32.3913685,
+    lng: -63.257279,
     direccion: "Lisandro de la Torre (esq. Catamarca)",
     telefono: "(353) 6577318",
     correo: ""
@@ -2446,6 +2956,8 @@ const Salud = [
     especialidad: "Hormonización, Endocrinología",
     provincia: "Córdoba",
     ciudad: "Ischilín, Deán Funes",
+    lat: -30.4240135,
+    lng: -64.3563512,
     direccion: "Colón 247",
     telefono: "(3521) 426223 / 426231 (int. 104)",
     correo: ""
@@ -2455,6 +2967,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Córdoba",
     ciudad: "Punilla, Tanti",
+    lat: -31.3633711,
+    lng: -64.5424196,
     direccion: "Paraguay S/N entre Costa Rica y Nicaragua",
     telefono: "(3541) 337286",
     correo: ""
@@ -2465,6 +2979,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Ginecología, Trabajo Social",
     provincia: "Córdoba",
     ciudad: "Río Cuarto",
+    lat: -33.1294786,
+    lng: -64.3535842,
     direccion: "Cabrera 1344",
     telefono: "(358) 476-8420 / 571-0115 / 484-6451",
     correo: ""
@@ -2475,6 +2991,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Grupo de Pares, Trabajo Social",
     provincia: "Córdoba",
     ciudad: "Río Cuarto",
+    lat: -33.1092399,
+    lng: -64.3555565,
     direccion: "Guardias Nacionales 1051",
     telefono: "(358) 467-8700 (int. 1606) / 514-4113",
     correo: "orisnuevohospitalriocuarto@gmail.com"
@@ -2484,6 +3002,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Trabajo Social",
     provincia: "Córdoba",
     ciudad: "Río Segundo, Oncativo",
+    lat: -31.9102707,
+    lng: -63.6888847,
     direccion: "Colón 158",
     telefono: "(3572) 46-6025",
     correo: ""
@@ -2495,6 +3015,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
     provincia: "Córdoba",
     ciudad: "San Alberto, Mina Clavero",
+    lat: -31.7168505,
+    lng: -65.0034328,
     direccion: "Rivadavia 540",
     telefono: "",
     correo: "consultorioinclusivomc@gmail.com"
@@ -2504,6 +3026,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Endocrinología",
     provincia: "Córdoba",
     ciudad: "San Alberto, Mina Clavero",
+    lat: -31.7293531,
+    lng: -65.0037867,
     direccion: "Fleming 1332",
     telefono: "0800-555-4141 / (351) 511-9511",
     correo: "oris.luismariabellodi@gmail.com"
@@ -2514,6 +3038,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Trabajo Social",
     provincia: "Córdoba",
     ciudad: "San Francisco",
+    lat: -31.4279816,
+    lng: -62.0679246,
     direccion: "Dominga Cullen 450",
     telefono: "0800-555-4141 / (3564) 44-3718 / 44-3774",
     correo: "orishospiturraspesf@gmail.com"
@@ -2523,6 +3049,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Córdoba",
     ciudad: "San Javier, Villa Dolores",
+    lat: -31.9455333,
+    lng: -65.1912634,
     direccion: "Cenobio Soto 740",
     telefono: "(3544) 643677 / 46-943",
     correo: ""
@@ -2534,6 +3062,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Atención Integral, Trabajo Social",
     provincia: "Córdoba",
     ciudad: "San Javier, Yacanto",
+    lat: -32.0265378,
+    lng: -65.0299653,
     direccion: "Ruta 14 S/N",
     telefono: "(549) 48-2404 / (3544) 48-2041",
     correo: "programa.asidiversidad@gmail.com"
@@ -2543,6 +3073,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Córdoba",
     ciudad: "Santa María de Punilla, Villa Caeiro",
+    lat: -31.296559533357716,
+    lng: -64.45344430694061,
     direccion: "Av. Deán Funes S/N, Ruta Nacional 38",
     telefono: "0800-555-4141 / (3541) 48-8900",
     correo: ""
@@ -2552,6 +3084,8 @@ const Salud = [
     especialidad: "Hormonización, Endocrinología, Salud Mental",
     provincia: "Córdoba",
     ciudad: "Santa María, Alta Gracia",
+    lat: -31.661285,
+    lng: -64.4318901,
     direccion: "Urquiza 358",
     telefono: "(3547) 630462",
     correo:
@@ -2562,6 +3096,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Córdoba",
     ciudad: "Santa María, La Serranita",
+    lat: -31.7337567,
+    lng: -64.4557868,
     direccion: "General Roca entre Belgrano y San Agustín",
     telefono: "(3547) 477087",
     correo: "caps@comunalaserranita.com.ar"
@@ -2571,6 +3107,8 @@ const Salud = [
     especialidad: "Hormonización, Endocrinología",
     provincia: "Córdoba",
     ciudad: "Unión, Bell Ville",
+    lat: -32.61637967204511,
+    lng: -62.7019601702663,
     direccion: "Gerónimo del Barco 1289",
     telefono: "0800-555-4141",
     correo: "hospitalbellvillecba@gmail.com"
@@ -2580,6 +3118,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Trabajo Social",
     provincia: "Corrientes",
     ciudad: "Corrientes",
+    lat: -27.4757059,
+    lng: -58.8184011,
     direccion: "Av. Artigas 1435",
     telefono: "(379) 447-5300",
     correo: ""
@@ -2590,6 +3130,8 @@ const Salud = [
       "Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
     provincia: "Corrientes",
     ciudad: "Monte Caseros",
+    lat: -30.25968507737366,
+    lng: -57.63462729671514,
     direccion: "Caá Guazú 955",
     telefono: "(3775) 45-0192",
     correo: ""
@@ -2600,6 +3142,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Ginecología, Grupo de Pares",
     provincia: "Entre Ríos",
     ciudad: "Paraná",
+    lat: -31.7226843,
+    lng: -60.5151171,
     direccion: "Av. Laurencena 63",
     telefono: "(343) 464-9777 / 431-0676 / 4619526",
     correo: "saludintegraltransgoldin@hotmail.com / csseliggoldin@hotmail.com"
@@ -2609,6 +3153,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Entre Ríos",
     ciudad: "San José",
+    lat: -32.2112609,
+    lng: -58.226332,
     direccion: "Dr. Cettour 1274",
     telefono: "(3447) 47-0894",
     correo: ""
@@ -2618,6 +3164,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Formosa",
     ciudad: "Formosa",
+    lat: -26.1878096,
+    lng: -58.168051,
     direccion: "Padre Patiño y Salta",
     telefono: "(370) 443-1323",
     correo: ""
@@ -2627,6 +3175,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Formosa",
     ciudad: "Formosa",
+    lat: -26.1891962,
+    lng: -58.168122,
     direccion: "Salta 550",
     telefono: "(370) 442-6194",
     correo: "mdh.hospitalcentral@formosa.gov.ar"
@@ -2636,6 +3186,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Trabajo Social",
     provincia: "Formosa",
     ciudad: "Formosa",
+    lat: -26.141053162562645,
+    lng: -58.157734930498776,
     direccion: "Av. Ana Esther Elías de Caanepa y Calle 250",
     telefono: "(370) 444-5885",
     correo: "serviciosocialhd8@gmail.com"
@@ -2645,6 +3197,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Endocrinología",
     provincia: "Formosa",
     ciudad: "Formosa",
+    lat: -26.18054729695049,
+    lng: -58.19816212233562,
     direccion: "Av. Lucas Barberis 250",
     telefono: "(370) 444-5561",
     correo: ""
@@ -2654,6 +3208,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Jujuy",
     ciudad: "Humahuaca",
+    lat: -23.204098,
+    lng: -65.3495159,
     direccion: "Santa Fe 34",
     telefono: "(3887) 42-1009",
     correo: ""
@@ -2663,6 +3219,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Jujuy",
     ciudad: "Maimará",
+    lat: -23.6236374,
+    lng: -65.407168,
     direccion: "Av. Belgrano 906",
     telefono: "(388) 499-7003",
     correo: ""
@@ -2672,6 +3230,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Jujuy",
     ciudad: "Palpalá",
+    lat: -24.2537486,
+    lng: -65.21004,
     direccion: "Av. Quispe (esq. Chacho Peñaloza)",
     telefono: "(388) 427-5996",
     correo: ""
@@ -2681,6 +3241,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Ginecología",
     provincia: "Jujuy",
     ciudad: "San Pedro de Jujuy",
+    lat: -24.2374226,
+    lng: -64.8737578,
     direccion: "Av. Siria 44",
     telefono: "(3888) 42-0006",
     correo: ""
@@ -2690,6 +3252,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Jujuy",
     ciudad: "San Salvador de Jujuy",
+    lat: -24.186917,
+    lng: -65.2935311,
     direccion: "Independencia 41",
     telefono: "(388) 422-3305",
     correo: ""
@@ -2700,6 +3264,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Jujuy",
     ciudad: "San Salvador de Jujuy",
+    lat: -24.1812027,
+    lng: -65.3151528,
     direccion: "José Hernández 624",
     telefono: "(388) 424-5005 (int. 330)",
     correo: ""
@@ -2709,6 +3275,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Cirugía de Masculinización Tórax",
     provincia: "Jujuy",
     ciudad: "San Salvador de Jujuy",
+    lat: -24.1826354,
+    lng: -65.3121112,
     direccion: "Gral. Güemes 1345",
     telefono: "(388) 422-1259",
     correo: ""
@@ -2719,6 +3287,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "La Pampa",
     ciudad: "General Pico",
+    lat: -35.6695045,
+    lng: -63.7638034,
     direccion: "Calle 17 Oeste 500-598",
     telefono: "(2302) 43-6148",
     correo: ""
@@ -2728,6 +3298,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Ginecología",
     provincia: "La Pampa",
     ciudad: "Guatraché",
+    lat: -37.6665306,
+    lng: -63.547478,
     direccion: "1° Junta 158",
     telefono: "(2954) 49-2532",
     correo: ""
@@ -2738,6 +3310,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "La Pampa",
     ciudad: "Santa Rosa",
+    lat: -36.6119823,
+    lng: -64.2898299,
     direccion: "Raúl B. Díaz y Pilcomayo",
     telefono: "(2954) 455-000 (int. 3216)",
     correo: ""
@@ -2747,6 +3321,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Salud Mental",
     provincia: "La Pampa",
     ciudad: "Victorica",
+    lat: -36.2217989,
+    lng: -65.4353775,
     direccion: "Calle 21, 1194",
     telefono: "(2954) 49-7489",
     correo: "sole.munoz94@gmail.com"
@@ -2756,6 +3332,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Atención Integral",
     provincia: "La Rioja",
     ciudad: "Chilecito",
+    lat: -29.413707580506053,
+    lng: -66.83710916899099,
     direccion: "Olta y Madre Teresa de Calcuta",
     telefono: "0800-444-0211",
     correo: "servicio_adolescencia_larioja@yahoo.com.ar"
@@ -2766,6 +3344,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "La Rioja",
     ciudad: "La Rioja",
+    lat: -29.4177103,
+    lng: -66.9094128,
     direccion: "Proyectada y Faustino Molina",
     telefono: "(380) 436-9421",
     correo: "lic.nataliamendoza@gmail.com"
@@ -2775,6 +3355,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Salud Mental",
     provincia: "Mendoza",
     ciudad: "Godoy Cruz",
+    lat: -32.9282731,
+    lng: -68.8462369,
     direccion: "Colón 339",
     telefono: "(261) 422-0001 / 422-1611",
     correo: "ppmics30@mendoza.gov.ar"
@@ -2785,6 +3367,8 @@ const Salud = [
       "Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
     provincia: "Mendoza",
     ciudad: "Godoy Cruz",
+    lat: -32.9152166,
+    lng: -68.8665768,
     direccion: "Armani 1880",
     telefono: "(261) 272-2123",
     correo: "modosi.comunicacion@gmail.com"
@@ -2795,6 +3379,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Mendoza",
     ciudad: "Guaymallén",
+    lat: -32.8979731,
+    lng: -68.804459,
     direccion: "Bandera de los Andes 2603",
     telefono: "(261) 413-2720",
     correo: "saludmentalnotti@gmail.com"
@@ -2805,6 +3391,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Cirugía de Masculinización Tórax, Grupo de Pares",
     provincia: "Mendoza",
     ciudad: "Mendoza",
+    lat: -34.9727832,
+    lng: -67.7038567,
     direccion: "Alem 450",
     telefono: "(261) 449-0684",
     correo: ""
@@ -2815,6 +3403,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Grupo de Pares, Trabajo Social",
     provincia: "Mendoza",
     ciudad: "San Rafael",
+    lat: -34.6200676,
+    lng: -68.3253801,
     direccion: "Comandante Torres 150",
     telefono: "(260) 424-0300",
     correo: "trabajosocialschestakow@gmail.com"
@@ -2825,6 +3415,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Mendoza",
     ciudad: "Tupungato",
+    lat: -33.37311183383466,
+    lng: -69.11268540768205,
     direccion: "Calle Iriarte S/N",
     telefono: "(2622) 48-9153",
     correo: "caps198laarboleda@gmail.com"
@@ -2835,6 +3427,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Mendoza",
     ciudad: "Villa Tulumaya",
+    lat: -32.721560774654094,
+    lng: -68.58827963731508,
     direccion: "Calle Belgrano 415",
     telefono: "(261) 494-1065",
     correo: "saludintegralsicoli@gmail.com"
@@ -2844,6 +3438,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Trabajo Social",
     provincia: "Misiones",
     ciudad: "Posadas",
+    lat: -27.3751781,
+    lng: -55.9384677,
     direccion: "Barrio San Gerardo S/N",
     telefono: "(376) 475-5550",
     correo: ""
@@ -2854,6 +3450,8 @@ const Salud = [
       "Atención a Infancias, Endocrinología, Ginecología, Trabajo Social",
     provincia: "Misiones",
     ciudad: "Posadas",
+    lat: -27.4103422,
+    lng: -55.9838383,
     direccion: "Las Orquídeas 10609",
     telefono: "(376) 5157000 / 5157002 / 154831890",
     correo: "msp_itaembeguazu@misiones.gov.ar"
@@ -2864,6 +3462,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
     provincia: "Misiones",
     ciudad: "Posadas",
+    lat: -27.4258774,
+    lng: -55.9428605,
     direccion: "Calle 3 y 13",
     telefono: "(376) 440-9118",
     correo: ""
@@ -2873,6 +3473,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
     provincia: "Neuquén",
     ciudad: "Junín de los Andes",
+    lat: -39.9471653,
+    lng: -71.0696598,
     direccion: "Patagonia 540",
     telefono: "(294) 591-6213",
     correo: ""
@@ -2882,6 +3484,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "Neuquén",
     ciudad: "Junín de los Andes",
+    lat: -39.940965,
+    lng: -71.0664334,
     direccion: "Río Negro S/N",
     telefono: "(2972) 49-1208",
     correo: ""
@@ -2891,6 +3495,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "Neuquén",
     ciudad: "Junín de los Andes",
+    lat: -39.9536258,
+    lng: -71.066076,
     direccion: "Gines Ponte 343",
     telefono: "(294) 15-458-5213",
     correo: ""
@@ -2900,6 +3506,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Neuquén",
     ciudad: "Loncopué",
+    lat: -38.07072181318291,
+    lng: -70.6155451845705,
     direccion: "Av. San Martín (entre Calle David Almendra y Don Bosco)",
     telefono: "(299) 449-5590 / 5591",
     correo: ""
@@ -2909,6 +3517,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Grupo de Pares",
     provincia: "Neuquén",
     ciudad: "Neuquén",
+    lat: -40.1323252,
+    lng: -71.2952414,
     direccion: "Santa Fe 535",
     telefono: "",
     correo: "rondaencuentros@gmail.com"
@@ -2918,6 +3528,8 @@ const Salud = [
     especialidad: "Atención a Infancias",
     provincia: "Neuquén",
     ciudad: "Neuquén",
+    lat: -38.9590528,
+    lng: -68.0711585,
     direccion: "Teodoro Planas 1915",
     telefono: "(299) 464-5782",
     correo: ""
@@ -2927,6 +3539,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Neuquén",
     ciudad: "Neuquén",
+    lat: -38.93701702412,
+    lng: -68.11598850069632,
     direccion: "Lighuen E. 1549 (esq. Coronel Godoy)",
     telefono: "",
     correo: "sminfanciasyadolescenciashhh@gmail.com"
@@ -2937,6 +3551,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Salud Mental",
     provincia: "Neuquén",
     ciudad: "Neuquén",
+    lat: -38.9512963,
+    lng: -68.0577221,
     direccion: "Buenos Aires 350",
     telefono: "",
     correo: "identidadespediatriahpn@gmail.com"
@@ -2946,6 +3562,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Trabajo Social",
     provincia: "Neuquén",
     ciudad: "Neuquén",
+    lat: -38.9447674,
+    lng: -68.0506462,
     direccion: "Entre Ríos 303",
     telefono: "(299) 581-5851",
     correo: "equipoextension.subse@gmail.com"
@@ -2955,6 +3573,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Neuquén",
     ciudad: "Plottier",
+    lat: -38.9587083,
+    lng: -68.2406404,
     direccion: "Santiago del Estero 864",
     telefono: "(299) 493-7203",
     correo: ""
@@ -2964,6 +3584,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Neuquén",
     ciudad: "Plottier",
+    lat: -38.9483117,
+    lng: -68.226839,
     direccion: "Sargento Cabral y Paraguay",
     telefono: "(299) 493-6098",
     correo: ""
@@ -2973,6 +3595,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "Neuquén",
     ciudad: "San Martín de los Andes",
+    lat: -40.1594537,
+    lng: -71.3511387,
     direccion: "Teniente Coronel Pérez y Carlos Weber",
     telefono: "(29372) 42-8145 / (299) 606-7656",
     correo: "equidiversidadsma@gmail.com"
@@ -2983,6 +3607,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Neuquén",
     ciudad: "San Martín de los Andes",
+    lat: -40.148339,
+    lng: -71.3270148,
     direccion: "Pasaje del Pueblo 247",
     telefono: "(297) 42-6033 / 215-42-7211",
     correo: "equipodiversidadsma@gmail.com"
@@ -2993,6 +3619,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares",
     provincia: "Neuquén",
     ciudad: "Senillosa",
+    lat: -39.014747,
+    lng: -68.4362261,
     direccion: "Belgrano y Neuquén",
     telefono: "(299) 689-4212",
     correo: "adolescencia.hospitalsenillosa@gmail.com"
@@ -3003,6 +3631,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Ginecología, Grupo de Pares, Trabajo Social",
     provincia: "Neuquén",
     ciudad: "Villa La Angostura",
+    lat: -40.7793223,
+    lng: -71.6555632,
     direccion: "Boulevard Nahuel Huapi 1107",
     telefono: "(2944) 49-4170 (int. 35/27)",
     correo: "consultoriointegraldiversovla@gmail.com"
@@ -3013,6 +3643,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Grupo de Pares, Trabajo Social",
     provincia: "Río Negro",
     ciudad: "Allen",
+    lat: -38.9791554,
+    lng: -67.8197652,
     direccion: "Quesnel S/N",
     telefono: "(2984) 760-683",
     correo: "consultorioamigable.lgbtiq@gmail.com"
@@ -3023,6 +3655,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Río Negro",
     ciudad: "Catriel",
+    lat: -37.86238,
+    lng: -67.7907657,
     direccion: "Av. Gral. Mosconi 1699",
     telefono: "(299) 654-7362",
     correo: ""
@@ -3034,6 +3668,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Clínica Médica, Trabajo Social",
     provincia: "Río Negro",
     ciudad: "Cipolletti",
+    lat: -38.9419376,
+    lng: -67.9918495,
     direccion: "Fernandez Oro 770 (esq. Sáenz Peña)",
     telefono: "(299) 4290235 / 4770030 / 4792563 (int. 153)",
     correo:
@@ -3045,6 +3681,8 @@ const Salud = [
       "Atención a Infancias, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Ginecología, Clínica Médica",
     provincia: "Río Negro",
     ciudad: "El Bolsón",
+    lat: -41.9579886,
+    lng: -71.541808,
     direccion: "Av. los Cipreses 3240",
     telefono: "(294) 491-3353 / 472-0331",
     correo: "cicprimaverattnb@gmail.com"
@@ -3054,6 +3692,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Grupo de Pares",
     provincia: "Río Negro",
     ciudad: "General Roca",
+    lat: -39.0185769,
+    lng: -67.5947534,
     direccion: "Gelonch 721",
     telefono: "(2984) 165-557",
     correo: ""
@@ -3063,6 +3703,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "Río Negro",
     ciudad: "Río Colorado",
+    lat: -38.91010267358859,
+    lng: -67.98244730438678,
     direccion: "Eliseo Calegari 1250",
     telefono: "",
     correo: ""
@@ -3072,6 +3714,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Salud Mental, Atención Integral",
     provincia: "Río Negro",
     ciudad: "San Carlos de Bariloche",
+    lat: -41.1362058,
+    lng: -71.3001011,
     direccion: "Moreno 601",
     telefono: "(294) 480-7979",
     correo: "adolescenciasbariloche@gmail.com"
@@ -3081,6 +3725,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Río Negro",
     ciudad: "Villa Regina",
+    lat: -39.1015629,
+    lng: -67.0846347,
     direccion: "Fray Luis Beltrán 496",
     telefono: "(298) 446-1277",
     correo: ""
@@ -3090,6 +3736,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "Salta",
     ciudad: "Cafayate",
+    lat: -26.0673322,
+    lng: -65.983162,
     direccion: "12 de Octubre (esq. Costanera)",
     telefono: "",
     correo: "nadua144@hotmail.com"
@@ -3099,6 +3747,8 @@ const Salud = [
     especialidad: "Atención a Infancias",
     provincia: "Salta",
     ciudad: "Salta",
+    lat: -24.8100006,
+    lng: -65.3803152,
     direccion: "Av. José de Artigas 902",
     telefono: "(387) 428-1393",
     correo: ""
@@ -3109,6 +3759,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Ginecología, Clínica Médica",
     provincia: "Salta",
     ciudad: "Salta",
+    lat: -24.7814706,
+    lng: -65.4158763,
     direccion: "Sarmiento 655",
     telefono: "(387) 442-7152 / 431-9349 / 421-3387 / 431-7400 / 0800-777-6452",
     correo: "hsmcapacitacion@gmail.com"
@@ -3118,6 +3770,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Salta",
     ciudad: "Salta",
+    lat: -24.7883597,
+    lng: -65.3989494,
     direccion: "Paz Chaín 30",
     telefono: "",
     correo: ""
@@ -3127,6 +3781,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Salud Mental",
     provincia: "San Juan",
     ciudad: "Pocito",
+    lat: -31.5913181,
+    lng: -68.5530919,
     direccion: "Lemos y Picasso",
     telefono: "(264) 576-2274",
     correo: "lic.patricialopeznarvaez@gmail.com"
@@ -3137,6 +3793,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Cirugía de Masculinización Tórax",
     provincia: "San Juan",
     ciudad: "San Juan",
+    lat: -31.5216111,
+    lng: -68.5165964,
     direccion: "Av. Guillermo Rawson Sur 494",
     telefono: "(264) 621-0689",
     correo: ""
@@ -3146,6 +3804,8 @@ const Salud = [
     especialidad: "Atención a Infancias",
     provincia: "San Juan",
     ciudad: "San Juan",
+    lat: -31.530056615152713,
+    lng: -68.59582530140682,
     direccion: "Av. Libertador Gral. San Martín 5401",
     telefono: "",
     correo: ""
@@ -3155,6 +3815,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "San Juan",
     ciudad: "San Juan",
+    lat: -31.500853,
+    lng: -68.5404772,
     direccion: "Av. Libertador y Calle Las Heras",
     telefono: "(264) 430-6981",
     correo: "iniciativamildias@gmail.com"
@@ -3165,6 +3827,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Grupo de Pares, Clínica Médica, Trabajo Social",
     provincia: "San Juan",
     ciudad: "Villa Krause",
+    lat: -31.573125352740586,
+    lng: -68.52816662490439,
     direccion: "Tierra del Fuego Este y C. Fermín Rodríguez Este",
     telefono: "(264) 424-2610 / 0800-222-4002",
     correo: "rotonda.carf@gmail.com"
@@ -3174,6 +3838,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "San Luis",
     ciudad: "Carpintería",
+    lat: -32.4107421,
+    lng: -64.999353,
     direccion: "Pringles y San Martín",
     telefono: "(2656) 47-9157",
     correo: "cscarpinteria@gmail.com"
@@ -3183,6 +3849,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "San Luis",
     ciudad: "Cortaderas",
+    lat: -32.50637235957521,
+    lng: -64.98560366393653,
     direccion: "Calle Gral. San Martín S/N",
     telefono: "(2664) 61-4654 / 445-2000 (int. 5309)",
     correo: ""
@@ -3192,6 +3860,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "San Luis",
     ciudad: "La Calera",
+    lat: -33.282868169802846,
+    lng: -66.32257907646428,
     direccion: "Pasaje La Calera 136",
     telefono: "(266) 4614654 / 445-2000 (int. 5206)",
     correo: ""
@@ -3202,6 +3872,8 @@ const Salud = [
       "Atención a Infancias, Salud Mental, Ginecología, Trabajo Social",
     provincia: "San Luis",
     ciudad: "La Punta",
+    lat: -33.188058,
+    lng: -66.3131842,
     direccion: "5 Sur entre 8 Este y Av. Serrana",
     telefono: "(266) 445-2000 (int. 5002)",
     correo: "adolescenciasanluis@gmail.com"
@@ -3211,6 +3883,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "San Luis",
     ciudad: "Los Molles",
+    lat: -32.4354127,
+    lng: -65.0083569,
     direccion: "Pringles y Belgrano",
     telefono: "(266) 445-2000 (int. 5311)",
     correo: ""
@@ -3220,6 +3894,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "San Luis",
     ciudad: "Merlo",
+    lat: -32.3230977,
+    lng: -65.0351135,
     direccion: "Ruta 1 y El Ceibo",
     telefono: "",
     correo: ""
@@ -3229,6 +3905,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "San Luis",
     ciudad: "Papagayos",
+    lat: -32.6753403,
+    lng: -64.9887669,
     direccion: "Av. Comechingones 150",
     telefono: "",
     correo: ""
@@ -3239,6 +3917,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Ginecología, Grupo de Pares",
     provincia: "San Luis",
     ciudad: "San Luis",
+    lat: -33.28223136541646,
+    lng: -66.33591610234926,
     direccion: "Marcelino Poblet 668",
     telefono: "",
     correo: "adolescenciassanluis@gmail.com"
@@ -3249,6 +3929,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "San Luis",
     ciudad: "San Luis",
+    lat: -33.1385127,
+    lng: -66.5200498,
     direccion: "San Gerónimo S/N",
     telefono: "(2656) 473-712 / (2664) 175-949",
     correo: "centrodesaludsangeronimo@gmail.com"
@@ -3258,6 +3940,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "San Luis",
     ciudad: "Santa Rosa del Conlara",
+    lat: -32.342821,
+    lng: -65.208157,
     direccion: "Santa Rosa de Lima y 9 de Julio",
     telefono: "(2656) 49-2020",
     correo: ""
@@ -3267,6 +3951,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "San Luis",
     ciudad: "Unión",
+    lat: -35.15468098393773,
+    lng: -65.94513784462717,
     direccion: "Av. A. Dassa 510",
     telefono: "(2954) 51-0037",
     correo: ""
@@ -3276,6 +3962,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
     provincia: "San Luis",
     ciudad: "Villa Mercedes",
+    lat: -33.7042516,
+    lng: -65.4337419,
     direccion: "Héctor Aubert S/N",
     telefono: "",
     correo: ""
@@ -3286,6 +3974,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
     provincia: "Santa Cruz",
     ciudad: "El Calafate",
+    lat: -50.3347615,
+    lng: -72.2463137,
     direccion: "Av. Jorge Newbery 453",
     telefono: "(2902) 491-831 (int. 2226)",
     correo: "derechosysalud.samic@gmail.com"
@@ -3295,6 +3985,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "Santa Cruz",
     ciudad: "Gobernador Gregores",
+    lat: -48.7549907,
+    lng: -70.2452704,
     direccion: "Mario Paradelo 1025",
     telefono: "(2966) 589-694",
     correo: ""
@@ -3304,6 +3996,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Santa Cruz",
     ciudad: "Las Heras",
+    lat: -46.54934961199202,
+    lng: -68.92259151540017,
     direccion: "28 de Noviembre 315",
     telefono: "(2974) 093-328",
     correo: ""
@@ -3314,6 +4008,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Santa Fe",
     ciudad: "Acebal",
+    lat: -33.2404687,
+    lng: -60.829703,
     direccion: "Aristóbulo Del Valle 303",
     telefono: "(3469) 400082",
     correo: ""
@@ -3323,6 +4019,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Santa Fe",
     ciudad: "Arroyo Seco",
+    lat: -33.1522446,
+    lng: -60.5180135,
     direccion: "Cardozo y Juárez Celman",
     telefono: "(341) 5091600 / (3402) 42-9029",
     correo: ""
@@ -3333,6 +4031,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Bigand",
+    lat: -33.3746119,
+    lng: -61.1800554,
     direccion: "San Martín 1088",
     telefono: "(3464) 461028",
     correo: ""
@@ -3343,6 +4043,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Capitán Bermúdez",
+    lat: -32.8193559,
+    lng: -60.7121099,
     direccion: "Escalada 136",
     telefono: "(341) 4912388",
     correo: "samcocb@gmail.com"
@@ -3353,6 +4055,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Carlos Pellegrini",
+    lat: -32.0474551,
+    lng: -61.7844037,
     direccion: "San Martín 721",
     telefono: "(3401) 48-0217",
     correo: "samcocp@carpell.com.ar"
@@ -3362,6 +4066,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Santa Fe",
     ciudad: "Casilda",
+    lat: -33.0520296,
+    lng: -61.182569,
     direccion: "Hipólito Yrigoyen 3616 (esq. Saavedra)",
     telefono: "(3464) 429051",
     correo: "centrodesaludnuevaroma@hotmail.com.ar"
@@ -3371,6 +4077,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Casilda",
+    lat: -33.03675969972988,
+    lng: -61.15748377030632,
     direccion: "Boulevard 9 de Julio 2351",
     telefono: "(3464) 422107 / 422382",
     correo: "sancarlos@knett.com.ar"
@@ -3380,6 +4088,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Santa Fe",
     ciudad: "Coronel Domínguez",
+    lat: -33.1844289,
+    lng: -60.721565,
     direccion: "Domínguez 370",
     telefono: "(3402) 49-3138",
     correo: "dominguezsalud@hotmail.com"
@@ -3390,6 +4100,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Esperanza",
+    lat: -31.4422024,
+    lng: -60.9361923,
     direccion: "Janssen 2693",
     telefono: "(3496) 420027 / 420263 / 420317 / 6883 / 414962",
     correo: "samcoesperanza@esperanza.gov.ar"
@@ -3399,6 +4111,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Santa Fe",
     ciudad: "Fighiera",
+    lat: -33.1970961,
+    lng: -60.4672236,
     direccion: "Saavedra 557 (esq. Belgrano)",
     telefono: "(3402) 470746",
     correo: ""
@@ -3408,6 +4122,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Funes",
+    lat: -32.9191693,
+    lng: -60.8119118,
     direccion: "Angelomé y Sarmiento",
     telefono: "(341) 493-6010",
     correo: ""
@@ -3418,6 +4134,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Funes",
+    lat: -32.9078186,
+    lng: -60.8008635,
     direccion: "Avila y Monteagudo",
     telefono: "(341) 493-6011",
     correo: ""
@@ -3427,6 +4145,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Granadero Baigorria",
+    lat: -32.8565921,
+    lng: -60.704995,
     direccion: "Av. San Martín 1645",
     telefono: "(341) 471-0940",
     correo: "secretariaheep@santafe.gov.ar"
@@ -3437,6 +4157,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Las Parejas",
+    lat: -32.6765879,
+    lng: -61.5133955,
     direccion: "Av. 21 y Calle 6",
     telefono: "(371) 471-200",
     correo: "hospitallasparejas@yahoo.com.ar"
@@ -3446,6 +4168,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Las Rosas",
+    lat: -32.48028,
+    lng: -61.5815426,
     direccion: "Paso de los Andes 419",
     telefono: "(3471) 451205 / 562188",
     correo: "samcolasrosas@hotmail.com"
@@ -3456,6 +4180,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Santa Fe",
     ciudad: "Las Toscas",
+    lat: -28.3488598,
+    lng: -59.2582375,
     direccion: "Calle 29, 451",
     telefono: "(3482) 492134 / 492311",
     correo: "samcolastoscas@hotmail.com"
@@ -3466,6 +4192,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Maciel",
+    lat: -32.4588967,
+    lng: -60.8884349,
     direccion: "Ruta 11 412",
     telefono: "(3476) 470-240",
     correo: "samcomaciel@santafe.gov.ar"
@@ -3476,6 +4204,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "María Juana",
+    lat: -31.6773941,
+    lng: -61.7547481,
     direccion: "Belgrano 252",
     telefono: "(3406) 471-795 / 459-222",
     correo: "samcomjuana@hotmail.com"
@@ -3486,6 +4216,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Santa Fe",
     ciudad: "Murphy",
+    lat: -33.64592345563525,
+    lng: -61.86032544311777,
     direccion: "Moreno y Córdoba",
     telefono: "(3462) 441972",
     correo: ""
@@ -3496,6 +4228,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Santa Fe",
     ciudad: "Pavón Arriba",
+    lat: -33.3109137,
+    lng: -60.8271374,
     direccion: "Buenos Aires 814 (esq. Valerio Carreras)",
     telefono: "(3469) 491541 / 3402657023 / 3469586758",
     correo: "samcopavonarriba@gmail.com"
@@ -3505,6 +4239,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Rafaela",
+    lat: -31.2563261,
+    lng: -61.4970574,
     direccion: "Dante Alighieri 479",
     telefono: "(3492) 426-430",
     correo: "cs4_rafaela@santafe.gov.ar"
@@ -3514,6 +4250,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Rafaela",
+    lat: -31.2444802,
+    lng: -61.501275,
     direccion: "Lisandro de la Torre 737",
     telefono: "(341) 2110054",
     correo: "direccion_rafaela@santafe.gov.ar"
@@ -3523,6 +4261,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Santa Fe",
     ciudad: "Puerto Reconquista",
+    lat: -29.234007038547652,
+    lng: -59.58082872074677,
     direccion: "Los Pescadores S/N",
     telefono: "(342) 4457750",
     correo: ""
@@ -3532,6 +4272,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Reconquista",
+    lat: -29.162464660933185,
+    lng: -59.67799994607922,
     direccion: "Calle 68 y Leandro N. Alem, Manzana 10",
     telefono: "(3482) 487-170 / 660-768",
     correo: ""
@@ -3541,6 +4283,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Reconquista",
+    lat: -29.144619,
+    lng: -59.642549,
     direccion: "San Martín 3830",
     telefono: "(3382) 660768",
     correo: ""
@@ -3551,6 +4295,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Clínica Médica",
     provincia: "Santa Fe",
     ciudad: "Reconquista",
+    lat: -29.1383262,
+    lng: -59.6553973,
     direccion: "Av. Hipólito Yrigoyen 2051",
     telefono: "(3482) 489-100",
     correo:
@@ -3561,6 +4307,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Reconquista",
+    lat: -29.1886312,
+    lng: -59.6842037,
     direccion: "Calle 127 (esq. 72), Barrio Don Carlos",
     telefono: "(3482) 655-122 / 660-768",
     correo: "postadoncarlos@hotmail.com.ar"
@@ -3570,6 +4318,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Roldán",
+    lat: -32.9010103,
+    lng: -60.910487,
     direccion: "Boulevard Sarmiento 900",
     telefono: "(341) 496-1309",
     correo: "samcoroldan@hotmail.com"
@@ -3579,6 +4329,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Santa Fe",
     ciudad: "Romang",
+    lat: -29.4983369,
+    lng: -59.752056,
     direccion: "San Martín 2124",
     telefono: "(3483) 477192",
     correo: ""
@@ -3588,6 +4340,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Santa Fe",
     ciudad: "Rosario",
+    lat: -32.9400671,
+    lng: -60.6637017,
     direccion: "Suipacha 667",
     telefono: "(341) 435-3705",
     correo: "centrodesaludnumero36@gmail.com"
@@ -3597,6 +4351,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Clínica Médica",
     provincia: "Santa Fe",
     ciudad: "Rosario",
+    lat: -32.9464664,
+    lng: -60.6518642,
     direccion: "San Luis 2020",
     telefono: "(341) 489-7200 / 480-2200 / 480-2555 / 224-4889",
     correo: "generoydiversidadcemar@gmail.com"
@@ -3607,6 +4363,8 @@ const Salud = [
       "Atención a Infancias, Ginecología, Clínica Médica, Atención Integral",
     provincia: "Santa Fe",
     ciudad: "Rosario",
+    lat: -32.9195828,
+    lng: -60.6909359,
     direccion: "Juan José Paso y Travesía",
     telefono: "(341) 273-7924 / 480-4535 / (342) 446-9173",
     correo: "sauropushi@gmail.com"
@@ -3616,6 +4374,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Santa Fe",
     ciudad: "Rosario",
+    lat: -32.9123507,
+    lng: -60.6819909,
     direccion: "Av. de los Trabajadores 1331",
     telefono: "(341) 472-4535",
     correo: "especialidadeshnzn@santafe.gov.ar / psicologiahnzn@gmail.com"
@@ -3625,6 +4385,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Rosario",
+    lat: -32.8948146,
+    lng: -60.6904607,
     direccion: "Av. Puccio 575",
     telefono: "(341) 480-6177 (int. 101)",
     correo: "consejeriahjba@gmail.com"
@@ -3634,6 +4396,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Santa Fe",
     ciudad: "Rosario",
+    lat: -32.9385417,
+    lng: -60.6647429,
     direccion: "Urquiza 3101",
     telefono: "(341) 430-7185 / 472-4643 / 472-4649",
     correo: ""
@@ -3643,6 +4407,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Santa Fe",
     ciudad: "San Guillermo",
+    lat: -30.3526069,
+    lng: -61.8999914,
     direccion: "Centenario 445",
     telefono: "(3562) 468185",
     correo: ""
@@ -3653,6 +4419,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Santa Fe",
     ciudad: "San Guillermo",
+    lat: -30.3621045,
+    lng: -61.912876,
     direccion: "Sarmiento 744",
     telefono: "(3562) 44-7888 / 46-7600",
     correo: "samco@sanguillermo.com.ar / samcosanguillermo01@gmail.com"
@@ -3662,6 +4430,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Santa Fe",
     ciudad: "San Javier",
+    lat: -30.583365992494688,
+    lng: -59.93431745393157,
     direccion: "Av. Teófilo Madrejón 1320",
     telefono: "(3405) 424247 / 424104",
     correo: ""
@@ -3671,6 +4441,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "San Lorenzo",
+    lat: -32.7874256,
+    lng: -60.7295083,
     direccion: "Luis Borgui 182",
     telefono: "(341) 5724668",
     correo: ""
@@ -3681,6 +4453,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Santa Fe",
     ciudad: "Santa Fe",
+    lat: -31.5894029,
+    lng: -60.7323876,
     direccion: "Ayacucho 5821",
     telefono: "(342) 457-9290",
     correo: ""
@@ -3690,6 +4464,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Santa Fe",
+    lat: -31.638915032834483,
+    lng: -60.72884512124277,
     direccion: "Estrada 2784",
     telefono: "",
     correo: "cslaloma@santafe.gov.ar"
@@ -3699,6 +4475,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Santa Fe",
+    lat: -31.5966456,
+    lng: -60.7167914,
     direccion: "Estrada y Alberti",
     telefono: "",
     correo: ""
@@ -3708,6 +4486,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Santa Fe",
     ciudad: "Santa Fe",
+    lat: -31.6074219,
+    lng: -60.7125608,
     direccion: "Pedro de Vega 3865",
     telefono: "(342) 457-9244 / 432-6462 / 512-3098",
     correo: ""
@@ -3717,6 +4497,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Santa Fe",
     ciudad: "Santa Fe",
+    lat: -31.5563607,
+    lng: -60.7283922,
     direccion: "Blas Parera 6200",
     telefono: "(342) 457-9279",
     correo: ""
@@ -3726,6 +4508,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Santa Fe",
+    lat: -31.6501826,
+    lng: -60.7056492,
     direccion: "Mendoza 2419",
     telefono: "(342) 478-7676 / 484-4400",
     correo: "direccioncemafe@santafe.gov.ar"
@@ -3735,6 +4519,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Santa Fe",
+    lat: -31.5848693,
+    lng: -60.7347339,
     direccion: "Matheu y Viñas",
     telefono: "(342) 4579101",
     correo: ""
@@ -3745,6 +4531,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
     provincia: "Santa Fe",
     ciudad: "Santa Fe",
+    lat: -31.6450941,
+    lng: -60.7279453,
     direccion: "Mendoza 4151",
     telefono: "(342) 450-5900 (int. 127 / 201)",
     correo: "sadolescenciahnoa@gmail.com"
@@ -3754,6 +4542,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Santa Fe",
+    lat: -32.9213099,
+    lng: -60.6957351,
     direccion: "French 5224",
     telefono: "(342) 457-9237",
     correo: "ssocial_sayago@santafe.gov.ar / direccion_sayago@santafe.gov.ar"
@@ -3763,6 +4553,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Santo Tomé",
+    lat: -31.6662064,
+    lng: -60.7684242,
     direccion: "Córdoba y Necochea",
     telefono: "(342) 542-5516",
     correo: "capsevadperon@gmail.com"
@@ -3773,6 +4565,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Santo Tomé",
+    lat: -31.6829741,
+    lng: -60.7542645,
     direccion: "12 de Septiembre y Azcuénaga",
     telefono: "(342) 474-3444 (int. 4915)",
     correo: "samconanzer@gmail.com"
@@ -3782,6 +4576,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Sauce Viejo",
+    lat: -31.701640271800375,
+    lng: -60.762648472200354,
     direccion: "Calle 71 y Remedio de Escalada de San Martín",
     telefono: "(342) 499-6311 / 545-1793",
     correo: ""
@@ -3791,6 +4587,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Sauce Viejo",
+    lat: -31.7710819,
+    lng: -60.836596,
     direccion: "Las Heras y Rivadavia",
     telefono: "(342) 495-0678",
     correo: ""
@@ -3800,6 +4598,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Sauce Viejo",
+    lat: -31.7023586,
+    lng: -60.7696428,
     direccion: "Pasaje 6 entre Victoria Ocampo y Juan José Paso",
     telefono: "(342) 480-2804",
     correo: ""
@@ -3810,6 +4610,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Suardi",
+    lat: -30.5365136,
+    lng: -61.9614783,
     direccion: "Dr. Fernández 365",
     telefono: "(3562) 441-338",
     correo: "hospitalsuardi@hotmail.com"
@@ -3819,6 +4621,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Teodelina",
+    lat: -34.1432104,
+    lng: -61.4781279,
     direccion: "Sarmiento 449",
     telefono: "(3462) 557096",
     correo: "samcoteodelina@yahoo.com.ar"
@@ -3828,6 +4632,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Tostado",
+    lat: -29.23819364712673,
+    lng: -61.77047646637991,
     direccion: "Hipólito Irigoyen y 6 de Caballería",
     telefono: "(3491) 437335",
     correo: ""
@@ -3837,6 +4643,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Tostado",
+    lat: -29.2155733,
+    lng: -61.7684067,
     direccion: "Chaco S/N",
     telefono: "(3491) 437335",
     correo: ""
@@ -3846,6 +4654,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Venado Tuerto",
+    lat: -33.7590358,
+    lng: -61.9419552,
     direccion: "Santa Fe 1311",
     telefono: "(3462) 405-902",
     correo: "secretariadedireccion2017@hotmail.com"
@@ -3855,6 +4665,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Santa Fe",
     ciudad: "Vera",
+    lat: -29.45534,
+    lng: -60.2209267,
     direccion: "Soldado Gómez 2400",
     telefono: "(342) 4457750",
     correo: ""
@@ -3864,6 +4676,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Villa Gobernador Gálvez",
+    lat: -32.03644704437168,
+    lng: -61.229698082291115,
     direccion: "Pedro P. Ceci y 9 de Julio",
     telefono: "(3404) 433-393",
     correo: "capsideal@cegnet.com.ar"
@@ -3873,6 +4687,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Santa Fe",
     ciudad: "Villa Gobernador Gálvez",
+    lat: -33.025917780865,
+    lng: -60.64796334956165,
     direccion: "Ing. Mosconi 1541 (esq. 9 de Julio)",
     telefono: "(341) 317-8847",
     correo: ""
@@ -3882,6 +4698,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Santa Fe",
     ciudad: "Villa Gobernador Gálvez",
+    lat: -33.036264,
+    lng: -60.6539489,
     direccion: "Suipacha 3040",
     telefono: "(341) 4269861",
     correo: ""
@@ -3891,6 +4709,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Villa Gobernador Gálvez",
+    lat: -33.0236385,
+    lng: -60.6310782,
     direccion: "Balcarce 1355",
     telefono: "(341) 492-12223",
     correo: "hospitalgamen@yahoo.com.ar"
@@ -3901,6 +4721,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Santa Fe",
     ciudad: "Villa Gobernador Gálvez",
+    lat: -32.017977081171324,
+    lng: -61.226588872381484,
     direccion: "Bartolomé Mitre 1551",
     telefono: "(3404) 480391 / 481115",
     correo: "samcogalvez@sme.dataco30.com.ar"
@@ -3910,6 +4732,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Santa Fe",
     ciudad: "Villa Ocampo",
+    lat: -28.4952245,
+    lng: -59.3540046,
     direccion: "Chacabuco y Alberdi",
     telefono: "(3482) 575367",
     correo: ""
@@ -3920,6 +4744,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Villa Ocampo",
+    lat: -28.49985,
+    lng: -59.3498885,
     direccion: "Dr. Farran 2021/2129",
     telefono: "(3482) 466-002",
     correo: "turnossamcovillaocampo@gmail.com"
@@ -3929,6 +4755,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Trabajo Social",
     provincia: "Santiago del Estero",
     ciudad: "La Banda",
+    lat: -27.7273118,
+    lng: -64.2295706,
     direccion: "Aristóbulo del Valle 1699",
     telefono: "(385) 416-2701 / 600-6879 / 627-9845",
     correo: ""
@@ -3939,6 +4767,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Ginecología",
     provincia: "Santiago del Estero",
     ciudad: "Santiago del Estero",
+    lat: -27.7792666,
+    lng: -64.2733716,
     direccion: "Misiones 1087",
     telefono: "0800-777-2377 / (385) 4210812 / 4216890 (int. 1023)",
     correo:
@@ -3950,6 +4780,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Clínica Médica, Trabajo Social",
     provincia: "Santiago del Estero",
     ciudad: "Santiago del Estero",
+    lat: -27.7795196,
+    lng: -64.2718455,
     direccion: "Av. Belgrano Norte 660",
     telefono: "(385) 422-2938 / 473-7984 / 421-1515",
     correo: "ministeriosaludsantiago@gmail.com"
@@ -3959,6 +4791,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santiago del Estero",
     ciudad: "Santiago del Estero",
+    lat: -27.7962673,
+    lng: -64.2957388,
     direccion: "Manzana 14 S/N, Barrio Belén",
     telefono: "(385) 068-440 / 473-7984 / 477-8640",
     correo: "upa25barriobelen@gmail.com"
@@ -3968,6 +4802,8 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Tierra del Fuego",
     ciudad: "Islas Malvinas, Puerto Argentino",
+    lat: -51.69218657548685,
+    lng: -57.86855876700162,
     direccion: "St Mary's Walk",
     telefono: "(500) 28000",
     correo: "reception@kemh.gov.fk"
@@ -3978,6 +4814,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Clínica Médica",
     provincia: "Tierra del Fuego",
     ciudad: "Río Grande",
+    lat: -53.7694225,
+    lng: -67.731218,
     direccion: "Isla de los Estados 1195",
     telefono: "(2964) 43-6223 (int. 6065) / 44-3074",
     correo: ""
@@ -3989,6 +4827,8 @@ const Salud = [
       "Endocrinología, Salud Mental, Clínica Médica, Trabajo Social",
     provincia: "Tierra del Fuego",
     ciudad: "Río Grande",
+    lat: -53.802672272422484,
+    lng: -67.66017098860993,
     direccion: "Orosky y Karukinka",
     telefono: "(2964) 662811",
     correo: "subsediversidad@gmail.com"
@@ -3999,6 +4839,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Clínica Médica",
     provincia: "Tierra del Fuego",
     ciudad: "Río Grande",
+    lat: -53.80752627242417,
+    lng: -67.6768389309388,
     direccion: "Corbeta Guerrico y Submarino Sta. Fe",
     telefono: "(2964) 46-7272",
     correo: "cps.infantojuvenil@gmail.com"
@@ -4009,6 +4851,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Clínica Médica, Trabajo Social",
     provincia: "Tierra del Fuego",
     ciudad: "Río Grande",
+    lat: -53.7821237,
+    lng: -67.6989925,
     direccion: "Florentino Ameghino 709",
     telefono: "(2964) 42-3222 / 42-2042 / 42-2086",
     correo: "vmuller@tierradelfuego.gob.ar"
@@ -4019,6 +4863,8 @@ const Salud = [
       "Atención a Infancias, Salud Mental, Clínica Médica, Trabajo Social",
     provincia: "Tierra del Fuego",
     ciudad: "Tolhuin",
+    lat: -54.51056188613015,
+    lng: -67.19492653090096,
     direccion: "Avenida Los Shelknams 273",
     telefono: "(2901) 64-5844 / 49-2121",
     correo: "caps1ush@tierradelfuego.gob.ar / generalistascat@gmail.com"
@@ -4029,6 +4875,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Clínica Médica, Trabajo Social",
     provincia: "Tierra del Fuego",
     ciudad: "Ushuaia",
+    lat: -54.8024469,
+    lng: -68.3140352,
     direccion: "Gobernador Valdez 894",
     telefono: "(2901) 58-1545 / 44-1028 / 59-1103",
     correo: "consultoriodediversidadushuaia@gmail.com / capstressalud@gmail.com"
@@ -4038,6 +4886,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Trabajo Social",
     provincia: "Tierra del Fuego",
     ciudad: "Ushuaia",
+    lat: -54.81373287202315,
+    lng: -68.32357290346708,
     direccion: "12 de Octubre y Maipú",
     telefono: "(2901) 58-1545 / 42-3200 / 44-1000",
     correo: ""
@@ -4048,6 +4898,8 @@ const Salud = [
       "Hormonización, Endocrinología, Cirugía de Masculinización Tórax",
     provincia: "Tucumán",
     ciudad: "Concepción",
+    lat: -27.3454217,
+    lng: -65.6043219,
     direccion: "San Luis 150",
     telefono: "(3865) 421784",
     correo: ""
@@ -4057,6 +4909,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Clínica Médica",
     provincia: "Tucumán",
     ciudad: "Lules",
+    lat: -26.9294351,
+    lng: -65.3387446,
     direccion: "Belgrano 300",
     telefono: "(381) 481-1355 / 156454212",
     correo: "portalpaciente@telemedicinamsptucuman.com.ar"
@@ -4067,6 +4921,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "Tucumán",
     ciudad: "San Miguel de Tucumán",
+    lat: -26.8111212,
+    lng: -65.1918714,
     direccion: "Alsina 4700",
     telefono: "(381) 539-4617 / 439-5021 / (3816) 27-7711 / (3876) 11-4548",
     correo: "laumagadan@hotmail.com / transformandofamiliasf@gmail.com"
@@ -4077,6 +4933,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Clínica Médica",
     provincia: "Tucumán",
     ciudad: "San Miguel de Tucumán",
+    lat: -26.8111212,
+    lng: -65.1918714,
     direccion: "Avenida Juan B. Justo 1577",
     telefono: "(381) 4282263 / 262-9148",
     correo: ""
@@ -4087,6 +4945,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Clínica Médica, Trabajo Social",
     provincia: "Tucumán",
     ciudad: "San Miguel de Tucumán",
+    lat: -26.79591501672503,
+    lng: -65.19840073110994,
     direccion: "Ildefonso de las Muñecas 2550",
     telefono: "(381) 317-0458 / 427-6303 / 427-9721",
     correo: ""
@@ -4097,6 +4957,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Ginecología",
     provincia: "Tucumán",
     ciudad: "San Miguel de Tucumán",
+    lat: -26.83607921998982,
+    lng: -65.20683638905523,
     direccion: "General José María Paz 555 3°B",
     telefono: "0800-4444-999 / (381) 4844-000 (int. 504 / 505)",
     correo: "ssyrtucuman@gmail.com / mij_ssyr@msptucuman.gov.ar"
