@@ -225,13 +225,13 @@
 .salud-emails {
   display: flex;
   flex-direction: column;
+  min-width: 0;
 
   a {
     display: block;
     color: $blue;
     text-decoration: none;
-    white-space: nowrap;
-    word-break: keep-all;
+    overflow-wrap: anywhere;
 
     &:hover {
       text-decoration: underline;
@@ -278,8 +278,8 @@
 
 // Leaflet popup restyle
 .salud-popup {
-  min-width: 220px;
-  max-width: 280px;
+  min-width: 240px;
+  max-width: 340px;
 
   .salud-popup-title {
     color: $black;
@@ -316,12 +316,12 @@
   .salud-popup-emails {
     display: flex;
     flex-direction: column;
+    min-width: 0;
 
     a {
       display: block;
       color: #1a73e8;
-      white-space: nowrap;
-      word-break: keep-all;
+      overflow-wrap: anywhere;
     }
   }
 }

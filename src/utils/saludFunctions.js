@@ -31,7 +31,7 @@ const getCoords = (item, index) => {
 
 const splitEmails = (correo = "") =>
   correo
-    .split("/")
+    .split(/[/,]/)
     .map((email) => email.trim())
     .filter(Boolean);
 

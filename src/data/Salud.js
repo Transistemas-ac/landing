@@ -1504,7 +1504,7 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Clínica Médica, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Tres Arroyos",
-    direccion: "José Manuel Estrada 955",
+    direccion: "Avenida Primera Junta 440",
     telefono: "(2983) 439404 / 413523 / 572400 / 439400",
     correo: "consultorioamigabletsas@gmail.com"
   },
@@ -1659,11 +1659,11 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°49",
+    nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°49 - Conjunto Habitacional Orma y Magaldi",
     especialidad: "Endocrinología, Salud Mental, Grupo de Pares",
     provincia: "CABA",
     ciudad: "Barracas",
-    direccion: "Camino de Sirga, Agustín Magaldi",
+    direccion: "Camino de Sirga S/N",
     telefono: "1130490358 / 2821-3649",
     correo: "saludsexualcesac49@gmail.com"
   },
@@ -1771,7 +1771,7 @@ const Salud = [
     especialidad: "Endocrinología",
     provincia: "CABA",
     ciudad: "La Paternal",
-    direccion: "Fragata Sarmiento 2152, 1er Piso",
+    direccion: "Fragata Sarmiento 2152, 1° Piso",
     telefono: "011 2821-3671",
     correo: "cemar1diversidad@gmail.com"
   },
@@ -1892,11 +1892,11 @@ const Salud = [
     correo: "diversidadhospitalrivadavia@gmail.com"
   },
   {
-    nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°47",
+    nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°47 - Barrio 31",
     especialidad: "Endocrinología",
     provincia: "CABA",
     ciudad: "Retiro",
-    direccion: "Calle Playón (ex Galpón Sic) Barrio 31",
+    direccion: "Alpaca 620",
     telefono: "2821-3647 / 1140785930",
     correo: "consultoriodiversidad47@gmail.com / 47.cesac@gmail.com"
   },
@@ -2251,7 +2251,7 @@ const Salud = [
     especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Córdoba",
     ciudad: "CBA",
-    direccion: "Manzana 11, Barrio Ciudad Ampliación Ferreyra",
+    direccion: "Calle 10 S/N, Manzana 11",
     telefono: "(351) 631-0092",
     correo: "capsamplferreyra@gmail.com"
   },
@@ -2268,7 +2268,7 @@ const Salud = [
     nombre: "Centro de Salud N°72 Barrio La Floresta",
     especialidad: "Atención a Infancias, Salud Mental",
     provincia: "Córdoba",
-    ciudad: "CBA",
+    ciudad: "CBA, Malvinas Argentinas",
     direccion: "Las Orquídeas S/N",
     telefono: "(351) 751-6112",
     correo: ""
@@ -2571,7 +2571,7 @@ const Salud = [
     especialidad: "Hormonización, Endocrinología",
     provincia: "Córdoba",
     ciudad: "Unión, Bell Ville",
-    direccion: "Jerónimo del Barco 1289",
+    direccion: "Gerónimo del Barco 1289",
     telefono: "0800-555-4141",
     correo: "hospitalbellvillecba@gmail.com"
   },
@@ -2590,7 +2590,7 @@ const Salud = [
       "Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
     provincia: "Corrientes",
     ciudad: "Monte Caseros",
-    direccion: "Caa Guazú 955",
+    direccion: "Caá Guazú 955",
     telefono: "(3775) 45-0192",
     correo: ""
   },
@@ -2636,7 +2636,7 @@ const Salud = [
     especialidad: "Atención a Infancias, Trabajo Social",
     provincia: "Formosa",
     ciudad: "Formosa",
-    direccion: "Elías de Caanepa y Soldado Formoseño",
+    direccion: "Av. Ana Esther Elías de Caanepa y Calle 250",
     telefono: "(370) 444-5885",
     correo: "serviciosocialhd8@gmail.com"
   },
@@ -2645,7 +2645,7 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Endocrinología",
     provincia: "Formosa",
     ciudad: "Formosa",
-    direccion: "Av. Lucas Barberis 200-298",
+    direccion: "Av. Lucas Barberis 250",
     telefono: "(370) 444-5561",
     correo: ""
   },
@@ -2820,7 +2820,7 @@ const Salud = [
     correo: "trabajosocialschestakow@gmail.com"
   },
   {
-    nombre: "Centro de Atención Primaria de Salud (CAPS) N°198 La Arboleda",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) N°198 Fermín Carrizo - La Arboleda",
     especialidad:
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Mendoza",
@@ -2896,11 +2896,11 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "Hospital Loncopué Dr. José E. Cuevas",
+    nombre: "Hospital Loncopué Dr. José Enrique Cuevas",
     especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Neuquén",
     ciudad: "Loncopué",
-    direccion: "Antártida Argentina 1245, Edificio 3",
+    direccion: "Av. San Martín (entre Calle David Almendra y Don Bosco)",
     telefono: "(299) 449-5590 / 5591",
     correo: ""
   },
@@ -2927,7 +2927,7 @@ const Salud = [
     especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Neuquén",
     ciudad: "Neuquén",
-    direccion: "Coronel Godoy y Lighuen E. 1549",
+    direccion: "Lighuen E. 1549 (esq. Coronel Godoy)",
     telefono: "",
     correo: "sminfanciasyadolescenciashhh@gmail.com"
   },
@@ -3142,11 +3142,11 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "Hospital Marcial Quiroga",
+    nombre: "Hospital Público Dr.Marcial Quiroga",
     especialidad: "Atención a Infancias",
     provincia: "San Juan",
     ciudad: "San Juan",
-    direccion: "Calle R. Calívar y Av. Libertador",
+    direccion: "Av. Libertador Gral. San Martín 5401",
     telefono: "",
     correo: ""
   },
@@ -3160,7 +3160,7 @@ const Salud = [
     correo: "iniciativamildias@gmail.com"
   },
   {
-    nombre: "Centro de Adiestramiento Dr. René Favaloro (CARF) La Rotonda",
+    nombre: "Centro de Adiestramiento Dr. René Favaloro (CARF) La Rotonda - Consultorio de Diversidad y Salud Sexual",
     especialidad:
       "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Grupo de Pares, Clínica Médica, Trabajo Social",
     provincia: "San Juan",
@@ -3179,16 +3179,16 @@ const Salud = [
     correo: "cscarpinteria@gmail.com"
   },
   {
-    nombre: "Centro de Atención Primaria de Salud (CAPS) Cortaderas",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) N°54 - Cortaderas",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "San Luis",
     ciudad: "Cortaderas",
-    direccion: "Calle San Martín S/N",
+    direccion: "Calle Gral. San Martín S/N",
     telefono: "(2664) 61-4654 / 445-2000 (int. 5309)",
     correo: ""
   },
   {
-    nombre: "Centro de Atención Primaria de Salud (CAPS) La Calera",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) N°36 - La Calera",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "San Luis",
     ciudad: "La Calera",
@@ -3234,12 +3234,12 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "Área Provincial de Adolescencia, Ministerio de Salud de San Luis",
+    nombre: "Espacio Weye",
     especialidad:
       "Hormonización, Atención a Infancias, Salud Mental, Ginecología, Grupo de Pares",
     provincia: "San Luis",
     ciudad: "San Luis",
-    direccion: "Marcelino Poblet 668, Casa Weye",
+    direccion: "Marcelino Poblet 668",
     telefono: "",
     correo: "adolescenciassanluis@gmail.com"
   },
@@ -3270,16 +3270,6 @@ const Salud = [
     direccion: "Av. A. Dassa 510",
     telefono: "(2954) 51-0037",
     correo: ""
-  },
-  {
-    nombre:
-      "Centro de Atención Primaria de Salud (CAPS) N°1 Juan Domingo Perón",
-    especialidad: "Atención a Infancias",
-    provincia: "San Luis",
-    ciudad: "Villa Mercedes",
-    direccion: "Manzana Sol Naciente",
-    telefono: "",
-    correo: "caps1jdp@gmail.com"
   },
   {
     nombre: "Hospital Suárez Rocha",
@@ -3314,7 +3304,7 @@ const Salud = [
     especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Santa Cruz",
     ciudad: "Las Heras",
-    direccion: "Colombia 398 Solar 02, Barrio las Américas",
+    direccion: "28 de Noviembre 315",
     telefono: "(2974) 093-328",
     correo: ""
   },
@@ -3496,7 +3486,7 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Santa Fe",
     ciudad: "Murphy",
-    direccion: "",
+    direccion: "Moreno y Córdoba",
     telefono: "(3462) 441972",
     correo: ""
   },
@@ -3532,17 +3522,17 @@ const Salud = [
     nombre: "Centro de Atención Primaria de Salud (CAPS) Puerto Reconquista",
     especialidad: "Hormonización",
     provincia: "Santa Fe",
-    ciudad: "Reconquista",
+    ciudad: "Puerto Reconquista",
     direccion: "Los Pescadores S/N",
     telefono: "(342) 4457750",
     correo: ""
   },
   {
-    nombre: "Centro de Atención Primaria de Salud (CAPS) V Guadalupe",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Barrio Vírgen de Guadalupe",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Reconquista",
-    direccion: "Manzana 10 Calle 68",
+    direccion: "Calle 68 y Leandro N. Alem, Manzana 10",
     telefono: "(3482) 487-170 / 660-768",
     correo: ""
   },
@@ -3696,11 +3686,11 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "Centro de Atención Primaria de Salud (CAPS) Las Lomas",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Villa Las Lomas",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Santa Fe",
-    direccion: "Camino Viejo Esperanza 7000",
+    direccion: "Estrada 2784",
     telefono: "",
     correo: "cslaloma@santafe.gov.ar"
   },
@@ -3788,11 +3778,11 @@ const Salud = [
     correo: "samconanzer@gmail.com"
   },
   {
-    nombre: "Centro de Atención Primaria de Salud (CAPS) Adelina Este",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) Costa Adelina Este",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Sauce Viejo",
-    direccion: "Calle 71 y Calle 12",
+    direccion: "Calle 71 y Remedio de Escalada de San Martín",
     telefono: "(342) 499-6311 / 545-1793",
     correo: ""
   },
@@ -3870,20 +3860,11 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "Centro de Atención Primaria de Salud (CAPS) Barrio Luzuriaga",
-    especialidad: "Hormonización",
-    provincia: "Santa Fe",
-    ciudad: "Villa Constitución",
-    direccion: "David Peña 4777",
-    telefono: "(3400) 660994 / 474057 / 473448",
-    correo: "hospitalvc@arnet.com.ar"
-  },
-  {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Barrio Ideal",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Villa Gobernador Gálvez",
-    direccion: "Ceci y 9 de Julio",
+    direccion: "Pedro P. Ceci y 9 de Julio",
     telefono: "(3404) 433-393",
     correo: "capsideal@cegnet.com.ar"
   },
@@ -3920,7 +3901,7 @@ const Salud = [
     especialidad: "Hormonización",
     provincia: "Santa Fe",
     ciudad: "Villa Gobernador Gálvez",
-    direccion: "Boulevard Mitre 1551",
+    direccion: "Bartolomé Mitre 1551",
     telefono: "(3404) 480391 / 481115",
     correo: "samcogalvez@sme.dataco30.com.ar"
   },
@@ -4018,7 +3999,7 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Clínica Médica",
     provincia: "Tierra del Fuego",
     ciudad: "Río Grande",
-    direccion: "Batalla de Georgias 775",
+    direccion: "Corbeta Guerrico y Submarino Sta. Fe",
     telefono: "(2964) 46-7272",
     correo: "cps.infantojuvenil@gmail.com"
   },
@@ -4106,7 +4087,7 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Clínica Médica, Trabajo Social",
     provincia: "Tucumán",
     ciudad: "San Miguel de Tucumán",
-    direccion: "Calle Ildefonso de las Muñecas 2550",
+    direccion: "Ildefonso de las Muñecas 2550",
     telefono: "(381) 317-0458 / 427-6303 / 427-9721",
     correo: ""
   },

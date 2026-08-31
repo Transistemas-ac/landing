@@ -99,7 +99,7 @@ const SaludMarker = ({ index, coords, item, selected, onSelect }) => {
         click: () => onSelect(index)
       }}
     >
-      <Popup>
+      <Popup maxWidth={380}>
         <div className="salud-popup">
           <h3 className="salud-popup-title">{item.nombre}</h3>
           <p className="salud-popup-especialidad">{item.especialidad}</p>

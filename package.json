@@ -9,7 +9,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "geocode": "node src/utils/generate-geocoding.js"
+    "geocode": "node src/utils/generate-geocoding.js",
+    "geocode:pending": "node src/utils/generate-pending.js",
+    "geocode:apply": "node src/utils/generate-apply.js"
   },
   "dependencies": {
     "@maplibre/maplibre-gl-leaflet": "^0.1.4",

@@ -117,17 +117,21 @@ function HormonizacionProvincia() {
             para ver su información.
           </p>
           <nav className="hormonizacion-provincias-nav" aria-label="Provincias">
-            {provincias.map((other) => (
-              <Link
-                key={other}
-                className={`hormonizacion-provincias-link ${
-                  other === provincia ? "active" : ""
-                }`}
-                to={`/hormonizacion/${getProvinciaSlug(other)}`}
-              >
-                {other}
-              </Link>
-            ))}
+            {provincias.map((other) => {
+              const active = other === provincia;
+              return (
+                <Link
+                  key={other}
+                  className={`hormonizacion-provincias-link ${
+                    active ? "active" : ""
+                  }`}
+                  aria-current={active ? "page" : undefined}
+                  to={active ? "/hormonizacion" : `/hormonizacion/${getProvinciaSlug(other)}`}
+                >
+                  {other}
+                </Link>
+              );
+            })}
           </nav>
         </div>
 

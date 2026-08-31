@@ -14,7 +14,7 @@ const MAX_RETRIES = 3;
 const REQUEST_TIMEOUT_MS = 15000;
 
 const NOMINATIM_URL =
-  "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=1&countrycodes=ar&q=";
+  "https://nominatim.openstreetmap.org/search?format=jsonv2&limit=10&countrycodes=ar&q=";
 
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
@@ -37,22 +37,43 @@ const norm = (text = "") =>
     .replace(/\s+/g, " ")
     .trim();
 
-const isMalvinasItem = (item) =>
-  /malvina|puerto argentino/i.test(`${item.ciudad} ${item.provincia}`);
-
 const normalizeAddress = (direccion = "") =>
   direccion
     .replace(/\([^)]*\)/g, "")
-    .replace(/\bAv\./g, "Avenida")
-    .replace(/\bDr\./g, "Doctor")
-    .replace(/\bGral\./g, "General")
+    .replace(/\b(av|avda|dr|dra|gral|pres|brig|cmte|cnl|may)\b\.?\s*/gi, " ")
     .replace(/\bSta\b/g, "Santa")
     .replace(/\bS\/N\b/gi, "")
     .replace(/\bkm\s*[\d,]+\b/gi, "")
-    .replace(/\bentre\b/gi, "y")
+    .replace(/\s*entre\s+[\s\S]*$/gi, "")
     .replace(/\s+/g, " ")
     .trim()
+    .replace(/[,\s]+$/g, "")
+    .replace(/\s+y\s*$/gi, "")
     .replace(/[,\s]+$/g, "");
+
+const plain = (text = "") =>
+  text
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
+
+const plainStreet = (text = "") =>
+  plain(text)
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+
+const streetKey = (address = "") => {
+  const head = plain(address)
+    .replace(/\s+y\s+[\s\S]*$/, "")
+    .replace(
+      /\b(calle|avenida|av|diag|diagonal|ruta|pasaje|boulevard|blvd|doctor|dr|general|gral)\b/g,
+      " "
+    )
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+  const stripped = head.replace(/(?:\s+\d+[a-z]*)+$/, "");
+  return stripped.length >= 4 ? stripped : head;
+};
 
 const provinceKey = (provincia) =>
   provincia === "CABA"
@@ -74,7 +95,7 @@ const isValidResult = (item, displayName) => {
     return córdobaCapital || barrioOk;
   }
 
-  if (mun === "CABA") {
+  if (mun === "CABA" || item.provincia === "CABA") {
     return true;
   }
 
@@ -98,10 +119,41 @@ const buildQueries = (item) => {
 
   const cityName = mun === "CBA" ? "Córdoba" : ciudad;
   const normalized = normalizeAddress(direccion);
+  const streetPart = normalized.replace(/\s+y\s+[\s\S]*$/i, "").trim();
+  const streetNoNumber = streetPart.replace(/\s+\d+[\d\-/]*$/, "").trim();
+
+  const scope = provincia === "CABA" ? provinceName : `${loc}, ${provinceName}`;
+  const cityScope =
+    provincia === "CABA" ? provinceName : `${cityName}, ${provinceName}`;
 
   const queries = [];
   if (normalized) {
-    queries.push({ query: `${normalized}, ${cityName}, ${provinceName}, Argentina`, source: "address" });
+    queries.push({
+      query: `${normalized}, ${scope}, Argentina`,
+      source: "address",
+      street: streetPart
+    });
+    if (cityScope !== scope) {
+      queries.push({
+        query: `${normalized}, ${cityScope}, Argentina`,
+        source: "address",
+        street: streetPart
+      });
+    }
+    if (streetNoNumber && streetNoNumber !== normalized) {
+      queries.push({
+        query: `${streetNoNumber}, ${scope}, Argentina`,
+        source: "address",
+        street: streetPart
+      });
+      if (cityScope !== scope) {
+        queries.push({
+          query: `${streetNoNumber}, ${cityScope}, Argentina`,
+          source: "address",
+          street: streetPart
+        });
+      }
+    }
   }
   queries.push({ query: `${cityName}, ${provinceName}, Argentina`, source: "ciudad" });
   if (loc !== mun) {
@@ -113,11 +165,17 @@ const buildQueries = (item) => {
   return queries;
 };
 
-const geocode = async (item, retries = 0) => {
-  const queries = buildQueries(item);
+const pick = (result, source) => ({
+  lat: parseFloat(result.lat),
+  lng: parseFloat(result.lon),
+  display_name: result.display_name,
+  source
+});
+
+const fetchResults = async (query) => {
+  const url = `${NOMINATIM_URL}${encodeURIComponent(query)}`;
   let lastError = null;
-  for (const { query, source } of queries) {
-    const url = `${NOMINATIM_URL}${encodeURIComponent(query)}`;
+  for (let attempt = 0; attempt <= MAX_RETRIES; attempt++) {
     try {
       const controller = new AbortController();
       const timer = setTimeout(() => controller.abort(), REQUEST_TIMEOUT_MS);
@@ -129,21 +187,50 @@ const geocode = async (item, retries = 0) => {
       if (!response.ok) {
         throw new Error(`HTTP ${response.status}`);
       }
-      const results = await response.json();
-      for (const result of results) {
-        if (!isValidResult(item, result.display_name)) continue;
-        const { lat, lon, display_name } = result;
-        return {
-          lat: parseFloat(lat),
-          lng: parseFloat(lon),
-          display_name,
-          source
-        };
+      return await response.json();
+    } catch (err) {
+      lastError = err;
+      if (attempt < MAX_RETRIES) {
+        await sleep(REQUEST_DELAY_MS * (attempt + 2));
+      }
+    }
+  }
+  throw lastError;
+};
+
+const geocode = async (item, retries = 0) => {
+  const queries = buildQueries(item);
+  let lastError = null;
+  let addressFallback = null;
+  for (const { query, source, street } of queries) {
+    try {
+      const results = await fetchResults(query);
+      const valid = results.filter((result) =>
+        isValidResult(item, result.display_name)
+      );
+      if (!valid.length) continue;
+      if (source !== "address") {
+        return pick(valid[0], source);
+      }
+      const key = streetKey(street);
+      const streetMatch = key
+        ? valid.find((result) =>
+            plainStreet(result.display_name).includes(key)
+          )
+        : null;
+      if (streetMatch) {
+        return pick(streetMatch, "address");
+      }
+      if (!addressFallback) {
+        addressFallback = pick(valid[0], "ciudad");
       }
     } catch (err) {
       lastError = err;
       await sleep(REQUEST_DELAY_MS);
     }
+  }
+  if (addressFallback) {
+    return addressFallback;
   }
   if (lastError && retries < MAX_RETRIES) {
     await sleep(REQUEST_DELAY_MS * (retries + 2));
@@ -174,8 +261,8 @@ const generate = async () => {
     .map((item, index) => {
       const entry = cache[index];
       if (!entry || typeof entry.lat !== "number") return index;
-      if (entry.source === "manual") {
-        return isMalvinasItem(item) ? null : index;
+      if (entry.source === "manual" || entry.source !== "address") {
+        return null;
       }
       return isValidResult(item, entry.display_name) ? null : index;
     })

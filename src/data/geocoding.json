@@ -1,9 +1,9 @@
 {
   "0": {
-    "lat": -35.4324152,
-    "lng": -60.171624,
-    "display_name": "Veinticinco de Mayo, Partido de Veinticinco de Mayo, Buenos Aires, B6660BVS, Argentina",
-    "source": "ciudad"
+    "lat": -35.4249948,
+    "lng": -60.156494,
+    "display_name": "Calle 37, El Carmen, Veinticinco de Mayo, Partido de Veinticinco de Mayo, Buenos Aires, B6660BVS, Argentina",
+    "source": "address"
   },
   "1": {
     "lat": -35.4368564,
@@ -18,10 +18,10 @@
     "source": "address"
   },
   "3": {
-    "lat": -37.1732599,
-    "lng": -62.7380775,
-    "display_name": "Clerysa, Carhué, Partido de Adolfo Alsina, Buenos Aires, 6430, Argentina",
-    "source": "ciudad"
+    "lat": -37.177292,
+    "lng": -62.7499562,
+    "display_name": "Boulevard Avellaneda, Centro, Carhué, Partido de Adolfo Alsina, Buenos Aires, 6430, Argentina",
+    "source": "address"
   },
   "4": {
     "lat": -38.036065,
@@ -36,16 +36,16 @@
     "source": "address"
   },
   "6": {
-    "lat": -34.7966344,
-    "lng": -58.3447572,
-    "display_name": "Cementerio de Almirante Brown, Rafael Calzada, Partido de Almirante Brown, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -34.7847462,
+    "lng": -58.352095,
+    "display_name": "Hospital Zonal General de Agudos Doctor Arturo Oñativia, 1339, Ramón Carrillo, Rafael Calzada, Partido de Almirante Brown, Buenos Aires, 1847, Argentina",
+    "source": "address"
   },
   "7": {
-    "lat": -34.6648394,
-    "lng": -58.3628061,
-    "display_name": "Avellaneda, Partido de Avellaneda, Buenos Aires, 1870, Argentina",
-    "source": "ciudad"
+    "lat": -34.6741141,
+    "lng": -58.3606209,
+    "display_name": "Centro de Formación Profesional N° 410 \"Manuel Belgrano\", Avenida Manuel Ocampo, Barrio Güemes, Crucecita, Avellaneda, Partido de Avellaneda, Buenos Aires, 1870, Argentina",
+    "source": "address"
   },
   "8": {
     "lat": -34.699846,
@@ -66,10 +66,10 @@
     "source": "address"
   },
   "11": {
-    "lat": -36.777492,
-    "lng": -59.863442,
+    "lat": -36.779564099520144,
+    "lng": -59.866562686540476,
     "display_name": "Azul, Partido de Azul, Buenos Aires, B7300, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "12": {
     "lat": -36.7697971,
@@ -78,10 +78,10 @@
     "source": "address"
   },
   "13": {
-    "lat": -38.7176522,
-    "lng": -62.2654871,
-    "display_name": "Bahía Blanca, Cuartel I, Partido de Bahía Blanca, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -38.7310897,
+    "lng": -62.2280729,
+    "display_name": "Hospital Interzonal General de Agudos “Dr. José Penna”, 2401, Láinez, Villa Libre Sur, Bahía Blanca, Cuartel II, Partido de Bahía Blanca, Buenos Aires, B8001GWY, Argentina",
+    "source": "address"
   },
   "14": {
     "lat": -38.7108935,
@@ -90,10 +90,10 @@
     "source": "address"
   },
   "15": {
-    "lat": -37.846399,
-    "lng": -58.2554648,
-    "display_name": "San José de Balcarce, Partido de Balcarce, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -37.8545604,
+    "lng": -58.2428929,
+    "display_name": "Calle 15, Veteranos de Malvinas, San José de Balcarce, Partido de Balcarce, Buenos Aires, B7620ELN, Argentina",
+    "source": "address"
   },
   "16": {
     "lat": -33.8129203,
@@ -108,10 +108,10 @@
     "source": "address"
   },
   "18": {
-    "lat": -34.7632677,
-    "lng": -58.2116604,
-    "display_name": "Berazategui, Partido de Berazategui, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -34.8063625,
+    "lng": -58.1823927,
+    "display_name": "Calle 52 B, Marítimo, Hudson, Partido de Berazategui, Buenos Aires, 1885, Argentina",
+    "source": "address"
   },
   "19": {
     "lat": -34.8666887,
@@ -138,16 +138,16 @@
     "source": "address"
   },
   "23": {
-    "lat": -34.9373572,
-    "lng": -58.6237837,
+    "lat": -34.93638353612009,
+    "lng": -58.618605503179204,
     "display_name": "Arroyo Cañuelas, Máximo Paz, Partido de Cañuelas, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "24": {
-    "lat": -34.3766574,
-    "lng": -59.8227267,
-    "display_name": "Carmen de Areco, Partido de Carmen de Areco, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -34.3889187,
+    "lng": -59.8239803,
+    "display_name": "Hospital Local General “Nuestra Señora del Carmen”, 409, Carlos M. Espil, Carmen de Areco, Partido de Carmen de Areco, Buenos Aires, 6725, Argentina",
+    "source": "address"
   },
   "25": {
     "lat": -34.6681896,
@@ -162,10 +162,10 @@
     "source": "address"
   },
   "27": {
-    "lat": -35.5786869,
-    "lng": -58.0138252,
-    "display_name": "Chascomús, Partido de Chascomús, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -35.5717903,
+    "lng": -58.0181563,
+    "display_name": "Juárez, San José, Centro, Chascomús, Partido de Chascomús, Buenos Aires, B7130, Argentina",
+    "source": "address"
   },
   "28": {
     "lat": -34.8821528,
@@ -180,10 +180,10 @@
     "source": "address"
   },
   "30": {
-    "lat": -33.8969428,
-    "lng": -61.0993135,
-    "display_name": "Colón, Partido de Colón, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -33.8849743,
+    "lng": -61.0922462,
+    "display_name": "Calle 129, Colón, Partido de Colón, Buenos Aires, B2720CJN, Argentina",
+    "source": "address"
   },
   "31": {
     "lat": -38.8766462,
@@ -216,34 +216,34 @@
     "source": "address"
   },
   "36": {
-    "lat": -34.8127928,
-    "lng": -57.9802798,
-    "display_name": "Comisaría Ensenada 2°, Camino Costanero Almirante Brown, Punta Lara, Partido de Ensenada, Buenos Aires, 1931, Argentina",
-    "source": "ciudad"
+    "lat": -34.8319419,
+    "lng": -57.9523925,
+    "display_name": "Camino Costanero Almirante Brown, Punta Lara, Partido de Ensenada, Buenos Aires, 1931, Argentina",
+    "source": "address"
   },
   "37": {
-    "lat": -34.3453213,
-    "lng": -58.7950701,
+    "lat": -34.93632604263295,
+    "lng": -58.61846930530057,
     "display_name": "Belén de Escobar, Partido de Escobar, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "38": {
-    "lat": -34.3807747,
-    "lng": -59.0426333,
-    "display_name": "Pavón, Partido de Exaltación de la Cruz, Buenos Aires, 2812, Argentina",
-    "source": "localidad"
+    "lat": -34.3786285,
+    "lng": -59.0447137,
+    "display_name": "Ruta Provincial 39, Pavón, Partido de Exaltación de la Cruz, Buenos Aires, 2812, Argentina",
+    "source": "address"
   },
   "39": {
-    "lat": -34.8168141,
-    "lng": -58.5474234,
-    "display_name": "Aeropuerto Internacional Ministro Pistarini, Presbítero Juan González y Aragón, Aeropuerto Internacional Ezeiza, Partido de Ezeiza, Buenos Aires, B1802, Argentina",
-    "source": "ciudad"
+    "lat": -34.8916254,
+    "lng": -58.5377626,
+    "display_name": "Rayo de Sol, La Unión, Partido de Ezeiza, Buenos Aires, B1803HAA, Argentina",
+    "source": "address"
   },
   "40": {
-    "lat": -34.8044384,
-    "lng": -58.2783224,
+    "lat": -34.82079615062796,
+    "lng": -58.285061451748476,
     "display_name": "San Juan Bautista, Partido de Florencio Varela, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "41": {
     "lat": -34.8151116,
@@ -258,16 +258,16 @@
     "source": "address"
   },
   "43": {
-    "lat": -35.765718,
-    "lng": -58.4972221,
-    "display_name": "General Belgrano, Partido de General Belgrano, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -35.7674099,
+    "lng": -58.4853267,
+    "display_name": "25, Avenida 25 de Mayo, General Belgrano, Partido de General Belgrano, Buenos Aires, B7223, Argentina",
+    "source": "address"
   },
   "44": {
-    "lat": -37.250566,
-    "lng": -61.2583194,
-    "display_name": "General La Madrid, Avenida Alem, Centro, General La Madrid, Partido de General La Madrid, Buenos Aires, B7406, Argentina",
-    "source": "ciudad"
+    "lat": -37.2421952,
+    "lng": -61.2742853,
+    "display_name": "Azcuénaga, General La Madrid, Partido de General La Madrid, Buenos Aires, B7406, Argentina",
+    "source": "address"
   },
   "45": {
     "lat": -34.4551279,
@@ -276,10 +276,10 @@
     "source": "address"
   },
   "46": {
-    "lat": -38.0267588,
-    "lng": -57.6045083,
-    "display_name": "General Pueyrredón, Mar del Plata, Partido de General Pueyrredón, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -37.9737027,
+    "lng": -57.608991,
+    "display_name": "Avenida Colón, Jorge Newbery, Mar del Plata, Partido de General Pueyrredón, Buenos Aires, B7602GGC, Argentina",
+    "source": "address"
   },
   "47": {
     "lat": -38.0102265,
@@ -330,22 +330,22 @@
     "source": "address"
   },
   "55": {
-    "lat": -34.546473,
-    "lng": -58.5342619,
+    "lat": -34.54979978721965,
+    "lng": -58.52489255178429,
     "display_name": "25 - General Güemes, Villa Zagala, Villa Concepción, Villa Granaderos de San Martín, Partido de General San Martín, Buenos Aires, B1651, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "56": {
-    "lat": -35.0018533,
-    "lng": -61.0389705,
+    "lat": -35.00598284893259,
+    "lng": -61.0513687101011,
     "display_name": "Estación Policía Comunal General Viamonte, 802, Italia, Centro, Los Toldos, Partido de General Viamonte, Buenos Aires, 6015, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "57": {
-    "lat": -34.769249,
-    "lng": -58.6480318,
-    "display_name": "González Catán, Partido de La Matanza, Buenos Aires, 1759, Argentina",
-    "source": "ciudad"
+    "lat": -34.7987467,
+    "lng": -58.6116219,
+    "display_name": "José Equiza, Justina, González Catán, Partido de La Matanza, Buenos Aires, 1759, Argentina",
+    "source": "address"
   },
   "58": {
     "lat": -34.5000307,
@@ -354,10 +354,10 @@
     "source": "address"
   },
   "59": {
-    "lat": -34.5933423,
-    "lng": -58.6378405,
-    "display_name": "Hurlingham, Partido de Hurlingham, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -34.5733368,
+    "lng": -58.6543274,
+    "display_name": "General Levalle, Roca 1, William C. Morris, Partido de Hurlingham, Buenos Aires, B1686, Argentina",
+    "source": "address"
   },
   "60": {
     "lat": -34.6455642,
@@ -372,10 +372,10 @@
     "source": "address"
   },
   "62": {
-    "lat": -34.5934412,
-    "lng": -60.9461678,
-    "display_name": "Junín, Partido de Junín, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -34.5848892,
+    "lng": -60.9332286,
+    "display_name": "Primera Junta, El Picaflor, Junín, Partido de Junín, Buenos Aires, 6000, Argentina",
+    "source": "address"
   },
   "63": {
     "lat": -34.5813123,
@@ -390,10 +390,10 @@
     "source": "address"
   },
   "65": {
-    "lat": -34.6995753,
-    "lng": -58.5951646,
-    "display_name": "La Matanza, República de Portugal, Atalaya, Isidro Casanova, Partido de La Matanza, Buenos Aires, 1785, Argentina",
-    "source": "ciudad"
+    "lat": -34.6950406,
+    "lng": -58.5801658,
+    "display_name": "Hospital Zonal General Agudos Doctor Paroissien, 5975, Avenida Brigadier General Juan Manuel de Rosas, 20 de Junio, Isidro Casanova, Partido de La Matanza, Buenos Aires, 1765, Argentina",
+    "source": "address"
   },
   "66": {
     "lat": -34.7226244,
@@ -402,22 +402,22 @@
     "source": "address"
   },
   "67": {
-    "lat": -34.9206797,
-    "lng": -57.9537638,
-    "display_name": "La Plata, Partido de La Plata, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -34.9323346,
+    "lng": -57.9430549,
+    "display_name": "Hospital Interzonal de Agudos Especializados en Pediatría Sor María Ludovica, 1631, Calle 14, La Plata, Partido de La Plata, Buenos Aires, 1900, Argentina",
+    "source": "address"
   },
   "68": {
-    "lat": -34.9206797,
-    "lng": -57.9537638,
-    "display_name": "La Plata, Partido de La Plata, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -34.9239389,
+    "lng": -57.9368769,
+    "display_name": "Hospital Reencuentro, 591, Calle 64, La Plata, Partido de La Plata, Buenos Aires, 1900, Argentina",
+    "source": "address"
   },
   "69": {
-    "lat": -34.9206797,
-    "lng": -57.9537638,
-    "display_name": "La Plata, Partido de La Plata, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -34.8936668,
+    "lng": -57.9512388,
+    "display_name": "1, Calle 37, Barrio Hipódromo, La Plata, Partido de La Plata, Buenos Aires, 1900, Argentina",
+    "source": "address"
   },
   "70": {
     "lat": -34.8963664,
@@ -432,10 +432,10 @@
     "source": "address"
   },
   "72": {
-    "lat": -34.9206797,
-    "lng": -57.9537638,
-    "display_name": "La Plata, Partido de La Plata, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -34.8959309,
+    "lng": -57.9482609,
+    "display_name": "Diagonal 114, Barrio Hipódromo, La Plata, Partido de La Plata, Buenos Aires, 1902, Argentina",
+    "source": "address"
   },
   "73": {
     "lat": -34.8854531,
@@ -444,10 +444,10 @@
     "source": "address"
   },
   "74": {
-    "lat": -34.9508234,
-    "lng": -57.9714431,
-    "display_name": "Comisaría La Plata 3°, Avenida 137, Los Hornos, Partido de La Plata, Buenos Aires, B1908FMF, Argentina",
-    "source": "ciudad"
+    "lat": -34.9638045,
+    "lng": -57.975151,
+    "display_name": "Calle 66 Bis, Los Hornos, Partido de La Plata, Buenos Aires, B1910, Argentina",
+    "source": "address"
   },
   "75": {
     "lat": -34.696301,
@@ -468,10 +468,10 @@
     "source": "address"
   },
   "78": {
-    "lat": -34.5033814,
-    "lng": -61.5360648,
-    "display_name": "Avenida Leandro N Alem, Vedia, Partido de Leandro N. Alem, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -34.4961488,
+    "lng": -61.5347387,
+    "display_name": "Mendoza, Vedia, Partido de Leandro N. Alem, Buenos Aires, Argentina",
+    "source": "address"
   },
   "79": {
     "lat": -34.8667446,
@@ -486,22 +486,22 @@
     "source": "address"
   },
   "81": {
-    "lat": -35.1856322,
-    "lng": -59.0978393,
-    "display_name": "Lobos, Partido de Lobos, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -35.1796863,
+    "lng": -59.0916195,
+    "display_name": "Mastropietro, Lobos, Partido de Lobos, Buenos Aires, B7240INB, Argentina",
+    "source": "address"
   },
   "82": {
-    "lat": -34.5693506,
-    "lng": -58.6015817,
+    "lat": -34.55339774805615,
+    "lng": -58.592507330141686,
     "display_name": "Loma Hermosa, Partido de Tres de Febrero, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "83": {
-    "lat": -34.7572582,
-    "lng": -58.4026638,
-    "display_name": "Lomas de Zamora, Partido de Lomas de Zamora, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -34.7661071,
+    "lng": -58.4037191,
+    "display_name": "Avenida Hipólito Yrigoyen, Lomitas, Lomas de Zamora, Partido de Lomas de Zamora, Buenos Aires, B1832, Argentina",
+    "source": "address"
   },
   "84": {
     "lat": -34.7820661,
@@ -528,10 +528,10 @@
     "source": "address"
   },
   "88": {
-    "lat": -34.5129556,
-    "lng": -58.4874923,
-    "display_name": "Avenida Maipú, Eduardo Ramseyer, Olivos, Partido de Vicente López, Buenos Aires, B1636AGA, Argentina",
-    "source": "ciudad"
+    "lat": -36.8718567,
+    "lng": -57.8832571,
+    "display_name": "Kakel Huincul, Maipú, Partido de Maipú, Buenos Aires, B7160CCH, Argentina",
+    "source": "address"
   },
   "89": {
     "lat": -37.9733349,
@@ -558,16 +558,16 @@
     "source": "address"
   },
   "93": {
-    "lat": -36.5813187,
-    "lng": -56.6874786,
-    "display_name": "Mar del Tuyú, Partido de La Costa, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -36.5765792,
+    "lng": -56.701505,
+    "display_name": "Calle 74, Mar del Tuyú, Partido de La Costa, Buenos Aires, 7108, Argentina",
+    "source": "address"
   },
   "94": {
-    "lat": -34.9523003,
-    "lng": -58.0509356,
-    "display_name": "Melchor Romero, Partido de La Plata, Buenos Aires, 1903, Argentina",
-    "source": "ciudad"
+    "lat": -34.9550962,
+    "lng": -58.0200681,
+    "display_name": "Calle 161, Melchor Romero, Partido de La Plata, Buenos Aires, B1901CSP, Argentina",
+    "source": "address"
   },
   "95": {
     "lat": -34.6506717,
@@ -576,28 +576,28 @@
     "source": "address"
   },
   "96": {
-    "lat": -34.6604988,
-    "lng": -58.7321695,
-    "display_name": "Merlo, Partido de Merlo, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -34.6809099,
+    "lng": -58.727909,
+    "display_name": "Avenida José De San Martín, Los Vascos, Parque San Martín, Merlo, Partido de Merlo, Buenos Aires, 1714, Argentina",
+    "source": "address"
   },
   "97": {
-    "lat": -34.6604988,
-    "lng": -58.7321695,
-    "display_name": "Merlo, Partido de Merlo, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -34.6835039,
+    "lng": -58.6819737,
+    "display_name": "Avenida Eva Perón, Helvecia, Libertad, Partido de Merlo, Buenos Aires, 1716, Argentina",
+    "source": "address"
   },
   "98": {
-    "lat": -34.840797,
-    "lng": -58.3640255,
-    "display_name": "Ministro Rivadavia, Partido de Almirante Brown, Buenos Aires, 1848, Argentina",
-    "source": "ciudad"
+    "lat": -34.8414279,
+    "lng": -58.369413,
+    "display_name": "25 de Mayo, Ministro Rivadavia, Partido de Almirante Brown, Buenos Aires, 1849, Argentina",
+    "source": "address"
   },
   "99": {
-    "lat": -38.2704349,
-    "lng": -57.8387997,
+    "lat": -38.270543442235294,
+    "lng": -57.844114755445574,
     "display_name": "Miramar, Partido de General Alvarado, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "100": {
     "lat": -38.9845323,
@@ -612,10 +612,10 @@
     "source": "address"
   },
   "102": {
-    "lat": -34.6396556,
-    "lng": -58.7898326,
+    "lat": -34.63387629789689,
+    "lng": -58.79944579890146,
     "display_name": "Moreno, Partido de Moreno, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "103": {
     "lat": -34.5393897,
@@ -624,10 +624,10 @@
     "source": "address"
   },
   "104": {
-    "lat": -34.6510527,
-    "lng": -58.6217416,
+    "lat": -34.65480630473713,
+    "lng": -58.6176960054108,
     "display_name": "Morón, Partido de Morón, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "105": {
     "lat": -34.6465048,
@@ -642,10 +642,10 @@
     "source": "address"
   },
   "107": {
-    "lat": -34.6156179,
-    "lng": -58.6203902,
+    "lat": -34.63013735186006,
+    "lng": -58.57521310610285,
     "display_name": "Arroyo Morón, El Palomar, Partido de Morón, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "108": {
     "lat": -38.5671101,
@@ -660,10 +660,10 @@
     "source": "address"
   },
   "110": {
-    "lat": -36.8938752,
-    "lng": -60.3231676,
-    "display_name": "Olavarría, Partido de Olavarría, Buenos Aires, B7400, Argentina",
-    "source": "ciudad"
+    "lat": -36.9113934,
+    "lng": -60.2933533,
+    "display_name": "Mendoza, Villa Magdalena, Olavarría, Partido de Olavarría, Buenos Aires, 7450, Argentina",
+    "source": "address"
   },
   "111": {
     "lat": -36.8705314,
@@ -708,10 +708,10 @@
     "source": "address"
   },
   "118": {
-    "lat": -37.1099492,
-    "lng": -56.8539007,
-    "display_name": "Pinamar, Partido de Pinamar, Buenos Aires, 7167, Argentina",
-    "source": "ciudad"
+    "lat": -37.0926627,
+    "lng": -56.8736377,
+    "display_name": "Avenida del Parque, Pinamar, Partido de Pinamar, Buenos Aires, 7167, Argentina",
+    "source": "address"
   },
   "119": {
     "lat": -34.6664874,
@@ -720,16 +720,16 @@
     "source": "address"
   },
   "120": {
-    "lat": -34.9504561,
-    "lng": -58.4165529,
-    "display_name": "Autopista Presidente Perón, Parque Americano, Guernica, Partido de Presidente Perón, Buenos Aires, 1862, Argentina",
-    "source": "ciudad"
+    "lat": -34.878833,
+    "lng": -58.4140852,
+    "display_name": "Francisco Petrone, Guernica, Partido de Presidente Perón, Buenos Aires, 1845, Argentina",
+    "source": "address"
   },
   "121": {
-    "lat": -34.7244434,
-    "lng": -58.2588168,
+    "lat": -34.74610757642257,
+    "lng": -58.31063483579914,
     "display_name": "Quilmes, Partido de Quilmes, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "122": {
     "lat": -34.7203916,
@@ -738,16 +738,16 @@
     "source": "address"
   },
   "123": {
-    "lat": -34.7063779,
-    "lng": -58.2785174,
-    "display_name": "Universidad Nacional de Quilmes, 352, Roque Sáenz Peña, Parque Bernal, Bernal Este, Partido de Quilmes, Buenos Aires, 1876, Argentina",
-    "source": "ciudad"
+    "lat": -34.7207187,
+    "lng": -58.2877598,
+    "display_name": "Sargento Cabral, Bernal Sud, Bernal Este, Partido de Quilmes, Buenos Aires, B1878FDC, Argentina",
+    "source": "address"
   },
   "124": {
-    "lat": -34.7063779,
-    "lng": -58.2785174,
+    "lat": -34.736911446189396,
+    "lng": -58.32960659440266,
     "display_name": "Universidad Nacional de Quilmes, 352, Roque Sáenz Peña, Parque Bernal, Bernal Este, Partido de Quilmes, Buenos Aires, 1876, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "125": {
     "lat": -34.7158062,
@@ -774,10 +774,10 @@
     "source": "address"
   },
   "129": {
-    "lat": -36.7744093,
-    "lng": -59.0882855,
-    "display_name": "Rauch, Partido de Rauch, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -36.7737091,
+    "lng": -59.0817563,
+    "display_name": "Conesa, Corralón, Rauch, Partido de Rauch, Buenos Aires, B7203BPD, Argentina",
+    "source": "address"
   },
   "130": {
     "lat": -34.7257464,
@@ -786,16 +786,16 @@
     "source": "address"
   },
   "131": {
-    "lat": -34.1977548,
-    "lng": -60.7336808,
-    "display_name": "Rojas, Partido de Rojas, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -34.1980905,
+    "lng": -60.733945,
+    "display_name": "Avenida 25 de Mayo, Rojas, Partido de Rojas, Buenos Aires, B2705ACG, Argentina",
+    "source": "address"
   },
   "132": {
-    "lat": -35.3964431,
-    "lng": -59.3312128,
-    "display_name": "Roque Pérez, Partido de Roque Pérez, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -35.3984113,
+    "lng": -59.3334004,
+    "display_name": "Avellaneda, Barrio Martin Fierro, Roque Pérez, Partido de Roque Pérez, Buenos Aires, B7245AJO, Argentina",
+    "source": "address"
   },
   "133": {
     "lat": -34.6020498,
@@ -810,28 +810,28 @@
     "source": "address"
   },
   "135": {
-    "lat": -34.4423682,
-    "lng": -59.4475148,
-    "display_name": "San Andrés de Giles, Partido de San Andrés de Giles, Buenos Aires, 6720, Argentina",
-    "source": "ciudad"
+    "lat": -34.4465131,
+    "lng": -59.4561309,
+    "display_name": "528 - Rawson oeste, Polígono, San Andrés de Giles, Partido de San Andrés de Giles, Buenos Aires, 6720, Argentina",
+    "source": "address"
   },
   "136": {
-    "lat": -34.2437294,
-    "lng": -59.4734187,
-    "display_name": "San Antonio de Areco, Partido de San Antonio de Areco, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -34.2605463,
+    "lng": -59.4844768,
+    "display_name": "Julian Balvé, San Antonio de Areco, Partido de San Antonio de Areco, Buenos Aires, B2760BWJ, Argentina",
+    "source": "address"
   },
   "137": {
-    "lat": -36.236364,
-    "lng": -61.1069265,
+    "lat": -36.23360554746332,
+    "lng": -61.1022052618534,
     "display_name": "San Carlos de Bolívar, Avenida 25 de Mayo, San Carlos de Bolívar, Partido de Bolívar, Buenos Aires, B6550CGG, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "138": {
-    "lat": -34.4471919,
-    "lng": -58.5701505,
+    "lat": -34.2462982401607,
+    "lng": -58.70932331621197,
     "display_name": "San Fernando, Partido de San Fernando, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "139": {
     "lat": -34.4486484,
@@ -846,10 +846,10 @@
     "source": "address"
   },
   "141": {
-    "lat": -35.4410152,
-    "lng": -58.8035154,
-    "display_name": "San Miguel del Monte, Partido de Monte, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -35.4308205,
+    "lng": -58.8153388,
+    "display_name": "Neuquén, Coppola, San Miguel del Monte, Partido de Monte, Buenos Aires, 7220, Argentina",
+    "source": "address"
   },
   "142": {
     "lat": -33.3352949,
@@ -888,10 +888,10 @@
     "source": "address"
   },
   "148": {
-    "lat": -37.3282887,
-    "lng": -59.1356957,
+    "lat": -37.31640726646366,
+    "lng": -59.13887320252722,
     "display_name": "Tandil, Partido de Tandil, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "149": {
     "lat": -37.3154254,
@@ -906,10 +906,10 @@
     "source": "address"
   },
   "151": {
-    "lat": -34.7758816,
-    "lng": -58.3971199,
+    "lat": -34.7483220479233,
+    "lng": -58.34951114470636,
     "display_name": "Temperley, Partido de Lomas de Zamora, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "152": {
     "lat": -34.4547137,
@@ -918,10 +918,10 @@
     "source": "address"
   },
   "153": {
-    "lat": -34.4327243,
-    "lng": -58.6129209,
+    "lat": -34.4595379366048,
+    "lng": -58.61533348917332,
     "display_name": "Parque Industrial Tigre, Troncos del Talar, Partido de Tigre, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "154": {
     "lat": -35.9746433,
@@ -936,10 +936,10 @@
     "source": "address"
   },
   "156": {
-    "lat": -38.3770014,
-    "lng": -60.2755685,
+    "lat": -38.37159660332759,
+    "lng": -60.26175451819257,
     "display_name": "Tres Arroyos, Partido de Tres Arroyos, Buenos Aires, B7500, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "157": {
     "lat": -38.3804893,
@@ -948,16 +948,16 @@
     "source": "address"
   },
   "158": {
-    "lat": -34.5985965,
-    "lng": -58.7516079,
-    "display_name": "Trujui, Partido de Moreno, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -34.6084452,
+    "lng": -58.734487,
+    "display_name": "Rosario, Villa Trinidad, Trujui, Partido de Moreno, Buenos Aires, 1774, Argentina",
+    "source": "address"
   },
   "159": {
-    "lat": -34.525763,
-    "lng": -58.4748977,
-    "display_name": "Vicente López, Partido de Vicente López, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -34.5209114,
+    "lng": -58.4852764,
+    "display_name": "Presidente Hipólito Yrigoyen, Florida, Partido de Vicente López, Buenos Aires, B1638ABF, Argentina",
+    "source": "address"
   },
   "160": {
     "lat": -34.5278637,
@@ -966,16 +966,16 @@
     "source": "address"
   },
   "161": {
-    "lat": -34.6938734,
-    "lng": -58.3324019,
-    "display_name": "Villa Domínico, Partido de Avellaneda, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -34.6948985,
+    "lng": -58.3344954,
+    "display_name": "Pierres, Villa Colón, Villa Domínico, Partido de Avellaneda, Buenos Aires, 1874, Argentina",
+    "source": "address"
   },
   "162": {
-    "lat": -37.2556627,
-    "lng": -56.9679411,
-    "display_name": "Villa Gesell, Partido de Villa Gesell, Buenos Aires, B7165, Argentina",
-    "source": "ciudad"
+    "lat": -37.2653798,
+    "lng": -56.9813529,
+    "display_name": "Paseo 115, Zona Sur, Villa Gesell, Partido de Villa Gesell, Buenos Aires, B7165, Argentina",
+    "source": "address"
   },
   "163": {
     "lat": -34.5469083,
@@ -990,10 +990,10 @@
     "source": "address"
   },
   "165": {
-    "lat": -34.8588622,
-    "lng": -58.6643444,
-    "display_name": "Virrey Del Pino, Partido de La Matanza, Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -34.8225224,
+    "lng": -58.6518081,
+    "display_name": "Guillermo Miller, La Foresta, Oro Verde, Virrey Del Pino, Partido de La Matanza, Buenos Aires, 1763, Argentina",
+    "source": "address"
   },
   "166": {
     "lat": -34.0952158,
@@ -1038,16 +1038,16 @@
     "source": "address"
   },
   "173": {
-    "lat": -34.6452854,
-    "lng": -58.3875619,
+    "lat": -34.66171104748023,
+    "lng": -58.39310368752454,
     "display_name": "Barracas, Buenos Aires, Comuna 4, Ciudad Autónoma de Buenos Aires, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "174": {
-    "lat": -34.612958,
-    "lng": -58.3776468,
-    "display_name": "Belgrano, Piedras, Monserrat, Buenos Aires, Comuna 1, Ciudad Autónoma de Buenos Aires, 1095, Argentina",
-    "source": "ciudad"
+    "lat": -34.5641411,
+    "lng": -58.4718644,
+    "display_name": "Hospital Pirovano, 3555, Avenida Monroe, Coghlan, Buenos Aires, Comuna 12, Ciudad Autónoma de Buenos Aires, 1419, Argentina",
+    "source": "address"
   },
   "175": {
     "lat": -34.6089049,
@@ -1062,10 +1062,10 @@
     "source": "address"
   },
   "177": {
-    "lat": -34.6282576,
-    "lng": -58.3805698,
-    "display_name": "Plaza Constitución, 1128, Brasil, Constitución, Buenos Aires, Comuna 1, Ciudad Autónoma de Buenos Aires, C1138, Argentina",
-    "source": "ciudad"
+    "lat": -34.6352689,
+    "lng": -58.3757706,
+    "display_name": "Solares de Montes de Oca, Barracas, Buenos Aires, Comuna 4, Ciudad Autónoma de Buenos Aires, 1270, Argentina",
+    "source": "address"
   },
   "178": {
     "lat": -34.6428892,
@@ -1104,10 +1104,10 @@
     "source": "address"
   },
   "184": {
-    "lat": -34.5969923,
-    "lng": -58.4672266,
+    "lat": -34.600814926227336,
+    "lng": -58.45915592640014,
     "display_name": "La Paternal, Pasaje 9 de Julio, La Paternal, Buenos Aires, Distrito Audiovisual, Comuna 15, Ciudad Autónoma de Buenos Aires, C1416BQL, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "185": {
     "lat": -34.6486894,
@@ -1182,10 +1182,10 @@
     "source": "address"
   },
   "197": {
-    "lat": -34.5911503,
-    "lng": -58.3746803,
+    "lat": -34.58436457489614,
+    "lng": -58.379307915762276,
     "display_name": "Retiro (Mitre), 1420, Avenida Doctor José María Ramos Mejía, Catalinas Norte, Villa 31, Retiro, Buenos Aires, Comuna 1, Ciudad Autónoma de Buenos Aires, 1104, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "198": {
     "lat": -34.6253603,
@@ -1194,10 +1194,10 @@
     "source": "address"
   },
   "199": {
-    "lat": -34.6766149,
-    "lng": -58.4771849,
-    "display_name": "Villa Lugano, Buenos Aires, Distrito del Deporte, Comuna 8, Ciudad Autónoma de Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -34.6568782,
+    "lng": -58.4865056,
+    "display_name": "Corvalán, Mataderos, Buenos Aires, Comuna 9, Ciudad Autónoma de Buenos Aires, C1440ASP, Argentina",
+    "source": "address"
   },
   "200": {
     "lat": -34.6730878,
@@ -1236,16 +1236,16 @@
     "source": "address"
   },
   "206": {
-    "lat": -34.581302,
-    "lng": -58.4682453,
-    "display_name": "Villa Ortúzar, Buenos Aires, Distrito Audiovisual, Comuna 15, Ciudad Autónoma de Buenos Aires, Argentina",
-    "source": "ciudad"
+    "lat": -34.586686,
+    "lng": -58.4728298,
+    "display_name": "Hospital General de Agudos Doctor Enrique Tornú, 3002, Avenida Combatientes de Malvinas, Parque Chas, Buenos Aires, Distrito Audiovisual, Comuna 15, Ciudad Autónoma de Buenos Aires, C1427ARN, Argentina",
+    "source": "address"
   },
   "207": {
-    "lat": -34.6622843,
-    "lng": -58.4410592,
-    "display_name": "Villa Soldati, Rodrigo de Triana, Villa Soldati, Buenos Aires, Distrito del Deporte, Comuna 8, Ciudad Autónoma de Buenos Aires, C1437GNF, Argentina",
-    "source": "ciudad"
+    "lat": -34.6593317,
+    "lng": -58.454736,
+    "display_name": "Laguna, Villa de Emergencia 3, Villa Soldati, Buenos Aires, Distrito del Deporte, Comuna 8, Ciudad Autónoma de Buenos Aires, C1406EUJ, Argentina",
+    "source": "address"
   },
   "208": {
     "lat": -34.6667425,
@@ -1290,16 +1290,16 @@
     "source": "address"
   },
   "215": {
-    "lat": -26.7909701,
-    "lng": -60.441295,
-    "display_name": "Municipio de Presidencia Roque Sáenz peña, Departamento Comandante Fernández, Chaco, Argentina",
-    "source": "ciudad"
+    "lat": -26.7988015,
+    "lng": -60.4349124,
+    "display_name": "28, Julio A. Roca, Barrio Don Orione, Presidencia Roque Sáenz Peña, Municipio de Presidencia Roque Sáenz peña, Departamento Comandante Fernández, Chaco, 3700, Argentina",
+    "source": "address"
   },
   "216": {
-    "lat": -26.7909701,
-    "lng": -60.441295,
-    "display_name": "Municipio de Presidencia Roque Sáenz peña, Departamento Comandante Fernández, Chaco, Argentina",
-    "source": "ciudad"
+    "lat": -26.7986451,
+    "lng": -60.434816,
+    "display_name": "25, Julio A. Roca, Barrio Don Orione, Presidencia Roque Sáenz Peña, Municipio de Presidencia Roque Sáenz peña, Departamento Comandante Fernández, Chaco, 3700, Argentina",
+    "source": "address"
   },
   "217": {
     "lat": -26.8787688,
@@ -1320,16 +1320,16 @@
     "source": "address"
   },
   "220": {
-    "lat": -45.8632024,
-    "lng": -67.4752615,
-    "display_name": "Municipio de Comodoro Rivadavia, Departamento Escalante, Chubut, U9000, Argentina",
-    "source": "ciudad"
+    "lat": -45.8562785,
+    "lng": -67.5455516,
+    "display_name": "Blvd. Huergo e/Anibal Troilo y Andrés Chazarreta, Máximo Abásolo, Municipio de Comodoro Rivadavia, Departamento Escalante, Chubut, 9000, Argentina",
+    "source": "address"
   },
   "221": {
-    "lat": -45.8632024,
-    "lng": -67.4752615,
-    "display_name": "Municipio de Comodoro Rivadavia, Departamento Escalante, Chubut, U9000, Argentina",
-    "source": "ciudad"
+    "lat": -45.8579825,
+    "lng": -67.5298915,
+    "display_name": "San Martín, Municipio de Comodoro Rivadavia, Departamento Escalante, Chubut, U9000, Argentina",
+    "source": "address"
   },
   "222": {
     "lat": -42.0650891,
@@ -1338,10 +1338,10 @@
     "source": "address"
   },
   "223": {
-    "lat": -42.0503936,
-    "lng": -71.1678959,
-    "display_name": "El Maitén, Municipio de El Maitén, Departamento Cushamen, Chubut, U9210, Argentina",
-    "source": "ciudad"
+    "lat": -42.0504791,
+    "lng": -71.1598343,
+    "display_name": "Liniers, El Maitén, Municipio de El Maitén, Departamento Cushamen, Chubut, U9210, Argentina",
+    "source": "address"
   },
   "224": {
     "lat": -42.9178365,
@@ -1350,10 +1350,10 @@
     "source": "address"
   },
   "225": {
-    "lat": -42.9173055,
-    "lng": -71.3216508,
-    "display_name": "Municipio de Esquel, Departamento Futaleufú, Chubut, U9200, Argentina",
-    "source": "ciudad"
+    "lat": -42.9157198,
+    "lng": -71.3270283,
+    "display_name": "Avenida Alvear, Belgrano, General Belgrano, Esquel, Municipio de Esquel, Departamento Futaleufú, Chubut, U9200, Argentina",
+    "source": "address"
   },
   "226": {
     "lat": -42.0606125,
@@ -1368,10 +1368,10 @@
     "source": "address"
   },
   "228": {
-    "lat": -42.7673414,
-    "lng": -65.0365942,
-    "display_name": "Municipio de Puerto Madryn, Departamento Biedma, Chubut, U9120, Argentina",
-    "source": "ciudad"
+    "lat": -42.7796527,
+    "lng": -65.0563243,
+    "display_name": "España, Gobernador Fontana, Municipio de Puerto Madryn, Departamento Biedma, Chubut, U9120, Argentina",
+    "source": "address"
   },
   "229": {
     "lat": -42.7796947,
@@ -1380,10 +1380,10 @@
     "source": "address"
   },
   "230": {
-    "lat": -42.7673414,
-    "lng": -65.0365942,
-    "display_name": "Municipio de Puerto Madryn, Departamento Biedma, Chubut, U9120, Argentina",
-    "source": "ciudad"
+    "lat": -42.7595182,
+    "lng": -65.0607578,
+    "display_name": "Agustín Pujol, Municipio de Puerto Madryn, Departamento Biedma, Chubut, U9120, Argentina",
+    "source": "address"
   },
   "231": {
     "lat": -42.7590843,
@@ -1404,10 +1404,10 @@
     "source": "address"
   },
   "234": {
-    "lat": -31.4166867,
-    "lng": -64.1834193,
+    "lat": -31.47002420337081,
+    "lng": -64.11690013493605,
     "display_name": "Córdoba, Municipio de Córdoba, Pedanía Capital, Departamento Capital, Córdoba, X5000, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "235": {
     "lat": -31.3976793,
@@ -1416,10 +1416,10 @@
     "source": "address"
   },
   "236": {
-    "lat": -31.4166867,
-    "lng": -64.1834193,
+    "lat": -31.38153421513248,
+    "lng": -64.05834253932832,
     "display_name": "Córdoba, Municipio de Córdoba, Pedanía Capital, Departamento Capital, Córdoba, X5000, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "237": {
     "lat": -31.4057127,
@@ -1440,10 +1440,10 @@
     "source": "address"
   },
   "240": {
-    "lat": -31.4166867,
-    "lng": -64.1834193,
+    "lat": -31.445823513847426,
+    "lng": -64.14765956227195,
     "display_name": "Córdoba, Municipio de Córdoba, Pedanía Capital, Departamento Capital, Córdoba, X5000, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "241": {
     "lat": -31.3804665,
@@ -1458,10 +1458,10 @@
     "source": "address"
   },
   "243": {
-    "lat": -31.4166867,
-    "lng": -64.1834193,
+    "lat": -31.36934218858677,
+    "lng": -64.21342272319427,
     "display_name": "Córdoba, Municipio de Córdoba, Pedanía Capital, Departamento Capital, Córdoba, X5000, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "244": {
     "lat": -31.4232933,
@@ -1476,10 +1476,10 @@
     "source": "address"
   },
   "246": {
-    "lat": -31.4166867,
-    "lng": -64.1834193,
-    "display_name": "Córdoba, Municipio de Córdoba, Pedanía Capital, Departamento Capital, Córdoba, X5000, Argentina",
-    "source": "ciudad"
+    "lat": -31.4701581,
+    "lng": -64.2106387,
+    "display_name": "Defensa, Villa Libertador, Córdoba, Municipio de Córdoba, Pedanía Capital, Departamento Capital, Córdoba, X5017, Argentina",
+    "source": "address"
   },
   "247": {
     "lat": -31.4061406,
@@ -1536,10 +1536,10 @@
     "source": "address"
   },
   "256": {
-    "lat": -31.3549633,
-    "lng": -64.5717885,
-    "display_name": "Punilla, Tanti, Municipio de Tanti, Pedanía San Roque, Departamento Punilla, Córdoba, X5166, Argentina",
-    "source": "ciudad"
+    "lat": -31.3633711,
+    "lng": -64.5424196,
+    "display_name": "Paraguay, Tanti, Municipio de Tanti, Pedanía San Roque, Departamento Punilla, Córdoba, X5166, Argentina",
+    "source": "address"
   },
   "257": {
     "lat": -33.1294786,
@@ -1590,10 +1590,10 @@
     "source": "address"
   },
   "265": {
-    "lat": -31.2780888,
-    "lng": -64.4626716,
+    "lat": -31.296559533357716,
+    "lng": -64.45344430694061,
     "display_name": "Santa María, Fermín Rodríguez, Centro, Santa María, Municipio de Santa María de Punilla, Pedanía Rosario, Departamento Punilla, Córdoba, X5166, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "266": {
     "lat": -31.661285,
@@ -1602,16 +1602,16 @@
     "source": "address"
   },
   "267": {
-    "lat": -31.7373038,
-    "lng": -64.4634236,
-    "display_name": "Santa Cruz, La Serranita, Villa La Serranita, Comuna de La Serranita, Pedanía San Isidro, Departamento Santa María, Córdoba, X5186, Argentina",
-    "source": "ciudad"
+    "lat": -31.7337567,
+    "lng": -64.4557868,
+    "display_name": "General Roca, La Serranita, Villa La Serranita, Comuna de La Serranita, Pedanía San Isidro, Departamento Santa María, Córdoba, X5186, Argentina",
+    "source": "address"
   },
   "268": {
-    "lat": -32.6400234,
-    "lng": -62.6880241,
+    "lat": -32.61637967204511,
+    "lng": -62.7019601702663,
     "display_name": "Bv Unión, Bell Ville, Municipio de Bell Ville, Pedanía Bell Ville, Departamento Unión, Córdoba, X2550, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "269": {
     "lat": -27.4757059,
@@ -1620,10 +1620,10 @@
     "source": "address"
   },
   "270": {
-    "lat": -30.2496832,
-    "lng": -57.6294418,
+    "lat": -30.25968507737366,
+    "lng": -57.63462729671514,
     "display_name": "Municipio de Monte Caseros, Departamento Monte Caseros, Corrientes, 3220, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "271": {
     "lat": -31.7226843,
@@ -1638,10 +1638,10 @@
     "source": "address"
   },
   "273": {
-    "lat": -26.1852983,
-    "lng": -58.1744976,
-    "display_name": "Municipio de Formosa, Departamento Formosa, Formosa, Argentina",
-    "source": "ciudad"
+    "lat": -26.1878096,
+    "lng": -58.168051,
+    "display_name": "Padre Patiño, San Martín, Formosa, Municipio de Formosa, Departamento Formosa, Formosa, 3600, Argentina",
+    "source": "address"
   },
   "274": {
     "lat": -26.1891962,
@@ -1650,16 +1650,16 @@
     "source": "address"
   },
   "275": {
-    "lat": -26.1852983,
-    "lng": -58.1744976,
+    "lat": -26.141053162562645,
+    "lng": -58.157734930498776,
     "display_name": "Municipio de Formosa, Departamento Formosa, Formosa, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "276": {
-    "lat": -26.1852983,
-    "lng": -58.1744976,
+    "lat": -26.18054729695049,
+    "lng": -58.19816212233562,
     "display_name": "Municipio de Formosa, Departamento Formosa, Formosa, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "277": {
     "lat": -23.204098,
@@ -1674,10 +1674,10 @@
     "source": "address"
   },
   "279": {
-    "lat": -24.2554935,
-    "lng": -65.2093985,
-    "display_name": "Municipio de Palpalá, Departamento Palpalá, Jujuy, Argentina",
-    "source": "ciudad"
+    "lat": -24.2537486,
+    "lng": -65.21004,
+    "display_name": "Cabo Primero Ángel Fidel Quispe, Canal de Beagle, Municipio de Palpalá, Departamento Palpalá, Jujuy, Y4613AGD, Argentina",
+    "source": "address"
   },
   "280": {
     "lat": -24.2374226,
@@ -1704,10 +1704,10 @@
     "source": "address"
   },
   "284": {
-    "lat": -35.6591085,
-    "lng": -63.7576103,
-    "display_name": "General Pico, Municipio de General Pico, Departamento Maracó, La Pampa, L6360, Argentina",
-    "source": "ciudad"
+    "lat": -35.6695045,
+    "lng": -63.7638034,
+    "display_name": "Calle 17 Oeste, Talleres, General Pico, Municipio de General Pico, Departamento Maracó, La Pampa, L6360, Argentina",
+    "source": "address"
   },
   "285": {
     "lat": -37.6665306,
@@ -1716,10 +1716,10 @@
     "source": "address"
   },
   "286": {
-    "lat": -36.6203503,
-    "lng": -64.2905765,
-    "display_name": "Santa Rosa, Municipio de Santa Rosa, Departamento Capital, La Pampa, Argentina",
-    "source": "ciudad"
+    "lat": -36.6119823,
+    "lng": -64.2898299,
+    "display_name": "Raúl B. Díaz, Tomás Mason Sur, Villa del Busto, Santa Rosa, Municipio de Santa Rosa, Departamento Capital, La Pampa, 6300, Argentina",
+    "source": "address"
   },
   "287": {
     "lat": -36.2217989,
@@ -1728,16 +1728,16 @@
     "source": "address"
   },
   "288": {
-    "lat": -29.165001,
-    "lng": -67.4953596,
+    "lat": -29.413707580506053,
+    "lng": -66.83710916899099,
     "display_name": "Chilecito, Departamento Chilecito, La Rioja, F5360, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "289": {
-    "lat": -29.4127411,
-    "lng": -66.8558795,
-    "display_name": "La Rioja, Departamento Capital, La Rioja, F5300, Argentina",
-    "source": "ciudad"
+    "lat": -29.4177103,
+    "lng": -66.9094128,
+    "display_name": "Calle Proyectada, Las Padercitas, La Rioja, Departamento Capital, La Rioja, F5300, Argentina",
+    "source": "address"
   },
   "290": {
     "lat": -32.9282731,
@@ -1770,16 +1770,16 @@
     "source": "address"
   },
   "295": {
-    "lat": -33.3578881,
-    "lng": -69.7695016,
+    "lat": -33.37311183383466,
+    "lng": -69.11268540768205,
     "display_name": "Volcán Tupungato, Distrito Santa Clara, Departamento Tupungato, Mendoza, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "296": {
-    "lat": -32.7214557,
-    "lng": -68.5958823,
+    "lat": -32.721560774654094,
+    "lng": -68.58827963731508,
     "display_name": "Distrito Villa Tulumaya, Departamento Lavalle, Mendoza, M5664, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "297": {
     "lat": -27.3751781,
@@ -1818,10 +1818,10 @@
     "source": "address"
   },
   "303": {
-    "lat": -38.073177,
-    "lng": -70.614414,
+    "lat": -38.07072181318291,
+    "lng": -70.6155451845705,
     "display_name": "Municipio de Loncopué, Departamento Loncopué, Neuquén, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "304": {
     "lat": -40.1323252,
@@ -1836,10 +1836,10 @@
     "source": "address"
   },
   "306": {
-    "lat": -38.9519679,
-    "lng": -68.0591741,
+    "lat": -38.93701702412,
+    "lng": -68.11598850069632,
     "display_name": "Neuquén, Municipio de Neuquén, Departamento Confluencia, Neuquén, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "307": {
     "lat": -38.9512963,
@@ -1860,16 +1860,16 @@
     "source": "address"
   },
   "310": {
-    "lat": -38.9523098,
-    "lng": -68.2270197,
-    "display_name": "Plottier, Municipio de Plottier, Departamento Confluencia, Neuquén, Q8316, Argentina",
-    "source": "ciudad"
+    "lat": -38.9483117,
+    "lng": -68.226839,
+    "display_name": "Sargento Cabral, América Sur, Plottier, Municipio de Plottier, Departamento Confluencia, Neuquén, Q8316, Argentina",
+    "source": "address"
   },
   "311": {
-    "lat": -40.1568791,
-    "lng": -71.3525588,
-    "display_name": "Municipio de San Martín de los Andes, Departamento Lácar, Neuquén, Argentina",
-    "source": "ciudad"
+    "lat": -40.1594537,
+    "lng": -71.3511387,
+    "display_name": "Teniente Coronel Pérez, Centro, San Martín de los Andes, Municipio de San Martín de los Andes, Departamento Lácar, Neuquén, 8370, Argentina",
+    "source": "address"
   },
   "312": {
     "lat": -40.148339,
@@ -1920,10 +1920,10 @@
     "source": "address"
   },
   "320": {
-    "lat": -38.9908428,
-    "lng": -64.0957548,
+    "lat": -38.91010267358859,
+    "lng": -67.98244730438678,
     "display_name": "Municipio de Río Colorado, Departamento Pichi Mahuida, Río Negro, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "321": {
     "lat": -41.1362058,
@@ -1974,58 +1974,58 @@
     "source": "address"
   },
   "329": {
-    "lat": -31.5370909,
-    "lng": -68.5251802,
+    "lat": -31.530056615152713,
+    "lng": -68.59582530140682,
     "display_name": "San Juan, Capital, San Juan, J5402DEA, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "330": {
-    "lat": -31.5370909,
-    "lng": -68.5251802,
-    "display_name": "San Juan, Capital, San Juan, J5402DEA, Argentina",
-    "source": "ciudad"
+    "lat": -31.500853,
+    "lng": -68.5404772,
+    "display_name": "Barrio Libertador, Villa Paula Albarracín de Sarmiento, Chimbas, San Juan, Argentina",
+    "source": "address"
   },
   "331": {
-    "lat": -31.5818952,
-    "lng": -68.5422067,
+    "lat": -31.573125352740586,
+    "lng": -68.52816662490439,
     "display_name": "Villa Krause, Rawson, San Juan, J5425, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "332": {
-    "lat": -32.4101462,
-    "lng": -65.0099515,
-    "display_name": "Municipio de Carpintería, Junín, San Luis, Argentina",
-    "source": "ciudad"
+    "lat": -32.4107421,
+    "lng": -64.999353,
+    "display_name": "Coronel Pringles, Municipio de Carpintería, Junín, San Luis, 5883, Argentina",
+    "source": "address"
   },
   "333": {
-    "lat": -32.5052479,
-    "lng": -64.9921102,
+    "lat": -32.50637235957521,
+    "lng": -64.98560366393653,
     "display_name": "Cortaderas, Comisión Municipal de Cortaderas, Chacabuco, San Luis, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "334": {
-    "lat": -32.8772895,
-    "lng": -66.8424726,
+    "lat": -33.282868169802846,
+    "lng": -66.32257907646428,
     "display_name": "La Calera, Comisión Municipal de La Calera, Belgrano, San Luis, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "335": {
-    "lat": -33.1836028,
-    "lng": -66.3126953,
-    "display_name": "La Punta, Municipio de La Punta, Juan Martín de Pueyrredón, San Luis, Argentina",
-    "source": "ciudad"
+    "lat": -33.188058,
+    "lng": -66.3131842,
+    "display_name": "Calle 5 Sur, Área Comercial La Punta, La Punta, Municipio de La Punta, Juan Martín de Pueyrredón, San Luis, D5710, Argentina",
+    "source": "address"
   },
   "336": {
-    "lat": -32.4388986,
-    "lng": -65.0097867,
-    "display_name": "Los Molles, Comisión Municipal de Los Molles, Junín, San Luis, 5883, Argentina",
-    "source": "ciudad"
+    "lat": -32.4354127,
+    "lng": -65.0083569,
+    "display_name": "Pringles, Los Molles, Comisión Municipal de Los Molles, Junín, San Luis, 5883, Argentina",
+    "source": "address"
   },
   "337": {
-    "lat": -32.342558,
-    "lng": -65.0136903,
-    "display_name": "Villa de Merlo, Municipio de Merlo, Junín, San Luis, 5881, Argentina",
-    "source": "ciudad"
+    "lat": -32.3230977,
+    "lng": -65.0351135,
+    "display_name": "Ruta Provincial 1, Villa de Merlo, Municipio de Merlo, Junín, San Luis, 5881, Argentina",
+    "source": "address"
   },
   "338": {
     "lat": -32.6753403,
@@ -2034,10 +2034,10 @@
     "source": "address"
   },
   "339": {
-    "lat": -33.3020736,
-    "lng": -66.3369577,
+    "lat": -33.28223136541646,
+    "lng": -66.33591610234926,
     "display_name": "Municipio de San Luis, Juan Martín de Pueyrredón, San Luis, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "340": {
     "lat": -33.1385127,
@@ -2046,555 +2046,543 @@
     "source": "address"
   },
   "341": {
-    "lat": -32.3428631,
-    "lng": -65.2088793,
-    "display_name": "Santa Rosa del Conlara, Municipio de Santa Rosa del Conlara, Junín, San Luis, Argentina",
-    "source": "ciudad"
+    "lat": -32.342821,
+    "lng": -65.208157,
+    "display_name": "Parroquia Santa Rosa de Lima, Santa Rosa, Santa Rosa del Conlara, Municipio de Santa Rosa del Conlara, Junín, San Luis, Argentina",
+    "source": "address"
   },
   "342": {
-    "lat": -35.153754,
-    "lng": -65.9461871,
+    "lat": -35.15468098393773,
+    "lng": -65.94513784462717,
     "display_name": "Unión, Municipio de Unión, Gobernador Dupuy, San Luis, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
   "343": {
-    "lat": -33.6866361,
-    "lng": -65.4954266,
-    "display_name": "Villa Mercedes, Municipio de Villa Mercedes, General Pedernera, San Luis, D5730, Argentina",
-    "source": "ciudad"
-  },
-  "344": {
     "lat": -33.7042516,
     "lng": -65.4337419,
     "display_name": "Héctor Aubert, Antonio Palacios, Jardín del Sur, Tres Esquinas, Municipio de Villa Mercedes, General Pedernera, San Luis, D5730, Argentina",
     "source": "address"
   },
-  "345": {
+  "344": {
     "lat": -50.3347615,
     "lng": -72.2463137,
     "display_name": "Avenida Jorge Newbery, Los Notros, El Calafate, Municipio de El Calafate, Lago Argentino, Santa Cruz, Z9504, Argentina",
     "source": "address"
   },
-  "346": {
+  "345": {
     "lat": -48.7549907,
     "lng": -70.2452704,
     "display_name": "Hospital Distrital Doctor Ramón Eraso Santa Paul, 1025, Mario Cástulo Paradelo, Gobernador Gregores, Río Chico, Santa Cruz, 9311, Argentina",
     "source": "address"
   },
-  "347": {
-    "lat": -46.5412317,
-    "lng": -68.9321375,
+  "346": {
+    "lat": -46.54934961199202,
+    "lng": -68.92259151540017,
     "display_name": "Las Heras, Deseado, Santa Cruz, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
-  "348": {
+  "347": {
     "lat": -33.2404687,
     "lng": -60.829703,
     "display_name": "Hospital María Saa Pereyra, 303, Aristóbulo del Valle, Acebal, Municipio de Acebal, Departamento Rosario, Santa Fe, S2109, Argentina",
     "source": "address"
   },
-  "349": {
-    "lat": -33.154614,
-    "lng": -60.5082223,
-    "display_name": "Arroyo Seco, Municipio de Arroyo Seco, Gran Rosario, Departamento Rosario, Santa Fe, Argentina",
-    "source": "ciudad"
+  "348": {
+    "lat": -33.1522446,
+    "lng": -60.5180135,
+    "display_name": "Cardozo, Arroyo Seco, Municipio de Arroyo Seco, Gran Rosario, Departamento Rosario, Santa Fe, S2128, Argentina",
+    "source": "address"
   },
-  "350": {
+  "349": {
     "lat": -33.3746119,
     "lng": -61.1800554,
     "display_name": "1088, Avenida San Martín, Bigand, Municipio de Bigand, Departamento Caseros, Santa Fe, S2177, Argentina",
     "source": "address"
   },
-  "351": {
+  "350": {
     "lat": -32.8193559,
     "lng": -60.7121099,
     "display_name": "136, Celedonio Escalada, Villa Margarita, Capitán Bermudez, Municipio de Capitán Bermudez, Gran Rosario, Departamento San Lorenzo, Santa Fe, S2154, Argentina",
     "source": "address"
   },
-  "352": {
+  "351": {
     "lat": -32.0474551,
     "lng": -61.7844037,
     "display_name": "Hospital Doctor Julio Cortes Belascuen, 721, San Martín, Municipio de Carlos Pellegrini, Departamento San Martín, Santa Fe, S2453, Argentina",
     "source": "address"
   },
-  "353": {
+  "352": {
     "lat": -33.0520296,
     "lng": -61.182569,
     "display_name": "3616, Hipólito Yrigoyen, Nueva Roma A, Nueva Roma, Casilda, Municipio de Casilda, Departamento Caseros, Santa Fe, S2170, Argentina",
     "source": "address"
   },
-  "354": {
-    "lat": -33.0443368,
-    "lng": -61.1641779,
+  "353": {
+    "lat": -33.03675969972988,
+    "lng": -61.15748377030632,
     "display_name": "Casilda, Municipio de Casilda, Departamento Caseros, Santa Fe, S2170, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
-  "355": {
+  "354": {
     "lat": -33.1844289,
     "lng": -60.721565,
     "display_name": "Centro de Salud María Tiravassi, 370, Dominguez, Centro, Coronel Domínguez, Municipio de Coronel Rodolfo S. Domínguez, Departamento Rosario, Santa Fe, S2128, Argentina",
     "source": "address"
   },
-  "356": {
+  "355": {
     "lat": -31.4422024,
     "lng": -60.9361923,
     "display_name": "2693, Reverendo Padre Arnoldo Janssen, Centro Oeste, Esperanza, Municipio de Esperanza, Departamento Las Colonias, Santa Fe, 3080, Argentina",
     "source": "address"
   },
-  "357": {
+  "356": {
     "lat": -33.1970961,
     "lng": -60.4672236,
     "display_name": "557, Cornelio Saavedra, Fighiera, Municipio de Fighiera, Departamento Rosario, Santa Fe, 2128DKB, Argentina",
     "source": "address"
   },
-  "358": {
+  "357": {
     "lat": -32.9191693,
     "lng": -60.8119118,
     "display_name": "Sarmiento y Angelomé, Domingo Faustino Sarmiento, Candelaria, Zona 1, Funes, Municipio de Funes, Gran Rosario, Departamento Rosario, Santa Fe, S2132, Argentina",
     "source": "address"
   },
-  "359": {
-    "lat": -32.9168704,
-    "lng": -60.8105603,
-    "display_name": "Municipio de Funes, Gran Rosario, Departamento Rosario, Santa Fe, S2132, Argentina",
-    "source": "ciudad"
+  "358": {
+    "lat": -32.9078186,
+    "lng": -60.8008635,
+    "display_name": "Lomas de Ávila, Funes City, Zona 3, Funes, Municipio de Funes, Gran Rosario, Departamento Rosario, Santa Fe, S2132, Argentina",
+    "source": "address"
   },
-  "360": {
+  "359": {
     "lat": -32.8565921,
     "lng": -60.704995,
     "display_name": "Hospital Escuela Eva Perón, 1645, Avenida José de San Martín, Granadero Baigorria, Municipio de Granadero Baigorria, Gran Rosario, Departamento Rosario, Santa Fe, 2152, Argentina",
     "source": "address"
   },
-  "361": {
-    "lat": -32.6818723,
-    "lng": -61.5206966,
-    "display_name": "Las Parejas, Municipio de Las Parejas, Departamento Belgrano, Santa Fe, Argentina",
-    "source": "ciudad"
+  "360": {
+    "lat": -32.6765879,
+    "lng": -61.5133955,
+    "display_name": "Avenida 21, Las Parejas, Municipio de Las Parejas, Departamento Belgrano, Santa Fe, 2505, Argentina",
+    "source": "address"
   },
-  "362": {
+  "361": {
     "lat": -32.48028,
     "lng": -61.5815426,
     "display_name": "419, Paso de los Andes, Municipio de Las Rosas, Las Rosas, Departamento Belgrano, Santa Fe, S2520, Argentina",
     "source": "address"
   },
-  "363": {
+  "362": {
     "lat": -28.3488598,
     "lng": -59.2582375,
     "display_name": "451, Calle 29, Municipio de Las Toscas, Departamento General Obligado, Santa Fe, 3586, Argentina",
     "source": "address"
   },
-  "364": {
+  "363": {
     "lat": -32.4588967,
     "lng": -60.8884349,
     "display_name": "412, Ruta Nacional 11, Maciel, Municipio de Maciel, Departamento San Jerónimo, Santa Fe, S2208, Argentina",
     "source": "address"
   },
-  "365": {
+  "364": {
     "lat": -31.6773941,
     "lng": -61.7547481,
     "display_name": "SAMCo María Juana, 252, Belgrano, Municipio de María Juana, Departamento Castellanos, Santa Fe, S2445, Argentina",
     "source": "address"
   },
-  "366": {
-    "lat": -33.6423626,
-    "lng": -61.8584359,
+  "365": {
+    "lat": -33.64592345563525,
+    "lng": -61.86032544311777,
     "display_name": "Municipio de Murphy, Departamento General López, Santa Fe, S2601, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
-  "367": {
+  "366": {
     "lat": -33.3109137,
     "lng": -60.8271374,
     "display_name": "814, Buenos Aires, Pavón Arriba, Municipio de Pavón Arriba, Departamento Constitución, Santa Fe, Argentina",
     "source": "address"
   },
-  "368": {
+  "367": {
     "lat": -31.2563261,
     "lng": -61.4970574,
     "display_name": "479, Dante Alighieri, San Martín, Rafaela, Municipio de Rafaela, Departamento Castellanos, Santa Fe, S2300, Argentina",
     "source": "address"
   },
-  "369": {
+  "368": {
     "lat": -31.2444802,
     "lng": -61.501275,
     "display_name": "Hospital SAMCo Doctor Jaime Ferré, 737, Lisandro de la Torre, 9 de Julio, Rafaela, Municipio de Rafaela, Departamento Castellanos, Santa Fe, S2300, Argentina",
     "source": "address"
   },
-  "370": {
-    "lat": -29.1443478,
-    "lng": -59.6437728,
+  "369": {
+    "lat": -29.234007038547652,
+    "lng": -59.58082872074677,
     "display_name": "Reconquista, Municipio de Reconquista, Departamento General Obligado, Santa Fe, S3560, Argentina",
-    "source": "ciudad"
+    "source": "manual"
+  },
+  "370": {
+    "lat": -29.162464660933185,
+    "lng": -59.67799994607922,
+    "display_name": "Reconquista, Municipio de Reconquista, Departamento General Obligado, Santa Fe, S3560, Argentina",
+    "source": "manual"
   },
   "371": {
-    "lat": -29.1443478,
-    "lng": -59.6437728,
-    "display_name": "Reconquista, Municipio de Reconquista, Departamento General Obligado, Santa Fe, S3560, Argentina",
-    "source": "ciudad"
-  },
-  "372": {
     "lat": -29.144619,
     "lng": -59.642549,
     "display_name": "San Martín, Barrio Centro, Reconquista, Municipio de Reconquista, Departamento General Obligado, Santa Fe, S3560, Argentina",
     "source": "address"
   },
-  "373": {
-    "lat": -29.1443478,
-    "lng": -59.6437728,
-    "display_name": "Reconquista, Municipio de Reconquista, Departamento General Obligado, Santa Fe, S3560, Argentina",
-    "source": "ciudad"
+  "372": {
+    "lat": -29.1383262,
+    "lng": -59.6553973,
+    "display_name": "Bulevar Hipólito Yrigoyen, Barrio Moreno, Reconquista, Municipio de Reconquista, Departamento General Obligado, Santa Fe, S3560, Argentina",
+    "source": "address"
   },
-  "374": {
+  "373": {
     "lat": -29.1886312,
     "lng": -59.6842037,
     "display_name": "Calle 127, Barrio Don Carlos, Municipio de Reconquista, Departamento General Obligado, Santa Fe, S3560DWE, Argentina",
     "source": "address"
   },
-  "375": {
+  "374": {
     "lat": -32.9010103,
     "lng": -60.910487,
     "display_name": "900, Bulevar Domingo Faustino Sarmiento, El Charquito, Roldán, Municipio de Roldán, Gran Rosario, Departamento San Lorenzo, Santa Fe, S2134, Argentina",
     "source": "address"
   },
-  "376": {
+  "375": {
     "lat": -29.4983369,
     "lng": -59.752056,
     "display_name": "Avenida San Martín, Romang, Municipio de Romang, Departamento San Javier, Santa Fe, S3555, Argentina",
     "source": "address"
   },
-  "377": {
+  "376": {
     "lat": -32.9400671,
     "lng": -60.6637017,
     "display_name": "667, Suipacha, Alberto Olmedo, Distrito Centro, Rosario, Municipio de Rosario, Gran Rosario, Departamento Rosario, Santa Fe, 2002, Argentina",
     "source": "address"
   },
-  "378": {
+  "377": {
     "lat": -32.9464664,
     "lng": -60.6518642,
     "display_name": "Centro de Especialidades Médicas Ambulatorias de Rosario, 2020, San Luis, Rosario Centro, Distrito Centro, Rosario, Municipio de Rosario, Gran Rosario, Departamento Rosario, Santa Fe, S2000, Argentina",
     "source": "address"
   },
-  "379": {
+  "378": {
     "lat": -32.9195828,
     "lng": -60.6909359,
     "display_name": "Avenida Juan José Paso, La Travesía, Lisandro de la Torre, Distrito Norte, Rosario, Municipio de Rosario, Gran Rosario, Departamento Rosario, Santa Fe, S2000, Argentina",
     "source": "address"
   },
-  "380": {
-    "lat": -32.9593609,
-    "lng": -60.6617024,
-    "display_name": "Rosario, Municipio de Rosario, Gran Rosario, Departamento Rosario, Santa Fe, S2000, Argentina",
-    "source": "ciudad"
+  "379": {
+    "lat": -32.9123507,
+    "lng": -60.6819909,
+    "display_name": "Hospital de Niños Zona Norte, 1331, De Los Trabajadores, Domingo Faustino Sarmiento, Distrito Norte, Rosario, Municipio de Rosario, Gran Rosario, Departamento Rosario, Santa Fe, S2013, Argentina",
+    "source": "address"
   },
-  "381": {
+  "380": {
     "lat": -32.8948146,
     "lng": -60.6904607,
     "display_name": "Hospital Doctor Juan Bautista Alberdi, 575, Avenida José Nicolás Puccio, Alberdi, Distrito Norte, Rosario, Municipio de Rosario, Gran Rosario, Departamento Rosario, Santa Fe, S2000, Argentina",
     "source": "address"
   },
-  "382": {
+  "381": {
     "lat": -32.9385417,
     "lng": -60.6647429,
     "display_name": "Hospital Provincial del Centenario, 3101, Justo José de Urquiza, Alberto Olmedo, Distrito Centro, Rosario, Municipio de Rosario, Gran Rosario, Departamento Rosario, Santa Fe, S2000, Argentina",
     "source": "address"
   },
-  "383": {
+  "382": {
     "lat": -30.3526069,
     "lng": -61.8999914,
     "display_name": "Centenario, Municipio de San Guillermo, Departamento San Cristóbal, Santa Fe, 2347, Argentina",
     "source": "address"
   },
-  "384": {
+  "383": {
     "lat": -30.3621045,
     "lng": -61.912876,
     "display_name": "744, Sarmiento, Virgen Niña, Municipio de San Guillermo, Departamento San Cristóbal, Santa Fe, 2347, Argentina",
     "source": "address"
   },
-  "385": {
-    "lat": -30.5815988,
-    "lng": -59.9280841,
+  "384": {
+    "lat": -30.583365992494688,
+    "lng": -59.93431745393157,
     "display_name": "Municipio de San Javier, Departamento San Javier, Santa Fe, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
-  "386": {
+  "385": {
     "lat": -32.7874256,
     "lng": -60.7295083,
     "display_name": "Fray Luis Beltrán, Municipio de Fray Luis Beltrán, Gran Rosario, Departamento San Lorenzo, Santa Fe, 2156, Argentina",
     "source": "address"
   },
-  "387": {
+  "386": {
     "lat": -31.5894029,
     "lng": -60.7323876,
     "display_name": "5821, Ayacucho, Juventud del Norte, Santa Fe, Santa Fe Capital, Departamento La Capital, Santa Fe, S3000, Argentina",
     "source": "address"
   },
-  "388": {
-    "lat": -31.6474914,
-    "lng": -60.6428557,
+  "387": {
+    "lat": -31.638915032834483,
+    "lng": -60.72884512124277,
     "display_name": "Santa Fe Capital, Departamento La Capital, Santa Fe, S3000, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
-  "389": {
+  "388": {
     "lat": -31.5966456,
     "lng": -60.7167914,
     "display_name": "Estrada y Alberti, Estrada, San Martín, Santa Fe, Santa Fe Capital, Departamento La Capital, Santa Fe, S3000, Argentina",
     "source": "address"
   },
-  "390": {
+  "389": {
     "lat": -31.6074219,
     "lng": -60.7125608,
     "display_name": "3865, Pedro de Vega, República Los Hornos, Santa Fe, Santa Fe Capital, Departamento La Capital, Santa Fe, S3000, Argentina",
     "source": "address"
   },
-  "391": {
+  "390": {
     "lat": -31.5563607,
     "lng": -60.7283922,
     "display_name": "6200, Avenida Blas Parera, Municipio de Recreo, Departamento La Capital, Santa Fe, 3018, Argentina",
     "source": "address"
   },
-  "392": {
+  "391": {
     "lat": -31.6501826,
     "lng": -60.7056492,
     "display_name": "CEMAFE, 2419, Mendoza, Centro, Santa Fe, Santa Fe Capital, Departamento La Capital, Santa Fe, 3000, Argentina",
     "source": "address"
   },
-  "393": {
+  "392": {
     "lat": -31.5848693,
     "lng": -60.7347339,
     "display_name": "Viñas y Matheu, Matheu, Juana Azurduy, Santa Fe, Santa Fe Capital, Departamento La Capital, Santa Fe, S3000, Argentina",
     "source": "address"
   },
-  "394": {
+  "393": {
     "lat": -31.6450941,
     "lng": -60.7279453,
     "display_name": "Hospital de Niños Dr. Orlando Alassia, 4151, Mendoza, Roma, Santa Fe, Santa Fe Capital, Departamento La Capital, Santa Fe, S3000, Argentina",
     "source": "address"
   },
-  "395": {
+  "394": {
     "lat": -32.9213099,
     "lng": -60.6957351,
     "display_name": "5224, Domingo French, Empalme Graneros, Larrea y Empalme Graneros, Distrito Noroeste, Rosario, Municipio de Rosario, Gran Rosario, Departamento Rosario, Santa Fe, S2000, Argentina",
     "source": "address"
   },
+  "395": {
+    "lat": -31.6662064,
+    "lng": -60.7684242,
+    "display_name": "Córdoba, Barrrio San Martín, Solis, Municipio de Santo Tomé, Departamento La Capital, Santa Fe, 3016, Argentina",
+    "source": "address"
+  },
   "396": {
-    "lat": -31.6630458,
-    "lng": -60.7618282,
-    "display_name": "Municipio de Santo Tomé, Departamento La Capital, Santa Fe, Argentina",
-    "source": "ciudad"
+    "lat": -31.6829741,
+    "lng": -60.7542645,
+    "display_name": "12 de Septiembre, Adelina Centro, Municipio de Santo Tomé, Departamento La Capital, Santa Fe, S3016, Argentina",
+    "source": "address"
   },
   "397": {
-    "lat": -31.6630458,
-    "lng": -60.7618282,
-    "display_name": "Municipio de Santo Tomé, Departamento La Capital, Santa Fe, Argentina",
-    "source": "ciudad"
+    "lat": -31.701640271800375,
+    "lng": -60.762648472200354,
+    "display_name": "Municipio de Sauce Viejo, Departamento La Capital, Santa Fe, 3017, Argentina",
+    "source": "manual"
   },
   "398": {
-    "lat": -31.7710276,
-    "lng": -60.8372302,
-    "display_name": "Municipio de Sauce Viejo, Departamento La Capital, Santa Fe, 3017, Argentina",
-    "source": "ciudad"
+    "lat": -31.7710819,
+    "lng": -60.836596,
+    "display_name": "Las Heras, Sauce Viejo, Municipio de Sauce Viejo, Departamento La Capital, Santa Fe, 3017, Argentina",
+    "source": "address"
   },
   "399": {
-    "lat": -31.7710276,
-    "lng": -60.8372302,
-    "display_name": "Municipio de Sauce Viejo, Departamento La Capital, Santa Fe, 3017, Argentina",
-    "source": "ciudad"
+    "lat": -31.7023586,
+    "lng": -60.7696428,
+    "display_name": "Pasaje 10, Municipio de Sauce Viejo, Departamento La Capital, Santa Fe, 3016, Argentina",
+    "source": "address"
   },
   "400": {
-    "lat": -31.7710276,
-    "lng": -60.8372302,
-    "display_name": "Municipio de Sauce Viejo, Departamento La Capital, Santa Fe, 3017, Argentina",
-    "source": "ciudad"
-  },
-  "401": {
     "lat": -30.5365136,
     "lng": -61.9614783,
     "display_name": "Hospital Nivel III Doctor Fernandez, 365, Doctor Fernández, Municipio de Suardi, Departamento San Cristóbal, Santa Fe, S2349, Argentina",
     "source": "address"
   },
-  "402": {
+  "401": {
     "lat": -34.1432104,
     "lng": -61.4781279,
     "display_name": "Escuela \"Domingo Faustino Sarmiento\" Nº 194, RP203-S, Municipio de Teodelina, Departamento General López, Santa Fe, S6009, Argentina",
     "source": "address"
   },
-  "403": {
-    "lat": -29.2323991,
-    "lng": -61.7710504,
+  "402": {
+    "lat": -29.23819364712673,
+    "lng": -61.77047646637991,
     "display_name": "Municipio de Tostado, Departamento 9 de Julio, Santa Fe, S3060, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
-  "404": {
+  "403": {
     "lat": -29.2155733,
     "lng": -61.7684067,
     "display_name": "Chaco, Municipio de Tostado, Departamento 9 de Julio, Santa Fe, S3060, Argentina",
     "source": "address"
   },
-  "405": {
+  "404": {
     "lat": -33.7590358,
     "lng": -61.9419552,
     "display_name": "Santa Fe, Venado Tuerto, Municipio de Venado Tuerto, Departamento General López, Santa Fe, S2600, Argentina",
     "source": "address"
   },
-  "406": {
+  "405": {
     "lat": -29.45534,
     "lng": -60.2209267,
     "display_name": "2400, Soldado Gómez, Hospitales, Vera, Municipio de Vera, Departamento Vera, Santa Fe, 3550, Argentina",
     "source": "address"
   },
+  "406": {
+    "lat": -32.03644704437168,
+    "lng": -61.229698082291115,
+    "display_name": "Municipio de Villa Gobernador Gálvez, Gran Rosario, Departamento Rosario, Santa Fe, S2124, Argentina",
+    "source": "manual"
+  },
   "407": {
-    "lat": -33.227206,
-    "lng": -60.3298225,
-    "display_name": "Municipio de Villa Constitución, Departamento Constitución, Santa Fe, Argentina",
-    "source": "ciudad"
+    "lat": -33.025917780865,
+    "lng": -60.64796334956165,
+    "display_name": "Municipio de Villa Gobernador Gálvez, Gran Rosario, Departamento Rosario, Santa Fe, S2124, Argentina",
+    "source": "manual"
   },
   "408": {
-    "lat": -33.0250796,
-    "lng": -60.633744,
-    "display_name": "Municipio de Villa Gobernador Gálvez, Gran Rosario, Departamento Rosario, Santa Fe, S2124, Argentina",
-    "source": "ciudad"
-  },
-  "409": {
-    "lat": -33.0250796,
-    "lng": -60.633744,
-    "display_name": "Municipio de Villa Gobernador Gálvez, Gran Rosario, Departamento Rosario, Santa Fe, S2124, Argentina",
-    "source": "ciudad"
-  },
-  "410": {
     "lat": -33.036264,
     "lng": -60.6539489,
     "display_name": "Escuela 1266 Juana Azurduy, 3040, Suipacha, Nuevo Milenio, Villa Gobernador Gálvez, Municipio de Villa Gobernador Gálvez, Gran Rosario, Departamento Rosario, Santa Fe, S2124, Argentina",
     "source": "address"
   },
-  "411": {
+  "409": {
     "lat": -33.0236385,
     "lng": -60.6310782,
     "display_name": "Hospital Doctor Anselmo P. Gammen, 1355, Balcarce, El Triángulo, Villa Gobernador Gálvez, Municipio de Villa Gobernador Gálvez, Gran Rosario, Departamento Rosario, Santa Fe, S2124, Argentina",
     "source": "address"
   },
-  "412": {
-    "lat": -33.0250796,
-    "lng": -60.633744,
+  "410": {
+    "lat": -32.017977081171324,
+    "lng": -61.226588872381484,
     "display_name": "Municipio de Villa Gobernador Gálvez, Gran Rosario, Departamento Rosario, Santa Fe, S2124, Argentina",
-    "source": "ciudad"
+    "source": "manual"
+  },
+  "411": {
+    "lat": -28.4952245,
+    "lng": -59.3540046,
+    "display_name": "Chacabuco, Municipio de Villa Ocampo, Departamento General Obligado, Santa Fe, 3580, Argentina",
+    "source": "address"
+  },
+  "412": {
+    "lat": -28.49985,
+    "lng": -59.3498885,
+    "display_name": "Doctor Farran, Municipio de Villa Ocampo, Departamento General Obligado, Santa Fe, S3580, Argentina",
+    "source": "address"
   },
   "413": {
-    "lat": -28.4867657,
-    "lng": -59.3547373,
-    "display_name": "Municipio de Villa Ocampo, Departamento General Obligado, Santa Fe, Argentina",
-    "source": "ciudad"
-  },
-  "414": {
-    "lat": -28.4867657,
-    "lng": -59.3547373,
-    "display_name": "Municipio de Villa Ocampo, Departamento General Obligado, Santa Fe, Argentina",
-    "source": "ciudad"
-  },
-  "415": {
     "lat": -27.7273118,
     "lng": -64.2295706,
     "display_name": "Aristóbulo del Valle, Quilmes, La Banda, Municipio de La Banda, Departamento Banda, Santiago del Estero, G4300, Argentina",
     "source": "address"
   },
-  "416": {
+  "414": {
     "lat": -27.7792666,
     "lng": -64.2733716,
     "display_name": "Centro Provincial de Salud Infantil, 1087, Misiones, Barrio Centenario, Santiago del Estero, Municipio de Santiago del Estero, Departamento Juan Francisco Borges, Santiago del Estero, 4200, Argentina",
     "source": "address"
   },
-  "417": {
+  "415": {
     "lat": -27.7795196,
     "lng": -64.2718455,
     "display_name": "Hospital Zonal Independencia, 660, Avenida Belgrano Norte, Barrio Juan Bautista Alberdi, Santiago del Estero, Municipio de Santiago del Estero, Departamento Juan Francisco Borges, Santiago del Estero, 4200, Argentina",
     "source": "address"
   },
-  "418": {
+  "416": {
     "lat": -27.7962673,
     "lng": -64.2957388,
     "display_name": "Barrio Belén, Santiago del Estero, Municipio de Santiago del Estero, Departamento Juan Francisco Borges, Santiago del Estero, G4200, Argentina",
     "source": "address"
   },
-  "419": {
+  "417": {
     "lat": -51.69218657548685,
     "lng": -57.86855876700162,
     "display_name": "King Edward Memorial Hospital, St Marys Walk, Puerto Argentino, Islas Malvinas",
     "source": "manual"
   },
-  "420": {
-    "lat": -53.7858275,
-    "lng": -67.7018562,
+  "418": {
+    "lat": -53.7694225,
+    "lng": -67.731218,
+    "display_name": "Casa de Jovenes, 1195, Isla de los Estados, Patagonia, Teniente Bernhardt, Municipio de Río Grande, Departamento Río Grande, Tierra del Fuego, V9420, Argentina",
+    "source": "address"
+  },
+  "419": {
+    "lat": -53.802672272422484,
+    "lng": -67.66017098860993,
     "display_name": "Municipio de Río Grande, Departamento Río Grande, Tierra del Fuego, V9420, Argentina",
-    "source": "ciudad"
+    "source": "manual"
+  },
+  "420": {
+    "lat": -53.80752627242417,
+    "lng": -67.6768389309388,
+    "display_name": "Municipio de Río Grande, Departamento Río Grande, Tierra del Fuego, V9420, Argentina",
+    "source": "manual"
   },
   "421": {
-    "lat": -53.7858275,
-    "lng": -67.7018562,
-    "display_name": "Municipio de Río Grande, Departamento Río Grande, Tierra del Fuego, V9420, Argentina",
-    "source": "ciudad"
+    "lat": -53.7821237,
+    "lng": -67.6989925,
+    "display_name": "Hospital Regional Nuestra Señora De La Candelaria, 709, Florentino Ameghino, Elcano, Municipio de Río Grande, Departamento Río Grande, Tierra del Fuego, V9420, Argentina",
+    "source": "address"
   },
   "422": {
-    "lat": -53.7858275,
-    "lng": -67.7018562,
-    "display_name": "Municipio de Río Grande, Departamento Río Grande, Tierra del Fuego, V9420, Argentina",
-    "source": "ciudad"
+    "lat": -54.51056188613015,
+    "lng": -67.19492653090096,
+    "display_name": "Municipio de Tolhuin, Departamento Tolhuin, Tierra del Fuego, 9412, Argentina",
+    "source": "manual"
   },
   "423": {
-    "lat": -53.7858275,
-    "lng": -67.7018562,
-    "display_name": "Municipio de Río Grande, Departamento Río Grande, Tierra del Fuego, V9420, Argentina",
-    "source": "ciudad"
-  },
-  "424": {
-    "lat": -54.5113492,
-    "lng": -67.1954004,
-    "display_name": "Municipio de Tolhuin, Departamento Tolhuin, Tierra del Fuego, 9412, Argentina",
-    "source": "ciudad"
-  },
-  "425": {
     "lat": -54.8024469,
     "lng": -68.3140352,
     "display_name": "894, Gobernador Manuel Fernández Valdéz, Calafate, Ushuaia, Departamento Ushuaia, Tierra del Fuego, V9410, Argentina",
     "source": "address"
   },
-  "426": {
-    "lat": -54.807306,
-    "lng": -68.3084133,
+  "424": {
+    "lat": -54.81373287202315,
+    "lng": -68.32357290346708,
     "display_name": "Ushuaia, Departamento Ushuaia, Tierra del Fuego, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   },
-  "427": {
+  "425": {
     "lat": -27.3454217,
     "lng": -65.6043219,
     "display_name": "Hospital Regional de Concepción Doctor Miguel Belascuain, 150, San Luis, Municipio de Concepción, Departamento Chicligasta, Tucumán, 4146, Argentina",
     "source": "address"
   },
-  "428": {
+  "426": {
     "lat": -26.9294351,
     "lng": -65.3387446,
     "display_name": "300, General Manuel Belgrano, San Isidro de Lules, Municipio de Lules, Departamento Lules, Tucumán, T4128, Argentina",
     "source": "address"
   },
-  "429": {
+  "427": {
     "lat": -26.8111212,
     "lng": -65.1918714,
     "display_name": "1577, Avenida Juan B. Justo, Villa 9 de julio, San Miguel de Tucumán, Departamento Capital, Tucumán, T4001JAG, Argentina",
     "source": "address"
   },
+  "428": {
+    "lat": -26.8111212,
+    "lng": -65.1918714,
+    "display_name": "1577, Avenida Juan B. Justo, Villa 9 de julio, San Miguel de Tucumán, Departamento Capital, Tucumán, T4001JAG, Argentina",
+    "source": "address"
+  },
+  "429": {
+    "lat": -26.79591501672503,
+    "lng": -65.19840073110994,
+    "display_name": "San Miguel de Tucumán, Departamento Capital, Tucumán, T4000, Argentina",
+    "source": "manual"
+  },
   "430": {
-    "lat": -26.8303703,
-    "lng": -65.2038133,
+    "lat": -26.83607921998982,
+    "lng": -65.20683638905523,
     "display_name": "San Miguel de Tucumán, Departamento Capital, Tucumán, T4000, Argentina",
-    "source": "ciudad"
-  },
-  "431": {
-    "lat": -26.8303703,
-    "lng": -65.2038133,
-    "display_name": "San Miguel de Tucumán, Departamento Capital, Tucumán, T4000, Argentina",
-    "source": "ciudad"
-  },
-  "432": {
-    "lat": -26.8303703,
-    "lng": -65.2038133,
-    "display_name": "San Miguel de Tucumán, Departamento Capital, Tucumán, T4000, Argentina",
-    "source": "ciudad"
+    "source": "manual"
   }
 }

@@ -12,6 +12,9 @@ dist
 dist-ssr
 *.local
 
+# Manual geocoding working file
+geocoding-pending.json
+
 # Editor directories and files
 .vscode
 !.vscode/extensions.json
