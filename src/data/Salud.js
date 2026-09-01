@@ -1373,9 +1373,9 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Pinamar",
-    lat: -37.0926627,
-    lng: -56.8736377,
-    direccion: "Av. del Parque 7167 y Misiones",
+    lat: -37.12456901949253,
+    lng: -56.88594325118448,
+    direccion: "Av. del Parque y Misiones",
     telefono: "(2254) 49-1777",
     correo: "apspinamar@gmail.com"
   },
