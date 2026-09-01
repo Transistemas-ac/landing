@@ -1079,8 +1079,8 @@ const Salud = [
     especialidad: "Endocrinología, Clínica Médica",
     provincia: "Buenos Aires",
     ciudad: "Mar del Tuyú",
-    lat: -36.5765792,
-    lng: -56.701505,
+    lat: -36.57596129661934,
+    lng: -56.68809145145371,
     direccion: "Calle 74 y Calle 1",
     telefono: "02246 43-4555",
     correo: "salud@lacosta.gov.ar"
@@ -2005,7 +2005,8 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°49 - Conjunto Habitacional Orma y Magaldi",
+    nombre:
+      "Centro de Salud y Acción Comunitaria (CeSAC) N°49 - Conjunto Habitacional Orma y Magaldi",
     especialidad: "Endocrinología, Salud Mental, Grupo de Pares",
     provincia: "CABA",
     ciudad: "Barracas",
@@ -3410,7 +3411,8 @@ const Salud = [
     correo: "trabajosocialschestakow@gmail.com"
   },
   {
-    nombre: "Centro de Atención Primaria de Salud (CAPS) N°198 Fermín Carrizo - La Arboleda",
+    nombre:
+      "Centro de Atención Primaria de Salud (CAPS) N°198 Fermín Carrizo - La Arboleda",
     especialidad:
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Mendoza",
@@ -3822,7 +3824,8 @@ const Salud = [
     correo: "iniciativamildias@gmail.com"
   },
   {
-    nombre: "Centro de Adiestramiento Dr. René Favaloro (CARF) La Rotonda - Consultorio de Diversidad y Salud Sexual",
+    nombre:
+      "Centro de Adiestramiento Dr. René Favaloro (CARF) La Rotonda - Consultorio de Diversidad y Salud Sexual",
     especialidad:
       "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Grupo de Pares, Clínica Médica, Trabajo Social",
     provincia: "San Juan",
@@ -4268,7 +4271,8 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "Centro de Atención Primaria de Salud (CAPS) Barrio Vírgen de Guadalupe",
+    nombre:
+      "Centro de Atención Primaria de Salud (CAPS) Barrio Vírgen de Guadalupe",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santa Fe",
     ciudad: "Reconquista",
