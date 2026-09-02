@@ -3108,9 +3108,9 @@ const Salud = [
       "Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
     provincia: "Corrientes",
     ciudad: "Monte Caseros",
-    lat: -30.25968507737366,
-    lng: -57.63462729671514,
-    direccion: "Caá Guazú 955",
+    lat: -30.25976439093804,
+    lng: -57.63357319656303,
+    direccion: "Caaguazú 955",
     telefono: "(3775) 45-0192",
     correo: ""
   },
@@ -3120,8 +3120,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Ginecología, Grupo de Pares",
     provincia: "Entre Ríos",
     ciudad: "Paraná",
-    lat: -31.7226843,
-    lng: -60.5151171,
+    lat: -31.722927965523056,
+    lng: -60.51475991711274,
     direccion: "Av. Laurencena 63",
     telefono: "(343) 464-9777 / 431-0676 / 4619526",
     correo: "saludintegraltransgoldin@hotmail.com / csseliggoldin@hotmail.com"
@@ -3142,9 +3142,9 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Formosa",
     ciudad: "Formosa",
-    lat: -26.1878096,
-    lng: -58.168051,
-    direccion: "Padre Patiño y Salta",
+    lat: -26.19981747992999,
+    lng: -58.1517846632507,
+    direccion: "Ing. L. Huergo y A. O. Daugero",
     telefono: "(370) 443-1323",
     correo: ""
   },
@@ -3182,23 +3182,23 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "Hospital Manuel Belgrano",
+    nombre: "Hospital General Manuel Belgrano",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Jujuy",
     ciudad: "Humahuaca",
-    lat: -23.204098,
-    lng: -65.3495159,
-    direccion: "Santa Fe 34",
+    lat: -23.200919800279113,
+    lng: -65.3504464262738,
+    direccion: "Santa Fe 34 (esq. Tierra del Fuego)",
     telefono: "(3887) 42-1009",
     correo: ""
   },
   {
-    nombre: "Hospital Maimará",
+    nombre: "Hospital de Maimará Dr. Miguel Ángel Miskoff",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Jujuy",
     ciudad: "Maimará",
-    lat: -23.6236374,
-    lng: -65.407168,
+    lat: -23.631267090399792,
+    lng: -65.41135371639416,
     direccion: "Av. Belgrano 906",
     telefono: "(388) 499-7003",
     correo: ""
@@ -3208,19 +3208,19 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Jujuy",
     ciudad: "Palpalá",
-    lat: -24.2537486,
-    lng: -65.21004,
-    direccion: "Av. Quispe (esq. Chacho Peñaloza)",
+    lat: -24.253809081861448,
+    lng: -65.20865548929592,
+    direccion: "Cabo Quispe y Chacho Peñaloza",
     telefono: "(388) 427-5996",
     correo: ""
   },
   {
-    nombre: "Hospital Dr. Guillermo Paterson",
+    nombre: "Hospital Dr. Guillermo C. Paterson",
     especialidad: "Hormonización, Atención a Infancias, Ginecología",
     provincia: "Jujuy",
     ciudad: "San Pedro de Jujuy",
-    lat: -24.2374226,
-    lng: -64.8737578,
+    lat: -24.234200238087286,
+    lng: -64.8719092032402,
     direccion: "Av. Siria 44",
     telefono: "(3888) 42-0006",
     correo: ""
@@ -3265,21 +3265,21 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "La Pampa",
     ciudad: "General Pico",
-    lat: -35.6695045,
-    lng: -63.7638034,
-    direccion: "Calle 17 Oeste 500-598",
+    lat: -35.6724740442987,
+    lng: -63.7664587285339,
+    direccion: "25 de Mayo S/N (entre Calle 112 y Calle 110)",
     telefono: "(2302) 43-6148",
     correo: ""
   },
   {
-    nombre: "Establecimiento Asistencial Dr. Manuel Freire",
+    nombre: "Hospital Dr. Manuel Freire",
     especialidad: "Hormonización, Atención a Infancias, Ginecología",
     provincia: "La Pampa",
     ciudad: "Guatraché",
-    lat: -37.6665306,
-    lng: -63.547478,
-    direccion: "1° Junta 158",
-    telefono: "(2954) 49-2532",
+    lat: -37.66527562662069,
+    lng: -63.547627360552326,
+    direccion: "Primera Junta 158",
+    telefono: "(2954) 49-2532 / 49-2035",
     correo: ""
   },
   {
@@ -3288,49 +3288,51 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "La Pampa",
     ciudad: "Santa Rosa",
-    lat: -36.6119823,
-    lng: -64.2898299,
+    lat: -36.59861315727386,
+    lng: -64.29067864122727,
     direccion: "Raúl B. Díaz y Pilcomayo",
-    telefono: "(2954) 455-000 (int. 3216)",
+    telefono: "(2954) 455-000 (int. 3216) / 38-3700",
     correo: ""
   },
   {
     nombre: "Hospital Luisa Pedemonte de Pistarini",
-    especialidad: "Atención a Infancias, Salud Mental",
+    especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "La Pampa",
     ciudad: "Victorica",
-    lat: -36.2217989,
-    lng: -65.4353775,
-    direccion: "Calle 21, 1194",
+    lat: -36.22102952764992,
+    lng: -65.43101935033256,
+    direccion: "Calle 15 S/N (entre Calle 26 y Calle 28)",
     telefono: "(2954) 49-7489",
     correo: "sole.munoz94@gmail.com"
   },
   {
     nombre: "Hospital Regional Dr. Enrique Vera Barros",
-    especialidad: "Atención a Infancias, Atención Integral",
+    especialidad: "Hormonización, Atención a Infancias, Atención Integral",
     provincia: "La Rioja",
     ciudad: "Chilecito",
     lat: -29.413707580506053,
     lng: -66.83710916899099,
     direccion: "Olta y Madre Teresa de Calcuta",
-    telefono: "0800-444-0211",
+    telefono: "0800-444-0211 / (380) 442-7782 / 445-3552",
     correo: "servicio_adolescencia_larioja@yahoo.com.ar"
   },
   {
     nombre:
       "Centro de Atención Primaria de Salud (CAPS) La Cañada y Anexo Parque de la Familia",
-    especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "La Rioja",
     ciudad: "La Rioja",
-    lat: -29.4177103,
-    lng: -66.9094128,
-    direccion: "Proyectada y Faustino Molina",
+    lat: -29.463696899349948,
+    lng: -66.86678345958971,
+    direccion:
+      "Faustino Molina S/N (entre Enrique Quique Neira y Jorge Agüero)",
     telefono: "(380) 436-9421",
     correo: "lic.nataliamendoza@gmail.com"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) N°30",
-    especialidad: "Atención a Infancias, Salud Mental",
+    especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "Mendoza",
     ciudad: "Godoy Cruz",
     lat: -32.9282731,
@@ -3342,17 +3344,17 @@ const Salud = [
   {
     nombre: "Modo SI (Salud Integral)",
     especialidad:
-      "Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
+      "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
     provincia: "Mendoza",
     ciudad: "Godoy Cruz",
-    lat: -32.9152166,
-    lng: -68.8665768,
+    lat: -32.91612545114127,
+    lng: -68.86726180840485,
     direccion: "Armani 1880",
     telefono: "(261) 272-2123",
     correo: "modosi.comunicacion@gmail.com"
   },
   {
-    nombre: "Hospital Dr. Humberto Notti",
+    nombre: "Hospital Pediátrico Dr. Humberto Notti",
     especialidad:
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Mendoza",
@@ -3364,15 +3366,15 @@ const Salud = [
     correo: "saludmentalnotti@gmail.com"
   },
   {
-    nombre: "Hospital Central",
+    nombre: "Hospital Central de Mendoza",
     especialidad:
       "Hormonización, Atención a Infancias, Salud Mental, Cirugía de Masculinización Tórax, Grupo de Pares",
     provincia: "Mendoza",
     ciudad: "Mendoza",
-    lat: -34.9727832,
-    lng: -67.7038567,
+    lat: -32.892193291381176,
+    lng: -68.83287464356341,
     direccion: "Alem 450",
-    telefono: "(261) 449-0684",
+    telefono: "(261) 449-0684 / 385-5509",
     correo: ""
   },
   {
@@ -3388,15 +3390,14 @@ const Salud = [
     correo: "trabajosocialschestakow@gmail.com"
   },
   {
-    nombre:
-      "Centro de Atención Primaria de Salud (CAPS) N°198 Fermín Carrizo - La Arboleda",
+    nombre: "Centro de Atención Primaria de Salud (CAPS) N°198 Fermín Carrizo",
     especialidad:
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Mendoza",
     ciudad: "Tupungato",
-    lat: -33.37311183383466,
-    lng: -69.11268540768205,
-    direccion: "Calle Iriarte S/N",
+    lat: -33.37311230614287,
+    lng: -69.11268273087582,
+    direccion: "Calle Iriarte S/N, La Arboleda",
     telefono: "(2622) 48-9153",
     correo: "caps198laarboleda@gmail.com"
   },
@@ -3417,45 +3418,45 @@ const Salud = [
     especialidad: "Atención a Infancias, Trabajo Social",
     provincia: "Misiones",
     ciudad: "Posadas",
-    lat: -27.3751781,
-    lng: -55.9384677,
+    lat: -27.375360543074574,
+    lng: -55.9374292800899,
     direccion: "Barrio San Gerardo S/N",
     telefono: "(376) 475-5550",
     correo: ""
   },
   {
-    nombre: "Hospital de Itaembé Guazú",
+    nombre: "Hospital de Itaembé de Guazú",
     especialidad:
       "Atención a Infancias, Endocrinología, Ginecología, Trabajo Social",
     provincia: "Misiones",
     ciudad: "Posadas",
-    lat: -27.4103422,
-    lng: -55.9838383,
+    lat: -27.4101123465621,
+    lng: -55.98375076608754,
     direccion: "Las Orquídeas 10609",
     telefono: "(376) 5157000 / 5157002 / 154831890",
     correo: "msp_itaembeguazu@misiones.gov.ar"
   },
   {
-    nombre: "Hospital Nuestra Señora de Fátima",
+    nombre: "Hospital Vírgen de Fátima",
     especialidad:
       "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
     provincia: "Misiones",
     ciudad: "Posadas",
-    lat: -27.4258774,
-    lng: -55.9428605,
-    direccion: "Calle 3 y 13",
+    lat: -27.43639999771612,
+    lng: -55.86960458400177,
+    direccion: "Av. Jorge Kemerer y Melchora",
     telefono: "(376) 440-9118",
     correo: ""
   },
   {
-    nombre: "Centro de Salud 15 de Febrero",
+    nombre: "Centro de Salud Comunitario 15 de Febrero",
     especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
     provincia: "Neuquén",
     ciudad: "Junín de los Andes",
-    lat: -39.9471653,
-    lng: -71.0696598,
-    direccion: "Patagonia 540",
-    telefono: "(294) 591-6213",
+    lat: -39.948079428993765,
+    lng: -71.06667034269567,
+    direccion: "Patagonia 567",
+    telefono: "(294) 591-6213 / 41-9042",
     correo: ""
   },
   {
@@ -3463,9 +3464,9 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "Neuquén",
     ciudad: "Junín de los Andes",
-    lat: -39.940965,
-    lng: -71.0664334,
-    direccion: "Río Negro S/N",
+    lat: -39.9408056188762,
+    lng: -71.06727699873093,
+    direccion: "Río Negro 350",
     telefono: "(2972) 49-1208",
     correo: ""
   },
@@ -3474,14 +3475,14 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "Neuquén",
     ciudad: "Junín de los Andes",
-    lat: -39.9536258,
-    lng: -71.066076,
-    direccion: "Gines Ponte 343",
+    lat: -39.953405339736406,
+    lng: -71.07142253768743,
+    direccion: "Laura Vicuña 380",
     telefono: "(294) 15-458-5213",
     correo: ""
   },
   {
-    nombre: "Hospital Loncopué Dr. José Enrique Cuevas",
+    nombre: "Hospital de Área Loncopué Dr. José Enrique Cuevas",
     especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Neuquén",
     ciudad: "Loncopué",
@@ -3496,26 +3497,27 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Grupo de Pares",
     provincia: "Neuquén",
     ciudad: "Neuquén",
-    lat: -40.1323252,
-    lng: -71.2952414,
+    lat: -38.949289914093804,
+    lng: -68.0560455873368,
     direccion: "Santa Fe 535",
     telefono: "",
     correo: "rondaencuentros@gmail.com"
   },
   {
-    nombre: "Hospital Bouquet Roldan",
-    especialidad: "Atención a Infancias",
+    nombre: "Hospital de Área Bouquet Roldan",
+    especialidad: "Hormonización, Atención a Infancias",
     provincia: "Neuquén",
     ciudad: "Neuquén",
-    lat: -38.9590528,
-    lng: -68.0711585,
-    direccion: "Teodoro Planas 1915",
-    telefono: "(299) 464-5782",
+    lat: -38.95899954453859,
+    lng: -68.08586645129849,
+    direccion: "Dr. Luis Teodoro Planas 1915",
+    telefono: "(299) 464-5782 / 443-8183",
     correo: ""
   },
   {
     nombre: "Hospital Dr. Horacio Heller",
-    especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Neuquén",
     ciudad: "Neuquén",
     lat: -38.93701702412,
@@ -3530,8 +3532,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Endocrinología, Salud Mental",
     provincia: "Neuquén",
     ciudad: "Neuquén",
-    lat: -38.9512963,
-    lng: -68.0577221,
+    lat: -38.9511998563012,
+    lng: -68.057813385052,
     direccion: "Buenos Aires 350",
     telefono: "",
     correo: "identidadespediatriahpn@gmail.com"
@@ -3541,95 +3543,83 @@ const Salud = [
     especialidad: "Atención a Infancias, Trabajo Social",
     provincia: "Neuquén",
     ciudad: "Neuquén",
-    lat: -38.9447674,
-    lng: -68.0506462,
+    lat: -38.951862884667456,
+    lng: -68.05074439086091,
     direccion: "Entre Ríos 303",
     telefono: "(299) 581-5851",
     correo: "equipoextension.subse@gmail.com"
   },
   {
-    nombre: "Centro de Salud Los Aromos",
+    nombre: "Centro de Salud Barrio Los Aromos",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Neuquén",
     ciudad: "Plottier",
-    lat: -38.9587083,
-    lng: -68.2406404,
+    lat: -38.95860258532684,
+    lng: -68.24167287687207,
     direccion: "Santiago del Estero 864",
     telefono: "(299) 493-7203",
     correo: ""
   },
   {
-    nombre: "Hospital de Plottier",
+    nombre: "Hospital de Área Plottier",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Neuquén",
     ciudad: "Plottier",
-    lat: -38.9483117,
-    lng: -68.226839,
-    direccion: "Sargento Cabral y Paraguay",
+    lat: -38.948942161225325,
+    lng: -68.22873901064094,
+    direccion: "Sargento Cabral y Lacar",
     telefono: "(299) 493-6098",
     correo: ""
   },
   {
-    nombre: "Centro de Salud Tiro Federal Ida China Paredes",
+    nombre: "Centro de Salud B° Tiro Federal Ida China Paredes",
     especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "Neuquén",
     ciudad: "San Martín de los Andes",
-    lat: -40.1594537,
-    lng: -71.3511387,
+    lat: -40.150263729435174,
+    lng: -71.35595648373196,
     direccion: "Teniente Coronel Pérez y Carlos Weber",
     telefono: "(29372) 42-8145 / (299) 606-7656",
     correo: "equidiversidadsma@gmail.com"
   },
   {
-    nombre: "Hospital Regional Ramón Carrillo",
+    nombre: "Hospital Regional Dr. Ramón Carrillo",
     especialidad:
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Neuquén",
     ciudad: "San Martín de los Andes",
-    lat: -40.148339,
-    lng: -71.3270148,
+    lat: -40.14838174600873,
+    lng: -71.32891669257668,
     direccion: "Pasaje del Pueblo 247",
     telefono: "(297) 42-6033 / 215-42-7211",
     correo: "equipodiversidadsma@gmail.com"
   },
   {
-    nombre: "Hospital Adolfo del Valle Senillosa",
+    nombre: "Hospital de Área Adolfo del Valle",
     especialidad:
       "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares",
     provincia: "Neuquén",
     ciudad: "Senillosa",
-    lat: -39.014747,
-    lng: -68.4362261,
-    direccion: "Belgrano y Neuquén",
-    telefono: "(299) 689-4212",
+    lat: -39.013617897381465,
+    lng: -68.42591095532015,
+    direccion: "Av. Belgrano y Neuquén",
+    telefono: "(299) 689-4212 / 492-0626",
     correo: "adolescencia.hospitalsenillosa@gmail.com"
   },
   {
-    nombre: "Hospital Dr. Oscar Arraiz",
+    nombre: "Hospital de Área Dr. Oscar Arraiz",
     especialidad:
       "Hormonización, Atención a Infancias, Salud Mental, Ginecología, Grupo de Pares, Trabajo Social",
     provincia: "Neuquén",
     ciudad: "Villa La Angostura",
-    lat: -40.7793223,
-    lng: -71.6555632,
+    lat: -40.77123584764593,
+    lng: -71.65044019942675,
     direccion: "Boulevard Nahuel Huapi 1107",
     telefono: "(2944) 49-4170 (int. 35/27)",
     correo: "consultoriointegraldiversovla@gmail.com"
   },
   {
-    nombre: "Consultorio LGBTIQ+ Allen",
-    especialidad:
-      "Hormonización, Atención a Infancias, Grupo de Pares, Trabajo Social",
-    provincia: "Río Negro",
-    ciudad: "Allen",
-    lat: -38.9791554,
-    lng: -67.8197652,
-    direccion: "Quesnel S/N",
-    telefono: "(2984) 760-683",
-    correo: "consultorioamigable.lgbtiq@gmail.com"
-  },
-  {
-    nombre: "Hospital Dra. Cecilia Grierson",
+    nombre: "Hospital de Área Dra. Cecilia Grierson",
     especialidad:
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Río Negro",
@@ -3642,7 +3632,7 @@ const Salud = [
   },
   {
     nombre:
-      "Hospital Área Programa Dr. Pedro Moguillansky - Consultorio Inclusivo Claudia Pía Baudracco",
+      "Hospital de Área Programa Dr. Pedro Moguillansky - Consultorio Inclusivo Claudia Pía Baudracco",
     especialidad:
       "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Clínica Médica, Trabajo Social",
     provincia: "Río Negro",
@@ -3660,8 +3650,8 @@ const Salud = [
       "Atención a Infancias, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Ginecología, Clínica Médica",
     provincia: "Río Negro",
     ciudad: "El Bolsón",
-    lat: -41.9579886,
-    lng: -71.541808,
+    lat: -41.95909957968307,
+    lng: -71.542176943775,
     direccion: "Av. los Cipreses 3240",
     telefono: "(294) 491-3353 / 472-0331",
     correo: "cicprimaverattnb@gmail.com"
@@ -3671,10 +3661,10 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Grupo de Pares",
     provincia: "Río Negro",
     ciudad: "General Roca",
-    lat: -39.0185769,
-    lng: -67.5947534,
-    direccion: "Gelonch 721",
-    telefono: "(2984) 165-557",
+    lat: -39.02216724503028,
+    lng: -67.57339996259417,
+    direccion: "Eduardo Gelonch 721",
+    telefono: "(2984) 165-557 / 43-5852",
     correo: ""
   },
   {
@@ -3682,11 +3672,11 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "Río Negro",
     ciudad: "Río Colorado",
-    lat: -38.91010267358859,
-    lng: -67.98244730438678,
+    lat: -38.98345731068331,
+    lng: -64.10908586259357,
     direccion: "Eliseo Calegari 1250",
-    telefono: "",
-    correo: ""
+    telefono: "(2931) 432-600 / 432-222 / 421-982",
+    correo: "hospitalriocolorado@hotmail.com"
   },
   {
     nombre: "Hospital Zonal Ramón Carrillo",
@@ -3700,13 +3690,13 @@ const Salud = [
     correo: "adolescenciasbariloche@gmail.com"
   },
   {
-    nombre: "Hospital Dr. Elías Smirnoff",
+    nombre: "Hospital de Área Dr. Elías Smirnoff",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Río Negro",
     ciudad: "Villa Regina",
-    lat: -39.1015629,
-    lng: -67.0846347,
-    direccion: "Fray Luis Beltrán 496",
+    lat: -39.102103109844506,
+    lng: -67.0846440304501,
+    direccion: "Fray Luis Beltrán 476",
     telefono: "(298) 446-1277",
     correo: ""
   },
@@ -3715,19 +3705,19 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "Salta",
     ciudad: "Cafayate",
-    lat: -26.0673322,
-    lng: -65.983162,
+    lat: -26.064866542973213,
+    lng: -65.9829546133699,
     direccion: "12 de Octubre (esq. Costanera)",
-    telefono: "",
+    telefono: "(3868) 42-2011",
     correo: "nadua144@hotmail.com"
   },
   {
-    nombre: "Centro de Salud Manjón",
+    nombre: "Centro de Salud N°6 El Manjón",
     especialidad: "Atención a Infancias",
     provincia: "Salta",
     ciudad: "Salta",
-    lat: -24.8100006,
-    lng: -65.3803152,
+    lat: -24.80965000249162,
+    lng: -65.38198075333513,
     direccion: "Av. José de Artigas 902",
     telefono: "(387) 428-1393",
     correo: ""
@@ -3740,8 +3730,8 @@ const Salud = [
     ciudad: "Salta",
     lat: -24.7814706,
     lng: -65.4158763,
-    direccion: "Sarmiento 655",
-    telefono: "(387) 442-7152 / 431-9349 / 421-3387 / 431-7400 / 0800-777-6452",
+    direccion: "Av. Sarmiento 655",
+    telefono: "(387) 431-9349 / 442-7152 / 421-3387 / 431-7400 / 0800-777-6452",
     correo: "hsmcapacitacion@gmail.com"
   },
   {
@@ -3749,10 +3739,10 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Salta",
     ciudad: "Salta",
-    lat: -24.7883597,
-    lng: -65.3989494,
-    direccion: "Paz Chaín 30",
-    telefono: "",
+    lat: -24.789623811993685,
+    lng: -65.39847193507809,
+    direccion: "E. Paz Chaín 30",
+    telefono: "(387) 422-1605",
     correo: ""
   },
   {
@@ -3772,33 +3762,22 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Cirugía de Masculinización Tórax",
     provincia: "San Juan",
     ciudad: "San Juan",
-    lat: -31.5216111,
-    lng: -68.5165964,
+    lat: -31.539413986242632,
+    lng: -68.51322286243567,
     direccion: "Av. Guillermo Rawson Sur 494",
-    telefono: "(264) 621-0689",
+    telefono: "(264) 621-0689 / 422-4005",
     correo: ""
   },
   {
-    nombre: "Hospital Público Dr.Marcial Quiroga",
+    nombre: "Hospital Público Dr. Marcial Vicente Quiroga",
     especialidad: "Atención a Infancias",
     provincia: "San Juan",
     ciudad: "San Juan",
     lat: -31.530056615152713,
     lng: -68.59582530140682,
     direccion: "Av. Libertador Gral. San Martín 5401",
-    telefono: "",
-    correo: ""
-  },
-  {
-    nombre: "Ministerio de Salud de la Provincia",
-    especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
-    provincia: "San Juan",
-    ciudad: "San Juan",
-    lat: -31.53628593911067,
-    lng: -68.53760571366831,
-    direccion: "Av. Libertador y Calle Las Heras",
-    telefono: "(264) 430-6981",
-    correo: "iniciativamildias@gmail.com"
+    telefono: "(264) 432-4700",
+    correo: "hospitalmarcialquirogasanjuan@gmail.com"
   },
   {
     nombre:
@@ -3818,8 +3797,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "San Luis",
     ciudad: "Carpintería",
-    lat: -32.4107421,
-    lng: -64.999353,
+    lat: -32.41054142124651,
+    lng: -65.01157990558708,
     direccion: "Pringles y San Martín",
     telefono: "(2656) 47-9157",
     correo: "cscarpinteria@gmail.com"
@@ -3852,19 +3831,19 @@ const Salud = [
       "Atención a Infancias, Salud Mental, Ginecología, Trabajo Social",
     provincia: "San Luis",
     ciudad: "La Punta",
-    lat: -33.188058,
-    lng: -66.3131842,
-    direccion: "5 Sur entre 8 Este y Av. Serrana",
+    lat: -33.18587233139957,
+    lng: -66.30927143350756,
+    direccion: "Calle 5 Sur (entre Calle 8 Este y Av. Serrana)",
     telefono: "(266) 445-2000 (int. 5002)",
     correo: "adolescenciasanluis@gmail.com"
   },
   {
-    nombre: "Centro de Salud Los Molles",
+    nombre: "Centro de Salud N°56 Los Molles",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "San Luis",
     ciudad: "Los Molles",
-    lat: -32.4354127,
-    lng: -65.0083569,
+    lat: -32.44005744764045,
+    lng: -65.00373671961584,
     direccion: "Pringles y Belgrano",
     telefono: "(266) 445-2000 (int. 5311)",
     correo: ""
@@ -3874,10 +3853,10 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "San Luis",
     ciudad: "Merlo",
-    lat: -32.3230977,
-    lng: -65.0351135,
-    direccion: "Ruta 1 y El Ceibo",
-    telefono: "",
+    lat: -32.351903273835816,
+    lng: -65.01624230471928,
+    direccion: "Ruta 1 y Bv. El Ceibo",
+    telefono: "(2656) 47-3712 / (2664) 17-5949 / 83-6675",
     correo: ""
   },
   {
@@ -3885,8 +3864,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "San Luis",
     ciudad: "Papagayos",
-    lat: -32.6753403,
-    lng: -64.9887669,
+    lat: -32.67444942455353,
+    lng: -64.98918264680428,
     direccion: "Av. Comechingones 150",
     telefono: "",
     correo: ""
@@ -3900,7 +3879,7 @@ const Salud = [
     lat: -33.28223136541646,
     lng: -66.33591610234926,
     direccion: "Marcelino Poblet 668",
-    telefono: "",
+    telefono: "(266) 461-0695",
     correo: "adolescenciassanluis@gmail.com"
   },
   {
@@ -3909,9 +3888,9 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "San Luis",
     ciudad: "San Luis",
-    lat: -33.1385127,
-    lng: -66.5200498,
-    direccion: "San Gerónimo S/N",
+    lat: -33.139818852165476,
+    lng: -66.52004730667468,
+    direccion: "San Gerónimo y Diagonal Sainz",
     telefono: "(2656) 473-712 / (2664) 175-949",
     correo: "centrodesaludsangeronimo@gmail.com"
   },
@@ -3920,8 +3899,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "San Luis",
     ciudad: "Santa Rosa del Conlara",
-    lat: -32.342821,
-    lng: -65.208157,
+    lat: -32.33746020919768,
+    lng: -65.20820645683301,
     direccion: "Santa Rosa de Lima y 9 de Julio",
     telefono: "(2656) 49-2020",
     correo: ""
@@ -3931,20 +3910,20 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "San Luis",
     ciudad: "Unión",
-    lat: -35.15468098393773,
-    lng: -65.94513784462717,
+    lat: -35.15469224562694,
+    lng: -65.94514552434379,
     direccion: "Av. A. Dassa 510",
     telefono: "(2954) 51-0037",
-    correo: ""
+    correo: "hospitalunion2018@gmail.com"
   },
   {
-    nombre: "Hospital Suárez Rocha",
+    nombre: "Hospital del Sur Dr. Justo Suárez Rocha",
     especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
     provincia: "San Luis",
     ciudad: "Villa Mercedes",
     lat: -33.7042516,
     lng: -65.4337419,
-    direccion: "Héctor Aubert S/N",
+    direccion: "Héctor Aubert S/N (entre Capitan Bolzan y Tiburcia Escudero)",
     telefono: "",
     correo: ""
   },
@@ -3954,21 +3933,22 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
     provincia: "Santa Cruz",
     ciudad: "El Calafate",
-    lat: -50.3347615,
-    lng: -72.2463137,
+    lat: -50.33447036739715,
+    lng: -72.23866604931995,
     direccion: "Av. Jorge Newbery 453",
     telefono: "(2902) 491-831 (int. 2226)",
     correo: "derechosysalud.samic@gmail.com"
   },
   {
-    nombre: "Hospital Distrital Gobernador Gregores",
+    nombre:
+      "Hospital Distrital de Gobernador Gregores Dr. Ramón Eraso Santa Paul",
     especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "Santa Cruz",
     ciudad: "Gobernador Gregores",
     lat: -48.7549907,
     lng: -70.2452704,
-    direccion: "Mario Paradelo 1025",
-    telefono: "(2966) 589-694",
+    direccion: "Mario C. Paradelo 1025",
+    telefono: "(2966) 589-694 / (2962) 49-1027",
     correo: ""
   },
   {
@@ -3978,9 +3958,9 @@ const Salud = [
     ciudad: "Las Heras",
     lat: -46.54934961199202,
     lng: -68.92259151540017,
-    direccion: "28 de Noviembre 315",
-    telefono: "(2974) 093-328",
-    correo: ""
+    direccion: "28 de Noviembre 315 (entre Juan José Paso y Juan Larrea)",
+    telefono: "(2974) 093-328 / 497-4666 / 497-6106",
+    correo: "hdlhsalud@hotmail.com"
   },
   {
     nombre:
@@ -4736,10 +4716,10 @@ const Salud = [
     especialidad: "Atención a Infancias, Trabajo Social",
     provincia: "Santiago del Estero",
     ciudad: "La Banda",
-    lat: -27.7273118,
-    lng: -64.2295706,
+    lat: -27.722554390777788,
+    lng: -64.22118130088897,
     direccion: "Aristóbulo del Valle 1699",
-    telefono: "(385) 416-2701 / 600-6879 / 627-9845",
+    telefono: "(385) 416-2701 / 600-6879 / 627-9845 / 427-5784",
     correo: ""
   },
   {
@@ -4756,7 +4736,7 @@ const Salud = [
       "serviciosaludsexualcepsi@gmail.com / comunicacioninstitucional@cepsi.gob.ar"
   },
   {
-    nombre: "Hospital Independencia",
+    nombre: "Hospital Zonal Independencia",
     especialidad:
       "Hormonización, Atención a Infancias, Clínica Médica, Trabajo Social",
     provincia: "Santiago del Estero",
@@ -4772,9 +4752,9 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Santiago del Estero",
     ciudad: "Santiago del Estero",
-    lat: -27.7962673,
-    lng: -64.2957388,
-    direccion: "Manzana 14 S/N, Barrio Belén",
+    lat: -27.79407699388719,
+    lng: -64.296509648456,
+    direccion: "Nazareth S/N, Manzana 14 Barrio Belén",
     telefono: "(385) 068-440 / 473-7984 / 477-8640",
     correo: "upa25barriobelen@gmail.com"
   },
@@ -4803,7 +4783,7 @@ const Salud = [
   },
   {
     nombre:
-      "Centro de Atención Primaria de Salud (CAPS) N°3 - Consultorio de Diversidad Nicolás Cristal",
+      "Centro de Atención Primaria de Salud (CAPS) N°3 Dr. Tomas Gonzalez - Consultorio de Diversidad Nicolás Cristal",
     especialidad:
       "Endocrinología, Salud Mental, Clínica Médica, Trabajo Social",
     provincia: "Tierra del Fuego",
@@ -4863,7 +4843,7 @@ const Salud = [
     correo: "consultoriodediversidadushuaia@gmail.com / capstressalud@gmail.com"
   },
   {
-    nombre: "Hospital Regional de Ushuaia - Gobernador Ernesto Campos",
+    nombre: "Hospital Regional de Ushuaia - Gobernador Ernesto Manuel Campos",
     especialidad: "Atención a Infancias, Trabajo Social",
     provincia: "Tierra del Fuego",
     ciudad: "Ushuaia",
@@ -4902,8 +4882,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "Tucumán",
     ciudad: "San Miguel de Tucumán",
-    lat: -26.8111212,
-    lng: -65.1918714,
+    lat: -26.834956669197283,
+    lng: -65.26826458869172,
     direccion: "Alsina 4700",
     telefono: "(381) 539-4617 / 439-5021 / (3816) 27-7711 / (3876) 11-4548",
     correo: "laumagadan@hotmail.com / transformandofamiliasf@gmail.com"
