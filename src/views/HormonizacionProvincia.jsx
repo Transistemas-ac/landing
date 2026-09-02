@@ -164,8 +164,8 @@ function HormonizacionProvincia() {
           </nav>
           <CsvDownloadButton
             className="hormonizacion-csv-button"
-            items={items}
-            filename={`centros-hormonizacion-${provinciaSlug}.csv`}
+            items={Salud}
+            filename="centros-hormonizacion.csv"
           >
             Descargar listado (CSV)
           </CsvDownloadButton>
@@ -224,10 +224,10 @@ function HormonizacionProvincia() {
           </Button>
           <CsvDownloadButton
             className="hormonizacion-download-button"
-            items={items}
-            filename={`centros-hormonizacion-${provinciaSlug}.csv`}
+            items={Salud}
+            filename="centros-hormonizacion.csv"
           >
-            Descargar listado de {provincia} (CSV)
+            Descargar listado completo (CSV)
           </CsvDownloadButton>
           <Button
             type="anchor"
