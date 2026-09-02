@@ -9,13 +9,6 @@ const footerLinks = [
 function Footer() {
   return (
     <footer className="footer">
-      <nav className="footer-links" aria-label="Información">
-        {footerLinks.map(({ href, label }) => (
-          <a key={href} className="footer-link" href={href}>
-            {label}
-          </a>
-        ))}
-      </nav>
       <div className="footer-icon-container">
         {socialLinks.map(({ href, icon, label }) => (
           <a
@@ -29,6 +22,13 @@ function Footer() {
           </a>
         ))}
       </div>
+      <nav className="footer-links" aria-label="Información">
+        {footerLinks.map(({ href, label }) => (
+          <a key={href} className="footer-link" href={href}>
+            {label}
+          </a>
+        ))}
+      </nav>
     </footer>
   );
 }
