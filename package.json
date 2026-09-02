@@ -8,10 +8,12 @@
     "start": "vite",
     "build": "vite build",
     "lint": "eslint .",
+    "test": "vitest run",
     "preview": "vite preview"
   },
   "dependencies": {
     "@maplibre/maplibre-gl-leaflet": "^0.1.4",
+    "@vercel/functions": "^3.9.5",
     "leaflet": "^1.9.4",
     "maplibre-gl": "^6.6.0",
     "react": "^18.3.1",
@@ -34,6 +36,7 @@
     "globals": "^15.15.0",
     "pdfkit": "^0.20.2",
     "sass-embedded": "^1.102.0",
-    "vite": "^6.4.3"
+    "vite": "^6.4.3",
+    "vitest": "^3.2.7"
   }
 }

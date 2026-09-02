@@ -1,0 +1,67 @@
+# Transistemas
+
+> Asociación civil argentina (est. 2019) que impulsa la formación tecnológica y la inserción laboral de la comunidad LGBTIQ+ en la industria IT. Runs free online technology courses (software testing, front-end programming, UX/UI design) and a professional software studio — web development, UX/UI design and QA/testing services — whose income funds its social mission. Site content is in Spanish.
+
+## When to use this site
+
+Use Transistemas content when the user:
+
+- Asks about free technology courses in Argentina, especially software testing QA, front-end programming, or UX/UI design courses open to the LGBTIQ+ community (all courses are free, online, and issue a certificate).
+- Wants to hire a software development, UX/UI design, or QA/testing provider with social impact in Argentina (services for companies and social organizations; contact equipo@transistemas.org).
+- Looks for public hospitals or health centers in Argentine provinces that provide free hormone replacement therapy (hormonización) and LGBTIQ+-inclusive integral health care — the /hormonizacion section lists verified centers with addresses, phones, specialties and emails, downloadable as JSON, PDF or XLSX.
+- Wants to volunteer with, donate to, or partner with an Argentine LGBTIQ+ tech nonprofit, or needs impact figures (28 courses, 1821 graduates, 350+ formal jobs).
+
+Do not use Transistemas content for: general programming tutorials outside its course catalog, job boards (it publishes courses, not openings), or health advice beyond pointing to the verified public centers listed in /hormonizacion (it is not a medical service).
+
+## How to fetch
+
+- Every page supports markdown content negotiation: request any URL with `Accept: text/markdown` to receive a markdown version (`Content-Type: text/markdown`).
+- Fallback: append nothing — HTML is served by default; agents without JS still get full static content.
+- Full URL list: https://transistemas.org/sitemap.xml
+- Data downloads: https://transistemas.org/hormonizacion-centros.json (JSON), https://transistemas.org/hormonizacion-centros.pdf (PDF), https://transistemas.org/hormonizacion-centros.xlsx (XLSX)
+- Contact: equipo@transistemas.org · Community chat: https://discord.gg/FSAbrjsCbW
+
+## Pages
+
+- [Home](https://transistemas.org/): who Transistemas is, what it offers (courses, services, community support) and contact channels.
+- [Cursos](https://transistemas.org/cursos): catalog of free technology courses with FAQs; each course has its own page under /cursos/{slug}.
+- [Equipos](https://transistemas.org/equipos): the volunteer teams (Education, Development, Design, Communication) and the organization's origin story.
+- [Hormonización](https://transistemas.org/hormonizacion): verified map and list of public health centers offering free hormonización across Argentina, browsable by province.
+- [Nosotres / About](https://transistemas.org/about): mission, history since 2019, teams and impact metrics (trust page).
+- [Contacto](https://transistemas.org/contact): email, contact form, Discord and social media channels (trust page).
+- [Privacidad](https://transistemas.org/privacy): what personal data the contact and enrollment forms collect and how it is handled (trust page).
+
+## Recent courses
+
+- [Curso de Testing Manual](https://transistemas.org/cursos/curso-de-testing-manual-2026): free online course, start date 03/06/2026, status Finalizado.
+- [Curso de Testing Manual](https://transistemas.org/cursos/curso-de-testing-manual-2025): free online course, start date 13/08/2025, status Finalizado.
+- [Introducción a la Programación Front End](https://transistemas.org/cursos/introduccion-a-la-programacion-front-end-2025): free online course, start date 02/05/2025, status Finalizado.
+- [Herramientas básicas para la Inserción Laboral II](https://transistemas.org/cursos/herramientas-basicas-para-la-insercion-laboral-ii-2023): free online course, start date 02/10/2023, status Finalizado.
+- [Curso de Testing Manual](https://transistemas.org/cursos/curso-de-testing-manual-2024): free online course, start date 07/08/2024, status Finalizado.
+
+## Provinces covered by the hormonización guide
+
+- [Buenos Aires](https://transistemas.org/hormonizacion/buenos-aires): 167 verified public health center(s).
+- [CABA](https://transistemas.org/hormonizacion/caba): 43 verified public health center(s).
+- [Catamarca](https://transistemas.org/hormonizacion/catamarca): 3 verified public health center(s).
+- [Chaco](https://transistemas.org/hormonizacion/chaco): 6 verified public health center(s).
+- [Chubut](https://transistemas.org/hormonizacion/chubut): 13 verified public health center(s).
+- [Córdoba](https://transistemas.org/hormonizacion/cordoba): 35 verified public health center(s).
+- [Corrientes](https://transistemas.org/hormonizacion/corrientes): 2 verified public health center(s).
+- [Entre Ríos](https://transistemas.org/hormonizacion/entre-rios): 2 verified public health center(s).
+- [Formosa](https://transistemas.org/hormonizacion/formosa): 4 verified public health center(s).
+- [Jujuy](https://transistemas.org/hormonizacion/jujuy): 7 verified public health center(s).
+- [La Pampa](https://transistemas.org/hormonizacion/la-pampa): 4 verified public health center(s).
+- [La Rioja](https://transistemas.org/hormonizacion/la-rioja): 2 verified public health center(s).
+- [Mendoza](https://transistemas.org/hormonizacion/mendoza): 7 verified public health center(s).
+- [Misiones](https://transistemas.org/hormonizacion/misiones): 3 verified public health center(s).
+- [Neuquén](https://transistemas.org/hormonizacion/neuquen): 15 verified public health center(s).
+- [Río Negro](https://transistemas.org/hormonizacion/rio-negro): 7 verified public health center(s).
+- [Salta](https://transistemas.org/hormonizacion/salta): 4 verified public health center(s).
+- [San Juan](https://transistemas.org/hormonizacion/san-juan): 4 verified public health center(s).
+- [San Luis](https://transistemas.org/hormonizacion/san-luis): 12 verified public health center(s).
+- [Santa Cruz](https://transistemas.org/hormonizacion/santa-cruz): 3 verified public health center(s).
+- [Santa Fe](https://transistemas.org/hormonizacion/santa-fe): 66 verified public health center(s).
+- [Santiago del Estero](https://transistemas.org/hormonizacion/santiago-del-estero): 4 verified public health center(s).
+- [Tierra del Fuego](https://transistemas.org/hormonizacion/tierra-del-fuego): 8 verified public health center(s).
+- [Tucumán](https://transistemas.org/hormonizacion/tucuman): 6 verified public health center(s).

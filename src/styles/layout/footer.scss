@@ -6,6 +6,23 @@
   margin: 0 auto 50px;
   position: relative;
 
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+    margin-bottom: 29px;
+  }
+
+  .footer-link {
+    color: $grey-lighter;
+    font-size: 0.9rem;
+    text-decoration: none;
+
+    &:hover {
+      color: #6b2fb3;
+    }
+  }
+
   .footer-icon-container {
     width: 100%;
     display: grid;
