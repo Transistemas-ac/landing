@@ -2495,25 +2495,16 @@ const Salud = [
     correo: "diversidadelimpenetrable@gmail.com"
   },
   {
-    nombre: "Hospital 4 de Junio Dr. Ramón Carrillo",
-    especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
+    nombre:
+      "Hospital 4 de Junio Dr. Ramón Carrillo - Servicio Integral Amigable para Adolescentes (SIAPA)",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Chaco",
     ciudad: "Presidencia Roque Sáenz Peña",
-    lat: -26.7988015,
-    lng: -60.4349124,
-    direccion: "Calle 28 entre 31 bis y 25 bis",
-    telefono: "(362) 487-6023 / (3644) 12-0185",
-    correo: ""
-  },
-  {
-    nombre: "Servicio Integral Amigable para Adolescentes (SIAPA)",
-    especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
-    provincia: "Chaco",
-    ciudad: "Presidencia Roque Sáenz Peña",
-    lat: -26.7986451,
-    lng: -60.434816,
-    direccion: "Calle 25 entre 28 y 30",
-    telefono: "(362) 15-475-8320",
+    lat: -26.776632553833753,
+    lng: -60.44669655882722,
+    direccion: "Av. Malvinas Argentinas 1350",
+    telefono: "(362) 487-6023 / 443-1861 / 15-475-8320 / (3644) 12-0185",
     correo: ""
   },
   {
@@ -2565,16 +2556,26 @@ const Salud = [
     correo: "direccionaps@comodoro.gov.ar"
   },
   {
-    nombre:
-      "Hospital Regional - Centro de Salud Integral del Adolescente (CESIA)",
+    nombre: "Hospital Regional de Comodoro Rivadavia",
+    especialidad: "Hormonización, Trabajo Social",
+    provincia: "Chubut",
+    ciudad: "Comodoro Rivadavia",
+    lat: -45.86837044166464,
+    lng: -67.4875255461683,
+    direccion: "Av. Hipólito Yrigoyen 950",
+    telefono: "(297) 444-2222 (int. 276)",
+    correo: "hospitalregionalcomodoro950@gmail.com"
+  },
+  {
+    nombre: "Centro de Salud Integral del Adolescente (CESIA) - Casita Verde",
     especialidad:
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Chubut",
     ciudad: "Comodoro Rivadavia",
-    lat: -45.8579825,
-    lng: -67.5298915,
-    direccion: "San Martín y Saavedra",
-    telefono: "(280) 444-5329",
+    lat: -45.86090027939367,
+    lng: -67.48803858677871,
+    direccion: "Saavedra 915. 1° piso",
+    telefono: "(280) 444-5329 / (297) 529-8261",
     correo: "casitaverdecr@gmail.com"
   },
   {
@@ -2582,9 +2583,9 @@ const Salud = [
     especialidad: "Atención a Infancias, Salud Mental",
     provincia: "Chubut",
     ciudad: "El Hoyo",
-    lat: -42.0650891,
-    lng: -71.5226857,
-    direccion: "Islas Malvinas S/N",
+    lat: -42.06335421508942,
+    lng: -71.52030763148846,
+    direccion: "Av. Islas Malvinas S/N (entre Los Ciruelos y Los Jardines)",
     telefono: "(2944) 166-292",
     correo: "conectadxshreh@gmail.com"
   },
@@ -2593,8 +2594,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Chubut",
     ciudad: "El Maitén",
-    lat: -42.0504791,
-    lng: -71.1598343,
+    lat: -42.046057269000094,
+    lng: -71.17433532600583,
     direccion: "Liniers y José Hernández",
     telefono: "(2945) 49-5117",
     correo: ""
@@ -2615,8 +2616,8 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Chubut",
     ciudad: "Esquel",
-    lat: -42.9157198,
-    lng: -71.3270283,
+    lat: -42.917249188927435,
+    lng: -71.32924647026032,
     direccion: "Av. Alvear y Molinari",
     telefono: "(11) 5329-90872",
     correo: ""
@@ -2626,22 +2627,23 @@ const Salud = [
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Chubut",
     ciudad: "Lago Puelo",
-    lat: -42.0606125,
-    lng: -71.5979019,
-    direccion: "Av. 2 de Abril S/N",
+    lat: -42.05886449390817,
+    lng: -71.59764482798022,
+    direccion: "Av. 2 de Abril y Mutisias",
     telefono: "(2944) 49-9041",
     correo: ""
   },
   {
-    nombre: "Centro de Atención Primaria de Salud (CAPS) Favaloro",
+    nombre:
+      "Centro de Atención Primaria de Salud (CAPS) Favaloro - Centro Especializado en Salud Integral de Adolescentes (CESIA) Pozzi",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Chubut",
     ciudad: "Puerto Madryn",
-    lat: -42.7587414,
-    lng: -65.0608294,
+    lat: -42.7595182,
+    lng: -65.0607578,
     direccion: "Alto Río Senguer 1300",
-    telefono: "(280) 445-1887",
-    correo: ""
+    telefono: "(280) 445-1887 / 445-1387",
+    correo: "centropozzi@gmail.com"
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Gobernador Fontana",
@@ -2649,8 +2651,8 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Chubut",
     ciudad: "Puerto Madryn",
-    lat: -42.7796527,
-    lng: -65.0563243,
+    lat: -42.779020518303845,
+    lng: -65.05416732971103,
     direccion: "España y La Rioja",
     telefono: "(280) 447-2230",
     correo: ""
@@ -2661,27 +2663,14 @@ const Salud = [
       "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Chubut",
     ciudad: "Puerto Madryn",
-    lat: -42.7796947,
-    lng: -65.0482798,
+    lat: -42.78411245158568,
+    lng: -65.060930389208,
     direccion: "Estivariz 2484",
     telefono: "",
     correo: "capsroquegonzalez@gmail.com / spaopat@gmail.com"
   },
   {
-    nombre:
-      "Centro Especializado en Salud Integral de Adolescentes (CESIA) Pozzi",
-    especialidad:
-      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
-    provincia: "Chubut",
-    ciudad: "Puerto Madryn",
-    lat: -42.7595182,
-    lng: -65.0607578,
-    direccion: "Agustín Pujol y Juan Acosta",
-    telefono: "(280) 445-1387",
-    correo: "centropozzi@gmail.com"
-  },
-  {
-    nombre: "Hospital Dr. A. Isola",
+    nombre: "Hospital Suzonal Dr. Andrés R. Isola",
     especialidad: "Hormonización, Atención a Infancias",
     provincia: "Chubut",
     ciudad: "Puerto Madryn",
@@ -2692,28 +2681,16 @@ const Salud = [
     correo: ""
   },
   {
-    nombre: "Hospital Santa Teresita",
+    nombre: "Hospital Suzonal Santa Teresita de Rawson",
     especialidad:
       "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
     provincia: "Chubut",
     ciudad: "Rawson",
     lat: -43.2966604,
     lng: -65.1067752,
-    direccion: "Roca 534",
+    direccion: "Julio A. Roca 534",
     telefono: "",
     correo: "endocrinologiames@gmail.com"
-  },
-  {
-    nombre: "Hospital Subzonal Rawson",
-    especialidad:
-      "Hormonización, Atención a Infancias, Salud Mental, Ginecología",
-    provincia: "Chubut",
-    ciudad: "Rawson",
-    lat: -43.2569894,
-    lng: -65.311865,
-    direccion: "Julio Argentino Roca 545",
-    telefono: "(280) 485-3994",
-    correo: ""
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Ampliación Ferreyra",
@@ -3817,8 +3794,8 @@ const Salud = [
     especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "San Juan",
     ciudad: "San Juan",
-    lat: -31.500853,
-    lng: -68.5404772,
+    lat: -31.53628593911067,
+    lng: -68.53760571366831,
     direccion: "Av. Libertador y Calle Las Heras",
     telefono: "(264) 430-6981",
     correo: "iniciativamildias@gmail.com"

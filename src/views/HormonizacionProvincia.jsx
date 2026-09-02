@@ -27,12 +27,10 @@ const scrollItemIntoView = (index) => {
   const reduceMotion = window.matchMedia(
     "(prefers-reduced-motion: reduce)"
   ).matches;
-  document
-    .getElementById(`salud-item-${index}`)
-    ?.scrollIntoView({
-      behavior: reduceMotion ? "auto" : "smooth",
-      block: "nearest"
-    });
+  document.getElementById(`salud-item-${index}`)?.scrollIntoView({
+    behavior: reduceMotion ? "auto" : "smooth",
+    block: "nearest"
+  });
 };
 
 const buildItemSchema = (items, provincia) => ({
@@ -136,12 +134,11 @@ function HormonizacionProvincia() {
         </p>
 
         <div className="hormonizacion-header">
-          <h1 className="hormonizacion-title">
-            Hormonización en {provincia}
-          </h1>
+          <h1 className="hormonizacion-title">Hormonización en {provincia}</h1>
           <p className="hormonizacion-description">
-            {items.length} {items.length === 1 ? "centro de salud" : "centros de salud"}{" "}
-            con hormonización y atención integral para la comunidad LGBTIQ+ en{" "}
+            {items.length}{" "}
+            {items.length === 1 ? "centro de salud" : "centros de salud"} con
+            hormonización y atención integral para la comunidad LGBTIQ+ en{" "}
             {provincia}. Seleccioná un punto en el mapa o un centro del listado
             para ver su información.
           </p>
@@ -155,20 +152,17 @@ function HormonizacionProvincia() {
                     active ? "active" : ""
                   }`}
                   aria-current={active ? "page" : undefined}
-                  to={active ? "/hormonizacion" : `/hormonizacion/${getProvinciaSlug(other)}`}
+                  to={
+                    active
+                      ? "/hormonizacion"
+                      : `/hormonizacion/${getProvinciaSlug(other)}`
+                  }
                 >
                   {other}
                 </Link>
               );
             })}
           </nav>
-          <CsvDownloadButton
-            className="hormonizacion-csv-button"
-            items={Salud}
-            filename="centros-hormonizacion.csv"
-          >
-            Descargar listado (CSV)
-          </CsvDownloadButton>
         </div>
 
         <div className="hormonizacion-layout">
