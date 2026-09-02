@@ -6,6 +6,7 @@ import iconMail from "../assets/svg/icon_mail.svg";
 import iconCopy from "../assets/svg/icon_copy.svg";
 import iconLink from "../assets/svg/icon_arrow.svg";
 import iconClose from "../assets/svg/icon_close.svg";
+import iconDownload from "../assets/svg/icon_download.svg";
 
 const ICONS = {
   send: { src: iconSend, alt: "Icono de enviar" },
@@ -13,6 +14,7 @@ const ICONS = {
   link: { src: iconLink, alt: "Icono de link externo" },
   copy: { src: iconCopy, alt: "Icono de copiar texto" },
   close: { src: iconClose, alt: "Icono de cerrar" },
+  download: { src: iconDownload, alt: "Icono de descargar" },
 };
 
 function Button({

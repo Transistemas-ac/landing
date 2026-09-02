@@ -14,6 +14,9 @@ export default defineConfig({
       name: "transistemas-seo-prebuild",
       buildStart() {
         runScript("src/utils/generate-sitemap.js");
+        runScript("src/utils/generate-pdf.js");
+        runScript("src/utils/generate-xlsx.js");
+        runScript("src/utils/generate-json.js");
       }
     },
     react()

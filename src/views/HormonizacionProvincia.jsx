@@ -5,6 +5,9 @@ import Breadcrumb from "../components/Breadcrumb";
 import Footer from "../components/Footer";
 import SaludListItem from "../components/SaludListItem";
 import HormonizacionGuide from "../components/HormonizacionGuide";
+import CsvDownloadButton from "../components/CsvDownloadButton";
+import Button from "../components/Button";
+import EmbedInstructions from "../components/EmbedInstructions";
 import Contact from "../components/Contact";
 import ErrorPage from "./ErrorPage";
 import {
@@ -159,6 +162,13 @@ function HormonizacionProvincia() {
               );
             })}
           </nav>
+          <CsvDownloadButton
+            className="hormonizacion-csv-button"
+            items={items}
+            filename={`centros-hormonizacion-${provinciaSlug}.csv`}
+          >
+            Descargar listado (CSV)
+          </CsvDownloadButton>
         </div>
 
         <div className="hormonizacion-layout">
@@ -190,6 +200,43 @@ function HormonizacionProvincia() {
               />
             </Suspense>
           </aside>
+        </div>
+      </div>
+
+      <div className="hormonizacion-embed-wrap">
+        <EmbedInstructions />
+        <div className="hormonizacion-download-column">
+          <Button
+            type="anchor"
+            href="/hormonizacion-centros.pdf"
+            download
+            className="hormonizacion-download-button"
+          >
+            Descargar listado completo (PDF)
+          </Button>
+          <Button
+            type="anchor"
+            href="/hormonizacion-centros.xlsx"
+            download
+            className="hormonizacion-download-button"
+          >
+            Descargar listado completo (XLSX)
+          </Button>
+          <CsvDownloadButton
+            className="hormonizacion-download-button"
+            items={items}
+            filename={`centros-hormonizacion-${provinciaSlug}.csv`}
+          >
+            Descargar listado de {provincia} (CSV)
+          </CsvDownloadButton>
+          <Button
+            type="anchor"
+            href="/hormonizacion-centros.json"
+            download
+            className="hormonizacion-download-button"
+          >
+            Descargar listado completo (JSON)
+          </Button>
         </div>
       </div>
 

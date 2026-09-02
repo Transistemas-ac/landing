@@ -147,6 +147,158 @@
   gap: 8px;
 }
 
+.hormonizacion-csv-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: auto;
+  max-width: none;
+  padding: 10px 22px;
+  font-size: 14px;
+  margin-top: 20px;
+
+  @media screen and (min-width: $tablet-bp) {
+    font-size: 15px;
+  }
+}
+
+.hormonizacion-embed-wrap {
+  @include section();
+  max-width: 1200px;
+  padding-top: 64px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 32px;
+  align-items: start;
+  text-align: left;
+
+  .hormonizacion-embed-instructions {
+    margin: 0;
+    padding: 0;
+    max-width: none;
+    width: 100%;
+    text-align: left;
+  }
+
+  .hormonizacion-download-column {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 300px;
+    flex-shrink: 0;
+
+    .hormonizacion-download-button {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      width: 100%;
+      max-width: none;
+      padding: 12px 28px;
+      font-size: 14px;
+    }
+  }
+
+  @media (max-width: $tablet-bp) {
+    grid-template-columns: 1fr;
+    gap: 24px;
+
+    .hormonizacion-download-column {
+      width: 100%;
+    }
+  }
+}
+
+.hormonizacion-embed-instructions {
+  @include section();
+  max-width: 1000px;
+  padding-top: 64px;
+  text-align: left;
+
+  .hormonizacion-embed-title {
+    color: $white;
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0 0 12px;
+  }
+
+  .hormonizacion-embed-description {
+    color: $grey-lighter;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: 0 0 20px;
+    max-width: 760px;
+  }
+
+  .hormonizacion-embed-snippet {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    max-width: 760px;
+    background-color: $grey-darker;
+    border-radius: 12px;
+    padding: 14px 16px;
+
+    code {
+      flex: 1;
+      min-width: 0;
+      color: $yellow-lighter;
+      font-size: 12.5px;
+      line-height: 1.5;
+      overflow-wrap: anywhere;
+      white-space: pre-wrap;
+    }
+  }
+
+  .hormonizacion-embed-copy {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: auto;
+    max-width: none;
+    padding: 10px 20px;
+    font-size: 13px;
+    flex-shrink: 0;
+  }
+
+  .hormonizacion-embed-resize {
+    margin-top: 24px;
+    color: $grey-lighter;
+
+    summary {
+      color: $blue;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: 600;
+      width: fit-content;
+
+      &:focus-visible {
+        outline: 2px solid $blue;
+        outline-offset: 2px;
+      }
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 1.6;
+      margin: 12px 0;
+    }
+
+    .hormonizacion-embed-snippet {
+      margin-top: 12px;
+    }
+  }
+
+  @media (max-width: $tablet-bp) {
+    .hormonizacion-embed-snippet {
+      flex-direction: column;
+      align-items: stretch;
+    }
+  }
+}
+
 .hormonizacion-provincias-link {
   padding: 6px 14px;
   border-radius: 999px;

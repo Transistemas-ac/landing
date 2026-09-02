@@ -1884,8 +1884,8 @@ const Salud = [
     especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Villa Gesell",
-    lat: -37.2653798,
-    lng: -56.9813529,
+    lat: -37.26078238702093,
+    lng: -56.996377195750675,
     direccion: "Paseo 115 y Av. 30",
     telefono: "(2255) 50-8902 / 47-8080 / 47-9993",
     correo: ""

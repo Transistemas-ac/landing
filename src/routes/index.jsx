@@ -11,6 +11,9 @@ const HormonizacionView = lazy(() => import("../views/Hormonizacion"));
 const HormonizacionProvinciaView = lazy(() =>
   import("../views/HormonizacionProvincia")
 );
+const HormonizacionEmbedView = lazy(() =>
+  import("../views/HormonizacionEmbed")
+);
 
 const getRouteElement = (Component) => (
   <Suspense fallback={<LoadingScreen />}>
@@ -44,6 +47,13 @@ const routes = [
     element: getRouteElement(HormonizacionView),
     className: "hormonizacion",
     showInNavbar: true,
+  },
+  {
+    name: "Mapa embebido",
+    path: "/hormonizacion/embed",
+    element: getRouteElement(HormonizacionEmbedView),
+    className: "hormonizacion-embed",
+    showInNavbar: false,
   },
   {
     name: "Equipos",

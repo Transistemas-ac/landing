@@ -40,11 +40,7 @@ function HormonizacionGuide() {
           </a>
         </article>
         <article className="hormonizacion-guide-card">
-          <img
-            className="hormonizacion-guide-icon"
-            src={iconAtencion}
-            alt=""
-          />
+          <img className="hormonizacion-guide-icon" src={iconAtencion} alt="" />
           <h3 className="hormonizacion-guide-title">
             Líneas de atención y orientación
           </h3>
@@ -59,7 +55,9 @@ function HormonizacionGuide() {
         </article>
         <article className="hormonizacion-guide-card">
           <img className="hormonizacion-guide-icon" src={iconDatos} alt="" />
-          <h3 className="hormonizacion-guide-title">Sobre los datos publicados</h3>
+          <h3 className="hormonizacion-guide-title">
+            Sobre los datos publicados
+          </h3>
           <p className="hormonizacion-guide-text">
             La información sobre hospitales, consultorios y servicios fue
             recopilada a partir de fuentes públicas y registros oficiales.

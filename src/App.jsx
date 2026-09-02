@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes, useLocation } from "react-router-dom";
 import { Paths } from "./routes";
 import ErrorPage from "./views/ErrorPage";
 import DisplayContext from "./context/DisplayProvider";
@@ -13,10 +13,8 @@ function App() {
   return (
     <div className="app">
       <DisplayContext.Provider value={isMobile}>
-        <Router>
-          <ScrollToTop />
-          <Navbar />
-
+        <Router future={{ v7_startTransition: true, v7_relativeSplatPath: true }}>
+          <Chrome />
           <Routes>
             {Paths()}
             <Route path="*" element={<ErrorPage />} />
@@ -25,6 +23,18 @@ function App() {
       </DisplayContext.Provider>
       <SnackbarContainer />
     </div>
+  );
+}
+
+function Chrome() {
+  const { pathname } = useLocation();
+  if (pathname === "/hormonizacion/embed") return null;
+
+  return (
+    <>
+      <ScrollToTop />
+      <Navbar />
+    </>
   );
 }
 
