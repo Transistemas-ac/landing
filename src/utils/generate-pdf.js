@@ -325,7 +325,7 @@ const drawCentro = (doc, item) => {
     rowY = doc.y + 4;
   });
 
-  doc.y = rowY + 16;
+  doc.y = rowY + 28;
 };
 
 const drawListado = (doc) => {
