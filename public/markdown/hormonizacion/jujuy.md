@@ -49,7 +49,7 @@ Total de centros: 7.
 ## Hospital Pablo Soria
 
 - **Ciudad:** San Salvador de Jujuy
-- **Especialidades:** Atención a Infancias, Cirugía de Masculinización Tórax
+- **Especialidades:** Hormonización, Atención a Infancias, Cirugía de Masculinización Tórax
 - **Dirección:** Gral. Güemes 1345
 - **Teléfono:** (388) 422-1259
 

@@ -121,17 +121,19 @@ const drawParagraph = (doc, text, size = 9.5, options = {}) => {
 };
 
 const drawInfoPage = (doc) => {
-  const centerText = (text, size, font, color, y) => {
+  const centerText = (text, size, font, color, y, options = {}) => {
     doc
       .font(font)
       .fontSize(size)
       .fillColor(color)
-      .text(text, 0, y, { width: PAGE_WIDTH, align: "center" });
+      .text(text, 0, y, { width: PAGE_WIDTH, align: "center", ...options });
     return y + size * 1.6;
   };
 
   let y = 70;
-  y = centerText("<Transistemas>", 30, "RobotCrush", COLORS.black, y);
+  y = centerText("<Transistemas>", 30, "RobotCrush", COLORS.black, y, {
+    link: SITE_URL
+  });
   doc
     .font("WorkSansSemiBold")
     .fontSize(11)
@@ -167,19 +169,6 @@ const drawInfoPage = (doc) => {
     });
   doc.y += 4;
 
-  drawSectionTitle(doc, "Líneas de atención y orientación");
-  drawParagraph(
-    doc,
-    "144 · Línea de Género y Diversidad (atención, asesoramiento y contención).",
-    9.5,
-    { bold: true }
-  );
-  drawParagraph(
-    doc,
-    "0800-222-3444 · Salud Sexual (información sobre derechos y acceso a servicios de salud)."
-  );
-  doc.y += 2;
-
   drawSectionTitle(doc, "Sobre los datos publicados");
   drawParagraph(
     doc,
@@ -194,10 +183,32 @@ const drawInfoPage = (doc) => {
     });
   doc.y += 4;
 
+  drawSectionTitle(doc, "Líneas de atención y orientación");
+  drawParagraph(
+    doc,
+    "144 · Línea de Género y Diversidad (atención, asesoramiento y contención).",
+    9.5,
+    { bold: true }
+  );
+  drawParagraph(
+    doc,
+    "0800-222-3444 · Salud Sexual (información sobre derechos y acceso a servicios de salud).",
+    9.5,
+    { bold: true }
+  );
+  doc.y += 2;
+
   drawSectionTitle(doc, "¿Encontraste un error o un dato desactualizado?");
   drawParagraph(
     doc,
     "Ayudanos a mejorar esta guía. Si un teléfono, dirección, horario o cualquier otra información es incorrecta, completá el formulario de reporte disponible en transistemas.org/hormonizacion. Tu colaboración ayuda a mantener esta información precisa y útil para toda la comunidad."
+  );
+  doc.y += 4;
+
+  drawSectionTitle(doc, "¿Quién hizo este mapa?");
+  drawParagraph(
+    doc,
+    "Este mapa fue creado por el equipo de desarrollo de Transistemas, una asociación civil argentina que impulsa la formación tecnológica y la inserción laboral de talento LGBTIQ+ en la industria IT."
   );
   doc.y += 8;
 
@@ -314,7 +325,7 @@ const drawCentro = (doc, item) => {
     rowY = doc.y + 4;
   });
 
-  doc.y = rowY + 6;
+  doc.y = rowY + 16;
 };
 
 const drawListado = (doc) => {

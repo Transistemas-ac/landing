@@ -7,7 +7,7 @@ Total de centros: 4.
 ## Unidad de Pronta Atención (UPA) N°6 Barrio Dorrego
 
 - **Ciudad:** La Banda
-- **Especialidades:** Atención a Infancias, Trabajo Social
+- **Especialidades:** Hormonización, Atención a Infancias, Trabajo Social
 - **Dirección:** Aristóbulo del Valle 1699
 - **Teléfono:** (385) 416-2701 / 600-6879 / 627-9845 / 427-5784
 

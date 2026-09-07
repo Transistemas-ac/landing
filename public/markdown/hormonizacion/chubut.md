@@ -31,7 +31,7 @@ Total de centros: 13.
 ## Hospital Rural El Hoyo
 
 - **Ciudad:** El Hoyo
-- **Especialidades:** Atención a Infancias, Salud Mental
+- **Especialidades:** Hormonización, Atención a Infancias, Salud Mental
 - **Dirección:** Av. Islas Malvinas S/N (entre Los Ciruelos y Los Jardines)
 - **Teléfono:** (2944) 166-292
 - **Correo:** conectadxshreh@gmail.com

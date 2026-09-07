@@ -28,7 +28,7 @@ Total de centros: 15.
 ## Hospital de Área Loncopué Dr. José Enrique Cuevas
 
 - **Ciudad:** Loncopué
-- **Especialidades:** Atención a Infancias, Salud Mental, Trabajo Social
+- **Especialidades:** Hormonización, Atención a Infancias, Salud Mental, Trabajo Social
 - **Dirección:** Av. San Martín (entre Calle David Almendra y Don Bosco)
 - **Teléfono:** (299) 449-5590 / 5591
 
@@ -63,7 +63,7 @@ Total de centros: 15.
 ## Subsecretaría de Niñez y Adolescencia Neuquén
 
 - **Ciudad:** Neuquén
-- **Especialidades:** Atención a Infancias, Trabajo Social
+- **Especialidades:** Hormonización, Atención a Infancias, Trabajo Social
 - **Dirección:** Entre Ríos 303
 - **Teléfono:** (299) 581-5851
 - **Correo:** equipoextension.subse@gmail.com

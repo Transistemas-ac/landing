@@ -22,7 +22,7 @@ Total de centros: 4.
 ## Hospital Distrito Sanitario N°8 Eva Perón
 
 - **Ciudad:** Formosa
-- **Especialidades:** Atención a Infancias, Trabajo Social
+- **Especialidades:** Hormonización, Atención a Infancias, Trabajo Social
 - **Dirección:** Av. Ana Esther Elías de Caanepa y Calle 250
 - **Teléfono:** (370) 444-5885
 - **Correo:** serviciosocialhd8@gmail.com

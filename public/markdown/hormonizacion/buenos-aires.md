@@ -15,7 +15,7 @@ Total de centros: 167.
 ## Hospital Interzonal Julio de Vedia - Espacio de Salud Integral y Acompañamiento para Población LGBTIQ+
 
 - **Ciudad:** 9 de Julio
-- **Especialidades:** Atención a Infancias, Endocrinología, Salud Mental, Clínica Médica
+- **Especialidades:** Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Clínica Médica
 - **Dirección:** Av. Tomás Cosentino 1223
 - **Teléfono:** (2317) 57-7355 / 43-0125 / 43-0025
 - **Correo:** sapsjuliodevedia@gmail.com
@@ -31,7 +31,7 @@ Total de centros: 167.
 ## Hospital Local Municipal General José de San Martín
 
 - **Ciudad:** Adolfo Alsina, Carhué
-- **Especialidades:** Atención Integral
+- **Especialidades:** Hormonización, Atención Integral
 - **Dirección:** Avellaneda y Boulevard Alsina
 - **Teléfono:** (2936) 432222 (int. 114 / 113)
 - **Correo:** hospcarhue@invertel.com.ar
@@ -163,7 +163,7 @@ Total de centros: 167.
 ## Centro de Atención Primaria de Salud (CAPS) Villa Hudson - Atención Integral Diversidad Sexual
 
 - **Ciudad:** Bosques
-- **Especialidades:** Salud Mental, Ginecología, Atención Integral
+- **Especialidades:** Hormonización, Salud Mental, Ginecología, Atención Integral
 - **Dirección:** Iberia 359
 - **Teléfono:** 4213-9318 / 2149-3929
 - **Correo:** villahudson@gmail.com
@@ -202,7 +202,7 @@ Total de centros: 167.
 ## Centro de Salud Dr. René Favaloro
 
 - **Ciudad:** Castelar
-- **Especialidades:** Salud Mental, Clínica Médica
+- **Especialidades:** Hormonización, Salud Mental, Clínica Médica
 - **Dirección:** Nicolás Granada 3200
 - **Teléfono:** 2259-0887
 - **Correo:** turnoscapsfavaloro@gmail.com
@@ -248,7 +248,7 @@ Total de centros: 167.
 ## Hospital Municipal Eva Perón - Consultorio de Diversidad
 
 - **Ciudad:** Coronel de Marina Leonardo Rosales, Punta Alta
-- **Especialidades:** Endocrinología, Ginecología, Clínica Médica
+- **Especialidades:** Hormonización, Endocrinología, Ginecología, Clínica Médica
 - **Dirección:** Uriburu 650
 - **Teléfono:** (2932) 45-4683 / 42-2955 / 47-0732
 - **Correo:** hepmerlo@hotmail.com
@@ -316,7 +316,7 @@ Total de centros: 167.
 ## Centro de Atención Primaria de Salud (CAPS) La Esmeralda - Atención Integral Diversidad Sexual
 
 - **Ciudad:** Florencio Varela
-- **Especialidades:** Salud Mental, Ginecología, Atención Integral, Trabajo Social
+- **Especialidades:** Hormonización, Salud Mental, Ginecología, Atención Integral, Trabajo Social
 - **Dirección:** Av. Padre Obispo J. Novak 2266
 - **Teléfono:** 4237-3423
 
@@ -353,7 +353,7 @@ Total de centros: 167.
 ## Hospital General Pacheco (Magdalena V. de Martínez)
 
 - **Ciudad:** General Pacheco
-- **Especialidades:** Atención a Infancias, Endocrinología
+- **Especialidades:** Hormonización, Atención a Infancias, Endocrinología
 - **Dirección:** Av. Constituyentes 395 - Ruta 9
 - **Teléfono:** 4736-0157/0211/0154/0144 (int. 362/363)
 - **Correo:** consultas-hmartinez@ms.gba.gov.ar / martinez@ms.gba.gov.ar
@@ -438,7 +438,7 @@ Total de centros: 167.
 ## Centro Integrador Comunitario (CIC) Juan Domingo Perón - Centro de Atención de Salud Integral Adolescente (CASIA)
 
 - **Ciudad:** General Viamonte, Los Toldos
-- **Especialidades:** Atención a Infancias, Salud Mental, Trabajo Social
+- **Especialidades:** Hormonización, Atención a Infancias, Salud Mental, Trabajo Social
 - **Dirección:** Ricardo Balbín 1300 (esq. Los Jacarandaes)
 - **Teléfono:** (2358) 400995 / (2364) 308331
 - **Correo:** casia@generalviamonte.gob.ar
@@ -446,7 +446,7 @@ Total de centros: 167.
 ## Hospital Simplemente Evita - Consultorio de Diversidad
 
 - **Ciudad:** González Catán
-- **Especialidades:** Salud Mental, Ginecología, Clínica Médica
+- **Especialidades:** Hormonización, Salud Mental, Ginecología, Clínica Médica
 - **Dirección:** Av. Dr. José Equiza 6310
 - **Teléfono:** 1167076485 / (2202) 42-2232 / 42-8144
 - **Correo:** direccion-simplementeevita@ms.gba.gov.ar
@@ -454,7 +454,7 @@ Total de centros: 167.
 ## Unidad Primaria de Atención - Ampliación Devoto
 
 - **Ciudad:** Grand Bourg, Malvinas Argentinas
-- **Especialidades:** Endocrinología, Salud Mental, Clínica Médica
+- **Especialidades:** Hormonización, Endocrinología, Salud Mental, Clínica Médica
 - **Dirección:** Mario Bravo 799 (esq. Paso de los Patos)
 - **Teléfono:** 1141661257 / (2320) 41-1475
 
@@ -546,7 +546,7 @@ Total de centros: 167.
 ## Hospital Interzonal General de Agudos Prof. Dr. Rodolfo Rossi
 
 - **Ciudad:** La Plata
-- **Especialidades:** Endocrinología, Salud Mental, Ginecología, Atención Integral, Trabajo Social
+- **Especialidades:** Hormonización, Endocrinología, Salud Mental, Ginecología, Atención Integral, Trabajo Social
 - **Dirección:** Calle 37, 183 entre 116 y 117
 - **Teléfono:** (221) 556-7674 / 482-8821 / 482-8824
 - **Correo:** administracionrossi@ms.gba.gov.ar
@@ -570,7 +570,7 @@ Total de centros: 167.
 ## Hospital Interzonal General de Agudos San Roque de Gonnet
 
 - **Ciudad:** La Plata, Gonnet
-- **Especialidades:** Endocrinología, Salud Mental, Ginecología, Clínica Médica
+- **Especialidades:** Hormonización, Endocrinología, Salud Mental, Ginecología, Clínica Médica
 - **Dirección:** 508 entre 18 y 19
 - **Teléfono:** (221) 484-0290 / 471-0063 / 471-1593
 - **Correo:** sanroquecomunicacion@gmail.com
@@ -586,7 +586,7 @@ Total de centros: 167.
 ## Hospital Interzonal General de Agudos Evita - Servicio de Adolescencia
 
 - **Ciudad:** Lanús
-- **Especialidades:** Atención a Infancias, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Ginecología, Grupo de Pares, Clínica Médica, Trabajo Social
+- **Especialidades:** Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Ginecología, Grupo de Pares, Clínica Médica, Trabajo Social
 - **Dirección:** Diego Armando Maradona 1910 (ex. Río de Janeiro 1910)
 - **Teléfono:** 1170354506 / 1135918908 / 4241-4050/51/52/53/54/55
 - **Correo:** evita-direccion@ms.gba.gov.ar / adolevita@gmail.com
@@ -602,7 +602,7 @@ Total de centros: 167.
 ## Unidad Sanitaria 1° de Mayo - Equipo Disidente Cris Miró
 
 - **Ciudad:** Lanús Este
-- **Especialidades:** Endocrinología, Grupo de Pares, Clínica Médica
+- **Especialidades:** Hormonización, Endocrinología, Grupo de Pares, Clínica Médica
 - **Dirección:** Av. Teodoro Sánchez de Bustamante 2355
 - **Teléfono:** 1123957975 / 4246-8689
 
@@ -664,7 +664,7 @@ Total de centros: 167.
 ## Maternidad Municipal María Eva Duarte de Perón
 
 - **Ciudad:** Los Polvorines
-- **Especialidades:** Endocrinología, Ginecología
+- **Especialidades:** Hormonización, Endocrinología, Ginecología
 - **Dirección:** Av. del Sesquicentenario 2047
 - **Teléfono:** 4469-9600 / 4660-9000
 - **Correo:** contacto@malvinasargentinas.gob.ar
@@ -680,7 +680,7 @@ Total de centros: 167.
 ## Hospital Nacional y Comunidad Dr. Ramón Carrillo - Centro Interdisciplinario de Salud Integral (CISI) (ex CISaM)
 
 - **Ciudad:** Luján, Torres
-- **Especialidades:** Endocrinología, Salud Mental, Clínica Médica, Atención Integral
+- **Especialidades:** Hormonización, Endocrinología, Salud Mental, Clínica Médica, Atención Integral
 - **Dirección:** Padre José María Criado Alonso 399 (esq. Evaristo Carriego)
 - **Teléfono:** 1136411053 / (2323) 274593 / 2801-8490
 - **Correo:** diversidades@cmdo.gov.ar / espacioequiscisi@gmail.com / cisi@cmdo.gov.ar
@@ -711,7 +711,7 @@ Total de centros: 167.
 ## Centro de Salud N°1 - Servicio de Diversidad
 
 - **Ciudad:** Mar del Plata
-- **Especialidades:** Endocrinología, Salud Mental, Clínica Médica
+- **Especialidades:** Hormonización, Endocrinología, Salud Mental, Clínica Médica
 - **Dirección:** Av. Colón 3294
 - **Teléfono:** (223) 499-7999 (int. 1350) / 602-7000
 - **Correo:** ssnro1@mardelplata.gov.ar
@@ -719,7 +719,7 @@ Total de centros: 167.
 ## Unidad de Pronta Atención (UPA) N°13 Hospital Zonal General de Agudos Dr. Oscar E. Alende - Consultorio Diversidad Sexual
 
 - **Ciudad:** Mar del Plata
-- **Especialidades:** Salud Mental, Clínica Médica, Trabajo Social
+- **Especialidades:** Hormonización, Salud Mental, Clínica Médica, Trabajo Social
 - **Dirección:** Rodriguez Peña 6802
 - **Teléfono:** (223) 5749983 / 4770262 / 0800-999-1085
 - **Correo:** diversidadhiga@gmail.com
@@ -727,7 +727,7 @@ Total de centros: 167.
 ## Unidad Sanitaria Mar del Tuyú
 
 - **Ciudad:** Mar del Tuyú
-- **Especialidades:** Endocrinología, Clínica Médica
+- **Especialidades:** Hormonización, Endocrinología, Clínica Médica
 - **Dirección:** Calle 74 y Calle 1
 - **Teléfono:** 02246 43-4555
 - **Correo:** salud@lacosta.gov.ar
@@ -743,7 +743,7 @@ Total de centros: 167.
 ## Centro de Atención Primaria de Salud (CAPS) Hipólito Irigoyen - Consultorio de Salud y Diversidad (CoSayDi)
 
 - **Ciudad:** Mercedes
-- **Especialidades:** Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Clínica Médica, Trabajo Social
+- **Especialidades:** Hormonización, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Clínica Médica, Trabajo Social
 - **Dirección:** 12 entre 55 y 57
 - **Teléfono:** (2324) 41-5882
 - **Correo:** contacto@mercedes.gob.ar
@@ -795,7 +795,7 @@ Total de centros: 167.
 ## Unidad Sanitaria Barrio 2000 - Consultorio LGBTIQ+ Perla Carrizo
 
 - **Ciudad:** Moreno
-- **Especialidades:** Endocrinología, Salud Mental, Clínica Médica
+- **Especialidades:** Hormonización, Endocrinología, Salud Mental, Clínica Médica
 - **Dirección:** Carlos Gardel 902 (esq. Bolivia), Barrio 2000
 - **Teléfono:** 1138071823
 - **Correo:** saludsexualmoreno@gmail.com
@@ -819,7 +819,7 @@ Total de centros: 167.
 ## Unidad Sanitaria Vías Respiratorias
 
 - **Ciudad:** Morón
-- **Especialidades:** Clínica Médica
+- **Especialidades:** Hormonización, Clínica Médica
 - **Dirección:** General Machado 778
 - **Teléfono:** 011 4489-0673
 - **Correo:** diversidadenviasmoron@gmail.com / viasrespiratoriasmoron@ms.gba.gov.ar
@@ -931,7 +931,7 @@ Total de centros: 167.
 ## Unidad Sanitaria N°18 de Avellaneda
 
 - **Ciudad:** Piñeyro
-- **Especialidades:** Atención a Infancias
+- **Especialidades:** Hormonización, Atención a Infancias
 - **Dirección:** Moisés Lebensohn 941
 - **Teléfono:** 7720-5973
 
@@ -952,7 +952,7 @@ Total de centros: 167.
 ## Hospital Zonal General de Agudos Dr. I. Iriarte - Consultorio de Diversidad
 
 - **Ciudad:** Quilmes
-- **Especialidades:** Endocrinología, Salud Mental
+- **Especialidades:** Hormonización, Endocrinología, Salud Mental
 - **Dirección:** Allison Bell 770
 - **Teléfono:** 4253-6021 / 4224-6263 / 4224-7738 / 3434525086
 - **Correo:** saludsexualiriarte@gmail.com / lic.lautarodelfabro@gmail.com / direccion-iriarte@ms.gba.gov.ar
@@ -982,7 +982,7 @@ Total de centros: 167.
 ## Hospital Subzonal Materno Infantil Dr. Eduardo Oller - Consultorio de Integral, Género y Diversidades
 
 - **Ciudad:** Quilmes, San Francisco Solano
-- **Especialidades:** Atención a Infancias, Endocrinología, Salud Mental, Ginecología, Grupo de Pares, Clínica Médica, Trabajo Social
+- **Especialidades:** Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Ginecología, Grupo de Pares, Clínica Médica, Trabajo Social
 - **Dirección:** Av. 844, 2100
 - **Teléfono:** 4350-3000 (int. 3417) / 4212-2976 / 4212-7339 / 4212-9721
 - **Correo:** saludsexualintegraloller@gmail.com
@@ -1135,7 +1135,7 @@ Total de centros: 167.
 ## Subsecretaría de Mujeres, Géneros y Diversidad - Dirección de Diversidad
 
 - **Ciudad:** Sarandí
-- **Especialidades:** Atención a Infancias, Salud Mental
+- **Especialidades:** Hormonización, Atención a Infancias, Salud Mental
 - **Dirección:** Av. Mitre 3043
 - **Teléfono:** (11) 35379010 / 4203-5879
 - **Correo:** direcciondelasmujeres@mda.gob.ar
@@ -1165,7 +1165,7 @@ Total de centros: 167.
 ## Centro Integrador Comunitario (CIC) Barrio La Milagrosa
 
 - **Ciudad:** Tapalqué
-- **Especialidades:** Atención Integral
+- **Especialidades:** Hormonización, Atención Integral
 - **Dirección:** Almirante Brown 37 (esq. 1° de Mayo)
 - **Teléfono:** (2281) 539617 / 492931
 - **Correo:** direjuventudtapalque@gmail.com
@@ -1243,7 +1243,7 @@ Total de centros: 167.
 ## Unidad de Respuesta Inmediata (URI) Dr. J. Burman
 
 - **Ciudad:** Vicente López, Carapachay
-- **Especialidades:** Endocrinología, Ginecología
+- **Especialidades:** Hormonización, Endocrinología, Ginecología
 - **Dirección:** Ituzaingó 5725
 - **Teléfono:** 4711-2843 / 5194-4300 (int. 7612) / 4580-6232 / 4253-6021
 - **Correo:** uriburman@gmail.com / atprimaria@vicentelopez.gov.ar
@@ -1274,7 +1274,7 @@ Total de centros: 167.
 ## Centro de Salud 2 de Abril
 
 - **Ciudad:** Villa Tesei
-- **Especialidades:** Salud Mental, Ginecología, Clínica Médica
+- **Especialidades:** Hormonización, Salud Mental, Ginecología, Clínica Médica
 - **Dirección:** La Trilla 5068
 - **Teléfono:** 4450-6605
 - **Correo:** ssalud@munhurli.gov.ar

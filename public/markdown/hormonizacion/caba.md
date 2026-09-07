@@ -7,14 +7,14 @@ Total de centros: 43.
 ## Centro de Salud Mental N°3 Arturo Ameghino
 
 - **Ciudad:** Balvanera
-- **Especialidades:** Atención a Infancias, Salud Mental
+- **Especialidades:** Hormonización, Atención a Infancias, Salud Mental
 - **Dirección:** Av. Córdoba 3120
 - **Teléfono:** (3723) 02-31
 
 ## Centro de Salud y Acción Comunitaria (CeSAC) N°11
 
 - **Ciudad:** Balvanera
-- **Especialidades:** Atención a Infancias, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Grupo de Pares, Trabajo Social
+- **Especialidades:** Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Grupo de Pares, Trabajo Social
 - **Dirección:** Agüero 940
 - **Teléfono:** 2821-3611 / 4864-1446
 - **Correo:** universodiverso11@gmail.com
@@ -30,7 +30,7 @@ Total de centros: 43.
 ## Centro de Salud y Acción Comunitaria (CeSAC) N°1
 
 - **Ciudad:** Barracas
-- **Especialidades:** Endocrinología
+- **Especialidades:** Hormonización, Endocrinología
 - **Dirección:** Av. Vélez Sarsfield 1271
 - **Teléfono:** 2821-3601 / 1131567882
 - **Correo:** cesac1@buenosaires.gob.ar / saludintegralcesac1@gmail.com
@@ -45,13 +45,13 @@ Total de centros: 43.
 ## Centro de Salud y Acción Comunitaria (CeSAC) N°35
 
 - **Ciudad:** Barracas
-- **Especialidades:** Atención a Infancias, Salud Mental, Trabajo Social
+- **Especialidades:** Hormonización, Atención a Infancias, Salud Mental, Trabajo Social
 - **Dirección:** Av. Osvaldo Cruz y Zavaleta
 
 ## Centro de Salud y Acción Comunitaria (CeSAC) N°49 - Conjunto Habitacional Orma y Magaldi
 
 - **Ciudad:** Barracas
-- **Especialidades:** Endocrinología, Salud Mental, Grupo de Pares
+- **Especialidades:** Hormonización, Endocrinología, Salud Mental, Grupo de Pares
 - **Dirección:** Camino de Sirga S/N
 - **Teléfono:** 1130490358 / 2821-3649
 - **Correo:** saludsexualcesac49@gmail.com
@@ -59,7 +59,7 @@ Total de centros: 43.
 ## Hospital Pirovano
 
 - **Ciudad:** Belgrano
-- **Especialidades:** Endocrinología, Cirugía de Masculinización Tórax
+- **Especialidades:** Hormonización, Endocrinología, Cirugía de Masculinización Tórax
 - **Dirección:** Monroe 3555
 - **Teléfono:** 4542-5552 / 4542-2772 / 4542-9279
 - **Correo:** pirovanodiversidad@hotmail.com
@@ -67,7 +67,7 @@ Total de centros: 43.
 ## Hospital General de Agudos Durand
 
 - **Ciudad:** Caballito
-- **Especialidades:** Atención a Infancias, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Grupo de Pares
+- **Especialidades:** Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Grupo de Pares
 - **Dirección:** Av. Díaz Vélez 5044
 - **Teléfono:** 4982-5555 / 4982-5655 / 4982-1050
 - **Correo:** diversidadesdurand@gmail.com
@@ -75,7 +75,7 @@ Total de centros: 43.
 ## Fundación Huésped
 
 - **Ciudad:** Chacarita
-- **Especialidades:** Endocrinología, Cirugía de Masculinización Tórax
+- **Especialidades:** Hormonización, Endocrinología, Cirugía de Masculinización Tórax
 - **Dirección:** Av. Forest 345
 - **Teléfono:** 0800-222-4837 / 1164681673
 - **Correo:** info@huesped.org.ar
@@ -91,7 +91,7 @@ Total de centros: 43.
 ## Centro de Salud y Acción Comunitaria (CeSAC) N°19
 
 - **Ciudad:** Flores
-- **Especialidades:** Atención a Infancias, Endocrinología, Cirugía de Masculinización Tórax, Grupo de Pares
+- **Especialidades:** Hormonización, Atención a Infancias, Endocrinología, Cirugía de Masculinización Tórax, Grupo de Pares
 - **Dirección:** Curapaligüe 1905
 - **Teléfono:** 2821-3619 / 4925-0992 / 2263-8885
 - **Correo:** consultoriosaludintegralc19@gmail.com
@@ -99,7 +99,7 @@ Total de centros: 43.
 ## Centro de Salud y Acción Comunitaria (CeSAC) N°20
 
 - **Ciudad:** Flores
-- **Especialidades:** Atención a Infancias, Endocrinología, Salud Mental, Trabajo Social
+- **Especialidades:** Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Trabajo Social
 - **Dirección:** Charrúa 2320 (esq. Ana María Janer)
 - **Teléfono:** 2821-3620 / 4919-2144
 - **Correo:** cesac20@gmail.com
@@ -115,7 +115,7 @@ Total de centros: 43.
 ## Centro de Salud y Acción Comunitaria (CeSAC) N°41
 
 - **Ciudad:** La Boca
-- **Especialidades:** Atención a Infancias, Endocrinología, Salud Mental, Grupo de Pares, Trabajo Social
+- **Especialidades:** Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Grupo de Pares, Trabajo Social
 - **Dirección:** Ministro Brin 843
 - **Teléfono:** 2821-3641 / 4361-8736
 - **Correo:** diversidad.cesac41@gmail.com
@@ -131,7 +131,7 @@ Total de centros: 43.
 ## Hospital de Agudos Dr. Cosme Argerich
 
 - **Ciudad:** La Boca
-- **Especialidades:** Atención a Infancias, Endocrinología, Salud Mental, Ginecología, Clínica Médica, Trabajo Social
+- **Especialidades:** Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Ginecología, Clínica Médica, Trabajo Social
 - **Dirección:** Pi y Margall 750
 - **Teléfono:** 4121-0700 / 4121-0800
 - **Correo:** diversidadargerich750@gmail.com
@@ -139,7 +139,7 @@ Total de centros: 43.
 ## CEMAR N°1
 
 - **Ciudad:** La Paternal
-- **Especialidades:** Endocrinología
+- **Especialidades:** Hormonización, Endocrinología
 - **Dirección:** Fragata Sarmiento 2152, 1° Piso
 - **Teléfono:** 011 2821-3671
 - **Correo:** cemar1diversidad@gmail.com
@@ -155,7 +155,7 @@ Total de centros: 43.
 ## Centro de Salud y Acción Comunitaria (CeSAC) N°37
 
 - **Ciudad:** Mataderos
-- **Especialidades:** Endocrinología
+- **Especialidades:** Hormonización, Endocrinología
 - **Dirección:** Av. de los Corrales 6999
 - **Teléfono:** 2821-3637 / 1161675010
 - **Correo:** pacientescesac37@gmail.com
@@ -163,7 +163,7 @@ Total de centros: 43.
 ## Centro de Salud y Acción Comunitaria (CeSAC) N°4
 
 - **Ciudad:** Mataderos
-- **Especialidades:** Endocrinología, Clínica Médica, Trabajo Social
+- **Especialidades:** Hormonización, Endocrinología, Clínica Médica, Trabajo Social
 - **Dirección:** Av. Juan Bautista Alberdi 6300
 - **Teléfono:** 1172360787 / 28213604
 - **Correo:** diversidadcesac4@gmail.com
@@ -171,7 +171,7 @@ Total de centros: 43.
 ## Centro de Salud y Acción Comunitaria (CeSAC) N°33
 
 - **Ciudad:** Palermo
-- **Especialidades:** Endocrinología
+- **Especialidades:** Hormonización, Endocrinología
 - **Dirección:** Córdoba 5471
 - **Teléfono:** 4770-9202 / 11-2821-3633 / 11-5197-5078 / 11-5197-5079
 - **Correo:** consultoriaintegraldelamujer@gmail.com / gineco.33@gmail.com
@@ -195,7 +195,7 @@ Total de centros: 43.
 ## Hospital de Pediatría Garrahan
 
 - **Ciudad:** Parque Patricios
-- **Especialidades:** Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social
+- **Especialidades:** Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social
 - **Dirección:** Combate de los Pozos 1881
 - **Correo:** comitegeneroydiversidad@gmail.com
 
@@ -218,7 +218,7 @@ Total de centros: 43.
 ## Hospital de Clínicas
 
 - **Ciudad:** Recoleta
-- **Especialidades:** Endocrinología, Grupo de Pares
+- **Especialidades:** Hormonización, Endocrinología, Grupo de Pares
 - **Dirección:** Av. Córdoba 2351
 - **Teléfono:** 1159508000 / 5248-2644
 - **Correo:** endoturnos@hospitaldeclinicas.uba.ar
@@ -226,7 +226,7 @@ Total de centros: 43.
 ## Hospital Gutiérrez
 
 - **Ciudad:** Recoleta
-- **Especialidades:** Atención a Infancias, Endocrinología, Cirugía de Masculinización Tórax
+- **Especialidades:** Hormonización, Atención a Infancias, Endocrinología, Cirugía de Masculinización Tórax
 - **Dirección:** Gallo 1330
 - **Teléfono:** 4963-5931 (int. 230) / 4962-4035
 - **Correo:** aldolescenciahnrg@gmail.com / secretariaendo@cedie.org.ar
@@ -234,7 +234,7 @@ Total de centros: 43.
 ## Hospital Rivadavia
 
 - **Ciudad:** Recoleta
-- **Especialidades:** Endocrinología, Grupo de Pares
+- **Especialidades:** Hormonización, Endocrinología, Grupo de Pares
 - **Dirección:** General las Heras 2670
 - **Teléfono:** 4809-2000 / 4809-2218
 - **Correo:** diversidadhospitalrivadavia@gmail.com
@@ -242,7 +242,7 @@ Total de centros: 43.
 ## Centro de Salud y Acción Comunitaria (CeSAC) N°47 - Barrio 31
 
 - **Ciudad:** Retiro
-- **Especialidades:** Endocrinología
+- **Especialidades:** Hormonización, Endocrinología
 - **Dirección:** Alpaca 620
 - **Teléfono:** 2821-3647 / 1140785930
 - **Correo:** consultoriodiversidad47@gmail.com / 47.cesac@gmail.com
@@ -258,7 +258,7 @@ Total de centros: 43.
 ## Centro de Salud y Acción Comunitaria (CeSAC) N°18
 
 - **Ciudad:** Villa Lugano
-- **Especialidades:** Endocrinología
+- **Especialidades:** Hormonización, Endocrinología
 - **Dirección:** Corvalán y Manuela Gandarilla (ex Calle 5)
 - **Teléfono:** 2821-3618
 - **Correo:** diversidadcesac18@gmail.com
@@ -274,7 +274,7 @@ Total de centros: 43.
 ## Centro de Salud y Acción Comunitaria (CeSAC) N°29
 
 - **Ciudad:** Villa Lugano
-- **Especialidades:** Atención a Infancias, Trabajo Social
+- **Especialidades:** Hormonización, Atención a Infancias, Trabajo Social
 - **Dirección:** Au. Dellepiane 6999
 - **Teléfono:** (11) 2821-3629
 
@@ -297,7 +297,7 @@ Total de centros: 43.
 ## Centro de Salud y Acción Comunitaria (CeSAC) N°5
 
 - **Ciudad:** Villa Lugano
-- **Especialidades:** Atención a Infancias, Endocrinología, Trabajo Social
+- **Especialidades:** Hormonización, Atención a Infancias, Endocrinología, Trabajo Social
 - **Dirección:** Piedrabuena 3141
 - **Teléfono:** 2821-3605 / 1136295516
 - **Correo:** diversidad.cesac5@gmail.com / cesac5@buenosaires.gob.ar
@@ -321,7 +321,7 @@ Total de centros: 43.
 ## Centro de Salud y Acción Comunitaria (CeSAC) N°24
 
 - **Ciudad:** Villa Soldati
-- **Especialidades:** Endocrinología
+- **Especialidades:** Hormonización, Endocrinología
 - **Dirección:** Laguna y Pasaje L. B° Ramón Carrillo
 - **Teléfono:** 2821-3624 (int. 109) / 4637-2002
 - **Correo:** rmgp.cesac24@gmail.com
@@ -337,7 +337,7 @@ Total de centros: 43.
 ## Centro de Salud y Acción Comunitaria (CeSAC) N°12
 
 - **Ciudad:** Villa Urquiza
-- **Especialidades:** Clínica Médica
+- **Especialidades:** Hormonización, Clínica Médica
 - **Dirección:** Av. Olazábal 3960
 - **Teléfono:** 2821-3612
 - **Correo:** dra.dfainstein@gmail.com / consultascesac12@gmail.com

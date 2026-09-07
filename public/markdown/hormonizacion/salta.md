@@ -15,7 +15,7 @@ Total de centros: 4.
 ## Centro de Salud N°6 El Manjón
 
 - **Ciudad:** Salta
-- **Especialidades:** Atención a Infancias
+- **Especialidades:** Hormonización, Atención a Infancias
 - **Dirección:** Av. José de Artigas 902
 - **Teléfono:** (387) 428-1393
 

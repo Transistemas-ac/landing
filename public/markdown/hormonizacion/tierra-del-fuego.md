@@ -22,7 +22,7 @@ Total de centros: 8.
 ## Centro de Atención Primaria de Salud (CAPS) N°3 Dr. Tomas Gonzalez - Consultorio de Diversidad Nicolás Cristal
 
 - **Ciudad:** Río Grande
-- **Especialidades:** Endocrinología, Salud Mental, Clínica Médica, Trabajo Social
+- **Especialidades:** Hormonización, Endocrinología, Salud Mental, Clínica Médica, Trabajo Social
 - **Dirección:** Orosky y Karukinka
 - **Teléfono:** (2964) 662811
 - **Correo:** subsediversidad@gmail.com
@@ -46,7 +46,7 @@ Total de centros: 8.
 ## Centro Asistencial Tolhuin (CAT)
 
 - **Ciudad:** Tolhuin
-- **Especialidades:** Atención a Infancias, Salud Mental, Clínica Médica, Trabajo Social
+- **Especialidades:** Hormonización, Atención a Infancias, Salud Mental, Clínica Médica, Trabajo Social
 - **Dirección:** Avenida Los Shelknams 273
 - **Teléfono:** (2901) 64-5844 / 49-2121
 - **Correo:** caps1ush@tierradelfuego.gob.ar / generalistascat@gmail.com
@@ -62,7 +62,7 @@ Total de centros: 8.
 ## Hospital Regional de Ushuaia - Gobernador Ernesto Manuel Campos
 
 - **Ciudad:** Ushuaia
-- **Especialidades:** Atención a Infancias, Trabajo Social
+- **Especialidades:** Hormonización, Atención a Infancias, Trabajo Social
 - **Dirección:** 12 de Octubre y Maipú
 - **Teléfono:** (2901) 58-1545 / 42-3200 / 44-1000
 

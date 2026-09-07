@@ -22,7 +22,7 @@ Total de centros: 7.
 ## Centro Integrador Comunitario (CIC) Primavera
 
 - **Ciudad:** El Bolsón
-- **Especialidades:** Atención a Infancias, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Ginecología, Clínica Médica
+- **Especialidades:** Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Ginecología, Clínica Médica
 - **Dirección:** Av. los Cipreses 3240
 - **Teléfono:** (294) 491-3353 / 472-0331
 - **Correo:** cicprimaverattnb@gmail.com
@@ -45,7 +45,7 @@ Total de centros: 7.
 ## Hospital Zonal Ramón Carrillo
 
 - **Ciudad:** San Carlos de Bariloche
-- **Especialidades:** Atención a Infancias, Salud Mental, Atención Integral
+- **Especialidades:** Hormonización, Atención a Infancias, Salud Mental, Atención Integral
 - **Dirección:** Moreno 601
 - **Teléfono:** (294) 480-7979
 - **Correo:** adolescenciasbariloche@gmail.com

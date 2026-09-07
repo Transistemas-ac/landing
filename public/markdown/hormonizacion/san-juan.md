@@ -7,7 +7,7 @@ Total de centros: 4.
 ## Centro de Atención Primaria de Salud (CAPS) Villa Constitución
 
 - **Ciudad:** Pocito
-- **Especialidades:** Atención a Infancias, Salud Mental
+- **Especialidades:** Hormonización, Atención a Infancias, Salud Mental
 - **Dirección:** Lemos y Picasso
 - **Teléfono:** (264) 576-2274
 - **Correo:** lic.patricialopeznarvaez@gmail.com
@@ -22,7 +22,7 @@ Total de centros: 4.
 ## Hospital Público Dr. Marcial Vicente Quiroga
 
 - **Ciudad:** San Juan
-- **Especialidades:** Atención a Infancias
+- **Especialidades:** Hormonización, Atención a Infancias
 - **Dirección:** Av. Libertador Gral. San Martín 5401
 - **Teléfono:** (264) 432-4700
 - **Correo:** hospitalmarcialquirogasanjuan@gmail.com

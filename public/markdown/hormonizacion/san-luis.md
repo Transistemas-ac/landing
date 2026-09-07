@@ -29,7 +29,7 @@ Total de centros: 12.
 ## Hospital María Juliana Becker
 
 - **Ciudad:** La Punta
-- **Especialidades:** Atención a Infancias, Salud Mental, Ginecología, Trabajo Social
+- **Especialidades:** Hormonización, Atención a Infancias, Salud Mental, Ginecología, Trabajo Social
 - **Dirección:** Calle 5 Sur (entre Calle 8 Este y Av. Serrana)
 - **Teléfono:** (266) 445-2000 (int. 5002)
 - **Correo:** adolescenciasanluis@gmail.com

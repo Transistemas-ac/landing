@@ -7,14 +7,14 @@ Total de centros: 3.
 ## Centro de Atención Primaria de Salud (CAPS) San Gerardo
 
 - **Ciudad:** Posadas
-- **Especialidades:** Atención a Infancias, Trabajo Social
+- **Especialidades:** Hormonización, Atención a Infancias, Trabajo Social
 - **Dirección:** Barrio San Gerardo S/N
 - **Teléfono:** (376) 475-5550
 
 ## Hospital de Itaembé de Guazú
 
 - **Ciudad:** Posadas
-- **Especialidades:** Atención a Infancias, Endocrinología, Ginecología, Trabajo Social
+- **Especialidades:** Hormonización, Atención a Infancias, Endocrinología, Ginecología, Trabajo Social
 - **Dirección:** Las Orquídeas 10609
 - **Teléfono:** (376) 5157000 / 5157002 / 154831890
 - **Correo:** msp_itaembeguazu@misiones.gov.ar

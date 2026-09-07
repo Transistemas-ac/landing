@@ -7,7 +7,7 @@ Total de centros: 35.
 ## Centro de Atención Primaria de Salud (CAPS) Ampliación Ferreyra
 
 - **Ciudad:** CBA
-- **Especialidades:** Atención a Infancias, Salud Mental, Trabajo Social
+- **Especialidades:** Hormonización, Atención a Infancias, Salud Mental, Trabajo Social
 - **Dirección:** Calle 10 S/N, Manzana 11
 - **Teléfono:** (351) 631-0092
 - **Correo:** capsamplferreyra@gmail.com
@@ -15,14 +15,14 @@ Total de centros: 35.
 ## Centro de Salud N°30 Villa Páez
 
 - **Ciudad:** CBA
-- **Especialidades:** Atención a Infancias, Salud Mental
+- **Especialidades:** Hormonización, Atención a Infancias, Salud Mental
 - **Dirección:** Emilio Coni 2090
 - **Teléfono:** (351) 537-4090
 
 ## Centro de Salud N°72 Barrio La Floresta
 
 - **Ciudad:** CBA, Malvinas Argentinas
-- **Especialidades:** Atención a Infancias, Salud Mental
+- **Especialidades:** Hormonización, Atención a Infancias, Salud Mental
 - **Dirección:** Las Orquídeas S/N
 - **Teléfono:** (351) 751-6112
 
@@ -53,7 +53,7 @@ Total de centros: 35.
 ## Hospital Florencio Díaz
 
 - **Ciudad:** CBA
-- **Especialidades:** Atención a Infancias, Ginecología
+- **Especialidades:** Hormonización, Atención a Infancias, Ginecología
 - **Dirección:** 11 de Septiembre 2900
 - **Teléfono:** 0800-555-4141
 
@@ -83,7 +83,7 @@ Total de centros: 35.
 ## Hospital Materno Provincial Dr. Raúl Felipe Lucini
 
 - **Ciudad:** CBA
-- **Especialidades:** Atención a Infancias, Endocrinología
+- **Especialidades:** Hormonización, Atención a Infancias, Endocrinología
 - **Dirección:** Pasaje Luis Caeiro 1545
 - **Teléfono:** 0800-555-4141
 
@@ -194,7 +194,7 @@ Total de centros: 35.
 ## Hospital Municipal Oncativo
 
 - **Ciudad:** Río Segundo, Oncativo
-- **Especialidades:** Atención a Infancias, Trabajo Social
+- **Especialidades:** Hormonización, Atención a Infancias, Trabajo Social
 - **Dirección:** Colón 158
 - **Teléfono:** (3572) 46-6025
 

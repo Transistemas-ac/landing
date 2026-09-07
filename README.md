@@ -1,6 +1,6 @@
 # 💜 <a href="https://transistemas.org/">Transistemas.org 🏳️‍🌈</a>
 
-Somos una asociación civil que impulsa la formación tecnológica y la inserción laboral de talento subrepresentado en la industria IT.
+Somos una asociación civil que impulsa la formación tecnológica y la inserción laboral de talento LGBTIQ+ en la industria IT.
 
 Ofrecemos servicios de **desarrollo de software, diseño y testing** para empresas y organizaciones sociales. Además realizamos cursos gratuitos para nuestra comunidad.
 

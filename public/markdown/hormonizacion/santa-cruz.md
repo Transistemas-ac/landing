@@ -22,7 +22,7 @@ Total de centros: 3.
 ## Hospital Distrital Las Heras
 
 - **Ciudad:** Las Heras
-- **Especialidades:** Atención a Infancias, Salud Mental, Trabajo Social
+- **Especialidades:** Hormonización, Atención a Infancias, Salud Mental, Trabajo Social
 - **Dirección:** 28 de Noviembre 315 (entre Juan José Paso y Juan Larrea)
 - **Teléfono:** (2974) 093-328 / 497-4666 / 497-6106
 - **Correo:** hdlhsalud@hotmail.com

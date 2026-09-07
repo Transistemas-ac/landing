@@ -14,7 +14,7 @@ const Salud = [
     nombre:
       "Hospital Interzonal Julio de Vedia - Espacio de Salud Integral y Acompañamiento para Población LGBTIQ+",
     especialidad:
-      "Atención a Infancias, Endocrinología, Salud Mental, Clínica Médica",
+      "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Clínica Médica",
     provincia: "Buenos Aires",
     ciudad: "9 de Julio",
     lat: -35.4368564,
@@ -36,7 +36,7 @@ const Salud = [
   },
   {
     nombre: "Hospital Local Municipal General José de San Martín",
-    especialidad: "Atención Integral",
+    especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Adolfo Alsina, Carhué",
     lat: -37.177292,
@@ -232,7 +232,7 @@ const Salud = [
   {
     nombre:
       "Centro de Atención Primaria de Salud (CAPS) Villa Hudson - Atención Integral Diversidad Sexual",
-    especialidad: "Salud Mental, Ginecología, Atención Integral",
+    especialidad: "Hormonización, Salud Mental, Ginecología, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Bosques",
     lat: -34.8401781,
@@ -287,7 +287,7 @@ const Salud = [
   },
   {
     nombre: "Centro de Salud Dr. René Favaloro",
-    especialidad: "Salud Mental, Clínica Médica",
+    especialidad: "Hormonización, Salud Mental, Clínica Médica",
     provincia: "Buenos Aires",
     ciudad: "Castelar",
     lat: -34.6681896,
@@ -356,7 +356,7 @@ const Salud = [
   },
   {
     nombre: "Hospital Municipal Eva Perón - Consultorio de Diversidad",
-    especialidad: "Endocrinología, Ginecología, Clínica Médica",
+    especialidad: "Hormonización, Endocrinología, Ginecología, Clínica Médica",
     provincia: "Buenos Aires",
     ciudad: "Coronel de Marina Leonardo Rosales, Punta Alta",
     lat: -38.8766462,
@@ -461,7 +461,7 @@ const Salud = [
     nombre:
       "Centro de Atención Primaria de Salud (CAPS) La Esmeralda - Atención Integral Diversidad Sexual",
     especialidad:
-      "Salud Mental, Ginecología, Atención Integral, Trabajo Social",
+      "Hormonización, Salud Mental, Ginecología, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Florencio Varela",
     lat: -34.82079615062796,
@@ -517,7 +517,7 @@ const Salud = [
   },
   {
     nombre: "Hospital General Pacheco (Magdalena V. de Martínez)",
-    especialidad: "Atención a Infancias, Endocrinología",
+    especialidad: "Hormonización, Atención a Infancias, Endocrinología",
     provincia: "Buenos Aires",
     ciudad: "General Pacheco",
     lat: -34.4551279,
@@ -649,7 +649,8 @@ const Salud = [
   {
     nombre:
       "Centro Integrador Comunitario (CIC) Juan Domingo Perón - Centro de Atención de Salud Integral Adolescente (CASIA)",
-    especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "General Viamonte, Los Toldos",
     lat: -35.00598284893259,
@@ -660,7 +661,7 @@ const Salud = [
   },
   {
     nombre: "Hospital Simplemente Evita - Consultorio de Diversidad",
-    especialidad: "Salud Mental, Ginecología, Clínica Médica",
+    especialidad: "Hormonización, Salud Mental, Ginecología, Clínica Médica",
     provincia: "Buenos Aires",
     ciudad: "González Catán",
     lat: -34.7987467,
@@ -671,7 +672,7 @@ const Salud = [
   },
   {
     nombre: "Unidad Primaria de Atención - Ampliación Devoto",
-    especialidad: "Endocrinología, Salud Mental, Clínica Médica",
+    especialidad: "Hormonización, Endocrinología, Salud Mental, Clínica Médica",
     provincia: "Buenos Aires",
     ciudad: "Grand Bourg, Malvinas Argentinas",
     lat: -34.5000307,
@@ -813,7 +814,7 @@ const Salud = [
   {
     nombre: "Hospital Interzonal General de Agudos Prof. Dr. Rodolfo Rossi",
     especialidad:
-      "Endocrinología, Salud Mental, Ginecología, Atención Integral, Trabajo Social",
+      "Hormonización, Endocrinología, Salud Mental, Ginecología, Atención Integral, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "La Plata",
     lat: -34.8963664,
@@ -847,7 +848,8 @@ const Salud = [
   },
   {
     nombre: "Hospital Interzonal General de Agudos San Roque de Gonnet",
-    especialidad: "Endocrinología, Salud Mental, Ginecología, Clínica Médica",
+    especialidad:
+      "Hormonización, Endocrinología, Salud Mental, Ginecología, Clínica Médica",
     provincia: "Buenos Aires",
     ciudad: "La Plata, Gonnet",
     lat: -34.8854531,
@@ -871,7 +873,7 @@ const Salud = [
     nombre:
       "Hospital Interzonal General de Agudos Evita - Servicio de Adolescencia",
     especialidad:
-      "Atención a Infancias, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Ginecología, Grupo de Pares, Clínica Médica, Trabajo Social",
+      "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Ginecología, Grupo de Pares, Clínica Médica, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Lanús",
     lat: -34.696301,
@@ -893,7 +895,8 @@ const Salud = [
   },
   {
     nombre: "Unidad Sanitaria 1° de Mayo - Equipo Disidente Cris Miró",
-    especialidad: "Endocrinología, Grupo de Pares, Clínica Médica",
+    especialidad:
+      "Hormonización, Endocrinología, Grupo de Pares, Clínica Médica",
     provincia: "Buenos Aires",
     ciudad: "Lanús Este",
     lat: -34.7031152,
@@ -983,7 +986,7 @@ const Salud = [
   },
   {
     nombre: "Maternidad Municipal María Eva Duarte de Perón",
-    especialidad: "Endocrinología, Ginecología",
+    especialidad: "Hormonización, Endocrinología, Ginecología",
     provincia: "Buenos Aires",
     ciudad: "Los Polvorines",
     lat: -34.508422,
@@ -1008,7 +1011,7 @@ const Salud = [
     nombre:
       "Hospital Nacional y Comunidad Dr. Ramón Carrillo - Centro Interdisciplinario de Salud Integral (CISI) (ex CISaM)",
     especialidad:
-      "Endocrinología, Salud Mental, Clínica Médica, Atención Integral",
+      "Hormonización, Endocrinología, Salud Mental, Clínica Médica, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Luján, Torres",
     lat: -34.4277434,
@@ -1053,7 +1056,7 @@ const Salud = [
   },
   {
     nombre: "Centro de Salud N°1 - Servicio de Diversidad",
-    especialidad: "Endocrinología, Salud Mental, Clínica Médica",
+    especialidad: "Hormonización, Endocrinología, Salud Mental, Clínica Médica",
     provincia: "Buenos Aires",
     ciudad: "Mar del Plata",
     lat: -38.0000473,
@@ -1065,7 +1068,7 @@ const Salud = [
   {
     nombre:
       "Unidad de Pronta Atención (UPA) N°13 Hospital Zonal General de Agudos Dr. Oscar E. Alende - Consultorio Diversidad Sexual",
-    especialidad: "Salud Mental, Clínica Médica, Trabajo Social",
+    especialidad: "Hormonización, Salud Mental, Clínica Médica, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Mar del Plata",
     lat: -37.9916682,
@@ -1076,7 +1079,7 @@ const Salud = [
   },
   {
     nombre: "Unidad Sanitaria Mar del Tuyú",
-    especialidad: "Endocrinología, Clínica Médica",
+    especialidad: "Hormonización, Endocrinología, Clínica Médica",
     provincia: "Buenos Aires",
     ciudad: "Mar del Tuyú",
     lat: -36.57596129661934,
@@ -1100,7 +1103,7 @@ const Salud = [
     nombre:
       "Centro de Atención Primaria de Salud (CAPS) Hipólito Irigoyen - Consultorio de Salud y Diversidad (CoSayDi)",
     especialidad:
-      "Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Clínica Médica, Trabajo Social",
+      "Hormonización, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Clínica Médica, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Mercedes",
     lat: -34.6506717,
@@ -1180,7 +1183,7 @@ const Salud = [
   },
   {
     nombre: "Unidad Sanitaria Barrio 2000 - Consultorio LGBTIQ+ Perla Carrizo",
-    especialidad: "Endocrinología, Salud Mental, Clínica Médica",
+    especialidad: "Hormonización, Endocrinología, Salud Mental, Clínica Médica",
     provincia: "Buenos Aires",
     ciudad: "Moreno",
     lat: -34.63387629789689,
@@ -1215,7 +1218,7 @@ const Salud = [
   },
   {
     nombre: "Unidad Sanitaria Vías Respiratorias",
-    especialidad: "Clínica Médica",
+    especialidad: "Hormonización, Clínica Médica",
     provincia: "Buenos Aires",
     ciudad: "Morón",
     lat: -34.6465048,
@@ -1381,7 +1384,7 @@ const Salud = [
   },
   {
     nombre: "Unidad Sanitaria N°18 de Avellaneda",
-    especialidad: "Atención a Infancias",
+    especialidad: "Hormonización, Atención a Infancias",
     provincia: "Buenos Aires",
     ciudad: "Piñeyro",
     lat: -34.6664874,
@@ -1417,7 +1420,7 @@ const Salud = [
   {
     nombre:
       "Hospital Zonal General de Agudos Dr. I. Iriarte - Consultorio de Diversidad",
-    especialidad: "Endocrinología, Salud Mental",
+    especialidad: "Hormonización, Endocrinología, Salud Mental",
     provincia: "Buenos Aires",
     ciudad: "Quilmes",
     lat: -34.7203916,
@@ -1464,7 +1467,7 @@ const Salud = [
     nombre:
       "Hospital Subzonal Materno Infantil Dr. Eduardo Oller - Consultorio de Integral, Género y Diversidades",
     especialidad:
-      "Atención a Infancias, Endocrinología, Salud Mental, Ginecología, Grupo de Pares, Clínica Médica, Trabajo Social",
+      "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Ginecología, Grupo de Pares, Clínica Médica, Trabajo Social",
     provincia: "Buenos Aires",
     ciudad: "Quilmes, San Francisco Solano",
     lat: -34.7704654,
@@ -1697,7 +1700,7 @@ const Salud = [
   {
     nombre:
       "Subsecretaría de Mujeres, Géneros y Diversidad - Dirección de Diversidad",
-    especialidad: "Atención a Infancias, Salud Mental",
+    especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "Buenos Aires",
     ciudad: "Sarandí",
     lat: -34.6812769,
@@ -1743,7 +1746,7 @@ const Salud = [
   },
   {
     nombre: "Centro Integrador Comunitario (CIC) Barrio La Milagrosa",
-    especialidad: "Atención Integral",
+    especialidad: "Hormonización, Atención Integral",
     provincia: "Buenos Aires",
     ciudad: "Tapalqué",
     lat: -36.3501275,
@@ -1858,7 +1861,7 @@ const Salud = [
   },
   {
     nombre: "Unidad de Respuesta Inmediata (URI) Dr. J. Burman",
-    especialidad: "Endocrinología, Ginecología",
+    especialidad: "Hormonización, Endocrinología, Ginecología",
     provincia: "Buenos Aires",
     ciudad: "Vicente López, Carapachay",
     lat: -34.5278637,
@@ -1903,7 +1906,7 @@ const Salud = [
   },
   {
     nombre: "Centro de Salud 2 de Abril",
-    especialidad: "Salud Mental, Ginecología, Clínica Médica",
+    especialidad: "Hormonización, Salud Mental, Ginecología, Clínica Médica",
     provincia: "Buenos Aires",
     ciudad: "Villa Tesei",
     lat: -34.6195378,
@@ -1937,7 +1940,7 @@ const Salud = [
   },
   {
     nombre: "Centro de Salud Mental N°3 Arturo Ameghino",
-    especialidad: "Atención a Infancias, Salud Mental",
+    especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "CABA",
     ciudad: "Balvanera",
     lat: -34.5981851,
@@ -1949,7 +1952,7 @@ const Salud = [
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°11",
     especialidad:
-      "Atención a Infancias, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Grupo de Pares, Trabajo Social",
+      "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Grupo de Pares, Trabajo Social",
     provincia: "CABA",
     ciudad: "Balvanera",
     lat: -34.5988973,
@@ -1972,7 +1975,7 @@ const Salud = [
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°1",
-    especialidad: "Endocrinología",
+    especialidad: "Hormonización, Endocrinología",
     provincia: "CABA",
     ciudad: "Barracas",
     lat: -34.6447651,
@@ -1995,7 +1998,8 @@ const Salud = [
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°35",
-    especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "CABA",
     ciudad: "Barracas",
     lat: -34.6561644,
@@ -2007,7 +2011,7 @@ const Salud = [
   {
     nombre:
       "Centro de Salud y Acción Comunitaria (CeSAC) N°49 - Conjunto Habitacional Orma y Magaldi",
-    especialidad: "Endocrinología, Salud Mental, Grupo de Pares",
+    especialidad: "Hormonización, Endocrinología, Salud Mental, Grupo de Pares",
     provincia: "CABA",
     ciudad: "Barracas",
     lat: -34.66171104748023,
@@ -2018,7 +2022,8 @@ const Salud = [
   },
   {
     nombre: "Hospital Pirovano",
-    especialidad: "Endocrinología, Cirugía de Masculinización Tórax",
+    especialidad:
+      "Hormonización, Endocrinología, Cirugía de Masculinización Tórax",
     provincia: "CABA",
     ciudad: "Belgrano",
     lat: -34.5641411,
@@ -2030,7 +2035,7 @@ const Salud = [
   {
     nombre: "Hospital General de Agudos Durand",
     especialidad:
-      "Atención a Infancias, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Grupo de Pares",
+      "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Grupo de Pares",
     provincia: "CABA",
     ciudad: "Caballito",
     lat: -34.6089049,
@@ -2041,7 +2046,8 @@ const Salud = [
   },
   {
     nombre: "Fundación Huésped",
-    especialidad: "Endocrinología, Cirugía de Masculinización Tórax",
+    especialidad:
+      "Hormonización, Endocrinología, Cirugía de Masculinización Tórax",
     provincia: "CABA",
     ciudad: "Chacarita",
     lat: -34.5878182,
@@ -2065,7 +2071,7 @@ const Salud = [
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°19",
     especialidad:
-      "Atención a Infancias, Endocrinología, Cirugía de Masculinización Tórax, Grupo de Pares",
+      "Hormonización, Atención a Infancias, Endocrinología, Cirugía de Masculinización Tórax, Grupo de Pares",
     provincia: "CABA",
     ciudad: "Flores",
     lat: -34.6428892,
@@ -2077,7 +2083,7 @@ const Salud = [
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°20",
     especialidad:
-      "Atención a Infancias, Endocrinología, Salud Mental, Trabajo Social",
+      "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Trabajo Social",
     provincia: "CABA",
     ciudad: "Flores",
     lat: -34.6492033,
@@ -2101,7 +2107,7 @@ const Salud = [
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°41",
     especialidad:
-      "Atención a Infancias, Endocrinología, Salud Mental, Grupo de Pares, Trabajo Social",
+      "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Grupo de Pares, Trabajo Social",
     provincia: "CABA",
     ciudad: "La Boca",
     lat: -34.6314566,
@@ -2126,7 +2132,7 @@ const Salud = [
   {
     nombre: "Hospital de Agudos Dr. Cosme Argerich",
     especialidad:
-      "Atención a Infancias, Endocrinología, Salud Mental, Ginecología, Clínica Médica, Trabajo Social",
+      "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Ginecología, Clínica Médica, Trabajo Social",
     provincia: "CABA",
     ciudad: "La Boca",
     lat: -34.6281137,
@@ -2137,7 +2143,7 @@ const Salud = [
   },
   {
     nombre: "CEMAR N°1",
-    especialidad: "Endocrinología",
+    especialidad: "Hormonización, Endocrinología",
     provincia: "CABA",
     ciudad: "La Paternal",
     lat: -34.600814926227336,
@@ -2160,7 +2166,7 @@ const Salud = [
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°37",
-    especialidad: "Endocrinología",
+    especialidad: "Hormonización, Endocrinología",
     provincia: "CABA",
     ciudad: "Mataderos",
     lat: -34.665492,
@@ -2171,7 +2177,8 @@ const Salud = [
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°4",
-    especialidad: "Endocrinología, Clínica Médica, Trabajo Social",
+    especialidad:
+      "Hormonización, Endocrinología, Clínica Médica, Trabajo Social",
     provincia: "CABA",
     ciudad: "Mataderos",
     lat: -34.6549939,
@@ -2182,7 +2189,7 @@ const Salud = [
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°33",
-    especialidad: "Endocrinología",
+    especialidad: "Hormonización, Endocrinología",
     provincia: "CABA",
     ciudad: "Palermo",
     lat: -34.5882229,
@@ -2219,7 +2226,7 @@ const Salud = [
   {
     nombre: "Hospital de Pediatría Garrahan",
     especialidad:
-      "Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
+      "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
     provincia: "CABA",
     ciudad: "Parque Patricios",
     lat: -34.6340908,
@@ -2254,7 +2261,7 @@ const Salud = [
   },
   {
     nombre: "Hospital de Clínicas",
-    especialidad: "Endocrinología, Grupo de Pares",
+    especialidad: "Hormonización, Endocrinología, Grupo de Pares",
     provincia: "CABA",
     ciudad: "Recoleta",
     lat: -34.5988462,
@@ -2266,7 +2273,7 @@ const Salud = [
   {
     nombre: "Hospital Gutiérrez",
     especialidad:
-      "Atención a Infancias, Endocrinología, Cirugía de Masculinización Tórax",
+      "Hormonización, Atención a Infancias, Endocrinología, Cirugía de Masculinización Tórax",
     provincia: "CABA",
     ciudad: "Recoleta",
     lat: -34.5941751,
@@ -2277,7 +2284,7 @@ const Salud = [
   },
   {
     nombre: "Hospital Rivadavia",
-    especialidad: "Endocrinología, Grupo de Pares",
+    especialidad: "Hormonización, Endocrinología, Grupo de Pares",
     provincia: "CABA",
     ciudad: "Recoleta",
     lat: -34.5921572,
@@ -2288,7 +2295,7 @@ const Salud = [
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°47 - Barrio 31",
-    especialidad: "Endocrinología",
+    especialidad: "Hormonización, Endocrinología",
     provincia: "CABA",
     ciudad: "Retiro",
     lat: -34.58436457489614,
@@ -2311,7 +2318,7 @@ const Salud = [
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°18",
-    especialidad: "Endocrinología",
+    especialidad: "Hormonización, Endocrinología",
     provincia: "CABA",
     ciudad: "Villa Lugano",
     lat: -34.6568782,
@@ -2334,7 +2341,7 @@ const Salud = [
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°29",
-    especialidad: "Atención a Infancias, Trabajo Social",
+    especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
     provincia: "CABA",
     ciudad: "Villa Lugano",
     lat: -34.6779764,
@@ -2368,7 +2375,8 @@ const Salud = [
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°5",
-    especialidad: "Atención a Infancias, Endocrinología, Trabajo Social",
+    especialidad:
+      "Hormonización, Atención a Infancias, Endocrinología, Trabajo Social",
     provincia: "CABA",
     ciudad: "Villa Lugano",
     lat: -34.6847394,
@@ -2403,7 +2411,7 @@ const Salud = [
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°24",
-    especialidad: "Endocrinología",
+    especialidad: "Hormonización, Endocrinología",
     provincia: "CABA",
     ciudad: "Villa Soldati",
     lat: -34.6593317,
@@ -2426,7 +2434,7 @@ const Salud = [
   },
   {
     nombre: "Centro de Salud y Acción Comunitaria (CeSAC) N°12",
-    especialidad: "Clínica Médica",
+    especialidad: "Hormonización, Clínica Médica",
     provincia: "CABA",
     ciudad: "Villa Urquiza",
     lat: -34.5700268,
@@ -2580,7 +2588,7 @@ const Salud = [
   },
   {
     nombre: "Hospital Rural El Hoyo",
-    especialidad: "Atención a Infancias, Salud Mental",
+    especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "Chubut",
     ciudad: "El Hoyo",
     lat: -42.06335421508942,
@@ -2694,7 +2702,8 @@ const Salud = [
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Ampliación Ferreyra",
-    especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Córdoba",
     ciudad: "CBA",
     lat: -31.47002420337081,
@@ -2705,7 +2714,7 @@ const Salud = [
   },
   {
     nombre: "Centro de Salud N°30 Villa Páez",
-    especialidad: "Atención a Infancias, Salud Mental",
+    especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "Córdoba",
     ciudad: "CBA",
     lat: -31.3976793,
@@ -2716,7 +2725,7 @@ const Salud = [
   },
   {
     nombre: "Centro de Salud N°72 Barrio La Floresta",
-    especialidad: "Atención a Infancias, Salud Mental",
+    especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "Córdoba",
     ciudad: "CBA, Malvinas Argentinas",
     lat: -31.38153421513248,
@@ -2761,7 +2770,7 @@ const Salud = [
   },
   {
     nombre: "Hospital Florencio Díaz",
-    especialidad: "Atención a Infancias, Ginecología",
+    especialidad: "Hormonización, Atención a Infancias, Ginecología",
     provincia: "Córdoba",
     ciudad: "CBA",
     lat: -31.445823513847426,
@@ -2807,7 +2816,7 @@ const Salud = [
   },
   {
     nombre: "Hospital Materno Provincial Dr. Raúl Felipe Lucini",
-    especialidad: "Atención a Infancias, Endocrinología",
+    especialidad: "Hormonización, Atención a Infancias, Endocrinología",
     provincia: "Córdoba",
     ciudad: "CBA",
     lat: -31.4232933,
@@ -2977,7 +2986,7 @@ const Salud = [
   },
   {
     nombre: "Hospital Municipal Oncativo",
-    especialidad: "Atención a Infancias, Trabajo Social",
+    especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
     provincia: "Córdoba",
     ciudad: "Río Segundo, Oncativo",
     lat: -31.9102707,
@@ -3093,7 +3102,7 @@ const Salud = [
   },
   {
     nombre: "Hospital Pediátrico Juan Pablo II",
-    especialidad: "Atención a Infancias, Trabajo Social",
+    especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
     provincia: "Corrientes",
     ciudad: "Corrientes",
     lat: -27.4757059,
@@ -3105,7 +3114,7 @@ const Salud = [
   {
     nombre: "Subsecretaría de Acción Comunitaria",
     especialidad:
-      "Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
+      "Hormonización, Atención a Infancias, Salud Mental, Grupo de Pares, Trabajo Social",
     provincia: "Corrientes",
     ciudad: "Monte Caseros",
     lat: -30.25976439093804,
@@ -3161,7 +3170,7 @@ const Salud = [
   },
   {
     nombre: "Hospital Distrito Sanitario N°8 Eva Perón",
-    especialidad: "Atención a Infancias, Trabajo Social",
+    especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
     provincia: "Formosa",
     ciudad: "Formosa",
     lat: -26.141053162562645,
@@ -3250,7 +3259,8 @@ const Salud = [
   },
   {
     nombre: "Hospital Pablo Soria",
-    especialidad: "Atención a Infancias, Cirugía de Masculinización Tórax",
+    especialidad:
+      "Hormonización, Atención a Infancias, Cirugía de Masculinización Tórax",
     provincia: "Jujuy",
     ciudad: "San Salvador de Jujuy",
     lat: -24.1826354,
@@ -3415,7 +3425,7 @@ const Salud = [
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) San Gerardo",
-    especialidad: "Atención a Infancias, Trabajo Social",
+    especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
     provincia: "Misiones",
     ciudad: "Posadas",
     lat: -27.375360543074574,
@@ -3427,7 +3437,7 @@ const Salud = [
   {
     nombre: "Hospital de Itaembé de Guazú",
     especialidad:
-      "Atención a Infancias, Endocrinología, Ginecología, Trabajo Social",
+      "Hormonización, Atención a Infancias, Endocrinología, Ginecología, Trabajo Social",
     provincia: "Misiones",
     ciudad: "Posadas",
     lat: -27.4101123465621,
@@ -3483,7 +3493,8 @@ const Salud = [
   },
   {
     nombre: "Hospital de Área Loncopué Dr. José Enrique Cuevas",
-    especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Neuquén",
     ciudad: "Loncopué",
     lat: -38.07072181318291,
@@ -3540,7 +3551,7 @@ const Salud = [
   },
   {
     nombre: "Subsecretaría de Niñez y Adolescencia Neuquén",
-    especialidad: "Atención a Infancias, Trabajo Social",
+    especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
     provincia: "Neuquén",
     ciudad: "Neuquén",
     lat: -38.951862884667456,
@@ -3647,7 +3658,7 @@ const Salud = [
   {
     nombre: "Centro Integrador Comunitario (CIC) Primavera",
     especialidad:
-      "Atención a Infancias, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Ginecología, Clínica Médica",
+      "Hormonización, Atención a Infancias, Endocrinología, Salud Mental, Cirugía de Masculinización Tórax, Ginecología, Clínica Médica",
     provincia: "Río Negro",
     ciudad: "El Bolsón",
     lat: -41.95909957968307,
@@ -3680,7 +3691,8 @@ const Salud = [
   },
   {
     nombre: "Hospital Zonal Ramón Carrillo",
-    especialidad: "Atención a Infancias, Salud Mental, Atención Integral",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Atención Integral",
     provincia: "Río Negro",
     ciudad: "San Carlos de Bariloche",
     lat: -41.1362058,
@@ -3713,7 +3725,7 @@ const Salud = [
   },
   {
     nombre: "Centro de Salud N°6 El Manjón",
-    especialidad: "Atención a Infancias",
+    especialidad: "Hormonización, Atención a Infancias",
     provincia: "Salta",
     ciudad: "Salta",
     lat: -24.80965000249162,
@@ -3747,7 +3759,7 @@ const Salud = [
   },
   {
     nombre: "Centro de Atención Primaria de Salud (CAPS) Villa Constitución",
-    especialidad: "Atención a Infancias, Salud Mental",
+    especialidad: "Hormonización, Atención a Infancias, Salud Mental",
     provincia: "San Juan",
     ciudad: "Pocito",
     lat: -31.5913181,
@@ -3770,7 +3782,7 @@ const Salud = [
   },
   {
     nombre: "Hospital Público Dr. Marcial Vicente Quiroga",
-    especialidad: "Atención a Infancias",
+    especialidad: "Hormonización, Atención a Infancias",
     provincia: "San Juan",
     ciudad: "San Juan",
     lat: -31.530056615152713,
@@ -3828,7 +3840,7 @@ const Salud = [
   {
     nombre: "Hospital María Juliana Becker",
     especialidad:
-      "Atención a Infancias, Salud Mental, Ginecología, Trabajo Social",
+      "Hormonización, Atención a Infancias, Salud Mental, Ginecología, Trabajo Social",
     provincia: "San Luis",
     ciudad: "La Punta",
     lat: -33.18587233139957,
@@ -3953,7 +3965,8 @@ const Salud = [
   },
   {
     nombre: "Hospital Distrital Las Heras",
-    especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Santa Cruz",
     ciudad: "Las Heras",
     lat: -46.54934961199202,
@@ -4321,7 +4334,7 @@ const Salud = [
   {
     nombre: "Centro de Salud N°47",
     especialidad:
-      "Atención a Infancias, Ginecología, Clínica Médica, Atención Integral",
+      "Hormonización, Atención a Infancias, Ginecología, Clínica Médica, Atención Integral",
     provincia: "Santa Fe",
     ciudad: "Rosario",
     lat: -32.9195828,
@@ -4332,7 +4345,8 @@ const Salud = [
   },
   {
     nombre: "Hospital de Niños Zona Norte",
-    especialidad: "Atención a Infancias, Salud Mental, Trabajo Social",
+    especialidad:
+      "Hormonización, Atención a Infancias, Salud Mental, Trabajo Social",
     provincia: "Santa Fe",
     ciudad: "Rosario",
     lat: -32.9123507,
@@ -4713,7 +4727,7 @@ const Salud = [
   },
   {
     nombre: "Unidad de Pronta Atención (UPA) N°6 Barrio Dorrego",
-    especialidad: "Atención a Infancias, Trabajo Social",
+    especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
     provincia: "Santiago del Estero",
     ciudad: "La Banda",
     lat: -27.722554390777788,
@@ -4785,7 +4799,7 @@ const Salud = [
     nombre:
       "Centro de Atención Primaria de Salud (CAPS) N°3 Dr. Tomas Gonzalez - Consultorio de Diversidad Nicolás Cristal",
     especialidad:
-      "Endocrinología, Salud Mental, Clínica Médica, Trabajo Social",
+      "Hormonización, Endocrinología, Salud Mental, Clínica Médica, Trabajo Social",
     provincia: "Tierra del Fuego",
     ciudad: "Río Grande",
     lat: -53.802672272422484,
@@ -4821,7 +4835,7 @@ const Salud = [
   {
     nombre: "Centro Asistencial Tolhuin (CAT)",
     especialidad:
-      "Atención a Infancias, Salud Mental, Clínica Médica, Trabajo Social",
+      "Hormonización, Atención a Infancias, Salud Mental, Clínica Médica, Trabajo Social",
     provincia: "Tierra del Fuego",
     ciudad: "Tolhuin",
     lat: -54.51056188613015,
@@ -4844,7 +4858,7 @@ const Salud = [
   },
   {
     nombre: "Hospital Regional de Ushuaia - Gobernador Ernesto Manuel Campos",
-    especialidad: "Atención a Infancias, Trabajo Social",
+    especialidad: "Hormonización, Atención a Infancias, Trabajo Social",
     provincia: "Tierra del Fuego",
     ciudad: "Ushuaia",
     lat: -54.81373287202315,

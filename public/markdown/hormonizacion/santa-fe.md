@@ -244,7 +244,7 @@ Total de centros: 66.
 ## Centro de Salud N°47
 
 - **Ciudad:** Rosario
-- **Especialidades:** Atención a Infancias, Ginecología, Clínica Médica, Atención Integral
+- **Especialidades:** Hormonización, Atención a Infancias, Ginecología, Clínica Médica, Atención Integral
 - **Dirección:** Juan José Paso y Travesía
 - **Teléfono:** (341) 273-7924 / 480-4535 / (342) 446-9173
 - **Correo:** sauropushi@gmail.com
@@ -252,7 +252,7 @@ Total de centros: 66.
 ## Hospital de Niños Zona Norte
 
 - **Ciudad:** Rosario
-- **Especialidades:** Atención a Infancias, Salud Mental, Trabajo Social
+- **Especialidades:** Hormonización, Atención a Infancias, Salud Mental, Trabajo Social
 - **Dirección:** Av. de los Trabajadores 1331
 - **Teléfono:** (341) 472-4535
 - **Correo:** especialidadeshnzn@santafe.gov.ar / psicologiahnzn@gmail.com
